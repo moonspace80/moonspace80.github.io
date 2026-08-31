@@ -1,0 +1,610 @@
+/* ==========================================================================
+   JOURNEY & GAMIFICATION STYLES — L'ODYSSEE FRANÇAISE (APPLE-ZEN GLASS)
+   ========================================================================== */
+
+/* Top Gamification Bar */
+.journey-status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-shape-large);
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--md-elevation-1);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.status-stat-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.user-level-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  padding: 6px 14px;
+  border-radius: var(--md-shape-full);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.user-streak-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #FAEDE4;
+  color: #B86B35;
+  padding: 6px 14px;
+  border-radius: var(--md-shape-full);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.xp-progress-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+}
+
+.xp-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--md-sys-color-on-surface-variant);
+  white-space: nowrap;
+}
+
+.xp-track {
+  flex: 1;
+  height: 8px;
+  background: var(--md-sys-color-surface-variant);
+  border-radius: var(--md-shape-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.xp-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #346856 0%, #4E8773 100%);
+  border-radius: var(--md-shape-full);
+  transition: width 0.6s cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Mode Switcher Pills (Parcours vs Bibliothèque) */
+.view-mode-toggle {
+  display: flex;
+  background: var(--md-sys-color-surface-variant);
+  padding: 4px;
+  border-radius: var(--md-shape-full);
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.view-mode-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: var(--md-shape-full);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-mode-btn.active {
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   JOURNEY MAP CONTAINER & CHAPTERS
+   ========================================================================== */
+
+.journey-map-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.journey-chapter {
+  position: relative;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 24px;
+  padding: 28px 24px;
+  box-shadow: var(--md-elevation-1);
+}
+
+.chapter-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.chapter-icon-badge {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chapter-title-group h3 {
+  font-family: var(--md-font-serif);
+  font-size: 1.35rem;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 2px;
+}
+
+.chapter-title-group p {
+  font-size: 0.85rem;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Interactive Path & Nodes Grid */
+.quests-flow-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  position: relative;
+}
+
+.quest-node-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.quest-node-wrapper:hover {
+  transform: translateY(-3px);
+}
+
+.quest-node-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 18px;
+  background: var(--md-sys-color-surface);
+  border: 2px solid var(--md-sys-color-outline-variant);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s cubic-bezier(0.2, 0, 0, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Status variants */
+.quest-node-card.status-active {
+  border-color: var(--md-sys-color-primary);
+  background: linear-gradient(135deg, var(--md-sys-color-surface) 0%, var(--md-sys-color-primary-container) 100%);
+  box-shadow: 0 6px 20px rgba(52, 104, 86, 0.16);
+}
+
+.quest-node-card.status-active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--md-sys-color-primary);
+}
+
+.quest-node-card.status-completed {
+  border-color: #84A98C;
+  background: var(--md-sys-color-surface);
+}
+
+.quest-node-card.status-locked {
+  opacity: 0.6;
+  background: var(--md-sys-color-surface-variant);
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+.quest-node-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  background: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-on-surface);
+  margin-right: 14px;
+}
+
+.status-active .quest-node-icon {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+}
+
+.status-completed .quest-node-icon {
+  background: #E2F0D9;
+  color: #385E38;
+}
+
+.quest-info-body {
+  flex: 1;
+}
+
+.quest-info-body h4 {
+  font-family: var(--md-font-serif);
+  font-size: 1.05rem;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 2px;
+}
+
+.quest-meta-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--md-sys-color-on-surface-variant);
+  font-weight: 500;
+}
+
+.quest-xp-pill {
+  color: #B86B35;
+  font-weight: 700;
+}
+
+.quest-stars-display {
+  display: flex;
+  gap: 2px;
+  font-size: 16px;
+  color: #DCD9D0;
+}
+
+.quest-stars-display .star-earned {
+  color: #F59E0B;
+}
+
+.quest-action-btn {
+  padding: 6px 14px;
+  border-radius: var(--md-shape-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: transform 0.2s ease;
+}
+
+.quest-action-btn:hover {
+  transform: scale(1.04);
+}
+
+/* Connecting line between nodes */
+.node-connector-line {
+  width: 2px;
+  height: 20px;
+  background: var(--md-sys-color-outline-variant);
+  margin: -10px 0;
+}
+
+.node-connector-line.completed {
+  background: #84A98C;
+}
+
+/* ==========================================================================
+   IMMERSIVE QUEST MODAL / RUNNER
+   ========================================================================== */
+
+.quest-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20, 24, 28, 0.6);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: modalFadeIn 0.25s ease;
+}
+
+.quest-modal-backdrop.open {
+  display: flex;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.quest-runner-card {
+  width: 100%;
+  max-width: 680px;
+  background: var(--md-sys-color-surface);
+  border-radius: 28px;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 90vh;
+}
+
+.quest-runner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.runner-progress-bar-container {
+  flex: 1;
+  max-width: 340px;
+  height: 8px;
+  background: var(--md-sys-color-surface-variant);
+  border-radius: var(--md-shape-full);
+  overflow: hidden;
+  margin: 0 16px;
+}
+
+.runner-progress-fill {
+  height: 100%;
+  background: var(--md-sys-color-primary);
+  border-radius: var(--md-shape-full);
+  transition: width 0.3s ease;
+}
+
+.quest-runner-body {
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.step-card-title {
+  font-family: var(--md-font-serif);
+  font-size: 1.35rem;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 16px;
+}
+
+/* Step 1: Vocab Drill Grid */
+.drill-vocab-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .drill-vocab-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.drill-word-card {
+  background: var(--md-sys-color-surface-variant);
+  border-radius: 16px;
+  padding: 14px 16px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.drill-word-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drill-word-head strong {
+  font-family: var(--md-font-serif);
+  font-size: 1.15rem;
+  color: var(--md-sys-color-primary);
+}
+
+.drill-word-card p {
+  font-size: 0.85rem;
+  color: var(--md-sys-color-on-surface);
+  line-height: 1.4;
+}
+
+.drill-word-card .drill-ex {
+  font-size: 0.78rem;
+  color: var(--md-sys-color-on-surface-variant);
+  font-style: italic;
+  border-top: 1px dashed var(--md-sys-color-outline-variant);
+  padding-top: 6px;
+}
+
+/* Interactive MCQ in Quest */
+.quest-question-text {
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 20px;
+}
+
+.quest-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.quest-opt-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: var(--md-sys-color-surface);
+  border: 1.5px solid var(--md-sys-color-outline-variant);
+  font-family: inherit;
+  font-size: 0.925rem;
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.quest-opt-btn:hover {
+  background: var(--md-sys-color-surface-variant);
+  border-color: var(--md-sys-color-primary);
+}
+
+.quest-opt-btn.correct {
+  background: #E5F0EB !important;
+  border-color: #346856 !important;
+  color: #1B4336 !important;
+  font-weight: 600;
+}
+
+.quest-opt-btn.wrong {
+  background: #FDF0F0 !important;
+  border-color: #BA3C3C !important;
+  color: #721C24 !important;
+}
+
+.quest-feedback-box {
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.quest-feedback-box.show {
+  display: block;
+}
+
+.quest-runner-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+/* Victory Celebration Modal */
+.victory-modal-card {
+  text-align: center;
+  padding: 36px 28px;
+}
+
+.victory-icon {
+  font-size: 64px;
+  color: #F59E0B;
+  margin-bottom: 12px;
+  animation: bounceCelebrate 0.8s ease;
+}
+
+@keyframes bounceCelebrate {
+  0% { transform: scale(0); }
+  60% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.victory-title {
+  font-family: var(--md-font-serif);
+  font-size: 1.75rem;
+  color: var(--md-sys-color-on-surface);
+  margin-bottom: 8px;
+}
+
+.victory-rewards-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.reward-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--md-sys-color-surface-variant);
+  padding: 8px 18px;
+  border-radius: var(--md-shape-full);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* Level Filter Chips in Journey */
+.journey-level-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 6px 4px 18px 4px;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.level-filter-chip {
+  padding: 6px 14px;
+  border-radius: var(--md-shape-full);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.level-filter-chip:hover {
+  background: var(--md-sys-color-surface-variant);
+  border-color: var(--chip-color, var(--md-sys-color-primary));
+}
+
+.level-filter-chip.active {
+  background: var(--chip-color, var(--md-sys-color-primary));
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+

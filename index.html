@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Petit Nuage – Apprendre le français en douceur, pas à pas et sans pression</title>
+  <meta name="description" content="Le Petit Nuage est une méthode bienveillante pour apprendre le français en douceur, pas à pas et sans pression, comme une bulle d'oxygène pour apprivoiser la langue. Parcours gamifié CECRL A1-C2, Vocabulaire SRS, Grammaire interactive, Compréhension orale RFI, Production écrite guidée.">
+  
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  
+  <!-- Google Fonts: Lora (Serif) & Plus Jakarta Sans (Modern UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/material.css?v=petit_nuage_v1">
+  <link rel="stylesheet" href="css/styles.css?v=petit_nuage_v1">
+  <link rel="stylesheet" href="css/writing.css?v=petit_nuage_v1">
+  <link rel="stylesheet" href="css/journey.css?v=petit_nuage_v1">
+  <link rel="stylesheet" href="css/grammar.css?v=petit_nuage_v1">
+</head>
+<body>
+  <!-- Top App Bar -->
+  <header class="md-top-app-bar">
+    <div class="md-top-app-bar__header">
+      <div class="brand">
+        <span class="material-icons-round brand-icon">cloud</span>
+        <div class="brand-title">
+          <h1>Le Petit Nuage</h1>
+          <p class="sub-title">Apprendre le français en douceur, comme une bulle d'oxygène</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <!-- Sélecteur de Niveau CECRL -->
+        <div class="level-selector-pill" title="Préciser votre niveau de français actuel ou cible">
+          <span class="material-icons-round level-icon">flag</span>
+          <select id="user-cefr-level-select" class="level-select-input" aria-label="Niveau de français">
+            <option value="A1">Niveau A1 (Débutant)</option>
+            <option value="A2">Niveau A2 (Élémentaire)</option>
+            <option value="B1">Niveau B1 (Intermédiaire)</option>
+            <option value="B2">Niveau B2 (Avancé)</option>
+            <option value="C1">Niveau C1 (Autonome)</option>
+            <option value="C2">Niveau C2 (Maîtrise)</option>
+          </select>
+        </div>
+
+        <button class="md-icon-button" id="theme-toggle-btn" title="Changer le thème (Clair/Sombre)">
+          <span class="material-icons-round">dark_mode</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs (Icones uniquement épurées) -->
+    <nav class="md-tabs" aria-label="Navigation principale">
+      <button class="md-tab md-tab--active" data-tab="dashboard" title="Accueil" aria-label="Accueil">
+        <span class="material-icons-round md-tab__icon">dashboard</span>
+      </button>
+      <button class="md-tab" data-tab="vocabulary" title="Vocabulaire & Cartes Mémoires" aria-label="Vocabulaire">
+        <span class="material-icons-round md-tab__icon">style</span>
+      </button>
+      <button class="md-tab" data-tab="dictionary" title="Liste de vocabulaire" aria-label="Liste de vocabulaire">
+        <span class="material-icons-round md-tab__icon">auto_stories</span>
+      </button>
+      <button class="md-tab" data-tab="expressions" title="Expressions & Actes de parole" aria-label="Expressions">
+        <span class="material-icons-round md-tab__icon">forum</span>
+      </button>
+      <button class="md-tab" data-tab="reading" title="Compréhension Écrite" aria-label="Compréhension Écrite">
+        <span class="material-icons-round md-tab__icon">menu_book</span>
+      </button>
+      <button class="md-tab" data-tab="listening" title="Compréhension Orale (RFI)" aria-label="Compréhension Orale">
+        <span class="material-icons-round md-tab__icon">headphones</span>
+      </button>
+      <button class="md-tab" data-tab="grammar" title="Grammaire & Conjugaison" aria-label="Grammaire">
+        <span class="material-icons-round md-tab__icon">quiz</span>
+      </button>
+      <button class="md-tab" data-tab="writing" title="Production Écrite (Atelier B2/C1)" aria-label="Production Écrite">
+        <span class="material-icons-round md-tab__icon">history_edu</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="md-container" id="main-content">
+    
+    <!-- DASHBOARD -->
+    <section class="view-panel view-panel--active" id="view-dashboard">
+      
+      <!-- Top Gamification & Level Status Bar -->
+      <div id="journey-status-bar" class="journey-status-bar"></div>
+
+      <!-- MAIN JOURNEY VIEW (PARCOURS SAGA) -->
+      <div id="journey-view-container">
+        
+        <!-- Citation du jour -->
+        <div class="daily-quote-card">
+          <span class="material-icons-round quote-icon">format_quote</span>
+          <div>
+            <div class="quote-text">« Petit à petit l'oiseau fait son nid. »</div>
+            <div class="quote-author"> Expression française </div>
+          </div>
+        </div>
+
+        <!-- The Interactive Journey Map Root -->
+        <div id="journey-map-root" class="journey-map-container">
+          <!-- Chapters and Quests will be dynamically injected here -->
+        </div>
+
+      </div>
+
+      <!-- SECONDARY VIEW : BIBLIOTHÈQUE & OUTILS LIBRES -->
+      <div id="library-modules-container" style="display:none;">
+
+        <div class="quick-access-grid">
+          <div class="md-card access-card highlight-card" onclick="app.openExamSimulator('delf-b2-fei-ex1')" style="border-left: 4px solid #3B5B75;">
+            <span class="material-icons-round card-icon" style="color: #3B5B75;">assignment</span>
+            <h3>Simulateur Examen Blanc (2h30)</h3>
+            <p>Épreuve chronométrée (CO, CE, PE) avec barème sur 100 points, analyse diagnostique et compteur de mots intelligent.</p>
+            <span class="md-button md-button--text" style="color: #3B5B75; font-weight: 700;">Passer l'examen →</span>
+          </div>
+          <div class="md-card access-card highlight-card" onclick="app.openSessions('parcours-a')" style="border-left: 4px solid #346856;">
+            <span class="material-icons-round card-icon" style="color: #346856;">psychology</span>
+            <h3>Sessions Intensives (> 2h)</h3>
+            <p>Double parcours anti-stress : séquençage dynamique alterné (anti-fatigue) et immersion thématique sociétale en 4 grands piliers.</p>
+            <span class="md-button md-button--text" style="color: #346856; font-weight: 700;">Démarrer une session →</span>
+          </div>
+          <div class="md-card access-card" onclick="app.switchTab('vocabulary')">
+            <span class="material-icons-round card-icon">style</span>
+            <h3>Vocabulaire & Cartes Mémoires</h3>
+            <p>Cartes mémoires douces, répétition espacée Leitner (J+1 à J+30) et 10 phrases d'exemples traduites en 3 langues.</p>
+            <span class="md-button md-button--text">Démarrer →</span>
+          </div>
+          <div class="md-card access-card" onclick="app.switchTab('reading')">
+            <span class="material-icons-round card-icon">menu_book</span>
+            <h3>Compréhension des Écrits</h3>
+            <p>Articles approfondis sur les 14 thématiques officielles du CECRL (Travail, Écologie, Égalité H/F, Société, ...).</p>
+            <span class="md-button md-button--text">Lire les textes →</span>
+          </div>
+          <div class="md-card access-card" onclick="app.switchTab('listening')">
+            <span class="material-icons-round card-icon">headphones</span>
+            <h3>Compréhension Orale</h3>
+            <p>Podcasts authentiques, vitesse modulable et 30 questions de compréhension ciblées.</p>
+            <span class="md-button md-button--text">Écouter →</span>
+          </div>
+          <div class="md-card access-card" onclick="app.switchTab('grammar')">
+            <span class="material-icons-round card-icon">quiz</span>
+            <h3>Grammaire & Conjugaison</h3>
+            <p>Règles progressives du A1 au C2 accompagnées d'exercices d'application avec explications immédiates.</p>
+            <span class="md-button md-button--text">S'entraîner →</span>
+          </div>
+          <div class="md-card access-card" onclick="app.switchTab('writing')">
+            <span class="material-icons-round card-icon">history_edu</span>
+            <h3>Production Écrite</h3>
+            <p>Atelier d'écriture B2/C1, grilles officielles CECRL, minuteur d'examen et boîte à connecteurs logiques.</p>
+            <span class="md-button md-button--text">Rédiger →</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SIMULATEUR D'EXAMEN OFFICIEL DELF B2 (2H30) VIEW -->
+    <section class="view-panel" id="view-exam-simulator">
+      <!-- Injected and managed dynamically by ExamSimulatorModule -->
+    </section>
+
+    <!-- SESSIONS INTENSIVES (>2H) VIEW (PARCOURS A & B) -->
+    <section class="view-panel" id="view-sessions">
+      <!-- Injected and managed dynamically by SessionsModule -->
+    </section>
+
+    <!-- VOCABULARY VIEW -->
+    <section class="view-panel" id="view-vocabulary">
+      <div class="module-header">
+        <div>
+          <h2>Vocabulaire & Cartes Mémoires</h2>
+          <p>Flashcards interactives </p>
+        </div>
+        <div class="vocab-stats-badge">
+          <span class="material-icons-round">folder</span>
+          <span id="vocab-total-indicator">1 539 mots disponibles</span>
+        </div>
+      </div>
+
+      <!-- Filters & Toolbar -->
+      <div class="md-card toolbar-card">
+        <div class="search-box md-text-field">
+          <span class="material-icons-round icon">search</span>
+          <input type="text" id="vocab-search-input" placeholder="Rechercher un mot (français, anglais, japonais, chinois)...">
+        </div>
+
+        <div class="filter-group">
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">bar_chart</span>
+            <select id="vocab-level-filter">
+              <option value="all">Tous les niveaux (A1 à C2)</option>
+              <option value="A1">🟢 Niveau A1</option>
+              <option value="A2">🟡 Niveau A2</option>
+              <option value="B1">🟠 Niveau B1</option>
+              <option value="B2">🔴 Niveau B2</option>
+              <option value="C1">🟣 Niveau C1</option>
+              <option value="C2">🟣 Niveau C2</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">category</span>
+            <select id="vocab-category-filter">
+              <option value="all">Toutes les thématiques</option>
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">style</span>
+            <select id="vocab-type-filter">
+              <option value="all">Tous les types (Nom, Verbe...)</option>
+              <option value="nom">Nom / Mot</option>
+              <option value="verbe">Verbe</option>
+              <option value="adjectif">Adjectif</option>
+              <option value="adverbe">Adverbe</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">psychology</span>
+            <select id="vocab-srs-filter">
+              <option value="all">🧠 Répétition espacée : Tous les mots</option>
+              <option value="due_today">📅 À réviser aujourd'hui</option>
+              <option value="learning">🟡 En cours d'apprentissage (Boîtes 1-3)</option>
+              <option value="mastered">🟢 Mots maîtrisés (Boîtes 4-5)</option>
+              <option value="new">⚪ Nouveaux mots (Non révisés)</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">sort_by_alpha</span>
+            <select id="vocab-sort-order">
+              <option value="az">Ordre A ➜ Z</option>
+              <option value="za">Ordre Z ➜ A</option>
+              <option value="default">Ordre d'origine</option>
+            </select>
+          </div>
+
+          <div class="translation-lang-selector">
+            <span class="label">Traduction :</span>
+            <button class="md-chip md-chip--active" data-lang="en">English 🇬🇧</button>
+            <button class="md-chip" data-lang="jp">日本語 🇯🇵</button>
+            <button class="md-chip" data-lang="cn">中文 🇨🇳</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flashcard Interactive Area -->
+      <div class="flashcard-container">
+        <div class="flashcard-wrapper" id="flashcard-element">
+          <div class="flashcard-inner">
+            <!-- Front Face -->
+            <div class="flashcard-face flashcard-front">
+              <div class="card-top">
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span class="badge level-badge" id="card-level">B2</span>
+                  <span class="badge theme-badge" id="card-theme">Travail & Société</span>
+                  <span class="badge" id="card-srs-badge" style="font-size:0.75rem;">Nouveau mot</span>
+                </div>
+                <button class="md-icon-button speaker-btn" id="card-speak-btn" title="Écouter la prononciation">
+                  <span class="material-icons-round">volume_up</span>
+                </button>
+              </div>
+              <div class="card-main">
+                <h3 class="word-title" id="card-word">Attenuer</h3>
+                <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin:4px 0 8px 0;">
+                  <span class="word-type" id="card-type">verbe • registre courant</span>
+                  <span id="card-phonetique" style="font-family:monospace; font-size:0.9rem; color:var(--md-sys-color-primary); background:var(--md-sys-color-surface-variant); padding:2px 8px; border-radius:12px;">/a.tɔ.nɥe/</span>
+                  <span id="card-verified-badge" style="display:none; align-items:center; gap:2px; font-size:0.75rem; color:#059669; font-weight:600; background:#d1fae5; padding:2px 8px; border-radius:12px;"><span class="material-icons-round" style="font-size:14px;">check_circle</span> Certifié</span>
+                </div>
+                <p class="word-definition" id="card-definition">Rendre moins violent, moins grave, diminuer l'intensité de quelque chose.</p>
+              </div>
+              <div class="card-bottom">
+                <span class="hint-text"><span class="material-icons-round">touch_app</span> Cliquez ou appuyez sur Espace pour tourner la carte (Touches 1, 2, 3 pour évaluer)</span>
+              </div>
+            </div>
+
+            <!-- Back Face (10 Example Sentences & Trilingual Translation) -->
+            <div class="flashcard-face flashcard-back">
+              <div class="card-top">
+                <span class="back-title"><span class="material-icons-round">format_quote</span> 10 Exemples de phrases en contexte</span>
+                <button class="md-icon-button speaker-btn" id="card-back-speak-btn" title="Prononcer le mot">
+                  <span class="material-icons-round">volume_up</span>
+                </button>
+              </div>
+
+              <div class="examples-scroll-container" id="card-examples-list">
+                <!-- 10 sentences with trilingual translations will be injected here -->
+              </div>
+
+              <div class="card-bottom">
+                <span class="hint-text"><span class="material-icons-round">flip_camera_android</span> Cliquez pour retourner la carte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flashcard Controls & SRS -->
+        <div class="flashcard-controls">
+          <button class="md-button md-button--outlined" id="prev-card-btn">
+            <span class="material-icons-round">navigate_before</span> Précédent
+          </button>
+          
+          <div class="srs-actions">
+            <button class="md-button srs-btn hard" id="srs-hard-btn" title="À revoir tranquillement dès demain (Raccourci : Touche 1)">
+              <span class="material-icons-round">eco</span> À revoir (J+1)
+            </button>
+            <button class="md-button srs-btn" id="srs-good-btn" style="background:var(--md-sys-color-secondary-container); color:var(--md-sys-color-on-secondary-container); border:1px solid var(--md-sys-color-outline-variant);" title="Bien compris - Réviser dans 3 jours (Raccourci : Touche 2)">
+              <span class="material-icons-round">task_alt</span> Bien compris (J+3)
+            </button>
+            <button class="md-button srs-btn easy" id="srs-easy-btn" title="Parfaitement ancré - Réviser plus tard (Raccourci : Touche 3)">
+              <span class="material-icons-round">stars</span> Ancré (J+7+)
+            </button>
+          </div>
+
+          <button class="md-button md-button--filled" id="next-card-btn">
+            Suivant <span class="material-icons-round">navigate_next</span>
+          </button>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- DEDICATED DICTIONARY VIEW -->
+    <section class="view-panel" id="view-dictionary">
+      <div class="module-header">
+          <h2>Liste de vocabulaire (<span id="dict-header-total-count">1 415</span> mots)</h2>
+          <p>Retrouvez chaque mot dans son chapitre d'origine.</p>
+      </div>
+
+      <!-- Dictionary Toolbar & Alphabet Bar -->
+      <div class="md-card toolbar-card">
+        <div class="search-box">
+          <span class="material-icons-round icon">search</span>
+          <input type="text" id="dict-search-input" placeholder="Rechercher un mot, une définition ou une traduction...">
+        </div>
+
+        <div class="filter-group">
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">bar_chart</span>
+            <select id="dict-level-filter">
+              <option value="all">Tous les niveaux (A1 à C2)</option>
+              <option value="A1">🟢 Niveau A1</option>
+              <option value="A2">🟡 Niveau A2</option>
+              <option value="B1">🟠 Niveau B1</option>
+              <option value="B2">🔴 Niveau B2</option>
+              <option value="C1">🟣 Niveau C1</option>
+              <option value="C2">🟣 Niveau C2</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">category</span>
+            <select id="dict-theme-filter">
+              <option value="all">Toutes les thématiques DELF</option>
+              <option value="Famille & Relations">👨‍👩‍👧 Famille & Relations</option>
+              <option value="Travail & Emploi">💼 Travail & Emploi</option>
+              <option value="Corps & Santé">🩺 Corps & Santé</option>
+              <option value="Environnement & Nature">🌱 Environnement & Nature</option>
+              <option value="Politique & Société">🏛️ Politique & Société</option>
+              <option value="Culture & Arts">🎨 Culture & Arts</option>
+              <option value="Sciences & Technologie">🔬 Sciences & Technologie</option>
+              <option value="Alimentation & Cuisine">🥖 Alimentation & Cuisine</option>
+              <option value="Logement & Ville">🏙️ Logement & Ville</option>
+              <option value="Transports & Voyages">✈️ Transports & Voyages</option>
+              <option value="Éducation & Formation">🎓 Éducation & Formation</option>
+              <option value="Médias & Communication">📰 Médias & Communication</option>
+              <option value="Économie & Commerce">💶 Économie & Commerce</option>
+              <option value="Justice & Droit">⚖️ Justice & Droit</option>
+              <option value="Sentiments & Émotions">💖 Sentiments & Émotions</option>
+              <option value="Temps & Espace">⏳ Temps & Espace</option>
+              <option value="Sports & Loisirs">⚽ Sports & Loisirs</option>
+              <option value="Mode & Apparence">👗 Mode & Apparence</option>
+              <option value="Croyances & Philosophie">🕊️ Croyances & Philosophie</option>
+              <option value="Langue & Littérature">📚 Langue & Littérature</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">style</span>
+            <select id="dict-type-filter">
+              <option value="all">Tous les types (Nom, Verbe...)</option>
+              <option value="nom">📖 Nom / Mot</option>
+              <option value="verbe">⚙️ Verbe</option>
+              <option value="adjectif">🎨 Adjectif</option>
+              <option value="adverbe">⚡ Adverbe</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">sort_by_alpha</span>
+            <select id="dict-sort-order">
+              <option value="az">Ordre A ➜ Z</option>
+              <option value="za">Ordre Z ➜ A</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- View Mode Switcher (Liste / Cartes) & A-Z Quick Bar -->
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-top:14px; padding-top:12px; border-top:1px solid var(--md-sys-color-outline-variant);">
+          <div class="alphabet-bar" id="dict-alphabet-bar" style="display:flex; flex-wrap:wrap; gap:6px;">
+            <!-- Populated dynamically (ALL, A, B, C... Z) -->
+          </div>
+
+          <!-- View Mode Toggle Buttons -->
+          <div class="view-mode-toggle" role="group" aria-label="Mode d'affichage">
+            <button class="view-mode-btn active" id="dict-view-table-btn" title="Vue Tableau épuré">
+              <span class="material-icons-round">table_rows</span>
+              <span>Tableau</span>
+            </button>
+            <button class="view-mode-btn" id="dict-view-cards-btn" title="Vue Cartes visuelles (Flashcards & Photos)">
+              <span class="material-icons-round">grid_view</span>
+              <span>Cartes</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dictionary Word Table Container (Vue Tableau) -->
+      <div class="md-card vocab-table-card" id="dict-table-container">
+        <div class="card-header" style="display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <h3>Résultats (<span id="dict-table-count-label">0</span> mots)</h3>
+            <span class="sub">Cliquez sur un mot pour ouvrir sa fiche détaillée, ses 10 exemples bilingues et son audio.</span>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="md-table">
+            <thead>
+              <tr>
+                 <th>Mot</th>
+                 <th>Type Grammatical</th>
+                 <th>Niveau</th>
+                 <th>Définition</th>
+                 <th>Chapitre</th>
+                 <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="dict-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Dictionary Cards Container (Vue Cartes) -->
+      <div id="dict-cards-container" style="display:none; margin-top:20px;">
+        <div class="dict-cards-grid" id="dict-cards-grid">
+          <!-- Dynamically populated cards -->
+        </div>
+      </div>
+
+      <!-- Shared Pagination Bar -->
+      <div class="md-card" style="margin-top:16px; padding:12px 20px;">
+        <div class="pagination-bar" id="dict-pagination" style="display:flex; justify-content:center; align-items:center; gap:12px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Interactive Word Detail Modal -->
+      <div class="dict-modal-overlay" id="dict-word-modal" style="display:none;" onclick="if(event.target===this) dictionaryModule.closeModal();">
+        <div class="dict-modal-content md-card" role="dialog" aria-modal="true" aria-labelledby="dict-modal-title">
+          <button class="dict-modal-close" onclick="dictionaryModule.closeModal()" aria-label="Fermer la fiche">
+            <span class="material-icons-round">close</span>
+          </button>
+          <div id="dict-modal-body">
+            <!-- Dynamically populated by dictionaryModule.showWordDetail -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEDICATED EXPRESSIONS & MULTI-WORD PHRASES VIEW -->
+    <section class="view-panel" id="view-expressions">
+      <div class="module-header">
+        <div>
+          <h2>Module : Expressions Idiomatiques & Actes de Parole</h2>
+          <p>Cartes spécialisées pour maîtriser les formules de débat, tournures argumentatives et expressions composées.</p>
+        </div>
+      </div>
+
+      <div class="md-card toolbar-card">
+        <div class="filter-group" style="width:100%;">
+          <div class="select-wrapper">
+            <span class="material-icons-round icon">category</span>
+            <select id="expr-category-filter">
+              <option value="all">Toutes les catégories d'expressions</option>
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="expressions-grid" id="expressions-grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:20px; margin-top:20px;">
+        <!-- Injected dynamically by expressions.js -->
+      </div>
+    </section>
+
+    <!-- READING COMPREHENSION VIEW -->
+    <section class="view-panel" id="view-reading">
+      <div class="module-header">
+        <div>
+          <h2>Compréhension des Écrits</h2>
+          <p>Articles thématiques alignés sur le DELF B2 / C1 issus des 14 domaines d'actualité et de société.</p>
+        </div>
+      </div>
+
+      <div class="reading-layout">
+        <!-- Sidebar Theme Selector -->
+        <div class="md-card reading-sidebar">
+          <h3>Thématiques DELF B2 / C1</h3>
+          <div class="theme-list" id="reading-theme-list">
+            <!-- 14 themes populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Main Article Display & Quiz Area -->
+        <div class="reading-main">
+          <div class="md-card article-card" id="article-display-card">
+            <div class="article-meta">
+              <span class="badge theme-badge" id="article-theme-badge">Environnement</span>
+              <span class="badge level-badge" id="article-level-badge">B2 / C1</span>
+              <span class="reading-time"><span class="material-icons-round">schedule</span> ~4 min de lecture</span>
+            </div>
+            
+            <h2 class="article-title" id="article-title">Titre de l'article</h2>
+            <div class="article-source" id="article-source">Source : Pressemag / CommunFrançais</div>
+            
+            <div class="article-content" id="article-content">
+              <!-- Article text with interactive vocab highlights -->
+            </div>
+
+            <div class="article-vocab-box">
+              <h4><span class="material-icons-round">auto_stories</span> Lexique clé de l'article :</h4>
+              <div class="vocab-chips-container" id="article-key-vocab">
+                <!-- Key vocabulary chips -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Reading Comprehension Quiz -->
+          <div class="md-card quiz-card" id="article-quiz-card">
+            <div class="quiz-header">
+              <h3><span class="material-icons-round">quiz</span> Questions de compréhension</h3>
+              <p>Répondez aux questions de type DELF B2/C1 d'après votre lecture.</p>
+            </div>
+            
+            <div class="quiz-questions-list" id="article-quiz-questions">
+              <!-- Questions injected dynamically -->
+            </div>
+
+            <div class="quiz-footer">
+              <button class="md-button md-button--filled" id="submit-reading-quiz-btn">Valider mes réponses</button>
+              <div class="quiz-result-score" id="reading-quiz-score"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LISTENING COMPREHENSION VIEW -->
+    <section class="view-panel" id="view-listening">
+      <div class="module-header">
+        <div>
+          <h2>Compréhension Orale (Podcasts & RFI)</h2>
+          <p>Écoutez les actus et émissions en français avec vitesse ajustable, transcriptions interactives et exercices d'écoute.</p>
+        </div>
+      </div>
+
+      <div class="listening-grid">
+        <!-- Audio Player & Feed Card -->
+        <div class="md-card listening-player-card">
+          <div class="rfi-banner">
+            <span class="material-icons-round banner-icon">radio</span>
+            <div>
+              <h3>RFI - Journal en français facile & Podcasts DELF</h3>
+              <p>Ressources officielles d'entraînement à l'écoute niveau B2/C1</p>
+            </div>
+          </div>
+
+          <!-- TTS Engine Status -->
+          <div id="tts-status" style="padding: 6px 16px; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.02em;">⏳ Chargement du moteur vocal Kokoro...</div>
+
+          <!-- Custom Audio Player Component -->
+          <div class="custom-audio-player">
+            <audio id="main-audio-element" src=""></audio>
+            
+            <div class="track-info">
+              <h4 id="audio-track-title">Sélectionnez une émission audio</h4>
+              <span id="audio-track-date">Édition du jour</span>
+            </div>
+
+            <div class="player-controls">
+              <button class="md-icon-button" id="audio-rewind-btn" title="Reculer de 10s">
+                <span class="material-icons-round">replay_10</span>
+              </button>
+              <button class="md-icon-button md-icon-button--large primary-play-btn" id="audio-play-pause-btn">
+                <span class="material-icons-round">play_arrow</span>
+              </button>
+              <button class="md-icon-button" id="audio-forward-btn" title="Avancer de 10s">
+                <span class="material-icons-round">forward_10</span>
+              </button>
+              
+              <div class="speed-selector">
+                <span class="speed-label">Vitesse :</span>
+                <button class="speed-btn active" data-speed="1.0">1.0x</button>
+                <button class="speed-btn" data-speed="0.85">0.85x</button>
+                <button class="speed-btn" data-speed="1.25">1.25x</button>
+              </div>
+            </div>
+
+            <div class="audio-progress-row">
+              <span id="audio-current-time">00:00</span>
+              <input type="range" id="audio-seek-bar" value="0" max="100">
+              <span id="audio-duration">00:00</span>
+            </div>
+          </div>
+
+          <!-- Playlist / Episode selector -->
+          <div class="episodes-list-wrapper">
+            <h4>Épisodes & Audio-Exercices disponibles</h4>
+            <div class="episodes-list" id="listening-episodes-list">
+              <!-- Audio tracks list -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Transcript & Listening Questions -->
+        <div class="listening-right-column">
+          <div class="md-card transcript-card">
+            <div class="transcript-header" style="display:flex; flex-direction:column; gap:12px; align-items:stretch;">
+              <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                <h3><span class="material-icons-round">description</span> Transcription intégrale</h3>
+                <div class="transcript-action-bar" style="display:flex; align-items:center; gap:8px;">
+                  <!-- Font Size Controls -->
+                  <div class="font-size-controls" style="display:flex; align-items:center; background:var(--md-sys-color-surface-variant); border-radius:18px; padding:2px 6px;">
+                    <button class="md-icon-button" id="transcript-font-minus" title="Réduire la taille du texte" style="width:28px; height:28px; font-weight:700;">A-</button>
+                    <span id="transcript-font-label" style="font-size:0.75rem; font-weight:600; min-width:32px; text-align:center;">16px</span>
+                    <button class="md-icon-button" id="transcript-font-plus" title="Agrandir la taille du texte" style="width:28px; height:28px; font-weight:700;">A+</button>
+                  </div>
+                  
+                  <button class="md-button md-button--text" id="toggle-transcript-btn">
+                    <span class="material-icons-round">visibility</span> Masquer / Afficher
+                  </button>
+                </div>
+              </div>
+
+              <!-- Search Bar & CECRL Filter Row -->
+              <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+                <div class="search-box" style="flex:1; min-width:200px; background:var(--md-sys-color-surface-variant); border-radius:20px; padding:4px 12px; display:flex; align-items:center;">
+                  <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-outline);">search</span>
+                  <input type="text" id="transcript-search-input" placeholder="Rechercher un mot dans la transcription..." style="border:none; background:transparent; font-size:0.85rem; padding:4px 8px; width:100%; outline:none;">
+                </div>
+              </div>
+
+              <!-- Color-coded legend for non-mastered words by CECRL level -->
+              <div class="transcript-legend" style="display:flex; flex-wrap:wrap; gap:8px; padding:8px 12px; background:var(--md-sys-color-surface-variant); border-radius:8px; font-size:0.78rem; align-items:center;">
+                <span style="font-weight:600; color:var(--md-sys-color-on-surface-variant);">Mots non maîtrisés :</span>
+                <span class="legend-chip chip-a1" style="background:#e8f5e9; color:#2e7d32; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #a5d6a7;">🟢 A1</span>
+                <span class="legend-chip chip-a2" style="background:#fffde7; color:#f57f17; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #fff59d;">🟡 A2</span>
+                <span class="legend-chip chip-b1" style="background:#fff3e0; color:#e65100; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ffcc80;">🟠 B1</span>
+                <span class="legend-chip chip-b2" style="background:#ffebee; color:#c62828; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ef9a9a;">🔴 B2</span>
+                <span class="legend-chip chip-c1" style="background:#f3e5f5; color:#6a1b9a; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ce93d8;">🟣 C1/C2</span>
+                <span style="margin-left:auto; color:var(--md-sys-color-outline); font-size:0.75rem;">Cliquez sur un mot surligné pour voir sa définition</span>
+              </div>
+            </div>
+            <div class="transcript-content" id="listening-transcript-body">
+              <!-- Transcript text -->
+            </div>
+          </div>
+
+          <div class="md-card quiz-card" id="listening-quiz-card">
+            <div class="quiz-header">
+              <h3><span class="material-icons-round">quiz</span> Test d'écoute (QCM & Vrai/Faux)</h3>
+            </div>
+            <div class="quiz-questions-list" id="listening-quiz-questions">
+              <!-- Injected dynamically -->
+            </div>
+            <div class="quiz-footer">
+              <button class="md-button md-button--filled" id="submit-listening-quiz-btn">Vérifier l'écoute</button>
+              <div class="quiz-result-score" id="listening-quiz-score"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRAMMAR & CONJUGATION VIEW -->
+    <section class="view-panel" id="view-grammar">
+      <div class="module-header">
+        <div>
+          <h2>Grammaire, Orthographe & Conjugaison (A1 à C1+)</h2>
+          <p>Programme officiel complet du CECRL : Débutant (A1), Élémentaire (A2), Intermédiaire (B1), Avancé (B2) et Autonome (C1/C1+).</p>
+        </div>
+      </div>
+
+      <!-- Bannière Dynamique XP & Progression par Niveau -->
+      <div id="grammar-xp-banner" class="grammar-xp-banner">
+        <!-- Dynamically injected by GrammarModule -->
+      </div>
+
+      <div class="grammar-layout">
+        <!-- Grammar Topics Selector with Filters & Search -->
+        <div class="md-card grammar-menu">
+          <div class="grammar-menu-header">
+            <h3><span class="material-icons-round" style="color:var(--md-sys-color-primary);">menu_book</span> Leçons</h3>
+            <span class="lessons-count-pill">0 leçon</span>
+          </div>
+
+          <!-- Recherche instantanée -->
+          <div class="grammar-search-box">
+            <span class="material-icons-round search-icon">search</span>
+            <input type="text" id="grammar-search-input" placeholder="Rechercher une règle ou un mot-clé...">
+          </div>
+          
+          <div class="grammar-filter-controls">
+            <div class="select-wrapper">
+              <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-primary);">bar_chart</span>
+              <select id="grammar-level-select">
+                <option value="ALL">Tous les niveaux (A1 - C1+)</option>
+                <option value="A1">🟢 Niveau A1 (Découverte)</option>
+                <option value="A2">🟡 Niveau A2 (Survie)</option>
+                <option value="B1">🟠 Niveau B1 (Seuil)</option>
+                <option value="B2">🔴 Niveau B2 (Avancé)</option>
+                <option value="C1">🟣 Niveau C1/C1+ (Expert)</option>
+              </select>
+            </div>
+
+            <div class="select-wrapper">
+              <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-primary);">category</span>
+              <select id="grammar-category-select">
+                <option value="ALL">Toutes les catégories</option>
+                <option value="grammaire">📖 Grammaire</option>
+                <option value="conjugaison">⚙️ Conjugaison</option>
+                <option value="orthographe">✍️ Orthographe</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grammar-topic-list" id="grammar-topic-list">
+            <!-- Dynamic topic buttons -->
+          </div>
+        </div>
+
+        <!-- Active Exercise Panel -->
+        <div class="grammar-exercise-area">
+          <!-- Lesson Header with Navigation -->
+          <div class="grammar-lesson-header-card">
+            <div class="grammar-lesson-breadcrumb">
+              <span class="badge level-badge" id="grammar-level-tag">Niveau B2</span>
+              <span id="grammar-breadcrumb-title" style="font-weight:600; color:var(--md-sys-color-on-surface); font-size:0.875rem;">Leçon</span>
+            </div>
+            <div class="grammar-nav-group">
+              <button class="grammar-nav-btn" id="grammar-prev-btn" onclick="window.grammarModule.prevTopic()" title="Leçon précédente" type="button">
+                <span class="material-icons-round">arrow_back</span> Précédente
+              </button>
+              <button class="grammar-nav-btn" id="grammar-next-btn" onclick="window.grammarModule.nextTopic()" title="Leçon suivante" type="button">
+                Suivante <span class="material-icons-round">arrow_forward</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Rule Card -->
+          <div class="md-card rule-summary-card" id="grammar-rule-card">
+            <div class="rule-summary-card__header">
+              <div class="rule-summary-card__title-wrap">
+                <span class="material-icons-round rule-summary-card__icon">menu_book</span>
+                <h3 id="grammar-rule-title">Règle de grammaire</h3>
+              </div>
+            </div>
+            <div id="grammar-rule-content">
+              <!-- Rule explanation rendered with literary typography -->
+            </div>
+          </div>
+
+          <!-- Interactive Step-by-Step Drill Card -->
+          <div class="md-card interactive-drill-card">
+            <div class="drill-header">
+              <h3><span class="material-icons-round">edit_note</span> Exercice d'application pas-à-pas</h3>
+            </div>
+
+            <div class="drill-questions-container" id="grammar-drill-questions">
+              <!-- Dynamic step-by-step interactive question with instant feedback -->
+            </div>
+
+            <div class="drill-actions" style="display:none;">
+              <button class="md-button md-button--filled" id="submit-grammar-btn">Corriger mes réponses</button>
+              <button class="md-button md-button--outlined" id="reset-grammar-btn">Réinitialiser</button>
+              <div class="quiz-result-score" id="grammar-score-display"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTION ÉCRITE VIEW -->
+    <section class="view-panel" id="view-writing">
+      <div class="module-header">
+        <div>
+          <h2>Production Écrite (DELF B2 & DALF C1)</h2>
+          <p>Atelier d'entraînement à l'épreuve écrite officielle : Sujets types, grille CECRL, boîte à connecteurs, minuteur et compteur de mots en temps réel.</p>
+        </div>
+        <div class="vocab-stats-badge" style="background:var(--md-sys-color-primary-container); color:var(--md-sys-color-on-primary-container);">
+          <span class="material-icons-round">edit_note</span>
+          <span>4 Sujets d'Examen Certifiés</span>
+        </div>
+      </div>
+
+      <div class="writing-layout">
+        <!-- Side Topics Navigation -->
+        <div class="writing-topics-panel">
+          <div class="md-card" style="padding:12px; margin-bottom:8px;">
+            <div class="select-wrapper">
+              <span class="material-icons-round icon">filter_list</span>
+              <select id="writing-level-filter" style="width:100%;">
+                <option value="ALL">Tous les examens (B2 & C1)</option>
+                <option value="B2">🔴 DELF B2 (Lettre formelle & Débat)</option>
+                <option value="C1">🟣 DALF C1 (Synthèse & Essai argumenté)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="writing-topic-list" id="writing-topic-list">
+            <!-- Dynamic writing topic buttons -->
+          </div>
+        </div>
+
+        <!-- Main Writing Workspace -->
+        <div class="writing-main-area">
+          <!-- Subject Card -->
+          <div class="md-card writing-prompt-card">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
+              <h3 id="writing-topic-title" style="margin:0;">Titre du sujet</h3>
+              <div style="display:flex; gap:6px;">
+                <span class="badge level-badge" id="writing-topic-level-badge">DELF B2</span>
+                <span class="badge theme-badge" id="writing-topic-type-badge">Lettre formelle</span>
+              </div>
+            </div>
+            <div id="writing-topic-prompt">
+              <!-- Prompt content -->
+            </div>
+            <div class="structure-tips-box">
+              <strong>💡 Conseils méthodologiques & Structure recommandée :</strong>
+              <ul id="writing-structure-tips">
+                <!-- Structure tips -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Connectors Toolbox -->
+          <div class="connectors-toolbox">
+            <div class="connectors-toolbox-header">
+              <span class="material-icons-round">smart_button</span>
+              <span>Boîte à Outils : Connecteurs Logiques & Articulateurs (Cliquez pour insérer dans votre texte)</span>
+            </div>
+            <div id="writing-connectors-toolbox">
+              <!-- Connector categories and chips -->
+            </div>
+          </div>
+
+          <!-- Interactive Editor Card -->
+          <div class="md-card writing-editor-card">
+            <div class="editor-toolbar">
+              <div class="timer-box">
+                <span class="material-icons-round">timer</span>
+                <span id="writing-timer-display">60:00</span>
+                <button class="md-button md-button--text" id="writing-timer-toggle-btn" style="padding:2px 8px; min-width:auto;">
+                  <span class="material-icons-round">play_arrow</span> Démarrer
+                </button>
+                <button class="md-button md-button--text" id="writing-timer-reset-btn" style="padding:2px 6px; min-width:auto;" title="Réinitialiser le temps">
+                  <span class="material-icons-round">refresh</span>
+                </button>
+              </div>
+
+              <div class="word-count-box">
+                <span class="material-icons-round">pin</span>
+                <strong id="writing-word-count">0 mot</strong>
+                <span class="badge" id="writing-word-status">Cible : 250 mots</span>
+                <span id="writing-autosave-status" style="font-size:0.75rem; color:#059669; opacity:0.6; transition:opacity 0.3s;">✓ Brouillon sauvegardé</span>
+              </div>
+            </div>
+
+            <textarea id="writing-editor-textarea" class="writing-textarea" placeholder="Rédigez votre production écrite ici... Utilisez les connecteurs ci-dessus pour fluidifier et enrichir vos arguments. Votre texte est sauvegardé automatiquement."></textarea>
+
+            <div class="editor-bottom-actions">
+              <div style="display:flex; gap:8px;">
+                <button class="md-button md-button--outlined" id="writing-save-draft-btn">
+                  <span class="material-icons-round">save</span> Sauvegarder
+                </button>
+                <button class="md-button md-button--outlined" id="writing-export-btn">
+                  <span class="material-icons-round">download</span> Exporter en .txt
+                </button>
+                <button class="md-button md-button--text" id="writing-clear-draft-btn" style="color:var(--md-sys-color-error);">
+                  <span class="material-icons-round">delete_sweep</span> Effacer
+                </button>
+              </div>
+              <button class="md-button md-button--filled" id="toggle-writing-solution-btn">
+                <span class="material-icons-round">visibility</span> Consulter le corrigé modèle
+              </button>
+            </div>
+
+            <div id="writing-sample-solution" style="display:none; margin-top:12px;">
+              <!-- Model text will appear here -->
+            </div>
+          </div>
+
+          <!-- Official CECRL Rubric Card -->
+          <div class="md-card cecrl-rubric-card" id="writing-cecrl-grid">
+            <!-- CECRL Rubric table -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Quest Runner Modal (Glass Focus Mode) -->
+  <div id="quest-runner-modal" class="quest-modal-backdrop">
+    <div class="quest-runner-card">
+      <div class="quest-runner-header">
+        <strong id="quest-modal-title" style="font-family:var(--md-font-serif); font-size:1.15rem; color:var(--md-sys-color-primary);">Quête</strong>
+        <div class="runner-progress-bar-container">
+          <div id="runner-progress-fill" class="runner-progress-fill" style="width: 33%;"></div>
+        </div>
+        <button class="md-icon-button" id="quest-close-modal-btn" title="Fermer la quête">
+          <span class="material-icons-round">close</span>
+        </button>
+      </div>
+
+      <div class="quest-runner-body" id="quest-runner-body">
+        <!-- Interactive Step or Victory Screen -->
+      </div>
+
+      <div class="quest-runner-footer">
+        <button class="md-button md-button--filled" id="quest-next-step-btn">
+          Étape Suivante <span class="material-icons-round">navigate_next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-content">
+      <p>Le Petit Nuage – Une méthode bienveillante pour apprendre le français en douceur • Client-Side Serverless (GitHub Pages)</p>
+      <p>Développement en cours (peut contenir des erreurs) </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/kokoro_tts.js"></script>
+  <!-- Data scripts in required order -->
+  <script src="js/data/grammar_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_A1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_A2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_B1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_B2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_C1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_C2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/vocab_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/expressions_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/reading_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/listening_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/writing_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/official_exams.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_A1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_A2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_B1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_B2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_C1_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/parcours_C2_data.js?v=delf_b2_v4"></script>
+  <script src="js/data/journey_data.js?v=delf_b2_v4"></script>
+
+  <!-- Module scripts -->
+  <script src="js/modules/grammar.js?v=delf_b2_v4"></script>
+  <script src="js/modules/vocabulary.js?v=delf_b2_v4"></script>
+  <script src="js/modules/dictionary.js?v=delf_b2_v4"></script>
+  <script src="js/modules/expressions.js?v=delf_b2_v4"></script>
+  <script src="js/modules/reading.js?v=delf_b2_v4"></script>
+  <script src="js/modules/listening.js?v=delf_b2_v4"></script>
+  <script src="js/modules/writing.js?v=delf_b2_v4"></script>
+  <script src="js/modules/exam_simulator.js?v=delf_b2_v4"></script>
+  <script src="js/modules/sessions.js?v=delf_b2_v4"></script>
+  <script src="js/modules/journey.js?v=delf_b2_v4"></script>
+
+  <!-- Application Main Controller -->
+  <script src="js/app.js?v=delf_b2_v4"></script>
+</body>
+</html>

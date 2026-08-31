@@ -1,0 +1,269 @@
+/* ==========================================================================
+   MODULE 5: PRODUCTION ÉCRITE & WRITING WORKSHOP STYLES
+   ========================================================================== */
+
+.writing-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .writing-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.writing-topics-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.writing-topic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  color: var(--md-sys-color-on-surface);
+  text-align: left;
+}
+
+.writing-topic-item:hover {
+  background: var(--md-sys-color-surface-variant);
+  border-color: var(--md-sys-color-primary);
+  transform: translateY(-1px);
+}
+
+.writing-topic-item.active {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  border-color: var(--md-sys-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.writing-main-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.writing-prompt-card {
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.writing-prompt-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+  color: var(--md-sys-color-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.prompt-section {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.prompt-section p {
+  margin-bottom: 8px;
+}
+
+.structure-tips-box {
+  background: var(--md-sys-color-surface-variant);
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  border-left: 3px solid var(--md-sys-color-primary);
+}
+
+.structure-tips-box ul {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+.writing-editor-card {
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.timer-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--md-sys-color-surface-variant);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.timer-running {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+.word-count-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.badge-warning {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.writing-textarea {
+  width: 100%;
+  min-height: 380px;
+  padding: 16px;
+  font-family: 'Roboto', -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 8px;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.writing-textarea:focus {
+  border-color: var(--md-sys-color-primary);
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+/* Connectors Toolbox */
+.connectors-toolbox {
+  background: var(--md-sys-color-surface-variant);
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.connectors-toolbox-header {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--md-sys-color-primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.connector-group-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--md-sys-color-on-surface-variant);
+  margin-bottom: 6px;
+}
+
+.connector-chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.connector-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.connector-chip:hover {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  border-color: var(--md-sys-color-primary);
+  transform: translateY(-1px);
+}
+
+/* CECRL Rubric */
+.cecrl-rubric-card {
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.rubric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.rubric-row:last-child {
+  border-bottom: none;
+}
+
+.sample-solution-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.editor-bottom-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+}

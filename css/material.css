@@ -1,0 +1,231 @@
+/* ==========================================================================
+   MATERIAL DESIGN 3 CORE SYSTEM STYLES — THEME SÉRÉNITÉ & CALM DESIGN
+   Palette douce : Papier Lin, Vert Sauge, Bleu Céleste, Terre Cuite
+   ========================================================================== */
+
+:root {
+  /* MD3 Light Color Tokens (Thème Sérénité / Papier Lin) */
+  --md-sys-color-primary: #346856;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #E5F0EB;
+  --md-sys-color-on-primary-container: #1B4336;
+  
+  --md-sys-color-secondary: #3B5B75;
+  --md-sys-color-on-secondary: #FFFFFF;
+  --md-sys-color-secondary-container: #E4EDF4;
+  --md-sys-color-on-secondary-container: #1C3549;
+  
+  --md-sys-color-tertiary: #B86B35;
+  --md-sys-color-tertiary-container: #FAEDE4;
+  --md-sys-color-on-tertiary-container: #703B15;
+
+  --md-sys-color-error: #BA3C3C;
+  --md-sys-color-error-container: #FDF0F0;
+
+  --md-sys-color-background: #FAF8F5;
+  --md-sys-color-on-background: #23272E;
+
+  --md-sys-color-surface: #FFFFFF;
+  --md-sys-color-on-surface: #23272E;
+  --md-sys-color-surface-variant: #F4F2EB;
+  --md-sys-color-on-surface-variant: #606873;
+  --md-sys-color-outline: #DCD9D0;
+  --md-sys-color-outline-variant: #EAE7DF;
+
+  /* Material Elevations (Ombres douces et feutrées) */
+  --md-elevation-1: 0px 2px 8px rgba(35, 39, 46, 0.04), 0px 1px 3px rgba(35, 39, 46, 0.02);
+  --md-elevation-2: 0px 4px 16px rgba(35, 39, 46, 0.06), 0px 2px 6px rgba(35, 39, 46, 0.03);
+  --md-elevation-3: 0px 8px 24px rgba(35, 39, 46, 0.08), 0px 3px 8px rgba(35, 39, 46, 0.04);
+  --md-elevation-4: 0px 12px 32px rgba(35, 39, 46, 0.10);
+
+  /* Typography Fonts */
+  --md-font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --md-font-serif: 'Lora', 'Newsreader', Georgia, serif;
+  
+  /* Border Radius (Formes douces) */
+  --md-shape-small: 10px;
+  --md-shape-medium: 14px;
+  --md-shape-large: 18px;
+  --md-shape-xl: 24px;
+  --md-shape-full: 9999px;
+
+  --md-transition-standard: 250ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+[data-theme="dark"] {
+  /* MD3 Dark Color Tokens (Thème Nuit Douce & Ardoise) */
+  --md-sys-color-primary: #78B59E;
+  --md-sys-color-on-primary: #123328;
+  --md-sys-color-primary-container: #204B3D;
+  --md-sys-color-on-primary-container: #DCEDE6;
+  
+  --md-sys-color-secondary: #8BAFCE;
+  --md-sys-color-on-secondary: #143046;
+  --md-sys-color-secondary-container: #26445D;
+  --md-sys-color-on-secondary-container: #DDE8F2;
+
+  --md-sys-color-tertiary: #E09F72;
+  --md-sys-color-tertiary-container: #5C3215;
+  --md-sys-color-on-tertiary-container: #FCECE1;
+
+  --md-sys-color-background: #181B1F;
+  --md-sys-color-on-background: #EDEDEB;
+
+  --md-sys-color-surface: #22262C;
+  --md-sys-color-on-surface: #EDEDEB;
+  --md-sys-color-surface-variant: #2D323A;
+  --md-sys-color-on-surface-variant: #A4ACB7;
+  --md-sys-color-outline: #414752;
+  --md-sys-color-outline-variant: #323842;
+
+  --md-elevation-1: 0px 2px 8px rgba(0, 0, 0, 0.35);
+  --md-elevation-2: 0px 4px 16px rgba(0, 0, 0, 0.40);
+  --md-elevation-3: 0px 8px 24px rgba(0, 0, 0, 0.45);
+  --md-elevation-4: 0px 12px 32px rgba(0, 0, 0, 0.50);
+}
+
+/* Material Component Classes */
+.md-card {
+  background-color: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  border-radius: var(--md-shape-large);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  box-shadow: var(--md-elevation-1);
+  transition: box-shadow var(--md-transition-standard), transform var(--md-transition-standard), border-color var(--md-transition-standard);
+}
+
+.md-card:hover {
+  box-shadow: var(--md-elevation-2);
+}
+
+.md-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 42px;
+  padding: 0 20px;
+  border-radius: var(--md-shape-full);
+  font-family: var(--md-font-family);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all var(--md-transition-standard);
+  text-decoration: none;
+  outline: none;
+}
+
+.md-button--filled {
+  background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+  box-shadow: 0 2px 8px rgba(52, 104, 86, 0.2);
+}
+
+.md-button--filled:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(52, 104, 86, 0.28);
+}
+
+.md-button--tonal {
+  background-color: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.md-button--tonal:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+.md-button--outlined {
+  background-color: transparent;
+  color: var(--md-sys-color-primary);
+  border: 1.5px solid var(--md-sys-color-outline);
+}
+
+.md-button--outlined:hover {
+  background-color: var(--md-sys-color-surface-variant);
+  border-color: var(--md-sys-color-primary);
+}
+
+.md-button--text {
+  background-color: transparent;
+  color: var(--md-sys-color-primary);
+  padding: 0 12px;
+}
+
+.md-button--text:hover {
+  background-color: var(--md-sys-color-surface-variant);
+}
+
+.md-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--md-shape-full);
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--md-transition-standard), color var(--md-transition-standard), transform var(--md-transition-standard);
+}
+
+.md-icon-button:hover {
+  background-color: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-primary);
+  transform: scale(1.05);
+}
+
+.md-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: var(--md-shape-full);
+  background-color: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface-variant);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--md-transition-standard);
+  user-select: none;
+}
+
+.md-chip:hover {
+  background-color: var(--md-sys-color-surface-variant);
+  border-color: var(--md-sys-color-outline);
+}
+
+.md-chip--active {
+  background-color: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  border-color: var(--md-sys-color-primary);
+  font-weight: 600;
+}
+
+/* Badges de sérénité */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--md-shape-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.level-badge {
+  background-color: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.theme-badge {
+  background-color: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-on-surface-variant);
+}

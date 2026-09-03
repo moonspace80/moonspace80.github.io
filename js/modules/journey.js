@@ -321,11 +321,14 @@ class JourneyModule {
   }
 
   closeQuestModal() {
+    this.stopTTS();
     if (this.modalEl) this.modalEl.classList.remove('open');
     this.currentQuest = null;
+    this.matchingState = null;
   }
 
   renderStep() {
+    this.stopTTS();
     if (!this.currentQuest || !this.modalBody) return;
     const step = this.currentQuest.steps[this.currentStepIdx];
     const totalSteps = this.currentQuest.steps.length;
@@ -425,6 +428,18 @@ class JourneyModule {
 
       this.modalBody.innerHTML = `
         <h3 class="step-card-title">${step.title}</h3>
+        ${step.audioText ? `
+          <div class="lesson-audio-bar">
+            <div class="lesson-audio-info">
+              <span class="material-icons-round" style="color:var(--md-sys-color-primary); font-size:24px;">record_voice_over</span>
+              <span>Lecture audio intégrale du texte (TTS haute fidélité)</span>
+            </div>
+            <button class="lesson-tts-btn" id="lesson-tts-toggle-btn" onclick="window.journeyModule.toggleLessonAudio()">
+              <span class="material-icons-round">play_arrow</span>
+              <span>Écouter le texte</span>
+            </button>
+          </div>
+        ` : ''}
         <div style="
           background: var(--md-sys-color-surface-variant);
           border-radius: 12px;
@@ -444,6 +459,259 @@ class JourneyModule {
         this.nextStepBtn.innerHTML = `Continuer <span class="material-icons-round">navigate_next</span>`;
         this.nextStepBtn.onclick = () => this.goToNextStep();
       }
+    } else if (step.type === 'matching_drill') {
+      this.renderMatchingDrill(step);
+    }
+  }
+
+  renderMatchingDrill(step) {
+    if (!this.matchingState || this.matchingState.stepIdx !== this.currentStepIdx) {
+      const items = step.pairs || [];
+      const leftItems = items.map(p => ({ id: p.id, fr: p.fr }));
+      const rightItems = items.map(p => ({
+        id: p.id,
+        en: p.en,
+        cn: p.cn,
+        jp: p.jp,
+        text: `${p.en} • ${p.jp} • ${p.cn}`
+      })).sort(() => Math.random() - 0.5);
+
+      this.matchingState = {
+        stepIdx: this.currentStepIdx,
+        pairs: items,
+        leftItems,
+        rightItems,
+        selectedLeft: null,
+        selectedRight: null,
+        matchedIds: new Set(),
+        mistakes: 0
+      };
+    }
+
+    const state = this.matchingState;
+    const totalPairs = state.pairs.length;
+    const matchedCount = state.matchedIds.size;
+
+    this.modalBody.innerHTML = `
+      <h3 class="step-card-title">${step.title}</h3>
+      <p style="font-size:0.9rem; color:var(--md-sys-color-on-surface-variant); margin-bottom:12px;">
+        ${step.instructions || "Associez chaque mot en français à sa traduction trilingue (anglais, japonais, chinois). Cliquez sur un mot français puis sur sa traduction correspondante."}
+      </p>
+      
+      <div class="matching-status-bar">
+        <span>Progression : <strong id="matching-score">${matchedCount} / ${totalPairs}</strong> paires trouvées</span>
+        <span style="font-size:0.8rem; color:var(--md-sys-color-primary);">🎯 Mémorisation active</span>
+      </div>
+
+      <div class="matching-drill-container" style="margin-top:14px;">
+        <div class="matching-pairs-grid">
+          <!-- Colonne Mots Français -->
+          <div class="matching-col">
+            <div class="matching-col-title">
+              <span class="material-icons-round" style="font-size:16px;">translate</span>
+              <span>Mots en Français</span>
+            </div>
+            ${state.leftItems.map(item => {
+              const isMatched = state.matchedIds.has(item.id);
+              const isSelected = state.selectedLeft === item.id;
+              return `
+                <button class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}"
+                        data-id="${item.id}"
+                        data-side="left"
+                        ${isMatched ? 'disabled' : ''}
+                        onclick="window.journeyModule.handleMatchingClick('left', '${item.id}')">
+                  <span style="font-weight:600;">${item.fr}</span>
+                  <span class="material-icons-round" style="font-size:18px; color: ${isMatched ? '#1B4336' : 'var(--md-sys-color-primary)'};">
+                    ${isMatched ? 'check_circle' : 'radio_button_unchecked'}
+                  </span>
+                </button>
+              `;
+            }).join('')}
+          </div>
+
+          <!-- Colonne Traductions (EN / JP / CN) -->
+          <div class="matching-col">
+            <div class="matching-col-title">
+              <span class="material-icons-round" style="font-size:16px;">language</span>
+              <span>Traductions (Anglais / Japonais / Chinois)</span>
+            </div>
+            ${state.rightItems.map(item => {
+              const isMatched = state.matchedIds.has(item.id);
+              const isSelected = state.selectedRight === item.id;
+              return `
+                <button class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}"
+                        data-id="${item.id}"
+                        data-side="right"
+                        ${isMatched ? 'disabled' : ''}
+                        onclick="window.journeyModule.handleMatchingClick('right', '${item.id}')">
+                  <div style="display:flex; flex-direction:column; gap:2px; font-size:0.85rem; line-height:1.35;">
+                    <div><strong style="color:var(--md-sys-color-primary);">${item.en}</strong></div>
+                    <div style="font-size:0.8rem; color:var(--md-sys-color-on-surface-variant);">${item.jp} <span style="opacity:0.6;">|</span> ${item.cn}</div>
+                  </div>
+                  <span class="material-icons-round" style="font-size:18px; color: ${isMatched ? '#1B4336' : 'var(--md-sys-color-outline)'};">
+                    ${isMatched ? 'check_circle' : 'swap_horiz'}
+                  </span>
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      </div>
+      <div class="quest-feedback-box" id="quest-feedback-box"></div>
+    `;
+
+    if (this.nextStepBtn) {
+      if (matchedCount === totalPairs) {
+        this.nextStepBtn.disabled = false;
+        const isLastStep = this.currentStepIdx === this.currentQuest.steps.length - 1;
+        this.nextStepBtn.innerHTML = isLastStep
+          ? `Terminer la Quête <span class="material-icons-round">emoji_events</span>`
+          : `Étape Suivante <span class="material-icons-round">navigate_next</span>`;
+        this.nextStepBtn.onclick = () => this.goToNextStep();
+      } else {
+        this.nextStepBtn.disabled = true;
+        this.nextStepBtn.innerHTML = `Associez toutes les paires (${matchedCount}/${totalPairs})`;
+      }
+    }
+  }
+
+  handleMatchingClick(side, id) {
+    if (!this.matchingState) return;
+    const state = this.matchingState;
+    if (state.matchedIds.has(id)) return;
+
+    if (side === 'left') {
+      state.selectedLeft = state.selectedLeft === id ? null : id;
+      this.speak(state.leftItems.find(it => it.id === id)?.fr || '');
+    } else {
+      state.selectedRight = state.selectedRight === id ? null : id;
+    }
+
+    if (state.selectedLeft && state.selectedRight) {
+      const leftId = state.selectedLeft;
+      const rightId = state.selectedRight;
+      const isCorrect = leftId === rightId;
+
+      const leftBtn = this.modalBody.querySelector(`.matching-card[data-side="left"][data-id="${leftId}"]`);
+      const rightBtn = this.modalBody.querySelector(`.matching-card[data-side="right"][data-id="${rightId}"]`);
+      const feedbackBox = document.getElementById('quest-feedback-box');
+
+      if (isCorrect) {
+        state.matchedIds.add(leftId);
+        state.selectedLeft = null;
+        state.selectedRight = null;
+
+        if (leftBtn) {
+          leftBtn.classList.remove('selected');
+          leftBtn.classList.add('matched');
+          leftBtn.disabled = true;
+        }
+        if (rightBtn) {
+          rightBtn.classList.remove('selected');
+          rightBtn.classList.add('matched');
+          rightBtn.disabled = true;
+        }
+
+        const scoreEl = document.getElementById('matching-score');
+        if (scoreEl) scoreEl.textContent = `${state.matchedIds.size} / ${state.pairs.length}`;
+
+        if (feedbackBox) {
+          feedbackBox.classList.add('show');
+          feedbackBox.style.background = '#E5F0EB';
+          feedbackBox.style.color = '#1B4336';
+          feedbackBox.innerHTML = `<strong>✨ Exact !</strong> Mémorisation réussie pour ce mot.`;
+        }
+
+        if (state.matchedIds.size === state.pairs.length) {
+          if (feedbackBox) {
+            feedbackBox.innerHTML = `<strong>🏆 Bravo !</strong> Toutes les correspondances lexicales ont été validées avec succès !`;
+          }
+          if (this.nextStepBtn) {
+            this.nextStepBtn.disabled = false;
+            const isLastStep = this.currentStepIdx === this.currentQuest.steps.length - 1;
+            this.nextStepBtn.innerHTML = isLastStep
+              ? `Terminer la Quête <span class="material-icons-round">emoji_events</span>`
+              : `Étape Suivante <span class="material-icons-round">navigate_next</span>`;
+            this.nextStepBtn.onclick = () => this.goToNextStep();
+          }
+        }
+      } else {
+        state.mistakes += 1;
+        this.currentErrors += 1;
+        if (leftBtn) leftBtn.classList.add('wrong');
+        if (rightBtn) rightBtn.classList.add('wrong');
+
+        if (feedbackBox) {
+          feedbackBox.classList.add('show');
+          feedbackBox.style.background = '#FDF0F0';
+          feedbackBox.style.color = '#721C24';
+          feedbackBox.innerHTML = `<strong>🍃 Attention :</strong> Cette association ne correspond pas, essayez à nouveau.`;
+        }
+
+        setTimeout(() => {
+          if (leftBtn) leftBtn.classList.remove('wrong', 'selected');
+          if (rightBtn) rightBtn.classList.remove('wrong', 'selected');
+          state.selectedLeft = null;
+          state.selectedRight = null;
+        }, 600);
+      }
+    } else {
+      // Re-render visual selection
+      const allLeft = this.modalBody.querySelectorAll('.matching-card[data-side="left"]');
+      allLeft.forEach(btn => {
+        if (!state.matchedIds.has(btn.dataset.id)) {
+          btn.classList.toggle('selected', btn.dataset.id === state.selectedLeft);
+        }
+      });
+      const allRight = this.modalBody.querySelectorAll('.matching-card[data-side="right"]');
+      allRight.forEach(btn => {
+        if (!state.matchedIds.has(btn.dataset.id)) {
+          btn.classList.toggle('selected', btn.dataset.id === state.selectedRight);
+        }
+      });
+    }
+  }
+
+  toggleLessonAudio() {
+    const step = this.currentQuest ? this.currentQuest.steps[this.currentStepIdx] : null;
+    if (!step || !step.audioText) return;
+    const btn = document.getElementById('lesson-tts-toggle-btn');
+
+    if (this.isLessonAudioPlaying) {
+      this.stopTTS();
+      return;
+    }
+
+    this.isLessonAudioPlaying = true;
+    if (btn) {
+      btn.classList.add('playing');
+      btn.innerHTML = `<span class="material-icons-round">stop</span><span>Arrêter la lecture</span>`;
+    }
+
+    this.speak(step.audioText);
+
+    // Watch for audio finish
+    const checkAudioEnd = setInterval(() => {
+      if (!window.aiTTS || (!window.aiTTS.currentPlayer && !('speechSynthesis' in window && window.speechSynthesis.speaking))) {
+        clearInterval(checkAudioEnd);
+        this.isLessonAudioPlaying = false;
+        if (btn) {
+          btn.classList.remove('playing');
+          btn.innerHTML = `<span class="material-icons-round">play_arrow</span><span>Écouter le texte</span>`;
+        }
+      }
+    }, 400);
+  }
+
+  stopTTS() {
+    if (window.aiTTS) {
+      window.aiTTS.stop();
+    }
+    this.isLessonAudioPlaying = false;
+    const btn = document.getElementById('lesson-tts-toggle-btn');
+    if (btn) {
+      btn.classList.remove('playing');
+      btn.innerHTML = `<span class="material-icons-round">play_arrow</span><span>Écouter le texte</span>`;
     }
   }
 

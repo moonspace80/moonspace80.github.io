@@ -1642,19 +1642,20 @@ window.parcours_B2_Dataset = [
           {
             "type": "lesson",
             "title": "Étape 5 : 📖 Texte intégral — L'Art du patchwork : De la nécessité paysanne au tableau textile",
-            "content": "**L'Art du patchwork : Métamorphose de la matière et poésie textile**\n\nL’art du patchwork repose sur une alchimie singulière : métamorphoser des fragments de tissu épars en une œuvre harmonieuse et vivante. Né autrefois d’une nécessité paysanne de récupérer la moindre chute d’étoffe, il a traversé les siècles pour s’élever au rang d’art textile à part entière.\n\nAu cœur de cette pratique réside une rigueur technique minutieuse. Le processus s’articule généralement autour de trois étapes majeures :\n\n- **Le piéçage (*piecing*)** : la découpe et l'assemblage précis de morceaux de tissu selon des gabarits géométriques (carrés, triangles, losanges) ou des motifs figuratifs.\n- **L’appliqué (*applique*)** : la fixation d’une forme découpée sur un tissu de fond, idéale pour dessiner des silhouettes, des paysages ou des motifs floraux en relief.\n- **Le matelassage (*quilting*)** : l'assemblage par piquage de trois épaisseurs distinctes — le dessus ornementé, un molleton central et une doublure inférieure. Les points de couture, qu'ils soient exécutés à la main ou à la machine, sculptent la surface en lui conférant volume et profondeur.\n\nLa beauté du patchwork réside dans ce dialogue permanent entre texture, ombre et couleur. Chaque tissu apporte son grain, son éclat et son histoire. En variant les contrastes, l’artisan compose de véritables toiles sans jamais poser une touche de peinture : un ciel prend naissance dans un voile de coton vaporeux, un champ de tournesols émerge de fronces savamment superposées, et une mer gagne son ressac grâce à la trajectoire sinueuse d’un fil de surpiqûre.\n\nLoin d'un simple exercice géométrique, le patchwork japonais contemporain pousse cette recherche esthétique jusqu’à la narration poétique. Il capture des instants du quotidien, des paysages marins ou des scènes de voyage avec une délicatesse feutrée. C'est un art de la patience, où le temps consacré à chaque point sublime le quotidien en tableau textile.\n\n---\n\n**Axe d'analyse pour le niveau B2** :\n- **Genèse historique** : De l'impératif utilitaire de sobriété rurale vers la sublimation artistique reconnue.\n- **Structure ternaire du métier d'art** : Piéçage (structure) ➜ Appliqué (ornementation) ➜ Matelassage (tridimensionnalité).\n- **Analogie picturale** : Remplacement des pigments et pinceaux par les fibres textiles, les ombres de surpiqûre et les jeux de tissage."
+            "content": "**L'Art du patchwork : Métamorphose de la matière et poésie textile**\n\nL’art du patchwork repose sur une alchimie singulière : métamorphoser des fragments de tissu épars en une œuvre harmonieuse et vivante. Né autrefois d’une nécessité paysanne de récupérer la moindre chute d’étoffe, il a traversé les siècles pour s’élever au rang d’art textile à part entière.\n\nAu cœur de cette pratique réside une rigueur technique minutieuse. Le processus s’articule généralement autour de trois étapes majeures :\n\n- **Le piéçage (*piecing*)** : la découpe et l'assemblage précis de morceaux de tissu selon des gabarits géométriques (carrés, triangles, losanges) ou des motifs figuratifs.\n- **L’appliqué (*applique*)** : la fixation d’une forme découpée sur un tissu de fond, idéale pour dessiner des silhouettes, des paysages ou des motifs floraux en relief.\n- **Le matelassage (*quilting*)** : l'assemblage par piquage de trois épaisseurs distinctes — le dessus ornementé, un molleton central et une doublure inférieure. Les points de couture, qu'ils soient exécutés à la main ou à la machine, sculptent la surface en lui conférant volume et profondeur.\n\nLa beauté du patchwork réside dans ce dialogue permanent entre texture, ombre et couleur. Chaque tissu apporte son grain, son éclat et son histoire. En variant les contrastes, l’artisan compose de véritables toiles sans jamais poser une touche de peinture : un ciel prend naissance dans un voile de coton vaporeux, un champ de tournesols émerge de fronces savamment superposées, et une mer gagne son ressac grâce à la trajectoire sinueuse d’un fil de surpiqûre.\n\nLoin d'un simple exercice géométrique, le patchwork japonais contemporain pousse cette recherche esthétique jusqu’à la narration poétique. Il capture des instants du quotidien, des paysages marins ou des scènes de voyage avec une délicatesse feutrée. C'est un art de la patience, où le temps consacré à chaque point sublime le quotidien en tableau textile.\n\n---\n\n**Axe d'analyse pour le niveau B2** :\n- **Genèse historique** : De l'impératif utilitaire de sobriété rurale vers la sublimation artistique reconnue.\n- **Structure ternaire du métier d'art** : Piéçage (structure) ➜ Appliqué (ornementation) ➜ Matelassage (tridimensionnalité).\n- **Analogie picturale** : Remplacement des pigments et pinceaux par les fibres textiles, les ombres de surpiqûre et les jeux de tissage.",
+            "audioText": "L'art du patchwork repose sur une alchimie singulière : métamorphoser des fragments de tissu épars en une œuvre harmonieuse et vivante. Né autrefois d'une nécessité paysanne de récupérer la moindre chute d'étoffe, il a traversé les siècles pour s'élever au rang d'art textile à part entière. Au cœur de cette pratique réside une rigueur technique minutieuse. Le processus s'articule généralement autour de trois étapes majeures : Le piéçage : la découpe et l'assemblage précis de morceaux de tissu selon des gabarits géométriques ou des motifs figuratifs. L'appliqué : la fixation d'une forme découpée sur un tissu de fond, idéale pour dessiner des silhouettes, des paysages ou des motifs floraux en relief. Le matelassage : l'assemblage par piquage de trois épaisseurs distinctes, le dessus ornementé, un molleton central et une doublure inférieure. Les points de couture, qu'ils soient exécutés à la main ou à la machine, sculptent la surface en lui conférant volume et profondeur. La beauté du patchwork réside dans ce dialogue permanent entre texture, ombre et couleur. Chaque tissu apporte son grain, son éclat et son histoire. En variant les contrastes, l'artisan compose de véritables toiles sans jamais poser une touche de peinture : un ciel prend naissance dans un voile de coton vaporeux, un champ de tournesols émerge de fronces savamment superposées, et une mer gagne son ressac grâce à la trajectoire sinueuse d'un fil de surpiqûre. Loin d'un simple exercice géométrique, le patchwork japonais contemporain pousse cette recherche esthétique jusqu'à la narration poétique. Il capture des instants du quotidien, des paysages marins ou des scènes de voyage avec une délicatesse feutrée. C'est un art de la patience, où le temps consacré à chaque point sublime le quotidien en tableau textile."
           },
           {
             "type": "quiz_drill",
             "title": "Étape 6 : Compréhension globale du texte et genèse historique",
             "question": "D'après l'article, quelle est l'origine historique originelle de la pratique du patchwork ?",
             "options": [
-              "Une nécessité paysanne et économique visant à récupérer la moindre chute d'étoffe.",
               "Une commande officielle de la cour royale pour concevoir des tapisseries d'apparat.",
               "Une invention purement industrielle liée à la mécanisation des manufactures au XIXe siècle.",
+              "Une nécessité paysanne et économique visant à récupérer la moindre chute d'étoffe.",
               "Un rite exclusivement religieux réservé aux ornements des lieux de culte."
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Le texte indique expressément que le patchwork est « né autrefois d’une nécessité paysanne de récupérer la moindre chute d’étoffe », avant de s'élever au rang d'art textile."
           },
           {
@@ -1662,12 +1663,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 7 : Analyse comparative des trois techniques fondamentales",
             "question": "Quelle distinction technique le texte établit-il précisément entre le « piéçage » et l'« appliqué » ?",
             "options": [
-              "Le piéçage assemble des morceaux géométriques entre eux selon des gabarits, tandis que l'appliqué fixe une forme découpée en relief sur un tissu de fond.",
               "Le piéçage s'effectue uniquement à la machine industrielle, alors que l'appliqué ne tolère que la colle à tissu.",
+              "Le piéçage assemble des morceaux géométriques entre eux selon des gabarits, tandis que l'appliqué fixe une forme découpée en relief sur un tissu de fond.",
               "L'appliqué correspond au rembourrage intérieur, tandis que le piéçage constitue la doublure arrière.",
               "Il n'y a aucune différence technique, ce sont deux synonymes parfaits du matelassage."
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Le texte définit le piéçage comme « la découpe et l'assemblage précis de morceaux de tissu selon des gabarits géométriques », alors que l'appliqué est « la fixation d’une forme découpée sur un tissu de fond »."
           },
           {
@@ -1675,12 +1676,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 8 : Anatomie du matelassage (quilting)",
             "question": "Quelles sont les trois épaisseurs distinctes réunies lors de l'opération de matelassage (quilting) ?",
             "options": [
-              "Le dessus ornementé, un molleton central et une doublure inférieure.",
               "Trois couches de tissu plastifié imperméable sans aucun rembourrage.",
               "Une armature métallique rigide, une nappe de coton et un feutre cartonné.",
-              "Deux toiles de lin brut séparées par une bande adhésive thermique."
+              "Deux toiles de lin brut séparées par une bande adhésive thermique.",
+              "Le dessus ornementé, un molleton central et une doublure inférieure."
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "Le matelassage réunit exactement trois couches : « le dessus ornementé, un molleton central et une doublure inférieure », traversées par les points de piqûre."
           },
           {
@@ -1688,12 +1689,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 9 : Métaphore picturale et procédés d'évocation",
             "question": "Comment l'auteur montre-t-il que le patchwork s'apparente à « de véritables toiles sans jamais poser une touche de peinture » ?",
             "options": [
-              "En expliquant que les voiles de coton, les fronces et les surpiqûres suggèrent respectivement ciels vaporeux, champs fleuris et ressac marin.",
               "En soulignant que les couturiers trempent leurs fils dans des encres textiles colorées avant de coudre.",
+              "En expliquant que les voiles de coton, les fronces et les surpiqûres suggèrent respectivement ciels vaporeux, champs fleuris et ressac marin.",
               "En démontrant que les toiles de patchwork sont ensuite vernies et exposées comme des peintures à l'huile.",
               "En affirmant que les artisans imitent servilement les tableaux du musée du Louvre sans créer de motif original."
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "L'auteur recourt à des métaphores picturales précises : un ciel naît dans un voile vaporeux, un champ de tournesols dans des fronces superposées, et la mer dans le ressac tracé par la surpiqûre."
           },
           {
@@ -1714,12 +1715,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 11 : Orthographe et homophones du lexique textile",
             "question": "Dans quel énoncé les termes techniques et accords grammaticaux sont-ils orthographiés avec une rigueur irréprochable ?",
             "options": [
-              "Ces étoffes vaporeuses, l'artisane les a patiemment assemblées sur la doublure de molleton.",
               "Ces étoffes vaporeuses, l'artisane les a patiemment assembler sur la doublure de moleton.",
               "Ces étoffe vaporeuse, l'artisane les a patiemment assemblée sur la doublure de molleton.",
+              "Ces étoffes vaporeuses, l'artisane les a patiemment assemblées sur la doublure de molleton.",
               "Ces étoffes vaporeuse, l'artisane les a patiemment assemblés sur la doublure de molton."
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "« Étoffes vaporeuses » (féminin pluriel), « a assemblées » (accord avec le COD antéposé « les » représentant les étoffes) et « molleton » avec deux « l »."
           },
           {
@@ -1740,12 +1741,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 13 : Conjugaison — Le subjonctif de concession avec « bien que »",
             "question": "Choisissez la tournure correcte : « Bien que les points de couture [...] exécutés à la main, l'ensemble témoigne d'une remarquable solidité. »",
             "options": [
-              "soient",
               "sont",
+              "soient",
               "seront",
               "étaient"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "La conjonction de concession « bien que » commande impérativement le mode subjonctif (« soient »)."
           },
           {
@@ -1753,12 +1754,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 14 : Grammaire — Le participe présent et le gérondif de moyen",
             "question": "Identifiez la phrase employant un gérondif exprimant avec justesse la manière dont l'artisan obtient des effets de profondeur :",
             "options": [
-              "C'est en variant les contrastes de valeur et d'éclat que l'artisan confère volume et relief à sa composition textile.",
               "En variant les contrastes, la composition textile devenait très belle et impressionnante pour tous.",
               "L'artisan varie les contrastes pour que le volume donne du relief sans coudre.",
-              "Parce qu'il varie les contrastes, donc le volume est obtenu par la couture."
+              "Parce qu'il varie les contrastes, donc le volume est obtenu par la couture.",
+              "C'est en variant les contrastes de valeur et d'éclat que l'artisan confère volume et relief à sa composition textile."
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "« En variant » (gérondif de moyen) partage rigoureusement le même sujet que le verbe principal (« l'artisan »), évitant toute rupture syntaxique fautive."
           },
           {
@@ -1779,12 +1780,12 @@ window.parcours_B2_Dataset = [
             "title": "Étape 16 : Articulation logique — Exprimer la concession et la transcendance esthétique",
             "question": "« [...], le patchwork n'était qu'un modeste expédient contre la pénurie de tissu, [...] il est aujourd'hui célébré dans les galeries comme une forme majeure d'art visuel. »",
             "options": [
-              "Si à l'origine / il n'en demeure pas moins qu'",
               "Parce que / par conséquent",
               "Dès lors que / aussitôt",
+              "Si à l'origine / il n'en demeure pas moins qu'",
               "Puisque / en outre"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "La structure convective B2 soutenue « Si [concession initiale]..., il n'en demeure pas moins que [affirmation renforcée] » marque avec panache l'évolution historique de la pratique."
           },
           {
@@ -1792,25 +1793,25 @@ window.parcours_B2_Dataset = [
             "title": "Étape 17 : Articulation logique — Exprimer la condition et la minutie technique",
             "question": "« L'effet de tridimensionnalité apparaîtra avec netteté, [...] le serrage des points de surpiqûre demeure rigoureusement constant. »",
             "options": [
-              "pourvu que",
               "bien que",
+              "pourvu que",
               "d'autant plus que",
               "alors même que"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "« Pourvu que » (suivi du subjonctif présent « demeure ») pose la condition sine qua non de la réussite technique de l'effet de relief."
           },
           {
             "type": "quiz_drill",
             "title": "Étape 18 : Défi de style et registre soutenu — La métaphore filée",
-            "question": "Quelle phrase illustre le mieux l'art d'incorporer une métaphore picturale soutenue dans une critique d'art B2/C1 ?",
+            "question": "Parmi ces propositions, quelle tournure exprime avec le plus d'élégance et de finesse l'analogie entre le travail des étoffes et la peinture d'art ?",
             "options": [
-              "« Sans tremper de pinceau dans la moindre gouache, la créatrice métamorphose les fragments de soie en un crépuscule flamboyant où chaque nuance s'enrichit de la texture du tissage. »",
               "« La dame a cousu plein de bouts de chiffons de couleur et ça ressemble un peu à un tableau de coucher de soleil bien fait. »",
               "« Le patchwork utilise des tissus colorés pour remplacer la peinture acrylique qui coûte plus cher dans les magasins d'art. »",
+              "« Sans tremper de pinceau dans la moindre gouache, la créatrice métamorphose les fragments de soie en un crépuscule flamboyant où chaque nuance s'enrichit de la texture du tissage. »",
               "« Les bouts de tissus sont découpés très droit avec des ciseaux puis recousus sur un gros carton. »"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Cette formulation allie richesse lexicale (« métamorphose », « crépuscule flamboyant », « texture du tissage ») et élégance stylistique conforme aux attentes du niveau B2/C1."
           },
           {
@@ -1831,13 +1832,90 @@ window.parcours_B2_Dataset = [
             "title": "Étape 20 : Synthèse — Conclure un exposé sur l'artisanat d'art et la lenteur bienfaisante",
             "question": "Quelle phrase offre la conclusion la plus équilibrée et percutante pour un exposé consacré à la patience et à la création textile ?",
             "options": [
-              "« En définitive, dans une époque dominée par l'immédiateté et l'éphémère, l'art du patchwork nous rappelle qu'accorder du temps à chaque point constitue un acte de résistance poétique et une célébration du quotidien. »",
               "« Bref, faire du patchwork est un bon passe-temps pour les retraités quand ils s'ennuient le week-end à la maison. »",
               "« Voilà, j'ai terminé de vous expliquer comment on découpe des carrés de tissu avec un gabarit. »",
-              "« De toute manière, les machines à coudre industrielles feront toujours ce travail plus rapidement que les humains. »"
+              "« De toute manière, les machines à coudre industrielles feront toujours ce travail plus rapidement que les humains. »",
+              "« En définitive, dans une époque dominée par l'immédiateté et l'éphémère, l'art du patchwork nous rappelle qu'accorder du temps à chaque point constitue un acte de résistance poétique et une célébration du quotidien. »"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "« En définitive » pose une synthèse réflexive sur notre rapport au temps (« immédiateté » vs « résistance poétique »), valorisant l'artisanat dans toute sa dimension humaine et philosophique."
+          },
+          {
+            "type": "matching_drill",
+            "title": "Étape 21 : 🎯 Re-mémorisation lexicale — Correspondances trilingues",
+            "instructions": "Consolidez votre vocabulaire en associant chaque terme français à son équivalent trilingue (Anglais, Japonais, Chinois). Cliquez sur un mot en français puis sur sa traduction correspondante.",
+            "pairs": [
+              {
+                "id": "alchimie",
+                "fr": "Alchimie",
+                "en": "Alchemy / magical fusion",
+                "jp": "錬金術・奇跡の調和 (renkinjutsu)",
+                "cn": "炼金术 / 奇妙融合 (liànjīnshù)"
+              },
+              {
+                "id": "chute",
+                "fr": "Chute (de tissu)",
+                "en": "Fabric scrap / offcut",
+                "jp": "端切れ・余り布 (hagire / amarigire)",
+                "cn": "碎布 / 边角料 (suìbù)"
+              },
+              {
+                "id": "etoffe",
+                "fr": "Étoffe",
+                "en": "Fabric / material / cloth",
+                "jp": "織物・布地 (orimono / nunoji)",
+                "cn": "织物 / 布料 (zhīwù / bùliào)"
+              },
+              {
+                "id": "piecage",
+                "fr": "Piéçage (piecing)",
+                "en": "Piecing / patchwork assembly",
+                "jp": "ピーシング・布片の接ぎ合わせ",
+                "cn": "拼接 / 拼缝 (pīnjiē)"
+              },
+              {
+                "id": "gabarit",
+                "fr": "Gabarit",
+                "en": "Template / stencil pattern",
+                "jp": "型紙・テンプレート (katagami)",
+                "cn": "样板 / 纸样 (yàngbǎn)"
+              },
+              {
+                "id": "applique",
+                "fr": "Appliqué (applique)",
+                "en": "Applique / applied patch",
+                "jp": "アップリケ・縫い付け細工",
+                "cn": "贴布绣 / 贴花 (tiēbùxiù)"
+              },
+              {
+                "id": "matelassage",
+                "fr": "Matelassage (quilting)",
+                "en": "Quilting / padded stitching",
+                "jp": "キルティング・綿入れ刺し子",
+                "cn": "绗缝 / 压线 (hángféng)"
+              },
+              {
+                "id": "molleton",
+                "fr": "Molleton",
+                "en": "Batting / fleece padding",
+                "jp": "キルト芯・中綿 (kirutoshin)",
+                "cn": "衬棉 / 铺棉 (pūmián)"
+              },
+              {
+                "id": "surpiqure",
+                "fr": "Surpiqûre",
+                "en": "Topstitching / decorative stitch",
+                "jp": "ステッチ・飾り縫い (sutetchi)",
+                "cn": "明线 / 饰缝 (míngxiàn)"
+              },
+              {
+                "id": "ressac",
+                "fr": "Ressac",
+                "en": "Surf / backwash of waves",
+                "jp": "引き波・打ち寄せる波の余韻",
+                "cn": "回浪 / 拍岸浪 (huílàng)"
+              }
+            ]
           }
         ]
       }

@@ -608,3 +608,166 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
 
+/* Lesson Audio Player Bar */
+.lesson-audio-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--md-sys-color-surface);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 14px;
+  padding: 12px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.lesson-audio-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--md-sys-color-on-surface);
+}
+
+.lesson-tts-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary, #ffffff);
+  border: none;
+  border-radius: var(--md-shape-full);
+  padding: 8px 18px;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.lesson-tts-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lesson-tts-btn.playing {
+  background: #C94A29 !important;
+  color: #ffffff !important;
+  animation: pulseTts 1.5s infinite;
+}
+
+@keyframes pulseTts {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+/* Matching Drill Styles */
+.matching-drill-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.matching-pairs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: 18px;
+}
+
+@media (max-width: 680px) {
+  .matching-pairs-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+.matching-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.matching-col-title {
+  font-size: 0.825rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--md-sys-color-on-surface-variant);
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.matching-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--md-sys-color-surface);
+  border: 2px solid var(--md-sys-color-outline-variant);
+  border-radius: 14px;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  text-align: left;
+  user-select: none;
+  min-height: 52px;
+}
+
+.matching-card:hover:not(.matched):not(:disabled) {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-surface-variant);
+  transform: translateY(-1px);
+}
+
+.matching-card.selected {
+  border-color: var(--md-sys-color-primary) !important;
+  background: var(--md-sys-color-primary-container) !important;
+  color: var(--md-sys-color-on-primary-container) !important;
+  font-weight: 700;
+  box-shadow: 0 0 0 3px rgba(52, 104, 86, 0.25);
+}
+
+.matching-card.matched {
+  border-color: #346856 !important;
+  background: #E5F0EB !important;
+  color: #1B4336 !important;
+  font-weight: 600;
+  cursor: default;
+  opacity: 0.92;
+}
+
+.matching-card.wrong {
+  border-color: #BA3C3C !important;
+  background: #FDF0F0 !important;
+  color: #721C24 !important;
+  animation: matchShake 0.4s ease;
+}
+
+@keyframes matchShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+.matching-status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  background: var(--md-sys-color-surface-variant);
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--md-sys-color-on-surface-variant);
+}
+

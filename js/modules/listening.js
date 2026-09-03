@@ -11,8 +11,15 @@ class ListeningModule {
 
     this.initDOM();
     this.bindEvents();
-    this.renderEpisodesList();
+    this.render();
     this.loadTrack(0);
+  }
+
+  render() {
+    if (window.listeningDataset && window.listeningDataset.length > 0) {
+      this.dataset = window.listeningDataset;
+    }
+    this.renderEpisodesList();
   }
 
   initDOM() {

@@ -112,6 +112,10 @@ class App {
       if (typeof window.sessionsModule.render === 'function') {
         window.sessionsModule.render();
       }
+    } else if (tabId === 'listening' && window.listeningModule) {
+      if (typeof window.listeningModule.render === 'function') {
+        window.listeningModule.render();
+      }
     }
 
     if (typeof window !== 'undefined' && typeof window.scrollTo === 'function') {

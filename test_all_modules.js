@@ -1149,8 +1149,11 @@ if (statGrammar) {
 
 // Verify improvements (Ameliorations)
 suiteHeader("6. Verifications for Ameliorations.md");
-assertEqual(window.listeningDataset.length, 7, "listeningDataset has exactly 7 episodes");
+assertEqual(window.listeningDataset.length, 8, "listeningDataset has exactly 8 episodes");
 assertEqual(window.listeningDataset[6].id, 'rfi-ep-7', "7th episode ID is rfi-ep-7");
+assertEqual(window.listeningDataset[7].id, 'rfi-ep-8', "8th episode ID is rfi-ep-8");
+assertEqual(window.listeningDataset[7].audioUrl, 'audio/rfi_ep_8.mp3', "8th episode audioUrl is audio/rfi_ep_8.mp3");
+assert(window.listeningDataset[7].questions.length === 5, "8th episode has 5 pedagogical quiz questions");
 assert(window.listeningDataset[5].questions.length === 4, "RFI Episode 6 has exactly 4 questions (lq6-5 removed)");
 assertEqual(window.journeyDataset[0].quests[0].steps[2].title, "Registres de langue & Courtoisie", "Chapter 1 Step 3 title updated to 'Registres de langue & Courtoisie'");
 assertEqual(window.journeyDataset[5].quests[0].steps[2].title, "Grammaire : Exprimer la quantité", "Chapter 6 Step 3 title updated to 'Grammaire : Exprimer la quantité'");

@@ -1,6 +1,6 @@
 window.vocab_C1_Dataset = [
   {
-    "id": 1350,
+    "id": 1422,
     "word": "Abstraction",
     "phonetique": "/ap.stʁak.sjɔ̃/",
     "level": "C1",
@@ -74,7 +74,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1351,
+    "id": 1423,
     "word": "Allégorie",
     "phonetique": "/a.le.ɡɔ.ʁi/",
     "level": "C1",
@@ -148,7 +148,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1352,
+    "id": 1424,
     "word": "Ambivalence",
     "phonetique": "/ɑ̃.bi.va.lɑ̃s/",
     "level": "C1",
@@ -222,7 +222,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1353,
+    "id": 1425,
     "word": "Anachronisme",
     "phonetique": "/a.na.kʁɔ.nism/",
     "level": "C1",
@@ -296,7 +296,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1354,
+    "id": 1426,
     "word": "Analogie",
     "phonetique": "/a.na.lɔ.ʒi/",
     "level": "C1",
@@ -370,7 +370,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1355,
+    "id": 1427,
     "word": "Antithèse",
     "phonetique": "/ɑ̃.ti.tɛz/",
     "level": "C1",
@@ -444,7 +444,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1356,
+    "id": 1428,
     "word": "Aphorisme",
     "phonetique": "/a.fɔ.ʁism/",
     "level": "C1",
@@ -518,7 +518,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1357,
+    "id": 1429,
     "word": "Aporie",
     "phonetique": "/a.pɔ.ʁi/",
     "level": "C1",
@@ -592,7 +592,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1358,
+    "id": 1430,
     "word": "Archétype",
     "phonetique": "/aʁ.ke.tip/",
     "level": "C1",
@@ -666,7 +666,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1359,
+    "id": 1431,
     "word": "Assertion",
     "phonetique": "/a.sɛʁ.sjɔ̃/",
     "level": "C1",
@@ -740,7 +740,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1360,
+    "id": 1432,
     "word": "Assomption",
     "phonetique": "/a.sɔ̃p.sjɔ̃/",
     "level": "C1",
@@ -814,7 +814,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1361,
+    "id": 1433,
     "word": "Axiome",
     "phonetique": "/ak.sjom/",
     "level": "C1",
@@ -888,7 +888,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1362,
+    "id": 1434,
     "word": "Causalité",
     "phonetique": "/ko.za.li.te/",
     "level": "C1",
@@ -962,7 +962,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1363,
+    "id": 1435,
     "word": "Cogito",
     "phonetique": "/kɔ.ʒi.to/",
     "level": "C1",
@@ -1036,7 +1036,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1364,
+    "id": 1436,
     "word": "Conceptuel",
     "phonetique": "/kɔ̃.sɛp.tɥɛl/",
     "level": "C1",
@@ -1110,7 +1110,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1365,
+    "id": 1437,
     "word": "Conjecture",
     "phonetique": "/kɔ̃.ʒɛk.tyʁ/",
     "level": "C1",
@@ -1184,7 +1184,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1366,
+    "id": 1438,
     "word": "Contingence",
     "phonetique": "/kɔ̃.tɛ̃.ʒɑ̃s/",
     "level": "C1",
@@ -1258,7 +1258,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1367,
+    "id": 1439,
     "word": "Corollaire",
     "phonetique": "/ko.ʁo.lɛʁ/",
     "level": "C1",
@@ -1332,7 +1332,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1368,
+    "id": 1440,
     "word": "Dichotomie",
     "phonetique": "/di.kɔ.tɔ.mi/",
     "level": "C1",
@@ -1406,7 +1406,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1369,
+    "id": 1441,
     "word": "Dogmatisme",
     "phonetique": "/dɔɡ.ma.tism/",
     "level": "C1",
@@ -1480,7 +1480,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1370,
+    "id": 1442,
     "word": "Doxa",
     "phonetique": "/dɔk.sa/",
     "level": "C1",
@@ -1554,7 +1554,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1371,
+    "id": 1443,
     "word": "Dualisme",
     "phonetique": "/dɥa.lism/",
     "level": "C1",
@@ -1628,7 +1628,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1372,
+    "id": 1444,
     "word": "Empirisme",
     "phonetique": "/ɑ̃.pi.ʁism/",
     "level": "C1",
@@ -1702,7 +1702,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1373,
+    "id": 1445,
     "word": "Épistémologie",
     "phonetique": "/e.pis.te.mɔ.lɔ.ʒi/",
     "level": "C1",
@@ -1776,7 +1776,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1374,
+    "id": 1446,
     "word": "Essence",
     "phonetique": "/e.sɑ̃s/",
     "level": "C1",
@@ -1850,7 +1850,7 @@ window.vocab_C1_Dataset = [
     ]
   },
   {
-    "id": 1375,
+    "id": 1447,
     "word": "Exégèse",
     "phonetique": "/ɛɡ.ze.ʒɛz/",
     "level": "C1",

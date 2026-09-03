@@ -18646,11 +18646,5333 @@ window.vocab_B2_Dataset = [
         "jp": "地球規模の気候変動によって存亡の危機に瀕している貴重な植物生態系遺産を守り抜くため、国立高山植物園（ボタニカル・コンサバトリー）の専門植物学者チームは、絶滅の淵に立たされている何百種類もの希少な高山固有種の高山植物（エーデルワイスや高山リンドウ等）を、最新の環境制御型アルプス植物保護温室において大切に種子から育成・保存栽培（絶滅危惧植物の生息域外保存栽培）することに心血を注いでいます。"
       }
     ]
+  },
+  {
+    "id": 1350,
+    "word": "Inclusif",
+    "phonetique": "/ɛ̃.kly.zif/",
+    "level": "B2",
+    "theme": "Société & Inclusion",
+    "type": "adjectif • courant",
+    "definition": "Qui intègre et valorise les différences de chacun au sein d'un groupe ou d'une organisation.",
+    "traduction_anglais": "inclusive",
+    "traduction_chinois": "包容的，包罗万象的 (bāoróng de)",
+    "traduction_japonais": "包括的な、包摂的な (ほうせつてきな)",
+    "examples": [
+      {
+        "fr": "Notre entreprise met en place une politique d'embauche résolument inclusive afin de favoriser la mixité sociale.",
+        "en": "Our company is implementing a resolutely inclusive hiring policy to promote social diversity.",
+        "cn": "我们公司正在实施坚决包容的招聘政策，以促进社会多元化。",
+        "jp": "当社は社会的流動性と多様性を促進するため、極めて包括的な採用方針を導入しています。"
+      },
+      {
+        "fr": "Cette nouvelle crèche municipale accueille désormais les enfants en situation de handicap dans un cadre réellement inclusif.",
+        "en": "This new municipal nursery now welcomes children with disabilities in a truly inclusive setting.",
+        "cn": "这所新的市立托儿所如今在一个真正包容的环境中接纳残疾儿童。",
+        "jp": "この新しい市立保育園は、真に包括的な環境のもとで障害を持つ子どもたちを受け入れています。"
+      },
+      {
+        "fr": "L'usage d'une écriture inclusive suscite de vifs débats passionnés au sein de la communauté académique.",
+        "en": "The use of inclusive writing sparks heated and passionate debates within the academic community.",
+        "cn": "包容性写作（去性别化书写）的使用在学术界引发了激烈的讨论。",
+        "jp": "インクルーシブな表記法の使用は、学術界の中で激しい議論を巻き起こしています。"
+      },
+      {
+        "fr": "Les urbanistes repensent entièrement les espaces publics pour bâtir une métropole véritablement inclusive et accessible.",
+        "en": "Urban planners are completely redesigning public spaces to build a truly inclusive and accessible metropolis.",
+        "cn": "城市规划师正在彻底重新构思公共空间，以建设一座真正包容且无障碍的都市。",
+        "jp": "都市計画家たちは、真に包括的でアクセシブルな大都市を構築するため、公共空間を一新しています。"
+      },
+      {
+        "fr": "Favoriser un environnement de travail inclusif permet de stimuler la créativité et d'accroître la motivation collective.",
+        "en": "Fostering an inclusive work environment helps stimulate creativity and increase collective motivation.",
+        "cn": "营造一个包容的工作环境有助于激发创造力并增强团队的积极性。",
+        "jp": "包括的な労働環境を育むことは、創造性を刺激し全体のモチベーションを高めるのに役立ちます。"
+      },
+      {
+        "fr": "Plusieurs associations militent ardemment en faveur d'un modèle éducatif inclusif pour chaque élève en difficulté.",
+        "en": "Several associations campaign passionately for an inclusive educational model for every struggling student.",
+        "cn": "多个协会大力倡导为每位遇到困难的学生建立包容性教育模式。",
+        "jp": "複数の支援団体が、困難を抱えるすべての生徒のために包括的な教育モデルを熱心に求めています。"
+      },
+      {
+        "fr": "Le festival d'art moderne propose des parcours sensoriels particulièrement inclusifs destinés aux personnes malvoyantes.",
+        "en": "The modern art festival offers particularly inclusive sensory tours designed for visually impaired people.",
+        "cn": "现代艺术节为视力障碍人士推出了极具包容性的感官导览路线。",
+        "jp": "現代アートフェスティバルでは、視覚障害者のために配慮された極めて包括的な感覚体験ツアーを提供しています。"
+      },
+      {
+        "fr": "Adopter un langage institutionnel plus inclusif évite de marginaliser involontairement certaines catégories de citoyens.",
+        "en": "Adopting more inclusive institutional language avoids unintentionally marginalizing certain categories of citizens.",
+        "cn": "采用更具包容性的官方机构语言，可以避免无意中边缘化某些公民群体。",
+        "jp": "より包摂的な公的表現を採用することは、意図せず特定の市民層を疎外することを防ぎます。"
+      },
+      {
+        "fr": "Ce projet communautaire novateur prouve qu'un quartier solidaire et inclusif améliore notablement la sécurité de tous.",
+        "en": "This innovative community project proves that a caring and inclusive neighborhood significantly improves everyone's safety.",
+        "cn": "这个创新的社区项目证明，一个团结且包容的社区能够显著提升所有居民的安全性。",
+        "jp": "この革新的な地域プロジェクトは、結束力があり包括的な街が全員の安全性を著しく向上させることを証明しています。"
+      },
+      {
+        "fr": "La commission européenne encourage vivement des démarches culturelles inclusives pour rapprocher les populations défavorisées.",
+        "en": "The European Commission strongly encourages inclusive cultural initiatives to bring disadvantaged populations together.",
+        "cn": "欧盟委员会大力鼓励包容性的文化举措，以拉近与弱势群体的距离。",
+        "jp": "欧州委員会は、恵まれない人々との距離を縮めるために包括的な文化活動を強く推奨しています。"
+      }
+    ]
+  },
+  {
+    "id": 1351,
+    "word": "Discriminatoire",
+    "phonetique": "/dis.kʁi.mi.na.twaʁ/",
+    "level": "B2",
+    "theme": "Société & Inclusion",
+    "type": "adjectif • courant",
+    "definition": "Qui établit une distinction injuste ou illégitime entre des personnes selon des critères arbitraires.",
+    "traduction_anglais": "discriminatory",
+    "traduction_chinois": "歧视性的 (qíshì xìng de)",
+    "traduction_japonais": "差別的な (さべつてきな)",
+    "examples": [
+      {
+        "fr": "Le tribunal administratif a annulé ce décret préfectoral jugé profondément discriminatoire envers les demandeurs d'asile.",
+        "en": "The administrative court overturned this prefectural decree deemed deeply discriminatory towards asylum seekers.",
+        "cn": "行政法庭撤销了这项被认为对寻求庇护者带有严重歧视性的省长令。",
+        "jp": "行政裁判所は、難民申請者に対して極めて差別的であると判断された県知事令を無効にしました。"
+      },
+      {
+        "fr": "Refuser un logement à un candidat en raison de son patronyme constitue une pratique illégale et discriminatoire.",
+        "en": "Refusing housing to an applicant because of their surname constitutes an illegal and discriminatory practice.",
+        "cn": "仅仅因为申请者的姓氏而拒绝向其出租房屋，属于非法且具歧视性的做法。",
+        "jp": "苗字を理由に候補者への住宅提供を拒否することは、違法かつ差別的な慣行に当たります。"
+      },
+      {
+        "fr": "Les syndicats dénoncent des grilles salariales discriminatoires qui pénalisent systématiquement les employées féminines.",
+        "en": "Unions denounce discriminatory salary scales that systematically penalize female employees.",
+        "cn": "工会谴责那些系统性损害女性雇员利益的歧视性薪资标准。",
+        "jp": "労働組合は、女性従業員を組織的に不利に扱っている差別的な賃金体系を告発しています。"
+      },
+      {
+        "fr": "Cette directive patronale imposant une tenue stéréotypée a été condamnée car elle entretenait un traitement discriminatoire.",
+        "en": "This employer directive imposing stereotyped attire was condemned because it maintained discriminatory treatment.",
+        "cn": "这项强制推行刻板着装的雇主指令受到了谴责，因为它助长了歧视性待遇。",
+        "jp": "固定観念に基づく服装を義務付けたこの経営側の指示は、差別的待遇を助長するものとして非難されました。"
+      },
+      {
+        "fr": "L'association de consommateurs a relevé des clauses discriminatoires cachées dans les contrats de certaines banques en ligne.",
+        "en": "The consumer association noted discriminatory clauses hidden in the contracts of certain online banks.",
+        "cn": "消费者协会指出某些在线银行合同中隐藏着歧视性条款。",
+        "jp": "消費者団体は、一部のネット銀行の契約書に隠されていた差別的な条項を指摘しました。"
+      },
+      {
+        "fr": "Une plainte pénale a été immédiatement déposée contre cet algorithme de tri jugé foncièrement discriminatoire.",
+        "en": "A criminal complaint was immediately filed against this sorting algorithm deemed fundamentally discriminatory.",
+        "cn": "针对这种被认为具有根本歧视性的筛选算法，有关方面已立即提起刑事诉讼。",
+        "jp": "根本的に差別的であるとみなされたこの選別アルゴリズムに対し、直ちに刑事告訴がなされました。"
+      },
+      {
+        "fr": "Plusieurs candidats aux concours publics s'élèvent publiquement contre des critères d'évaluation qu'ils qualifient de discriminatoires.",
+        "en": "Several candidates for civil service examinations publicly speak out against evaluation criteria they qualify as discriminatory.",
+        "cn": "多名公务员考试候选人公开发声，反对他们称之为歧视性的评估标准。",
+        "jp": "公務員試験の受験生複数人が、差別的だとされる評価基準に対して公に抗議の声を上げています。"
+      },
+      {
+        "fr": "Aucune politique publique moderne ne saurait tolérer des règlements scolaires arbitraires et discriminatoires.",
+        "en": "No modern public policy can tolerate arbitrary and discriminatory school regulations.",
+        "cn": "现代公共政策绝不能容忍专断且具歧视性的学校规章制度。",
+        "jp": "いかなる現代の公共政策も、恣意的で差別的な校則を容認することはできません。"
+      },
+      {
+        "fr": "Le défenseur des droits veille rigoureusement à sanctionner tout comportement discriminatoire sur le marché du travail.",
+        "en": "The human rights ombudsman rigorously ensures that any discriminatory behavior in the labor market is sanctioned.",
+        "cn": "权利捍卫官严格监督并惩处劳动力市场上的任何歧视行为。",
+        "jp": "人権擁護官は、労働市場におけるいかなる差別的行為も厳格に処罰されるよう監視しています。"
+      },
+      {
+        "fr": "L'historien rappelle que des lois discriminatoires ont longtemps empêché les minorités de voter librement.",
+        "en": "The historian recalls that discriminatory laws long prevented minorities from voting freely.",
+        "cn": "历史学家提醒道，歧视性法律曾长期阻碍少数群体自由行使投票权。",
+        "jp": "歴史学者は、かつて差別的な法律が少数派の自由な投票を長期間にわたり阻んでいたことを想起させています。"
+      }
+    ]
+  },
+  {
+    "id": 1352,
+    "word": "Biais inconscient",
+    "phonetique": "/bjɛ.z‿ɛ̃.kɔ̃.sjɑ̃/",
+    "level": "B2",
+    "theme": "Société & Inclusion",
+    "type": "nom masculin • courant",
+    "definition": "Préjugé ou stéréotype non intentionnel qui influence nos jugements et nos décisions à notre insu.",
+    "traduction_anglais": "unconscious bias, implicit bias",
+    "traduction_chinois": "无意识偏见，潜意识偏差 (wú yìshí piānjiàn)",
+    "traduction_japonais": "無意識の偏見、アンコンシャス・バイアス",
+    "examples": [
+      {
+        "fr": "Chaque recruteur doit suivre une formation spécifique pour identifier et neutraliser ses propres biais inconscients.",
+        "en": "Every recruiter must undergo specific training to identify and neutralize their own unconscious biases.",
+        "cn": "每位招聘人员都必须接受专项培训，以识别并消除自身的无意识偏见。",
+        "jp": "すべての採用担当者は、自らの無意識の偏見を特定し中和するための特別な研修を受けなければなりません。"
+      },
+      {
+        "fr": "L'anonymisation des curriculums vitæ a permis de limiter l'impact néfaste du biais inconscient lors des pré-sélections.",
+        "en": "Anonymizing resumes made it possible to limit the harmful impact of unconscious bias during pre-selections.",
+        "cn": "简历匿名化有助于在初筛阶段限制无意识偏见的负面影响。",
+        "jp": "履歴書の匿名化によって、書類選考時における無意識の偏見の悪影響を抑えることが可能になりました。"
+      },
+      {
+        "fr": "Les neuroscientifiques démontrent que le biais inconscient découle de mécanismes cognitifs d'économie d'énergie mentale.",
+        "en": "Neuroscientists demonstrate that unconscious bias stems from cognitive mechanisms of mental energy conservation.",
+        "cn": "神经科学家证明，无意识偏见源自大脑节省心理能量的认知机制。",
+        "jp": "脳科学者たちは、無意識の偏見が精神的エネルギーを節約する認知メカニズムに由来することを証明しています。"
+      },
+      {
+        "fr": "Prendre conscience de ce biais inconscient constitue la première étape essentielle vers un management plus équitable.",
+        "en": "Becoming aware of this unconscious bias is the essential first step toward more equitable management.",
+        "cn": "意识到这种潜意识偏差是迈向更加公平的管理的第一步，也是关键的一步。",
+        "jp": "この無意識の偏見に気づくことは、より公平なマネジメントに向けた不可欠な第一歩となります。"
+      },
+      {
+        "fr": "Lors des jurys de concours, un biais inconscient peut parfois avantager les candidats s'exprimant avec un accent bourgeois.",
+        "en": "During examination boards, an unconscious bias can sometimes favor candidates speaking with an upper-class accent.",
+        "cn": "在评审委员会中，无意识偏见有时会偏向那些带有优渥阶层口音的候选人。",
+        "jp": "試験の審査員の間では、無意識の偏見によって上流階級のアクセントで話す受験者が有利になることがあります。"
+      },
+      {
+        "fr": "Des ateliers interactifs aident les soignants à repérer le biais inconscient dans le diagnostic médical.",
+        "en": "Interactive workshops help healthcare workers spot unconscious bias in medical diagnosis.",
+        "cn": "互动工作坊帮助医护人员发现医疗诊断过程中的潜意识偏差。",
+        "jp": "体験型ワークショップにより、医療従事者は医療診断における無意識の偏見を見抜く力を養っています。"
+      },
+      {
+        "fr": "Même les personnes animées des meilleures intentions restent vulnérables aux effets insidieux du biais inconscient.",
+        "en": "Even people with the best intentions remain vulnerable to the insidious effects of unconscious bias.",
+        "cn": "即便是出于最良好动机的人，也依然容易受到无意识偏见潜在的侵蚀。",
+        "jp": "最も善意に満ちた人でさえ、無意識の偏見がもたらす油断ならない影響に対して脆弱なままです。"
+      },
+      {
+        "fr": "Cette expérience de psychologie sociale illustre à quel point un biais inconscient modifie notre perception de la compétence.",
+        "en": "This social psychology experiment illustrates how much an unconscious bias alters our perception of competence.",
+        "cn": "这项社会心理学实验展示了无意识偏见在多大程度上改变了我们对能力的看法。",
+        "jp": "この社会心理学の実験は、無意識の偏見が有能さに対する知覚をいかに変容させてしまうかを物語っています。"
+      },
+      {
+        "fr": "L'intelligence artificielle reproduit souvent le biais inconscient présent dans les bases de données historiques d'entraînement.",
+        "en": "Artificial intelligence often replicates the unconscious bias present in historical training datasets.",
+        "cn": "人工智能往往会复制历史训练数据库中存在的潜意识偏见。",
+        "jp": "人工知能は、学習に用いられる過去のデータベースに存在する無意識の偏見をしばしば再現してしまいます。"
+      },
+      {
+        "fr": "Combattre efficacement ce biais inconscient exige un effort constant d'auto-évaluation et de remise en question personnelle.",
+        "en": "Effectively fighting this unconscious bias requires a constant effort of self-evaluation and personal questioning.",
+        "cn": "有效消除这种无意识偏见需要持续进行自我评估和反省。",
+        "jp": "この無意識の偏見と効果的に闘うには、自己評価と自己検証への絶え間ない努力が求められます。"
+      }
+    ]
+  },
+  {
+    "id": 1353,
+    "word": "Infirmer",
+    "phonetique": "/ɛ̃.fiʁ.me/",
+    "level": "B2",
+    "theme": "Société & Inclusion",
+    "type": "verbe transitif • courant",
+    "definition": "Démentir ou retirer sa validité à une hypothèse, une affirmation ou un jugement par des faits probants.",
+    "traduction_anglais": "to invalidate, to refute, to disprove",
+    "traduction_chinois": "证实……不实，推翻，否定 (tuīfān, fǒudìng)",
+    "traduction_japonais": "覆す、反証する (くつがえす、はんしょうする)",
+    "examples": [
+      {
+        "fr": "Les résultats de cette vaste enquête épidémiologique viennent infirmer la théorie avancée par les premiers chercheurs.",
+        "en": "The results of this extensive epidemiological survey invalidate the theory put forward by the early researchers.",
+        "cn": "这项大型流行病学调查的结果推翻了早期研究人员提出的理论。",
+        "jp": "この大規模な疫学調査の結果は、初期の研究者たちが提示した学説を反証するに至りました。"
+      },
+      {
+        "fr": "La cour d'appel a décidé d'infirmer le premier jugement en raison d'un vice de procédure manifeste.",
+        "en": "The court of appeal decided to overturn the initial ruling due to an obvious procedural flaw.",
+        "cn": "上诉法庭由于明显的程序漏洞，决定推翻一审判决。",
+        "jp": "控訴裁判所は、明らかな手続き上の不備を理由に第一審判決を破棄することを決定しました。"
+      },
+      {
+        "fr": "De nouvelles observations astronomiques semblent infirmer l'existence d'une planète tellurique autour de cette étoile lointaine.",
+        "en": "New astronomical observations seem to disprove the existence of a rocky planet around this distant star.",
+        "cn": "新的天文观测数据似乎否定了这颗遥远恒星周围存在类地行星的假设。",
+        "jp": "新たな天文学的観測は、この遠方の恒星の周囲に岩石惑星が存在するという説を否定しているようです。"
+      },
+      {
+        "fr": "Aucun document d'archive n'a permis d'infirmer le témoignage émouvant livré par ce rescapé du camp.",
+        "en": "No archival document managed to disprove the moving testimony given by this camp survivor.",
+        "cn": "没有任何档案文献能够推翻这位集中营幸存者所提供的感人证言。",
+        "jp": "収容所の生存者が残した心打つ証言を否定できるような公文書は一切見つかりませんでした。"
+      },
+      {
+        "fr": "Cette découverte archéologique inattendue risque d'infirmer plusieurs certitudes historiques établies depuis plus d'un siècle.",
+        "en": "This unexpected archaeological discovery risks invalidating several historical certainties established for over a century.",
+        "cn": "这一意想不到的考古发现可能会推翻一个多世纪以来确立的若干历史定论。",
+        "jp": "この予想外の考古学的発見は、1世紀以上にわたって確立されてきた歴史的定説を覆す恐れがあります。"
+      },
+      {
+        "fr": "Les données statistiques publiées ce matin réfutent et infirment les prévisions alarmistes du ministère des finances.",
+        "en": "The statistical data published this morning refute and invalidate the alarmist forecasts of the ministry of finance.",
+        "cn": "今早公布的统计数据驳斥并推翻了财政部此前敲响的警钟预测。",
+        "jp": "今朝公表された統計データは、財務省による危機感を煽る予測を退け、無効化しています。"
+      },
+      {
+        "fr": "Le porte-parole du gouvernement a tenu une conférence de presse pour infirmer formellement ces accusations d'espionnage.",
+        "en": "The government spokesperson held a press conference to formally deny these espionage allegations.",
+        "cn": "政府发言人举行新闻发布会，正式否认了这些间谍指控。",
+        "jp": "政府報道官は記者会見を開き、これらのスパイ疑惑を公式に否定しました。"
+      },
+      {
+        "fr": "Seule une contre-expertise scientifique rigoureuse pourra confirmer ou infirmer la présence de résidus toxiques dans l'eau.",
+        "en": "Only a rigorous scientific second opinion will be able to confirm or disprove the presence of toxic residues in the water.",
+        "cn": "只有严格的科学二次复核，才能证实或否定水中存在有毒残留物。",
+        "jp": "厳格な科学的再鑑定のみが、水中の有害残留物の有無を確認または否定することができます。"
+      },
+      {
+        "fr": "Plusieurs témoins crédibles sont venus infirmer la version présentée par le principal suspect du cambriolage.",
+        "en": "Several credible witnesses came forward to disprove the version presented by the prime burglary suspect.",
+        "cn": "多名可信的目击者出面推翻了入室盗窃主要嫌疑人给出的供词版本。",
+        "jp": "複数の信頼できる目撃証言により、空き巣の主犯格が主張していた供述内容が覆されました。"
+      },
+      {
+        "fr": "L'évolution récente du climat urbain tend à infirmer les modèles météorologiques simplistes utilisés jusqu'alors.",
+        "en": "The recent evolution of urban climate tends to invalidate the simplistic meteorological models used until now.",
+        "cn": "城市气候的最新演变往往会推翻迄今为止所使用的过于简化的气象模型。",
+        "jp": "最近の都市気候の変化傾向は、これまで用いられてきた単純化された気象モデルの妥当性を損なわせています。"
+      }
+    ]
+  },
+  {
+    "id": 1354,
+    "word": "Relativiser",
+    "phonetique": "/ʁə.la.ti.vi.ze/",
+    "level": "B2",
+    "theme": "Société & Inclusion",
+    "type": "verbe transitif • courant",
+    "definition": "Remettre un fait ou une difficulté en perspective sans la dramatiser ni la rejeter en bloc.",
+    "traduction_anglais": "to put into perspective, to relativize",
+    "traduction_chinois": "相对化看待，客观看待，降低严重性 (xiāngduìhuà kàndài)",
+    "traduction_japonais": "相対化する、大局的に捉える (そうたいかする)",
+    "examples": [
+      {
+        "fr": "Prendre du recul face à un échec professionnel permet de relativiser la gravité de la situation.",
+        "en": "Stepping back from a professional failure makes it possible to put the seriousness of the situation into perspective.",
+        "cn": "面对职业挫折退一步思考，有助于客观评估局势的严重性而不盲目悲观。",
+        "jp": "仕事上の失敗から一歩身を引いて考えることで、事態の深刻さを大局的に捉えることができます。"
+      },
+      {
+        "fr": "Les sociologues conseillent souvent de relativiser les chiffres sensationnels diffusés en continu par les chaînes d'information.",
+        "en": "Sociologists often advise putting into perspective the sensational figures broadcast continuously by news channels.",
+        "cn": "社会学家常常建议客观理性地看待新闻频道不间断播报的轰动性数据。",
+        "jp": "社会学者たちは、ニュース専門局が流し続ける刺激的な数字を大局的に捉え直すよう助言しています。"
+      },
+      {
+        "fr": "Cette comparaison internationale rigoureuse aide à relativiser l'ampleur du déficit public de notre pays.",
+        "en": "This rigorous international comparison helps put the scale of our country's public deficit into perspective.",
+        "cn": "这项严谨的国际对比有助于我们客观看待本国公共赤字的规模。",
+        "jp": "この厳格な国際比較は、自国の財政赤字の規模を客観的に見直すのに役立ちます。"
+      },
+      {
+        "fr": "Beaucoup d'experts financiers cherchent à relativiser la portée immédiate de cette baisse brutale des indices boursiers.",
+        "en": "Many financial experts seek to put the immediate scope of this sharp drop in stock indexes into perspective.",
+        "cn": "许多金融专家试图理性评估此次股票指数暴跌的直接影响。",
+        "jp": "多くの金融専門家は、今回の株価指数の急落がもたらす直接的な影響を冷静に評価しようとしています。"
+      },
+      {
+        "fr": "L'expérience acquise à l'étranger m'a appris à relativiser mes propres certitudes culturelles et morales.",
+        "en": "The experience gained abroad taught me to put my own cultural and moral certainties into perspective.",
+        "cn": "在海外积累的经验教会了我客观看待自己原本固有的文化与道德观念。",
+        "jp": "海外で得た経験を通じて、自分自身の文化的・道徳的な確信を相対化して見つめ直すことを学びました。"
+      },
+      {
+        "fr": "Le médecin rassure son patient en tentant de relativiser les effets secondaires probables du traitement prescrit.",
+        "en": "The doctor reassures his patient by attempting to put the likely side effects of the prescribed treatment into perspective.",
+        "cn": "医生向患者解释处方药可能出现的副作用以消除其顾虑，使其放宽心态。",
+        "jp": "医師は処方された治療に伴う可能性のある副作用を冷静に説明し、患者を安心させようとしています。"
+      },
+      {
+        "fr": "Un bon médiateur s'efforce toujours de relativiser les divergences afin de rapprocher les parties en conflit.",
+        "en": "A good mediator always strives to put differences into perspective in order to bring conflicting parties closer.",
+        "cn": "一位优秀的调解员总是努力淡化并客观分析分歧，从而拉近冲突双方的立场。",
+        "jp": "優れた仲裁者は、対立する当事者を歩み寄らせるために常に相違点を客観化するよう努めます。"
+      },
+      {
+        "fr": "Confronter plusieurs opinions contradictoires incite chacun à relativiser son propre point de vue.",
+        "en": "Confronting several conflicting opinions encourages everyone to put their own point of view into perspective.",
+        "cn": "面对多种截然不同的观点，促使每个人重新审视并客观看待自己的看法。",
+        "jp": "対立する複数の意見を突き合わせることで、誰もが自らの視点を相対化して捉え直すよう促されます。"
+      },
+      {
+        "fr": "Bien que le retard soit regrettable, l'équipe technique invite la direction à relativiser l'incident matériel.",
+        "en": "Although the delay is regrettable, the technical team invites management to put the hardware incident into perspective.",
+        "cn": "尽管延误令人遗憾，技术团队仍建议管理层理性看待这起设备故障事件。",
+        "jp": "遅れは遺憾ではあるものの、技術チームは経営陣に対して機器トラブルを大局的に捉えるよう求めています。"
+      },
+      {
+        "fr": "Le professeur d'histoire incite ses élèves à relativiser les événements contemporains à la lumière du passé.",
+        "en": "The history teacher encourages his students to put contemporary events into perspective in light of the past.",
+        "cn": "历史老师鼓励学生结合过去的教训，客观审视当代的时事热点。",
+        "jp": "歴史の教師は生徒たちに対し、過去の出来事に照らして現代の出来事を相対化するよう促しています。"
+      }
+    ]
+  },
+  {
+    "id": 1355,
+    "word": "Reconversion",
+    "phonetique": "/ʁə.kɔ̃.vɛʁ.sjɔ̃/",
+    "level": "B2",
+    "theme": "Travail & Économie",
+    "type": "nom féminin • courant",
+    "definition": "Changement radical d'orientation professionnelle, de métier ou de secteur d'activité économique.",
+    "traduction_anglais": "retraining, career change, redeployment",
+    "traduction_chinois": "转行，职业转型，产业转型 (zhuǎnháng)",
+    "traduction_japonais": "転職、業種転換、リスキリング (てんしょく)",
+    "examples": [
+      {
+        "fr": "Après vingt ans dans la finance, Julien a brillamment réussi sa reconversion dans l'ébénisterie artisanale.",
+        "en": "After twenty years in finance, Julien brilliantly succeeded in his retraining into craft cabinetmaking.",
+        "cn": "在金融业工作二十年后，朱利安成功转行成为一名手工艺木匠。",
+        "jp": "金融業界で20年間働いた後、ジュリアンは見事に家具職人への転職を果たしました。"
+      },
+      {
+        "fr": "Les aides publiques facilitent grandement la reconversion professionnelle des salariés menacés par l'automatisation.",
+        "en": "Public subsidies greatly facilitate the career transition of employees threatened by automation.",
+        "cn": "政府补贴极大便利了那些面临自动化威胁的员工进行职业转型。",
+        "jp": "公的支援金は、自動化の脅威にさらされている労働者のキャリア転換を大いに促進しています。"
+      },
+      {
+        "fr": "Ce bassin industriel sinistré engage une ambitieuse reconversion écologique pour attirer des entreprises innovantes.",
+        "en": "This stricken industrial basin is embarking on an ambitious green transition to attract innovative companies.",
+        "cn": "这片衰败的工业区正展开雄心勃勃的生态产业转型，以吸引创新企业入驻。",
+        "jp": "深刻な打撃を受けたこの工業地帯は、革新的な企業を呼び込むために野心的な環境転換に着手しています。"
+      },
+      {
+        "fr": "Entreprendre une telle reconversion demande souvent de lourds sacrifices financiers et une volonté sans faille.",
+        "en": "Undertaking such a career change often requires heavy financial sacrifices and an unwavering will.",
+        "cn": "进行这样一场转行往往需要巨大的经济牺牲和坚如磐石的意志。",
+        "jp": "このような思い切った転職に踏み切るには、多大な金銭的犠牲と揺るぎない意志が必要となることがよくあります。"
+      },
+      {
+        "fr": "Des bilans de compétences aident les quadragénaires à planifier sereinement leur reconversion vers les métiers du numérique.",
+        "en": "Skills assessments help people in their forties serenely plan their retraining toward digital careers.",
+        "cn": "职业技能评估帮助四十多岁的人从容规划向数字科技职业的转型。",
+        "jp": "キャリア診断は、40代の人々がIT分野の職種への転職を安心して計画するのに役立っています。"
+      },
+      {
+        "fr": "L'université régionale propose des cursus courts spécifiquement adaptés aux adultes en reconversion.",
+        "en": "The regional university offers short degree programs specifically tailored to adults undergoing retraining.",
+        "cn": "这所地区大学开设了专门针对成年转行人士的短期文凭课程。",
+        "jp": "地域の大学では、キャリア転換を目指す社会人に特化した短期教育プログラムを提供しています。"
+      },
+      {
+        "fr": "La fermeture programmée de la centrale nucléaire obligera des centaines de techniciens à une reconversion forcée.",
+        "en": "The planned closure of the nuclear power plant will force hundreds of technicians into mandatory retraining.",
+        "cn": "核电站的计划关闭将迫使数百名技术人员不得不接受转岗培训与职业转型。",
+        "jp": "原子力発電所の計画閉鎖により、何百人もの技術者が不本意な配置転換を余儀なくされることになります。"
+      },
+      {
+        "fr": "Chaque année, des milliers de cadres démissionnent pour tenter une reconversion passionnante dans l'agriculture biologique.",
+        "en": "Every year, thousands of executives resign to try an exciting retraining into organic farming.",
+        "cn": "每年都有数以千计的管理人员辞职，满怀热情地投身于有机农业的职业转型。",
+        "jp": "毎年、何千人もの企業幹部が辞職し、有機農業というやりがいのある転身に挑戦しています。"
+      },
+      {
+        "fr": "Le dispositif de formation continue garantit le maintien du salaire pendant toute la durée de la reconversion.",
+        "en": "The continuing education scheme guarantees salary maintenance throughout the entire duration of the career transition.",
+        "cn": "继续职业培训机制确保转行受训期间的薪资待遇不受影响。",
+        "jp": "継続職業訓練制度により、キャリア転換の全期間を通じて給与の維持が保証されます。"
+      },
+      {
+        "fr": "La crise sanitaire a accéléré le désir de reconversion chez les professionnels en quête d'un travail porteur de sens.",
+        "en": "The health crisis accelerated the desire for a career change among professionals seeking meaningful work.",
+        "cn": "公共卫生危机加速了专业人士寻求更有意义工作的转行动力。",
+        "jp": "衛生危機は、意義のある仕事を求める専門職層の間で転職への意欲を急速に高めました。"
+      }
+    ]
+  },
+  {
+    "id": 1356,
+    "word": "Épanouissement",
+    "phonetique": "/e.pa.nwi.smɑ̃/",
+    "level": "B2",
+    "theme": "Travail & Économie",
+    "type": "nom masculin • courant",
+    "definition": "Sentiment profond de satisfaction, de plénitude et de réalisation de son plein potentiel.",
+    "traduction_anglais": "fulfillment, blossoming, flourishing",
+    "traduction_chinois": "充实感，全面发展，幸福成就感 (chōngshígǎn)",
+    "traduction_japonais": "自己実現、充実感、開花 (じこじつげん)",
+    "examples": [
+      {
+        "fr": "Trouver un équilibre durable entre vie privée et responsabilités professionnelles favorise grandement l'épanouissement personnel.",
+        "en": "Finding a lasting balance between private life and professional duties greatly fosters personal fulfillment.",
+        "cn": "在个人生活与工作职责之间找到长久平衡，能极大促进个人的全面发展与满足感。",
+        "jp": "私生活と仕事の責任との間に持続可能な調和を見出すことは、個人の充実感を大いに高めます。"
+      },
+      {
+        "fr": "Les jeunes diplômés privilégient désormais le bien-être et l'épanouissement au travail plutôt que la seule rémunération.",
+        "en": "Young graduates now prioritize well-being and fulfillment at work rather than remuneration alone.",
+        "cn": "年轻毕业生如今更看重职场上的幸福感和自我实现，而非仅仅看重薪资待遇。",
+        "jp": "若い大学卒業者たちは今や、単なる報酬の多さよりも職場での幸福や自己実現を優先しています。"
+      },
+      {
+        "fr": "La pratique régulière d'une discipline sportive contribue activement à l'épanouissement physique et psychologique des adolescents.",
+        "en": "The regular practice of a sports discipline actively contributes to the physical and psychological blossoming of teenagers.",
+        "cn": "定期进行体育运动对青少年的身心健康和全面成长起着积极作用。",
+        "jp": "定期的なスポーツの実践は、青少年の身体的および精神的な健やかな充実に積極的に寄与します。"
+      },
+      {
+        "fr": "Cette méthode pédagogique novatrice place l'épanouissement spontané de chaque écolier au cœur des apprentissages fondamentaux.",
+        "en": "This innovative teaching method places the spontaneous blossoming of each schoolchild at the heart of core learning.",
+        "cn": "这种创新的教学方法将每个小学生的自主快乐成长置于基础学习的核心地位。",
+        "jp": "この革新的な教育指導法は、基礎的な学びの中心に個々の児童の自発的な成長と充実を据えています。"
+      },
+      {
+        "fr": "Le management bienveillant vise avant tout à créer des conditions propices à l'épanouissement de chaque collaborateur.",
+        "en": "Caring management aims above all to create conditions conducive to the flourishing of each team member.",
+        "cn": "善意包容的管理方式旨在为每位员工创造有利于发挥潜能和实现自我的工作环境。",
+        "jp": "思いやりのあるマネジメントは、各従業員の自己実現につながる好適な環境づくりを第一の目標としています。"
+      },
+      {
+        "fr": "L'accès universel aux activités artistiques demeure une condition indispensable pour l'épanouissement culturel d'une communauté.",
+        "en": "Universal access to artistic activities remains an essential condition for the cultural flourishing of a community.",
+        "cn": "普遍享受艺术活动依然是一个社区实现文化繁荣与精神充实的必不可少的条件。",
+        "jp": "芸術活動への普遍的なアクセスは、地域社会の文化的な開花にとって不可欠な条件であり続けています。"
+      },
+      {
+        "fr": "Plusieurs salariés affirment avoir retrouvé leur épanouissement après avoir réduit leur temps de travail hebdomadaire.",
+        "en": "Several employees claim to have regained their fulfillment after reducing their weekly working hours.",
+        "cn": "多名员工表示，在缩短每周工时后，他们重新找回了内心的充实与快乐。",
+        "jp": "数名の労働者が、週あたりの労働時間を短縮したことで生活の充実感を再び取り戻したと語っています。"
+      },
+      {
+        "fr": "L'expression libre des sentiments joue un rôle déterminant dans l'épanouissement affectif des jeunes enfants.",
+        "en": "The free expression of feelings plays a decisive role in the emotional blossoming of young children.",
+        "cn": "情感的自由表达在幼童的情感成熟与身心健全发展中起着决定性作用。",
+        "jp": "感情の自由な表現は、幼児期の情緒的な発達と健やかな成長において決定的な役割を果たします。"
+      },
+      {
+        "fr": "Ce voyage humanitaire de six mois a été une étape charnière pour l'épanouissement moral de cette étudiante.",
+        "en": "This six-month humanitarian journey was a turning point for this student's moral and personal fulfillment.",
+        "cn": "这趟为期六个月的人道主义之旅，成为了这名女大学生心灵成长与自我实现的转折点。",
+        "jp": "この6ヶ月間の人道支援活動の旅は、その女子学生の精神的成熟と充実にとって大きな転機となりました。"
+      },
+      {
+        "fr": "Aucune réussite matérielle ne saurait compenser le manque d'épanouissement ressenti dans une carrière trop routinière.",
+        "en": "No material success can compensate for the lack of fulfillment felt in an overly routine career.",
+        "cn": "任何物质财富的成功，都无法弥补在过于千篇一律的职业中所缺失的成就感与充实感。",
+        "jp": "いかなる物質的な成功も、単調すぎるキャリアの中で感じる自己実現の欠如を補うことはできません。"
+      }
+    ]
+  },
+  {
+    "id": 1357,
+    "word": "Employabilité",
+    "phonetique": "/ɑ̃.plwa.ja.bi.li.te/",
+    "level": "B2",
+    "theme": "Travail & Économie",
+    "type": "nom féminin • courant",
+    "definition": "Capacité d'un individu à trouver, conserver et adapter ses compétences pour maintenir un emploi valorisant.",
+    "traduction_anglais": "employability",
+    "traduction_chinois": "就业能力，适岗能力 (jiùyè nénglì)",
+    "traduction_japonais": "雇用可能性、就業能力、エンプロイヤビリティ",
+    "examples": [
+      {
+        "fr": "La formation continue tout au long de la carrière professionnelle renforce durablement l'employabilité des seniors.",
+        "en": "Lifelong learning throughout one's professional career sustainably strengthens the employability of senior workers.",
+        "cn": "贯穿整个职业生涯的继续教育能够长期增强资深员工的就业能力。",
+        "jp": "職業生涯を通じた生涯学習は、シニア層の雇用可能性を持続的に強化します。"
+      },
+      {
+        "fr": "L'acquisition de compétences numériques de pointe constitue un atout majeur pour préserver son employabilité future.",
+        "en": "Acquiring cutting-edge digital skills is a major asset for preserving one's future employability.",
+        "cn": "掌握前沿数字技能是保持未来就业竞争力的重要法宝。",
+        "jp": "最先端のデジタルスキルを習得することは、将来の就業能力を維持するための大きな強みとなります。"
+      },
+      {
+        "fr": "Les réformes gouvernementales récentes cherchent à stimuler l'employabilité des jeunes sortis du système scolaire sans diplôme.",
+        "en": "Recent government reforms seek to boost the employability of young people leaving the school system without qualifications.",
+        "cn": "近期出台的政府改革举措旨在提高那些无文凭离校青年的就业能力。",
+        "jp": "最近の政府改革は、資格を持たずに学校教育を終えた若者の雇用可能性を高めることを目指しています。"
+      },
+      {
+        "fr": "Maîtriser couramment deux langues vivantes étrangères accroît indiscutablement l'employabilité sur le marché international.",
+        "en": "Fluently mastering two modern foreign languages undeniably increases employability on the international market.",
+        "cn": "熟练掌握两门现代外语无疑会增强在国际职场中的就业竞争力。",
+        "jp": "2つの生きた外国語を流暢に操ることは、国際市場における雇用可能性を明白に高めます。"
+      },
+      {
+        "fr": "Cette école de commerce met en avant le taux exceptionnel d'employabilité de ses récents lauréats.",
+        "en": "This business school highlights the outstanding employability rate of its recent graduates.",
+        "cn": "这所商学院特别突出了其应届毕业生的卓越就业率与适岗能力。",
+        "jp": "このビジネススクールは、最近の卒業生が誇る並外れた就職適応率の高さを強調しています。"
+      },
+      {
+        "fr": "L'obsolescence rapide des outils technologiques pose un défi redoutable pour l'employabilité des techniciens industriels.",
+        "en": "The rapid obsolescence of technological tools poses a formidable challenge to the employability of industrial technicians.",
+        "cn": "技术工具的迅速更新淘汰，对工业技术人员的就业能力构成了严峻挑战。",
+        "jp": "技術的ツールの急速な陳腐化は、製造業の技術者たちの就業維持能力にとって手ごわい課題を突きつけています。"
+      },
+      {
+        "fr": "Des stages d'immersion pratique en entreprise améliorent concrètement l'employabilité des demandeurs d'emploi de longue durée.",
+        "en": "Practical corporate immersion internships tangibly improve the employability of long-term job seekers.",
+        "cn": "企业实地浸润式实习切实改善了长期求职者的适岗与受雇能力。",
+        "jp": "企業での実務体験インターンシップは、長期求職者の雇用可能性を具体的に向上させます。"
+      },
+      {
+        "fr": "Certains économistes contestent la notion d'employabilité lorsqu'elle culpabilise à l'excès les personnes au chômage.",
+        "en": "Some economists dispute the concept of employability when it excessively blames unemployed people.",
+        "cn": "当就业能力这一概念过度将失业责任归咎于失业人员个人时，引起了一些经济学家的质疑。",
+        "jp": "失業者に対して過剰に自己責任を負わせるような場合、一部の経済学者は雇用可能性という概念そのものに異議を唱えます。"
+      },
+      {
+        "fr": "Développer ses compétences comportementales et relationnelles permet d'assurer son employabilité face à l'avènement de l'IA.",
+        "en": "Developing one's soft and interpersonal skills helps ensure employability in the face of the advent of AI.",
+        "cn": "提升软实力与人际沟通技巧，有助于在人工智能时代立于不败之地并确保自身的就业能力。",
+        "jp": "対人関係やソフトスキルを磨くことは、AIの台頭に直面しても自身の就業能力を確保することにつながります。"
+      },
+      {
+        "fr": "Le plan stratégique de la branche automobile prévoit un fonds dédié au maintien de l'employabilité globale.",
+        "en": "The automotive industry's strategic plan includes a fund dedicated to maintaining overall employability.",
+        "cn": "汽车行业的战略规划设立了专项基金，用于维持全行业的整体适岗与就业能力。",
+        "jp": "自動車業界の戦略計画には、産業全体の就業能力維持に特化した基金の設立が盛り込まれています。"
+      }
+    ]
+  },
+  {
+    "id": 1358,
+    "word": "Engendrer",
+    "phonetique": "/ɑ̃.ʒɑ̃.dʁe/",
+    "level": "B2",
+    "theme": "Travail & Économie",
+    "type": "verbe transitif • courant",
+    "definition": "Avoir pour effet direct d'occasionner, de produire ou de causer l'apparition d'un phénomène.",
+    "traduction_anglais": "to generate, to spawn, to bring about, to cause",
+    "traduction_chinois": "引发，导致，造成 (yǐnfā, dǎozhì)",
+    "traduction_japonais": "引き起こす、生み出す、もたらす (ひきおこす)",
+    "examples": [
+      {
+        "fr": "La hausse brutale des cours du carburant risque d'engendrer une vague d'inflation générale dans tout le pays.",
+        "en": "The sudden rise in fuel prices risks generating a wave of general inflation throughout the country.",
+        "cn": "燃料价格的急剧上涨有可能在全国范围内引发一波普遍的通货膨胀。",
+        "jp": "燃料価格の急激な上昇は、国全体に全般的なインフレの波を引き起こす恐れがあります。"
+      },
+      {
+        "fr": "Cette restructuration brutale du groupe industriel va inévitablement engendrer de nombreuses tensions syndicales.",
+        "en": "This brutal restructuring of the industrial group will inevitably bring about numerous union tensions.",
+        "cn": "该工业集团的骤然重组势必会引发工会方面的诸多紧张关系与抵制。",
+        "jp": "この産業グループの強引な再編は、労働組合との間に多くの摩擦を必然的にもたらすことになります。"
+      },
+      {
+        "fr": "L'absence prolongée de concertation citoyenne a fini par engendrer une méfiance généralisée envers les élus locaux.",
+        "en": "The prolonged lack of citizen consultation ended up generating widespread distrust toward local officials.",
+        "cn": "长期缺乏公众协商最终导致了对地方民选官员的普遍不信任。",
+        "jp": "市民との協議が長期にわたって行われなかったことが、地方議員に対する全般的な不信感を生み出す結果となりました。"
+      },
+      {
+        "fr": "L'automatisation accélérée des chaînes de tri logistique pourrait engendrer de profondes mutations de l'emploi.",
+        "en": "The accelerated automation of logistics sorting lines could bring about profound mutations in employment.",
+        "cn": "物流分拣线的加速自动化可能会导致就业结构发生深刻转变。",
+        "jp": "物流仕分けラインの急速な自動化は、雇用形態の深遠な変化を引き起こす可能性があります。"
+      },
+      {
+        "fr": "Toute décision budgétaire précipitée peut engendrer des déficits imprévus lors du prochain exercice financier.",
+        "en": "Any hasty budgetary decision can spawn unforeseen deficits during the next fiscal year.",
+        "cn": "任何仓促的预算决策都可能在下一个财政年度造成意料之外的赤字。",
+        "jp": "いかなる拙速な予算決定も、次期会計年度において予期せぬ財政赤字を発生させるリスクを伴います。"
+      },
+      {
+        "fr": "Ce malentendu initial entre les deux directeurs a fini par engendrer un conflit durable au sein du département.",
+        "en": "This initial misunderstanding between the two directors ended up causing a lasting conflict within the department.",
+        "cn": "两位主管最初的误会最终在部门内部引发了一场旷日持久的冲突。",
+        "jp": "2人の取締役の間の当初の誤解が、結果として部門内に長期にわたる対立を引き起こしてしまいました。"
+      },
+      {
+        "fr": "Les inégalités de revenus persistantes contribuent à engendrer un sentiment profond de ressentiment chez les ouvriers.",
+        "en": "Persistent income inequalities contribute to generating a deep feeling of resentment among workers.",
+        "cn": "持续存在的收入不平等导致工人阶层心生强烈的怨恨情绪。",
+        "jp": "是正されない所得格差は、労働者層の間に根深い憤激の感情を生み出す要因となっています。"
+      },
+      {
+        "fr": "Une communication transparente et réactive permet d'éviter d'engendrer des rumeurs anxiogènes auprès du grand public.",
+        "en": "Transparent and responsive communication makes it possible to avoid causing anxiety-provoking rumors among the public.",
+        "cn": "透明及时的信息发布可以避免在广大公众中引发造成焦虑的谣言。",
+        "jp": "透明性のある迅速なコミュニケーションを行うことで、一般市民に不安をあおる噂が広まるのを防ぐことができます。"
+      },
+      {
+        "fr": "Les canicules successives de l'été viennent engendrer des pénuries d'eau potable dans plusieurs départements.",
+        "en": "Successive summer heatwaves are generating drinking water shortages in several administrative districts.",
+        "cn": "夏季连续的热浪在多个省份造成了饮用水短缺问题。",
+        "jp": "夏季の連続的な猛暑は、複数の県において飲料水不足を引き起こしています。"
+      },
+      {
+        "fr": "Chaque crise économique majeure a tendance à engendrer un renouveau des solidarités informelles de quartier.",
+        "en": "Every major economic crisis tends to bring about a renewal of informal neighborhood solidarity.",
+        "cn": "每一次重大经济危机往往都会激发邻里间非正式互助模式的复苏。",
+        "jp": "主要な経済危機は毎回、地域社会における自発的な相互扶助の再生をもたらす傾向があります。"
+      }
+    ]
+  },
+  {
+    "id": 1359,
+    "word": "Discernement",
+    "phonetique": "/di.sɛʁ.nə.mɑ̃/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom masculin • courant",
+    "definition": "Faculté d'apprécier sainement les choses, de distinguer le vrai du faux et d'exercer un jugement lucide.",
+    "traduction_anglais": "discernment, judgment, insight",
+    "traduction_chinois": "辨别力，洞察力，识见 (biànbiélì)",
+    "traduction_japonais": "分別、洞察力、見識 (ふんべつ、どうさつりょく)",
+    "examples": [
+      {
+        "fr": "Face au flot continu d'actualités non vérifiées, chaque citoyen doit faire preuve d'un grand discernement.",
+        "en": "Faced with the continuous flow of unverified news, every citizen must demonstrate great discernment.",
+        "cn": "面对源源不断未经核实的新闻流，每位公民都必须展现出极高的辨别能力。",
+        "jp": "真偽未確認のニュースが絶え間なく流れる中、市民の一人ひとりが高度な分別を発揮しなければなりません。"
+      },
+      {
+        "fr": "Les magistrats ont souligné le manque flagrant de discernement de l'accusé au moment des faits reprochés.",
+        "en": "The judges emphasized the defendant's blatant lack of judgment at the time of the alleged offenses.",
+        "cn": "法官特别指出被告人在案发当时明显缺乏清晰的辨别能力与判断力。",
+        "jp": "裁判官らは、犯行当時における被告人の明白な判断力の欠如を指摘しました。"
+      },
+      {
+        "fr": "Développer son esprit critique dès le collège permet d'acquérir le discernement indispensable à l'ère du numérique.",
+        "en": "Developing critical thinking from middle school onwards makes it possible to acquire the insight essential in the digital era.",
+        "cn": "从初中起培养批判性思维，有助于掌握在数字时代必不可少的洞察力与辨析力。",
+        "jp": "中学校から批判的思考を養うことは、デジタル時代に不可欠な分別を身につけることを可能にします。"
+      },
+      {
+        "fr": "Ce chef de projet expérimenté a su agir avec discernement pour désamorcer la crise au sein de son équipe.",
+        "en": "This experienced project manager acted with discernment to defuse the crisis within his team.",
+        "cn": "这位经验丰富的项目经理凭借敏锐的洞察力妥善行事，化解了团队内部的危机。",
+        "jp": "この経験豊かなプロジェクトリーダーは、的確な分別をもって行動し、チーム内の危機を鎮静化させました。"
+      },
+      {
+        "fr": "L'expertise d'un conservateur d'art exige un discernement visuel hors du commun pour démasquer les faux tableaux.",
+        "en": "An art curator's expertise requires extraordinary visual discernment to unmask fake paintings.",
+        "cn": "艺术品策展人的专业技能需要非凡的视觉鉴赏与辨识能力，以揭穿伪造画作。",
+        "jp": "美術館学芸員の専門技能には、贋作を見破るための並外れた視覚的鑑識眼が求められます。"
+      },
+      {
+        "fr": "Trop d'émotions immédiates obscurcissent la raison et empêchent d'exercer un discernement équilibré et serein.",
+        "en": "Too many immediate emotions cloud reason and prevent exercising balanced and serene discernment.",
+        "cn": "过多的当下情绪会蒙蔽理智，阻碍人们做出平衡客观、心平气和的准确判断。",
+        "jp": "過剰な直接的感情は理性を曇らせ、バランスの取れた冷静な見識を行使することを妨げます。"
+      },
+      {
+        "fr": "Le jury a salué la grande maturité et le discernement intellectuel remarquables de cette jeune lauréate.",
+        "en": "The jury commended the remarkable maturity and intellectual discernment of this young prize winner.",
+        "cn": "评审团高度赞扬了这位年轻获奖者展现出的非凡心智成熟度与睿智辨析力。",
+        "jp": "審査員は、この若き受賞者の際立った精神的成熟度と知的分別を高く評価しました。"
+      },
+      {
+        "fr": "Choisir ses partenaires d'affaires avec un discernement scrupuleux prémunit l'entrepreneur contre les faillites surprises.",
+        "en": "Choosing business partners with scrupulous discernment protects the entrepreneur against surprise bankruptcies.",
+        "cn": "怀着审慎的辨别力挑选商业合作伙伴，能保护创业者免受突如其来的破产打击。",
+        "jp": "細心の分別をもってビジネスパートナーを選ぶことは、起業家を不意の倒産から守る盾となります。"
+      },
+      {
+        "fr": "L'éducation civique apprend aux écoliers à distinguer la rumeur de la réalité avec méthode et discernement.",
+        "en": "Civic education teaches schoolchildren to distinguish rumor from reality with method and discernment.",
+        "cn": "公民教育教会小学生有条理、有判断力地区分传闻与客观现实。",
+        "jp": "公民教育は、生徒たちに順序立てた分別をもって噂と現実を見極める方法を教えます。"
+      },
+      {
+        "fr": "Une décision de justice impartiale repose toujours sur le discernement minutieux des preuves matérielles présentées.",
+        "en": "An impartial judicial decision always relies on the meticulous scrutiny and discernment of the physical evidence presented.",
+        "cn": "公正不偏的司法裁决始终依赖于对呈堂实物证据的细致审视与明智鉴别。",
+        "jp": "公平な司法判断は、常に提出された物的証拠の緻密な見極めと分別に基づいています。"
+      }
+    ]
+  },
+  {
+    "id": 1360,
+    "word": "Désinformation",
+    "phonetique": "/de.zɛ̃.fɔʁ.ma.sjɔ̃/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Diffusion délibérée de fausses informations dans l'intention de tromper, d'influencer ou de manipuler l'opinion.",
+    "traduction_anglais": "disinformation, fake news, misinformation",
+    "traduction_chinois": "虚假信息，造谣，蓄意假新闻 (xūjiǎ xìnxī)",
+    "traduction_japonais": "偽情報、デマ、意図的な誤報 (にせじょうほう)",
+    "examples": [
+      {
+        "fr": "Les réseaux sociaux sont fréquemment détournés pour orchestrer de vastes campagnes de désinformation politique.",
+        "en": "Social media platforms are frequently hijacked to orchestrate vast political disinformation campaigns.",
+        "cn": "社交网络平台经常被利用来策划大规模的政治虚假信息宣传活动。",
+        "jp": "ソーシャルメディアは、大規模な政治的偽情報キャンペーンを画策するためにしばしば悪用されます。"
+      },
+      {
+        "fr": "Lutter pied à pied contre la désinformation scientifique est devenu une priorité absolue de santé publique.",
+        "en": "Fighting tooth and nail against scientific disinformation has become an absolute public health priority.",
+        "cn": "全力抵制伪科学与虚假健康信息，已成为公共卫生领域的当务之急。",
+        "jp": "科学に関する偽情報と断固として戦うことは、公衆衛生上の絶対的な最優先課題となっています。"
+      },
+      {
+        "fr": "Cette agence indépendante a été spécifiquement créée pour détecter la désinformation étrangère pendant les élections.",
+        "en": "This independent agency was specifically created to detect foreign disinformation during elections.",
+        "cn": "这家独立机构专门为在选举期间监测和打击外国虚假信息而设立。",
+        "jp": "この独立機関は、選挙期間中における外国発の偽情報を検知するために特別に設立されました。"
+      },
+      {
+        "fr": "Une dangereuse stratégie de désinformation a trompé des milliers d'usagers sur la composition du vaccin.",
+        "en": "A dangerous disinformation strategy deceived thousands of users about the vaccine's composition.",
+        "cn": "一项危险的假信息策略在疫苗成分问题上误导了数以千计的用户。",
+        "jp": "危険な偽情報戦略によって、ワクチンの成分について何千人もの利用者が欺かれました。"
+      },
+      {
+        "fr": "Des cellules de vérification journalistique traquent sans relâche la désinformation générée par des intelligences artificielles.",
+        "en": "Journalistic fact-checking units relentlessly track down disinformation generated by artificial intelligence.",
+        "cn": "新闻事实核查小组正不知疲倦地追踪由人工智能生成的虚假信息。",
+        "jp": "ジャーナリズムのファクトチェック班は、人工知能によって生成された偽情報を絶え間なく追跡しています。"
+      },
+      {
+        "fr": "Le gouvernement renforce la législation afin de pénaliser sévèrement toute désinformation délibérée lors des crises.",
+        "en": "The government is tightening legislation in order to severely penalize any deliberate disinformation during crises.",
+        "cn": "政府正在加强立法，以严惩危机时期任何蓄意传播虚假信息的行为。",
+        "jp": "政府は、危機発生時におけるあらゆる意図的な偽情報の流布を厳罰化するため法整備を強化しています。"
+      },
+      {
+        "fr": "Sensibiliser les écoliers aux techniques de la désinformation les aide à développer des réflexes d'hygiène informationnelle.",
+        "en": "Educating schoolchildren about disinformation techniques helps them develop healthy media hygiene habits.",
+        "cn": "向小学生科普虚假信息的操纵手法，有助于他们养成良好的信息辨别习惯。",
+        "jp": "児童たちに偽情報の巧妙な手法を啓発することは、健全な情報リテラシーの習慣を育むのに役立ちます。"
+      },
+      {
+        "fr": "Cette vidéo truquée est un exemple caricatural de désinformation destinée à discréditer le candidat réformateur.",
+        "en": "This altered video is a caricatural example of disinformation designed to discredit the reforming candidate.",
+        "cn": "这段被篡改的视频是蓄意抹黑改革派候选人的虚假信息典型反面案例。",
+        "jp": "この改ざんされた動画は、改革派の候補者を失脚させることを意図した典型的な偽情報の事例です。"
+      },
+      {
+        "fr": "Plusieurs ONG alertent sur la désinformation climatique orchestrée par certains lobbys de l'énergie fossile.",
+        "en": "Several NGOs are warning against climate disinformation orchestrated by certain fossil fuel lobbies.",
+        "cn": "多家非政府组织对某些化石能源游说团体所策划的气候虚假信息发出警告。",
+        "jp": "複数のNGOが、一部の化石燃料ロビー団体によって画策された気候変動に関する偽情報に警鐘を鳴らしています。"
+      },
+      {
+        "fr": "La rapidité de propagation de la désinformation sur Internet dépasse désormais largement celle des rectificatifs officiels.",
+        "en": "The speed at which disinformation spreads on the Internet now far exceeds that of official corrections.",
+        "cn": "虚假信息在互联网上的传播速度目前已远远超过官方辟谣更正的速度。",
+        "jp": "インターネット上における偽情報の拡散スピードは、今や公式な訂正発表の速度をはるかに上回っています。"
+      }
+    ]
+  },
+  {
+    "id": 1361,
+    "word": "Biais cognitif",
+    "phonetique": "/bjɛ kɔɡ.ni.tif/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom masculin • courant",
+    "definition": "Déviation systématique et involontaire de la pensée logique qui altère le jugement et la prise de décision.",
+    "traduction_anglais": "cognitive bias",
+    "traduction_chinois": "认知偏差，认知偏误 (rènzhī piānchā)",
+    "traduction_japonais": "認知バイアス (にんちバイアス)",
+    "examples": [
+      {
+        "fr": "Le biais de confirmation est un biais cognitif poussant chacun à ne retenir que les faits confortant ses idées.",
+        "en": "Confirmation bias is a cognitive bias driving everyone to only retain facts that support their ideas.",
+        "cn": "确认偏误是一种认知偏差，促使每个人只记住那些符合自己既有观点的证据事实。",
+        "jp": "確証バイアスとは、自らの考えを補強する事実だけに目を向けさせる認知バイアスの典型です。"
+      },
+      {
+        "fr": "Identifier chaque biais cognitif courant permet d'améliorer considérablement la qualité des décisions financières stratégiques.",
+        "en": "Identifying each common cognitive bias makes it possible to considerably improve the quality of strategic financial decisions.",
+        "cn": "识别每种常见的认知偏差，有助于显著提升战略性财务决策的质量。",
+        "jp": "一般的な認知バイアスを特定することは、戦略的な財務決定の質を大幅に高めることを可能にします。"
+      },
+      {
+        "fr": "Les spécialistes du marketing exploitent sans scrupule ce biais cognitif pour inciter les clients à acheter compulsivement.",
+        "en": "Marketing specialists unscrupulously exploit this cognitive bias to prompt customers to buy compulsively.",
+        "cn": "营销专家毫无顾忌地利用这种认知偏差，诱导消费者冲动消费购物。",
+        "jp": "マーケティングの専門家たちは、消費者に衝動買いを促すためにこの認知バイアスを容赦なく利用しています。"
+      },
+      {
+        "fr": "Même les juges les plus chevronnés demeurent parfois influencés par un biais cognitif lié à la fatigue de fin de journée.",
+        "en": "Even the most seasoned judges sometimes remain influenced by a cognitive bias linked to end-of-day fatigue.",
+        "cn": "即便最资深的法官，有时也会受到一天工作结束时的疲劳所引发的认知偏差影响。",
+        "jp": "最も経験豊富な裁判官でさえ、一日の終わりの疲労に関連した認知バイアスに影響されることがあります。"
+      },
+      {
+        "fr": "Cette étude universitaire décortique minutieusement le biais cognitif d'ancrage qui fausse les négociations salariales annuelles.",
+        "en": "This academic study meticulously dissects the anchoring cognitive bias that distorts annual salary negotiations.",
+        "cn": "这项学术研究详尽剖析了在年度薪资谈判中扭曲评判的锚定认知偏差。",
+        "jp": "この大学の研究論文は、年次給与交渉を歪めてしまうアンカリング効果という認知バイアスを緻密に分析しています。"
+      },
+      {
+        "fr": "Un protocole médical strict est spécifiquement conçu pour prémunir les praticiens contre tout biais cognitif d'urgence.",
+        "en": "A strict medical protocol is specifically designed to protect practitioners against any emergency cognitive bias.",
+        "cn": "严格的医疗规程专门用于防止医护人员在急救情境下产生任何认知偏差。",
+        "jp": "厳格な医療手順は、緊急時におけるあらゆる認知バイアスから医療従事者を守るために特別に考案されています。"
+      },
+      {
+        "fr": "Comprendre les ressorts du biais cognitif favorise une pratique honnête du débat d'idées et de la controverse.",
+        "en": "Understanding the mechanics of cognitive bias fosters an honest practice of intellectual debate and controversy.",
+        "cn": "理解认知偏差的运作机制，有助于在思想争鸣与学术讨论中保持诚恳客观的探讨态度。",
+        "jp": "認知バイアスの仕組みを理解することは、意見交換や論争における誠実な姿勢を育むことにつながります。"
+      },
+      {
+        "fr": "Le biais cognitif d'excès de confiance conduit fréquemment les jeunes entrepreneurs à sous-estimer les risques de marché.",
+        "en": "The overconfidence cognitive bias frequently leads young entrepreneurs to underestimate market risks.",
+        "cn": "过度自信这一认知偏差常常导致年轻创业者低估市场潜在风险。",
+        "jp": "過信という認知バイアスは、若い起業家たちが市場リスクを過小評価してしまう原因にしばしばなります。"
+      },
+      {
+        "fr": "Notre cerveau recourt spontanément au biais cognitif pour simplifier des situations trop complexes à analyser rapidement.",
+        "en": "Our brain spontaneously resorts to cognitive bias to simplify situations that are too complex to analyze quickly.",
+        "cn": "我们的大脑会本能地依赖认知偏差来简化过于复杂而难以快速分析的情况。",
+        "jp": "私たちの脳は、迅速に分析するには複雑すぎる状況を簡略化するために、自発的に認知バイアスに頼ります。"
+      },
+      {
+        "fr": "Une formation universitaire en épistémologie enseigne aux futurs chercheurs comment neutraliser tout biais cognitif méthodologique.",
+        "en": "University training in epistemology teaches future researchers how to neutralize any methodological cognitive bias.",
+        "cn": "认识论方面的大学训练教会未来的科研工作者如何消除方法论上的认知偏差。",
+        "jp": "認識論の大学講義では、将来の研究者たちに方法論上の認知バイアスを中和する方法を指導しています。"
+      }
+    ]
+  },
+  {
+    "id": 1362,
+    "word": "Vérification",
+    "phonetique": "/ve.ʁi.fi.ka.sjɔ̃/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Action d'examiner et de contrôler avec rigueur l'exactitude, la conformité ou l'authenticité d'un fait ou d'une source.",
+    "traduction_anglais": "verification, fact-checking, audit, checking",
+    "traduction_chinois": "核实，核查，查证 (héshí, héchá)",
+    "traduction_japonais": "検証、確認、ファクトチェック (けんしょう、かくにん)",
+    "examples": [
+      {
+        "fr": "La vérification méthodique des sources constitue la règle d'or déontologique de tout journaliste d'investigation sérieux.",
+        "en": "The methodical verification of sources constitutes the golden ethical rule of any serious investigative journalist.",
+        "cn": "有条理地核实信息来源，构成了任何严肃的调查记者不可违背的职业道德黄金法则。",
+        "jp": "情報源の体系的な検証は、真摯な調査報道ジャーナリストにとって最大の倫理的黄金律を成しています。"
+      },
+      {
+        "fr": "Une minutieuse vérification comptable a permis de mettre au jour d'importantes anomalies financières dans l'entreprise.",
+        "en": "A meticulous accounting verification made it possible to uncover significant financial irregularities in the company.",
+        "cn": "细致的账目核查使得公司内部重大的财务违规行为浮出水面。",
+        "jp": "緻密な会計監査・検証によって、社内の重大な財務上の不正が明るみに出ることになりました。"
+      },
+      {
+        "fr": "Avant de relayer un contenu viral sensationnel, une rapide vérification sur un moteur de recherche s'impose toujours.",
+        "en": "Before sharing sensational viral content, a quick check on a search engine is always imperative.",
+        "cn": "在转发引起轰动的病毒式网络内容之前，始终有必要通过搜索引擎进行快速核实。",
+        "jp": "反響の大きいネットの投稿を拡散する前に、検索エンジンで手早く確認することが常に不可欠です。"
+      },
+      {
+        "fr": "Les ingénieurs ont procédé à la vérification approfondie des systèmes de sécurité avant le décollage de la fusée.",
+        "en": "Engineers carried out a thorough check of the safety systems before the rocket lifted off.",
+        "cn": "在火箭发射升空之前，工程师们对安全系统进行了全方位的深度核查。",
+        "jp": "ロケットの打ち上げを前に、エンジニアたちは安全装置の徹底的な最終確認を行いました。"
+      },
+      {
+        "fr": "Le protocole sanitaire de ce laboratoire pharmaceutique exige une double vérification systématique de chaque échantillon analysé.",
+        "en": "This pharmaceutical laboratory's health protocol requires a systematic double check of each analyzed sample.",
+        "cn": "这家制药实验室的卫生规程要求对每一个检测样本进行制度化的双重核对。",
+        "jp": "この製薬研究所の衛生規定では、分析された各サンプルの組織的な二重検証が義務付けられています。"
+      },
+      {
+        "fr": "Tout formulaire officiel envoyé à l'administration fiscale fait l'objet d'une stricte vérification automatisée.",
+        "en": "Every official form sent to the tax administration is subject to strict automated verification.",
+        "cn": "提交给税务部门的所有官方表格都会受到严格的自动化核查与比对。",
+        "jp": "税務当局に提出されたすべての公式書類は、厳格な自動検証システムの対象となります。"
+      },
+      {
+        "fr": "L'application bancaire mobile requiert une vérification biométrique instantanée avant d'autoriser tout virement suspect.",
+        "en": "The mobile banking app requires instant biometric verification before authorizing any suspicious transfer.",
+        "cn": "手机银行应用程序在批准任何可疑转账之前，都要求进行即时生物识别验证。",
+        "jp": "モバイルバンキングアプリは、不審な送金を承認する前に瞬時の生体認証確認を義務付けています。"
+      },
+      {
+        "fr": "Les historiens procèdent à la vérification croisée des récits pour démêler la légende de la réalité factuelle.",
+        "en": "Historians cross-verify accounts to untangle legend from factual reality.",
+        "cn": "历史学家对各类记述展开交叉核实，以理清神话传说与客观历史事实。",
+        "jp": "歴史家たちは、伝説と客観的な事実とを峻別するために証言記録の相互検証を行います。"
+      },
+      {
+        "fr": "Cette plateforme de commerce électronique garantit une vérification rigoureuse de l'identité de ses vendeurs partenaires.",
+        "en": "This e-commerce platform guarantees rigorous verification of the identity of its partner vendors.",
+        "cn": "该电子商务平台确保对其合作商家的身份进行严格细致的资质核查。",
+        "jp": "この電子商取引プラットフォームは、出店パートナー業者の身元に関する厳格な確認を保証しています。"
+      },
+      {
+        "fr": "Le comité scientifique a retardé la publication de l'article en attendant la vérification des calculs statistiques.",
+        "en": "The scientific committee delayed the publication of the article pending verification of the statistical calculations.",
+        "cn": "学术委员会推迟了论文的发表，以等待对统计计算结果的最终核实查验。",
+        "jp": "科学委員会は、統計計算の再検証が完了するまで論文の掲載を見合わせる判断を下しました。"
+      }
+    ]
+  },
+  {
+    "id": 1363,
+    "word": "Nécessité",
+    "phonetique": "/ne.sɛ.si.te/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Caractère de ce qui est absolument indispensable, inévitable ou imposé par les circonstances.",
+    "traduction_anglais": "necessity, need, requirement",
+    "traduction_chinois": "必要性，必不可少的事物，迫切需要 (bìyàoxìng)",
+    "traduction_japonais": "必然性、必要性 (ひつぜんせい、ひつようせい)",
+    "examples": [
+      {
+        "fr": "L'urgence écologique impose la nécessité absolue d'une transition énergétique rapide et concertée à l'échelle planétaire.",
+        "en": "The ecological emergency imposes the absolute necessity of a rapid and concerted energy transition globally.",
+        "cn": "生态危机的紧迫性使得全球范围内迅速协调开展能源转型成为绝对的当务之急。",
+        "jp": "環境危機の緊急性は、地球規模での迅速かつ協調的なエネルギー転換の絶対的な必要性を迫っています。"
+      },
+      {
+        "fr": "Faire de nécessité vertu permet souvent de transformer une contrainte budgétaire pénible en une opportunité créative.",
+        "en": "Making a virtue of necessity often allows turning a painful budgetary constraint into a creative opportunity.",
+        "cn": "把无可奈何的难处转化为积极动力，往往能将痛苦的预算限制转变为创新的契机。",
+        "jp": "必要に迫られて工夫を凝らすことは、厳しい予算上の制約を創造的な好機へと変える契機になります。"
+      },
+      {
+        "fr": "Les médecins hospitaliers rappellent la nécessité vitale d'aérer les salles de classe plusieurs fois par jour.",
+        "en": "Hospital doctors recall the vital necessity of ventilating classrooms several times a day.",
+        "cn": "医院医生提醒大家，每天数次开窗为教室通风具有极其重要的生命健康必要性。",
+        "jp": "病院の医師たちは、教室を1日に何度も換気することの極めて重要な必要性を再喚起しています。"
+      },
+      {
+        "fr": "Ce rapport parlementaire démontre la nécessité économique d'investir massivement dans la rénovation thermique des logements.",
+        "en": "This parliamentary report demonstrates the economic necessity of investing massively in the thermal insulation of housing.",
+        "cn": "这份议会报告阐明了大规模投资住宅建筑保暖改造的经济必要性。",
+        "jp": "この議会報告書は、住宅の断熱改修に大規模な投資を行うことの経済的必然性を実証しています。"
+      },
+      {
+        "fr": "La dégradation rapide des infrastructures ferroviaires a créé une impérieuse nécessité de modernisation des voies.",
+        "en": "The rapid deterioration of railway infrastructure created an imperative necessity to modernize the tracks.",
+        "cn": "铁路基础设施的快速老化，造成了对轨道线路进行现代化升级改造的紧迫必要性。",
+        "jp": "鉄道インフラの急速な劣化は、線路設備の近代化という極めて差し迫った必要性を生み出しました。"
+      },
+      {
+        "fr": "Parler de nécessité morale n'a de sens que si les citoyens disposent d'un réel pouvoir d'action démocratique.",
+        "en": "Speaking of moral necessity only makes sense if citizens have real democratic power of action.",
+        "cn": "唯有当公民真正拥有民主行动的权力时，谈论道德上的必要性才有实际意义。",
+        "jp": "道徳的必要性について語ることは、市民が真の民主的行動力を持っていて初めて意味を持ちます。"
+      },
+      {
+        "fr": "Dans les situations de crise humanitaire extrême, la solidarité internationale s'impose comme une évidence et une nécessité.",
+        "en": "In situations of extreme humanitarian crisis, international solidarity emerges as an obvious fact and a necessity.",
+        "cn": "在极端人道主义危机的局势下，国际团结互助是不言自明的迫切需要与行动准则。",
+        "jp": "極限の人道危機的状況においては、国際的な連帯が自明の理であり不可欠な必要性として立ち現れます。"
+      },
+      {
+        "fr": "L'avocat de la défense a plaidé l'état de nécessité pour justifier l'infraction commise par son client démuni.",
+        "en": "The defense attorney pleaded necessity to justify the offense committed by his destitute client.",
+        "cn": "辩护律师提出了“紧急避险/迫于生计”的主张，以为其身无分文的当事人的轻微过错进行辩护。",
+        "jp": "弁護人は、困窮した依頼人が犯した違反行為を正当化するため緊急避難の必要性を主張しました。"
+      },
+      {
+        "fr": "Les philosophes grecs débattaient déjà ardemment du conflit perpétuel entre la libre volonté humaine et la dure nécessité.",
+        "en": "Greek philosophers were already debating passionately about the perpetual conflict between human free will and harsh necessity.",
+        "cn": "古希腊哲学家们早已对人类自由意志与严酷命运必然性之间的永恒冲突展开了热烈论辩。",
+        "jp": "ギリシャの哲学者たちは、人間の自由意志と過酷な必然性との間の果てしない対立について議論していました。"
+      },
+      {
+        "fr": "Comprendre la nécessité d'un compromis politique est la marque indéniable des grands hommes d'État visionnaires.",
+        "en": "Understanding the necessity of political compromise is the undeniable mark of great visionary statesmen.",
+        "cn": "理解政治妥协的必要性与现实意义，是有远见的杰出政治家的无可置疑的标志。",
+        "jp": "政治的妥協の必要性を理解することは、先見の明を持つ偉大な政治指導者の紛れもない証しです。"
+      }
+    ]
+  },
+  {
+    "id": 1364,
+    "word": "Conséquence",
+    "phonetique": "/kɔ̃.se.kɑ̃s/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Suite, effet direct ou contrecoup logique qui découle nécessairement d'une cause ou d'un acte préalable.",
+    "traduction_anglais": "consequence, outcome, result, impact",
+    "traduction_chinois": "后果，结果，影响 (hòuguǒ, jiéguǒ)",
+    "traduction_japonais": "結果、影響、結末 (けっか、えいきょう)",
+    "examples": [
+      {
+        "fr": "La pollution atmosphérique chronique entraîne de lourdes conséquences sanitaires sur le développement pulmonaire des enfants.",
+        "en": "Chronic air pollution entails severe health consequences for children's lung development.",
+        "cn": "长期的空气污染会对儿童的肺部发育造成极其严重的健康后果。",
+        "jp": "慢性的な大気汚染は、子どもたちの肺の発育に対して深刻な健康被害・結果をもたらします。"
+      },
+      {
+        "fr": "Chaque décision d'urbanisme prise aujourd'hui aura une conséquence majeure sur la qualité de vie des futures générations.",
+        "en": "Every urban planning decision made today will have a major consequence on future generations' quality of life.",
+        "cn": "今天做出的每一项城市规划决策，都会对后代的生活品质产生重大而深远的影响。",
+        "jp": "今日下される都市計画の決定の一つひとつが、将来の世代の生活の質に重大な影響を及ぼします。"
+      },
+      {
+        "fr": "Les climatologues s'alarment des conséquences dramatiques de la fonte accélérée des calottes glaciaires polaires.",
+        "en": "Climatologists are alarmed by the dramatic consequences of the accelerated melting of polar ice caps.",
+        "cn": "气候学家对两极冰盖加速融化带来的灾难性后果深感忧虑。",
+        "jp": "気候学者たちは、極地の氷床の融解加速が引き起こす劇的な結末に対して警鐘を鳴らしています。"
+      },
+      {
+        "fr": "Assumer pleinement les conséquences de ses erreurs professionnelles démontre un grand sens des responsabilités morales.",
+        "en": "Fully accepting the consequences of one's professional mistakes demonstrates a high sense of moral responsibility.",
+        "cn": "完全承担自己工作过失的后果，展现出了极高的道德责任感。",
+        "jp": "職務上の失敗の結果を自ら完全に引き受けることは、高い道徳的責任感の表れです。"
+      },
+      {
+        "fr": "La faillite de cette banque d'affaires a provoqué une cascade de conséquences négatives sur toute la zone euro.",
+        "en": "The bankruptcy of this investment bank caused a cascade of negative consequences across the entire eurozone.",
+        "cn": "这家投资银行的破产引发了波及整个欧元区的一连串恶性连锁反应与严重后果。",
+        "jp": "この投資銀行の破綻は、ユーロ圏全体に連鎖的な悪影響・波及結果を引き起こしました。"
+      },
+      {
+        "fr": "En conséquence de fortes intempéries hivernales, le trafic des trains régionaux demeurera totalement interrompu ce week-end.",
+        "en": "As a consequence of severe winter weather, regional train traffic will remain completely suspended this weekend.",
+        "cn": "由于冬季严酷恶劣天气的影响，本周末区域列车交通将继续全面暂停营运。",
+        "jp": "冬の激しい悪天候の結果として、今週末は地域列車の運行が全面的に見合わせとなります。"
+      },
+      {
+        "fr": "Ce médicament novateur soulage les douleurs articulaires sans entraîner la moindre conséquence néfaste sur l'estomac.",
+        "en": "This innovative drug relieves joint pain without entailing the slightest harmful consequence on the stomach.",
+        "cn": "这种创新药物在缓解关节疼痛的同时，不会对胃部带来任何不良后果或刺激。",
+        "jp": "この画期的な新薬は、胃にわずかな悪影響ももたらすことなく関節痛を和らげてくれます。"
+      },
+      {
+        "fr": "Mesurer avec exactitude les conséquences d'une hausse des taux d'intérêt demande des modèles macroéconomiques sophistiqués.",
+        "en": "Accurately measuring the consequences of an interest rate hike requires sophisticated macroeconomic models.",
+        "cn": "准确衡量上调利率所带来的各种后果，需要极其精密的宏观经济模型。",
+        "jp": "金利引き上げによる影響と結果を正確に測定するには、高度なマクロ経済モデルが必要です。"
+      },
+      {
+        "fr": "Un simple moment d'inattention au volant peut avoir une conséquence tragique et irréversible pour autrui.",
+        "en": "A single moment of inattention at the wheel can have a tragic and irreversible consequence for others.",
+        "cn": "驾车时一瞬间的分心走神，都可能给他人带来无法挽回的悲惨后果。",
+        "jp": "ハンドルを握る際の一瞬の不注意が、他者に対して取り返しのつかない悲劇的な結果を招くことがあります。"
+      },
+      {
+        "fr": "La démission inattendue du premier ministre constitue la conséquence directe du rejet parlementaire de la loi phare.",
+        "en": "The prime minister's unexpected resignation is the direct consequence of parliament's rejection of the flagship bill.",
+        "cn": "总理的出人意料辞职，正是议会否决其核心法案的直接后果。",
+        "jp": "首相の予期せぬ辞任は、目玉法案が議会で否決されたことの直接的な結果にほかなりません。"
+      }
+    ]
+  },
+  {
+    "id": 1365,
+    "word": "Opposition",
+    "phonetique": "/ɔ.po.zi.sjɔ̃/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Rapport de divergence, de contraste marqué ou de résistance entre deux idées, personnes ou forces.",
+    "traduction_anglais": "opposition, contrast, resistance, objection",
+    "traduction_chinois": "反对，对立，对照 (fǎnduì, duìlì)",
+    "traduction_japonais": "反対、対立、対比 (はんたい、たいりつ)",
+    "examples": [
+      {
+        "fr": "Les partis de l'opposition parlementaire ont vivement contesté le recours abusif au vote bloqué par le gouvernement.",
+        "en": "The parliamentary opposition parties strongly contested the government's abusive use of the package vote.",
+        "cn": "议会反对派政党对政府滥用强行表决程序的做法提出了强烈抗议与反对。",
+        "jp": "議会の野党各派は、政府による一括採決条項の乱用に対して激しく反発し反対しました。"
+      },
+      {
+        "fr": "Ce projet d'autoroute contesté rencontre une vive opposition de la part des riverains et des écologistes.",
+        "en": "This disputed highway project meets strong opposition from local residents and environmentalists.",
+        "cn": "这条备受争议的高速公路项目遭到了当地沿线居民和环保人士的强烈反对与抵制。",
+        "jp": "物議を醸しているこの高速道路建設計画は、周辺住民や環境保護派からの強い反対に直面しています。"
+      },
+      {
+        "fr": "L'auteur met en opposition deux visions philosophiques irréconciliables de la justice sociale dans son essai.",
+        "en": "The author contrasts two irreconcilable philosophical visions of social justice in his essay.",
+        "cn": "作者在其随笔论文中将两种不可调和的社会正义哲学观点进行了鲜明的对照与对立。",
+        "jp": "著者はその評論の中で、社会正義に関する相容れない2つの哲学的見解を鋭く対比させています。"
+      },
+      {
+        "fr": "Faire opposition sur sa carte bancaire dès le constat du vol est une précaution administrative fondamentale.",
+        "en": "Putting a stop on one's bank card as soon as theft is noted is a fundamental administrative precaution.",
+        "cn": "一旦发现银行卡被盗立即挂失止付，是一项基础而必要的行政防范措施。",
+        "jp": "盗難に気づいたら直ちにクレジットカードの利用停止（異議申し立て）を行うことが基本の予防策です。"
+      },
+      {
+        "fr": "Une claire opposition de styles s'est révélée entre les deux candidats lors du débat télévisé d'hier soir.",
+        "en": "A clear opposition of styles became apparent between the two candidates during last night's televised debate.",
+        "cn": "在昨晚的电视辩论中，两位候选人之间展现出了截然相反的风格对比与对立。",
+        "jp": "昨夜のテレビ討論会において、2人の候補者の間には明確なスタイルの対比・対立が浮き彫りになりました。"
+      },
+      {
+        "fr": "Le syndicat a réaffirmé son opposition farouche à tout recul de l'âge légal de départ à la retraite.",
+        "en": "The union reaffirmed its fierce opposition to any increase in the statutory retirement age.",
+        "cn": "工会重申其坚决反对任何推迟法定退休年龄的政策意图。",
+        "jp": "労働組合は、法定退職年齢の引き上げに対して一切妥協しない断固たる反対の姿勢を再確認しました。"
+      },
+      {
+        "fr": "En opposition totale avec les promesses de campagne, le nouveau maire a immédiatement augmenté la taxe foncière.",
+        "en": "In complete opposition to campaign promises, the new mayor immediately increased the property tax.",
+        "cn": "新市长上任后立即上调了房产税，这与他竞选时的承诺形成了鲜明对照和彻底背离。",
+        "jp": "選挙公約と完全に真っ向から反する形で、新市長は就任直後に固定資産税を引き上げました。"
+      },
+      {
+        "fr": "La diplomatie internationale cherche à apaiser l'opposition historique qui envenime les relations entre les deux nations.",
+        "en": "International diplomacy seeks to defuse the historical opposition that poisons relations between the two nations.",
+        "cn": "国际外交致力于缓和长期以来毒化两国关系的深层历史对立。",
+        "jp": "国際外交は、両国間の関係を悪化させている歴史的な対立を鎮静化させる道を模索しています。"
+      },
+      {
+        "fr": "Travailler en opposition avec ses propres valeurs morales finit par détruire la sérénité intérieure du travailleur.",
+        "en": "Working in opposition to one's own moral values ends up destroying a worker's inner peace.",
+        "cn": "在工作中违背并对抗自己的道德价值观，最终会摧毁一名工作者内心的宁静。",
+        "jp": "自身の道徳的価値観と対立しながら働き続けることは、働く者の内面的な平穏を損なう結果になります。"
+      },
+      {
+        "fr": "Cette étude linguistique explore l'opposition subtile entre les temps du passé dans le récit romanesque.",
+        "en": "This linguistic study explores the subtle opposition between past tenses in novelistic narrative.",
+        "cn": "这项语言学研究探讨了长篇小说叙事中不同过去时态之间微妙的对立与呼应关系。",
+        "jp": "この言語学的研究は、小説の語りにおける過去時制の間の微妙な対立・対比関係を探求しています。"
+      }
+    ]
+  },
+  {
+    "id": 1366,
+    "word": "Perspective",
+    "phonetique": "/pɛʁ.spɛk.tiv/",
+    "level": "B2",
+    "theme": "Pensée & Esprit critique",
+    "type": "nom féminin • courant",
+    "definition": "Manière particulière d'envisager une question, angle de vue ou évolution prévisible pour l'avenir.",
+    "traduction_anglais": "perspective, viewpoint, outlook, prospect",
+    "traduction_chinois": "视角，前景，观点，展望 (shìjiǎo, qiánjǐng)",
+    "traduction_japonais": "視点、展望、見通し (してん、てんぼう)",
+    "examples": [
+      {
+        "fr": "Changer de perspective sur un problème complexe permet souvent de découvrir des solutions insoupçonnées.",
+        "en": "Changing perspective on a complex problem often allows discovering unsuspected solutions.",
+        "cn": "换个视角看待复杂问题，往往能让人发现意想不到的绝妙解法。",
+        "jp": "複雑な問題に対して視点を変えてみることで、思いもよらなかった解決策が見つかることがよくあります。"
+      },
+      {
+        "fr": "Les perspectives économiques pour l'année prochaine restent assombries par les tensions géopolitiques mondiales.",
+        "en": "The economic outlook for next year remains clouded by global geopolitical tensions.",
+        "cn": "明年的经济前景因全球地缘政治紧张局势而依然蒙着一层阴影。",
+        "jp": "来年の経済見通しは、世界的な地政学的緊張によって依然として不透明なままです。"
+      },
+      {
+        "fr": "L'architecte de la Renaissance a magistralement maîtrisé les règles géométriques de la perspective linéaire.",
+        "en": "The Renaissance architect masterfully mastered the geometric rules of linear perspective.",
+        "cn": "这位文艺复兴时期的建筑大师精湛地掌握了线性透视的几何规律。",
+        "jp": "ルネサンスの建築家は、線遠近法の幾何学的法則を見事に自らのものにしていました。"
+      },
+      {
+        "fr": "Cette sociologue adopte une perspective féministe stimulante pour décrypter les inégalités au sein du foyer.",
+        "en": "This sociologist adopts a stimulating feminist perspective to decipher inequalities within the household.",
+        "cn": "这位社会学家采用了新颖的女权主义视角，深入剖析家庭内部的不平等现象。",
+        "jp": "この社会学者は、家庭内の不平等を読み解くために刺激的なフェミニズム的視点を採用しています。"
+      },
+      {
+        "fr": "La perspective d'une augmentation de salaire a redonné de l'énergie à l'ensemble du personnel commercial.",
+        "en": "The prospect of a salary increase gave renewed energy to the entire sales staff.",
+        "cn": "加薪的前景让全体销售员工重新焕发了工作干劲与活力。",
+        "jp": "昇給の見通し・展望が開けたことで、営業部門のスタッフ全員に活気が再びみなぎりました。"
+      },
+      {
+        "fr": "Analyser les événements historiques dans une perspective mondiale évite les écueils d'un nationalisme réducteur.",
+        "en": "Analyzing historical events from a global perspective avoids the pitfalls of narrow nationalism.",
+        "cn": "从全球视角分析历史事件，能有效避免狭隘民族主义的各种误区与陷阱。",
+        "jp": "歴史的出来事を地球規模の視点から分析することは、偏狭なナショナリズムの落とし穴を避けることにつながります。"
+      },
+      {
+        "fr": "De belles perspectives de carrière s'ouvrent devant cette jeune ingénieure spécialisée en biotechnologies.",
+        "en": "Bright career prospects are opening up before this young engineer specialized in biotechnology.",
+        "cn": "这位专注于生物技术领域的年轻女工程师面前展现出了无比广阔美好的职业前景。",
+        "jp": "バイオテクノロジーを専門とするこの若き女性エンジニアの前には、輝かしいキャリアの展望が広がっています。"
+      },
+      {
+        "fr": "Vu sous cette perspective nouvelle, le compromis trouvé hier soir apparaît comme un réel succès diplomatique.",
+        "en": "Seen from this new perspective, the compromise reached last night appears as a real diplomatic success.",
+        "cn": "从这个全新的视角来看，昨晚达成的妥协方案堪称一次真正的外交胜利。",
+        "jp": "この新たな視点から見れば、昨夜成立した妥協案は真の外交的成功として評価できます。"
+      },
+      {
+        "fr": "Cette longue avenue bordée de platanes offre une perspective grandiose sur le monument commémoratif.",
+        "en": "This long avenue lined with plane trees offers a magnificent vista of the memorial monument.",
+        "cn": "这条两旁种满悬铃木的林荫大道，为尽头的纪念碑展现了一幅壮丽恢宏的远景透视景观。",
+        "jp": "プラタナスの並木が続くこの広い大通りは、記念碑へと続く壮大な景観・パースペクティブを提供しています。"
+      },
+      {
+        "fr": "Garder les choses en perspective permet de ne pas paniquer face aux difficultés quotidiennes de l'existence.",
+        "en": "Keeping things in perspective helps avoid panicking in the face of life's daily difficulties.",
+        "cn": "把事情放在全局视野中全面审视，有助于在面对生活中的日常困境时处变不惊、不盲目恐慌。",
+        "jp": "物事を広い視野・視座で捉えておくことは、日常生活の困難に直面してもパニックに陥らないために役立ちます。"
+      }
+    ]
+  },
+  {
+    "id": 1367,
+    "word": "Bioéthique",
+    "phonetique": "/bjɔ.e.tik/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Étude et réflexion sur les questions morales et normatives soulevées par les avancées médicales et biologiques.",
+    "traduction_anglais": "bioethics",
+    "traduction_chinois": "生命伦理学，生物伦理 (shēngmìng lúnlǐxué)",
+    "traduction_japonais": "生命倫理、バイオエシックス (せいめいりんり)",
+    "examples": [
+      {
+        "fr": "Les révisions périodiques des lois de bioéthique suscitent toujours de passionnés débats au parlement français.",
+        "en": "Periodic revisions of bioethics laws always spark impassioned debates in the French parliament.",
+        "cn": "法国议会对生命伦理法案的定期修订，总会引发激烈而深刻的辩论。",
+        "jp": "生命倫理法の定期的な改正審議は、フランス議会において常に熱のこもった論争を巻き起こします。"
+      },
+      {
+        "fr": "L'édition génétique chez l'embryon humain soulève des interrogations fondamentales au regard de la bioéthique contemporaine.",
+        "en": "Gene editing in human embryos raises fundamental questions regarding contemporary bioethics.",
+        "cn": "人类胚胎基因编辑技术引发了当代生命伦理学维度的根本性质疑与探讨。",
+        "jp": "ヒト受精卵に対するゲノム編集技術は、現代の生命倫理の観点から根本的な疑問を提起しています。"
+      },
+      {
+        "fr": "Le Comité consultatif national d'éthique formule des avis éclairés guidant la bioéthique et les pratiques médicales.",
+        "en": "The National Consultative Ethics Committee issues enlightened opinions guiding bioethics and medical practices.",
+        "cn": "国家伦理咨询委员会提出深具洞见的指导意见，为生命伦理及医疗实践提供方向。",
+        "jp": "国家諮問倫理委員会は、生命倫理と医療の実践を導くための見識ある答申を公表しています。"
+      },
+      {
+        "fr": "Respecter le consentement éclairé du malade constitue un principe cardinal de toute réflexion en bioéthique.",
+        "en": "Respecting the patient's informed consent constitutes a cardinal principle of any reflection in bioethics.",
+        "cn": "尊重患者的知情同意权，是生命伦理学一切思考探讨所依托的核心基本原则。",
+        "jp": "患者による十分な説明に基づく同意（インフォームド・コンセント）を尊重することは、生命倫理における第一の原則です。"
+      },
+      {
+        "fr": "La gestation pour autrui fait l'objet de vifs désaccords philosophiques et juridiques au sein de la bioéthique.",
+        "en": "Surrogacy is the subject of sharp philosophical and legal disagreements within bioethics.",
+        "cn": "代孕问题在生命伦理学界内部一直是哲学和法律层面激烈争论的焦点。",
+        "jp": "代理母出産は、生命倫理の分野において哲学的および法的な激しい意見対立の的となっています。"
+      },
+      {
+        "fr": "Ce colloque pluridisciplinaire réunit juristes, médecins et philosophes autour des enjeux actuels de la bioéthique.",
+        "en": "This multidisciplinary symposium brings together jurists, doctors, and philosophers around current issues in bioethics.",
+        "cn": "本次跨学科研讨会汇集了法学家、医生和哲学家，共同探讨生命伦理学当前的现实挑战。",
+        "jp": "この学際的なシンポジウムには法学者、医師、哲学者が一堂に会し、生命倫理の現代的諸問題について議論を交わします。"
+      },
+      {
+        "fr": "L'utilisation croissante de l'intelligence artificielle dans le diagnostic hospitalier interpelle les spécialistes de la bioéthique.",
+        "en": "The growing use of artificial intelligence in hospital diagnosis challenges bioethics specialists.",
+        "cn": "人工智能在医院诊断中日益广泛的应用，向生命伦理学专家提出了严肃的追问与思考。",
+        "jp": "病院の診断における人工知能の利用拡大は、生命倫理の専門家たちに新たな課題を突きつけています。"
+      },
+      {
+        "fr": "Aucune innovation biotechnologique ne devrait être commercialisée sans avoir fait l'objet d'un examen de bioéthique rigoureux.",
+        "en": "No biotechnological innovation should be commercialized without undergoing rigorous bioethics review.",
+        "cn": "任何生物科技创新在未经严格的生命伦理审查之前，均不应当推向商业市场。",
+        "jp": "厳格な生命倫理の審査を経ることなく製品化されるべきバイオテクノロジーの技術革新など存在しません。"
+      },
+      {
+        "fr": "Les questions de fin de vie et d'euthanasie active demeurent le dossier le plus sensible de la bioéthique.",
+        "en": "End-of-life questions and active euthanasia remain the most sensitive issue in bioethics.",
+        "cn": "临终关怀以及积极安乐死问题，始终是生命伦理学领域最敏感的核心议题。",
+        "jp": "終末期医療や積極的安楽死をめぐる諸問題は、生命倫理において依然として最も繊細な論点であり続けています。"
+      },
+      {
+        "fr": "Enseigner la bioéthique dès la première année d'études médicales sensibilise les futurs praticiens à la dignité humaine.",
+        "en": "Teaching bioethics from the first year of medical studies sensitizes future practitioners to human dignity.",
+        "cn": "从医学院一年级起开设生命伦理学课程，能让未来的从业者深刻树立尊重人类尊严的意识。",
+        "jp": "医学部1年次から生命倫理を教授することは、将来の医療従事者たちに人間の尊厳への敬意を自覚させます。"
+      }
+    ]
+  },
+  {
+    "id": 1368,
+    "word": "Réglementation",
+    "phonetique": "/ʁe.ɡlə.mɑ̃.ta.sjɔ̃/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Ensemble des règles, lois et prescriptions régissant l'exercice d'une activité technique, scientifique ou commerciale.",
+    "traduction_anglais": "regulations / regulatory framework",
+    "traduction_chinois": "规章条例 / 监管法规 (guīzhāng tiáolì)",
+    "traduction_japonais": "規制 / 規則 (kisei)",
+    "examples": [
+      {
+        "fr": "La nouvelle réglementation européenne impose des normes de sécurité beaucoup plus strictes aux fabricants de produits chimiques.",
+        "en": "The new European regulations impose much stricter safety standards on chemical manufacturers.",
+        "cn": "新的欧洲法规对化学品制造商提出了更为严苛的安全标准与合规要求。",
+        "jp": "新しい欧州の規制は、化学メーカーに対してはるかに厳格な安全基準を課しています。"
+      },
+      {
+        "fr": "Plusieurs juristes spécialisés dénoncent les failles de cette réglementation obsolète face aux avancées fulgurantes du numérique.",
+        "en": "Several specialized legal experts denounce the loopholes in this outdated regulation given the rapid advances of digital technology.",
+        "cn": "多位资深法律专家指出，面对数字化技术的突飞猛进，该陈旧法规存在明显监管盲区。",
+        "jp": "複数の専門弁護士は、急速に進歩するデジタル技術に対して、この時代遅れの規制の抜け穴を批判しています。"
+      },
+      {
+        "fr": "Une réglementation stricte sur les tests génétiques protège la vie privée des citoyens contre d'éventuels abus commerciaux.",
+        "en": "Strict regulations on genetic testing protect citizens' privacy against potential commercial misuse.",
+        "cn": "针对基因检测的严格法律法规，切实保障了公民隐私免遭潜在商业牟利行为的侵害。",
+        "jp": "遺伝子検査に関する厳格な規制は、潜在的な商業的乱用から市民のプライバシーを守っています。"
+      },
+      {
+        "fr": "Les représentants de l'industrie pharmaceutique s'engagent à respecter scrupuleusement la réglementation sanitaire en vigueur.",
+        "en": "Pharmaceutical industry representatives commit to scrupulously complying with existing health regulations.",
+        "cn": "医药工业界代表郑重承诺，将严格遵守现行生效的各项卫生健康监管条例。",
+        "jp": "製薬業界の代表者たちは、現行の衛生規制を徹底的に順守することを約束しています。"
+      },
+      {
+        "fr": "L'adoption rapide d'une réglementation internationale permettrait d'encadrer l'exploitation minière des fonds marins.",
+        "en": "The prompt adoption of international regulations would allow the framework for seabed mining to be established.",
+        "cn": "尽快出台并采纳国际监管框架，将有助于规范与约束深海海底矿产资源的开采。",
+        "jp": "国際的な規制を速やかに採択することで、海底鉱物資源の採掘を適切に管理することが可能になります。"
+      },
+      {
+        "fr": "Chaque laboratoire pharmaceutique doit se conformer aux exigences de la réglementation avant d'obtenir une autorisation de mise sur le marché.",
+        "en": "Every pharmaceutical laboratory must comply with regulatory requirements before obtaining marketing authorization.",
+        "cn": "每家制药实验室在获得上市销售许可前，都必须全面符合各项法定监管准则。",
+        "jp": "各製薬研究所は、市販承認を取得する前に法規制の要件に適合しなければなりません。"
+      },
+      {
+        "fr": "Face aux drones civils, l'aviation civile a dû modifier sa réglementation afin d'éviter tout incident dans l'espace aérien.",
+        "en": "Faced with civilian drones, civil aviation had to amend its regulations to avoid any airspace incidents.",
+        "cn": "鉴于民用无人机的普及，民用航空部门不得不修订管理条例，以防止空域险情发生。",
+        "jp": "民間ドローンの普及に直面し、民間航空当局は領空内での事故を防ぐために規則を改定せざるを得ませんでした。"
+      },
+      {
+        "fr": "Certains entrepreneurs déplorent la lourdeur de la réglementation fiscale qui freine les investissements étrangers.",
+        "en": "Some entrepreneurs complain about the burden of tax regulations that hinder foreign investments.",
+        "cn": "部分企业家抱怨繁复苛刻的税收规章制度正在阻碍外国投资者的注资意愿。",
+        "jp": "一部の起業家は、外国投資を阻害している複雑で過度な税制上の規制を嘆いています。"
+      },
+      {
+        "fr": "Dans le domaine agricole, la réglementation environnementale interdit désormais l'usage préventif de pesticides néfastes pour les abeilles.",
+        "en": "In agriculture, environmental regulations now ban the preventive use of pesticides harmful to bees.",
+        "cn": "在农业种植领域，环保法规已全面禁止预防性施用会毒害蜜蜂的烈性农药。",
+        "jp": "農業分野では、環境規制によりミツバチに有害な農薬の予防的使用が現在禁止されています。"
+      },
+      {
+        "fr": "Ce rapport parlementaire préconise une refonte complète de la réglementation relative aux données biométriques.",
+        "en": "This parliamentary report advocates for a complete overhaul of regulations concerning biometric data.",
+        "cn": "这份议会专项报告建议对涉及生物识别信息的法规制度进行系统性重构与革新。",
+        "jp": "この議会報告書は、生体認証データに関する規制の抜本的な見直しを提言しています。"
+      }
+    ]
+  },
+  {
+    "id": 1369,
+    "word": "Expérimentation",
+    "phonetique": "/ɛk.spe.ʁi.mɑ̃.ta.sjɔ̃/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Recherche méthodique ou essai empirique mené dans des conditions contrôlées pour tester une hypothèse ou vérifier un fait.",
+    "traduction_anglais": "experimentation / trial / testing",
+    "traduction_chinois": "实验 / 试验验证 (shíyàn)",
+    "traduction_japonais": "実験 / 試行 (jikken)",
+    "examples": [
+      {
+        "fr": "Une première phase d'expérimentation clinique a permis de mesurer l'innocuité de ce nouveau traitement antiviral.",
+        "en": "An initial phase of clinical trial allowed researchers to measure the safety of this new antiviral treatment.",
+        "cn": "第一阶段临床试验让科研人员成功验证了该新型抗病毒药物的安全无害性。",
+        "jp": "第1段階の臨床試験により、この新しい抗ウイルス治療薬の安全性を測定することが可能になりました。"
+      },
+      {
+        "fr": "L'expérimentation animale suscite d'intenses débats éthiques au sein de la communauté scientifique internationale.",
+        "en": "Animal testing sparks intense ethical debates within the international scientific community.",
+        "cn": "动物实验在国际科学界与公众舆论场中引发了极其热烈的伦理反思与争议。",
+        "jp": "動物実験は、国際的な科学コミュニティにおいて激しい倫理的議論を巻き起こしています。"
+      },
+      {
+        "fr": "Ce centre de recherche privilégie l'expérimentation in vitro pour limiter au maximum le recours aux mammifères.",
+        "en": "This research center favors in vitro experimentation to minimize the use of mammals as much as possible.",
+        "cn": "该科研中心优先选用体外细胞培养实验，以最大限度减少对哺乳动物活体的消耗。",
+        "jp": "この研究センターは哺乳類の使用を極力減らすため、試験管内実験（in vitro）を優先しています。"
+      },
+      {
+        "fr": "Les sociologues mènent une vaste expérimentation sociale sur le revenu universel dans plusieurs communes pilotes.",
+        "en": "Sociologists are conducting a broad social experiment on universal basic income across several pilot municipalities.",
+        "cn": "社会学学者们正在数个试点城镇针对全民基本收入制度推行大规模实证测试。",
+        "jp": "社会学者たちは、複数の試験導入自治体においてベーシックインカムに関する大規模な社会実験を行っています。"
+      },
+      {
+        "fr": "Toute expérimentation scientifique rigoureuse doit pouvoir être reproduite fidèlement par des équipes indépendantes.",
+        "en": "Any rigorous scientific experimentation must be capable of being faithfully replicated by independent teams.",
+        "cn": "任何严谨规范的科学实验，都必须能够由独立的第三方科研团队进行忠实复现。",
+        "jp": "厳密な科学実験はすべて、独立した第三者の研究チームによって正確に再現できなければなりません。"
+      },
+      {
+        "fr": "Après des mois d'expérimentation laborieuse, l'équipe d'astrophysiciens a confirmé l'existence de cette particule élémentaire.",
+        "en": "After months of painstaking experimentation, the team of astrophysicists confirmed the existence of this elementary particle.",
+        "cn": "历经数月艰苦卓绝的实验验证，天体物理学家团队终于确认了该基本粒子的存在。",
+        "jp": "数ヶ月におよぶ地道な実験を経て、宇宙物理学者チームはこの素粒子の存在を確認しました。"
+      },
+      {
+        "fr": "Le ministère de l'Éducation lance une expérimentation pédagogique visant à introduire l'intelligence artificielle dans les classes.",
+        "en": "The Ministry of Education is launching an educational trial aimed at introducing artificial intelligence into classrooms.",
+        "cn": "教育部门启动了一项新型教学试点实验，旨在探索将人工智能有机引入日常课堂。",
+        "jp": "教育省は教室に人工知能を導入することを目的とした教育的な試行プロジェクトを開始しています。"
+      },
+      {
+        "fr": "Dans le secteur aéronautique, l'expérimentation de carburants durables progresse rapidement pour décarboner les vols commerciaux.",
+        "en": "In the aviation sector, testing of sustainable fuels is advancing rapidly to decarbonize commercial flights.",
+        "cn": "在航空工业领域，可持续生物航煤的试飞试验推进迅猛，以加速民航航班脱碳。",
+        "jp": "航空分野では、民間飛行の脱炭素化に向けて持続可能燃料の試行実験が急速に進展しています。"
+      },
+      {
+        "fr": "Certains critiques estiment que cette expérimentation génétique comporte des risques environnementaux imprévisibles.",
+        "en": "Some critics believe that this genetic experiment entails unpredictable environmental risks.",
+        "cn": "部分批评人士认为，这项转基因户外释放试验蕴含着难以预估的生态环境风险。",
+        "jp": "一部の批評家は、この遺伝子実験が予測不可能な環境リスクを孕んでいると考えています。"
+      },
+      {
+        "fr": "La loi encadre toute expérimentation médicale afin de garantir la dignité et la protection des volontaires humains.",
+        "en": "The law governs all medical experimentation to ensure the dignity and protection of human volunteers.",
+        "cn": "国家法律对所有人体医学试验进行严格规范，以切实维护志愿者的尊严与生命健康。",
+        "jp": "法律は人間の志願者の尊厳と保護を保証するために、あらゆる医療実験を厳格に管理しています。"
+      }
+    ]
+  },
+  {
+    "id": 1370,
+    "word": "Principe de précaution",
+    "phonetique": "/pʁɛ̃.sip də pʁe.ko.sjɔ̃/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom masculin • courant",
+    "definition": "Règle selon laquelle l'absence de certitude scientifique absolue ne doit pas retarder l'adoption de mesures préventives face à un risque grave ou irréversible.",
+    "traduction_anglais": "precautionary principle",
+    "traduction_chinois": "风险防范原则 / 谨慎原则 (jǐnshèn yuánzé)",
+    "traduction_japonais": "予防原則 (yobō gensoku)",
+    "examples": [
+      {
+        "fr": "Le principe de précaution a guidé la décision des autorités sanitaires de suspendre temporairement ce nouveau vaccin.",
+        "en": "The precautionary principle guided health authorities' decision to temporarily suspend this new vaccine.",
+        "cn": "在面对潜在不良反应时，卫生当局本着风险预防原则果断暂停了该新型疫苗的接种。",
+        "jp": "予防原則に基づき、保健当局はこの新ワクチンの接種を一時的に停止する決定を下しました。"
+      },
+      {
+        "fr": "Plusieurs écologistes invoquent le principe de précaution pour interdire immédiatement la culture commerciale d'organismes modifiés.",
+        "en": "Several environmentalists invoke the precautionary principle to immediately ban the commercial cultivation of modified organisms.",
+        "cn": "多位环保人士援引风险防范原则，呼吁立即叫停转基因作物的商业化大面积种植。",
+        "jp": "複数の環境活動家は、遺伝子組み換え作物の商業栽培を即座に禁止するために予防原則を引き合いに出しています。"
+      },
+      {
+        "fr": "L'application stricte du principe de précaution suscite parfois des réticences chez les industriels en quête d'innovation rapide.",
+        "en": "Strict application of the precautionary principle sometimes triggers reluctance among industrialists seeking rapid innovation.",
+        "cn": "严格践行谨慎防范原则，有时会引起渴望加速技术迭代落地的工业制造企业的不满与阻力。",
+        "jp": "予防原則を厳格に適用することは、迅速な技術革新を追求する産業関係者の間で時に抵抗を生みます。"
+      },
+      {
+        "fr": "Ce traité environnemental consacre le principe de précaution comme une règle fondamentale du droit public international.",
+        "en": "This environmental treaty enshrines the precautionary principle as a cornerstone of international public law.",
+        "cn": "该国际环境条约明确确立了风险防范原则，将其列为国际公法不可动摇的基石。",
+        "jp": "この環境条約は、予防原則を国際公法の根本的な基本原則として明文化しています。"
+      },
+      {
+        "fr": "Face aux incertitudes climatiques, les urbanistes s'appuient sur le principe de précaution pour interdire toute construction en zone inondable.",
+        "en": "Faced with climate uncertainties, urban planners rely on the precautionary principle to prohibit any building in flood-prone zones.",
+        "cn": "面对气候变化的不确定性，城市规划师依据谨慎防范原则，严禁在蓄滞洪区开展一切工程营建。",
+        "jp": "気候の不確実性に直面し、都市計画担当者は予防原則に依拠して浸水想定区域でのあらゆる建設を禁止しています。"
+      },
+      {
+        "fr": "Certains économistes redoutent qu'un recours excessif au principe de précaution ne paralyse la recherche scientifique de pointe.",
+        "en": "Some economists fear that excessive reliance on the precautionary principle could paralyze cutting-edge scientific research.",
+        "cn": "部分经济学者担忧，对风险预防原则的过度泛化使用可能会在客观上扼杀前沿基础科研探索。",
+        "jp": "一部の経済学者は、予防原則の乱用が最先端の科学研究を停滞させるのではないかと懸念しています。"
+      },
+      {
+        "fr": "Le tribunal administratif a rappelé que le principe de précaution s'impose juridiquement à toute décision des pouvoirs publics.",
+        "en": "The administrative court reiterated that the precautionary principle is legally binding on all public authority decisions.",
+        "cn": "行政法院严正重申，风险防范原则在法律效力上对公共行政机关的一切决策均构成刚性约束。",
+        "jp": "行政裁判所は、公的機関のすべての決定において予防原則が法的な拘束力を持つことを改めて喚起しました。"
+      },
+      {
+        "fr": "Dans le débat sur les ondes électromagnétiques, les associations d'usagers réclament l'application concrète du principe de précaution.",
+        "en": "In the debate on electromagnetic waves, consumer associations demand the concrete implementation of the precautionary principle.",
+        "cn": "在有关电磁辐射安全的争议讨论中，消费者权益保护组织强烈要求将风险预防原则落到实处。",
+        "jp": "電磁波に関する議論において、消費者団体は予防原則の具体的な適用を強く要求しています。"
+      },
+      {
+        "fr": "Chaque magistrat doit analyser si le principe de précaution a été respecté avant d'autoriser l'épandage de ces produits chimiques.",
+        "en": "Every judge must examine whether the precautionary principle was observed before allowing the spraying of these chemical products.",
+        "cn": "法官在批准喷洒这些化学制剂前，必须逐条审查是否已切实遵守了法定预防原则。",
+        "jp": "各裁判官は、これらの化学物質の散布を許可する前に、予防原則が遵守されていたかどうかを吟味しなければなりません。"
+      },
+      {
+        "fr": "La conférence internationale a permis de clarifier la portée juridique du principe de précaution à l'échelle planétaire.",
+        "en": "The international conference helped clarify the legal scope of the precautionary principle on a global scale.",
+        "cn": "此次高级别国际学术会议，极大厘清并明确了谨慎防范原则在全球维度的法理边界与实践内涵。",
+        "jp": "その国際会議は、地球規模における予防原則の法的効力範囲を明確にするのに貢献しました。"
+      }
+    ]
+  },
+  {
+    "id": 1371,
+    "word": "Controverse",
+    "phonetique": "/kɔ̃.tʁɔ.vɛʁs/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Discussion vive, publique et prolongée suscitée par des opinions contradictoires sur une question d'intérêt général.",
+    "traduction_anglais": "controversy / dispute / debate",
+    "traduction_chinois": "争议 / 争论 (zhēngyì)",
+    "traduction_japonais": "論争 / 議論 (ronsō)",
+    "examples": [
+      {
+        "fr": "La découverte de cet embryon hybride a déclenché une vive controverse éthique au sein du comité national de bioéthique.",
+        "en": "The discovery of this hybrid embryo sparked a heated ethical controversy within the national bioethics committee.",
+        "cn": "嵌合体杂交胚胎的问世在国家生物伦理委员会内部激起了轩然大波与剧烈的伦理争锋。",
+        "jp": "このハイブリッド胚の発見は、国家生命倫理委員会の内部で激しい倫理的論争を巻き起こしました。"
+      },
+      {
+        "fr": "Cette controverse médiatique autour des effets secondaires de la thérapie génique masque souvent les réels progrès scientifiques.",
+        "en": "This media controversy surrounding gene therapy side effects often obscures genuine scientific breakthroughs.",
+        "cn": "媒体针对基因疗法不良反应的铺天盖地争论，往往遮蔽掩盖了科学研究所取得的实质性跨越。",
+        "jp": "遺伝子治療の副作用を巡るメディアの論争は、科学が遂げた真の進歩を覆い隠してしまうことが多々あります。"
+      },
+      {
+        "fr": "Plusieurs sociologues s'intéressent à la manière dont une simple rumeur peut dégénérer en une longue controverse politique.",
+        "en": "Several sociologists are interested in how a simple rumor can spiral into a prolonged political controversy.",
+        "cn": "多位社会学家正深入探究一则虚妄流言如何逐步发酵恶化为经年累月的政治大争端。",
+        "jp": "複数の社会学者は、単なる噂がいかにして長引く政治的論争へと発展し得るのかというプロセスに関心を寄せています。"
+      },
+      {
+        "fr": "L'implantation de cette usine de méthanisation suscite une vive controverse auprès des riverains inquiets des odeurs nauséabondes.",
+        "en": "The establishment of this biomethane plant sparks strong controversy among local residents concerned about foul odors.",
+        "cn": "该沼气提纯厂的选址落地引发了周边邻近居民的激烈抗议与针对异味扰民的持续争论。",
+        "jp": "このバイオガス発電プラントの建設は、悪臭を懸念する近隣住民の間で激しい論争を引き起こしています。"
+      },
+      {
+        "fr": "Malgré la controverse entourant son nouvel essai philosophique, l'écrivain refuse catégoriquement de modifier ses conclusions théoriques.",
+        "en": "Despite the controversy surrounding his new philosophical essay, the author categorically refuses to alter his theoretical conclusions.",
+        "cn": "尽管围绕其哲学新著的争议铺天盖地，这位学者依旧断然拒绝修改书中的核心理论结论。",
+        "jp": "自らの新しい哲学論集を取り巻く論争にもかかわらず、その著者は理論的結論の修正を頑なに拒絶しています。"
+      },
+      {
+        "fr": "Une nouvelle controverse émerge régulièrement concernant l'utilisation des caméras à reconnaissance faciale dans l'espace public.",
+        "en": "A new controversy regularly emerges regarding the use of facial recognition cameras in public spaces.",
+        "cn": "关于在城市公共空间布设面部人脸识别监控摄像头的合法性，各方争议持续延烧不断。",
+        "jp": "公共空間における顔認証カメラの使用を巡っては、定期的に新たな論争が持ち上がっています。"
+      },
+      {
+        "fr": "Le ministre a tenté d'éteindre la controverse en publiant l'intégralité des rapports d'expertise scientifique indépendants.",
+        "en": "The minister attempted to extinguish the controversy by publishing all independent scientific expert reports.",
+        "cn": "部长通过全盘公开披露全部独立的第三方权威科学论证报告，试图平息这场公众争论风波。",
+        "jp": "大臣は、独立した科学的専門家による鑑定報告書の全文を公開することで、論争の沈静化を図りました。"
+      },
+      {
+        "fr": "Dans le milieu académique, la controverse sur l'origine du manuscrit médiéval divise encore les historiens les plus éminents.",
+        "en": "In academic circles, the dispute over the medieval manuscript's origin still divides the most prominent historians.",
+        "cn": "在学术界，关于这部珍稀中世纪古抄本确切渊源与作者归属的学术争论，至今仍令史学泰斗分歧难解。",
+        "jp": "学会において、その中世写本の起源を巡る論争は、今なお名だたる著名な歴史学者たちの見解を二分しています。"
+      },
+      {
+        "fr": "Ce reportage télévisé a relancé la controverse sur l'influence occulte des lobbys pétroliers sur les politiques publiques.",
+        "en": "This television report revived controversy over the hidden influence of oil lobbies on public policy.",
+        "cn": "这档深度调查电视纪录片，再度引爆了社会各界对石油巨头游说势力暗中操控公共决策的巨大争议。",
+        "jp": "このテレビ報道番組は、石油ロビー団体が公共政策に及ぼす隠微な影響力についての論争を再燃させました。"
+      },
+      {
+        "fr": "Loin de freiner la réflexion, cette controverse intellectuelle a permis d'affiner considérablement les critères d'évaluation éthique.",
+        "en": "Far from stifling reflection, this intellectual debate considerably helped refine ethical evaluation criteria.",
+        "cn": "这场思想交锋非但没有阻断理性思辨，反而促使学术共同体对伦理评估基准进行了大幅精细化打磨。",
+        "jp": "思索の深化を妨げるどころか、この知的な論争は倫理的評価基準を極めて精緻なものへと高める契機となりました。"
+      }
+    ]
+  },
+  {
+    "id": 1372,
+    "word": "Responsabilité",
+    "phonetique": "/ʁɛs.pɔ̃.sa.bi.li.te/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Obligation morale ou juridique de répondre de ses actes, d'en assumer les conséquences et de réparer un dommage causé.",
+    "traduction_anglais": "responsibility / liability / accountability",
+    "traduction_chinois": "责任 / 法律责任 (zérèn)",
+    "traduction_japonais": "責任 / 責務 (sekinin)",
+    "examples": [
+      {
+        "fr": "Le juge d'instruction cherche à déterminer la responsabilité pénale du dirigeant d'entreprise dans cet accident industriel.",
+        "en": "The investigating magistrate is seeking to determine the corporate executive's criminal liability in this industrial accident.",
+        "cn": "预审法官正着力查明该企业高管在本次重大工业安全生产事故中应承担的刑事责任。",
+        "jp": "予審判事は、この産業事故における企業経営者の刑事責任を確定しようと捜査を進めています。"
+      },
+      {
+        "fr": "Chaque chercheur doit assumer pleinement la responsabilité éthique des applications futures de ses découvertes technologiques.",
+        "en": "Every researcher must fully assume ethical responsibility for the future applications of their technological findings.",
+        "cn": "每一位科研工作者都必须对其科学成果在未来的技术转化应用承担全方位的伦理道义责任。",
+        "jp": "すべての研究者は、自らの技術的発見が将来どのように応用されるかについて、倫理的責任を全うしなければなりません。"
+      },
+      {
+        "fr": "La direction a décliné toute responsabilité quant aux dégâts matériels survenus sur le parking privé de l'établissement.",
+        "en": "Management declined all responsibility for material damage that occurred in the institution's private parking lot.",
+        "cn": "企业管理层声明，对本单位内部私人停车场内发生的一切车辆财物损毁概不承担赔偿责任。",
+        "jp": "経営陣は、施設の私有駐車場で発生した物的損害についての一切の責任を免除されると主張しました。"
+      },
+      {
+        "fr": "Face au réchauffement planétaire, les pays industrialisés portent une lourde responsabilité historique dans les émissions cumulées.",
+        "en": "Faced with global warming, industrialized countries bear heavy historical responsibility for cumulative emissions.",
+        "cn": "面对全球气候变暖危机，早期实现工业化的先发国家对累积历史碳排放负有不可推卸的重大历史责任。",
+        "jp": "地球温暖化に直面し、先進工業諸国は累積排出量に対して重い歴史的責任を負っています。"
+      },
+      {
+        "fr": "Accepter ce poste de haute direction implique d'endosser une responsabilité managériale et financière considérable.",
+        "en": "Accepting this senior executive position entails shouldering considerable managerial and financial responsibility.",
+        "cn": "欣然接受这一高级管理职务，意味着必须挑起极其重大的团队运营以及资产经营考核责任。",
+        "jp": "この上級役員のポストを引き受けることは、極めて重大な経営上および財務上の責任を担うことを意味します。"
+      },
+      {
+        "fr": "Les parents partagent conjointement la responsabilité civile des actes commis par leurs enfants mineurs.",
+        "en": "Parents jointly share civil liability for actions committed by their minor children.",
+        "cn": "父母双方法律上共同分担因其未成年子女的不法侵权行为所产生的全部民事赔偿责任。",
+        "jp": "両親は、未成年の子どもが犯した行為について共同で民事上の損害賠償責任を分担します。"
+      },
+      {
+        "fr": "Ce médecin urgentiste a fait preuve d'un sens aigu de la responsabilité lors du tri des blessés graves.",
+        "en": "This emergency doctor demonstrated an acute sense of responsibility during the triage of severely injured victims.",
+        "cn": "在对重伤员进行生死攸关的急救伤情检伤分类时，这位急诊科医生展现出极其崇高的责任担当。",
+        "jp": "その救急医は、重傷者のトリアージ選別において研ぎ澄まされた鋭い責任感を発揮しました。"
+      },
+      {
+        "fr": "La responsabilité sociétale des entreprises incite les grands groupes à adopter des méthodes de production plus propres.",
+        "en": "Corporate social responsibility encourages major conglomerates to adopt cleaner production methods.",
+        "cn": "日益深化的企业社会责任理念，正强力倒逼各大跨国巨头转向并采纳更为清洁环保的低碳生产方式。",
+        "jp": "企業の社会的責任（CSR）は、大企業グループに対してよりクリーンな生産方式の導入を促しています。"
+      },
+      {
+        "fr": "Une commission d'enquête parlementaire a été créée afin d'établir la chaîne de responsabilité dans cette crise sanitaire.",
+        "en": "A parliamentary commission of inquiry was set up to establish the chain of accountability in this health crisis.",
+        "cn": "议会专门设立了特别调查委员会，旨在厘清并确认本次重大公共卫生突发事件中的责任溯源链条。",
+        "jp": "この衛生危機における責任の所在と指揮系統を解明するため、議会調査委員会が設立されました。"
+      },
+      {
+        "fr": "Développer une intelligence artificielle autonome soulève d'épineuses questions juridiques sur l'imputation de la responsabilité en cas d'accident.",
+        "en": "Developing autonomous artificial intelligence raises thorny legal questions about assigning liability in case of an accident.",
+        "cn": "研发全自主智能决策AI系统，在一旦发生意外事故时将引发关于法律责任主体归咎的棘手难题。",
+        "jp": "自律型人工知能の開発は、事故発生時における責任帰属について極めて厄介な法的問題を提起します。"
+      }
+    ]
+  },
+  {
+    "id": 1373,
+    "word": "Dérive",
+    "phonetique": "/de.ʁiv/",
+    "level": "B2",
+    "theme": "Sciences & Bioéthique",
+    "type": "nom féminin • courant",
+    "definition": "Écart progressif, involontaire ou incontrôlé par rapport à une règle, une trajectoire ou une norme éthique.",
+    "traduction_anglais": "drift / deviation / abuse / downward slide",
+    "traduction_chinois": "偏离 / 走样 / 危险倾向 (piānlí)",
+    "traduction_japonais": "逸脱 / 漂流 / 暴走 (itsudatsu)",
+    "examples": [
+      {
+        "fr": "Le comité d'éthique met en garde contre toute dérive eugénique liée à la manipulation non contrôlée du génome humain.",
+        "en": "The ethics committee warns against any eugenic drift linked to uncontrolled manipulation of the human genome.",
+        "cn": "国家伦理委员会发出严肃预警，警惕对人类基因组的失控基因编辑演变为危险的优生学歧途偏离。",
+        "jp": "倫理委員会は、ヒトゲノムの無秩序な操作に伴ういかなる優生学的逸脱に対しても強い警告を発しています。"
+      },
+      {
+        "fr": "Plusieurs économistes s'inquiètent de la dérive continuelle des dépenses publiques au cours de cette législature.",
+        "en": "Several economists are worried about the continuous drift of public spending during this legislative term.",
+        "cn": "多位宏观经济专家对本届立法任期内公共财政预算支出的持续膨胀与失控漂移深表忧虑。",
+        "jp": "複数の経済学者は、今期議会の会期中における公共歳出の歯止めの利かない肥大化を憂慮しています。"
+      },
+      {
+        "fr": "Cette organisation non gouvernementale alerte l'opinion sur la dérive autoritaire observée dans certains régimes démocratiques.",
+        "en": "This non-governmental organization alerts the public to the authoritarian drift observed in certain democratic regimes.",
+        "cn": "该非政府公益组织向公众发出警报，披露部分表面维持民主制度的国家所出现的极权威权化倒退倾向。",
+        "jp": "この非政府組織は、一部の民主主義体制において観察される権威主義的傾斜について世論に警告しています。"
+      },
+      {
+        "fr": "La dérive des continents a façonné au fil des millions d'années la géographie actuelle de notre planète.",
+        "en": "Continental drift has shaped the current geography of our planet over the course of millions of years.",
+        "cn": "正是漫长数百万年间地质板块的大陆漂移运动，最终塑造并形成了我们这颗星球如今的地理格局。",
+        "jp": "大陸移動（大陸漂移）は、数百万年の歳月をかけて地球の現在の地理的配置を形作ってきました。"
+      },
+      {
+        "fr": "L'absence de contrôle hiérarchique au sein du service a favorisé une grave dérive financière passée inaperçue pendant des années.",
+        "en": "The lack of managerial oversight within the department favored serious financial misconduct that went unnoticed for years.",
+        "cn": "该部门内部层级监督与内控机制的长期缺位，助长了这起多年未被察觉的严重财务失范与资金侵吞。",
+        "jp": "部署内における管理監督の欠如が、長年にわたり見過ごされてきた深刻な不正財務行為の温床となりました。"
+      },
+      {
+        "fr": "Face aux algorithmes des réseaux sociaux, les éducateurs constatent une dérive sectaire alarmante chez certains adolescents vulnérables.",
+        "en": "Faced with social media algorithms, educators note alarming sectarian drift among certain vulnerable adolescents.",
+        "cn": "受社交媒体算法信息茧房的蛊惑影响，教育工作者敏锐察觉到部分脆弱青少年出现了令人堪忧的极端化极端倾向。",
+        "jp": "SNSのアルゴリズムに晒される中で、教育者たちは一部の脆弱な若者に見られる憂慮すべきカルト的傾斜を指摘しています。"
+      },
+      {
+        "fr": "Le navigateur a dû corriger sa trajectoire maritime pour compenser la dérive causée par les puissants courants marins.",
+        "en": "The navigator had to correct his maritime course to compensate for the drift caused by powerful ocean currents.",
+        "cn": "领航员必须及时修正航船的洋面航向，以全面抵消狂暴的深海洋流所引起的船体横向偏航漂移。",
+        "jp": "航海士は、強い海流によって引き起こされる船体の偏流を相殺するため、航路を修正しなければなりませんでした。"
+      },
+      {
+        "fr": "Certains philosophes dénoncent la dérive marchande d'une société où chaque relation humaine devient un objet de consommation.",
+        "en": "Some philosophers denounce the commercial drift of a society in which every human relationship becomes a consumer object.",
+        "cn": "部分现代哲人猛烈抨击社会的泛商业化扭曲异化：人与人之间纯真真挚的情感竟全被异化成了消费筹码。",
+        "jp": "一部の哲学者は、人間関係のすべてが消費の対象と化してしまう現代社会の商業主義的変質を痛烈に批判しています。"
+      },
+      {
+        "fr": "Les syndicats d'enseignants s'opposent fermement à toute dérive managériale imposée aux établissements scolaires publics.",
+        "en": "Teachers' unions firmly oppose any managerial drift imposed on public educational institutions.",
+        "cn": "教师工会严正表态，坚决抵制任何盲目照搬企业KPI考评机制对公立中小学进行过度管理化异化的做法。",
+        "jp": "教員組合は、公立学校現場に押し付けられる過度な成果主義的マネジメントへの傾斜に断固として反対しています。"
+      },
+      {
+        "fr": "Un encadrement juridique strict demeure indispensable pour prévenir toute dérive dans l'usage militaire des technologies autonomes.",
+        "en": "Strict legal regulation remains essential to prevent any deviation in the military use of autonomous technologies.",
+        "cn": "建立刚性的全流程法律监管，是有效防范高自主军用致命武器系统产生失控误伤偏离的不可或缺之举。",
+        "jp": "自律型技術の軍事利用において致命的な暴走を防ぐためには、厳格な法的枠組みの整備が不可欠です。"
+      }
+    ]
+  },
+  {
+    "id": 1374,
+    "word": "Empreinte carbone",
+    "phonetique": "/ɑ̃.pʁɛ̃t kaʁ.bɔn/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "nom féminin • courant",
+    "definition": "Mesure du volume d'émissions de gaz à effet de serre produit par les activités d'une personne, d'une entreprise ou d'un pays.",
+    "traduction_anglais": "carbon footprint",
+    "traduction_chinois": "碳足迹 (tànzújì)",
+    "traduction_japonais": "カーボンフットプリント / 温室効果ガス排出量 (kābon futtopurinto)",
+    "examples": [
+      {
+        "fr": "Chaque citoyen responsable peut calculer son empreinte carbone personnelle grâce à des simulateurs interactifs en ligne.",
+        "en": "Every responsible citizen can calculate their personal carbon footprint thanks to interactive online simulators.",
+        "cn": "每一位具备环保素养的公民都可以借助便捷的在线模拟评估工具，精准核算自身的个人生活碳足迹。",
+        "jp": "責任あるすべての市民は、オンラインのインタラクティブな計算ツールを通じて個人のカーボンフットプリントを算出できます。"
+      },
+      {
+        "fr": "Cette entreprise multinationale s'engage publiquement à réduire son empreinte carbone globale de quarante pour cent d'ici 2030.",
+        "en": "This multinational corporation publicly commits to reducing its global carbon footprint by forty percent by 2030.",
+        "cn": "这家跨国集团向国际社会庄严承诺，将在2030年前将其全球全价值链的碳足迹大幅削减百分之四十。",
+        "jp": "この多国籍企業は、2030年までに事業全体のカーボンフットプリントを40%削減することを公約として掲げています。"
+      },
+      {
+        "fr": "Privilégier les circuits courts et l'agriculture biologique permet de limiter significativement l'empreinte carbone de notre alimentation quotidienne.",
+        "en": "Favoring short food supply chains and organic agriculture helps significantly curb the carbon footprint of our daily diet.",
+        "cn": "倡导本地农产品直销短链与生态有机农业，能够从根本上显著压降我们日常餐桌饮食的碳足迹。",
+        "jp": "地産地消の流通網や有機農業を優先することは、私たちの日常の食事がもたらす温室効果ガス排出量の抑制に大いに貢献します。"
+      },
+      {
+        "fr": "Le secteur du transport aérien représente une part disproportionnée dans l'empreinte carbone moyenne des cadres internationaux.",
+        "en": "The air transport sector represents a disproportionate share in the average carbon footprint of international executives.",
+        "cn": "民航飞机出行所产生的温室气体，在跨国商界精英人群的个人年均碳足迹构成中占据了惊人的畸高比重。",
+        "jp": "航空交通部門は、国際的なビジネスパーソンの平均的な二酸化炭素排出量において突出した割合を占めています。"
+      },
+      {
+        "fr": "Les municipalités écologistes imposent un bilan de l'empreinte carbone avant de valider tout grand chantier d'infrastructure.",
+        "en": "Green municipalities mandate a carbon footprint assessment before approving any major infrastructure project.",
+        "cn": "坚持绿色生态施政理念的市政管理部门规定，在正式批准任何大型基建工程动工前必须前置开展全生命周期碳足迹核算。",
+        "jp": "環境重視の自治体は、大規模なインフラ工事を承認する前に、詳細な温室効果ガス排出量評価を義務付けています。"
+      },
+      {
+        "fr": "Remplacer le charbon par des énergies renouvelables permettrait à ce pays d'alléger drastiquement son empreinte carbone nationale.",
+        "en": "Replacing coal with renewable energies would allow this country to drastically lighten its national carbon footprint.",
+        "cn": "若能加速以光伏风电等可再生能源全面替代煤电火力机组，该国将得以戏剧性地削减其国家级碳足迹。",
+        "jp": "石炭火力を再生可能エネルギーへ転換することは、この国の国家的なカーボンフットプリントを劇的に低減させるはずです。"
+      },
+      {
+        "fr": "L'industrie textile moderne génère une empreinte carbone colossale en raison de l'essor effréné de la mode éphémère.",
+        "en": "The modern textile industry generates a colossal carbon footprint due to the relentless rise of fast fashion.",
+        "cn": "由于快时尚潮流在消费端的病态狂飙，当代化纤纺织成衣产业在全球范围内制造了极其庞大的碳足迹负荷。",
+        "jp": "現代の繊維産業は、過熱するファストファッションの台頭により、極めて膨大なカーボンフットプリントを生み出しています。"
+      },
+      {
+        "fr": "Certains scientifiques suggèrent d'indiquer clairement l'empreinte carbone sur les étiquettes de tous les biens manufacturés.",
+        "en": "Some scientists suggest clearly displaying the carbon footprint on the labels of all manufactured goods.",
+        "cn": "部分环境科学家呼吁立法，要求在市场流通的所有工业消费品包装标签上明确强制标注其碳足迹数值。",
+        "jp": "一部の科学者は、すべての工業製品のラベルに温室効果ガス排出量をわかりやすく明記することを提案しています。"
+      },
+      {
+        "fr": "Isoler thermiquement les logements anciens constitue un levier prioritaire pour diminuer l'empreinte carbone du secteur résidentiel.",
+        "en": "Thermally insulating older homes constitutes a priority lever for reducing the residential sector's carbon footprint.",
+        "cn": "对高耗能老旧住宅建筑进行全面的外墙与屋顶节能保温改造，是大幅缩减居民建筑采暖碳足迹的重中之重。",
+        "jp": "既存の古い住宅の断熱改修を行うことは、住宅部門における二酸化炭素排出量を削減するための最優先の手段です。"
+      },
+      {
+        "fr": "Vivre sans voiture individuelle au cœur d'une métropole permet de réduire de moitié son empreinte carbone liée aux déplacements.",
+        "en": "Living car-free in the heart of a metropolis makes it possible to cut in half one's transportation-related carbon footprint.",
+        "cn": "在公共交通四通八达的现代化特大都市中心选择无车绿色低碳生活，可将个人的日常通勤出行碳足迹直接减半。",
+        "jp": "大都市の中心部でマイカーを持たずに生活することは、日々の移動に伴う個人の温室効果ガス排出量を半減させます。"
+      }
+    ]
+  },
+  {
+    "id": 1375,
+    "word": "Sobriété",
+    "phonetique": "/sɔ.bʁi.je.te/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "nom féminin • courant",
+    "definition": "Modération volontaire et discernement dans la consommation de biens, d'énergie ou de ressources naturelles.",
+    "traduction_anglais": "sobriety / moderation / energy restraint",
+    "traduction_chinois": "节制 / 简约 / 克制消费 (jiézhì)",
+    "traduction_japonais": "節度 / 節約 / 抑制 (setsudo)",
+    "examples": [
+      {
+        "fr": "La sobriété énergétique collective constitue une réponse immédiate et efficace face aux risques récurrents de pénurie d'électricité.",
+        "en": "Collective energy sobriety constitutes an immediate and effective response to recurrent risks of electricity shortages.",
+        "cn": "全社会推行群策群力的能耗节约节制风尚，是有效化解季节性电力用工短缺风险的最快捷法宝。",
+        "jp": "社会全体でのエネルギー消費の抑制（節電）は、度重なる電力不足のリスクに対する迅速かつ効果的な解決策です。"
+      },
+      {
+        "fr": "De nombreux écologistes prônent la sobriété heureuse comme un modèle philosophique fondé sur le bien-être plutôt que l'accumulation.",
+        "en": "Many ecologists advocate joyful sobriety as a philosophical model based on well-being rather than material accumulation.",
+        "cn": "众多生态先锋哲人极力倡导质朴而充盈的心灵简约哲学，追求立足身心和谐而非盲目物欲堆砌的生活真谛。",
+        "jp": "多くのエコロジストは、物質的な蓄積よりも精神的な豊かさを重視する哲学的モデルとして「喜ばしい簡素さ」を提唱しています。"
+      },
+      {
+        "fr": "Le gouvernement a dévoilé un plan national de sobriété afin d'inciter les entreprises à éteindre leurs vitrines nocturnes.",
+        "en": "The government unveiled a national sobriety plan to encourage businesses to turn off their nighttime shop windows.",
+        "cn": "中央政府正式出台了全国能耗节减国家行动方案，强制敦促商业沿街门店在深宵时段关闭景观橱窗照明。",
+        "jp": "政府は夜間のショーウィンドウの消灯を企業に促すため、省エネルギーに関する国家抑制行動計画を発表しました。"
+      },
+      {
+        "fr": "Cette architecte talentueuse privilégie la sobriété des lignes et l'emploi exclusif de matériaux bruts et durables.",
+        "en": "This talented architect favors restraint in lines and the exclusive use of raw and durable materials.",
+        "cn": "这位才华横溢的新锐建筑师偏爱洗练素雅的空间线条，且始终坚持全量采用天然质朴耐久的环保建材。",
+        "jp": "その才能豊かな建築家は、無駄を削ぎ落とした線の簡素さと、天然で耐久性の高い素材の排他的な使用を重視しています。"
+      },
+      {
+        "fr": "Face au gaspillage alimentaire, cultiver la sobriété dans nos achats permet de réaliser d'importantes économies financières.",
+        "en": "Faced with food waste, cultivating restraint in our shopping allows for significant financial savings.",
+        "cn": "面对触目惊心的日常餐厨食物浪费，在超市采购环节坚持按需克制与量入为出，能帮家庭节约可观开支。",
+        "jp": "食品ロスに直面する中で、日常の買い物に節度を持つことは、家計における大幅な支出節約につながります。"
+      },
+      {
+        "fr": "Les scientifiques du climat rappellent que la transition technologique restera insuffisante sans une réelle politique de sobriété.",
+        "en": "Climate scientists remind us that technological transition will remain insufficient without a genuine policy of restraint.",
+        "cn": "气候科学家一再严正指出，如果不全面辅之以大刀阔斧的社会需求侧克制节减政策，仅凭技术迭代改良将难以扭转乾坤。",
+        "jp": "気候学者たちは、本質的な消費抑制政策を伴わなければ、単なる技術的転換だけでは不十分なままであると警鐘を鳴らしています。"
+      },
+      {
+        "fr": "L'écrivain s'est distingué par la sobriété exemplaire de son style narratif empreint d'une sobre élégance littéraire.",
+        "en": "The writer distinguished himself through the exemplary sobriety of his narrative style imbued with understated literary elegance.",
+        "cn": "这位大文豪凭借其洗练素朴、不着痕迹的经典叙事笔调在文坛独树一帜，尽显返璞归真的高雅文学底蕴。",
+        "jp": "その作家は、過度な装飾を排した控えめな文学的気品を帯びた、模範的なまでに簡潔な文体によって高く評価されました。"
+      },
+      {
+        "fr": "Pratiquer la sobriété numérique implique d'effacer régulièrement ses courriels stockés et de limiter le streaming vidéo.",
+        "en": "Practicing digital sobriety involves regularly deleting stored emails and limiting high-definition video streaming.",
+        "cn": "践行现代数字信息减负节制，要求用户定期清理云端陈旧邮件缓存，并自觉克制无节制的高清流媒体沉溺播放。",
+        "jp": "デジタル空間の節度（デジタル・ソブラエティ）を実践するには、蓄積したメールの定期的な削除や動画配信視聴の制限が求められます。"
+      },
+      {
+        "fr": "Dans une société saturée de messages publicitaires, choisir la sobriété constitue un acte de résistance intellectuelle salvateur.",
+        "en": "In a society saturated with advertising messages, choosing simplicity constitutes a liberating act of intellectual resistance.",
+        "cn": "在一个商业促销广告泛滥成灾的信息过载社会里，主动选择简约素朴的生活方式堪称一种极具觉醒意味的心智抵抗。",
+        "jp": "過剰な広告情報に埋没した消費社会において、あえて簡素な生活を選ぶことは、救済とも言える知的な抵抗行動です。"
+      },
+      {
+        "fr": "Ce philosophe antique enseignait que la vraie liberté découle directement de la sobriété des désirs matériels.",
+        "en": "This ancient philosopher taught that true freedom stems directly from restraint in material desires.",
+        "cn": "这位古希腊圣哲在讲学中强调：唯有遏制并看淡过度的物欲贪念，人的心灵方能赢得真正纯粹的自由境界。",
+        "jp": "この古代の哲学者は、真の自由とは物質的欲望を節度あるものに抑えることから直接もたらされると説きました。"
+      }
+    ]
+  },
+  {
+    "id": 1376,
+    "word": "Éco-responsable",
+    "phonetique": "/e.ko.ʁɛs.pɔ̃.sabl/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "adjectif • courant",
+    "definition": "Qui intègre la protection de l'environnement et le respect des équilibres écologiques dans ses pratiques quotidiennes ou professionnelles.",
+    "traduction_anglais": "eco-friendly / environmentally responsible",
+    "traduction_chinois": "环保的 / 具备生态责任意识的 (huánbǎo de)",
+    "traduction_japonais": "環境に配慮した / エコ意識の高い (kankyō ni hairyo shita)",
+    "examples": [
+      {
+        "fr": "Cette jeune marque de cosmétiques fabrique tous ses produits selon une démarche rigoureusement éco-responsable et solidaire.",
+        "en": "This young cosmetics brand manufactures all its products according to a strictly eco-friendly and socially supportive approach.",
+        "cn": "这家新锐国潮化妆品品牌严格遵循全链条绿色环保与社会公益理念来组织每一款产品的原料采购与生产。",
+        "jp": "この新興コスメブランドは、厳格な環境配慮と連帯の精神に基づき、すべての製品を誠実に製造しています。"
+      },
+      {
+        "fr": "Les consommateurs modernes privilégient de plus en plus des emballages recyclables et des solutions d'emballage éco-responsables.",
+        "en": "Modern consumers increasingly favor recyclable packaging and eco-friendly wrapping solutions.",
+        "cn": "当今具有思辨精神的消费者愈发青睐全降解循环纸质包装，以及各类秉持生态责任导向的绿色包装方案。",
+        "jp": "現代の消費者は、リサイクル可能な包装や環境に配慮したエコパッケージングのソリューションをますます好むようになっています。"
+      },
+      {
+        "fr": "Notre université s'est dotée d'une charte éco-responsable visant à éradiquer totalement l'usage des gobelets en plastique jetables.",
+        "en": "Our university adopted an eco-friendly charter aimed at totally eradicating the use of single-use plastic cups.",
+        "cn": "我们大学全体师生共同签署了绿色生态自律公约，誓在校园内彻底杜绝一次性塑料纸杯的流通与使用。",
+        "jp": "本学は、使い捨てプラスチック製コップの使用を全廃することを目指した環境憲章を正式に制定しました。"
+      },
+      {
+        "fr": "Choisir un hébergement touristique éco-responsable garantit des vacances respectueuses de la biodiversité locale et des ressources en eau.",
+        "en": "Choosing eco-friendly tourist accommodation guarantees vacations respectful of local biodiversity and water resources.",
+        "cn": "在旅游目的地甄选入住绿色生态认证民宿酒店，能够确保您的度假之旅绝不破坏当地脆弱生物多样性与宝贵水源。",
+        "jp": "環境に配慮した宿泊施設を選択することは、現地の生態系や貴重な水資源を尊重した持続可能な休暇を保証します。"
+      },
+      {
+        "fr": "Le festival a mis en place une restauration entièrement éco-responsable en ne servant que des produits locaux et de saison.",
+        "en": "The festival set up entirely eco-friendly catering by serving only local and seasonal produce.",
+        "cn": "音乐节组委会全面上线了百分百绿色餐饮补给系统，现场所有食品摊位仅供应当地当季的时令有机食材。",
+        "jp": "フェスティバルでは、地元産かつ旬の食材のみを提供することにより、完全に環境に配慮したケータリング体制を構築しました。"
+      },
+      {
+        "fr": "Sensibiliser les écoliers à des gestes éco-responsables dès le plus jeune âge forge les citoyens engagés de demain.",
+        "en": "Sensitizing schoolchildren to eco-friendly habits from an early age shapes the committed citizens of tomorrow.",
+        "cn": "从小学阶段起引导孩子们养成垃圾分类等生态环保日常习惯，才能为全社会培育出具备使命感的新时代未来公民。",
+        "jp": "幼少期から学童たちに環境配慮型の行動習慣を啓発することは、未来の社会を担う自覚ある市民を育みます。"
+      },
+      {
+        "fr": "Cette entreprise de logistique a renouvelé sa flotte de livraison au profit de véhicules électriques éco-responsables.",
+        "en": "This logistics company renewed its delivery fleet in favor of eco-friendly electric vehicles.",
+        "cn": "这家大型智慧物流干线企业全面更换淘汰了高耗能传统柴油货车，全盘采购绿色低噪纯电动物流专用车辆。",
+        "jp": "この物流会社は、環境負荷の少ない電動輸送車両への全面刷新により、配送車両群の脱炭素化を完了しました。"
+      },
+      {
+        "fr": "L'architecte conçoit des bâtiments publics éco-responsables capables de produire plus d'énergie renouvelable qu'ils n'en consomment.",
+        "en": "The architect designs eco-friendly public buildings capable of producing more renewable energy than they consume.",
+        "cn": "这位总规划师设计出一批卓越的零碳公共建筑，其自给自足的光伏发电能力远超建筑日常运营的综合能耗。",
+        "jp": "その建築家は、消費する以上の再生可能エネルギーを自ら生み出すことができる環境共生型公共建築を設計しています。"
+      },
+      {
+        "fr": "De nombreuses collectivités récompensent les initiatives citoyennes éco-responsables par le biais de subventions financières ciblées.",
+        "en": "Many local authorities reward eco-friendly citizen initiatives through targeted financial grants.",
+        "cn": "许多地方基层政府通过设立专项环保奖补基金，大张旗鼓扶持与奖励居民群众自发实施的绿色生态创意项目。",
+        "jp": "多くの地方自治体は、的を絞った補助金を通じて、市民による自発的な環境配慮型プロジェクトを表彰・助成しています。"
+      },
+      {
+        "fr": "Adopter une garde-robe éco-responsable commence par acheter moins d'habits neufs et réparer les vêtements usagés.",
+        "en": "Adopting an eco-friendly wardrobe begins by buying fewer new clothes and repairing worn garments.",
+        "cn": "构建健康节俭的绿色衣橱观念，首要在于克制非理性购置新装的冲动，并重拾修补翻新旧衣物的环保传统美德。",
+        "jp": "環境に配慮したワードローブを身につける第一歩は、新品の購入頻度を減らし、擦り切れた服を修繕して長く愛用することです。"
+      }
+    ]
+  },
+  {
+    "id": 1377,
+    "word": "Canicule",
+    "phonetique": "/ka.ni.kyl/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "nom féminin • courant",
+    "definition": "Période de très forte chaleur diurne et nocturne qui se prolonge pendant plusieurs jours consécutifs.",
+    "traduction_anglais": "heatwave / extreme heat",
+    "traduction_chinois": "酷暑 / 热浪 (kùshǔ)",
+    "traduction_japonais": "猛暑 / 熱波 (mōsho)",
+    "examples": [
+      {
+        "fr": "Les services météorologiques ont déclenché le niveau de vigilance rouge face à l'imminence d'une canicule historique sur le pays.",
+        "en": "Meteorological services triggered the red alert level given the imminence of a historic heatwave across the country.",
+        "cn": "面对即将在全国范围内大面积爆发的历史罕见特大酷暑热浪，国家气象部门紧急拉响最高红色预警信号。",
+        "jp": "気象局は、国内全土を襲う歴史的な猛暑の切迫に直面し、最大級の厳戒警報（赤色警戒レベル）を発令しました。"
+      },
+      {
+        "fr": "Pendant cette canicule suffocante, les personnes âgées isolées font l'objet d'un suivi téléphonique quotidien par les services sociaux.",
+        "en": "During this suffocating heatwave, isolated elderly people are monitored via daily phone calls by social services.",
+        "cn": "在这场令人几乎窒息的持续极端热浪期间，社区社工每天通过定时电话回访，悉心巡查独居孤寡老人的身体状况。",
+        "jp": "この息苦しい猛暑の間、孤立しがちな高齢者に対して社会福祉支援員による毎日の電話安否確認が実施されています。"
+      },
+      {
+        "fr": "L'intensité croissante de chaque canicule estivale apporte une preuve indiscutable des dérèglements causés par le réchauffement climatique.",
+        "en": "The growing intensity of each summer heatwave provides indisputable proof of disruptions caused by global warming.",
+        "cn": "每年盛夏季节愈发频发肆虐且威力激增的酷暑热浪，正为全球气候不可逆转的深度失衡提供了无可辩驳的铁证。",
+        "jp": "毎夏の猛暑が一段と厳しさを増している現実は、地球温暖化によってもたらされた気候変動の動かぬ証拠です。"
+      },
+      {
+        "fr": "Les municipalités multiplient les îlots de fraîcheur urbains pour permettre aux citadins de mieux supporter la canicule.",
+        "en": "Municipalities are multiplying urban cooling islands to allow city dwellers to better endure the heatwave.",
+        "cn": "大批现代城市管理部门正紧锣密鼓地增设林荫喷淋城市清凉庇护驿站，帮助市民扛过酷热难耐的煎熬伏天。",
+        "jp": "各都市自治体は、市民が猛暑を少しでも快適に乗り切れるよう、冷涼な空間を提供する都市型クールスポットを増設しています。"
+      },
+      {
+        "fr": "Une baisse spectaculaire du débit des fleuves durant la canicule perturbe gravement le refroidissement des centrales nucléaires.",
+        "en": "A dramatic drop in river flow during the heatwave severely disrupts the cooling of nuclear power plants.",
+        "cn": "在持续伏旱酷暑天气烤炙下，各大流域河水流量发生暴跌断流，重创阻碍了沿江沿河核电站反应堆的冷却作业。",
+        "jp": "猛暑期における河川流量の急激な激減は、原子力発電所の冷却システム運転に極めて深刻な支障をきたしています。"
+      },
+      {
+        "fr": "Travailler sur les chantiers extérieurs en pleine canicule exige des aménagements horaires stricts pour protéger les ouvriers.",
+        "en": "Working on outdoor construction sites during a severe heatwave requires strict schedule adjustments to protect laborers.",
+        "cn": "在连日高温酷热环境下进行户外建筑重体力作业，必须强制推行做两头歇中间的防暑降温错峰作业作息表。",
+        "jp": "猛暑の炎天下で屋外建設作業を行う場合、作業員の生命を守るために厳格な作業シフトの調整が不可欠です。"
+      },
+      {
+        "fr": "La consommation excessive de climatiseurs pendant une canicule entraîne de fréquents pics de surcharge sur le réseau électrique.",
+        "en": "Excessive use of air conditioners during a heatwave leads to frequent overload spikes on the power grid.",
+        "cn": "酷暑时分全社会空调降温负荷的报复性集中释放，极易引发区域城市高压输电电网的频繁过载跳闸与用电告急。",
+        "jp": "猛暑期間中のエアコンの過剰な稼働は、送電ネットワークにおいて頻繁な過負荷ピークを引き起こす要因となります。"
+      },
+      {
+        "fr": "Dans les hôpitaux publics, les urgentistes constatent un afflux massif de patients victimes de déshydratation due à la canicule.",
+        "en": "In public hospitals, emergency room staff see a massive influx of patients suffering from heatwave-induced dehydration.",
+        "cn": "在各大公立三甲综合医院急诊科，医护人员直面因难耐酷暑热浪引发急性脱水与中暑休克病患的蜂拥挤兑。",
+        "jp": "公立病院の救急救命外来では、猛暑が原因で脱水症状に陥った救急患者の爆発的な増加に見舞われています。"
+      },
+      {
+        "fr": "Cette canicule précoce survenue dès le mois de mai a anéanti une grande partie des jeunes cultures céréalières.",
+        "en": "This early heatwave occurring as early as May wiped out a large portion of young grain crops.",
+        "cn": "这场早在五月暮春便猝然降临的超早强逆温酷暑，几乎将大片处于拔节孕穗黄金期的嫩绿麦禾幼苗彻底烤焦绝收。",
+        "jp": "5月に早くも到来したこの異常な早期猛暑は、生育途上にあった若々しい穀物作物の大半を枯死滅亡させました。"
+      },
+      {
+        "fr": "Boire abondamment de l'eau et fermer les volets dès l'aube demeurent les règles de base pour survivre à la canicule.",
+        "en": "Drinking plenty of water and closing shutters at dawn remain the basic rules for surviving a heatwave.",
+        "cn": "保持全天候充分足量饮水补液并在黎明破晓时分紧闭所有遮阳隔热百叶窗，是平稳挺过极端酷暑的黄金自救常识。",
+        "jp": "十分な水分補給を徹底し、夜明けとともに雨戸や遮光ブラインドを閉め切ることは、猛暑を乗り切るための鉄則です。"
+      }
+    ]
+  },
+  {
+    "id": 1378,
+    "word": "Sinistré",
+    "phonetique": "/si.nis.tʁe/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "adjectif • courant",
+    "definition": "Qui a subi d'importants préjudices matériels, économiques ou physiques à la suite d'un événement dévastateur.",
+    "traduction_anglais": "disaster-stricken / victim / damaged",
+    "traduction_chinois": "受灾的 / 受灾者 (shòuzāi de)",
+    "traduction_japonais": "被災した / 被災者 (hisai shita)",
+    "examples": [
+      {
+        "fr": "Les habitants de ce village sinistré par la crue soudaine ont été évacués d'urgence vers un gymnase municipal.",
+        "en": "Residents of this village devastated by the flash flood were evacuated in emergency to a municipal gymnasium.",
+        "cn": "这片因突发山洪肆虐而沦为重度受灾区的乡村群众，已被火速连夜紧急转移安置至市属综合体育馆避险。",
+        "jp": "突発的な鉄砲水によって甚大な被害を受けたこの村の住民たちは、市立体育館へと緊急避難させられました。"
+      },
+      {
+        "fr": "Le gouvernement déploie des aides financières exceptionnelles pour indemniser rapidement chaque famille sinistrée par la tempête.",
+        "en": "The government is deploying exceptional financial aid to quickly compensate every family devastated by the storm.",
+        "cn": "中央财政火速拨付特大抢险救灾专项扶持补助资金，力保每一户在这场狂风暴雨中遭受重创的受灾家庭能迅速获赔。",
+        "jp": "政府は暴風雨によって被災した各世帯に迅速な損害補償を行うため、異例の緊急財政支援措置を配備しています。"
+      },
+      {
+        "fr": "Plusieurs compagnies d'assurances ont installé des bureaux mobiles directement dans les quartiers sinistrés afin d'accélérer les démarches.",
+        "en": "Several insurance companies set up mobile offices directly in damaged neighborhoods to expedite procedures.",
+        "cn": "多家主流大型商业保险机构直插受灾受损最为核心的居民街区搭建流动理赔服务网点，全面简化索赔手续流程。",
+        "jp": "複数の保険会社は保険金請求手続きを迅速化するため、被災した街区に直接移動式の臨時営業窓口を設置しました。"
+      },
+      {
+        "fr": "Cette région côtière demeure lourdement sinistrée après le passage destructeur d'un ouragan d'une violence inouïe.",
+        "en": "This coastal region remains heavily battered in the wake of an unprecedentedly violent hurricane.",
+        "cn": "在遭受了这场超强破坏力罕见飓风的正面毁灭性横扫蹂躏之后，这片沿海经济带至今仍百孔千疮、深陷重灾境地。",
+        "jp": "前例のない暴力的なハリケーンの猛威が通過した後も、この沿岸地域は壊滅的な被害を受けたままの痛ましい状態にあります。"
+      },
+      {
+        "fr": "Des centaines de bénévoles courageux nettoient sans relâche les habitations des riverains sinistrés par les coulées de boue.",
+        "en": "Hundreds of courageous volunteers are tirelessly cleaning the homes of local residents hit by mudslides.",
+        "cn": "数百名奋不顾身的热心志愿者不舍昼夜地挥锹清淤，全力帮扶被泥石流无情冲垮倒灌的受灾民众抢修清理家园。",
+        "jp": "数百人もの勇敢なボランティアが、土石流に襲われた被災住民の住居を片付けるため、休むことなく泥の除去にあたっています。"
+      },
+      {
+        "fr": "Le maire a prononcé un discours émouvant pour réconforter les commerçants sinistrés dont les boutiques ont été englouties.",
+        "en": "The mayor delivered an emotional speech to comfort devastated merchants whose shops had been submerged.",
+        "cn": "面对沿街店铺悉数被洪水倒灌淹没倾家荡产的受灾个体商户，市长发表了一篇情真意切、鼓舞信心的慰问演说。",
+        "jp": "市長は、店舗が水没して財産を失った被災商店主たちを温かく元気づけるため、胸を打つ演説を行いました。"
+      },
+      {
+        "fr": "Une cellule d'urgence médico-psychologique a été dépêchée sur place pour soutenir les rescapés sinistrés en état de choc.",
+        "en": "A medico-psychological emergency unit was dispatched on site to support traumatized disaster victims.",
+        "cn": "一支高水平紧急医学心理危机干预特派医疗分队火速空降现场，对惊魂未定、处于急性应激创伤状态的受灾幸存者展开疏导救助。",
+        "jp": "ショック状態にある被災生存者を救護するため、現場には緊急医療・心理支援チームが直ちに派遣されました。"
+      },
+      {
+        "fr": "L'économie locale reste profondément sinistrée malgré les promesses récurrentes d'investissements publics dans les infrastructures.",
+        "en": "The local economy remains deeply depressed despite recurring promises of public investments in infrastructure.",
+        "cn": "尽管官方三番五次许诺将对公共基建注入真金白银，然而这里的区域实体经济依旧萎靡凋敝、宛如严重受创的灾区。",
+        "jp": "インフラへの公共投資が繰り返し約束されているにもかかわらず、地域経済は依然として深刻に疲弊したままです。"
+      },
+      {
+        "fr": "Distribuer des vivres et de l'eau potable aux populations sinistrées constitue la priorité absolue des secouristes mobilisés.",
+        "en": "Distributing food supplies and drinking water to disaster-affected populations constitutes the top priority for mobilized rescuers.",
+        "cn": "将保命救急的面包饮用水等战略口粮分发递送到每一位饥寒交迫的受灾同胞手上，是现场一切救援力量的压倒性铁律。",
+        "jp": "被災住民に食料や飲料水をくまなく配給することは、現場に動員された救助隊員たちにとって最優先の任務です。"
+      },
+      {
+        "fr": "Ce fonds de solidarité européen débloquera des millions d'euros pour reconstruire les voies ferrées du bassin sinistré.",
+        "en": "This European solidarity fund will release millions of euros to rebuild railways across the devastated basin.",
+        "cn": "欧洲区域团结合作基金将火速启动数以百万计的紧急欧元援助拨款，专项用于全线重建受灾重创盆地流域的瘫痪铁路网络。",
+        "jp": "この欧州連帯基金は、被災した流域一帯の破壊された鉄道路線を復旧・再建するため、数百万ユーロを拠出する予定です。"
+      }
+    ]
+  },
+  {
+    "id": 1379,
+    "word": "Catastrophe naturelle",
+    "phonetique": "/ka.tas.tʁɔf na.ty.ʁɛl/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "nom féminin • courant",
+    "definition": "Événement destructeur et violent d'origine environnementale entraînant des dégâts matériels immenses et de lourdes pertes humaines.",
+    "traduction_anglais": "natural disaster",
+    "traduction_chinois": "自然灾害 (zìrán zāihài)",
+    "traduction_japonais": "自然災害 (shizen saigai)",
+    "examples": [
+      {
+        "fr": "L'état de catastrophe naturelle a été officiellement proclamé dans plus de soixante communes ravagées par les inondations.",
+        "en": "A state of natural disaster was officially declared in over sixty municipalities devastated by floods.",
+        "cn": "国家针对在这场特大洪涝灾难中惨遭摧毁的六十余个行政乡镇，正式发布政令宣布进入自然灾害紧急状态。",
+        "jp": "洪水によって壊滅的な被害を受けた60以上の基礎自治体において、自然災害状態が正式に宣言されました。"
+      },
+      {
+        "fr": "Le réchauffement global multiplie la fréquence et la violence de chaque catastrophe naturelle enregistrée sur les cinq continents.",
+        "en": "Global warming increases the frequency and ferocity of every natural disaster recorded across all five continents.",
+        "cn": "气候变暖正以肉眼可见的速度成倍推高全球五大洲各类极端自然灾害的爆发频次与破坏强度极限。",
+        "jp": "地球温暖化は、五大州の至る所で記録されるあらゆる自然災害の発生頻度と猛威を著しく増大させています。"
+      },
+      {
+        "fr": "Ce séisme dévastateur est considéré par les géologues comme la pire catastrophe naturelle vécue par le pays depuis un demi-siècle.",
+        "en": "This devastating earthquake is regarded by geologists as the worst natural disaster experienced by the country in half a century.",
+        "cn": "这起突如其来的毁灭性大地震，被地质科学界公认为该国近半个世纪以来遭遇的最具摧毁性的空前自然灾害。",
+        "jp": "この壊滅的な大地震は、地質学者たちによって、この国が過去半世紀に経験した最悪の自然災害であるとみなされています。"
+      },
+      {
+        "fr": "Les systèmes d'alerte précoce permettent de sauver des milliers de vies lorsqu'une catastrophe naturelle frappe une côte habitée.",
+        "en": "Early warning systems make it possible to save thousands of lives when a natural disaster strikes an inhabited coastline.",
+        "cn": "一旦突发自然灾难猛烈袭击人口密集的沿海城市带，高灵敏度的早警预警系统能够为挽救成千上万条宝贵生命争取生机。",
+        "jp": "自然災害が人口の多い海岸沿いを襲った際、早期警報システムは数千人もの尊い命を救うことを可能にします。"
+      },
+      {
+        "fr": "Une aide humanitaire internationale massive s'organise pour soutenir les rescapés de cette terrible catastrophe naturelle en Asie.",
+        "en": "Massive international humanitarian aid is mobilizing to support survivors of this horrific natural disaster in Asia.",
+        "cn": "国际红十字会等跨国人道主义力量正紧急联合集结调配大批救灾物资，千里驰援亚细亚这场重大自然灾害中的劫后幸存者。",
+        "jp": "アジアで起きたこの凄惨な自然災害の被災生存者を救援するため、大規模な国際人道支援が急ピッチで組織されています。"
+      },
+      {
+        "fr": "Les assureurs s'inquiètent de la flambée sans précédent du coût global d'indemnisation lié à chaque catastrophe naturelle.",
+        "en": "Insurers are worried about the unprecedented surge in overall compensation costs linked to each natural disaster.",
+        "cn": "全球保险巨头对近年来伴随单次特大自然灾害赔付而爆发式狂飙的巨额赔付资金敞口深感焦虑不安。",
+        "jp": "保険各社は、個々の自然災害に関連して前例のない規模で急激に膨らみ続ける保険金支払い総額に頭を痛めています。"
+      },
+      {
+        "fr": "Renforcer la résilience des infrastructures urbaines constitue le meilleur rempart contre les ravages d'une catastrophe naturelle imprévisible.",
+        "en": "Strengthening the resilience of urban infrastructure constitutes the best defense against the devastation of an unpredictable natural disaster.",
+        "cn": "全方位筑牢提升城市基础设施的综合韧性水平，是抵御一切不可预知极端自然灾害吞噬肆虐的最牢固屏障。",
+        "jp": "都市インフラの耐災性・強靭性を抜本的に強化することは、予測不可能な自然災害の猛威に対する最良の防壁となります。"
+      },
+      {
+        "fr": "Aucune nation moderne ne peut prétendre être totalement à l'abri des conséquences dramatiques d'une catastrophe naturelle.",
+        "en": "No modern nation can claim to be totally immune to the dramatic consequences of a natural disaster.",
+        "cn": "纵然综合国力再强盛，当今世界没有任何一个现代化国家敢自诩能够彻底免受突如其来自然灾害的无情蹂躏。",
+        "jp": "いかに近代化された国家であっても、自然災害がもたらす悲劇的な結末から完全に無縁でいられると豪語することは不可能です。"
+      },
+      {
+        "fr": "Cette conférence mondiale vise à concevoir des plans d'urgence conjoints pour anticiper toute future catastrophe naturelle.",
+        "en": "This world conference aims to design joint contingency plans to anticipate any future natural disaster.",
+        "cn": "这届全球峰会齐聚国际顶级应急防灾专家，旨在联合编制前瞻性跨国防灾减灾协同应急预案以防范未来自然灾害。",
+        "jp": "この世界会議は、将来発生し得るいかなる自然災害をも予見し、国際的な共同緊急対策プランを策定することを目的としています。"
+      },
+      {
+        "fr": "Face à une catastrophe naturelle d'une telle ampleur, l'élan de générosité des citoyens ordinaires a dépassé toutes les espérances.",
+        "en": "Faced with a natural disaster of such magnitude, the outpouring of generosity from ordinary citizens exceeded all expectations.",
+        "cn": "面对如此遮天蔽日、破坏空前的滔天自然大灾，寻常普通百姓所自发汇聚倾注的爱心捐输善举远超所有人事前预估。",
+        "jp": "このような未曾有の規模の自然災害を前にして、名もなき一般市民たちが見せた自発的な善意の広がりはあらゆる予想を凌駕しました。"
+      }
+    ]
+  },
+  {
+    "id": 1380,
+    "word": "Atténuation",
+    "phonetique": "/a.te.nɥa.sjɔ̃/",
+    "level": "B2",
+    "theme": "Écologie & Climat",
+    "type": "nom féminin • courant",
+    "definition": "Action ou ensemble de mesures visant à réduire la gravité, l'intensité ou les effets néfastes d'un phénomène préjudiciable.",
+    "traduction_anglais": "mitigation / reduction / softening",
+    "traduction_chinois": "减缓 / 缓解 (jiǎnhuǎn)",
+    "traduction_japonais": "緩和 / 軽減 (kanwa)",
+    "examples": [
+      {
+        "fr": "Les stratégies d'atténuation du changement climatique imposent une réduction drastique de notre dépendance collective aux énergies fossiles.",
+        "en": "Climate change mitigation strategies require a drastic reduction in our collective dependence on fossil fuels.",
+        "cn": "科学应对气候变暖的减缓治理战略，硬性要求人类社会从根本上大刀阔斧摆脱对高碳化石能源的路径依赖。",
+        "jp": "気候変動の緩和戦略は、化石燃料に対する社会全体の依存度を抜本的かつ劇的に引き下げることを必須としています。"
+      },
+      {
+        "fr": "Ce rapport d'experts souligne que l'atténuation des émissions polluantes coûte infiniment moins cher que la réparation des dégâts futurs.",
+        "en": "This expert report emphasizes that mitigating polluting emissions is vastly cheaper than repairing future damages.",
+        "cn": "这份跨学科权威论证报告强调，及早压降减缓各类污染气体排放所耗费的经济成本，远比灾后亡羊补牢低廉划算。",
+        "jp": "この専門家報告書は、汚染物質排出の緩和策にかかる費用は将来の被害修復コストと比べてはるかに安価であると指摘しています。"
+      },
+      {
+        "fr": "La reforestation massive de ces zones dégradées contribue puissamment à l'atténuation de l'empreinte carbone planétaire.",
+        "en": "Massive reforestation of these degraded areas powerfully contributes to mitigating the planetary carbon footprint.",
+        "cn": "在水土流失严重的退化荒漠化地带推行大规模植树造林工程，对有效吸收减缓全球二氧化碳负荷发挥着强劲作用。",
+        "jp": "荒廃したこれらの地域における大規模な森林再生は、地球規模の温室効果ガス蓄積を力強く緩和することに寄与します。"
+      },
+      {
+        "fr": "Le médecin a prescrit cet analgésique puissant en vue d'une atténuation rapide des douleurs postopératoires.",
+        "en": "The physician prescribed this potent analgesic for the rapid mitigation of post-surgical pain.",
+        "cn": "主刀主治医师为病患对症开具了这种强效镇痛新药，旨在以最快速度靶向减缓手术伤口带来的剧烈术后疼痛。",
+        "jp": "主治医は、外科手術後の激しい痛みを迅速に緩和することを目的として、この強力な鎮痛薬を処方しました。"
+      },
+      {
+        "fr": "Certains urbanistes proposent l'aménagement de toitures végétalisées pour favoriser l'atténuation de la chaleur dans les grandes agglomérations.",
+        "en": "Some urban planners propose installing green roofs to foster heat mitigation in large metropolitan areas.",
+        "cn": "多位先锋城市规划学者呼吁全面推行建筑屋顶立体垂直绿化工程，以强力促进特大密集城市中心热岛效应的降温减缓。",
+        "jp": "一部の都市計画担当者は、大都市圏における熱帯夜や熱島現象の緩和を促すため、屋上緑化の整備を提唱しています。"
+      },
+      {
+        "fr": "Les négociations diplomatiques n'ont abouti qu'à une timide atténuation des tensions militaires à la frontière contestée.",
+        "en": "Diplomatic negotiations only achieved a modest easing of military tensions along the contested border.",
+        "cn": "连日的穿梭穿插外交斡旋仅仅换来了双方在争议热点边境前沿军事对峙剑拔弩张局势的轻微短暂减缓降温。",
+        "jp": "外交交渉は、係争中の国境地帯における軍事的緊張の、ごくわずかで限定的な緩和をもたらしたに過ぎませんでした。"
+      },
+      {
+        "fr": "La nouvelle directive européenne accorde la priorité absolue aux politiques d'atténuation plutôt qu'à la simple adaptation passive.",
+        "en": "The new European directive gives absolute priority to mitigation policies rather than mere passive adaptation.",
+        "cn": "欧盟新颁布实施的纲领性指令旗帜鲜明地规定，必须把主动进取的碳排减缓政策置于消极被动的随波逐流适应之上。",
+        "jp": "新しい欧州指令は、単なる受動的な適応ではなく、排出抑制などの能動的な「緩和」政策に絶対的な優先権を与えています。"
+      },
+      {
+        "fr": "Poser ces barrières acoustiques le long de l'autoroute permet une nette atténuation des nuisances sonores pour les riverains.",
+        "en": "Installing these acoustic barriers along the highway enables a clear mitigation of noise pollution for nearby residents.",
+        "cn": "在城际高速公路两侧全线树立高规格隔音降噪屏障，能够极其立竿见影地大幅削减减缓困扰沿线居民的刺耳交通噪音。",
+        "jp": "高速道路沿いにこれらの防音壁を設置することは、近隣住民にとって騒音公害の大幅な軽減と緩和をもたらします。"
+      },
+      {
+        "fr": "Chaque secteur industriel doit présenter un plan crédible d'atténuation de ses rejets d'eaux usées dans le fleuve.",
+        "en": "Every industrial sector must present a credible plan for mitigating its wastewater discharges into the river.",
+        "cn": "每一个重工业门类分支都必须拿出经得起推敲的扎实行动方案，严控减缓并梯次清零其向母亲河排放工业污水的行径。",
+        "jp": "あらゆる産業部門は、母なる河川への工場廃水排出を段階的に浄化・緩和するための信頼に足る計画を提出しなければなりません。"
+      },
+      {
+        "fr": "Les experts du GIEC rappellent que l'atténuation et l'adaptation doivent progresser de concert pour préserver la biosphère.",
+        "en": "IPCC experts remind us that mitigation and adaptation must advance together to preserve the biosphere.",
+        "cn": "联合国政府间气候变化专门委员会科学家重申：减缓源头排放与加强抗灾适应必须两手抓两手硬，生物圈方得周全。",
+        "jp": "気候変動に関する政府間パネル（IPCC）の専門家は、生物圏を守るためには「緩和」と「適応」が車軸の両輪として同時に進展すべきだと強調しています。"
+      }
+    ]
+  },
+  {
+    "id": 1381,
+    "word": "Prévention",
+    "phonetique": "/pʁe.vɑ̃.sjɔ̃/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom féminin • courant",
+    "definition": "Ensemble des dispositions et mesures prises pour anticiper et empêcher l'apparition, le développement ou l'aggravation d'un risque sanitaire ou social.",
+    "traduction_anglais": "prevention / prophylaxis / preventive care",
+    "traduction_chinois": "预防 / 防范措施 (yùfáng)",
+    "traduction_japonais": "予防 / 防止 (yobō)",
+    "examples": [
+      {
+        "fr": "La prévention précoce des maladies cardiovasculaires repose avant tout sur une alimentation équilibrée et une pratique sportive régulière.",
+        "en": "Early prevention of cardiovascular diseases relies primarily on a balanced diet and regular physical exercise.",
+        "cn": "心脑血管疾病在源头阶段的高效早期预防，首先高度仰仗日常膳食的营养均衡与数十年如一日的适度体育锻炼。",
+        "jp": "心血管疾患の早期予防は、何よりもまずバランスの取れた食生活と規則正しい運動習慣の実践に基礎を置いています。"
+      },
+      {
+        "fr": "Cette campagne nationale de prévention routière vise à réduire drastiquement le nombre d'accidents mortels chez les jeunes conducteurs.",
+        "en": "This national road prevention campaign aims to drastically reduce the number of fatal accidents among young drivers.",
+        "cn": "这场在全社会轰轰烈烈铺开的全国交通安全预防宣讲，立足于以最大决心强力压降年轻新手司机的涉亡交通事故率。",
+        "jp": "この全国的な交通安全防止キャンペーンは、若年ドライバーによる致命的な死亡事故件数を劇的に減らすことを目的としています。"
+      },
+      {
+        "fr": "Investir massivement dans la prévention sanitaire coûte bien moins cher à la collectivité que soigner des affections chroniques lourdes.",
+        "en": "Investing heavily in healthcare prevention costs society far less than treating heavy chronic illnesses.",
+        "cn": "把宝贵公共财政资金大比例向前倾斜投入到全民公共卫生预防领域，其全周期社会成本远低于收治晚期重症慢性病。",
+        "jp": "公衆衛生の予防分野に巨額の先行投資を行うことは、重篤な慢性疾患の事後治療に比べて社会全体の負担を格段に低く抑えます。"
+      },
+      {
+        "fr": "Les infirmières scolaires jouent un rôle fondamental dans la prévention des conduites addictives auprès des adolescents scolarisés.",
+        "en": "School nurses play a fundamental role in the prevention of addictive behaviors among enrolled teenagers.",
+        "cn": "常驻各初高中的校园专职校医护士，在针对在校青春期懵懂学生群体开展沉溺成瘾行为干预预防方面居功至伟。",
+        "jp": "学校の養護教諭（スクールナース）は、在籍する中高生たちの依存性行動の未然防止において根本的な役割を果たしています。"
+      },
+      {
+        "fr": "Une politique de prévention efficace des feux de forêt exige de débroussailler méticuleusement les abords des habitations isolées.",
+        "en": "An effective wildfire prevention policy requires meticulously clearing undergrowth around isolated dwellings.",
+        "cn": "一套科学完备高效的森林防灭火预防治理机制，强制要求对林区独门独户房屋周遭的易燃杂草枯枝开展拉网式清理消杀。",
+        "jp": "効果的な山火事防止政策を機能させるには、孤立した民家の周辺に茂る下草を几帳面に刈り払うことが不可欠です。"
+      },
+      {
+        "fr": "Face au stress professionnel, cette entreprise a instauré des ateliers de prévention des risques psychosociaux pour ses salariés.",
+        "en": "Faced with work-related stress, this company established psychosocial risk prevention workshops for its employees.",
+        "cn": "针对高强度职场压力，该跨国科技巨头设立了专门的心理社会风险预防工坊，全天候守护员工身心健康。",
+        "jp": "仕事上のストレスに直面し、この企業は従業員のために心理社会的リスクの予防を目的とした実践的なワークショップを導入しました。"
+      },
+      {
+        "fr": "Le médecin du travail insiste sur la prévention des troubles musculosquelettiques par une adaptation ergonomique du poste informatique.",
+        "en": "The occupational physician emphasizes the prevention of musculoskeletal disorders through ergonomic workstation adaptation.",
+        "cn": "职业健康监护专员再三叮嘱：必须对工位电脑桌椅进行全面的人体工学改造，从源头上预防骨骼肌肉劳损病变。",
+        "jp": "産業医は、PCデスク環境を人間工学に基づいて適切に調整することにより、筋骨格系障害を予防することの重要性を力説しています。"
+      },
+      {
+        "fr": "Renforcer les patrouilles policières de proximité contribue à une meilleure prévention de la délinquance dans les centres urbains.",
+        "en": "Strengthening community police patrols contributes to better crime prevention in downtown urban centers.",
+        "cn": "在繁华商业中心地段大力充实社区治安民警步巡频次与见警率，能够为街头违法犯罪构筑起一张极具威慑力的预防大网。",
+        "jp": "地域に密着した警察パトロールを強化することは、都市の中心街における犯罪の未然防止に大きく貢献します。"
+      },
+      {
+        "fr": "Ce manuel médical détaille les protocoles modernes de prévention des infections nosocomiales au bloc opératoire.",
+        "en": "This medical textbook details modern protocols for preventing hospital-acquired infections in surgical suites.",
+        "cn": "这部权威外科学典籍巨著深入透彻地拆解了在无菌手术室环境中预防医院交叉感染的现代最严苛临床操作规程。",
+        "jp": "この医学テキストは、手術室における院内感染（病院感染）を防止するための現代の厳密な処置手順を詳細に解説しています。"
+      },
+      {
+        "fr": "La vaccination généralisée des nourrissons demeure le pilier central de la prévention des grandes épidémies infantiles.",
+        "en": "Widespread vaccination of infants remains the central pillar of preventing major childhood epidemics.",
+        "cn": "自幼童出生之日起普遍推行高质量计划免疫疫苗接种，始终是人类社会防范阻断重特大儿童烈性传染病流行的中流砥柱。",
+        "jp": "乳幼児に対する網羅的なワクチン接種の徹底は、子どもたちを襲う重大な伝染病の流行を防ぐ中核的な柱であり続けています。"
+      }
+    ]
+  },
+  {
+    "id": 1382,
+    "word": "Dépistage",
+    "phonetique": "/de.pis.taʒ/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom masculin • courant",
+    "definition": "Recherche systématique et méthodique d'une maladie ou d'une anomalie chez des personnes apparemment saines avant l'apparition de tout symptôme clinique.",
+    "traduction_anglais": "screening / detection / testing",
+    "traduction_chinois": "筛查 / 检测 (shāichá)",
+    "traduction_japonais": "スクリーニング / 検診 / 検査 (sukuriiningu)",
+    "examples": [
+      {
+        "fr": "Un dépistage régulier du cancer du sein par mammographie augmente considérablement les chances de guérison complète.",
+        "en": "Regular screening for breast cancer via mammography significantly increases the chances of complete recovery.",
+        "cn": "定期采用高分辨率乳腺钼靶开展恶性肿瘤早期筛查，能够大幅度跨越式提高临床彻底治愈康复概率。",
+        "jp": "マンモグラフィーによる定期的な乳がん検診（スクリーニング）は、完全寛解・治癒の確率を著しく高めます。"
+      },
+      {
+        "fr": "Cette campagne de dépistage gratuit du diabète attire des centaines de personnes soucieuses de surveiller leur glycémie.",
+        "en": "This free diabetes screening campaign attracts hundreds of people eager to monitor their blood sugar levels.",
+        "cn": "这场面向广大市民开放的糖尿病免费公益筛查检测活动，吸引了数百名高度关注血糖健康指标的热心群众争相参与。",
+        "jp": "糖尿病の無料検査キャンペーンには、自らの血糖値を適切に管理したいと願う数百人もの人々が参加しています。"
+      },
+      {
+        "fr": "Les autorités sanitaires organisent un dépistage massif dans les écoles pour endiguer la propagation de cette infection virale.",
+        "en": "Health authorities are organizing massive screening in schools to curb the spread of this viral infection.",
+        "cn": "为迅速围堵切断该急性病毒的扩散扩散链条，疾控防疫部门在全市各大中小学校火线部署开展全面地毯式核酸筛查。",
+        "jp": "保健当局は、このウイルス感染症の感染拡大を食い止めるため、学校現場において大規模な一斉検査体制を敷いています。"
+      },
+      {
+        "fr": "Grâce à un dépistage néonatal précoce, cette maladie génétique rare peut être prise en charge avant de causer des lésions.",
+        "en": "Thanks to early neonatal screening, this rare genetic disorder can be managed before causing damage.",
+        "cn": "得益于在新生儿降生数小时内推行的罕见病早期足跟血筛查，这起罕见遗传代谢病得以在造成任何神经损伤前被扼杀在萌芽。",
+        "jp": "早期の新生児マススクリーニングのおかげで、この希少遺伝性疾患は不可逆的な障害を引き起こす前に適切な治療管理が可能となります。"
+      },
+      {
+        "fr": "Le médecin traitant conseille vivement ce test de dépistage à tous ses patients âgés de plus de cinquante ans.",
+        "en": "The primary care doctor strongly advises this screening test to all his patients over fifty years of age.",
+        "cn": "这位经验丰富的资深家庭全科医生，极力敦促麾下所有年过半百的中老年病患按期参加这项黄金期无创便潜血筛查。",
+        "jp": "かかりつけの総合医は、50歳を超えたすべての担当患者に対してこのスクリーニング検査を強く推奨しています。"
+      },
+      {
+        "fr": "Plusieurs laboratoires pharmaceutiques perfectionnent des tests salivaires ultra-rapides pour faciliter le dépistage de routine.",
+        "en": "Several pharmaceutical laboratories are refining ultra-fast saliva tests to facilitate routine screening.",
+        "cn": "多家顶尖跨国生物试剂实验室正全力攻坚研发数分钟极速出结果的新型唾液快检卡，以彻底重构临床日常筛查模式。",
+        "jp": "複数の製薬研究所が、日常的な定期検診の利便性を高めるため、極めて迅速に判定できる唾液検査キットの改良に注力しています。"
+      },
+      {
+        "fr": "Ce nouveau scanner cérébral révolutionne le dépistage précoce des pathologies neurodégénératives comme la maladie d'Alzheimer.",
+        "en": "This new brain scanner revolutionizes early screening for neurodegenerative pathologies such as Alzheimer's disease.",
+        "cn": "这款刚问世的革命性超高场强脑部影像断层扫描仪，彻底颠覆并重新定义了阿尔茨海默病等神经退行性病变的高精度早筛。",
+        "jp": "この新型脳スキャン装置は、アルツハイマー病をはじめとする神経変性疾患の早期検診技術に革命をもたらしています。"
+      },
+      {
+        "fr": "Les associations de quartier multiplient les centres mobiles pour favoriser le dépistage auprès des populations défavorisées et marginalisées.",
+        "en": "Neighborhood associations are multiplying mobile centers to encourage screening among disadvantaged and marginalized populations.",
+        "cn": "扎根基层的公益社团自发购置改装了一批流动巡回医疗大巴，开赴棚户边缘地带，为生活拮据贫困的底层群众送检上门做早筛。",
+        "jp": "地域コミュニティの支援団体は、恵まれない社会的弱者層への検診普及を促すため、移動型検診ステーションを増設しています。"
+      },
+      {
+        "fr": "Garantir la fiabilité absolue des résultats constitue l'exigence suprême imposée à tout laboratoire réalisant un dépistage.",
+        "en": "Guaranteeing absolute reliability of results constitutes the supreme requirement imposed on any laboratory conducting screening.",
+        "cn": "不惜一切代价确保每一份早筛检验生化报告的零失误与绝对真实可靠，是监管部门对所有承检第三方实验室开出的军令状。",
+        "jp": "検査結果の絶対的な信頼性を完全に保証することは、スクリーニングを実施するすべての臨床検査機関に課せられた至上命題です。"
+      },
+      {
+        "fr": "Chaque citoyen devrait être pleinement informé des bénéfices et des limites inhérents à tout acte de dépistage médical.",
+        "en": "Every citizen should be fully informed of the benefits and inherent limitations of any medical screening procedure.",
+        "cn": "在接受医学筛查前，每一位普通病患都享有被完整充分告知该检测技术带来的实际防病获益及其不可避免的技术局限性假阳性。",
+        "jp": "すべての市民は、あらゆる医療検診行為に内在する利益と同時にその技術的限界についても、十分に説明を受ける権利があります。"
+      }
+    ]
+  },
+  {
+    "id": 1383,
+    "word": "Pathologie",
+    "phonetique": "/pa.tɔ.lɔ.ʒi/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom féminin • courant",
+    "definition": "Discipline médicale étudiant les causes et les mécanismes des maladies, ou désigne par métonymie une maladie particulière.",
+    "traduction_anglais": "pathology / disease / condition",
+    "traduction_chinois": "病理学 / 疾病 (bìnglǐ / jíbìng)",
+    "traduction_japonais": "病理学 / 病態 / 疾患 (byōri / shikkan)",
+    "examples": [
+      {
+        "fr": "Cette pathologie cardiovasculaire complexe requiert une prise en charge chirurgicale immédiate par une équipe hospitalière ultra-spécialisée.",
+        "en": "This complex cardiovascular pathology requires immediate surgical management by an ultra-specialized hospital team.",
+        "cn": "这种极其凶险复杂的心血管器质性病理病变，必须立即由医院内顶尖的外科手术专家团队进行多学科急诊救治手术。",
+        "jp": "この複雑な心血管疾患（病態）は、高度に専門化された病院の手術チームによる迅速な外科的処置を不可欠としています。"
+      },
+      {
+        "fr": "Le médecin légiste a minutieusement analysé les tissus altérés pour comprendre la pathologie responsable du décès suspect.",
+        "en": "The forensic medical examiner meticulously analyzed the altered tissues to understand the pathology responsible for the suspicious death.",
+        "cn": "法医病理专家在无影灯下对送检的变异病变人体脏器组织切片进行了微观化验，以最终断定这起离奇命案背后的致命致病诱因。",
+        "jp": "法医学者は、不審死の原因となった病変機序を解明するため、変性した組織を綿密に分析・鑑定しました。"
+      },
+      {
+        "fr": "Les chercheurs découvrent de nouvelles mutations génétiques à l'origine de cette pathologie auto-immune particulièrement invalidante.",
+        "en": "Researchers are discovering new genetic mutations at the root of this particularly disabling autoimmune pathology.",
+        "cn": "前沿基础医学科研团队接连攻克难关，成功锁定了直接诱发这起具有严重致残性全身自身免疫疾病的数处全新遗传致病突变位点。",
+        "jp": "研究者たちは、著しい生活機能障害をもたらすこの自己免疫疾患の根本原因となっている新たな遺伝子変異を次々と突き止めています。"
+      },
+      {
+        "fr": "Dans les pays développés, la sédentarité chronique favorise l'émergence d'une pathologie métabolique grave comme le diabète.",
+        "en": "In developed nations, chronic physical inactivity fosters the emergence of serious metabolic disease such as diabetes.",
+        "cn": "在物质充裕的发达经济体中，长期久坐不动、严重缺乏锻炼的生存方式，成为催生重度糖脂代谢紊乱等严重代谢疾病的催化剂。",
+        "jp": "先進国においては、日常的な運動不足の慢性化が、糖尿病をはじめとする重篤な代謝性疾患の発症を促す最大の要因となっています。"
+      },
+      {
+        "fr": "Cet essai clinique international évalue l'efficacité d'une molécule prometteuse contre une pathologie pulmonaire rare chez l'adulte.",
+        "en": "This international clinical trial evaluates the efficacy of a promising molecule against a rare pulmonary pathology in adults.",
+        "cn": "这项全球多中心联合临床试验，正严格评估某款高靶向性创新小分子化合物在治疗成年人罕见特发性肺纤维化疾病中的卓越表现。",
+        "jp": "この国際共同治験では、成人の希少肺疾患に対して極めて有望な分子標的薬の臨床的有効性が厳密に検証されています。"
+      },
+      {
+        "fr": "Le professeur de médecine consacre ses cours magistraux à l'étude approfondie de la pathologie cellulaire et tissulaire.",
+        "en": "The professor of medicine devotes his lectures to the in-depth study of cellular and tissue pathology.",
+        "cn": "这位造诣深厚的高级医学院特聘教授在全校示范公开课上，深入浅出地带领莘莘学子探索细胞与组织病理学变化的深奥奥秘。",
+        "jp": "医学部の主任教授は、大学の講義において細胞および組織病理学の詳細な解明と教育に全力を注いでいます。"
+      },
+      {
+        "fr": "Face au vieillissement démographique, les hôpitaux doivent adapter leurs services aux patients souffrant d'une double pathologie chronique.",
+        "en": "Faced with demographic aging, hospitals must adapt their wards to patients suffering from double chronic pathologies.",
+        "cn": "面对汹涌袭来的社会人口深度老龄化浪潮，各级公立医院急需扩容改造病房体系，以无缝收治同时患有双重慢性伴发疾病的银发患者。",
+        "jp": "急速に進展する人口の高齢化に直面し、病院各科は複数の慢性疾患（重複病態）を併発した高齢患者に対応すべく病棟体制を刷新しなければなりません。"
+      },
+      {
+        "fr": "Un diagnostic précoce permet souvent d'enrayer l'évolution délétère d'une pathologie rénale avant d'atteindre le stade terminal.",
+        "en": "An early diagnosis often helps halt the deleterious progression of renal disease before reaching the end stage.",
+        "cn": "一旦在发病早期建立起精准医学诊断，通常能够有效勒住肾功能恶化的悬崖勒马，遏制其滑向尿毒症晚期衰竭深渊。",
+        "jp": "早期の確定診断は、腎不全などの腎疾患が末期段階へと至る前に、その破壊的な病勢進行を食い止めることを可能にします。"
+      },
+      {
+        "fr": "La fatigue persistante et inexpliquée constitue souvent le signe précurseur discret d'une pathologie thyroïdienne sous-jacente.",
+        "en": "Persistent and unexplained fatigue often constitutes the subtle warning sign of an underlying thyroid pathology.",
+        "cn": "无休无止且原因扑朔迷离的长期顽固性乏力，往往是潜伏在体内的甲状腺功能失调或亚临床病变悄悄释放出的最初隐匿预警信号。",
+        "jp": "説明のつかない持続的な倦怠感は、潜在的な甲状腺疾患が水面下で進行していることを告げるかすかな前兆であることが少なくありません。"
+      },
+      {
+        "fr": "Ce centre hospitalier universitaire regroupe les meilleurs spécialistes européens pour traiter chaque pathologie neurologique orpheline.",
+        "en": "This university hospital center brings together the best European specialists to treat every orphan neurological disease.",
+        "cn": "该顶尖大学附属教学医院汇聚了全欧洲最负盛名的神经病学领军巨擘，携手向每一种罕见罕治的孤儿病发起集智医学攻坚。",
+        "jp": "この大学病院センターには、あらゆる希少な難治性神経難病の治療にあたるため、欧州最高峰の専門医たちが結集しています。"
+      }
+    ]
+  },
+  {
+    "id": 1384,
+    "word": "Consentement",
+    "phonetique": "/kɔ̃.sɑ̃t.mɑ̃/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom masculin • courant",
+    "definition": "Accord libre, explicite et éclairé donné par une personne pour l'accomplissement d'un acte médical, contractuel ou personnel.",
+    "traduction_anglais": "consent / informed consent / agreement",
+    "traduction_chinois": "知情同意 / 赞同 (tóngyì)",
+    "traduction_japonais": "同意 / インフォームド・コンセント (dōi)",
+    "examples": [
+      {
+        "fr": "Le chirurgien doit impérativement recueillir le consentement éclairé du patient après lui avoir exposé les risques opératoires.",
+        "en": "The surgeon must imperatively obtain the patient's informed consent after having explained the surgical risks.",
+        "cn": "在将手术中一切不可预知的潜在创伤并发症风险和盘托出后，主刀外科医生必须依法当面取得病患亲笔签署的充分知情同意书。",
+        "jp": "執刀医は、手術に伴うリスクを包み隠さず説明した上で、患者の自由で納得に基づくインフォームド・コンセントを必ず得なければなりません。"
+      },
+      {
+        "fr": "Tout acte médical pratiqué sans le consentement exprès de la personne hospitalisée constitue une violation grave de la déontologie.",
+        "en": "Any medical procedure performed without the express consent of the hospitalized person constitutes a serious ethical breach.",
+        "cn": "任何在未预先取得住院当事人明示同意签字的前提下擅自强行施加的侵入性医疗操作，均构成对医学职业伦理的公然践踏。",
+        "jp": "入院患者の明示的な同意を得ることなく行われたあらゆる医療行為は、医師の職業倫理に対する重大な違反とみなされます。"
+      },
+      {
+        "fr": "Les lois contemporaines réaffirment que le consentement des partenaires doit être libre, enthousiaste et révocable à tout moment.",
+        "en": "Contemporary laws reaffirm that partners' consent must be freely given, enthusiastic, and revocable at any time.",
+        "cn": "现代文明法治国家在立法中反复肃清并重申：伴侣间发生的任何亲密接触，其前提必须建立在由衷自愿、清醒且随时可撤回的真正同意之上。",
+        "jp": "現代の法制度は、パートナー同士の性的同意が完全に自由意志に基づき、積極的であり、いつでも撤回可能でなければならないと再確認しています。"
+      },
+      {
+        "fr": "Dans le cadre de cette recherche clinique, chaque volontaire signe un formulaire de consentement préalablement validé par un juriste.",
+        "en": "Within this clinical research framework, every volunteer signs a consent form previously vetted by a lawyer.",
+        "cn": "在这项前沿药物临床探索科研方案框架内，每位入组志愿者在入组前都必须通读并庄严签署一份经过资深法学法务严把合规关的受试同意书。",
+        "jp": "この臨床研究の枠組みにおいて、すべてのボランティア被験者は弁護士の事前審査を通過した同意書に自筆で署名を行います。"
+      },
+      {
+        "fr": "Une personne sous tutelle bénéficie d'une protection juridique accrue garantissant que son consentement ne puisse être extorqué.",
+        "en": "A person under guardianship benefits from enhanced legal protection ensuring that their consent cannot be coerced.",
+        "cn": "处于成年法定监护监督状态下的无民事行为能力弱势公民享有特殊的防范保护屏障，以确保其意志表达绝不受任何外力胁迫绑架。",
+        "jp": "成年後見制度下にある人は、自己の同意が不当に強要されたり搾取されたりしないよう、手厚い法的保護を享受しています。"
+      },
+      {
+        "fr": "Les plateformes numériques sont contraintes par la réglementation d'obtenir le consentement explicite des internautes pour collecter leurs données.",
+        "en": "Digital platforms are required by regulations to obtain the explicit consent of internet users to collect their data.",
+        "cn": "在大数据个人信息合规监管的高压震慑下，各大互联网平台被强制要求：必须弹窗取得终端网民由衷的明确勾选授权方能采集轨迹数据。",
+        "jp": "デジタルプラットフォーム各社は、個人データを収集・追跡するにあたり、インターネット利用者の明示的な同意を得ることが法的に義務付けられています。"
+      },
+      {
+        "fr": "Face à l'urgence vitale extrême, les réanimateurs peuvent intervenir sans attendre le consentement officiel des proches injoignables.",
+        "en": "Faced with extreme life-threatening emergency, intensive care physicians can intervene without awaiting official consent from unreachable kin.",
+        "cn": "在面临命悬一线的绝对超急性生命危险关头，抢救重症监护ICU主任有权在暂时无法拨通失联家属电话时依法施行紧急免责抢救救命。",
+        "jp": "一刻を争う生命の極限的な緊急事態に直面した場合、救命集中治療医は連絡のつかない親族の正式な同意を待たずに救命処置を行うことができます。"
+      },
+      {
+        "fr": "Ce contrat commercial est frappé de nullité absolue si le consentement d'une des parties a été vicié par le mensonge.",
+        "en": "This commercial contract is rendered null and void if the consent of one of the parties was vitiated by deceit.",
+        "cn": "一旦在民商事纠纷裁决中查明任何一方的签字盖章乃是在遭受恶意欺诈或信息隐瞒下所作出的非真实意思表示，则该项商务契约自始无效。",
+        "jp": "当事者の一方の同意が虚偽や詐欺によって瑕疵あるものと証明された場合、この商業契約は法律上当然に無効となります。"
+      },
+      {
+        "fr": "Le psychiatre évalue attentivement la capacité de discernement du patient avant de valider la légitimité de son consentement.",
+        "en": "The psychiatrist carefully evaluates the patient's capacity for discernment before validating the legitimacy of their consent.",
+        "cn": "精神医学司法鉴定委员会专家在认定其签署的知情文书是否具备法律溯及力之前，需周密科学评估病患的精神神志与认知辨识能力。",
+        "jp": "精神科医は、同意の法的な正当性を承認・認定する前に、患者の物事に対する分別・判断能力を慎重に見極めます。"
+      },
+      {
+        "fr": "L'enseignement civique inculque aux collégiens le principe intangible du respect du consentement mutuel dans toutes les relations.",
+        "en": "Civic education instills in middle school students the intangible principle of respecting mutual consent in all relationships.",
+        "cn": "中学公民与道德思想品德课堂将尊重双方自愿同意这一神圣不可侵犯的现代人际底线法则，如春风化雨般深植入初中生的心灵深处。",
+        "jp": "市民教育・道徳の授業は、人間関係のあらゆる局面において「相互の同意を尊重する」という不可侵の原則を中学生に教えています。"
+      }
+    ]
+  },
+  {
+    "id": 1385,
+    "word": "Secret médical",
+    "phonetique": "/sə.kʁɛ me.di.kal/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom masculin • courant",
+    "definition": "Obligation légale et déontologique de confidentialité absolue imposée aux soignants concernant toutes les informations confiées par un patient.",
+    "traduction_anglais": "medical confidentiality / doctor-patient privilege",
+    "traduction_chinois": "医疗保密原则 / 医疗隐私 (yīliáo bǎomì)",
+    "traduction_japonais": "守秘義務 / 医療上の守秘義務 (shuhi gimu)",
+    "examples": [
+      {
+        "fr": "Le secret médical interdit formellement à tout praticien de divulguer le diagnostic d'un malade à son employeur ou à des tiers.",
+        "en": "Medical confidentiality strictly forbids any practitioner from disclosing a patient's diagnosis to their employer or third parties.",
+        "cn": "神圣的医疗保密原则以刚性法律形式明令严禁任何执业医务人员将当事病患的隐私临床诊断向其用人单位主管或任何无关局外人兜底泄露。",
+        "jp": "医療上の守秘義務は、いかなる医師に対しても、患者の病名診断を雇用主や第三者に漏洩することを厳格に禁じています。"
+      },
+      {
+        "fr": "Cette jeune infirmière a rappelé avec fermeté que le respect du secret médical s'applique également aux échanges informels entre collègues.",
+        "en": "This young nurse firmly reiterated that respect for medical confidentiality also applies to informal exchanges between colleagues.",
+        "cn": "这位正义感十足的年轻护士义正辞严地当面告诫同仁：恪守医事保密守则绝非空话，哪怕是下班后同行私下闲聊茶聚也严禁提及患者病情。",
+        "jp": "その若い看護師は、医療守秘義務の遵守が同僚同士の私的なインフォーマルな会話にも等しく適用されることを毅然として指摘しました。"
+      },
+      {
+        "fr": "Violer le secret médical expose le professionnel de santé à de lourdes sanctions disciplinaires pouvant aller jusqu'à la radiation définitive.",
+        "en": "Breaching medical confidentiality exposes the healthcare professional to heavy disciplinary sanctions up to permanent disbarment.",
+        "cn": "胆敢公然触碰红线泄露病患个人就诊保密信息者，将面临国家医师协会处以的吊销从业资格证书直至永久终身禁业的顶格纪律惩戒。",
+        "jp": "守秘義務に違反した医療従事者は、最悪の場合には医師免許剥奪（永久追放）に至るほどの重い懲戒処分に直面することになります。"
+      },
+      {
+        "fr": "Le procureur a souligné que le secret médical protège avant tout la relation de confiance indispensable entre le soignant et son patient.",
+        "en": "The prosecutor emphasized that doctor-patient privilege primarily protects the indispensable bond of trust between caregiver and patient.",
+        "cn": "公诉检察官在法庭辩论中入木三分地指出：建立医疗保密特权法则的最原初立法宗旨，正是为了捍卫医患双方托付性命的珍贵互信桥梁。",
+        "jp": "検察官は、医療上の守秘義務が何よりもまず医療者と患者との間に不可欠な信頼関係を守るための盾であると強調しました。"
+      },
+      {
+        "fr": "La numérisation des dossiers hospitaliers impose des protocoles de cybersécurité très poussés pour préserver l'intégrité du secret médical.",
+        "en": "Digitizing hospital records requires advanced cybersecurity protocols to preserve the integrity of medical confidentiality.",
+        "cn": "随着全省智慧公立医院电子健康病历的全面上云互联互通，必须筑牢军工级网络安全防火墙以誓死捍卫病患医疗隐私不被黑客攻破。",
+        "jp": "病院カルテの電子化・デジタル化が進む中、患者の医療守秘義務の完全性を保つためには極めて高度なサイバーセキュリティが要求されます。"
+      },
+      {
+        "fr": "Dans des cas exceptionnels strictement prévus par la loi, la levée du secret médical s'avère autorisée pour dénoncer des maltraitances sur mineurs.",
+        "en": "In exceptional cases strictly defined by law, lifting medical confidentiality is permitted to report abuse against minors.",
+        "cn": "仅在国家成文法典白纸黑字严格界定的极罕见特例情形下，如在接诊中确证存在对幼童施暴虐待血证时，方允许合法突破医疗保密限度向警方报案。",
+        "jp": "法律に厳格に規定された例外的なケースにおいてのみ、未成年者への虐待を通報するために医師の守秘義務解除が特例的に認められています。"
+      },
+      {
+        "fr": "Les étudiants en première année de médecine prêtent serment en promettant d'observer fidèlement le secret médical tout au long de leur carrière.",
+        "en": "First-year medical students take the oath promising to faithfully observe medical confidentiality throughout their entire careers.",
+        "cn": "所有步入医学殿堂的大一新生在医学生誓词宣誓仪式上举起右拳庄严明志：将用毕生的生命与操守守护患者医学隐私保密承诺。",
+        "jp": "医学部の1年生たちは宣誓式に臨み、これからの全キャリアを通じて守秘義務を忠実に全うすることを誓います。"
+      },
+      {
+        "fr": "L'avocat a invoqué le secret médical pour s'opposer à la saisie des notes personnelles du psychiatre lors de la perquisition.",
+        "en": "The defense attorney invoked doctor-patient privilege to oppose the seizure of the psychiatrist's personal notes during the search.",
+        "cn": "辩护律师在执法搜查现场依据宪法医疗保密特权条文，据理力争，成功制止了办案人员强行查抄扣押涉案心理医生原始面谈问诊笔记的企图。",
+        "jp": "弁護士は捜索差押えの際、精神科医の個人診療メモの押収を阻止するため、医師の守秘義務を理由に異議を申し立てました。"
+      },
+      {
+        "fr": "Certains proches estiment injuste que le secret médical leur interdise de connaître la nature exacte de la pathologie du défunt.",
+        "en": "Some relatives consider it unfair that medical confidentiality bars them from learning the exact nature of the deceased's pathology.",
+        "cn": "部分沉浸在悲痛中的逝者直系亲属往往大惑不解，难以释怀为何医院竟以医疗保密铁律为由坚拒向亲属披露死者生前的最底色真实病因。",
+        "jp": "一部の遺族は、守秘義務の壁に阻まれて故人が患っていた病気の正確な正体を知らされないことを理不尽だと感じることがあります。"
+      },
+      {
+        "fr": "Ce journaliste d'investigation s'est heurté au secret médical en tentant d'obtenir des données confidentielles sur l'état de santé du chef d'État.",
+        "en": "This investigative reporter ran up against medical confidentiality while attempting to obtain confidential data on the head of state's health.",
+        "cn": "这位以无孔不入著称的知名调查记者，在千方百计企图窥探挖掘国家元首绝密真实健康体检病历档案时，一头撞上了坚不可摧的医疗保密铁壁。",
+        "jp": "この敏腕調査報道記者は、国家元首の健康状態に関する極秘情報を入手しようと試みたものの、医療守秘義務の堅い壁に阻まれました。"
+      }
+    ]
+  },
+  {
+    "id": 1386,
+    "word": "Palliative",
+    "phonetique": "/pa.lja.tiv/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "adjectif • courant",
+    "definition": "Qui vise à soulager la douleur et à préserver la qualité de vie sans guérir la maladie.",
+    "traduction_anglais": "palliative / alleviating",
+    "traduction_chinois": "姑息的 / 缓解性的 (gūxí de / huǎnjiě xìng de)",
+    "traduction_japonais": "緩和的な / 痛みを和らげる (kanwa-teki na)",
+    "examples": [
+      {
+        "fr": "L'équipe médicale privilégie une approche palliative pour assurer le confort maximal du malade en phase terminale.",
+        "en": "The medical team favors a palliative approach to ensure maximum comfort for the terminally ill patient.",
+        "cn": "医疗团队优先采用姑息疗法，以确保晚期患者获得最大的舒适度。",
+        "jp": "医療チームは末期患者の最大の快適さを確保するために緩和的アプローチを優先しています。"
+      },
+      {
+        "fr": "Cette unité hospitalière propose une prise en charge palliative globale associant médecins, psychologues et soignants.",
+        "en": "This hospital unit offers comprehensive palliative care involving doctors, psychologists, and nursing staff.",
+        "cn": "该医院科室提供综合性的姑息治疗，汇聚了医生、心理学家和医护人员。",
+        "jp": "この病院の病棟は、医師、心理学者、看護スタッフが連携した包括的な緩和ケアを提供しています。"
+      },
+      {
+        "fr": "Face à une maladie incurable, la thérapie palliative apporte un réel apaisement aux personnes hospitalisées.",
+        "en": "Faced with an incurable disease, palliative therapy brings genuine relief to hospitalized individuals.",
+        "cn": "面对无法治愈的疾病，姑息治疗为住院患者带来了真正的心理与身体上的慰藉。",
+        "jp": "不治の病に直面した際、緩和治療は入院患者に真の安らぎをもたらします。"
+      },
+      {
+        "fr": "De nombreux spécialistes recommandent une sédation palliative lorsque les souffrances deviennent trop intenses.",
+        "en": "Many specialists recommend palliative sedation when suffering becomes too intense.",
+        "cn": "许多专家建议在痛苦变得过于剧烈时实行姑息性镇静。",
+        "jp": "多くの専門家は、苦痛が耐えがたいほど激しくなった場合には緩和的鎮静を推奨しています。"
+      },
+      {
+        "fr": "Plusieurs associations citoyennes militent activement pour un accès équitable à la médecine palliative dans chaque département.",
+        "en": "Several civic associations are actively campaigning for equitable access to palliative medicine in every department.",
+        "cn": "多个公民协会积极奔走呼吁，争取在每个省份平等推广姑息医学。",
+        "jp": "複数の市民団体が、各県において緩和医療への公平なアクセスを確保するために積極的な運動を行っています。"
+      },
+      {
+        "fr": "Les infirmières dispensent des soins à visée palliative avec un dévouement exemplaire jour et nuit.",
+        "en": "Nurses deliver palliative-oriented care with exemplary dedication day and night.",
+        "cn": "护士们日夜以崇高的奉献精神为患者提供姑息性护理。",
+        "jp": "看護師たちは昼夜を問わず模範的な献身をもって緩和的なケアを提供しています。"
+      },
+      {
+        "fr": "Le professeur d'oncologie a prescrit une chimiothérapie palliative pour freiner l'extension de la tumeur sans altérer son quotidien.",
+        "en": "The oncology professor prescribed palliative chemotherapy to curb tumor growth without degrading daily quality of life.",
+        "cn": "肿瘤科教授开具了姑息性化疗方案，以遏制肿瘤扩散且不破坏患者的日常生活质量。",
+        "jp": "腫瘍学の教授は、日常生活を損なわずに腫瘍の拡大を抑えるための緩和化学療法を処方しました。"
+      },
+      {
+        "fr": "À défaut de traitement curatif, la stratégie palliative demeure la réponse éthique la plus humaine.",
+        "en": "In the absence of curative treatment, the palliative strategy remains the most humane ethical response.",
+        "cn": "在缺乏根治疗法的情况下，姑息策略仍然是最具人性关怀的伦理应对方案。",
+        "jp": "根治療法が存在しない場合、緩和策が依然として最も人道的な倫理的対応策です。"
+      },
+      {
+        "fr": "Une écoute attentive constitue une dimension palliative majeure dans l'accompagnement personnalisé des familles endeuillées.",
+        "en": "Attentive listening constitutes a major palliative dimension in personalized support for bereaved families.",
+        "cn": "在对丧亲家庭进行个性化陪伴的过程中，倾听构成了重要的心理抚慰维度。",
+        "jp": "傾聴は、遺族に対する個別支援において重要な緩和的側面を構成します。"
+      },
+      {
+        "fr": "Certaines thérapies complémentaires exercent une fonction palliative reconnue pour diminuer l'anxiété chronique.",
+        "en": "Certain complementary therapies exert a recognized palliative function in reducing chronic anxiety.",
+        "cn": "某些补充疗法在减轻慢性焦虑方面具有公认的缓解功效。",
+        "jp": "特定の補完療法は、慢性的な不安を軽減するための緩和機能が認められています。"
+      }
+    ]
+  },
+  {
+    "id": 1387,
+    "word": "Diagnostic",
+    "phonetique": "/djaɡ.nɔs.tik/",
+    "level": "B2",
+    "theme": "Santé & Médecine",
+    "type": "nom masculin • courant",
+    "definition": "Identification d'une maladie d'après ses symptômes et les résultats d'examens.",
+    "traduction_anglais": "diagnosis / medical assessment",
+    "traduction_chinois": "诊断 / 确诊 (zhěnduàn / quèzhěn)",
+    "traduction_japonais": "診断 / 診立て (shindan / mitate)",
+    "examples": [
+      {
+        "fr": "Le praticien a confirmé son diagnostic après avoir minutieusement analysé les clichés radiologiques.",
+        "en": "The practitioner confirmed his diagnosis after meticulously analyzing the radiological scans.",
+        "cn": "医师在仔细分析放射影像后确认了他的诊断结果。",
+        "jp": "医師は放射線画像を綿密に分析した後、自身の診断を確定しました。"
+      },
+      {
+        "fr": "Un dépistage précoce permet d'établir un diagnostic fiable avant l'apparition de complications sévères.",
+        "en": "Early screening makes it possible to establish a reliable diagnosis before severe complications appear.",
+        "cn": "及早筛查有助于在严重并发症出现之前确立可靠的诊断。",
+        "jp": "早期スクリーニングにより、重篤な合併症が現れる前に確実な診断を下すことが可能になります。"
+      },
+      {
+        "fr": "Face à des résultats contradictoires, la patiente a sollicité un second diagnostic auprès d'un centre spécialisé.",
+        "en": "Confronted with contradictory results, the patient sought a second diagnosis from a specialized center.",
+        "cn": "面对相互矛盾的检查结果，女患者向专科医疗中心寻求了第二诊疗意见。",
+        "jp": "矛盾する検査結果を受けて、患者は専門医療機関にセカンドオピニオン（再診断）を求めました。"
+      },
+      {
+        "fr": "Grâce aux progrès de l'imagerie moléculaire, le diagnostic de cette pathologie rare gagne en précision.",
+        "en": "Thanks to advancements in molecular imaging, the diagnosis of this rare pathology is gaining in accuracy.",
+        "cn": "得益于分子影像技术的进步，这种罕见疾病的诊断精度得到了显著提升。",
+        "jp": "分子イメージングの進歩のおかげで、この希少疾患の診断精度が向上しています。"
+      },
+      {
+        "fr": "Certains symptômes atypiques rendent le diagnostic différentiel particulièrement ardu pour les jeunes cliniciens.",
+        "en": "Certain atypical symptoms make differential diagnosis particularly challenging for young clinicians.",
+        "cn": "某些非典型症状使年轻临床医生的鉴别诊断变得尤为艰难。",
+        "jp": "特定の非定型的な症状は、若い臨床医にとって鑑別診断を極めて困難なものにします。"
+      },
+      {
+        "fr": "Les logiciels d'intelligence artificielle aident désormais les radiologues à affiner leur diagnostic quotidien.",
+        "en": "Artificial intelligence software now assists radiologists in refining their daily diagnosis.",
+        "cn": "人工智能软件如今协助放射科医生不断细化其日常诊断。",
+        "jp": "人工知能ソフトウェアは現在、放射線科医が日常の診断をより正確にするのを支援しています。"
+      },
+      {
+        "fr": "Lors de la consultation, le pédiatre a immédiatement écarté le diagnostic d'une méningite bactérienne.",
+        "en": "During the consultation, the pediatrician immediately ruled out the diagnosis of bacterial meningitis.",
+        "cn": "在问诊期间，儿科医生立即排除了细菌性脑膜炎的诊断。",
+        "jp": "診察の際、小児科医は細菌性髄膜炎の診断を直ちに除外しました。"
+      },
+      {
+        "fr": "Cette biopsie cutanée apportera les éléments décisifs pour valider définitivement le diagnostic médical.",
+        "en": "This skin biopsy will provide decisive evidence to definitively confirm the medical diagnosis.",
+        "cn": "这次皮肤活检将为最终确诊提供决定性的医学依据。",
+        "jp": "この皮膚生検は、医学的診断を確定的に裏付けるための決定的な要素をもたらします。"
+      },
+      {
+        "fr": "L'annonce d'un diagnostic difficile exige de la part du soignant une grande délicatesse humaine.",
+        "en": "Breaking the news of a difficult diagnosis demands great human sensitivity from the caregiver.",
+        "cn": "向患者宣告严峻的诊断结果需要医护人员具备极高的同理心与沟通技巧。",
+        "jp": "困難な病名の告知には、医療従事者側の高度な人間的配慮が求められます。"
+      },
+      {
+        "fr": "Chaque bilan sanguin complet contribue à orienter le diagnostic vers l'origine exacte du dérèglement.",
+        "en": "Each complete blood test helps direct the diagnosis toward the exact cause of the dysfunction.",
+        "cn": "每一次全面的血液化验都有助于将诊断引向机体紊乱的确切根源。",
+        "jp": "包括的な血液検査は、機能不全の正確な原因に向けた診断の手がかりとなります。"
+      }
+    ]
+  },
+  {
+    "id": 1388,
+    "word": "Ligne éditoriale",
+    "phonetique": "/liɲ e.di.tɔ.ʁjal/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom féminin • courant",
+    "definition": "Ensemble des choix idéologiques et des orientations stratégiques d'un média.",
+    "traduction_anglais": "editorial policy / editorial line",
+    "traduction_chinois": "编辑方针 / 社论立场 (biānjí fāngzhēn / shèlùn lìchǎng)",
+    "traduction_japonais": "編集方針 / 論調 (henshū hōshin / ronchō)",
+    "examples": [
+      {
+        "fr": "Le rédacteur en chef veille à ce que chaque article respecte fidèlement la ligne éditoriale du quotidien.",
+        "en": "The editor-in-chief ensures that every article faithfully adheres to the daily paper's editorial policy.",
+        "cn": "主编确保每一篇文章都忠实遵循该日报的编辑方针。",
+        "jp": "編集長は、すべての記事が日刊紙の編集方針に忠実であることを確認しています。"
+      },
+      {
+        "fr": "Ce changement d'actionnaire majoritaire a provoqué un virage brutal dans la ligne éditoriale du magazine.",
+        "en": "This change in majority shareholder triggered an abrupt shift in the magazine's editorial policy.",
+        "cn": "控股股东的变更导致该杂志的编辑立场发生了急剧转向。",
+        "jp": "筆頭株主の交代は、この雑誌の編集方針に急激な転換を引き起こしました。"
+      },
+      {
+        "fr": "Plusieurs chroniqueurs réputés ont démissionné pour protester contre le durcissement de la ligne éditoriale.",
+        "en": "Several renowned columnists resigned to protest against the hardening of the editorial stance.",
+        "cn": "几位知名专栏作家相继辞职，以抗议编辑方针的强硬化。",
+        "jp": "論調の硬化に抗議するため、数名の著名なコラムニストが辞任しました。"
+      },
+      {
+        "fr": "Une bonne ligne éditoriale permet à une revue culturelle de se forger une identité singulière.",
+        "en": "A strong editorial policy allows a cultural review to forge a distinctive identity.",
+        "cn": "明确的编辑方针使一份文化期刊能够树立起独树一帜的品牌特色。",
+        "jp": "優れた編集方針は、文化雑誌が独自のアイデンティティを築くことを可能にします。"
+      },
+      {
+        "fr": "Les abonnés fidèles apprécient la rigueur et l'indépendance critique incarnées par cette ligne éditoriale historique.",
+        "en": "Loyal subscribers appreciate the rigor and critical independence embodied by this historic editorial policy.",
+        "cn": "忠实订阅者赞赏这一历史悠久的编辑立场中所体现的严谨与批判独立性。",
+        "jp": "定期購読者たちは、この伝統ある編集方針に具現化された厳格さと批判的独立性を高く評価しています。"
+      },
+      {
+        "fr": "Lors du débat public, les journalistes ont défendu leur ligne éditoriale axée sur l'investigation sociale.",
+        "en": "During the public debate, journalists defended their editorial policy focused on social investigation.",
+        "cn": "在公开辩论中，记者们为其聚焦社会深度调查的编辑方针进行了辩护。",
+        "jp": "公開討論の際、ジャーナリストたちは社会調査報道に焦点を当てた編集方針を擁護しました。"
+      },
+      {
+        "fr": "Malgré la pression des annonceurs publicitaires, la rédaction refuse d'infléchir sa ligne éditoriale combative.",
+        "en": "Despite pressure from commercial advertisers, the newsroom refuses to soften its combative editorial stance.",
+        "cn": "尽管面临广告商的施压，编辑部依然拒绝软化其充满战斗性的编辑方针。",
+        "jp": "広告主からの圧力にもかかわらず、編集部は闘争的な編集方針を曲げることを拒否しています。"
+      },
+      {
+        "fr": "Chaque nouveau comité de rédaction redéfinit collégialement la ligne éditoriale pour capter un lectorat rajeuni.",
+        "en": "Each new editorial committee collegially redefines the editorial policy to attract a younger readership.",
+        "cn": "每届新成立的编委会都会通过集体讨论重新界定编辑方针，以吸引年轻读者群。",
+        "jp": "新しい編集委員会は、若い読者層を引き付けるために合議制で編集方針を再定義します。"
+      },
+      {
+        "fr": "Dans ce journal satirique, l'humour caustique fait partie intégrante de la ligne éditoriale revendiquée.",
+        "en": "In this satirical newspaper, caustic humor is an integral part of the claimed editorial policy.",
+        "cn": "在这家讽刺报刊中，辛辣的幽默感构成了其公然标榜的编辑方针的重要组成部分。",
+        "jp": "この風刺新聞では、辛辣なユーモアが掲げられた編集方針の不可欠な一部となっています。"
+      },
+      {
+        "fr": "L'analyse comparative des grands quotidiens nationaux met en lumière des contrastes marqués dans leur ligne éditoriale respective.",
+        "en": "Comparative analysis of major national dailies highlights stark contrasts in their respective editorial stances.",
+        "cn": "对各大全国性日报的对比分析揭示了它们各自编辑立场之间的鲜明反差。",
+        "jp": "全国主要日刊紙の比較分析は、それぞれの論調の際立った対比を浮き彫りにしています。"
+      }
+    ]
+  },
+  {
+    "id": 1389,
+    "word": "Liberté de la presse",
+    "phonetique": "/li.bɛʁ.te də la pʁɛs/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom féminin • courant",
+    "definition": "Droit pour les journalistes d'informer librement sans censure du pouvoir.",
+    "traduction_anglais": "freedom of the press / press freedom",
+    "traduction_chinois": "新闻自由 (xīnwén zìyóu)",
+    "traduction_japonais": "報道の自由 (hōdō no jiyū)",
+    "examples": [
+      {
+        "fr": "Les organisations internationales rappellent sans cesse que la liberté de la presse constitue un pilier de la démocratie.",
+        "en": "International organizations constantly reiterate that freedom of the press is a cornerstone of democracy.",
+        "cn": "国际组织不断重申，新闻自由是现代民主制度的基石。",
+        "jp": "国際機関は、報道の自由が民主主義の礎であることを絶えず再確認しています。"
+      },
+      {
+        "fr": "Dans plusieurs régimes autoritaires, la liberté de la presse subit des attaques directes et répétées.",
+        "en": "In several authoritarian regimes, press freedom comes under direct and repeated attacks.",
+        "cn": "在多个威权体制下，新闻自由遭受着直接而反复的打压。",
+        "jp": "いくつかの権威主義体制において、報道の自由は直接的かつ度重なる攻撃にさらされています。"
+      },
+      {
+        "fr": "Chaque année au mois de mai, une journée mondiale célèbre solennellement la liberté de la presse à travers le globe.",
+        "en": "Every year in May, a world day solemnly celebrates freedom of the press across the globe.",
+        "cn": "每年五月，全球各地都会隆重庆祝世界新闻自由日。",
+        "jp": "毎年5月には、世界中で報道の自由を厳粛に記念する世界報道自由デーが催されます。"
+      },
+      {
+        "fr": "Une société civile dynamique doit défendre vigoureusement la liberté de la presse face aux tentatives d'intimidation.",
+        "en": "A vibrant civil society must vigorously defend freedom of the press against intimidation attempts.",
+        "cn": "充满活力的公民社会必须在面对恐吓企图时强力捍卫新闻自由。",
+        "jp": "活力ある市民社会は、脅迫の試みに対して報道の自由を毅然として擁護しなければなりません。"
+      },
+      {
+        "fr": "La Constitution protège expressément la liberté de la presse pour garantir l'accès citoyen à une information plurielle.",
+        "en": "The Constitution expressly protects freedom of the press to guarantee citizen access to pluralistic information.",
+        "cn": "宪法明确保护新闻自由，以保障公民获取多元化信息的权利。",
+        "jp": "憲法は、市民が多元的な情報にアクセスできる権利を保障するため、報道の自由を明文で保護しています。"
+      },
+      {
+        "fr": "Sans une véritable liberté de la presse, la lutte contre la corruption des élites s'avère vaine.",
+        "en": "Without genuine freedom of the press, the fight against elite corruption proves futile.",
+        "cn": "缺乏真正的新闻自由，打击精英腐败的斗争就会化为泡影。",
+        "jp": "真の報道の自由がなければ、エリート層の汚職撲滅の戦いは無益なものとなります。"
+      },
+      {
+        "fr": "De courageux reporters de guerre risquent leur vie pour faire vivre concrètement la liberté de la presse sur le terrain.",
+        "en": "Courageous war reporters risk their lives to give concrete life to freedom of the press on the ground.",
+        "cn": "英勇的战地记者冒着生命危险，在前线用行动践行着新闻自由。",
+        "jp": "勇気ある戦場特派員たちは、現場で報道の自由を具体的に守るために自らの命を危険にさらしています。"
+      },
+      {
+        "fr": "Le classement mondial annuel évalue rigoureusement l'état de la liberté de la presse dans cent quatre-vingts pays.",
+        "en": "The annual world ranking rigorously assesses the state of freedom of the press in one hundred and eighty countries.",
+        "cn": "年度全球排行榜严格评估了一百八十个国家的新闻自由现状。",
+        "jp": "毎年の世界ランキングは、180か国における報道の自由の状況を厳密に評価しています。"
+      },
+      {
+        "fr": "Des lois restrictives sur la diffamation servent parfois de prétexte pour entraver la liberté de la presse locale.",
+        "en": "Restrictive defamation laws sometimes serve as a pretext to stifle local freedom of the press.",
+        "cn": "限制性的诽谤法律有时被用作妨碍地方新闻自由的借口。",
+        "jp": "名誉毀損に関する厳格な法律が、地方の報道の自由を阻害するための口実として利用されることがあります。"
+      },
+      {
+        "fr": "Tous les syndicats de journalistes se mobilisent ensemble quand la liberté de la presse paraît menacée.",
+        "en": "All journalists' unions mobilize together whenever freedom of the press appears threatened.",
+        "cn": "每当新闻自由受到威胁时，所有的记者工会都会团结一致发起抗议动员。",
+        "jp": "報道の自由が脅かされているように見えるとき、すべてのジャーナリスト組合が団結して行動を起こします。"
+      }
+    ]
+  },
+  {
+    "id": 1390,
+    "word": "Vérification des faits",
+    "phonetique": "/ve.ʁi.fi.ka.sjɔ̃ de fɛ/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom féminin • courant",
+    "definition": "Démarche visant à contrôler la véracité des affirmations et des chiffres publiés.",
+    "traduction_anglais": "fact-checking / fact verification",
+    "traduction_chinois": "事实核查 / 事实检验 (shìshí héchá / shìshí jiǎnyàn)",
+    "traduction_japonais": "ファクトチェック / 事実確認 (fakuto chekku / jijitsu kakunin)",
+    "examples": [
+      {
+        "fr": "Les rédactions modernes créent des cellules dédiées à la vérification des faits pour déjouer les infox virales.",
+        "en": "Modern newsrooms create units dedicated to fact-checking to thwart viral misinformation.",
+        "cn": "现代新闻编辑部设立了专门的事实核查小组，以挫败病毒式传播的虚假信息。",
+        "jp": "現代の編集部は、急速に広まる偽情報に対抗するため、ファクトチェック専門チームを設置しています。"
+      },
+      {
+        "fr": "Une rigoureuse vérification des faits s'impose systématiquement avant d'accorder du crédit à une déclaration politique controversée.",
+        "en": "Rigorous fact-checking is systematically required before lending credence to a controversial political statement.",
+        "cn": "在认可一项有争议的政治言论之前，必须进行严谨的事实核查。",
+        "jp": "物議を醸す政治的発言を信用する前に、厳格な事実確認が常に求められます。"
+      },
+      {
+        "fr": "Face au flot continu de rumeurs en ligne, la vérification des faits devient une compétence civique fondamentale.",
+        "en": "Faced with the continuous flood of online rumors, fact-checking is becoming a fundamental civic skill.",
+        "cn": "面对网络上源源不断的谣言，事实核查正成为一项基本的公民技能。",
+        "jp": "ネット上の絶え間ない噂の氾濫に直面し、事実確認は基本的な市民スキルになりつつあります。"
+      },
+      {
+        "fr": "Cette agence de presse indépendante a bâti sa solide notoriété sur une vérification des faits exemplaire et transparente.",
+        "en": "This independent news agency built its solid reputation on exemplary and transparent fact-checking.",
+        "cn": "这家独立通讯社凭借模范且透明的事实核查树立了坚实的声誉。",
+        "jp": "この独立系通信社は、模範的で透明性の高い事実確認の上に確固たる名声を築きました。"
+      },
+      {
+        "fr": "Plusieurs logiciels algorithmiques aident dorénavant les enquêteurs dans la vérification des faits complexes et massifs.",
+        "en": "Several algorithmic software programs now assist investigators in fact-checking complex and massive data.",
+        "cn": "多种算法软件如今协助调查人员对复杂庞大的数据开展事实核查。",
+        "jp": "複数のアルゴリズムソフトウェアが、複雑で膨大なデータのファクトチェックにおいて調査員を支援しています。"
+      },
+      {
+        "fr": "Pendant la campagne électorale tendue, les débats télévisés font l'objet d'une vérification des faits en temps réel.",
+        "en": "During the tense election campaign, televised debates undergo real-time fact-checking.",
+        "cn": "在紧张的竞选期间，电视辩论会受到实时的现场事实核查。",
+        "jp": "緊迫した選挙戦の間、テレビ討論会はリアルタイムでファクトチェックの対象となります。"
+      },
+      {
+        "fr": "Le manuel d'éthique professionnelle rappelle que la vérification des faits prévaut toujours sur la rapidité du scoop.",
+        "en": "The professional code of ethics recalls that fact-checking always takes precedence over the speed of breaking news.",
+        "cn": "职业道德准则重申，事实核查的准确性永远高于抢发独家新闻的速度。",
+        "jp": "職業倫理規定は、事実確認がスクープの早さよりも常に優先されることを喚起しています。"
+      },
+      {
+        "fr": "Beaucoup d'étudiants en communication apprennent les méthodologies croisées de la vérification des faits dès le premier semestre.",
+        "en": "Many communication students learn cross-referencing methodologies of fact-checking as early as their first semester.",
+        "cn": "许多传媒专业的大学生从第一学期就开始学习交叉互证的事实核查方法论。",
+        "jp": "多くのコミュニケーション学部の学生が、最初の学期からファクトチェックの多角的な検証手法を学びます。"
+      },
+      {
+        "fr": "Quand un lanceur d'alerte transmet des documents inédits, la vérification des faits requiert plusieurs semaines d'investigations minutieuses.",
+        "en": "When a whistleblower provides unreleased documents, fact-checking requires several weeks of painstaking investigations.",
+        "cn": "当吹哨人提供未披露的文件时，事实核查往往需要耗费数周的缜密调查。",
+        "jp": "内部告発者が未公開の文書を渡した際、事実確認には数週間にわたる綿密な調査が必要です。"
+      },
+      {
+        "fr": "L'association de journalistes scientifiques réclame un soutien financier accru pour pérenniser la vérification des faits environnementaux.",
+        "en": "The association of science journalists demands increased financial support to sustain the fact-checking of environmental issues.",
+        "cn": "科技记者协会呼吁加大资金支持力度，以维持环境领域事实核查工作的长效机制。",
+        "jp": "科学ジャーナリスト協会は、環境問題に関する事実確認活動を持続させるための資金援助の増額を要求しています。"
+      }
+    ]
+  },
+  {
+    "id": 1391,
+    "word": "Algorithme",
+    "phonetique": "/al.ɡɔ.ʁitm/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom masculin • courant",
+    "definition": "Ensemble de règles informatiques sélectionnant les contenus affichés sur les fil d'actualités.",
+    "traduction_anglais": "algorithm / computational procedure",
+    "traduction_chinois": "算法 / 计算程序 (suànfǎ / jìsuàn chéngxù)",
+    "traduction_japonais": "アルゴリズム / 演算法 (arugorizumu)",
+    "examples": [
+      {
+        "fr": "Des informaticiens chevronnés perfectionnent constamment cet algorithme pour optimiser la pertinence des requêtes des internautes.",
+        "en": "Seasoned computer scientists are constantly refining this algorithm to optimize the relevance of Internet users' searches.",
+        "cn": "资深计算机科学家不断完善该算法，以优化网民搜索请求的相关性。",
+        "jp": "経験豊富なコンピュータ科学者は、ネットユーザーの検索の関連性を最適化するためにこのアルゴリズムを常に改良しています。"
+      },
+      {
+        "fr": "Sur les réseaux sociaux, un algorithme invisible dicte en permanence les publications apparaissant sur notre fil d'actualité.",
+        "en": "On social media, an invisible algorithm constantly dictates the posts appearing on our news feed.",
+        "cn": "在社交媒体上，无形的算法时刻左右着出现在我们动态消息中的帖子。",
+        "jp": "ソーシャルメディア上では、目に見えないアルゴリズムが私たちのニュースフィードに表示される投稿を常に左右しています。"
+      },
+      {
+        "fr": "Cette entreprise de logistique utilise un algorithme prédictif pour réduire drastiquement la consommation de carburant de ses camions.",
+        "en": "This logistics company uses a predictive algorithm to drastically reduce fuel consumption in its fleet of trucks.",
+        "cn": "这家物流公司利用预测算法大幅降低其货车车队的燃油消耗。",
+        "jp": "この物流企業は、トラックの燃料消費を大幅に削減するために予測アルゴリズムを使用しています。"
+      },
+      {
+        "fr": "Plusieurs chercheurs s'interrogent sur les biais discriminatoires qu'un algorithme mal calibré peut reproduire à grande échelle.",
+        "en": "Several researchers question the discriminatory biases that a poorly calibrated algorithm can replicate on a large scale.",
+        "cn": "多位学者对校准不良的算法可能在大规模层面上复制的歧视性偏差表示担忧。",
+        "jp": "複数の研究者が、調整の不十分なアルゴリズムが大規模に再現しかねない差別的バイアスについて疑問を呈しています。"
+      },
+      {
+        "fr": "Dans le secteur bancaire, un algorithme d'évaluation financière détermine instantanément l'octroi ou le refus d'un prêt immobilier.",
+        "en": "In the banking sector, a financial assessment algorithm instantly determines the granting or denial of a home loan.",
+        "cn": "在银行业，一项金融评估算法能在瞬间决定房贷的批准与否。",
+        "jp": "金融業界では、財務評価アルゴリズムが住宅ローンの承認または拒否を即座に決定します。"
+      },
+      {
+        "fr": "Comprendre le fonctionnement logique d'un algorithme constitue désormais un atout précieux pour les professionnels des données.",
+        "en": "Understanding the logical inner workings of an algorithm has become a valuable asset for data professionals.",
+        "cn": "理解算法的运作逻辑如今已成为数据从业人员的一项宝贵技能。",
+        "jp": "アルゴリズムの論理的な仕組みを理解することは、今やデータ専門職にとって貴重な強みとなっています。"
+      },
+      {
+        "fr": "La plateforme de streaming musical a conçu un algorithme performant capable d'anticiper les goûts mélodiques des abonnés.",
+        "en": "The music streaming platform designed a high-performing algorithm capable of anticipating subscribers' melodic preferences.",
+        "cn": "该音乐流媒体平台设计出一种高效算法，能够精准预判订阅用户的听歌品味。",
+        "jp": "音楽配信プラットフォームは、購読者の音楽的嗜好を予測できる高性能なアルゴリズムを設計しました。"
+      },
+      {
+        "fr": "Une nouvelle législation européenne exige une transparence renforcée sur tout algorithme influençant les comportements électoraux.",
+        "en": "New European legislation requires reinforced transparency for any algorithm influencing electoral behavior.",
+        "cn": "一项新的欧洲立法要求对任何影响选民行为的算法提高透明度。",
+        "jp": "新たな欧州法は、選挙行動に影響を与えるあらゆるアルゴリズムに対して透明性の強化を義務付けています。"
+      },
+      {
+        "fr": "Par mesure de sécurité informatique, l'algorithme de chiffrement protège les transactions bancaires confidentielles contre le piratage.",
+        "en": "As a cybersecurity measure, the encryption algorithm shields confidential banking transactions against hacking.",
+        "cn": "出于网络安全考虑，该加密算法能有效保护机密银行交易免遭黑客攻击。",
+        "jp": "セキュリティ対策として、暗号化アルゴリズムが機密の銀行取引をハッキングから保護しています。"
+      },
+      {
+        "fr": "Face aux dérives de la désinformation, certains réclament un audit indépendant de chaque algorithme de recommandation.",
+        "en": "Faced with the excesses of misinformation, some are calling for an independent audit of every recommendation algorithm.",
+        "cn": "面对假新闻泛滥的弊端，有人呼吁对所有推荐算法开展独立审计。",
+        "jp": "偽情報の拡散という逸脱に対し、各推薦アルゴリズムの独立した監査を求める声があります。"
+      }
+    ]
+  },
+  {
+    "id": 1392,
+    "word": "Bulle de filtre",
+    "phonetique": "/byl də filtʁ/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom féminin • courant",
+    "definition": "Isolement d'un utilisateur dans un environnement d'informations confirmant ses opinions.",
+    "traduction_anglais": "filter bubble / echo chamber",
+    "traduction_chinois": "过滤气泡 / 信息茧房 (guòlǜ qìpào / xìnxī jiǎnfáng)",
+    "traduction_japonais": "フィルターバブル / 情報の孤立 (firutā baburu)",
+    "examples": [
+      {
+        "fr": "En personnalisant à l'extrême les flux de nouvelles, les plateformes enferment l'internaute dans une bulle de filtre pernicieuse.",
+        "en": "By personalizing news feeds to the extreme, platforms trap Internet users in a pernicious filter bubble.",
+        "cn": "通过过度个性化新闻推送，平台将网民禁锢在有害的信息茧房之中。",
+        "jp": "ニュースフィードを極度に個人化することで、プラットフォームはネットユーザーを有害なフィルターバブルに閉じ込めています。"
+      },
+      {
+        "fr": "Sortir de sa bulle de filtre requiert l'effort délibéré de consulter des sources médiatiques aux sensibilités opposées.",
+        "en": "Breaking out of one's filter bubble requires a deliberate effort to consult media sources with opposing viewpoints.",
+        "cn": "走出自己的信息茧房需要自觉付出努力，主动查阅立场相反的媒体信息。",
+        "jp": "自身のフィルターバブルから抜け出すには、対立する立場のメディアを意図的に参照する努力が求められます。"
+      },
+      {
+        "fr": "Ce sociologue renommé démontre que la bulle de filtre amplifie la radicalisation des débats au sein de l'espace public.",
+        "en": "This renowned sociologist demonstrates that the filter bubble amplifies the radicalization of debates in the public sphere.",
+        "cn": "这位知名社会学家指出，过滤气泡加剧了公共空间内辩论观点的极端化。",
+        "jp": "この著名な社会学者は、フィルターバブルが公共空間における議論の先鋭化を助長していることを実証しています。"
+      },
+      {
+        "fr": "Confiné dans sa bulle de filtre idéologique, l'électeur ne perçoit plus la légitimité des arguments d'autrui.",
+        "en": "Confined within his ideological filter bubble, the voter no longer perceives the legitimacy of others' arguments.",
+        "cn": "困在意识形态的信息茧房里，选民再也看不到他人观点的合理性。",
+        "jp": "思想的なフィルターバブルに閉じこもった有権者は、他者の主張の正当性を理解できなくなります。"
+      },
+      {
+        "fr": "L'éducation aux médias vise à sensibiliser les lycéens aux dangers invisibles de la bulle de filtre numérique.",
+        "en": "Media education aims to raise high school students' awareness of the invisible dangers of the digital filter bubble.",
+        "cn": "媒介素养教育旨在让高中生认识到数字信息茧房带来的隐形危害。",
+        "jp": "メディアリテラシー教育は、デジタルのフィルターバブルが持つ目に見えない危険性について高校生の意識を高めることを目指しています。"
+      },
+      {
+        "fr": "Les concepteurs d'applications mobiles étudient des fonctionnalités innovantes pour faire éclater cette bulle de filtre artificielle.",
+        "en": "Mobile app designers are studying innovative features to burst this artificial filter bubble.",
+        "cn": "移动应用开发者正在探索创新功能，以打破这种人为构造的信息茧房。",
+        "jp": "モバイルアプリの開発者たちは、この人為的なフィルターバブルを破るための革新的な機能を検討しています。"
+      },
+      {
+        "fr": "À cause de la bulle de filtre algorithmique, les citoyens partagent de moins en moins un socle factuel commun.",
+        "en": "Because of the algorithmic filter bubble, citizens share less and less of a common factual foundation.",
+        "cn": "由于算法信息茧房的影响，公民之间共享的事实基础变得越来越薄弱。",
+        "jp": "アルゴリズムによるフィルターバブルのせいで、市民が共有する事実的基盤はますます失われつつあります。"
+      },
+      {
+        "fr": "Une curiosité intellectuelle constante demeure le remède le plus salutaire face aux pièges de la bulle de filtre.",
+        "en": "Constant intellectual curiosity remains the most effective antidote to the pitfalls of the filter bubble.",
+        "cn": "保持不竭的求知欲是应对信息茧房陷阱最有效的良药。",
+        "jp": "絶えざる知的好奇心こそが、フィルターバブルの罠に対処するための最も有効な対抗策です。"
+      },
+      {
+        "fr": "Des observateurs alertent sur le risque de voir chaque communauté repliée dans sa propre bulle de filtre hermétique.",
+        "en": "Observers warn of the risk of seeing each community retreat into its own airtight filter bubble.",
+        "cn": "观察人士警告称，各个社群可能会退缩到彼此封闭的信息茧房之中。",
+        "jp": "観察者たちは、各コミュニティがそれぞれ密閉されたフィルターバブルに閉じこもる危険性について警告しています。"
+      },
+      {
+        "fr": "Durant les crises sanitaires mondiales, la bulle de filtre a favorisé la prolifération de théories conspirationnistes infondées.",
+        "en": "During global health crises, the filter bubble fostered the proliferation of unfounded conspiracy theories.",
+        "cn": "在全球卫生危机期间，信息茧房助长了毫无根据的阴谋论的大肆泛滥。",
+        "jp": "世界的な衛生危機の最中、フィルターバブルは根拠のない陰謀論の蔓延を助長しました。"
+      }
+    ]
+  },
+  {
+    "id": 1393,
+    "word": "Influenceur",
+    "phonetique": "/ɛ̃.fly.ɑ̃.sœʁ/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom masculin • courant",
+    "definition": "Personne bénéficiant d'une large audience sur les réseaux sociaux capable de guider des opinions.",
+    "traduction_anglais": "influencer / online creator",
+    "traduction_chinois": "网络红人 / 意见领袖 (wǎngluò hóngrén / yìjiàn lǐngxiù)",
+    "traduction_japonais": "インフルエンサー / 発信者 (infuruensā)",
+    "examples": [
+      {
+        "fr": "Cet influenceur spécialisé dans le voyage responsable partage ses conseils écoresponsables avec un million d'abonnés passionnés.",
+        "en": "This influencer specializing in responsible travel shares eco-friendly tips with one million passionate followers.",
+        "cn": "这位专注于负责任旅行的网红与百万热心粉丝分享其环保生活建议。",
+        "jp": "責任ある旅行を専門とするこのインフルエンサーは、情熱的な100万人のフォロワーと環境に配慮したアドバイスを共有しています。"
+      },
+      {
+        "fr": "Les marques de mode sollicitent fréquemment un influenceur en vue pour promouvoir leurs nouvelles collections vestimentaires.",
+        "en": "Fashion brands frequently approach a prominent influencer to promote their new clothing collections.",
+        "cn": "时尚品牌经常邀请当红网红来宣传其全新服装系列。",
+        "jp": "ファッションブランドは新作コレクションを宣伝するため、著名なインフルエンサーによく依頼します。"
+      },
+      {
+        "fr": "Une nouvelle loi encadre strictement les contrats commerciaux signés par chaque influenceur sur le territoire national.",
+        "en": "A new law strictly regulates commercial contracts signed by any influencer on national territory.",
+        "cn": "一项新法律对全国范围内网红签订的商业代言合同作出了严格规范。",
+        "jp": "新しい法律は、国内において各インフルエンサーが結ぶ商業契約を厳格に規制しています。"
+      },
+      {
+        "fr": "Face aux dérives mercantiles, plusieurs collectifs dénoncent le manque de transparence de plus d'un influenceur populaire.",
+        "en": "Faced with commercial abuses, several groups denounce the lack of transparency from many a popular influencer.",
+        "cn": "面对商业乱象，多个团体谴责不少知名网红缺乏商业透明度。",
+        "jp": "商業的な逸脱を前に、複数の団体が多くの人気インフルエンサーの透明性の欠如を告発しています。"
+      },
+      {
+        "fr": "Grâce à son authenticité naturelle, cette jeune créatrice a su fédérer une communauté particulièrement bienveillante et engagée.",
+        "en": "Thanks to her natural authenticity, this young creator managed to unite a particularly supportive and engaged community.",
+        "cn": "凭借自身的真实自然，这位年轻的女创作者成功凝聚起一个极具包容心与参与感的粉丝社群。",
+        "jp": "持ち前の飾らない人柄のおかげで、この若い女性クリエイターは極めて親身で熱心なコミュニティをまとめることができました。"
+      },
+      {
+        "fr": "Le rôle sociétal de l'influenceur dépasse désormais le simple divertissement pour aborder des causes environnementales majeures.",
+        "en": "The societal role of the influencer now extends beyond simple entertainment to address major environmental causes.",
+        "cn": "如今网红的社会角色已超越了单纯的娱乐，开始触及重大环保议题。",
+        "jp": "インフルエンサーの社会的役割は今や単なる娯楽を超え、重大な環境問題にも取り組むようになっています。"
+      },
+      {
+        "fr": "Des agences de marketing numérique aident chaque influenceur débutant à professionnaliser sa production de vidéos en ligne.",
+        "en": "Digital marketing agencies help each novice influencer professionalize their online video production.",
+        "cn": "数字营销机构协助每位新手网红实现线上视频制作的专业化。",
+        "jp": "デジタルマーケティング会社は、初心者のインフルエンサーがオンライン動画制作をプロ並みに向上させるのを支援しています。"
+      },
+      {
+        "fr": "Lors de la conférence européenne, des sociologues ont disséqué l'emprise culturelle qu'exerce l'influenceur sur les adolescents.",
+        "en": "During the European conference, sociologists dissected the cultural sway that the influencer holds over teenagers.",
+        "cn": "在欧洲研讨会上，社会学家们深入剖析了网红对青少年的文化影响力与支配力。",
+        "jp": "欧州会議において、社会学者たちはインフルエンサーが青少年に及ぼす文化的な影響力を詳細に分析しました。"
+      },
+      {
+        "fr": "Avant de recommander un produit pharmaceutique, un influenceur consciencieux devrait consulter des experts de santé qualifiés.",
+        "en": "Before recommending a pharmaceutical product, a conscientious influencer should consult qualified healthcare experts.",
+        "cn": "在推荐医药产品之前，富有责任心的网红应当咨询合格的卫生专家。",
+        "jp": "医薬品を薦める前に、良心的なインフルエンサーは有資格の健康専門家に相談すべきです。"
+      },
+      {
+        "fr": "La monétisation des contenus pousse parfois l'influenceur imprudent à vanter des investissements financiers risqués.",
+        "en": "Content monetization sometimes pushes reckless influencers to promote risky financial investments.",
+        "cn": "内容变现的诱惑有时会驱使鲁莽的网红去兜售高风险的金融投资项目。",
+        "jp": "コンテンツの収益化は、時に軽率なインフルエンサーを高リスクな金融投資の宣伝へと駆り立てます。"
+      }
+    ]
+  },
+  {
+    "id": 1394,
+    "word": "Sensationalisme",
+    "phonetique": "/sɑ̃.sa.sjɔ.na.lism/",
+    "level": "B2",
+    "theme": "Médias & Numérique",
+    "type": "nom masculin • courant",
+    "definition": "Tendance à exagérer les faits pour choquer ou attirer l'attention du public.",
+    "traduction_anglais": "sensationalism / sensationalist reporting",
+    "traduction_chinois": "耸人听闻 / 追求轰动效应 (sǒngrén tīngwén / zhuīqiú hōngdòng xiàoyìng)",
+    "traduction_japonais": "扇情主義 / センセーショナリズム (senjō shugi)",
+    "examples": [
+      {
+        "fr": "La presse à scandale privilégie trop souvent le sensationalisme au détriment de l'exactitude des informations rapportées.",
+        "en": "The tabloid press too often prioritizes sensationalism at the expense of the accuracy of reported news.",
+        "cn": "八卦小报往往过度追求轰动效应，从而牺牲了报道新闻的真实准确性。",
+        "jp": "大衆紙はしばしば、報じられる情報の正確さを犠牲にして扇情主義を過度に優先します。"
+      },
+      {
+        "fr": "Ce reportage télévisé a suscité de vives condamnations en raison de son sensationalisme déplacé lors du drame.",
+        "en": "This televised report provoked sharp condemnation due to its misplaced sensationalism during the tragedy.",
+        "cn": "该电视报道因在悲剧发生时采取了不合时宜的猎奇煽情手法而招致强烈谴责。",
+        "jp": "このテレビ報道は、悲劇に際して不適切な扇情主義に走ったため激しい非難を浴びました。"
+      },
+      {
+        "fr": "Les journalistes d'investigation réputés rejettent fermement tout sensationalisme dans leurs enquêtes d'intérêt public.",
+        "en": "Reputable investigative journalists firmly reject any sensationalism in their public interest investigations.",
+        "cn": "声誉卓著的调查记者在关乎公共利益的深度调查中坚决摒弃任何煽情主义。",
+        "jp": "名高い調査報道ジャーナリストたちは、公益に関わる調査においていかなるセンセーショナリズムをも断固として拒絶します。"
+      },
+      {
+        "fr": "À la recherche effrénée de clics faciles, certains sites d'actualité basculent délibérément dans le sensationalisme.",
+        "en": "In the frantic search for easy clicks, some news websites deliberately slip into sensationalism.",
+        "cn": "为了疯狂追求点击量，某些新闻网站故意滑向了耸人听闻的泥潭。",
+        "jp": "安易なクリック数を血眼になって追い求めるあまり、一部のニュースサイトは意図的にセンセーショナリズムへと傾斜しています。"
+      },
+      {
+        "fr": "Le conseil de déontologie journalistique a épinglé plusieurs chaînes d'information pour leur sensationalisme excessif en direct.",
+        "en": "The journalistic ethics council singled out several news channels for their excessive live sensationalism.",
+        "cn": "新闻道德委员会对多家新闻频道在直播中过度追求轰动效应的行为进行了点名批评。",
+        "jp": "報道倫理評議会は、生放送における過度な扇情主義について複数のニュース専門チャンネルを名指しで批判しました。"
+      },
+      {
+        "fr": "Face à un tel sensationalisme médiatique, le public éprouve une méfiance grandissante envers les commentaires d'experts.",
+        "en": "Faced with such media sensationalism, the public feels a growing distrust toward expert commentary.",
+        "cn": "面对如此铺天盖地的媒体煽情，公众对专家评论的信任度日益下降。",
+        "jp": "このようなメディアの扇情主義を前に、一般大衆は専門家の解説に対して不信感を募らせています。"
+      },
+      {
+        "fr": "L'auteur de cet essai sociologique analyse comment le sensationalisme contemporain nourrit l'anxiété collective au quotidien.",
+        "en": "The author of this sociological essay analyzes how contemporary sensationalism fuels daily collective anxiety.",
+        "cn": "这篇社会学专著的作者深入剖析了当代的轰动效应是如何滋长公众日常的集体焦虑的。",
+        "jp": "この社会学エッセイの著者は、現代のセンセーショナリズムが日常の集団的不安をいかに煽っているかを分析しています。"
+      },
+      {
+        "fr": "Dans le traitement judiciaire des faits divers, le sensationalisme risque d'enfreindre la présomption d'innocence des accusés.",
+        "en": "In the judicial coverage of crime stories, sensationalism risks violating the presumption of innocence of the accused.",
+        "cn": "在社会民生案事件的司法报道中，猎奇煽情有可能侵犯被告人的无罪推定权。",
+        "jp": "事件報道の司法的な取り扱いにおいて、扇情主義は被告人の無罪推定を侵害する恐れがあります。"
+      },
+      {
+        "fr": "Une écriture sobre et documentée constitue le rempart le plus solide contre la tentation du sensationalisme.",
+        "en": "Sober, documented writing constitutes the strongest bulwark against the temptation of sensationalism.",
+        "cn": "质朴严谨、证据确凿的文风是对抗煽情诱惑最坚固的堡垒。",
+        "jp": "落ち着いた事実に基づく文章作成こそが、センセーショナリズムの誘惑に対する最も堅固な防壁となります。"
+      },
+      {
+        "fr": "Tous les manuels d'école de journalisme mettent en garde les apprentis reporters contre les ravages du sensationalisme.",
+        "en": "All journalism school textbooks warn apprentice reporters against the ravages of sensationalism.",
+        "cn": "所有新闻院校的教材都告诫见习记者警惕耸人听闻带来的恶劣影响。",
+        "jp": "ジャーナリズム学校のすべての教科書が、扇情主義のもたらす弊害について見習い記者に警告しています。"
+      }
+    ]
+  },
+  {
+    "id": 1395,
+    "word": "Transmission",
+    "phonetique": "/tʁɑ̃s.mi.sjɔ̃/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom féminin • courant",
+    "definition": "Fait de léguer un savoir, une mémoire ou une culture d'une génération à une autre.",
+    "traduction_anglais": "transmission / passing down",
+    "traduction_chinois": "传承 / 传授 (chuánchéng / chuánshòu)",
+    "traduction_japonais": "伝承 / 継承 (denshō / keishō)",
+    "examples": [
+      {
+        "fr": "Ce maître artisan consacre son énergie à la transmission rigoureuse des gestes ancestraux de la verrerie d'art.",
+        "en": "This master craftsman devotes his energy to the rigorous transmission of ancestral glassmaking gestures.",
+        "cn": "这位工艺大师全身心投入到艺术玻璃古老技艺的严格传授之中。",
+        "jp": "この名匠は、工芸ガラスの先祖代々の伝統技法を厳格に伝承することに情熱を傾けています。"
+      },
+      {
+        "fr": "La transmission orale des contes populaires permet de sauvegarder l'imaginaire collectif au fil des siècles.",
+        "en": "The oral transmission of folk tales makes it possible to preserve collective imagination over centuries.",
+        "cn": "民间故事的口头流传使几个世纪以来的集体想象力得以代代保存。",
+        "jp": "民話の口頭伝承により、何世紀にもわたる集団的想像力を守り抜くことが可能になります。"
+      },
+      {
+        "fr": "Dans les familles de musiciens, la transmission passionnée du répertoire classique débute dès la plus tendre enfance.",
+        "en": "In families of musicians, the passionate passing down of classical repertoire begins in earliest childhood.",
+        "cn": "在音乐世家中，对古典曲目的热情传承从童年早期便已开始。",
+        "jp": "音楽家の家系では、古典レパートリーの熱心な継承はごく幼い頃から始まります。"
+      },
+      {
+        "fr": "L'école républicaine garantit la transmission universelle des valeurs civiques et des humanités à chaque génération montante.",
+        "en": "The public school system guarantees the universal transmission of civic values and humanities to each rising generation.",
+        "cn": "公立学校体制确保了公民价值观与人文学科向每代新青年的普遍传授。",
+        "jp": "公立教育機関は、育ちゆく各世代に対する市民的価値と人文学の普遍的な継承を保障しています。"
+      },
+      {
+        "fr": "Sans une transmission active de la mémoire historique, les sociétés s'exposent à reproduire les tragédies du passé.",
+        "en": "Without active transmission of historical memory, societies risk repeating past tragedies.",
+        "cn": "倘若缺乏对历史记忆的积极传承，人类社会就可能重蹈过去的悲剧覆辙。",
+        "jp": "歴史的記憶の積極的な継承がなければ、社会は過去の悲劇を繰り返す危険にさらされます。"
+      },
+      {
+        "fr": "Le musée des arts décoratifs organise des ateliers pédagogiques axés sur la transmission des savoir-faire traditionnels.",
+        "en": "The decorative arts museum organizes educational workshops focused on passing down traditional craftsmanship.",
+        "cn": "装饰艺术博物馆举办了以传统手工艺传承为核心的教育工作坊。",
+        "jp": "装飾美術館は、伝統的な職人技の継承に焦点を当てた教育ワークショップを開催しています。"
+      },
+      {
+        "fr": "Ce roman poignant raconte la transmission intime d'un secret de famille à travers trois générations successives.",
+        "en": "This poignant novel recounts the intimate transmission of a family secret across three successive generations.",
+        "cn": "这部感人至深的小说讲述了一个家庭秘密在三代人之间悄然传承的故事。",
+        "jp": "この心揺さぶる小説は、連続する三世代にわたる家族の秘密の秘められた継承を描いています。"
+      },
+      {
+        "fr": "Les communautés autochtones accordent une importance primordiale à la transmission de leurs langues régionales en péril.",
+        "en": "Indigenous communities attach paramount importance to the transmission of their endangered regional languages.",
+        "cn": "原住民社群高度重视其濒危本土语言的代际传承。",
+        "jp": "先住民族のコミュニティは、危機に瀕した地域言語の伝承を何よりも重要視しています。"
+      },
+      {
+        "fr": "La transmission du patrimoine immatériel nécessite le soutien financier et institutionnel des collectivités territoriales.",
+        "en": "The transmission of intangible heritage requires financial and institutional support from local authorities.",
+        "cn": "非物质文化遗产的传承需要各地方政府提供资金支持与制度保障。",
+        "jp": "無形遺産の継承には、地方自治体による財政的および制度的な支援が必要です。"
+      },
+      {
+        "fr": "Au sein de cette manufacture centenaire, la transmission harmonieuse entre anciens et apprentis assure la pérennité du label.",
+        "en": "Within this century-old manufacture, the harmonious transmission between elders and apprentices ensures brand longevity.",
+        "cn": "在这家百年工坊内部，老师傅与学徒之间的融洽传帮带保证了品牌的长盛不衰。",
+        "jp": "この100年の歴史を持つ工房では、ベテラン職人と見習いの調和のとれた伝承がブランドの存続を保証しています。"
+      }
+    ]
+  },
+  {
+    "id": 1396,
+    "word": "Séculaire",
+    "phonetique": "/se.ky.lɛʁ/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "adjectif • courant",
+    "definition": "Qui existe depuis un ou plusieurs siècles, très ancien et imprégné d'histoire.",
+    "traduction_anglais": "centuries-old / age-old",
+    "traduction_chinois": "百年的 / 历史悠久的 (bǎinián de / lìshǐ yōujiǔ de)",
+    "traduction_japonais": "数世紀にわたる / 伝統ある (sūseiki ni wataru)",
+    "examples": [
+      {
+        "fr": "Les vignerons de la vallée perpétuent une tradition séculaire de vendanges manuelles sur ces coteaux abrupts.",
+        "en": "Valley winemakers perpetuate a centuries-old tradition of hand harvesting on these steep hillsides.",
+        "cn": "山谷里的果农们在这些陡峭的山坡上延续着手工采摘葡萄的百年传统。",
+        "jp": "渓谷のワイン醸造者たちは、この急峻な丘の斜面で何世紀も続く手摘み収穫の伝統を守り続けています。"
+      },
+      {
+        "fr": "Ce chêne séculaire dressé au centre de la clairière symbolise la force tranquille de la forêt environnante.",
+        "en": "This centuries-old oak standing in the center of the clearing symbolizes the quiet strength of the surrounding forest.",
+        "cn": "这株矗立在林间空地中央的百年橡树象征着周围森林沉静的力量。",
+        "jp": "開けた空き地の中央にそびえ立つこの樹齢数百年のオークは、周囲の森林の静かな力を象徴しています。"
+      },
+      {
+        "fr": "Une coutume séculaire rassemble chaque printemps les villageois autour du four communal pour cuire le pain traditionnel.",
+        "en": "A centuries-old custom brings villagers together every spring around the communal oven to bake traditional bread.",
+        "cn": "每年春天，一项古老的百年习俗都会将村民聚集在公共烤炉旁烘烤传统面包。",
+        "jp": "何世紀も続く風習により、毎年春になると伝統的なパンを焼くために村人たちが共同の窯の周りに集まります。"
+      },
+      {
+        "fr": "Les restaurateurs d'art s'efforcent de consolider les pierres de cette abbaye séculaire sans dénaturer son cachet authentique.",
+        "en": "Art restorers strive to reinforce the stonework of this centuries-old abbey without altering its authentic character.",
+        "cn": "艺术修复师竭力加固这座百年修道院的石墙，同时丝毫不破坏其原汁原味的古韵。",
+        "jp": "美術修復家たちは、この伝統ある修道院本来の趣を損なうことなく石造建築を補強しようと努めています。"
+      },
+      {
+        "fr": "Malgré l'avènement de l'ère industrielle, ce moulin hydraulique préserve une méthode séculaire de mouture du blé.",
+        "en": "Despite the advent of the industrial era, this watermill preserves a centuries-old method of grinding wheat.",
+        "cn": "尽管进入了工业时代，这座水磨坊依然保留着有着数百年历史的小麦研磨古法。",
+        "jp": "産業時代の到来にもかかわらず、この水車小屋は小麦を製粉する数世紀来の古法を守り続けています。"
+      },
+      {
+        "fr": "Dans cette région montagneuse isolée, les bergers empruntent toujours des sentiers de transhumance séculaires.",
+        "en": "In this isolated mountainous region, shepherds still follow age-old seasonal migration paths.",
+        "cn": "在这片与世隔绝的山区，牧羊人依然沿着有数百年历史的转场牧道放牧。",
+        "jp": "この孤立した山岳地帯では、羊飼いたちが今もなお何世紀も前の伝統的な移牧ルートを辿っています。"
+      },
+      {
+        "fr": "La bibliothèque municipale conserve précieusement des manuscrits enluminés issus d'un couvent séculaire.",
+        "en": "The municipal library carefully preserves illuminated manuscripts originating from a centuries-old convent.",
+        "cn": "市立图书馆悉心珍藏着来自一座百年修道院的精美泥金手抄本。",
+        "jp": "市立図書館は、数世紀の歴史を持つ修道院に由来する装飾写本を大切に保管しています。"
+      },
+      {
+        "fr": "Une rivalité séculaire opposait autrefois ces deux cités médiévales pour le contrôle stratégique des voies fluviales.",
+        "en": "A centuries-old rivalry once pitted these two medieval towns against each other for strategic control of riverways.",
+        "cn": "这两座中世纪城邦曾为争夺水运枢纽的战略控制权而结下长达数百年的宿怨。",
+        "jp": "何世紀にもわたるライバル関係が、かつて水運ルートの戦略的支配を巡ってこれら二つの中世都市を対立させていました。"
+      },
+      {
+        "fr": "Sous les voûtes de cette cathédrale séculaire, la résonance acoustique sublime le chant polyphonique.",
+        "en": "Beneath the vaults of this centuries-old cathedral, the acoustic resonance sublimates polyphonic singing.",
+        "cn": "在这座百年大教堂的穹顶之下，纯净的回音让复调圣咏显得格外空灵崇高。",
+        "jp": "この数世紀にわたる大聖堂の丸天井の下で、音響の響きがポリフォニーの合唱を崇高なものに昇華させます。"
+      },
+      {
+        "fr": "Ce traité d'amitié bilatéral scelle la réconciliation définitive entre deux nations aux liens culturels séculaires.",
+        "en": "This bilateral friendship treaty seals definitive reconciliation between two nations with age-old cultural ties.",
+        "cn": "这份双边友好条约彻底确立了两个拥有数百年文化渊源的国家之间的永久和解。",
+        "jp": "この二国間友好条約は、何世紀にもわたる文化的絆を持つ二つの国家の最終的な和解を決定づけるものです。"
+      }
+    ]
+  },
+  {
+    "id": 1397,
+    "word": "Mécénat",
+    "phonetique": "/me.se.na/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom masculin • courant",
+    "definition": "Soutien financier, humain ou matériel apporté sans contrepartie directe à une œuvre culturelle ou patrimoniale.",
+    "traduction_anglais": "patronage / corporate sponsorship",
+    "traduction_chinois": "赞助 / 资助文化艺术 (zànzhù / zīzhù wénhuà yìshù)",
+    "traduction_japonais": "メセナ / 文化的支援 (mesena / bunkateki shien)",
+    "examples": [
+      {
+        "fr": "Grâce au généreux mécénat de fondations privées, la restauration du château royal a pu être achevée à temps.",
+        "en": "Thanks to generous patronage from private foundations, the restoration of the royal castle could be finished on schedule.",
+        "cn": "得益于私人基金会的慷慨赞助，皇家城堡的修缮工程得以如期竣工。",
+        "jp": "民間財団の寛大なメセナ（文化支援）のおかげで、王城の修復工事は予定通り完了しました。"
+      },
+      {
+        "fr": "Cette grande entreprise consacre une partie substantielle de ses bénéfices au mécénat artistique et musical.",
+        "en": "This major corporation devotes a substantial portion of its profits to artistic and musical patronage.",
+        "cn": "这家大企业将相当一部分利润用于艺术与音乐赞助事业。",
+        "jp": "この大企業は、利益の相当部分を芸術および音楽のメセナ活動に充てています。"
+      },
+      {
+        "fr": "Le cadre fiscal avantageux incite de nombreuses entreprises régionales à s'engager activement dans le mécénat de proximité.",
+        "en": "The favorable tax framework encourages many regional businesses to engage actively in local community patronage.",
+        "cn": "优惠的税收政策激励了许多地方企业积极投身于社区文化公益赞助。",
+        "jp": "有利な税制枠組みが、多くの地域企業に身近な地域メセナ活動への積極的な参加を促しています。"
+      },
+      {
+        "fr": "Sans ce mécénat d'entreprise providentiel, la jeune compagnie théâtrale n'aurait jamais pu monter son festival annuel.",
+        "en": "Without this providential corporate sponsorship, the young theater company could never have staged its annual festival.",
+        "cn": "若没有这场及时的企业赞助，这个年轻的剧团绝不可能成功举办其年度戏剧节。",
+        "jp": "この幸運な企業メセナがなければ、若い劇団が年次フェスティバルを上演することは決してできませんでした。"
+      },
+      {
+        "fr": "Le ministère de la Culture valorise régulièrement le mécénat participatif pour sauver des chefs-d'œuvre menacés de disparition.",
+        "en": "The Ministry of Culture regularly promotes crowdfunding patronage to save masterpieces threatened with disappearance.",
+        "cn": "文化部经常推广公众众筹赞助，以拯救濒临流失的艺术杰作。",
+        "jp": "文化省は、消滅の危機に瀕している名作を救うため、参加型クラウドファンディング・メセナを定期的に奨励しています。"
+      },
+      {
+        "fr": "Un comité consultatif examine chaque dossier de candidature afin de garantir l'éthique irréprochable du mécénat culturel.",
+        "en": "An advisory committee reviews each application file to guarantee the impeccable ethics of cultural patronage.",
+        "cn": "咨询委员会对每份申请材料进行严格审查，以确保文化赞助具备无可挑剔的道德水准。",
+        "jp": "諮問委員会は、文化支援活動の非の打ち所のない倫理性を確保するため、各応募書類を審査しています。"
+      },
+      {
+        "fr": "Le mécénat de compétences permet aux salariés volontaires d'offrir leur expertise technique à des musées publics.",
+        "en": "Skills-based sponsorship allows volunteer employees to offer their technical expertise to public museums.",
+        "cn": "技能赞助允许志愿员工向公共博物馆提供自身的专业技术支持。",
+        "jp": "スキル・メセナにより、志願した従業員が公立美術館に専門知識や技術を提供することが可能になります。"
+      },
+      {
+        "fr": "La renaissance de ce festival de musique baroque doit énormément au mécénat fidèle d'amateurs d'art éclairés.",
+        "en": "The revival of this baroque music festival owes a great deal to the loyal patronage of enlightened art lovers.",
+        "cn": "这一巴洛克音乐节的重获新生，极大地归功于富有品位的艺术爱好者的忠实赞助。",
+        "jp": "このバロック音楽祭の復興は、見識ある美術愛好家たちの誠実なメセナに大きく負っています。"
+      },
+      {
+        "fr": "Face à la réduction continue des subventions étatiques, le mécénat s'impose comme une source de financement incontournable.",
+        "en": "Faced with continuous reductions in state subsidies, patronage has become an essential source of funding.",
+        "cn": "面对国家财政补贴的不断削减，社会赞助已成为不可或缺的重要资金来源。",
+        "jp": "国の助成金が減少し続ける中で、メセナは不可欠な資金源として定着しています。"
+      },
+      {
+        "fr": "Une plaque commémorative gravée dans le hall d'honneur rend hommage aux généreux donateurs du mécénat patrimonial.",
+        "en": "A commemorative plaque engraved in the hall of honor pays tribute to generous donors of heritage sponsorship.",
+        "cn": "荣誉大厅内铭刻的一方纪念铜牌，向文物遗产保护的慷慨捐赠者表达崇高敬意。",
+        "jp": "栄誉のホールに刻まれた記念プレートは、遺産保護メセナの寛大な寄付者たちに敬意を表しています。"
+      }
+    ]
+  },
+  {
+    "id": 1398,
+    "word": "Muséographie",
+    "phonetique": "/my.ze.ɔ.ɡʁa.fi/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom féminin • courant",
+    "definition": "Art et technique d'aménager, concevoir et organiser un musée ou un espace d'exposition pour le public.",
+    "traduction_anglais": "museography / museum design",
+    "traduction_chinois": "博物馆学 / 展陈设计 (bówùguǎnxué / zhǎnchén shèjì)",
+    "traduction_japonais": "博物館学 / 展示設計 (hakubutsukan-gaku / tenji sekkei)",
+    "examples": [
+      {
+        "fr": "La nouvelle muséographie privilégie un parcours immersif et interactif qui séduit immédiatement les jeunes visiteurs.",
+        "en": "The new museography favors an immersive and interactive route that instantly captivates young visitors.",
+        "cn": "全新的展陈设计注重沉浸式与互动性的参观流线，立刻吸引了年轻观众。",
+        "jp": "新しい展示設計は、若い来館者を直ちに魅了する没入型でインタラクティブな鑑賞ルートを重視しています。"
+      },
+      {
+        "fr": "Les concepteurs d'espaces culturels repensent la muséographie pour mettre en valeur des sculptures antiques sous une lumière naturelle.",
+        "en": "Cultural space designers are rethinking museography to showcase ancient sculptures under natural lighting.",
+        "cn": "文化空间设计师重新构思展陈手法，旨在让古典雕塑在自然光晕下展现独特的艺术魅力。",
+        "jp": "文化空間の設計者たちは、自然光の下で古代の彫刻を引き立たせるために展示設計を再考しています。"
+      },
+      {
+        "fr": "Une muséographie soignée doit concilier la protection des œuvres fragiles et le confort visuel des spectateurs.",
+        "en": "Careful museography must reconcile the protection of fragile works with the visual comfort of viewers.",
+        "cn": "精心的博物馆展陈设计必须在珍贵文物的保护与观众舒适的视觉体验之间取得平衡。",
+        "jp": "入念な博物館展示設計は、繊細な作品の保護と鑑賞者の視覚的快適さを両立させなければなりません。"
+      },
+      {
+        "fr": "Après deux années de fermeture pour travaux, le musée d'histoire naturelle inaugure une muséographie audacieuse et contemporaine.",
+        "en": "After two years of closure for renovation, the natural history museum inaugurates a bold and contemporary museography.",
+        "cn": "闭馆装修改造两年后，自然历史博物馆揭幕了大胆现代的全新展陈方案。",
+        "jp": "改装工事による2年間の休館の後、自然史博物館は大胆で現代的な展示デザインを初公開しました。"
+      },
+      {
+        "fr": "Ce projet novateur allie muséographie numérique et dispositifs sonores spatialisés pour faire revivre la Préhistoire.",
+        "en": "This innovative project combines digital museography and spatialized sound devices to bring prehistory back to life.",
+        "cn": "这一创新项目将数字化展陈与空间环绕声设备相结合，让史前时代鲜活重现。",
+        "jp": "この革新的なプロジェクトは、先史時代を現代に蘇らせるためにデジタル展示技術と立体音響装置を融合させています。"
+      },
+      {
+        "fr": "Les spécialistes s'accordent à louer l'intelligence de cette muséographie qui fluidifie les flux dans les salles exiguës.",
+        "en": "Specialists agree in praising the cleverness of this museography, which smooths visitor flow in cramped galleries.",
+        "cn": "专家们一致盛赞该展陈设计的巧思，它有效疏导了狭小展厅内的参观人流。",
+        "jp": "専門家たちは、手狭な展示室における来館者の動線を円滑にするこの展示設計の巧みさを一様に称賛しています。"
+      },
+      {
+        "fr": "Dans cette galerie de peinture, la muséographie minimaliste laisse toute la place à la force expressive des toiles.",
+        "en": "In this painting gallery, minimalist museography gives pride of place to the expressive power of the canvases.",
+        "cn": "在这间油画展厅中，极简主义的展陈设计将舞台完全留给了画布本身的艺术张力。",
+        "jp": "この絵画ギャラリーでは、ミニマリストな展示構成が絵画の表現力を最大限に引き立てています。"
+      },
+      {
+        "fr": "Les étudiants en histoire de l'art étudient les évolutions de la muséographie occidentale depuis le dix-neuvième siècle.",
+        "en": "Art history students study the developments of Western museography since the nineteenth century.",
+        "cn": "艺术史专业的学生深入研习自十九世纪以来西方博物馆展陈技术的演进脉络。",
+        "jp": "美術史の学生たちは、19世紀以降の西洋における博物館展示設計の変遷を研究しています。"
+      },
+      {
+        "fr": "Grâce à une muséographie accessible, les personnes malvoyantes profitent désormais de reproductions tactiles des bas-reliefs.",
+        "en": "Thanks to accessible museography, visually impaired individuals now benefit from tactile reproductions of bas-reliefs.",
+        "cn": "得益于无障碍展陈设计，视障人士如今能够通过触摸浅浮雕的复制品获得美妙体验。",
+        "jp": "アクセシブルな展示設計のおかげで、視覚障害者も浅浮き彫りの触覚複製模型を楽しめるようになりました。"
+      },
+      {
+        "fr": "Le commissaire de l'exposition a supervisé personnellement chaque détail de la muséographie avant l'inauguration officielle.",
+        "en": "The exhibition curator personally supervised every museographic detail before the official opening.",
+        "cn": "展览策展人在正式开幕前亲自核查监督了展陈设计的每一个细节。",
+        "jp": "展覧会のキュレーターは、公式開幕の前に展示デザインの細部に至るまで自ら監督しました。"
+      }
+    ]
+  },
+  {
+    "id": 1399,
+    "word": "Médiation",
+    "phonetique": "/me.dja.sjɔ̃/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom féminin • courant",
+    "definition": "Dispositif humain ou pédagogique facilitant la rencontre entre le public et une œuvre ou un site historique.",
+    "traduction_anglais": "mediation / cultural outreach",
+    "traduction_chinois": "文化推广 / 导览阐释 (wénhuà tuīguǎng / dǎolǎn chǎnshì)",
+    "traduction_japonais": "文化的ガイダンス / 鑑賞仲介 (bunkateki gaidansu / chūkai)",
+    "examples": [
+      {
+        "fr": "Le service de médiation culturelle propose des visites guidées adaptées aux élèves des quartiers défavorisés.",
+        "en": "The cultural mediation department offers guided tours tailored to students from disadvantaged neighborhoods.",
+        "cn": "文化推广部为来自弱势群体的学生群体量身定制了针对性的导览参观方案。",
+        "jp": "文化的ガイダンス部門は、恵まれない地域の生徒に合わせたガイドツアーを提供しています。"
+      },
+      {
+        "fr": "Grâce à une médiation bienveillante, les visiteurs néophytes s'initient sans appréhension aux codes de l'art contemporain.",
+        "en": "Thanks to supportive mediation, novice visitors are introduced without apprehension to the codes of contemporary art.",
+        "cn": "得益于贴心热情的专业讲解，初次观展的门外汉能够毫无顾虑地领会当代艺术的精妙语言。",
+        "jp": "親切な解説・仲介のおかげで、初心者の来館者も恐れることなく現代アートのルールに親しむことができます。"
+      },
+      {
+        "fr": "Cette institution muséale investit massivement dans la médiation numérique pour attirer les jeunes générations hyperconnectées.",
+        "en": "This museum institution invests heavily in digital mediation to attract hyper-connected younger generations.",
+        "cn": "该博物馆机构重金投入数字化导览平台建设，以吸引高度沉浸于网络生活的年轻一代。",
+        "jp": "この美術館は、ネットに親しんだ若い世代を引き付けるため、デジタル仲介サービスに多額の投資を行っています。"
+      },
+      {
+        "fr": "Les ateliers de médiation artistique encouragent l'expression personnelle des participants à travers la pratique du dessin.",
+        "en": "Artistic mediation workshops encourage participants' self-expression through drawing practice.",
+        "cn": "艺术普及工作坊通过绘画实践鼓励参与者展现独特的个性与自我表达。",
+        "jp": "アート仲介ワークショップは、デッサンの実践を通じて参加者の自己表現を促します。"
+      },
+      {
+        "fr": "Une équipe de médiation itinérante sillonne les zones rurales afin de présenter des reproductions d'œuvres maîtresses.",
+        "en": "A mobile outreach team travels through rural areas to present reproductions of masterworks.",
+        "cn": "一支流动的文化推广小组巡回于广大乡村地区，向乡亲们展示经典名作的精美复制品。",
+        "jp": "巡回型のガイダンスチームが農村部を巡回し、代表的な傑作の複製を紹介しています。"
+      },
+      {
+        "fr": "Lors de cette rétrospective complexe, les livrets de médiation fournissent des repères chronologiques indispensables aux familles.",
+        "en": "During this complex retrospective, mediation booklets provide indispensable chronological milestones for families.",
+        "cn": "在这场内涵丰富的回顾展中，导览手册为亲子家庭提供了必不可少的历史年代坐标。",
+        "jp": "この複雑な回顧展の期間中、ガイダンス小冊子が家族連れに不可欠な年代順の手がかりを提供します。"
+      },
+      {
+        "fr": "Le conférencier privilégie une médiation vivante et dialoguée plutôt qu'un exposé magistral académique.",
+        "en": "The lecturer favors lively, conversational mediation rather than a traditional academic lecture.",
+        "cn": "主讲人更青睐生动对话式的双向互动讲解，而非枯燥单向的学术灌输。",
+        "jp": "講師は、退屈な大学風の講義よりも、生き生きとした対話形式の解説を好みます。"
+      },
+      {
+        "fr": "Dans les monuments historiques, la médiation théâtralisée permet d'immerger les touristes dans la vie quotidienne au Moyen Âge.",
+        "en": "In historic monuments, dramatized mediation allows tourists to be immersed in daily life in the Middle Ages.",
+        "cn": "在历史古迹中，戏剧化沉浸式讲解让游客宛如身临其境般体会中世纪的日常起居。",
+        "jp": "歴史的建造物において、演劇仕立てのガイドは観光客を中世の日常生活へと没入させます。"
+      },
+      {
+        "fr": "Cette formation universitaire prépare les futurs professionnels aux nouveaux métiers de la médiation du patrimoine.",
+        "en": "This university program prepares future professionals for emerging careers in heritage mediation.",
+        "cn": "该大学专业课程旨在为文化遗产普及与公共教育的新兴岗位培养未来的骨干人才。",
+        "jp": "この大学の教育プログラムは、遺産ガイダンスの新しい職種に向けて将来の専門家を養成しています。"
+      },
+      {
+        "fr": "Face à la diversité des publics, la médiation interculturelle favorise le dialogue respectueux entre les traditions.",
+        "en": "Faced with diverse audiences, intercultural mediation fosters respectful dialogue between traditions.",
+        "cn": "面对背景各异的观展受众，跨文化导览与调解有力促进了不同传统文明之间的相互尊重与真诚对话。",
+        "jp": "多様な来館者を前にして、異文化間ガイダンスは伝統同士の敬意ある対話を促進します。"
+      }
+    ]
+  },
+  {
+    "id": 1400,
+    "word": "Désenclavement",
+    "phonetique": "/de.zɑ̃.klav.mɑ̃/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom masculin • courant",
+    "definition": "Action de sortir une zone ou un territoire de son isolement culturel ou géographique.",
+    "traduction_anglais": "opening up / breaking of isolation",
+    "traduction_chinois": "打破封闭 / 摆脱孤立状态 (dǎpò fēngbì / bǎituō gūlì zhuàngtài)",
+    "traduction_japonais": "孤立の解消 / 開放 (koritsu no kaishō)",
+    "examples": [
+      {
+        "fr": "L'inauguration récente d'une ligne ferroviaire à grande vitesse accélère le désenclavement économique de la vallée alpine.",
+        "en": "The recent opening of a high-speed rail line accelerates the economic opening up of the Alpine valley.",
+        "cn": "最近一条高速铁路干线的开通极大地加快了阿尔卑斯山谷经济摆脱封闭的步伐。",
+        "jp": "先般の高速鉄道の開通は、アルプス渓谷の経済的孤立の解消を加速させています。"
+      },
+      {
+        "fr": "Les élus locaux militent depuis plusieurs décennies pour le désenclavement routier et numérique de leur canton rural.",
+        "en": "Local elected officials have campaigned for decades for the road and digital opening up of their rural district.",
+        "cn": "地方民选官员数十年来一直奔走呼吁，致力于让其偏远乡村在公路交通和数字网络上打破封闭。",
+        "jp": "地方議員たちは数十年間にわたり、農村部の道路およびデジタルの孤立解消を求めて活動しています。"
+      },
+      {
+        "fr": "Ce festival de cinéma itinérant participe activement au désenclavement culturel des villages les plus retirés.",
+        "en": "This traveling film festival participates actively in the cultural opening up of the most remote villages.",
+        "cn": "这场巡回电影节积极助推了最偏僻村庄在文化生活上的打破孤立与繁荣。",
+        "jp": "この巡回映画祭は、最も人里離れた村々の文化的孤立の解消に積極的に貢献しています。"
+      },
+      {
+        "fr": "Le plan gouvernemental prévoit des investissements massifs pour réussir le désenclavement des banlieues marginalisées.",
+        "en": "The government plan earmarks massive investments to succeed in opening up marginalized suburbs.",
+        "cn": "政府规划拟拨付巨额投资，以成功改善边缘化郊区与外界连通隔绝的窘境。",
+        "jp": "政府の計画は、孤立した郊外地域の状況を改善するために大規模な投資を予定しています。"
+      },
+      {
+        "fr": "Grâce au déploiement de la fibre optique, le désenclavement technologique des zones blanches devient une réalité tangible.",
+        "en": "Thanks to the rollout of optical fiber, the technological opening up of mobile dead zones is becoming a tangible reality.",
+        "cn": "得益于光纤宽带的全面铺设，网络信号盲区的技术脱困已经成为触手可及的现实。",
+        "jp": "光ファイバーの敷設のおかげで、通信空白地帯の技術的孤立解消は具体的な現実となっています。"
+      },
+      {
+        "fr": "Une passerelle piétonne moderne a permis le désenclavement de ce quartier historique séparé du reste de la ville.",
+        "en": "A modern pedestrian footbridge enabled the opening up of this historic district cut off from the rest of the city.",
+        "cn": "一座现代化人行天桥的落成，化解了这片历史老城区与城市其他区域隔绝的孤立状态。",
+        "jp": "近代的な歩道橋の完成により、都市の他の地域から分断されていたこの歴史地区の孤立が解消されました。"
+      },
+      {
+        "fr": "Dans les territoires d'outre-mer, le désenclavement aérien et maritime constitue un impératif de solidarité nationale.",
+        "en": "In overseas territories, aerial and maritime connectivity constitutes an imperative of national solidarity.",
+        "cn": "在海外领地，畅通航空和海运航线是践行国家团结协作的根本刚需。",
+        "jp": "海外領土において、航空および海運による孤立の解消は国家的連帯の必須事項です。"
+      },
+      {
+        "fr": "La réhabilitation de l'ancien canal fluvial favorise le désenclavement touristique de tout le bassin d'emploi.",
+        "en": "The rehabilitation of the old river canal fosters the tourism opening up of the entire employment basin.",
+        "cn": "古老内河运河的疏浚整修，带动了整个就业腹地在文旅产业上的全面盘活开放。",
+        "jp": "古い運河の再生は、雇用圏全体の観光面での孤立解消を促進しています。"
+      },
+      {
+        "fr": "Plusieurs géographes soulignent que le désenclavement territorial ne suffit pas sans une offre éducative pérenne.",
+        "en": "Several geographers emphasize that territorial opening up is not enough without sustainable educational offerings.",
+        "cn": "多位地理学家强调指出，若没有长效的教育资源配套，单纯打破地域地理封闭是远远不够的。",
+        "jp": "複数の地理学者は、持続可能な教育機会の提供が伴わなければ地域の孤立解消だけでは不十分だと指摘しています。"
+      },
+      {
+        "fr": "L'ouverture d'un tiers-lieu culturel a marqué le début du désenclavement social pour les résidents du plateau.",
+        "en": "The opening of a cultural third place marked the beginning of social opening up for residents of the plateau.",
+        "cn": "一处新型文化公共第三空间的建立，标志着高原居民走向社会融入与打破封闭的新开端。",
+        "jp": "文化的サードプレイス（第三の場）の開設は、高原の住民にとって社会的孤立の解消の始まりを告げました。"
+      }
+    ]
+  },
+  {
+    "id": 1401,
+    "word": "Rayonnement",
+    "phonetique": "/ʁɛ.jɔn.mɑ̃/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom masculin • courant",
+    "definition": "Diffusion étendue de l'influence, du prestige artistique ou de l'attractivité d'un site ou d'une nation.",
+    "traduction_anglais": "influence / international reach / radiance",
+    "traduction_chinois": "辐射力 / 影响力 / 盛誉 (fúshèlì / yǐngxiǎnglì / shèngyù)",
+    "traduction_japonais": "影響力 / 威光 / 広がり (eikyōryoku / ikō)",
+    "examples": [
+      {
+        "fr": "Le prestige séculaire de cette prestigieuse université contribue au rayonnement intellectuel du pays à travers le monde.",
+        "en": "The centuries-old prestige of this prestigious university contributes to the country's intellectual reach across the world.",
+        "cn": "这所久负盛名的著名学府的百年声誉，促进了该国思想文化在全世界的广泛传播。",
+        "jp": "この名門大学の数世紀にわたる名声は、世界中における国の知的影響力の拡大に貢献しています。"
+      },
+      {
+        "fr": "La gastronomie française joue un rôle diplomatique essentiel dans le rayonnement culturel de l'Hexagone à l'international.",
+        "en": "French gastronomy plays an essential diplomatic role in France's cultural reach internationally.",
+        "cn": "法国美食在法国于国际舞台上的文化辐射与国家形象塑造中发挥着至关重要的外交作用。",
+        "jp": "フランス料理は、国際社会におけるフランスの文化的威光を高める上で極めて重要な外交的役割を果たしています。"
+      },
+      {
+        "fr": "Cette capitale européenne doit son rayonnement architectural aux façades majestueuses conçues à l'époque classique.",
+        "en": "This European capital owes its architectural radiance to the majestic facades designed in the classical era.",
+        "cn": "这座欧洲名都因其古典时期所设计的巍峨建筑立面而享有无可比拟的建筑艺术魅力。",
+        "jp": "このヨーロッパの首都は、古典期に設計された荘厳なファサードのおかげで建築的な輝きを放っています。"
+      },
+      {
+        "fr": "L'accueil régulier d'expositions d'envergure mondiale renforce considérablement le rayonnement touristique de la métropole.",
+        "en": "Regularly hosting world-class exhibitions considerably strengthens the metropolis's tourism appeal.",
+        "cn": "经常举办具有世界级影响力的重磅大展，极大地增强了该大都市在国际旅游层面的吸引力与美誉度。",
+        "jp": "世界規模の展覧会を定期的に受け入れることで、この大都市の観光面での影響力は大幅に強化されます。"
+      },
+      {
+        "fr": "Les instituts culturels implantés à l'étranger assurent avec constance le rayonnement de la langue française sur les cinq continents.",
+        "en": "Cultural institutes established abroad steadfastly ensure the global reach of the French language across five continents.",
+        "cn": "设立在海外的文化学院持之以恒地推动着法语在五大洲的辐射与传播。",
+        "jp": "海外に設置された文化会館は、5大陸におけるフランス語の普及と威光を確実に保ち続けています。"
+      },
+      {
+        "fr": "La créativité foisonnante de ses créateurs de mode assure à la ville un rayonnement artistique sans pareil.",
+        "en": "The exuberant creativity of its fashion designers secures an unparalleled artistic influence for the city.",
+        "cn": "服装设计师们喷涌而出的非凡创造力，确保了这座城市在艺术界无与伦比的辐射引领力。",
+        "jp": "ファッションデザイナーたちの溢れる創造力は、この街に類を見ない芸術的影響力を保証しています。"
+      },
+      {
+        "fr": "Par ses recherches pionnières en biotechnologie, ce laboratoire renforce le rayonnement scientifique de toute la région.",
+        "en": "Through its pioneering biotechnology research, this laboratory enhances the scientific standing of the entire region.",
+        "cn": "凭借在生物技术领域的开创性科研攻关，该国家实验室大大提升了整个地区的科研影响力。",
+        "jp": "バイオテクノロジーにおける先駆的な研究を通じて、この研究所は地域全体の科学的評価を高めています。"
+      },
+      {
+        "fr": "L'attribution d'un prix Nobel confère subitement à l'écrivain un rayonnement planétaire dépassant le cercle des initiés.",
+        "en": "The awarding of a Nobel Prize suddenly bestows global renown on the writer beyond the circle of insiders.",
+        "cn": "诺贝尔文学奖的颁发，骤然让这位作家赢得了远超同行小圈子的全球性巨大声望。",
+        "jp": "ノーベル賞の授与は、作家に専門家の枠を超えた地球規模の知名度を突如としてもたらします。"
+      },
+      {
+        "fr": "Une politique patrimoniale ambitieuse dynamise à la fois l'économie locale et le rayonnement international du site classé.",
+        "en": "An ambitious heritage policy boosts both the local economy and the international standing of the listed site.",
+        "cn": "雄心勃勃的文化遗产保护战略同时盘活了地方经济与该入选名录景点的国际美誉度。",
+        "jp": "野心的な文化遺産政策は、地域経済と登録遺産サイトの国際的知名度の双方を活性化させています。"
+      },
+      {
+        "fr": "Le festival de théâtre attire des milliers de spectateurs passionnés et confirme le rayonnement scénique de la cité.",
+        "en": "The theater festival attracts thousands of enthusiastic spectators and confirms the city's performing arts influence.",
+        "cn": "戏剧节吸引了成千上万热情如火的戏剧发烧友，再次印证了该城在舞台艺术上的强大号召力。",
+        "jp": "演劇祭は何千人もの熱心な観客を引き付け、この都市の舞台芸術における影響力を再確認させています。"
+      }
+    ]
+  },
+  {
+    "id": 1402,
+    "word": "Vestige",
+    "phonetique": "/vɛs.tiʒ/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom masculin • courant",
+    "definition": "Trace visible, ruine ou reste laissé par une époque révolue ou une civilisation disparue.",
+    "traduction_anglais": "remnant / vestige / ruin",
+    "traduction_chinois": "遗迹 / 遗存 / 历史残迹 (yíjì / yícún / lìshǐ cánjì)",
+    "traduction_japonais": "遺跡 / 痕跡 / 面影 (iseki / konseki)",
+    "examples": [
+      {
+        "fr": "Les archéologues ont mis au jour un vestige impressionnant de thermes romains enfoui sous les fondations médiévales.",
+        "en": "Archaeologists unearthed an impressive vestige of Roman thermal baths buried beneath medieval foundations.",
+        "cn": "考古学家在挖掘中发现了深埋在中世纪地基之下的古罗马浴场壮丽遗迹。",
+        "jp": "考古学者たちは中世の基礎の下に埋もれていた印象的なローマ時代の公衆浴場の遺跡を発掘しました。"
+      },
+      {
+        "fr": "Ce pan de muraille crénelée constitue le dernier vestige des remparts défensifs qui protégeaient la cité marchande.",
+        "en": "This section of crenellated wall constitutes the last remnant of defensive ramparts protecting the merchant city.",
+        "cn": "这堵带有垛口的斑驳断壁，是曾庇护这座商业城邦的防御性古城墙的最后历史遗存。",
+        "jp": "この銃眼付きの城壁の一部は、商業都市を守っていた防衛用城壁の最後の遺構です。"
+      },
+      {
+        "fr": "Sous les sables brûlants du désert sommeillent les vestiges grandioses d'un empire autrefois tout-puissant.",
+        "en": "Beneath the burning sands of the desert sleep the grandiose vestiges of an once-omnipotent empire.",
+        "cn": "在滚滚荒漠的炽热黄沙之下，沉睡着昔日不可一世的庞大帝国的宏伟遗址。",
+        "jp": "砂漠の熱い砂の下には、かつて全能を誇った帝国の壮大な遺跡が眠っています。"
+      },
+      {
+        "fr": "Chaque vestige architectural découvert lors des travaux de voirie fait l'objet d'un examen minutieux par les historiens.",
+        "en": "Every architectural remnant discovered during roadworks undergoes painstaking examination by historians.",
+        "cn": "在道路市政施工中发掘出的每一处建筑遗迹，都会接受历史学者严谨缜密的实地勘验。",
+        "jp": "道路工事中に発見されたすべての建築遺構は、歴史家による綿密な調査の対象となります。"
+      },
+      {
+        "fr": "Une exposition temporaire rassemble des vestiges céramiques témoignant de la vie domestique à l'âge du bronze.",
+        "en": "A temporary exhibition brings together ceramic remnants witnessing domestic life in the Bronze Age.",
+        "cn": "一场专题临时特展汇聚了多件生动见证青铜时代日常起居的珍贵陶瓷残件遗存。",
+        "jp": "企画展では、青銅器時代の家庭生活を物語る陶器の遺物が一堂に集められています。"
+      },
+      {
+        "fr": "Au milieu de la dense forêt tropicale, les randonneurs ont découvert un vestige enfoui de temple sacré oublié.",
+        "en": "In the middle of the dense rainforest, hikers discovered a buried remnant of a forgotten sacred temple.",
+        "cn": "在茂密的热带雨林深处，徒步旅行者偶然发现了一座被世人遗忘已久的掩埋圣庙遗迹。",
+        "jp": "深い熱帯雨林のただ中で、ハイカーたちは忘れ去られた神聖な寺院の埋もれた遺跡を発見しました。"
+      },
+      {
+        "fr": "Ce modeste vestige textile miraculeusement préservé renseigne sur les techniques de tissage de l'Antiquité.",
+        "en": "This modest, miraculously preserved textile remnant sheds light on weaving techniques in Antiquity.",
+        "cn": "这片奇迹般保存下来的古老纺织品残片，为探究古代手工艺织造技术提供了极具价值的信息。",
+        "jp": "奇跡的に保存されたこの質素な織物の断片は、古代の織物技術に関する貴重な手掛かりを与えてくれます。"
+      },
+      {
+        "fr": "Des associations de quartier se battent pour préserver ce vestige industriel transformé en tiers-lieu artistique.",
+        "en": "Neighborhood associations fight to preserve this industrial vestige transformed into an artistic third place.",
+        "cn": "街区居民自治团体极力奔走，旨在保护这处被改造为艺术公共空间的工业遗迹。",
+        "jp": "住民団体は、芸術的サードプレイスへと改修されたこの産業遺構を守るために活動しています。"
+      },
+      {
+        "fr": "La municipalité a aménagé un parcours sécurisé pour permettre d'admirer ce vestige de pont aqueduc romain.",
+        "en": "The municipality laid out a secured path allowing visitors to admire this vestige of a Roman aqueduct bridge.",
+        "cn": "市政府专门修筑了一条安全的观光步道，以便市民和游客近距离瞻仰这座古罗马引水高架桥的残存遗址。",
+        "jp": "市当局は、このローマ時代の水道橋の遺構を観賞できるよう安全な見学ルートを整備しました。"
+      },
+      {
+        "fr": "Loin d'être un simple vestige inerte, ce monument historique inspire constamment les architectes contemporains.",
+        "en": "Far from being a mere inert remnant, this historic monument constantly inspires contemporary architects.",
+        "cn": "这处历史遗迹远非冰冷沉寂的残垣断壁，它始终为当代建筑设计师们提供着取之不尽的创作灵感。",
+        "jp": "単なる無機質な遺跡であるどころか、この歴史的建造物は現代の建築家たちに絶え間ないインスピレーションを与えています。"
+      }
+    ]
+  },
+  {
+    "id": 1403,
+    "word": "Vénérable",
+    "phonetique": "/ve.ne.ʁabl/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "adjectif • courant",
+    "definition": "Digne d'un profond respect en raison de son grand âge, de son histoire ou de sa sainteté.",
+    "traduction_anglais": "venerable / revered",
+    "traduction_chinois": "令人敬仰的 / 德高望重的 (lìngrén jìngyǎng de / dégāowàngzhòng de)",
+    "traduction_japonais": "由緒ある / 尊敬すべき (yuisho aru / sonkei subeki)",
+    "examples": [
+      {
+        "fr": "Ce vénérable professeur d'université a consacré plus de cinquante ans de sa vie à l'enseignement de la philosophie.",
+        "en": "This venerable university professor devoted more than fifty years of his life to teaching philosophy.",
+        "cn": "这位德高望重的大学老教授将半个多世纪的宝贵光阴奉献给了哲学教学事业。",
+        "jp": "この尊敬すべき大学教授は、50年以上の人生を哲学の教育に捧げました。"
+      },
+      {
+        "fr": "Au sommet de la colline se dresse un vénérable monastère habité par des moines ermites depuis le douzième siècle.",
+        "en": "At the top of the hill stands a venerable monastery inhabited by hermit monks since the twelfth century.",
+        "cn": "在山顶之上矗立着一座古朴庄严的千年修道院，自十二世纪以来便有隐修僧人长居于此。",
+        "jp": "丘の頂上には、12世紀以来隠遁修道士たちが暮らす由緒ある修道院がそびえ立っています。"
+      },
+      {
+        "fr": "Les membres du conseil écoutent avec une déférence totale les conseils avisés de leur vénérable doyen.",
+        "en": "Council members listen with total deference to the wise counsel of their venerable dean.",
+        "cn": "理事会成员满怀由衷的敬意，洗耳恭听他们德高望重的元老学长提出的真知灼见。",
+        "jp": "評議員たちは、自分たちの尊敬すべき最年長メンバーの賢明な助言に全幅の敬意を払って耳を傾けます。"
+      },
+      {
+        "fr": "Cette vénérable maison d'édition littéraire a publié les plus grandes figures de la poésie symboliste.",
+        "en": "This venerable literary publishing house published the greatest figures of symbolist poetry.",
+        "cn": "这家声名显赫、历史悠久的文学出版社曾出版过象征主义诗歌领域几乎所有泰斗级巨匠的著作。",
+        "jp": "この由緒ある文学出版社は、象徴派詩人の最も偉大な人物たちの作品を世に送り出してきました。"
+      },
+      {
+        "fr": "Au cœur du parc botanique trône un vénérable cèdre du Liban planté par des naturalistes au dix-huitième siècle.",
+        "en": "In the heart of the botanical park stands a venerable cedar of Lebanon planted by naturalists in the eighteenth century.",
+        "cn": "在植物园核心区耸立着一棵苍劲挺拔的古老黎巴嫩雪松，由博物学家在十八世纪亲手植下。",
+        "jp": "植物園の中心には、18世紀に博物学者たちによって植えられた由緒あるレバノンスギが堂々とそびえ立っています。"
+      },
+      {
+        "fr": "Le diplomate a rendu une visite protocolaire à cette vénérable figure de la lutte pacifiste internationale.",
+        "en": "The diplomat paid a protocol visit to this venerable figure of the international pacifist struggle.",
+        "cn": "外交官专程拜访了这位在国际和平反战运动中享有崇高威望的受人敬仰的前辈泰斗。",
+        "jp": "外交官は、国際的な平和運動のこの尊敬すべき大御所に儀礼的な表敬訪問を行いました。"
+      },
+      {
+        "fr": "Dans la crypte romane de la basilique repose la dépouille mortelle d'un vénérable saint vénéré par les pèlerins.",
+        "en": "In the Romanesque crypt of the basilica rests the mortal remains of a venerable saint revered by pilgrims.",
+        "cn": "在宗座圣殿的罗马式地下墓室中，长眠着一位受到朝圣者顶礼膜拜的受人敬仰的古代圣徒的遗骸。",
+        "jp": "大聖堂のロマネスク様式の地下納骨堂には、巡礼者たちから崇拝されている高徳な聖人の遺骸が眠っています。"
+      },
+      {
+        "fr": "Malgré les tempêtes hivernales, la vénérable charpente en chêne de l'église gothique a résisté intacte aux intempéries.",
+        "en": "Despite winter storms, the venerable oak roof frame of the Gothic church withstood bad weather intact.",
+        "cn": "尽管历经严冬暴风雪的洗礼，哥特式教堂古老而坚韧的橡木梁架依然完好无损地抵御住了风雨侵蚀。",
+        "jp": "冬の嵐にもかかわらず、ゴシック様式教会の由緒あるオーク材の小屋組みは風雪に耐えて無傷のままでした。"
+      },
+      {
+        "fr": "Une foule silencieuse et recueillie s'est rassemblée pour célébrer le centenaire de cette vénérable bienfaitrice.",
+        "en": "A silent and solemn crowd gathered to celebrate the centenary of this venerable benefactress.",
+        "cn": "沉静而满怀感恩的人群肃穆集会，共同庆祝这位德高望重的百年女性慈善家的百岁华诞。",
+        "jp": "静かに祈りを捧げる群衆が集まり、この尊敬すべき篤志家の女性の100歳の節目を祝いました。"
+      },
+      {
+        "fr": "Cette confrérie artisanale perpétue des rites initiatiques hérités d'une vénérable tradition corporative.",
+        "en": "This craft brotherhood perpetuates initiatory rites inherited from a venerable guild tradition.",
+        "cn": "该手工业同行行会至今仍然忠实传承着源自古老行会传统的敬慎入门仪礼。",
+        "jp": "この職人組合は、由緒あるギルドの伝統から受け継いだ秘儀の儀式を今に伝えています。"
+      }
+    ]
+  },
+  {
+    "id": 1404,
+    "word": "Fécondité",
+    "phonetique": "/fe.kɔ̃.di.te/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom féminin • courant",
+    "definition": "Capacité à produire en abondance, richesse créatrice et source intarissable d'inspiration.",
+    "traduction_anglais": "fertility / fecundity / creative richness",
+    "traduction_chinois": "多产 / 丰饶 / 创造力 (duōchǎn / fēngráo)",
+    "traduction_japonais": "多産 / 豊かさ / 創造力 (tasan / yutakasa)",
+    "examples": [
+      {
+        "fr": "La fécondité artistique de ce peintre impressionniste se manifeste à travers plus de cinq cents toiles lumineuses.",
+        "en": "The artistic fecundity of this impressionist painter is manifested through more than five hundred luminous canvases.",
+        "cn": "这位印象派画家的艺术多产性体现在五百多幅充满光影魅力的油画作品中。",
+        "jp": "この印象派画家の芸術的な多産さは、500点を超える光彩豊かなキャンバスを通じて見事に発揮されています。"
+      },
+      {
+        "fr": "Cette remarquable période de fécondité littéraire a permis l'éclosion d'une nouvelle génération de romanciers engagés.",
+        "en": "This remarkable period of literary richness enabled the emergence of a new generation of committed novelists.",
+        "cn": "这一文学创作硕果累累的非凡时期，催生了新一代富有社会责任感的小说家。",
+        "jp": "文学的創造力に満ちたこの目覚ましい時代は、新世代の社会派小説家たちが台頭する契機となりました。"
+      },
+      {
+        "fr": "Les historiens soulignent souvent la fécondité intellectuelle des cercles philosophiques parisiens du dix-huitième siècle.",
+        "en": "Historians often emphasize the intellectual fruitfulness of eighteenth-century Parisian philosophical salons.",
+        "cn": "历史学家经常强调十八世纪巴黎哲学沙龙在思想文化层面的丰硕成果与创造力。",
+        "jp": "歴史家たちは、18世紀パリの哲学的サークルが誇った知的な豊かさと創造性を頻繁に強調しています。"
+      },
+      {
+        "fr": "Grâce à la fécondité de son imagination, la scénariste imagine sans cesse des récits historiques captivants.",
+        "en": "Thanks to the richness of her imagination, the screenwriter constantly devises captivating historical narratives.",
+        "cn": "凭借丰富活跃的想象力，这位编剧不断构思出扣人心弦的历史题材故事。",
+        "jp": "豊かな想像力のおかげで、その脚本家は人々を魅了する歴史物語を次々と生み出しています。"
+      },
+      {
+        "fr": "Le compositeur a connu une étonnante fécondité créatrice durant ses longues années de retraite provençale.",
+        "en": "The composer experienced an astonishing creative productivity during his long years of retreat in Provence.",
+        "cn": "这位作曲家在普罗旺斯长期隐居静修的岁月里，经历了令人惊叹的创作丰产期。",
+        "jp": "その作曲家は、プロヴァンスでの長きにわたる隠遁生活の中で、驚異的な創作的豊かさを享受しました。"
+      },
+      {
+        "fr": "Face au déclin économique, la fécondité des échanges culturels locaux redonne une vitalité bienvenue à la vallée.",
+        "en": "Faced with economic decline, the fruitfulness of local cultural exchanges restores welcome vitality to the valley.",
+        "cn": "面对经济衰退的困境，当地活跃丰沛的文化交流重新为整座山谷注入了生机与活力。",
+        "jp": "経済的な衰退に直面しながらも、地域文化交流の豊かな実りが谷間に喜ばしい活力を取り戻しています。"
+      },
+      {
+        "fr": "Tous les critiques reconnaissent la fécondité de cette collaboration originale entre architectes et paysagistes.",
+        "en": "All critics acknowledge the fruitfulness of this original collaboration between architects and landscape designers.",
+        "cn": "所有评论家都一致认可建筑师与景观设计师之间这项独创合作的丰厚成果。",
+        "jp": "すべての批評家は、建築家と造園家の間で行われたこの独創的な共同作業の豊かさを高く評価しています。"
+      },
+      {
+        "fr": "Une telle fécondité d'idées novatrices surprend toujours les observateurs lors du forum international du design.",
+        "en": "Such a richness of innovative ideas always surprises observers during the international design forum.",
+        "cn": "在国际设计论坛上，如此喷涌而出的创新构思总是令在场的观察家赞叹不已。",
+        "jp": "革新的なアイデアのこれほど豊かな創出は、国際デザインフォーラムにおいて常に観察者たちを驚嘆させています。"
+      },
+      {
+        "fr": "Le directeur de recherche salue la fécondité conceptuelle des travaux menés par sa jeune équipe pluridisciplinaire.",
+        "en": "The research director praises the conceptual fecundity of the work carried out by his young multidisciplinary team.",
+        "cn": "研究主管高度赞扬了他的年轻跨学科团队在理论研究中所展现的概念丰富性与创造力。",
+        "jp": "研究ディレクターは、若い学際的チームによって進められた研究の概念的な豊かさを称賛しています。"
+      },
+      {
+        "fr": "Dans le domaine poétique, la fécondité verbale de l'auteur transforme chaque strophe en une véritable fête des sens.",
+        "en": "In the poetic realm, the author's verbal fecundity turns each stanza into a true celebration of the senses.",
+        "cn": "在诗歌领域，作者充沛的语汇创造力使每一个诗节都化作一场感官的盛宴。",
+        "jp": "詩の領域において、作者の豊かな言葉の紡ぎ出しは、すべての連をまさに五感の祝宴へと変貌させています。"
+      }
+    ]
+  },
+  {
+    "id": 1405,
+    "word": "Péril",
+    "phonetique": "/pe.ʁil/",
+    "level": "B2",
+    "theme": "Arts & Patrimoine",
+    "type": "nom masculin • courant",
+    "definition": "Danger grave et imminent menaçant la survie ou l'intégrité de personnes ou de biens précieux.",
+    "traduction_anglais": "peril / grave danger",
+    "traduction_chinois": "危险 / 险境 (wēixiǎn / xiǎnjìng)",
+    "traduction_japonais": "危機 / 危険 (kiki / kiken)",
+    "examples": [
+      {
+        "fr": "Les inondations successives mettent en péril les fresques médiévales conservées dans la crypte de la cathédrale.",
+        "en": "Successive floods are endangering the medieval frescoes preserved in the cathedral's crypt.",
+        "cn": "连续不断的洪水正在严重威胁着大教堂地下室保存的中世纪壁画。",
+        "jp": "相次ぐ洪水が、大聖堂の地下礼拝堂に保存されている中世のフレスコ画を危険に晒しています。"
+      },
+      {
+        "fr": "Ce chef-d'œuvre architectural courrait un grand péril sans l'intervention rapide des conservateurs du patrimoine.",
+        "en": "This architectural masterpiece would be in great peril without the swift intervention of heritage curators.",
+        "cn": "若没有文物保护专家迅速介入，这座建筑杰作原本将面临毁灭性的危险。",
+        "jp": "遺産保護専門家による迅速な介入がなければ、この建築の傑作は重大な危機に瀕していたことでしょう。"
+      },
+      {
+        "fr": "Plusieurs espèces végétales endémiques affrontent un grave péril d'extinction sous la pression de l'urbanisation.",
+        "en": "Several endemic plant species face a grave peril of extinction under the pressure of urbanization.",
+        "cn": "在城市化进程的重压之下，数种本土特有植物物种正面临灭绝的严重险境。",
+        "jp": "都市化の圧力のもとで、いくつかの固有植物種が絶滅の深刻な危機に直面しています。"
+      },
+      {
+        "fr": "L'équipage a courageusement bravé le péril des hauts-fonds rocheux pendant une redoutable tempête nocturne.",
+        "en": "The crew courageously braved the peril of rocky shallows during a formidable nighttime storm.",
+        "cn": "在可怕的黑夜风暴中，船员们英勇无畏地迎战暗礁浅滩带来的致命险境。",
+        "jp": "乗組員たちは夜間の恐ろしい嵐の中、岩だらけの浅瀬の危険に勇敢に立ち向かいました。"
+      },
+      {
+        "fr": "Face au péril imminent d'un incendie de forêt, les riverains ont dû évacuer leurs demeures ancestrales en urgence.",
+        "en": "Faced with the imminent peril of a wildfire, local residents had to evacuate their ancestral homes urgently.",
+        "cn": "面对迫在眉睫的森林火灾险情，沿线居民不得不紧急撤离自家的祖传宅邸。",
+        "jp": "森林火災の差し迫った危機に直面し、近隣住民は先祖代々の住居から緊急避難を余儀なくされました。"
+      },
+      {
+        "fr": "Un tel laxisme budgétaire fait peser un lourd péril sur la pérennité financière de l'établissement culturel.",
+        "en": "Such budgetary laxity poses a serious peril to the financial sustainability of the cultural institution.",
+        "cn": "这种预算管理上的松懈散漫，对该文化机构的财务持续性构成了沉重的威胁。",
+        "jp": "このような予算管理の緩みは、文化施設の財政的持続可能性に重大な危機をもたらしています。"
+      },
+      {
+        "fr": "Le ministre a rappelé que la démocratie demeure en péril lorsque les citoyens désertent les urnes électorales.",
+        "en": "The minister recalled that democracy remains in peril when citizens stay away from the ballot box.",
+        "cn": "部长提醒大家，当选民纷纷放弃前往投票站时，民主体制便会陷入险境。",
+        "jp": "大臣は、市民が投票所から離れてしまう時、民主主義は危機に晒されたままであると想起させました。"
+      },
+      {
+        "fr": "Chaque restaurateur sait pertinemment qu'un solvant inadapté exposerait la toile à un péril irréversible.",
+        "en": "Every restorer knows full well that an unsuitable solvent would expose the canvas to irreversible peril.",
+        "cn": "每一位文物修复师都清楚，使用不适当的溶剂会使这幅油画置于无法挽回的危险境地。",
+        "jp": "すべての修復家は、不適切な溶剤を使用すればキャンバスを取り返しのつかない危険に晒すことを熟知しています。"
+      },
+      {
+        "fr": "Malgré le péril évident de l'ascension hivernale, deux alpinistes chevronnés ont atteint le sommet enneigé.",
+        "en": "Despite the obvious peril of the winter climb, two seasoned mountaineers reached the snow-covered summit.",
+        "cn": "尽管冬季攀登伴随着显而易见的致命危险，两名经验丰富的老练登山家还是登顶了白雪覆盖的山峰。",
+        "jp": "冬山登山の明白な危険にもかかわらず、経験豊富な二人の登山家が雪に覆われた頂上に到達しました。"
+      },
+      {
+        "fr": "La communauté internationale s'est réunie pour conjurer le péril qui guette les monuments d'Alep.",
+        "en": "The international community gathered to ward off the peril threatening the monuments of Aleppo.",
+        "cn": "国际社会携手集会，旨在化解威胁阿勒颇珍贵历史遗迹的严重险情。",
+        "jp": "アレッポの記念碑的建造物を脅かす危機を回避するため、国際社会が結束して集結しました。"
+      }
+    ]
+  },
+  {
+    "id": 1406,
+    "word": "Alchimie",
+    "phonetique": "/al.ʃi.mi/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Transformation mystérieuse, fusion harmonieuse ou combinaison magique d'éléments hétéroclites.",
+    "traduction_anglais": "alchemy / magical chemistry / harmonious blend",
+    "traduction_chinois": "炼金术 / 奇妙融合 (liànjīnshù / qímiào rónghé)",
+    "traduction_japonais": "錬金術 / 不思議な調和 / 相乗効果 (renkinjutsu / fushigi na chōwa)",
+    "examples": [
+      {
+        "fr": "Une alchimie subtile entre la soie brute et les fibres d'or confère à ce vêtement un éclat incomparable.",
+        "en": "A subtle alchemy between raw silk and gold fibers gives this garment an incomparable radiance.",
+        "cn": "生丝与金线之间的精妙交融，赋予了这件衣物无与伦比的光彩与质感。",
+        "jp": "生糸と金糸の微妙な錬金術のような調和が、この衣服に比類なき輝きを与えています。"
+      },
+      {
+        "fr": "L'alchimie singulière qui opère sur scène entre les comédiens captive le public dès la scène d'ouverture.",
+        "en": "The unique alchemy at work on stage between the actors captivates the audience from the opening scene.",
+        "cn": "演员之间在舞台上产生的非同寻常的默契共鸣，从开场那一幕起便深深吸引了观众。",
+        "jp": "俳優たちの間で舞台上に生まれる独特の相乗効果が、開幕シーンから観客を魅了します。"
+      },
+      {
+        "fr": "Cette créatrice textile maîtrise parfaitement l'alchimie des pigments naturels pour obtenir des teintes profondes.",
+        "en": "This textile designer has fully mastered the alchemy of natural pigments to obtain deep shades.",
+        "cn": "这位纺织品设计师熟练掌握了天然植物矿物染料的神奇配比，以调配出深邃沉稳的色调。",
+        "jp": "このテキスタイルデザイナーは、深みのある色合いを得るために天然顔料の錬金術的な調合を完全に習得しています。"
+      },
+      {
+        "fr": "Le succès de ce restaurant réputé repose sur l'alchimie secrète des épices exotiques et des produits du terroir.",
+        "en": "The success of this renowned restaurant relies on the secret alchemy of exotic spices and local produce.",
+        "cn": "这家知名餐厅的巨大成功，建立在异域香料与本土风土食材之间那份神秘和谐的搭配之上。",
+        "jp": "この名高いレストランの成功は、異国情緒あふれるスパイスと郷土の特産品が織りなす秘密の調和にかかっています。"
+      },
+      {
+        "fr": "Dans son atelier d'art, le sculpteur provoque une alchimie surprenante en mariant le fer rouillé et le cristal translucide.",
+        "en": "In his art workshop, the sculptor creates a surprising alchemy by marrying rusted iron and translucent crystal.",
+        "cn": "在他的艺术工坊里，雕塑家通过将铁锈与剔透的水晶完美结合，激发出一种令人惊叹的奇妙融合。",
+        "jp": "自身のアトリエで、彫刻家は錆びた鉄と半透明のクリスタルを組み合わせることで驚くべき調和を生み出します。"
+      },
+      {
+        "fr": "Les mélomanes ressentent immédiatement l'alchimie émotionnelle qui unit l'orchestre symphonique à son chef invité.",
+        "en": "Music lovers immediately sense the emotional chemistry that unites the symphony orchestra with its guest conductor.",
+        "cn": "乐迷们能够瞬间感受到交响乐团与客座指挥之间流淌的情感共振与默契。",
+        "jp": "音楽愛好家たちは、交響楽団と客演指揮者を結びつける情緒的な相乗効果を瞬時に感じ取ります。"
+      },
+      {
+        "fr": "Toute la magie du patchwork réside dans l'alchimie visuelle entre des motifs floraux et des rayures contrastées.",
+        "en": "All the magic of patchwork lies in the visual alchemy between floral patterns and contrasting stripes.",
+        "cn": "拼布工艺的所有魔力，恰恰蕴含在花卉图案与对比强烈的条纹之间所产生的视觉奇效中。",
+        "jp": "パッチワークのすべての魅力は、花柄のモチーフと対照的なストライプの間に生じる視覚的な化学反応に宿っています。"
+      },
+      {
+        "fr": "Plusieurs facteurs historiques expliquent l'alchimie féconde qui a favorisé la Renaissance italienne à Florence.",
+        "en": "Several historical factors explain the fruitful alchemy that fostered the Italian Renaissance in Florence.",
+        "cn": "多重历史因缘共同解释了在佛罗伦萨催生意大利文艺复兴辉煌时代的那场深刻文化聚变。",
+        "jp": "フィレンツェにおいてイタリア・ルネサンスを促した実り豊かな相乗効果は、いくつかの歴史的要因によって説明されます。"
+      },
+      {
+        "fr": "L'écrivain parvient à créer une véritable alchimie poétique en transformant des faits divers banals en mythes universels.",
+        "en": "The writer manages to create a true poetic alchemy by turning mundane news items into universal myths.",
+        "cn": "作家通过将平淡无奇的社会琐事转化为普遍的神话叙事，成功点化出真正的诗意奇迹。",
+        "jp": "作家は日常のありふれた出来事を普遍的な神話へと昇華させることで、真の詩的な錬金術を創り出しています。"
+      },
+      {
+        "fr": "Chaque parfum d'exception naît d'une alchimie complexe alliant des essences florales rares et des résines précieuses.",
+        "en": "Every exceptional perfume is born from a complex alchemy combining rare floral essences and precious resins.",
+        "cn": "每一款绝顶香氛均诞生于由珍罕花卉精油与名贵树脂所构成的复杂融合之中。",
+        "jp": "すべての卓越した香水は、希少な花の精油と貴重な樹脂を融合させた複雑な調合から誕生します。"
+      }
+    ]
+  },
+  {
+    "id": 1407,
+    "word": "Épars",
+    "phonetique": "/e.paʁ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "adjectif • courant",
+    "definition": "Qui est dispersé, disséminé en divers endroits de manière irrégulière.",
+    "traduction_anglais": "scattered / dispersed / sparse",
+    "traduction_chinois": "零散的 / 分散的 (língsǎn de / fēnsàn de)",
+    "traduction_japonais": "散らばった / まばらな (chirabatta / mabara na)",
+    "examples": [
+      {
+        "fr": "Des morceaux d'étoffe épars jonchaient le plancher en bois après une longue journée d'assemblage textile.",
+        "en": "Scattered scraps of fabric littered the wooden floor after a long day of textile assembly.",
+        "cn": "经过一整天紧张的布料拼接缝制，零散的布头碎料散落得满木质地板都是。",
+        "jp": "織物の組み立て作業に追われた長い一日の後、散らばった端切れが木製の床に散乱していました。"
+      },
+      {
+        "fr": "Quelques arbres fruitiers épars ponctuent la vaste plaine agricole balayée par les vents d'ouest.",
+        "en": "A few scattered fruit trees dot the vast agricultural plain swept by westerly winds.",
+        "cn": "几株稀疏分散的果树点缀在遭受西风吹拂的广阔农业平原上。",
+        "jp": "西風に吹き晒される広大な農業平野に、まばらに点在する数本の果樹がアクセントを添えています。"
+      },
+      {
+        "fr": "Les archéologues ont découvert des vestiges épars d'une ancienne cité marchande le long du littoral méditerranéen.",
+        "en": "Archaeologists discovered scattered remains of an ancient trading city along the Mediterranean coastline.",
+        "cn": "考古学家在地中海沿岸发现了散落在各处的一座古代贸易商城的零星遗迹。",
+        "jp": "考古学者たちは地中海沿岸に沿って、古代貿易都市の散在する遺跡を発見しました。"
+      },
+      {
+        "fr": "Ses notes manuscrites restaient éparses sur le bureau encombré, témoignant d'une recherche bibliographique intense.",
+        "en": "His handwritten notes remained scattered on the cluttered desk, testifying to intense bibliographic research.",
+        "cn": "他手写的研究便签零乱地散落在堆满杂物的书桌上，见证着此前紧张深入的文献查阅。",
+        "jp": "手書きのメモが散らかった机の上に散在したままになっており、徹底した文献調査の跡を物語っていました。"
+      },
+      {
+        "fr": "Sous le soleil couchant, des nuages épars se teintaient d'une magnifique lueur pourpre au-dessus des collines.",
+        "en": "Beneath the setting sun, scattered clouds were tinged with a magnificent purple glow above the hills.",
+        "cn": "在夕阳的余晖下，小山丘上空零散飘荡的几朵晚霞被染上了一抹壮丽的紫红色。",
+        "jp": "夕日を受けて、丘の上に浮かぶまばらな雲が見事な赤紫色の輝きに染まっていきました。"
+      },
+      {
+        "fr": "Le vent violent dispersait des feuilles mortes éparses dans les ruelles pavées du vieux quartier médiéval.",
+        "en": "The violent wind scattered dead leaves in the paved alleys of the old medieval district.",
+        "cn": "狂风将零碎飘落的枯叶吹得四处飘散，落满老中世纪街区的青石板巷弄。",
+        "jp": "吹き荒れる風が、中世の古い街並みの石畳の小路に枯れ葉をまばらに散らし、舞い上げていました。"
+      },
+      {
+        "fr": "Cette couturière range soigneusement les boutons épars dans des boîtes métalliques classées par couleur et diamètre.",
+        "en": "This seamstress carefully stores scattered buttons in metal boxes sorted by color and diameter.",
+        "cn": "这位女裁缝将零散各处的纽扣按照颜色和直径分类，细心地收纳进铁盒中。",
+        "jp": "その仕立て屋は散らばったボタンを丁寧に集め、色や直径ごとに分類した金属製の箱に収めています。"
+      },
+      {
+        "fr": "Une assemblée clairsemée comptait seulement quelques spectateurs épars venus assister à la conférence littéraire.",
+        "en": "A sparse audience numbered only a few scattered spectators who came to attend the literary lecture.",
+        "cn": "稀疏的会场里只有几位零星分散的听众专程前来参加这场文学专题讲座。",
+        "jp": "まばらな聴衆の中には、文学講演会に参加するためにやって来たわずかな散在する観客がいるだけでした。"
+      },
+      {
+        "fr": "À l'orée du bois, des fleurs sauvages éparses illuminaient le sous-bois sombre de leurs teintes éclatantes.",
+        "en": "At the edge of the woods, scattered wild flowers illuminated the dark undergrowth with their vibrant hues.",
+        "cn": "在树林边缘，零星散布的野花以其鲜艳明丽的色彩点亮了阴暗的林下灌木丛。",
+        "jp": "森の入り口で、散在する野生の花々が鮮やかな色合いで薄暗い下草の茂みを照らしていました。"
+      },
+      {
+        "fr": "Les souvenirs épars de son enfance lointaine ont inspiré le premier chapitre de sa biographie.",
+        "en": "The scattered memories of his distant childhood inspired the opening chapter of his biography.",
+        "cn": "对遥远童年的那些零散断续的记忆片段，为他自传的第一章提供了丰沛的灵感。",
+        "jp": "遠い子供時代の散り散りの記憶が、彼の自伝の冒頭の章にインスピレーションを与えました。"
+      }
+    ]
+  },
+  {
+    "id": 1408,
+    "word": "Étoffe",
+    "phonetique": "/e.tɔf/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Tissu confectionné en matière textile (coton, lin, soie, laine) destiné à l'habillement ou à l'ameublement.",
+    "traduction_anglais": "fabric / cloth / textile material",
+    "traduction_chinois": "织物 / 布料 (zhīwù / bùliào)",
+    "traduction_japonais": "織物 / 布地 / 生地 (orimono / nunoji / kijid)",
+    "examples": [
+      {
+        "fr": "Cette étoffe soyeuse et fluide convient parfaitement pour la réalisation d'une robe de soirée estivale.",
+        "en": "This silky and fluid fabric is perfectly suited for making a summer evening gown.",
+        "cn": "这种顺滑垂坠的丝绸布料非常适合用来制作夏日的优雅晚礼服。",
+        "jp": "このシルクのようになめらかで流れるような布地は、夏のイブニングドレスの仕立てに最適です。"
+      },
+      {
+        "fr": "Les marchands vénitiens importaient autrefois de précieuses étoffes brodées depuis les comptoirs du Levant.",
+        "en": "Venetian merchants formerly imported precious embroidered fabrics from trading posts in the Levant.",
+        "cn": "威尼斯商人从前经常从地中海东部的贸易商站进口昂贵而华丽的刺绣织物。",
+        "jp": "ヴェネツィアの商人たちはかつて、東地中海の商館から貴重な刺繍入り織物を輸入していました。"
+      },
+      {
+        "fr": "Le tapissier choisit une étoffe de laine très robuste pour recouvrir les fauteuils d'époque du salon.",
+        "en": "The upholsterer selects a very sturdy wool fabric to reupholster the antique armchairs in the living room.",
+        "cn": "室内装潢师挑选了一种质地极为坚韧的厚羊毛织物，来重新包裹客厅里的古董扶手椅。",
+        "jp": "家具職人は、居間のアンティークな肘掛け椅子を張り替えるために非常に丈夫なウール生地を選びます。"
+      },
+      {
+        "fr": "Dans son atelier parisien, le jeune styliste drape l'étoffe directement sur le mannequin de couture en bois.",
+        "en": "In his Parisian workshop, the young stylist drapes the fabric directly onto the wooden dress form.",
+        "cn": "在他巴黎的工作室里，这位年轻设计师将布料直接披挂垂褶在木质立体裁剪人台模型上。",
+        "jp": "パリのアトリエで、若きスタイリストは木製の仕立て用トルソーの上に生地を直接ドレープします。"
+      },
+      {
+        "fr": "Cette vieille étoffe de lin familial porte encore les marques discrètes des initiales brodées à la main.",
+        "en": "This old family linen cloth still bears the subtle marks of hand-embroidered initials.",
+        "cn": "这块流传已久的家族亚麻老布料上，依然清晰保留着当年手工刺绣姓氏缩写的精致痕迹。",
+        "jp": "代々受け継がれたこの古い麻布には、今も手刺繍されたイニシャルの控えめな跡が残っています。"
+      },
+      {
+        "fr": "L'artisan teinturier plonge l'étoffe écrue dans une cuve d'indigo naturel pour obtenir un bleu profond.",
+        "en": "The artisan dyer immerses the unbleached cloth in a vat of natural indigo to obtain a deep blue.",
+        "cn": "染色工艺师将本色原胚布料浸入天然木蓝染缸中，以获得纯正深沉的靛蓝色泽。",
+        "jp": "染色職人は深みのある青を得るため、生成りの生地を天然藍の槽に浸します。"
+      },
+      {
+        "fr": "Pour fabriquer des rideaux occultants, il convient de sélectionner une étoffe opaque et dense.",
+        "en": "To make blackout curtains, one should select an opaque and dense fabric.",
+        "cn": "制作遮光窗帘时，应该挑选一种不透光且组织紧密沉重的厚实布料。",
+        "jp": "遮光カーテンを製作するには、不透明で密度の高い生地を選択するのが適切です。"
+      },
+      {
+        "fr": "Chaque visiteur admire la finesse de l'étoffe damassée qui orne les murs du grand vestibule royal.",
+        "en": "Every visitor admires the delicacy of the damask fabric adorning the walls of the great royal vestibule.",
+        "cn": "每位参观者都会赞叹装点在皇家宽敞前厅墙壁上的提花大马士革锦缎的精美绝伦。",
+        "jp": "すべての訪問者が、壮麗な王宮玄関ホールの壁を飾るダマスク織物の繊細さに感嘆します。"
+      },
+      {
+        "fr": "Les motifs géométriques imprimés sur cette étoffe s'inspirent directement des céramiques traditionnelles berbères.",
+        "en": "The geometric patterns printed on this cloth are directly inspired by traditional Berber pottery.",
+        "cn": "印制在这块织物上的几何图形，直接借鉴了柏柏尔人传统陶器上的纹饰风格。",
+        "jp": "この布地にプリントされた幾何学模様は、伝統的なベルベル人の陶器から直接インスピレーションを得ています。"
+      },
+      {
+        "fr": "Avant toute coupe définitive, la couturière prend soin de repasser l'étoffe à la vapeur douce.",
+        "en": "Before any final cutting, the seamstress takes care to iron the fabric with gentle steam.",
+        "cn": "在进行最终剪裁之前，女裁缝细心地使用温和的蒸汽将整块布料平整熨烫好。",
+        "jp": "最終的な裁断を行う前に、仕立て屋は穏やかなスチームで生地を丁寧にアイロンがけします。"
+      }
+    ]
+  },
+  {
+    "id": 1409,
+    "word": "Chute",
+    "phonetique": "/ʃyt/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Reste ou fragment d'une matière (tissu, bois, papier) inutilisé après la coupe d'une pièce principale.",
+    "traduction_anglais": "offcut / scrap / remnant",
+    "traduction_chinois": "边角料 / 碎料 / 零头布 (biānjiǎoliào / língtóubù)",
+    "traduction_japonais": "端切れ / 残り布 / 切りくず (hagire / nokorinuno)",
+    "examples": [
+      {
+        "fr": "Les chutes de tissu coloré sont précieusement conservées pour concevoir des coussins en patchwork originaux.",
+        "en": "Colorful fabric scraps are preciousely kept to design original patchwork cushions.",
+        "cn": "色彩鲜艳的各色布料边角碎料被妥善保留，以便用来设计极具创意的拼布靠垫。",
+        "jp": "色鮮やかな布の端切れは、独創的なパッチワーククッションをデザインするために大切に保管されています。"
+      },
+      {
+        "fr": "Un ébéniste recycle systématiquement chaque chute de bois noble pour fabriquer de petits objets décoratifs.",
+        "en": "A cabinetmaker systematically recycles every scrap of precious wood to make small decorative objects.",
+        "cn": "这位细木工匠习惯将每一块名贵木材切下来的下脚碎料回收，制作成精美的小型装饰物件。",
+        "jp": "家具職人は、小さな装飾品を作るために貴重な木材の木端を計画的に再利用しています。"
+      },
+      {
+        "fr": "Dans une démarche écologique, l'atelier textile valorise les chutes de coton en les transformant en isolant thermique.",
+        "en": "As part of an eco-friendly approach, the textile workshop upcycles cotton offcuts by turning them into thermal insulation.",
+        "cn": "在环保理念驱动下，这家纺织车间将纯棉边角碎料重新加工，将其转化为优良的建筑隔热保温材料。",
+        "jp": "環境に配慮した取り組みとして、織物工房はコットンの端切れを断熱材へと加工して有効活用しています。"
+      },
+      {
+        "fr": "Cette couturière ingénieuse a confectionné une trousse d'écolier uniquement à partir de chutes de feutrine.",
+        "en": "This ingenious seamstress crafted a pencil case solely from scraps of felt fabric.",
+        "cn": "这位手巧的女裁缝仅仅利用毛毡的下脚边料，就缝制出了一个结实美观的学生文具袋。",
+        "jp": "機転の利くその仕立て屋は、フェルトの端切れだけを使って学生用の筆箱を見事に仕立てました。"
+      },
+      {
+        "fr": "Après la découpe d'un manteau d'hiver, il reste souvent une importante chute de drap de laine.",
+        "en": "After cutting out a winter coat, there is often a large offcut of heavy woolen cloth left over.",
+        "cn": "剪裁完一件厚重的冬季大衣之后，通常会留下一大块未用完的厚毛呢零头碎布。",
+        "jp": "冬用コートの型紙を切り抜いた後には、厚手のウール地の大きな端切れが残ることがよくあります。"
+      },
+      {
+        "fr": "Le relieur d'art assemble d'infimes chutes de papier marbré pour composer la garde d'un ouvrage ancien.",
+        "en": "The bookbinder assembles tiny scraps of marbled paper to compose the endpaper of an antique volume.",
+        "cn": "古籍装订艺术大师拼接微小的云粉大理石花纹纸碎屑，为一本古旧善本精细铺垫环衬。",
+        "jp": "製本職人は小さなマーブル紙の端切れを寄せ集め、古書の美しい見返しを構成します。"
+      },
+      {
+        "fr": "Tous les apprentis apprennent à optimiser le placement des patrons afin de minimiser chaque chute inutile.",
+        "en": "All apprentices learn how to optimize pattern placement to minimize any useless remnant.",
+        "cn": "所有学徒都要学习如何优化排料放样，以最大限度减少不必要的材料浪费和边角废料。",
+        "jp": "すべての見習いたちは、無駄な端切れを最小限に抑えるため、型紙の効率的な配置方法を学びます。"
+      },
+      {
+        "fr": "Des sacs entiers remplis de chutes de soie ont été donnés à l'école primaire pour les cours d'arts plastiques.",
+        "en": "Entire bags filled with silk scraps were donated to the primary school for visual art classes.",
+        "cn": "整袋整袋装满真丝碎料的布袋被无偿捐赠给小学，供孩子们在美术手工课上自由创作。",
+        "jp": "シルクの端切れでいっぱいになった袋がいくつも、図画工作の授業のために小学校へ寄付されました。"
+      },
+      {
+        "fr": "La marque de mode écoresponsable promeut fièrement des vestes composées exclusivement de chutes industrielles réassemblées.",
+        "en": "The eco-responsible fashion brand proudly promotes jackets made exclusively from reassembled industrial scraps.",
+        "cn": "该环保时尚品牌自豪地推介其完全采用工业残布碎料重新拼接制作而成的系列夹克。",
+        "jp": "その環境配慮型ファッションブランドは、産業廃棄となる端切れを再構成したジャケットを誇らしげに提案しています。"
+      },
+      {
+        "fr": "En triant soigneusement ces chutes de cuir, l'artisan peut encore créer de jolis porte-clés artisanaux.",
+        "en": "By carefully sorting through these leather offcuts, the craftsman can still create charming handcrafted keychains.",
+        "cn": "通过仔细分拣这些皮革边角下料，工匠依然能够制作出造型精巧的手工钥匙扣。",
+        "jp": "これらの革の端切れを丁寧に選別することで、職人は愛らしい手作りキーホルダーを今なお生み出すことができます。"
+      }
+    ]
+  },
+  {
+    "id": 1410,
+    "word": "Piéçage",
+    "phonetique": "/pje.saʒ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Assemblage minutieux et couture de pièces géométriques ou figuratives découpées pour constituer un motif continu.",
+    "traduction_anglais": "piecing / piecework (patchwork assembling)",
+    "traduction_chinois": "拼块 / 布块拼接 (pīnkuài / bùkuài pīnjiē)",
+    "traduction_japonais": "ピーシング / 接ぎ合わせ (pīshingu / tsugiawase)",
+    "examples": [
+      {
+        "fr": "Le piéçage traditionnel exige une précision millimétrique lors de l'assemblage des triangles et des carrés de tissu.",
+        "en": "Traditional piecing requires millimeter precision when assembling fabric triangles and squares.",
+        "cn": "传统拼布拼接技术在拼合三角形与正方形布块时，要求达到毫米级的精确度。",
+        "jp": "伝統的なピーシングでは、布の三角形や正方形を接ぎ合わせる際にミリ単位の正確さが求められます。"
+      },
+      {
+        "fr": "Cette courtepointe d'époque victorienne illustre un piéçage remarquable composé de centaines de minuscules hexagones.",
+        "en": "This Victorian-era quilt illustrates remarkable piecing made of hundreds of tiny hexagons.",
+        "cn": "这床维多利亚时代的被面展示了非凡的拼块技艺，由数百个极细小的六边形精美拼合而成。",
+        "jp": "ヴィクトリア朝のこのキルトは、何百もの極小の六角形で構成された見事なピーシングの技を示しています。"
+      },
+      {
+        "fr": "L'artisan commence toujours le piéçage par le bloc central avant d'élargir progressivement sa composition textile.",
+        "en": "The artisan always begins piecing with the central block before gradually expanding his textile composition.",
+        "cn": "手工艺人总是先从中央图块的拼缝着手，然后逐步向外扩展整幅纺织作品的版面构图。",
+        "jp": "職人は織物の構図を徐々に広げていく前に、常に中央のブロックのピーシングから作業を始めます。"
+      },
+      {
+        "fr": "Une machine à coudre bien réglée facilite grandement le piéçage des longues bandes de toile bicolore.",
+        "en": "A well-adjusted sewing machine greatly facilitates the piecing of long strips of two-tone fabric.",
+        "cn": "一台调试得当的缝纫机，能够极大地方便双色帆布长条的平整拼接工作。",
+        "jp": "適切に調整されたミシンは、2色の生地の長い帯状布を接ぎ合わせる作業を大いに円滑にします。"
+      },
+      {
+        "fr": "Les passionnés de patchwork comparent souvent le piéçage à un véritable puzzle géométrique empreint de poésie.",
+        "en": "Patchwork enthusiasts often compare piecing to a true geometric jigsaw puzzle imbued with poetry.",
+        "cn": "拼布爱好者经常将布块拼缝比作一场充满诗意美感的真正几何拼图游戏。",
+        "jp": "パッチワーク愛好家たちは、ピーシングを詩情あふれる本物の幾何学パズルによく例えます。"
+      },
+      {
+        "fr": "Grâce à un piéçage méticuleux, les raccords de lignes et d'étoiles s'alignent sans le moindre décalage visible.",
+        "en": "Thanks to meticulous piecing, the joins of lines and stars align without the slightest visible offset.",
+        "cn": "得益于一丝不苟的精准拼接，线条与星形图案的接缝严丝合缝，看不出任何明显的位移偏差。",
+        "jp": "綿密なピーシングのおかげで、ラインや星型モチーフの継ぎ目がわずかなズレもなく整然と揃っています。"
+      },
+      {
+        "fr": "Le cours dispensé ce samedi matin initiera les étudiants aux règles fondamentales du piéçage à la main.",
+        "en": "The class given this Saturday morning will introduce students to the fundamental rules of hand piecing.",
+        "cn": "本周六上午开设的课程将带领学员入门掌握手工布块缝合拼接的基本规程与手法。",
+        "jp": "今週土曜日の午前の講座では、受講生たちに手縫いによるピーシングの基本規則を教授します。"
+      },
+      {
+        "fr": "Durant les mois d'hiver, les villageoises se réunissaient jadis pour avancer le piéçage collectif d'une couverture nuptiale.",
+        "en": "During the winter months, village women once gathered to advance the collective piecing of a wedding quilt.",
+        "cn": "在严冬腊月里，村落里的妇女们从前常聚在一起，共同推进一床新婚被面的拼花缝制进度。",
+        "jp": "冬の間、かつて村の女性たちは集まり、婚礼用キルトの共同ピーシング作業を進めていました。"
+      },
+      {
+        "fr": "Ce musée américain conserve des exemples historiques de piéçage réalisés par les pionniers avec des toiles recyclées.",
+        "en": "This American museum preserves historical examples of piecing made by pioneers using recycled fabrics.",
+        "cn": "这家美国博物馆保存着早期拓荒开拓者利用回收旧布拼接缝制的具有历史意义的拼布实物。",
+        "jp": "このアメリカの博物館には、開拓者たちが再利用された古布を用いて製作した歴史的なピーシングの見本が保存されています。"
+      },
+      {
+        "fr": "Chaque étape du piéçage requiert un repassage immédiat des coutures afin d'assurer un résultat final parfaitement plat.",
+        "en": "Every step of piecing requires immediate pressing of seams to ensure a perfectly flat final result.",
+        "cn": "布块拼接的每一步骤都需要立即将拼缝熨烫平整，以确保最终成品的绝对平展顺滑。",
+        "jp": "ピーシングの各段階では、最終的な仕上がりを完全に平らに保つため、縫い代の即座のアイロンがけが求められます。"
+      }
+    ]
+  },
+  {
+    "id": 1411,
+    "word": "Gabarit",
+    "phonetique": "/ɡa.ba.ʁi/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Patron ou modèle étalon servant à tracer et découper des pièces aux dimensions et formes rigoureusement identiques.",
+    "traduction_anglais": "template / gauge / sizing pattern",
+    "traduction_chinois": "样板 / 靠模 / 标准规格 (yàngbǎn / kàomó)",
+    "traduction_japonais": "型紙 / ゲージ / テンプレート (katagami / gēji / tenpurēto)",
+    "examples": [
+      {
+        "fr": "Le tailleur utilise un gabarit en carton rigide pour reproduire fidèlement l'arrondi régulier des cols de chemise.",
+        "en": "The tailor uses a rigid cardboard template to faithfully replicate the regular curve of shirt collars.",
+        "cn": "裁缝使用硬纸板样板，以精准复刻衬衫领口匀称平整的优美弧度。",
+        "jp": "仕立て屋はシャツの襟の規則的な曲線を忠実に再現するため、硬質ボール紙の型紙を使用します。"
+      },
+      {
+        "fr": "Ce gabarit en plexiglas transparent permet d'ajuster les motifs du tissu avant de procéder au coup de ciseau.",
+        "en": "This transparent acrylic template allows one to adjust fabric patterns before cutting with scissors.",
+        "cn": "这个透明有机玻璃模板允许工匠在动剪刀裁剪之前，精确对准布料上的纹样图线。",
+        "jp": "この透明なアクリル樹脂製の型紙を使うことで、ハサミを入れる前に布の柄を微調整することができます。"
+      },
+      {
+        "fr": "Les ingénieurs vérifient avec soin si le nouveau wagon respecte le gabarit prescrit par les tunnels ferroviaires.",
+        "en": "Engineers carefully verify whether the new train car complies with the gauge prescribed for railway tunnels.",
+        "cn": "工程师们仔细核验新型车厢的整体尺寸规格是否完全符合铁路隧道规定的通行限界标准。",
+        "jp": "エンジニアたちは、新しい鉄道車両がトンネルに規定された車両限界に適合しているかを慎重に確認します。"
+      },
+      {
+        "fr": "Chaque pièce de mosaïque est découpée selon un gabarit strict afin de s'insérer exactement dans l'espace prévu.",
+        "en": "Each piece of mosaic is cut according to a strict template in order to fit exactly into the designated space.",
+        "cn": "每一块马赛克嵌片均按照严格的标准样板进行裁切，以确保其严密嵌合在预定位置。",
+        "jp": "モザイクの各ピースは、所定の場所に寸分違わず収まるよう、厳密なテンプレートに従って切り出されます。"
+      },
+      {
+        "fr": "L'architecte naval a dessiné un gabarit très précis pour contrôler la courbure de la coque en bois du voilier.",
+        "en": "The naval architect drew a very precise template to check the curvature of the sailboat's wooden hull.",
+        "cn": "造船工程师绘制了一份高精度的肋骨放样板，用以校验帆船木质船体外板的曲度。",
+        "jp": "造船技師はヨットの木製船体の湾曲度を検査するため、極めて精密な型板を製図しました。"
+      },
+      {
+        "fr": "Pour réaliser des hexagones identiques en patchwork, il est indispensable de fabriquer un gabarit résistant.",
+        "en": "To make identical hexagons in patchwork, it is essential to craft a durable template.",
+        "cn": "要在拼布中做出分毫不差的相同六边形布片，制作一个结实耐磨的标准样板是必不可少的。",
+        "jp": "パッチワークで同一の六角形を作るには、耐久性のある型板を作成することが不可欠です。"
+      },
+      {
+        "fr": "Le menuisier pose son gabarit métallique sur la planche de chêne pour marquer les futurs points d'assemblage.",
+        "en": "The carpenter places his metal jig on the oak plank to mark the future joinery points.",
+        "cn": "木工将金属靠模平放在橡木板上，准确标记出后续榫卯接合开孔的点位。",
+        "jp": "大工は将来の接合部を正確に印付けするため、オーク材の板の上に金属製のゲージを当てます。"
+      },
+      {
+        "fr": "Malgré son gabarit imposant, ce camion électrique manœuvre avec une fluidité remarquable dans les rues étroites.",
+        "en": "Despite its imposing size, this electric truck maneuvers with remarkable fluidity in narrow streets.",
+        "cn": "尽管车身规格与体型相当庞大，但这辆电动卡车在狭窄的小街巷里操控起来依然非常灵活顺畅。",
+        "jp": "堂々とした車格にもかかわらず、その電気トラックは狭い路地でも驚くほど滑らかに取り回すことができます。"
+      },
+      {
+        "fr": "Des gabarits de découpe laser ont révolutionné la rapidité d'exécution dans les ateliers de maroquinerie moderne.",
+        "en": "Laser-cut templates have revolutionized execution speed in modern leather goods workshops.",
+        "cn": "激光切割样板的普及应用，彻底革新了现代高档皮具作坊的下料与制作效率。",
+        "jp": "レーザー加工による裁断テンプレートは、現代の皮革工房における作業スピードに革命をもたらしました。"
+      },
+      {
+        "fr": "Sans ce gabarit de contrôle, les ouvriers risqueraient de produire des pièces présentant des écarts inacceptables.",
+        "en": "Without this inspection template, workers would risk producing parts with unacceptable variances.",
+        "cn": "若是没有这个校准检具样板，工人们生产出的零部件可能会产生超出公差范围的不良偏差。",
+        "jp": "この検査用ゲージがなければ、作業員たちは許容できない誤差を持つ部品を製造してしまう恐れがあります。"
+      }
+    ]
+  },
+  {
+    "id": 1412,
+    "word": "Appliqué",
+    "phonetique": "/a.pli.ke/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Technique consistant à coudre ou thermocoller une forme découpée sur une étoffe de fond pour créer du relief.",
+    "traduction_anglais": "appliqué (textile technique)",
+    "traduction_chinois": "贴布绣 / 贴花工艺 (tiēbùxiù / tiēhuā)",
+    "traduction_japonais": "アップリケ / 貼り付け細工 (appurike)",
+    "examples": [
+      {
+        "fr": "L'appliqué de velours grenat cousu sur le lin beige apporte un contraste texturé des plus élégants.",
+        "en": "The garnet velvet appliqué sewn onto beige linen provides a most elegant textured contrast.",
+        "cn": "缝制在米黄色亚麻布底上的深红色丝绒贴花，营造出极具高级感的丰富肌理对比。",
+        "jp": "ベージュの麻生地に縫い付けられた深紅のベルベットのアップリケが、極めて上品な質感の対比をもたらします。"
+      },
+      {
+        "fr": "Cette créatrice excelle dans l'appliqué inversé, une technique traditionnelle venue d'Amérique centrale.",
+        "en": "This designer excels at reverse appliqué, a traditional technique originating from Central America.",
+        "cn": "这位设计师擅长反向挖花贴布绣，这是一种源自中美洲原住民的精湛传统手工技法。",
+        "jp": "このデザイナーは、中央アメリカ発祥の伝統技法であるリバース・アップリケに長けています。"
+      },
+      {
+        "fr": "Des motifs floraux réalisés en appliqué ornent délicatement le bas de ce manteau de cérémonie contemporain.",
+        "en": "Floral patterns crafted in appliqué delicately adorn the hem of this contemporary ceremonial coat.",
+        "cn": "采用贴花刺绣工艺精细缝制的唯美花卉图案，精致地装点在这件现代礼仪大衣的下摆边缘。",
+        "jp": "アップリケで施された花のモチーフが、この現代的な祝典用コートの裾を繊細に彩っています。"
+      },
+      {
+        "fr": "La couturière fixe temporairement chaque appliqué avec des épingles fines avant de lancer la piqûre invisible.",
+        "en": "The seamstress temporarily secures each appliqué with fine pins before starting invisible stitching.",
+        "cn": "女裁缝在启动暗针盲缝之前，先用纤细的珠针将每一个贴花图形暂时定位牢靠。",
+        "jp": "仕立て屋はまつり縫いを始める前に、極細の待ち針で各アップリケを仮止めします。"
+      },
+      {
+        "fr": "Un magnifique appliqué de soie représentant un héron en plein vol attire tous les regards dans l'exposition.",
+        "en": "A magnificent silk appliqué depicting a heron in mid-flight draws all eyes in the exhibition.",
+        "cn": "一幅表现苍鹭展翅凌空高飞的华美真丝贴布绣作品，在整个展厅中吸引了全场观众的目光。",
+        "jp": "飛翔するサギを描いた見事なシルクのアップリケが、展覧会でひと際人目を引いています。"
+      },
+      {
+        "fr": "Pour consolider cet appliqué brodé, un point de feston régulier borde soigneusement l'ensemble du contour extérieur.",
+        "en": "To strengthen this embroidered appliqué, a regular blanket stitch carefully edges the entire outer contour.",
+        "cn": "为了加固这处刺绣贴花布片，一圈致密规整的锁边毯形针脚严密地封牢了所有的外缘边缘。",
+        "jp": "この刺繍アップリケを補強するため、規則正しいボタンホールステッチが外側の輪郭全体を丁寧に縁取っています。"
+      },
+      {
+        "fr": "Le manuel d'artisanat explique comment réussir un appliqué impeccable sans froisser les tissus délicats.",
+        "en": "The craft manual explains how to achieve an impeccable appliqué without wrinkling delicate fabrics.",
+        "cn": "这本手工艺教材详尽阐释了如何在不弄皱脆弱娇贵面料的前提下，缝制出无懈可击的平整贴布。",
+        "jp": "手芸教本には、繊細な生地にしわを寄せることなく完璧なアップリケを仕上げる方法が解説されています。"
+      },
+      {
+        "fr": "Plusieurs ateliers associatifs initient les jeunes enfants à l'appliqué de feutrine pour fabriquer des marionnettes festives.",
+        "en": "Several community workshops introduce young children to felt appliqué to make festive puppets.",
+        "cn": "数家社区公益工坊组织年幼的孩子们体验毛毡布贴花手工，一起动手制作节日布偶提线木偶。",
+        "jp": "いくつかの市民工房では、祭りの指人形を作るために子供たちへフェルトのアップリケ作法を手ほどきしています。"
+      },
+      {
+        "fr": "Cette couverture traditionnelle se distingue par la profusion d'appliqués géométriques cousus patiemment au fil d'or.",
+        "en": "This traditional quilt is distinguished by the profusion of geometric appliqués patiently sewn with gold thread.",
+        "cn": "这床富有民俗风情的传统盖被，以其耐心用金线纯手工密密缝制的大量几何贴花而独树一帜。",
+        "jp": "この伝統的な掛け布は、金糸で根気よく縫い付けられた幾何学的なアップリケの豊富さで際立っています。"
+      },
+      {
+        "fr": "L'artisan découpe l'appliqué dans des chutes de dentelle ancienne pour conférer un charme suranné à l'ouvrage.",
+        "en": "The craftsman cuts the appliqué from scraps of vintage lace to give an old-fashioned charm to the piece.",
+        "cn": "手艺人从古董蕾丝碎片中剪出贴片图案，从而为这件手工作品平添一抹典雅古朴的历史风韵。",
+        "jp": "職人は作品に古色豊かな魅力を与えるため、年代物のレースの端切れからアップリケを切り出します。"
+      }
+    ]
+  },
+  {
+    "id": 1413,
+    "word": "Matelassage",
+    "phonetique": "/ma.tla.saʒ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Opération consistant à piquer ensemble trois épaisseurs (dessus ornementé, molleton isolant et doublure) par des lignes de couture.",
+    "traduction_anglais": "quilting / padding / batting assembly",
+    "traduction_chinois": "绗缝 / 夹棉缝制 (hángféng / jiāmián)",
+    "traduction_japonais": "キルティング / 刺し子縫い (kirutingu)",
+    "examples": [
+      {
+        "fr": "Le matelassage régulier en losanges assure une parfaite répartition de la ouate thermique à l'intérieur du manteau.",
+        "en": "Regular diamond quilting ensures perfect distribution of thermal batting inside the coat.",
+        "cn": "匀称细密的菱形绗缝线条，确保了保暖填充絮棉在防寒大衣内衬里的均匀分布不跑棉。",
+        "jp": "規則正しいダイヤモンド柄のキルティングにより、コート内部の保温用中綿が完全に均一に保たれます。"
+      },
+      {
+        "fr": "Cette veste de chasse traditionnelle bénéficie d'un matelassage serré qui la protège efficacement des ronces.",
+        "en": "This traditional hunting jacket benefits from tight quilting that effectively protects it from brambles.",
+        "cn": "这件传统狩猎夹克得益于紧密扎实的重工绗缝加固，能有效抵御野外荆棘灌木的刮扯磨损。",
+        "jp": "この伝統的な狩猟ジャケットは密なキルティングが施されており、野茨から効果的に身を守ってくれます。"
+      },
+      {
+        "fr": "L'artiste textile pratique un matelassage à main levée pour tracer des arabesques ondulantes sur son couvre-lit.",
+        "en": "The textile artist performs free-motion quilting to trace undulating arabesques on her bedspread.",
+        "cn": "这位纺织艺术家运用自由压线绗缝手法，在床罩表面勾勒出如波浪般流转起伏的花纹线条。",
+        "jp": "そのテキスタイル作家は、ベッドカバーの上に波打つ唐草模様を描くためにフリーモーションのキルティングを施します。"
+      },
+      {
+        "fr": "Un bon matelassage confère à la courtepointe à la fois du relief, de la chaleur et une tenue impeccable.",
+        "en": "Good quilting gives the quilt relief, warmth, and an impeccable hold all at once.",
+        "cn": "精湛的绗缝工艺一举赋予了被褥优美的立体浮雕感、出色的保暖性以及挺括规整的形态。",
+        "jp": "優れたキルティングは、キルトに立体的な陰影、温もり、そして非の打ち所のない保形性を同時にもたらします。"
+      },
+      {
+        "fr": "Les lignes droites du matelassage guident le regard vers le panneau central richement brodé.",
+        "en": "The straight lines of the quilting guide the eye toward the richly embroidered central panel.",
+        "cn": "纵横笔直的平行绗缝排线自然地引导视线，使之聚焦于中央绣满繁复花纹的图样面板。",
+        "jp": "まっすぐに走るキルティングのラインが、華麗に刺繍された中央パネルへと自然に視線を導きます。"
+      },
+      {
+        "fr": "Une machine à bras long spécialisée permet d'exécuter le matelassage de couvertures géantes sans le moindre pli.",
+        "en": "A specialized long-arm machine allows one to perform quilting on giant blankets without any creases.",
+        "cn": "专用的长臂绗缝机能够在不产生任何褶皱折印的前提下，完成超大规格被毯的高难度压线操作。",
+        "jp": "専用のロングアームミシンを使用すれば、わずかなしわも寄せることなく巨大な掛け布団のキルティングが可能です。"
+      },
+      {
+        "fr": "Durant la Renaissance provençale, le matelassage en piqué de Marseille était synonyme d'un raffinement aristocratique.",
+        "en": "During the Provençal Renaissance, Marseille piqué quilting was synonymous with aristocratic refinement.",
+        "cn": "在普罗旺斯文艺复兴时期，马赛凸纹白玉绗缝布艺曾是尊贵贵族优雅考究生活的显赫象征。",
+        "jp": "プロヴァンスのルネサンス期において、マルセイユ風ピケキルティングは貴族的な洗練の代名詞でした。"
+      },
+      {
+        "fr": "Le fabricant de maroquinerie a breveté un procédé de matelassage sur cuir souple pour sa nouvelle gamme de sacs.",
+        "en": "The leather goods manufacturer patented a quilting process on soft leather for its new range of bags.",
+        "cn": "该皮具制造商为其新推出的高级手袋系列研发并申请了软质头层皮料立体绗缝工艺专利。",
+        "jp": "その革製品メーカーは、新作バッグシリーズのために柔らかい本革へのキルティング製法を特許取得しました。"
+      },
+      {
+        "fr": "Chaque épaisseur doit être solidement bâtie avant d'entamer le matelassage définitif sous l'aiguille de la machine.",
+        "en": "Each layer must be firmly basted before beginning the final quilting under the machine needle.",
+        "cn": "在把织物送入机针下进行正式绗缝之前，必须将每一个面料层牢固粗缝假缝定位。",
+        "jp": "ミシンの針の下で最終的なキルティングを始める前に、各層をしっかりと仮縫いして固定する必要があります。"
+      },
+      {
+        "fr": "Ce musée des arts décoratifs expose un superbe matelassage japonais traditionnel réalisé au point sashiko.",
+        "en": "This museum of decorative arts displays a superb traditional Japanese quilting made with sashiko stitching.",
+        "cn": "这所装饰艺术博物馆公开陈列着一件运用日本传统刺子绣细密压线缝制的绝美绗缝织物藏品。",
+        "jp": "この装飾美術館には、刺し子縫いの技法で仕上げられた見事な日本の伝統的キルティング作品が展示されています。"
+      }
+    ]
+  },
+  {
+    "id": 1414,
+    "word": "Molleton",
+    "phonetique": "/mɔl.tɔ̃/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Étoffe ou nappe de ouate douce et épaisse placée entre les deux tissus pour donner du gonflant et de la chaleur.",
+    "traduction_anglais": "batting / fleece / wadding / interlining",
+    "traduction_chinois": "软绒 / 铺棉 / 衬棉 (ruǎnróng / pūmián)",
+    "traduction_japonais": "キルト芯 / フリース / 中綿 (kirutoshin / furīsu)",
+    "examples": [
+      {
+        "fr": "Un molleton de coton biologique apporte une douceur moelleuse et une isolation thermique naturelle à ce plaid.",
+        "en": "An organic cotton batting brings a soft fluffiness and natural thermal insulation to this throw.",
+        "cn": "一层有机棉铺棉内胆为这条休闲膝毯赋予了温润绵软的蓬松质感与出色的天然保暖效果。",
+        "jp": "オーガニックコットンのキルト芯が、このひざ掛けにふんわりとした柔らかさと自然な断熱性をもたらしています。"
+      },
+      {
+        "fr": "La couturière insère une couche de molleton épais entre les deux pans du tapis d'éveil pour bébé.",
+        "en": "The seamstress inserts a layer of thick batting between the two fabric panels of the baby play mat.",
+        "cn": "女裁缝在婴儿爬行学步垫的两层外布之间严密嵌入了一层厚实柔软的加厚铺棉。",
+        "jp": "仕立て屋は赤ちゃん用プレイマットの2枚の布の間に、厚手のキルト芯をしっかりと挟み込みます。"
+      },
+      {
+        "fr": "Ce gilet d'hiver est doublé d'un molleton léger en laine qui retient efficacement la chaleur du corps.",
+        "en": "This winter vest is lined with a lightweight wool fleece that effectively retains body heat.",
+        "cn": "这件冬季马甲内部衬有轻盈的羊毛软绒夹层，能极其高效地锁住人体自身散发的热量。",
+        "jp": "この防寒ベストには軽量のウールフリースが裏打ちされており、体温を効率的に閉じ込めます。"
+      },
+      {
+        "fr": "Avant de piquer les trois épaisseurs, il convient d'étaler le molleton sans créer la moindre tension parasite.",
+        "en": "Before stitching the three layers together, one should spread out the batting without creating any unwanted tension.",
+        "cn": "在将三层布料压线缝合前，应当将当中的铺棉彻底平铺理顺，切莫产生任何外力扯拉的不良张力。",
+        "jp": "3層を縫い合わせる前に、余計なテンションをかけることなくキルト芯を平らに広げる必要があります。"
+      },
+      {
+        "fr": "Les restaurateurs de mobilier utilisent un molleton de chanvre pour rembourrer les accoudoirs d'un canapé ancien.",
+        "en": "Furniture restorers use a hemp wadding to pad the armrests of an antique sofa.",
+        "cn": "家具修复师傅们选用环保天然的大麻纤维软垫棉，来为一张古典长沙发的扶手重新填充饱满造型。",
+        "jp": "家具修復士たちは、アンティークソファの肘掛けに詰め物をするためヘンプのキルト芯を使用します。"
+      },
+      {
+        "fr": "Un molleton trop dense rendrait la draperie rigide au lieu de lui conserver son tombé souple habituel.",
+        "en": "Too dense a batting would make the drapery stiff instead of preserving its customary supple drape.",
+        "cn": "若使用的夹棉克重过大过于紧致，会让窗帘帷幔显得生硬死板，丧失其应有的垂顺柔美感。",
+        "jp": "キルト芯の密度が高すぎると、通常のしなやかなドレープを保つ代わりにカーテン地が固くなってしまいます。"
+      },
+      {
+        "fr": "Chaque face du molleton synthétique moderne est traitée pour empêcher les microfibres de traverser la housse.",
+        "en": "Each side of modern synthetic fleece is treated to prevent microfibers from poking through the cover.",
+        "cn": "现代新型合成软保暖棉的双面均经过防钻绒特殊工艺处理，可杜绝微细纤维钻透被套布料。",
+        "jp": "最新の合成中綿は、マイクロファイバーがカバーを突き抜けるのを防ぐため両面が特殊処理されています。"
+      },
+      {
+        "fr": "Le repassage direct sur le molleton est formellement déconseillé car la chaleur vive écraserait son volume.",
+        "en": "Direct ironing on the batting is strongly discouraged because intense heat would crush its volume.",
+        "cn": "严禁直接在蓬松铺棉表面进行高温熨烫，因为瞬间的炙热高温会将其饱满的气孔结构彻底压塌扁平。",
+        "jp": "強い熱がボリュームを潰してしまうため、キルト芯への直接のアイロンがけは固く禁じられています。"
+      },
+      {
+        "fr": "Pour la fabrication de maniques de cuisine, on préconise un molleton thermique résistant aux très hautes températures.",
+        "en": "For making kitchen potholders, thermal fleece resistant to very high temperatures is recommended.",
+        "cn": "在亲手缝制厨房隔热防烫手套垫时，行业推荐使用能够承受极高烘烤温度的专业耐热防火棉。",
+        "jp": "鍋つかみの製作には、非常に高い温度に耐える耐熱性キルト芯の使用が推奨されます。"
+      },
+      {
+        "fr": "Cette veste de sport doublée de molleton gratté procure un confort immédiat dès que le thermomètre chute.",
+        "en": "This sports jacket lined with brushed fleece provides instant comfort as soon as the temperature drops.",
+        "cn": "这件内里复合了拉绒软棉里料的运动外套，在气温骤降时能够瞬间为穿着者带来贴心的舒适与暖意。",
+        "jp": "裏起毛のフリースが張られたこのスポーツジャケットは、気温が下がるとすぐに快適な温もりを提供します。"
+      }
+    ]
+  },
+  {
+    "id": 1415,
+    "word": "Doublure",
+    "phonetique": "/du.blyʁ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Tissu intérieur ou inférieur qui recouvre la face cachée d'un ouvrage pour en assurer la finition propre.",
+    "traduction_anglais": "lining (fabric) / backing",
+    "traduction_chinois": "里子 / 里料 / 衬里 (lǐzi / lǐliào)",
+    "traduction_japonais": "裏地 / ライニング (uraji / rainingu)",
+    "examples": [
+      {
+        "fr": "La doublure en satin de soie permet d'enfiler ce pardessus en laine d'un geste fluide et sans frottement.",
+        "en": "The silk satin lining makes it possible to slip on this wool overcoat with a smooth, frictionless movement.",
+        "cn": "真丝色丁缎面里料的光滑细腻，使人能毫不费力、顺畅无阻地穿脱这件重磅羊毛呢长大衣。",
+        "jp": "シルクサテンの裏地のおかげで、摩擦を感じることなく滑らかな所作でこのウールオーバーを羽織ることができます。"
+      },
+      {
+        "fr": "Cette élégante veste de tailleur cache une doublure contrastée ornée de délicats motifs géométriques discrets.",
+        "en": "This elegant tailored jacket conceals a contrasting lining decorated with delicate and discreet geometric patterns.",
+        "cn": "这件剪裁极其优雅考究的西服上衣，暗藏着饰有低调精致几何暗纹的撞色高档里料。",
+        "jp": "この優雅な仕立てのジャケットの内側には、控えめで繊細な幾何学模様が施された対照的な裏地が隠されています。"
+      },
+      {
+        "fr": "Le maître tailleur assemble minutieusement la doublure pour masquer toutes les coutures intérieures du vêtement.",
+        "en": "The master tailor meticulously assembles the lining to conceal all interior seams of the garment.",
+        "cn": "裁缝大师极其细致地拼接缝入里布，以完美遮盖衣物内部所有的毛边与拼接缝线。",
+        "jp": "仕立ての巨匠は、衣服の内側のすべての縫い目を覆い隠すために裏地を綿密に組み立てます。"
+      },
+      {
+        "fr": "Une doublure thermique amovible transforme cet imperméable léger de mi-saison en manteau d'hiver protecteur.",
+        "en": "A removable thermal lining transforms this light mid-season raincoat into a protective winter coat.",
+        "cn": "一套可拆卸式保暖功能性内胆，巧妙地将这件轻薄的春秋防雨风衣变身成抵御风雪的冬日大衣。",
+        "jp": "取り外し可能な防寒ライナーにより、この薄手の合服レインコートが風雪を防ぐ冬の防寒着へと早変わりします。"
+      },
+      {
+        "fr": "Pour terminer la confection du sac à main, la maroquinière coud une doublure en toile de coton robuste.",
+        "en": "To complete the making of the handbag, the leather artisan stitches a sturdy cotton canvas lining.",
+        "cn": "为了完成最后的手袋组装工艺，皮具工匠在皮包内部工整地缝上了一层结实耐磨的纯棉帆布里布。",
+        "jp": "ハンドバッグの製作を完了するため、革職人は丈夫なコットンキャンバスの裏地を縫い付けます。"
+      },
+      {
+        "fr": "Un tissu glissant et antistatique constitue le meilleur choix de doublure pour une jupe plissée d'hiver.",
+        "en": "A slippery, anti-static fabric constitutes the best lining choice for a pleated winter skirt.",
+        "cn": "顺滑且不易起静电的高性能面料，是缝制冬季羊毛百褶半身裙防吸腿内衬的绝佳上选。",
+        "jp": "滑りが良く帯電防止加工された生地は、冬のプリーツスカート用裏地として最良の選択肢となります。"
+      },
+      {
+        "fr": "La couturière veille à laisser une légère aisance dans la doublure afin d'éviter que le manteau ne tire.",
+        "en": "The seamstress makes sure to leave some slight ease in the lining to keep the coat from pulling uncomfortably.",
+        "cn": "裁缝特别注意在裁剪缝合里布时预留出适度的活动松量，以防成衣穿着时出现紧绷抽褶扯拉。",
+        "jp": "仕立て屋はコートが引きつれるのを防ぐため、裏地にわずかなゆとりを持たせるよう配慮します。"
+      },
+      {
+        "fr": "Dans les ateliers de haute couture, chaque doublure est posée manuellement avec des points glissés invisibles.",
+        "en": "In haute couture ateliers, each lining is attached by hand using invisible slip stitches.",
+        "cn": "在法国高级定制工坊里，每一件高定华服的里子都是通过老匠人纯手工暗针盲缝细致缝固的。",
+        "jp": "オートクチュールの工房では、すべての裏地が見えないまつり縫いによって手作業で据え付けられます。"
+      },
+      {
+        "fr": "L'usure prématurée de la doublure aux emmanchures oblige le client à confier son veston au retoucheur.",
+        "en": "Premature wear of the lining at the armholes forces the client to entrust his blazer to the alteration tailor.",
+        "cn": "西装外套腋下袖窿处里料的过早磨损破洞，迫使顾客将衣服送去专业修改成衣的师傅处换里翻新。",
+        "jp": "袖ぐりの裏地の早期の摩耗により、顧客はブレザーのお直しを仕立て直し店に依頼せざるを得なくなりました。"
+      },
+      {
+        "fr": "En retournant la pièce sur l'endroit à travers l'ouverture de la doublure, l'artisan découvre la forme finale impeccable.",
+        "en": "Turning the piece right side out through the lining opening, the artisan discovers the flawless final shape.",
+        "cn": "通过预留在里布上的翻转小口将整件作品翻到正面后，工匠惊喜地看到了形态完美挺拔的最终成品。",
+        "jp": "裏地の返し口から作品を表側にひっくり返すと、職人は非の打ち所のない最終的なフォルムを目にします。"
+      }
+    ]
+  },
+  {
+    "id": 1416,
+    "word": "Piquage",
+    "phonetique": "/pi.kaʒ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Action de piquer ou de coudre à points réguliers traversant l'épaisseur de plusieurs tissus superposés.",
+    "traduction_anglais": "stitching / quilting stitch / machine stitching",
+    "traduction_chinois": "行针 / 扎缝 / 压线针迹 (xíngzhēn / zāféng)",
+    "traduction_japonais": "ステッチング / 縫製 / 刺し通し (sutetchingu / hōsei)",
+    "examples": [
+      {
+        "fr": "Le piquage précis de ces bandes de cuir exige une machine industrielle dotée d'un moteur puissant.",
+        "en": "The precise stitching of these leather strips requires an industrial machine equipped with a powerful motor.",
+        "cn": "在这些厚重皮条上进行精准致密的针脚扎缝，需要配备大功率工业用专业粗线皮革缝纫机。",
+        "jp": "これらの革帯の精密なステッチングには、強力なモーターを搭載した工業用ミシンが必要です。"
+      },
+      {
+        "fr": "Ce travail de piquage manuel demande une grande régularité de tension pour ne pas froncer le tissu.",
+        "en": "This hand-stitching work demands great tension regularity so as not to pucker the fabric.",
+        "cn": "这项纯手工穿针压线工序要求双手的控线张力保持高度恒定匀称，以免造成布面拉扯起皱不平。",
+        "jp": "この手縫いによるステッチング作業は、生地をひきつらせないために極めて均一な糸調子が求められます。"
+      },
+      {
+        "fr": "L'artisan contrôle la qualité du piquage en vérifiant que chaque point traverse parfaitement les trois couches.",
+        "en": "The craftsman inspects stitching quality by checking that each stitch penetrates all three layers perfectly.",
+        "cn": "工匠通过严格核查每一记针眼是否都结实彻底地穿透了三层叠置物，来把控走线绗缝的工艺品质。",
+        "jp": "職人は各縫い目が3つの層を完全に貫通しているかを確認することで、ステッチングの品質を点検します。"
+      },
+      {
+        "fr": "Un fil de nylon ultra-résistant a été choisi pour assurer la longévité du piquage sur cette voile de bateau.",
+        "en": "An ultra-resistant nylon thread was chosen to ensure the longevity of the stitching on this boat sail.",
+        "cn": "选用超强韧的优质高强尼龙缝纫线，旨在确保这面航海船帆各拼接受力处压线缝合的超长使用寿命。",
+        "jp": "このヨットの帆のステッチングの耐久性を確保するため、超高強度のナイロン糸が選ばれました。"
+      },
+      {
+        "fr": "Le piquage décoratif en spirale crée un effet d'optique fascinant au cœur de la rosace centrale.",
+        "en": "The decorative spiral stitching creates a fascinating optical effect at the core of the central rosette.",
+        "cn": "在中央大圆形花饰核心处所做的同心螺旋状装饰性压线刺缝，产生了极其引人入胜的迷人视觉效果。",
+        "jp": "渦巻き状の装飾的ステッチングが、中央のロゼット模様の中心で魅力的な視覚効果を生み出しています。"
+      },
+      {
+        "fr": "Cette méthode ancestrale de piquage renforce les semelles des bottes traditionnelles en cuir végétal.",
+        "en": "This ancestral stitching method reinforces the soles of traditional boots made of vegetable-tanned leather.",
+        "cn": "这种流传久远的古法手工缝底固特异式穿线纳线法，强力加固了植鞣革手工传统皮靴的鞋底结实度。",
+        "jp": "この伝統的な底付けステッチング技法は、植物タンニンなめし革の伝統的なブーツの靴底を強固にします。"
+      },
+      {
+        "fr": "Chaque séance d'apprentissage insiste sur la maîtrise de la vitesse pour obtenir un piquage parfaitement rectiligne.",
+        "en": "Each training session insists on speed control to achieve perfectly straight stitching.",
+        "cn": "每次实践技能培训课都会着重训练踩动踏板的速度控制力，以练就笔直如尺、无可挑剔的走针缝线功底。",
+        "jp": "すべての講習セッションにおいて、完全に直線的なステッチングを得るための速度制御の習熟が強調されます。"
+      },
+      {
+        "fr": "Une rupture soudaine de fil pendant le piquage peut endommager irrémédiablement une soie très fine.",
+        "en": "A sudden thread break during stitching can cause irreparable damage to very fine silk.",
+        "cn": "在车线扎针高速运转过程中缝线若是突发断头，极有可能给极其纤薄柔弱的高级真丝带来无法弥补的勾丝划伤。",
+        "jp": "ステッチング中の突然の糸切れは、非常に繊細なシルクに取り返しのつかない損傷を与える危険があります。"
+      },
+      {
+        "fr": "Le styliste expérimente un piquage contrasté en fil blanc épais sur un denim bleu brut très rigide.",
+        "en": "The stylist experiments with contrasting stitching using thick white thread on very rigid raw blue denim.",
+        "cn": "时装设计师正在尝试运用粗白线在质地厚重硬挺的原色深蓝牛仔布表面进行视觉冲击强烈的撞色明缝车线。",
+        "jp": "スタイリストは、非常に硬質なリジッドブルーデニムの上に太い白糸を用いたコントラストステッチングを試みています。"
+      },
+      {
+        "fr": "Après le piquage final des bordures, le coussin d'assise conserve durablement son épaisseur et sa fermeté.",
+        "en": "After the final edge stitching, the seat cushion permanently retains its thickness and firmness.",
+        "cn": "在对各受力外沿完成最终的结实压边缝扎之后，坐垫在长年使用中依然能持久保持其丰厚饱满与支撑硬挺度。",
+        "jp": "縁周りの最終的なステッチングが完了すると、座面クッションはその厚みと適度な硬さを永続的に維持します。"
+      }
+    ]
+  },
+  {
+    "id": 1417,
+    "word": "Surpiqûre",
+    "phonetique": "/syʁ.pi.kyʁ/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Couture apparente exécutée sur l'endroit d'un tissu pour maintenir les bords ou former un motif ornemental.",
+    "traduction_anglais": "topstitching / ornamental seam",
+    "traduction_chinois": "明线 / 嵌线 / 饰面明缝 (míngxiàn / qiànxiàn)",
+    "traduction_japonais": "コバステッチ / トップステッチ / 飾り縫い (toppusutetchi / kazarinui)",
+    "examples": [
+      {
+        "fr": "La surpiqûre dorée qui souligne les poches de la veste apporte une note d'élégance très contemporaine.",
+        "en": "The golden topstitching that accentuates the jacket's pockets brings a very contemporary touch of elegance.",
+        "cn": "勾勒在夹克贴袋边缘的金黄色明线车线，为整件服饰增添了一抹极具时代气息的摩登优雅风范。",
+        "jp": "ジャケットのポケットを際立たせる金色のトップステッチが、極めて現代的で上品なニュアンスを添えています。"
+      },
+      {
+        "fr": "Ces jeans légendaires se reconnaissent au premier coup d'œil grâce à leur double surpiqûre orange cuivré.",
+        "en": "These legendary jeans can be recognized at first glance thanks to their copper-orange double topstitching.",
+        "cn": "这条传奇经典牛仔裤凭借其标志性的铜橙色双排粗线外压明线，让人一眼望去便能立刻认出。",
+        "jp": "この伝説的なジーンズは、赤みを帯びたオレンジ色のダブルトップステッチによって一目でそれと判別できます。"
+      },
+      {
+        "fr": "Le sellier réalise une surpiqûre manuelle au point sellier pour garantir la résistance absolue de la bride.",
+        "en": "The saddle maker performs hand saddle-stitch topstitching to guarantee the absolute strength of the bridle.",
+        "cn": "马具匠人使用纯手工双针马鞍缝工艺沿边缘车出坚韧明线，以确保整条马缰绳拥有坚不可摧的绝对牢度。",
+        "jp": "鞍職人は馬勒の絶対的な耐久性を保証するため、サドルステッチによる手縫いのトップステッチを施します。"
+      },
+      {
+        "fr": "Une surpiqûre parfaitement régulière le long du col de chemise témoigne du savoir-faire de l'artisan chemisier.",
+        "en": "A perfectly regular topstitch along the shirt collar bears witness to the shirtmaker craftsman's skill.",
+        "cn": "沿着衬衫领口边缘匀称平直排布的毫厘级落坑明缝，生动印证着这位高定衬衫老手艺人的炉火纯青。",
+        "jp": "シャツの襟に沿って完全に均一に走るコバステッチは、シャツ職人の卓越した技術力を雄弁に物語っています。"
+      },
+      {
+        "fr": "Pour aplatir les coutures d'un manteau d'hiver, la styliste prescrit une surpiqûre discrète à deux millimètres du bord.",
+        "en": "To flatten the seams of a winter coat, the designer specifies discreet topstitching two millimeters from the edge.",
+        "cn": "为了使冬季大衣的合缝处压得更平服挺拔，设计师特别指定在距边缘仅两毫米处走一道极细致的定型明线。",
+        "jp": "冬用コートの縫い目を平らに落ち着かせるため、デザイナーは端から2ミリの位置に控えめなコバステッチを指定します。"
+      },
+      {
+        "fr": "Cette marque de maroquinerie de luxe mise sur la surpiqûre contrastée pour signer l'identité visuelle de ses bagages.",
+        "en": "This luxury leather goods brand relies on contrasting topstitching to sign the visual identity of its luggage.",
+        "cn": "该奢华皮具品牌依靠视觉反差鲜明的撞色外缝明线，构筑起其高档旅行箱包鲜明独特的品牌视觉标识。",
+        "jp": "その高級革製品ブランドは、自社ラゲッジの視覚的アイデンティティを確立するためにコントラストを効かせたステッチを採用しています。"
+      },
+      {
+        "fr": "Les débutants en couture peinent souvent à conserver un écartement constant lors de l'exécution d'une surpiqûre parallèle.",
+        "en": "Sewing beginners often struggle to maintain a consistent spacing when executing parallel topstitching.",
+        "cn": "初学缝纫的新手在车缝平行双轨压明线时，往往很难从头到尾平稳保持两线之间严密一致的等距间隔。",
+        "jp": "洋裁の初心者は、平行なダブルステッチを縫う際に一定の間隔を保ち続けることに苦労することがよくあります。"
+      },
+      {
+        "fr": "Un pied-de-biche compensé spécial est souvent employé pour guider la surpiqûre le long d'une bordure surélevée.",
+        "en": "A special compensating presser foot is often used to guide topstitching along a raised edge.",
+        "cn": "在工业加工中，通常借助专用高低落差补偿压脚，来精准导引机针紧贴凸起边缘车出无可挑剔的明线。",
+        "jp": "段付きの特殊な押さえ金は、高低差のある縁に沿ってトップステッチを正確にガイドするためによく使用されます。"
+      },
+      {
+        "fr": "Toute irrégularité dans la surpiqûre saute immédiatement aux yeux sur un cuir verni d'un noir profond.",
+        "en": "Any irregularity in the topstitching immediately catches the eye on deep black patent leather.",
+        "cn": "在亮面纯黑漆皮的高光映衬下，外露明线上哪怕任何一丝丝微小的歪斜不匀都会瞬间暴露无遗。",
+        "jp": "漆黒のエナメル革の上では、ステッチのわずかな乱れであっても瞬時に目についてしまいます。"
+      },
+      {
+        "fr": "La restauratrice a reproduit fidèlement la surpiqûre d'origine en utilisant un cordonnet de soie vintage teinté sur mesure.",
+        "en": "The restorer faithfully reproduced the original topstitching using vintage silk twist dyed to match.",
+        "cn": "文物纺织修复师采用定制同色仿古粗股真丝缝线，分毫不差地忠实再现了当年原汁原味的古典明线针脚。",
+        "jp": "修復師は、特別にあつらえて染色したヴィンテージの穴糸シルクを用い、当時のオリジナルの飾り縫いを忠実に再現しました。"
+      }
+    ]
+  },
+  {
+    "id": 1418,
+    "word": "Fronce",
+    "phonetique": "/fʁɔ̃s/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom féminin • courant",
+    "definition": "Pli menu, serré et régulier obtenu en tirant sur un fil passé au préalable dans le tissu.",
+    "traduction_anglais": "gather / shirring / ruffle fold",
+    "traduction_chinois": "褶裥 / 抽褶 / 细褶 (zhějiǎn / chōuzhě)",
+    "traduction_japonais": "ギャザー / 寄せひだ (gyazā / yosehida)",
+    "examples": [
+      {
+        "fr": "Les délicates fronces réunies à la taille confèrent à cette jupe en mousseline une ampleur aérienne et gracieuse.",
+        "en": "The delicate gathers gathered at the waist give this chiffon skirt an airy and graceful fullness.",
+        "cn": "在腰间细密收拢的精致抽褶，赋予了这条雪纺半身长裙如空气般轻盈灵动的曼妙飘逸摆量。",
+        "jp": "ウエストに寄せられた繊細なギャザーが、このシフォン製スカートに空気のような軽やかで優雅な広がりを与えています。"
+      },
+      {
+        "fr": "Pour réaliser des fronces bien régulières, la couturière tire doucement sur deux fils de fronce parallèles.",
+        "en": "To create very even gathers, the seamstress gently pulls on two parallel gathering threads.",
+        "cn": "为了抽拉出极其匀称工整的碎褶，裁缝轻柔而缓慢地同时抽紧两根平行预先车好的细抽褶明线。",
+        "jp": "極めて均一なギャザーを作るため、仕立て屋は2本の平行なギャザー寄せ用糸を優しくゆっくりと引っ張ります。"
+      },
+      {
+        "fr": "Cette blouse romantique du dix-neuvième siècle présente de multiples fronces serrées sur les épaules et les poignets.",
+        "en": "This nineteenth-century romantic blouse features multiple tight gathers on the shoulders and cuffs.",
+        "cn": "这件十九世纪浪漫主义风格的女式真丝衬衫，在肩头处和两只袖口上缀有层层紧凑致密的小碎褶。",
+        "jp": "19世紀のこのロマン主義風ブラウスは、肩とカフスの周りに密に寄せられた数多くの細やかなギャザーが特徴です。"
+      },
+      {
+        "fr": "La costumière de théâtre ajuste les fronces de la collerette pour lui donner son volume aristocratique d'époque.",
+        "en": "The theater costumer adjusts the gathers of the ruff collar to give it its historical aristocratic volume.",
+        "cn": "戏剧服装造型师耐心地梳理微调复古拉夫领上的圈圈环褶，以完美彰显那个时代特有的宫廷贵族气派膨度。",
+        "jp": "劇場の衣装係は、ラフカラー（ひだ襟）のギャザーを調整して当時の貴族的な立体感を再現します。"
+      },
+      {
+        "fr": "Un tissu trop raide empêcherait la formation d'une fronce souple et harmonieuse sur le corsage.",
+        "en": "Fabric that is too stiff would prevent the formation of a soft, harmonious gather on the bodice.",
+        "cn": "倘若选用的布质过于僵硬缺乏垂感，便根本无法在紧身上衣上抽拢出柔美流畅、自然起伏的优美折裥。",
+        "jp": "生地が硬すぎると、身頃の上に柔らかく調和のとれたギャザーを形成することが妨げられてしまいます。"
+      },
+      {
+        "fr": "Les rideaux du salon théâtral s'ouvrent majestueusement grâce à un jeu subtil de fronces guidées par des cordons.",
+        "en": "The theater salon curtains open majestically thanks to a subtle play of cord-guided gathers.",
+        "cn": "沙龙客厅里充满戏剧张力的高级窗帘，通过拉绳精确带动的一组组巧妙暗褶，雍容华贵地向两侧徐徐拉开。",
+        "jp": "劇場のサロンのカーテンは、引き紐によって制御されるギャザーの巧みな重なり合いにより壮大に開帳されます。"
+      },
+      {
+        "fr": "Chaque manche ballon nécessite une répartition méticuleuse des fronces autour de l'emmanchure haute.",
+        "en": "Each puff sleeve requires a meticulous distribution of gathers around the upper armhole.",
+        "cn": "每一只复古泡泡袖的缝制，都需要在手臂上方高耸的袖窿弧圈处把碎褶极其均匀地分摊推移开来。",
+        "jp": "それぞれのパフスリーブは、上部の袖ぐり周囲にギャザーを極めて入念に均等配分することを必要とします。"
+      },
+      {
+        "fr": "Le styliste utilise la fronce asymétrique pour sculpter un drapé avant-gardiste sur cette robe de gala.",
+        "en": "The stylist uses asymmetrical gathering to sculpt an avant-garde drape on this gala gown.",
+        "cn": "时装设计师巧妙借助不对称的单边抽褶手法，在整件奢华盛典晚礼服上雕塑出极具先锋艺术感的动感垂褶。",
+        "jp": "スタイリストは、この祝賀会用ドレスの上に前衛的なドレープを彫刻するため、アシンメトリーなギャザーを駆使しています。"
+      },
+      {
+        "fr": "Un fil élastique inséré dans la canette permet de coudre facilement des fronces élastiques appelées smocks.",
+        "en": "An elastic thread inserted in the bobbin makes it easy to stitch stretchy gathers known as smocking.",
+        "cn": "在缝纫机底线梭心上穿绕高弹松紧线，便能够行云流水般轻而易举地车缝出兼具弹力与美感的花式缩褶。",
+        "jp": "ボビンに弾性糸を巻き込んでセットすることで、スモッキングと呼ばれる伸縮性のあるギャザーを容易に縫い上げられます。"
+      },
+      {
+        "fr": "Sans une fixation solide à chaque extrémité, la fronce se détendrait inévitablement lors des premiers lavages.",
+        "en": "Without a solid fastening at each end, the gather would inevitably slacken during the first washes.",
+        "cn": "两端收口若是没有打上极其坚固牢靠的打结锁线回针，收拢的褶裥在经历初次水洗浸泡后必然会松弛走样。",
+        "jp": "両端に強固な留め縫いが施されていなければ、最初の数回の洗濯の際にギャザーは必然的に緩んでしまいます。"
+      }
+    ]
+  },
+  {
+    "id": 1419,
+    "word": "Ressac",
+    "phonetique": "/ʁə.sak/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "nom masculin • courant",
+    "definition": "Retour violent ou ondulant des vagues sur elles-mêmes ou contre le rivage après avoir brisé.",
+    "traduction_anglais": "undertow / backwash / surf surge",
+    "traduction_chinois": "回浪 / 碎浪退潮 / 涌浪冲撞 (huílàng / yǒnglàng)",
+    "traduction_japonais": "引き波 / 砕波の余波 / 寄せ返す波 (hikinami / yosekaesu nami)",
+    "examples": [
+      {
+        "fr": "Le ressac puissant contre les falaises de granit a inspiré à la créatrice une collection textile aux motifs ondulants.",
+        "en": "The powerful backwash against the granite cliffs inspired the designer to create a textile collection with undulating patterns.",
+        "cn": "冲撞在花岗岩险峻绝壁上的磅礴回浪碎波，启迪这位先锋设计师创作出了充满波浪翻卷灵感的全系纺织品。",
+        "jp": "花崗岩の断崖に激しくぶつかり寄せ返す引き波の力強さに触発され、デザイナーは波打つ模様のテキスタイルコレクションを構想しました。"
+      },
+      {
+        "fr": "Les promeneurs écoutent avec fascination le murmure régulier du ressac qui roule les galets sur la grève bretonne.",
+        "en": "Strollers listen with fascination to the steady murmur of the backwash rolling pebbles on the Breton shore.",
+        "cn": "漫步海滩的游人无不着迷地倾听着回流的海浪在布列塔尼海岸边卷动圆润卵石发出的阵阵节奏声响。",
+        "jp": "散歩を楽しむ人々は、ブルターニュの浜辺で小石を転がす引き波の規則正しい響きにうっとりと耳を澄ませています。"
+      },
+      {
+        "fr": "Le mouvement d'écume blanche provoqué par le ressac maritime est fidèlement reproduit par des broderies complexes.",
+        "en": "The movement of white foam caused by the marine undertow is faithfully reproduced by complex embroideries.",
+        "cn": "由海潮反复拍岸碎浪所激荡起的层层白色浪花泡沫，被一套套极尽复杂的立体手工刺绣生动地再现于布面。",
+        "jp": "海の砕波が引き返す際に引き起こす白く泡立つ波頭の動きが、複雑な刺繍によって忠実に再現されています。"
+      },
+      {
+        "fr": "Face au ressac incessant de la marée montante, les jeunes baigneurs doivent redoubler de prudence près des digues.",
+        "en": "Faced with the relentless undertow of the rising tide, young swimmers must be extra cautious near the sea walls.",
+        "cn": "面对涨潮时刻在防波堤岸边反复猛烈回旋撕扯的无情回浪，年幼的弄潮游泳者们必须加倍注意人身安全。",
+        "jp": "満ち潮がもたらす激しく絶え間ない引き波のうねりを前に、防波堤近くの若い遊泳者たちは警戒を強めなければなりません。"
+      },
+      {
+        "fr": "Ce tableau impressionniste parvient à capturer toute l'énergie dynamique et sauvage du ressac atlantique.",
+        "en": "This impressionist painting manages to capture all the wild, dynamic energy of the Atlantic surf surge.",
+        "cn": "这幅印象派旷世杰作，淋漓尽致地捕捉到了大西洋汹涌拍岸回浪中蕴含的一切狂野与奔腾不息的动能。",
+        "jp": "この印象派の絵画は、大西洋の荒波が寄せ返す際のダイナミックで野生味あふれるエネルギーのすべてを見事に捉えています。"
+      },
+      {
+        "fr": "Sous la coque du bateau amarré, le clapotis saccadé du ressac berce doucement les marins endormis dans leurs cabines.",
+        "en": "Beneath the moored boat's hull, the jerky lapping of the surf gently rocks the sailors asleep in their cabins.",
+        "cn": "在抛锚系泊的帆船船底下方，碎浪回流拍打船板发出的清脆水声，轻轻摇曳伴送着船舱中熟睡水手们的美梦。",
+        "jp": "係留された船の船底の下で、リズミカルに跳ね返る引き波のチャプチャプという水音が、船室で眠る船乗りたちを優しく揺らします。"
+      },
+      {
+        "fr": "L'érosion côtière s'accélère dangereusement sous l'assaut répété du violent ressac lors des grandes tempêtes hivernales.",
+        "en": "Coastal erosion accelerates dangerously under the repeated assault of the violent undertow during major winter storms.",
+        "cn": "在严冬狂暴飓风掀起的无情碎浪反冲拍击下，脆弱海岸线的风化与水土塌陷正呈现出危险的加剧趋势。",
+        "jp": "冬の猛烈な嵐の最中、激しい寄せ波と引き波の度重なる強襲によって、海岸浸食が危険な速度で加速しています。"
+      },
+      {
+        "fr": "Cette tenture murale en dégradés d'azur et d'argent évoque la lumière changeante captée à travers le ressac.",
+        "en": "This wall hanging in shades of azure and silver evokes the shifting light captured through the undertow.",
+        "cn": "这面以天青蓝与银白渐变丝线织就的华丽挂毯，生动传神地唤起人们对透过回卷浪花捕捉到的万千变幻光影的记忆。",
+        "jp": "紺碧とシルバーのグラデーションで織られたこの壁掛けは、砕ける引き波越しに捉えられた移ろいゆく光の戯れを想起させます。"
+      },
+      {
+        "fr": "Le plongeur expérimenté sait manœuvrer avec sang-froid pour échapper à la force centrifuge du ressac sous-marin.",
+        "en": "The experienced diver knows how to maneuver coolly to escape the centrifugal force of the underwater undertow.",
+        "cn": "经验老到资深的潜水员深知如何沉着冷静地调整浮力与姿态，以顺利逃脱水下强劲漩涡回流的向外牵拉与冲击。",
+        "jp": "熟練のダイバーは、海中の引き波が持つ強力な遠心力から抜け出すため、冷静沈着に行動する方法を熟知しています。"
+      },
+      {
+        "fr": "Dans son poème marin, l'auteur compare le flux et le ressac des passions humaines à la marée océanique.",
+        "en": "In his marine poem, the author compares the flow and surge of human passions to the oceanic tide.",
+        "cn": "在这首寄情于海的经典诗篇中，诗人将人类心底各种激情的情感起伏与退潮回浪比作浩瀚海洋的潮起潮落。",
+        "jp": "その海洋詩の中で、作者は人間の情熱の満ち引きや寄せ返す波のうねりを、広大な海洋の満ち潮と引き潮に例えています。"
+      }
+    ]
+  },
+  {
+    "id": 1420,
+    "word": "Vaporeux",
+    "phonetique": "/va.pɔ.ʁø/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "adjectif • courant",
+    "definition": "Qui a la légèreté, la translucidité ou la douceur d'une vapeur ou d'un voile diaphane.",
+    "traduction_anglais": "vaporous / wispy / diaphanous / ethereal",
+    "traduction_chinois": "朦胧的 / 飘渺轻柔的 / 薄如蝉翼的 (ménglóng de / piāomiǎo de)",
+    "traduction_japonais": "霞のような / 軽やかな / 透き通るような (kasumi no yō na / kayoraka na)",
+    "examples": [
+      {
+        "fr": "Des voiles vaporeux en mousseline de soie flottaient délicatement autour des fenêtres du palais d'été.",
+        "en": "Vaporous silk chiffon veils fluttered delicately around the windows of the summer palace.",
+        "cn": "轻柔朦胧、薄若蝉翼的真丝雪纺纱幔，在夏日行宫宽阔的拱窗周围迎着微风轻盈曼妙地飘拂。",
+        "jp": "絹のシフォンで作られた霞のように軽やかなベールが、夏の宮殿の窓の周りで繊細にはためいていました。"
+      },
+      {
+        "fr": "Cette robe de mariée séduit le public par sa traîne vaporeuse constituée de multiples couches de tulle blanc.",
+        "en": "This wedding gown seduces onlookers with its wispy train made of multiple layers of white tulle.",
+        "cn": "这袭绝美婚纱凭借其由数层洁白软薄网纱精妙叠就的如梦似幻般轻盈拖尾，深深折服了全场来宾。",
+        "jp": "このウェディングドレスは、幾重にも重ねられた白のチュールによる軽やかで幻想的な長いトレーンで観衆を魅了します。"
+      },
+      {
+        "fr": "Au lever du jour, un brouillard vaporeux enveloppait les collines toscanes dans une douce lumière dorée.",
+        "en": "At daybreak, a vaporous mist enveloped the Tuscan hills in a gentle golden light.",
+        "cn": "黎明破晓时分，一缕缕如梦如幻的轻柔薄雾将整座托斯卡纳起伏的丘陵拥裹在一片柔和安详的金色晨曦之中。",
+        "jp": "夜明けとともに、霞のような立ち込める朝霧がトスカーナのなだらかな丘陵を柔らかな金色の光で包み込みました。"
+      },
+      {
+        "fr": "Le peintre a su restituer la texture vaporeuse des nuages d'été en superposant de légers glacis translucides.",
+        "en": "The painter succeeded in rendering the vaporous texture of summer clouds by layering light, translucent glazes.",
+        "cn": "画家通过精湛地层层叠加轻薄透明的油彩罩染层，无比传神地再现了盛夏积雨云朵那种轻柔飘渺的蓬松质感。",
+        "jp": "画家は半透明の淡いグレーズ（油彩の透明層）を重ねることで、夏の入道雲の霞むような質感を完璧に再現しました。"
+      },
+      {
+        "fr": "Cette écharpe en cachemire et soie procure une sensation vaporeuse d'une douceur infinie contre la peau.",
+        "en": "This cashmere and silk scarf provides a vaporous feeling of infinite softness against the skin.",
+        "cn": "这条由顶级羊绒与天然蚕丝混纺而成的围巾，轻覆在颈间肌肤上能带给人一种无拘无束、极致轻柔温润的云朵触感。",
+        "jp": "カシミアとシルクをブレンドしたこのマフラーは、肌に対して限りなくソフトで羽のように軽やかな心地よさを与えます。"
+      },
+      {
+        "fr": "Sous les projecteurs de la scène, la danseuse semblait léviter grâce à son tutu vaporeux d'un rose poudré.",
+        "en": "Under the stage spotlights, the ballerina seemed to levitate thanks to her wispy powder-pink tutu.",
+        "cn": "在舞台璀璨聚光灯的聚焦映衬下，芭蕾舞演员身着一袭烟粉色的轻盈薄纱芭蕾短裙，宛如脱离地心引力般在空中轻盈腾跃。",
+        "jp": "ステージのスポットライトを浴びて、パウダーピンクの霞のようなチュチュをまとったバレリーナはまるで宙に浮いているかのようでした。"
+      },
+      {
+        "fr": "L'architecte d'intérieur a sélectionné un tissu vaporeux pour séparer le salon de la chambre sans bloquer la clarté naturelle.",
+        "en": "The interior designer selected a diaphanous fabric to partition the lounge from the bedroom without blocking daylight.",
+        "cn": "室内软装设计师特意遴选了一种透光飘渺的轻薄隔断纱帘，用以在绝不阻隔自然采光的前提下自然分隔客厅与卧室。",
+        "jp": "インテリアデザイナーは、自然光を遮ることなくリビングと寝室を仕切るため、透き通るように軽やかな生地を選びました。"
+      },
+      {
+        "fr": "Une chevelure longue et vaporeuse encadrait avec grâce le visage mélancolique de la jeune muse du poète.",
+        "en": "Long, wispy hair gracefully framed the melancholic face of the poet's young muse.",
+        "cn": "一头蓬松轻柔、如丝如缕的披肩长发，无比典雅温婉地映衬修饰着这位诗人年轻灵感缪斯的忧郁面庞。",
+        "jp": "ふんわりと空気を含んだ長い髪が、詩人の若きミューズの物憂げな顔立ちを優美に縁取っていました。"
+      },
+      {
+        "fr": "Les effluves vaporeux d'encens et d'ambre embaumaient subtilement les couloirs du vieux temple séculaire.",
+        "en": "Vaporous scents of incense and amber subtly perfumed the corridors of the centuries-old temple.",
+        "cn": "缕缕如烟雾般缭绕散发出的高贵沉香与温润琥珀香气，若有若无地浸润香染了整座百年古寺的长长廊道。",
+        "jp": "お香とアンバーの霞のような芳しい薫香が、何世紀もの歴史を持つ古い寺院の回廊に奥ゆかしく漂っていました。"
+      },
+      {
+        "fr": "Dans la pénombre du crépuscule, les silhouettes lointaines des bateaux prenaient une allure mystérieuse et vaporeuse.",
+        "en": "In the twilight dimness, the distant silhouettes of boats took on a mysterious and diaphanous aspect.",
+        "cn": "在夜幕低垂的苍茫暮色中，远方隐约漂浮的归航船影，渐渐显现出一种神秘幽远、如梦似雾的飘渺轮廓。",
+        "jp": "黄昏の薄明かりの中で、遠くの船のシルエットは神秘的で霞のように幻想的な佇まいを見せていました。"
+      }
+    ]
+  },
+  {
+    "id": 1421,
+    "word": "Feutré",
+    "phonetique": "/fø.tʁe/",
+    "level": "B2",
+    "theme": "Art textile & Création",
+    "type": "adjectif • courant",
+    "definition": "Qui est doux, atténué, assourdi ou discret, évoquant le contact soyeux du feutre.",
+    "traduction_anglais": "hushed / muffled / muted / felt-cushioned",
+    "traduction_chinois": "轻柔的 / 压低的 / 毛毡般的 / 静谧的 (qīngróu de / jìmì de)",
+    "traduction_japonais": "フェルト状の / 押し殺した / 物静かな (ferutojō no / monoshizuka na)",
+    "examples": [
+      {
+        "fr": "Une ambiance feutrée règne dans les salons feutrés de ce club diplomatique où l'on chuchote les secrets d'État.",
+        "en": "A hushed atmosphere reigns in the cushioned lounges of this diplomatic club where state secrets are whispered.",
+        "cn": "在这座外交沙龙俱乐部低调静谧的会客厅里，四处弥漫着一种人人窃窃私语探讨国家机密的内敛沉静氛围。",
+        "jp": "国家機密がひそやかに囁かれるこの外交クラブの物静かなサロンには、しっとりと落ち着いた雰囲気が漂っています。"
+      },
+      {
+        "fr": "Le son feutré des pas sur l'épaisse moquette de laine préserve la sérénité indispensable de la bibliothèque.",
+        "en": "The muffled sound of footsteps on the thick wool carpet preserves the essential serenity of the library.",
+        "cn": "脚步落在厚密纯羊毛地毯上所发出的那种极轻微无声的消音走步声，极好地呵护了整间国家图书馆所需的静谧肃穆。",
+        "jp": "厚手のウールじゅうたんが吸収する足音のくぐもった響きが、図書館に不可欠な静寂をしっかりと保っています。"
+      },
+      {
+        "fr": "Après une nuit de neige continue, la forêt environnante s'éveille dans un silence feutré tout à fait magique.",
+        "en": "After a night of continuous snow, the surrounding forest awakens in a completely magical, muffled silence.",
+        "cn": "经过整夜大雪纷飞的安静沉降，周遭的原生森林在一种宛如施了魔法般被消音软化的极致静谧中迎来了破晓。",
+        "jp": "一晩中降り続いた雪の後、周囲の森はまさに魔法のような吸音された静寂の中で目覚めます。"
+      },
+      {
+        "fr": "L'artisan utilise une laine feutrée très dense pour fabriquer des chaussons d'intérieur chauds et particulièrement douillets.",
+        "en": "The artisan uses a very dense fulled wool to manufacture warm and particularly cozy indoor slippers.",
+        "cn": "手艺人选用品质紧密细腻的缩绒熟羊毛毡，来精心缝制在冬天兼具极强保暖性与极佳亲肤包裹感的室内暖靴拖鞋。",
+        "jp": "職人は保温性に優れ格別に心地よい室内履きを製作するため、極めて高密度のフェルト化ウールを使用します。"
+      },
+      {
+        "fr": "Les négociations syndicales se sont déroulées dans un cadre feutré à l'abri des caméras indiscrètes des journalistes.",
+        "en": "Union negotiations took place in a hushed setting away from the prying cameras of journalists.",
+        "cn": "劳资双方关于行业协议的重大谈判是在一个高度保密低调的环境下进行的，完全回避了场外媒体记者的抓拍长焦镜头。",
+        "jp": "労働組合との交渉は、ジャーナリストたちの無遠慮なカメラから離れた極めて静粛で非公開の場で行われました。"
+      },
+      {
+        "fr": "Ce restaurant gastronomique mise sur un éclairage tamisé et une acoustique feutrée pour choyer sa clientèle d'affaires.",
+        "en": "This gourmet restaurant relies on dimmed lighting and muted acoustics to pamper its business clientele.",
+        "cn": "这家米其林高端商务餐厅依托柔和克制的暗调氛围光与出类拔萃的吸音降噪软包声学设计，来款待其尊贵的高端政商名流客群。",
+        "jp": "この高級ガストロノミーレストランは、ビジネス客をもてなすために調光された間接照明と吸音の効いた静かな音響を採用しています。"
+      },
+      {
+        "fr": "Un coup feutré du plat de la main sur la table mit fin aux échanges houleux sans susciter d'esclandre.",
+        "en": "A muffled tap with the flat of the hand on the table put an end to heated exchanges without causing a scene.",
+        "cn": "他将手掌平稳而压抑克制地轻轻按落在红木会议桌上，在丝毫没有引起任何失态争吵的情况下瞬间平息了激烈的交锋。",
+        "jp": "テーブルの上で手のひらを静かに抑えつけるような物音ひとつが、騒ぎ立てることなく白熱した議論に終止符を打ちました。"
+      },
+      {
+        "fr": "La pianiste interprète ce nocturne romantique avec un toucher feutré qui donne vie aux nuances les plus intimes.",
+        "en": "The pianist performs this romantic nocturne with a muted touch that breathes life into the most intimate nuances.",
+        "cn": "女钢琴家以一种温婉细腻、轻柔柔和的触键力度来深情演绎这首浪漫夜曲，赋予了乐曲深处所有隐秘入微的情感细节以鲜活生命。",
+        "jp": "ピアニストはこのロマン派の夜想曲を柔らかく抑えたタッチで演奏し、最も親密なニュアンスに命を吹き込みます。"
+      },
+      {
+        "fr": "Cette matière textile feutrée ne s'effiloche jamais à la découpe, ce qui facilite considérablement l'étape du patronage.",
+        "en": "This felted textile material never frays when cut, which considerably facilitates the pattern drafting step.",
+        "cn": "这种经过特殊收缩碾压工艺处理的羊毛毡织物在用锋利剪刀裁切时绝对不会散口抽丝，从而极大地方便了后期的排版制模工艺。",
+        "jp": "このフェルト加工されたテキスタイル素材は裁断時に決してほつれることがなく、型紙作成の工程を極めて容易にします。"
+      },
+      {
+        "fr": "Les diplomates chevronnés privilégient toujours les avertissements feutrés aux déclarations martiales diffusées dans la presse.",
+        "en": "Seasoned diplomats always favor understated warnings over martial declarations broadcast in the press.",
+        "cn": "久经沙场的老练资深外交官们向来倾向于在私下使用克制委婉而暗藏锋芒的外交辞令，而非在主流媒体上公开发表咄咄逼人的强硬战狼式挑衅。",
+        "jp": "経験豊かな外交官たちは、報道機関を通じて流される好戦的な声明よりも、常に控えめで含みを持たせた警告を好みます。"
+      }
+    ]
   }
 ];
-
-
-
-
-
-

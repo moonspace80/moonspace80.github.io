@@ -1,6 +1,6 @@
 window.vocab_C2_Dataset = [
   {
-    "id": 1376,
+    "id": 1448,
     "word": "Heuristique",
     "phonetique": "/ø.ʁis.tik/",
     "level": "C2",
@@ -74,7 +74,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1377,
+    "id": 1449,
     "word": "Paradigme",
     "phonetique": "/pa.ʁa.diɡm/",
     "level": "C2",
@@ -148,7 +148,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1378,
+    "id": 1450,
     "word": "Incommensurabilité",
     "phonetique": "/ɛ̃.kɔ.mɑ̃.sy.ʁa.bi.li.te/",
     "level": "C2",
@@ -222,7 +222,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1379,
+    "id": 1451,
     "word": "Téléologie",
     "phonetique": "/te.le.ɔ.lɔ.ʒi/",
     "level": "C2",
@@ -296,7 +296,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1380,
+    "id": 1452,
     "word": "Herméneutique",
     "phonetique": "/ɛʁ.me.nø.tik/",
     "level": "C2",
@@ -370,7 +370,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1381,
+    "id": 1453,
     "word": "Isomorphisme",
     "phonetique": "/i.zɔ.mɔʁ.fism/",
     "level": "C2",
@@ -444,7 +444,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1382,
+    "id": 1454,
     "word": "Immanence",
     "phonetique": "/i.ma.nɑ̃s/",
     "level": "C2",
@@ -518,7 +518,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1383,
+    "id": 1455,
     "word": "Transcendance",
     "phonetique": "/tʁɑ̃.sɑ̃.dɑ̃s/",
     "level": "C2",
@@ -592,7 +592,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1384,
+    "id": 1456,
     "word": "Axiologie",
     "phonetique": "/ak.sjɔ.lɔ.ʒi/",
     "level": "C2",
@@ -666,7 +666,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1385,
+    "id": 1457,
     "word": "Aporétique",
     "phonetique": "/a.pɔ.ʁe.tik/",
     "level": "C2",
@@ -740,7 +740,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1386,
+    "id": 1458,
     "word": "Démiurge",
     "phonetique": "/de.mjuʁʒ/",
     "level": "C2",
@@ -814,7 +814,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1387,
+    "id": 1459,
     "word": "Ontologique",
     "phonetique": "/ɔ̃.tɔ.lɔ.ʒik/",
     "level": "C2",
@@ -888,7 +888,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1388,
+    "id": 1460,
     "word": "Ataraxie",
     "phonetique": "/a.ta.ʁak.si/",
     "level": "C2",
@@ -962,7 +962,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1389,
+    "id": 1461,
     "word": "Supranationalité",
     "phonetique": "/sy.pʁa.na.sjɔ.na.li.te/",
     "level": "C2",
@@ -1036,7 +1036,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1390,
+    "id": 1462,
     "word": "Péréquation",
     "phonetique": "/pe.ʁe.kwa.sjɔ̃/",
     "level": "C2",
@@ -1110,7 +1110,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1391,
+    "id": 1463,
     "word": "Prérogative",
     "phonetique": "/pʁe.ʁɔ.ɡa.tiv/",
     "level": "C2",
@@ -1184,7 +1184,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1392,
+    "id": 1464,
     "word": "Forclusion",
     "phonetique": "/fɔʁ.kly.zjɔ̃/",
     "level": "C2",
@@ -1258,7 +1258,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1393,
+    "id": 1465,
     "word": "Hégémonie",
     "phonetique": "/e.ʒe.mɔ.ni/",
     "level": "C2",
@@ -1332,7 +1332,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1394,
+    "id": 1466,
     "word": "Inaliénable",
     "phonetique": "/i.na.lje.nabl/",
     "level": "C2",
@@ -1406,7 +1406,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1395,
+    "id": 1467,
     "word": "Subsidiarité",
     "phonetique": "/syp.si.dja.ʁi.te/",
     "level": "C2",
@@ -1480,7 +1480,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1396,
+    "id": 1468,
     "word": "Pénurie",
     "phonetique": "/pe.ny.ʁi/",
     "level": "C2",
@@ -1554,7 +1554,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1397,
+    "id": 1469,
     "word": "Oligopole",
     "phonetique": "/ɔ.li.ɡɔ.pɔl/",
     "level": "C2",
@@ -1628,7 +1628,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1398,
+    "id": 1470,
     "word": "Monopsone",
     "phonetique": "/mɔ.nɔp.sɔn/",
     "level": "C2",
@@ -1702,7 +1702,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1399,
+    "id": 1471,
     "word": "Externalité",
     "phonetique": "/ɛk.stɛʁ.na.li.te/",
     "level": "C2",
@@ -1776,7 +1776,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1400,
+    "id": 1472,
     "word": "Fongibilité",
     "phonetique": "/fɔ̃.ʒi.bi.li.te/",
     "level": "C2",
@@ -1850,7 +1850,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1401,
+    "id": 1473,
     "word": "Asymétrie",
     "phonetique": "/a.si.me.tʁi/",
     "level": "C2",
@@ -1924,7 +1924,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1402,
+    "id": 1474,
     "word": "Anomie",
     "phonetique": "/a.nɔ.mi/",
     "level": "C2",
@@ -1998,7 +1998,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1403,
+    "id": 1475,
     "word": "Habitus",
     "phonetique": "/a.bi.tys/",
     "level": "C2",
@@ -2072,7 +2072,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1404,
+    "id": 1476,
     "word": "Endogamie",
     "phonetique": "/ɑ̃.dɔ.ɡa.mi/",
     "level": "C2",
@@ -2146,7 +2146,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1405,
+    "id": 1477,
     "word": "Ostentation",
     "phonetique": "/ɔs.tɑ̃.ta.sjɔ̃/",
     "level": "C2",
@@ -2220,7 +2220,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1406,
+    "id": 1478,
     "word": "Grégarisme",
     "phonetique": "/ɡʁe.ɡa.ʁism/",
     "level": "C2",
@@ -2294,7 +2294,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1407,
+    "id": 1479,
     "word": "Résilience",
     "phonetique": "/ʁe.zi.ljɑ̃s/",
     "level": "C2",
@@ -2368,7 +2368,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1408,
+    "id": 1480,
     "word": "Anthropocène",
     "phonetique": "/ɑ̃.tʁɔ.pɔ.sɛn/",
     "level": "C2",
@@ -2442,7 +2442,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1409,
+    "id": 1481,
     "word": "Biocénose",
     "phonetique": "/bjɔ.se.noz/",
     "level": "C2",
@@ -2516,7 +2516,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1410,
+    "id": 1482,
     "word": "Frugalité",
     "phonetique": "/fʁy.ɡa.li.te/",
     "level": "C2",
@@ -2590,7 +2590,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1411,
+    "id": 1483,
     "word": "Holistique",
     "phonetique": "/ɔ.lis.tik/",
     "level": "C2",
@@ -2664,7 +2664,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1412,
+    "id": 1484,
     "word": "Pérégrination",
     "phonetique": "/pe.ʁe.ɡʁi.na.sjɔ̃/",
     "level": "C2",
@@ -2738,7 +2738,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1413,
+    "id": 1485,
     "word": "Euphémisme",
     "phonetique": "/ø.fe.mism/",
     "level": "C2",
@@ -2812,7 +2812,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1414,
+    "id": 1486,
     "word": "Prétérition",
     "phonetique": "/pʁe.te.ʁi.sjɔ̃/",
     "level": "C2",
@@ -2886,7 +2886,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1415,
+    "id": 1487,
     "word": "Amphigouri",
     "phonetique": "/ɑ̃.fi.ɡu.ʁi/",
     "level": "C2",
@@ -2960,7 +2960,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1416,
+    "id": 1488,
     "word": "Synecdoque",
     "phonetique": "/si.nɛk.dɔk/",
     "level": "C2",
@@ -3034,7 +3034,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1417,
+    "id": 1489,
     "word": "Antanaclase",
     "phonetique": "/ɑ̃.ta.na.klaz/",
     "level": "C2",
@@ -3108,7 +3108,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1418,
+    "id": 1490,
     "word": "Cognition",
     "phonetique": "/kɔɡ.ni.sjɔ̃/",
     "level": "C2",
@@ -3182,7 +3182,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1419,
+    "id": 1491,
     "word": "Procrastination",
     "phonetique": "/pʁɔ.kʁas.ti.na.sjɔ̃/",
     "level": "C2",
@@ -3256,7 +3256,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1420,
+    "id": 1492,
     "word": "Solipsisme",
     "phonetique": "/sɔ.lip.sism/",
     "level": "C2",
@@ -3330,7 +3330,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1421,
+    "id": 1493,
     "word": "Catharsis",
     "phonetique": "/ka.taʁ.sis/",
     "level": "C2",
@@ -3404,7 +3404,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1422,
+    "id": 1494,
     "word": "Aphasie",
     "phonetique": "/a.fa.zi/",
     "level": "C2",
@@ -3478,7 +3478,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1423,
+    "id": 1495,
     "word": "Subsumer",
     "phonetique": "/syb.sy.me/",
     "level": "C2",
@@ -3552,7 +3552,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1424,
+    "id": 1496,
     "word": "Transgresser",
     "phonetique": "/tʁɑ̃s.ɡʁe.se/",
     "level": "C2",
@@ -3626,7 +3626,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1425,
+    "id": 1497,
     "word": "Exacerber",
     "phonetique": "/ɛɡ.za.sɛʁ.be/",
     "level": "C2",
@@ -3700,7 +3700,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1426,
+    "id": 1498,
     "word": "Obvier",
     "phonetique": "/ɔb.vje/",
     "level": "C2",
@@ -3774,7 +3774,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1427,
+    "id": 1499,
     "word": "Circonscrire",
     "phonetique": "/siʁ.kɔ̃s.kʁiʁ/",
     "level": "C2",
@@ -3848,7 +3848,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1428,
+    "id": 1500,
     "word": "Élucider",
     "phonetique": "/e.ly.si.de/",
     "level": "C2",
@@ -3922,7 +3922,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1429,
+    "id": 1501,
     "word": "Corroborer",
     "phonetique": "/kɔ.ʁɔ.bɔ.ʁe/",
     "level": "C2",
@@ -3996,7 +3996,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1430,
+    "id": 1502,
     "word": "Ubiquitaire",
     "phonetique": "/y.bi.kɥi.tɛʁ/",
     "level": "C2",
@@ -4070,7 +4070,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1431,
+    "id": 1503,
     "word": "Périlleux",
     "phonetique": "/pe.ʁi.jø/",
     "level": "C2",
@@ -4144,7 +4144,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1432,
+    "id": 1504,
     "word": "Inextricable",
     "phonetique": "/i.nɛk.stʁi.kabl/",
     "level": "C2",
@@ -4218,7 +4218,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1433,
+    "id": 1505,
     "word": "Inadvertance",
     "phonetique": "/i.nad.vɛʁ.tɑ̃s/",
     "level": "C2",
@@ -4292,7 +4292,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1434,
+    "id": 1506,
     "word": "Subrepticement",
     "phonetique": "/sy.bʁɛp.tis.mɑ̃/",
     "level": "C2",
@@ -4366,7 +4366,7 @@ window.vocab_C2_Dataset = [
     ]
   },
   {
-    "id": 1435,
+    "id": 1507,
     "word": "Irrémédiablement",
     "phonetique": "/i.ʁe.me.djabl.mɑ̃/",
     "level": "C2",
@@ -4440,6 +4440,3 @@ window.vocab_C2_Dataset = [
     ]
   }
 ];
-
-
-

@@ -414,6 +414,7 @@ class GrammarModule {
 
   selectTopic(index) {
     if (index < 0 || index >= this.filteredDataset.length) return;
+    this.stopAudio();
     this.currentTopicIndex = index;
     this.currentQuestionIdx = 0;
     this.currentLessonAnswers = {};
@@ -822,7 +823,7 @@ class GrammarModule {
   }
 
   /* ------------------------------------------------------------------------
-     SYNTHÈSE VOCALE (TTS)
+     SYNTHÈSE VOCALE (TTS) AVEC PAUSES ET DÉVELOPPEMENT DES ABRÉVIATIONS
      ------------------------------------------------------------------------ */
   speakPrompt(questionIdx) {
     const topic = this.filteredDataset[this.currentTopicIndex];
@@ -856,33 +857,96 @@ class GrammarModule {
     this.speakText(fullRuleText);
   }
 
-  speakText(text) {
-    if (!text) return;
-    const clean = text.replace(/<[^>]*>?/gm, ' ').replace(/_{2,}/g, ' ').replace(/[()]/g, '').replace(/\s+/g, ' ').trim();
-    if (!clean) return;
+  /**
+   * Nettoie et prépare le texte grammatical pour la synthèse vocale :
+   * 1. Remplacement des abréviations :
+   *    - "masc." -> "masculin"
+   *    - "sing." -> "singulier"
+   *    - "plur." -> "pluriel"
+   *    - "fém." -> "féminin"
+   * 2. Découpage en segments aux ponctuations spécifiées :
+   *    - "(", ")", ":", " '", "!", ",", ";"
+   *    afin de marquer une courte pause de 0,8 seconde entre chaque segment.
+   */
+  prepareGrammarSpeechSegments(text) {
+    if (!text) return [];
 
-    // Prioritize Kokoro Neural TTS Engine
+    let s = text
+      .replace(/<[^>]*>?/gm, ' ')
+      .replace(/_{2,}/g, ' ')
+      .replace(/Ex\s*:\s*/gi, 'Par exemple : ');
+
+    // Substitutions grammaticales
+    s = s.replace(/\bmasc\./gi, 'masculin');
+    s = s.replace(/\bfém\./gi, 'féminin');
+    s = s.replace(/\bsing\./gi, 'singulier');
+    s = s.replace(/\bplur\./gi, 'pluriel');
+
+    // Token de pause pour les séparateurs demandés : (, ), :, !, ,, ;, ainsi que ' isolé ou précédé d'un espace
+    const pauseToken = '___PAUSE_0_8___';
+    s = s.replace(/[\(\):!;,]/g, ' ' + pauseToken + ' ');
+    s = s.replace(/(?:^|\s)'(?:\s|$)/g, ' ' + pauseToken + ' ');
+
+    const rawSegments = s.split(pauseToken);
+    return rawSegments
+      .map(seg => seg.replace(/\s+/g, ' ').trim())
+      .filter(seg => seg.length > 0);
+  }
+
+  async speakText(text) {
+    if (!text) return;
+
+    // Arrêter toute lecture précédente
+    this.stopAudio();
+
+    const segments = this.prepareGrammarSpeechSegments(text);
+    if (segments.length === 0) return;
+
+    // Identifiant de session d'écoute pour pouvoir interrompre proprement si l'utilisateur change ou clique stop
+    const currentAudioId = Symbol('grammar_audio_session');
+    this._activeAudioSession = currentAudioId;
+
     const tts = window.kokoroTTS || window.aiTTS || window.ttsEngine;
-    if (tts && typeof tts.speak === 'function') {
-      tts.speak(clean, { rate: 0.95 });
-      return;
+
+    for (let i = 0; i < segments.length; i++) {
+      if (this._activeAudioSession !== currentAudioId) break;
+
+      const seg = segments[i];
+
+      // Lecture du segment
+      if (tts && typeof tts.speak === 'function') {
+        await tts.speak(seg, { rate: 0.95 });
+      } else if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis) {
+        await new Promise((resolve) => {
+          try {
+            window.speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(seg);
+            u.lang = 'fr-FR';
+            u.rate = 0.92;
+            u.onend = () => resolve();
+            u.onerror = () => resolve();
+            window.speechSynthesis.speak(u);
+          } catch (e) {
+            resolve();
+          }
+        });
+      }
+
+      if (this._activeAudioSession !== currentAudioId) break;
+
+      // Courte pause de 0,8 seconde entre chaque segment (si ce n'est pas le dernier)
+      if (i < segments.length - 1) {
+        await new Promise((resolve) => setTimeout(resolve, 800));
+      }
     }
 
-    // Native Web Speech Fallback
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis && typeof window.speechSynthesis.speak === 'function') {
-      try {
-        window.speechSynthesis.cancel();
-        const u = new SpeechSynthesisUtterance(clean);
-        u.lang = 'fr-FR';
-        u.rate = 0.92;
-        window.speechSynthesis.speak(u);
-      } catch (e) {
-        console.warn('Synthèse vocale Web Speech non disponible:', e);
-      }
+    if (this._activeAudioSession === currentAudioId) {
+      this._activeAudioSession = null;
     }
   }
 
   stopAudio() {
+    this._activeAudioSession = null;
     const tts = window.kokoroTTS || window.aiTTS || window.ttsEngine;
     if (tts && typeof tts.stop === 'function') {
       tts.stop();

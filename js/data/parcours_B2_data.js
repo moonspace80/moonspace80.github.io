@@ -1396,81 +1396,470 @@ window.parcours_B2_Dataset = [
     "chapterId": "chap_34",
     "chapterNumber": 34,
     "chapterTitle": "Chapitre 34 : Arts, patrimoine et création",
-    "chapterSubtitle": "芸術・文化遺産・創作 — 艺术遗产与创作",
+    "chapterSubtitle": "芸術・文化遺産・創作 — 探索・理解・保存",
     "level": "B2",
     "year": 3,
-    "icon": "theater_comedy",
+    "icon": "account_balance",
     "color": "#2E6171",
     "quests": [
       {
         "id": "quest_ch_34",
         "title": "Arts, patrimoine et création : Analyse & Débats",
         "level": "B2",
-        "icon": "theater_comedy",
-        "xp": 118,
-        "description": "Maîtriser les enjeux, le lexique et la syntaxe de « Arts, patrimoine et création » (B2).",
+        "icon": "account_balance",
+        "xp": 250,
+        "description": "Explorer la richesse du patrimoine vivant, les Journées européennes du patrimoine, l'immersion audiovisuelle médiatique, l'analyse institutionnelle et la maîtrise stylistique et argumentative.",
         "steps": [
           {
             "type": "vocab_drill",
-            "title": "1. Lexique Fondamental (B2)",
+            "title": "Étape 1 : Vocabulaire fondamental du patrimoine et de la conservation",
             "words": [
               "Patrimoine",
-              "Conservation",
-              "Exposition",
-              "Création"
+              "Préservation",
+              "Transmission",
+              "Séculaire"
             ],
             "details": [
               {
                 "word": "Patrimoine",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Arts, patrimoine et création » au niveau B2.",
-                "example": "Dans l'analyse de « Arts, patrimoine et création », la notion de « patrimoine » est centrale."
+                "type": "n. m.",
+                "def": "Ensemble des biens matériels ou immatériels, naturels ou bâtis, légués par les générations passées et protégés pour les générations futures.",
+                "example": "Les Journées européennes du patrimoine mobilisent des millions de citoyens autour de monuments historiques séculaires."
               },
               {
-                "word": "Conservation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Arts, patrimoine et création » au niveau B2.",
-                "example": "Dans l'analyse de « Arts, patrimoine et création », la notion de « conservation » est centrale."
+                "word": "Préservation",
+                "type": "n. f.",
+                "def": "Action de protéger un bien contre la dégradation, la destruction ou l'oubli.",
+                "example": "La préservation des édifices ruraux et industriels réclame des financements durables et un savoir-faire artisanal rare."
               },
               {
-                "word": "Exposition",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Arts, patrimoine et création » au niveau B2.",
-                "example": "Dans l'analyse de « Arts, patrimoine et création », la notion de « exposition » est centrale."
+                "word": "Transmission",
+                "type": "n. f.",
+                "def": "Fait de léguer un savoir, une mémoire ou une culture d'une génération à une autre.",
+                "example": "La transmission du patrimoine vivant s'enracine dans la sensibilisation précoce des publics scolaires."
               },
               {
-                "word": "Création",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Arts, patrimoine et création » au niveau B2.",
-                "example": "Dans l'analyse de « Arts, patrimoine et création », la notion de « création » est centrale."
+                "word": "Séculaire",
+                "type": "adj.",
+                "def": "Qui existe depuis un ou plusieurs siècles, très ancien et imprégné d'histoire.",
+                "example": "Cette abbaye séculaire ouvre ses cloîtres aux visiteurs afin de dévoiler ses archives manuscrites."
               }
             ]
           },
           {
+            "type": "vocab_drill",
+            "title": "Étape 2 : Terminologie de la valorisation et des métiers d'art",
+            "words": [
+              "Mécénat",
+              "Restauration",
+              "Muséographie",
+              "Médiation"
+            ],
+            "details": [
+              {
+                "word": "Mécénat",
+                "type": "n. m.",
+                "def": "Soutien financier, humain ou matériel apporté sans contrepartie directe à une œuvre culturelle ou patrimoniale.",
+                "example": "Le mécénat d'entreprises locales permet de financer la réhabilitation de lavoirs et de ponts anciens."
+              },
+              {
+                "word": "Restauration",
+                "type": "n. f.",
+                "def": "Remise en état minutieuse d'une œuvre d'art ou d'un monument selon des règles déontologiques strictes.",
+                "example": "La restauration de fresques médiévales exige le respect des pigments d'origine et de la réversibilité des gestes."
+              },
+              {
+                "word": "Muséographie",
+                "type": "n. f.",
+                "def": "Art et technique d'aménager, concevoir et organiser un musée ou un espace d'exposition pour le public.",
+                "example": "Une muséographie immersive privilégie les maquettes tactiles et les parcours interactifs sonores."
+              },
+              {
+                "word": "Médiation",
+                "type": "n. f.",
+                "def": "Dispositif humain ou pédagogique facilitant la rencontre entre le public et une œuvre ou un site historique.",
+                "example": "Les visites guidées théâtralisées représentent une médiation culturelle appréciée de tous les publics."
+              }
+            ]
+          },
+          {
+            "type": "vocab_drill",
+            "title": "Étape 3 : Vocabulaire de l'action publique et de la démocratisation culturelle",
+            "words": [
+              "Inaliénable",
+              "Désenclavement",
+              "Concertation",
+              "Rayonnement"
+            ],
+            "details": [
+              {
+                "word": "Inaliénable",
+                "type": "adj.",
+                "def": "Dont la propriété ne peut être cédée, vendue ou transmise à autrui (principe fondamental du patrimoine public).",
+                "example": "Les collections des musées nationaux français bénéficient d'un statut juridique inaliénable et imprescriptible."
+              },
+              {
+                "word": "Désenclavement",
+                "type": "n. m.",
+                "def": "Action de sortir une zone ou un territoire de son isolement culturel ou géographique.",
+                "example": "Ouvrir des sites remarquables dans les zones rurales participe au désenclavement culturel de ces contrées."
+              },
+              {
+                "word": "Concertation",
+                "type": "n. f.",
+                "def": "Pratique consistant à débattre et construire un projet collectif entre élus, riverains et experts.",
+                "example": "La réhabilitation du quartier historique a fait l'objet d'une large concertation citoyenne."
+              },
+              {
+                "word": "Rayonnement",
+                "type": "n. m.",
+                "def": "Diffusion étendue de l'influence, du prestige artistique ou de l'attractivité d'un site ou d'une nation.",
+                "example": "Le rayonnement culturel de la France s'appuie sur la vitalité de ses festivals et de ses monuments emblématiques."
+              }
+            ]
+          },
+          {
+            "type": "vocab_drill",
+            "title": "Étape 4 : Nuances stylistiques de l'observation et du témoignage historique",
+            "words": [
+              "Vestige",
+              "Vénérable",
+              "Fécondité",
+              "Péril"
+            ],
+            "details": [
+              {
+                "word": "Vestige",
+                "type": "n. m.",
+                "def": "Trace visible, ruine ou reste laissé par une époque révolue ou une civilisation disparue.",
+                "example": "Les vestiges d'un aqueduc gallo-romain témoignent de l'ingéniosité des bâtisseurs antiques."
+              },
+              {
+                "word": "Vénérable",
+                "type": "adj.",
+                "def": "Digne d'un profond respect en raison de son grand âge, de son histoire ou de sa sainteté.",
+                "example": "Les visiteurs pénètrent sous la vénérable nef de la cathédrale avec une vive émotion."
+              },
+              {
+                "word": "Fécondité",
+                "type": "n. f.",
+                "def": "Capacité à produire en abondance, richesse créatrice et source intarissable d'inspiration.",
+                "example": "Le dialogue entre architecture moderne et bâti ancien prouve la fécondité perpétuelle de la création."
+              },
+              {
+                "word": "Péril",
+                "type": "n. m.",
+                "def": "Danger grave et imminent menaçant la survie ou l'intégrité de personnes ou de biens précieux.",
+                "example": "Le loto du patrimoine a été institué pour sauvegarder en urgence les chefs-d'œuvre en péril."
+              }
+            ]
+          },
+          {
+            "type": "lesson",
+            "title": "Étape 5 : 🎥 Immersion médiatique — « Heritage Days: 28,000 sites open to the public » (France 24)",
+            "youtubeId": "bsd93dcPFY4",
+            "content": "**Regard médiatique international sur le patrimoine français**\n\nChaque année au mois de septembre, la France et l'Europe célèbrent les Journées européennes du patrimoine. À cette occasion, plus de 28 000 événements et 17 000 monuments historiques ouvrent leurs portes aux visiteurs, des palais de la République aux manufactures industrielles et aux chapelles isolées.\n\nDans ce reportage et plateau d'analyse diffusé par la chaîne internationale **France 24**, les journalistes reçoivent **Maria Gravari-Barbas**, directrice de la chaire UNESCO « Culture, Tourisme, Développement » à l'Université Paris 1 Panthéon-Sorbonne.\n\n---\n\n**Consignes d'écoute et d'immersion linguistique :**\n1. Lancez la vidéo intégrée ci-dessus.\n2. Activez immédiatement les **sous-titres en français** (bouton *[CC]* ou roue dentée ⚙️) pour développer l'association phonie-graphie et repérer le vocabulaire institutionnel en temps réel.\n3. Observez les axes abordés :\n   - L'incroyable engouement populaire et citoyen pour des lieux d'ordinaire inaccessibles (ministères, ambassades, ateliers d'artisans d'art).\n   - L'élargissement de la notion même de patrimoine : loin de se limiter aux cathédrales et châteaux royaux, le regard contemporain englobe désormais le patrimoine ferroviaire, industriel, rural et agricole.\n   - Les défis contemporains : la délicate conciliation entre l'afflux massif de touristes et la préservation matérielle des sites fragiles.\n   - La question cruciale des financements publics et privés face aux coûts d'entretien du bâti."
+          },
+          {
             "type": "quiz_drill",
-            "title": "2. Défi de Syntaxe & Discours",
-            "question": "Dans un essai argumenté B2 sur « Arts, patrimoine et création », quelle phrase articule le mieux une concession ?",
+            "title": "Étape 6 : 🎧 Compréhension audiovisuelle — Analyse de l'émission France 24",
+            "question": "D'après les analyses développées dans l'émission de France 24 avec la spécialiste de l'UNESCO, quelle transformation majeure caractérise la conception contemporaine du patrimoine ?",
             "options": [
-              "« Si cette approche présente des atouts certains, il convient néanmoins de mesurer ses impacts sur le long terme. »",
-              "« Cette approche est absolument parfaite et nul ne saurait la critiquer. »",
-              "« C'est une idée qui pose trop de problèmes sans intérêt constructif. »",
-              "« Les détracteurs ont tort sur tous les points évoqués. »"
+              "Le patrimoine s'est réduit exclusivement aux grands palais royaux et aux chefs-d'œuvre de la Renaissance pour des raisons budgétaires.",
+              "Le concept de patrimoine s'est considérablement élargi pour englober le patrimoine industriel, les sites ruraux et les mémoires ouvrières du quotidien.",
+              "L'événement a été entièrement privatisé et réservé à des délégations diplomatiques étrangères triées sur le volet.",
+              "Les technologies numériques ont rendu inutile l'ouverture physique des édifices historiques au public."
+            ],
+            "correctIndex": 1,
+            "explanation": "Comme le souligne l'experte de l'UNESCO dans le reportage, la notion de patrimoine a connu une démocratisation majeure : elle ne se cantonne plus aux seuls monuments aristocratiques, mais intègre les usines, gares, fermes et savoir-faire populaires."
+          },
+          {
+            "type": "lesson",
+            "title": "Étape 7 : 📜 Document officiel — Communiqué du Ministère de la Culture : « Explorer, comprendre et préserver »",
+            "content": "**RÉPUBLIQUE FRANÇAISE — MINISTÈRE DE LA CULTURE**\n*Communiqué de presse officiel — Les Journées européennes du patrimoine*\n\nPlacée sous le haut patronage du Conseil de l'Europe et de la Commission européenne, la 43e édition des Journées européennes du patrimoine s'articule autour du thème fédérateur : **« Explorer, comprendre et préserver »**.\n\n**1. Une impulsion républicaine pour la mémoire partagée**\nCréées en 1984 sous l’impulsion visionnaire de Jack Lang sous le titre originel de « Journées Portes ouvertes des monuments historiques », ces journées incarnent la volonté de faire de la culture un bien commun inaliénable. Elles offrent à chaque citoyen l'opportunité d'explorer l'histoire inscrite dans la pierre, les paysages et les savoir-faire.\n\n**2. Une triple démarche citoyenne : « Explorer, comprendre et préserver »**\n- **Explorer** : Découvrir des lieux remarquables, des édifices privés d'ordinaire clos, des trésors cachés au cœur des métropoles comme au sein des terroirs ruraux.\n- **Comprendre** : Saisir les mutations architecturales, appréhender l'histoire des sociétés par leurs traces matérielles et mesurer la complexité des défis de restauration.\n- **Préserver** : Sensibiliser l'ensemble de la collectivité nationale à la fragilité du legs patrimonial face aux aléas climatiques, à la pollution et à l'épreuve du temps.\n\n**3. Coordination territoriale et résonance européenne**\nOrchestrées par la Direction générale des patrimoines et de l'architecture, et déclinées sur le terrain par les Directions régionales des affaires culturelles (DRAC), ces journées rappellent que la sauvegarde de notre héritage culturel constitue une responsabilité partagée entre l'État, les collectivités territoriales, les associations et les passionnés bénévoles."
+          },
+          {
+            "type": "lesson",
+            "title": "Étape 8 : 🏛️ Synthèse institutionnelle — Les données clés du portail journeesdupatrimoine.culture.gouv.fr",
+            "content": "**Les repères essentiels du portail officiel (journeesdupatrimoine.culture.gouv.fr)**\n\nL'analyse des ressources documentaires du Ministère de la Culture met en lumière des dispositifs institutionnels et des chiffres clés indispensables pour comprendre la politique culturelle française :\n\n**1. Le dispositif précurseur : « Levez les yeux ! »**\nInaugurée le vendredi qui précède le week-end des Journées du patrimoine, l'opération nationale **« Levez les yeux ! »** est co-organisée avec le ministère de l'Éducation nationale. Elle réserve cette journée aux élèves, de la maternelle au lycée, guidés par leurs enseignants à la découverte des richesses architecturales et artistiques de leur cadre de vie direct.\n\n**2. Chiffres clés et envergure nationale :**\n- **17 000 monuments et sites** ouverts chaque automne en métropole et dans les territoires d'outre-mer.\n- **Plus de 28 000 animations proposées** : visites guidées, circuits insolites, concerts patrimoniaux, démonstrations par des compagnons tailleurs de pierre et artisans d'art.\n- **Près de 12 millions de visites enregistrées** sur un seul week-end, faisant de ces journées la première manifestation culturelle de France.\n\n**3. Les nouveaux leviers de sauvegarde citoyenne :**\n- **La Mission Patrimoine (Loto du patrimoine)** : création d'un fonds de dotation alimenté par les jeux de tirage pour restaurer les sites menacés de disparition.\n- **L'éco-rénovation patrimoniale** : concilier performance thermique du bâti ancien et respect absolu de l'authenticité des matériaux ancestraux."
+          },
+          {
+            "type": "lesson",
+            "title": "Étape 9 : 📖 Texte intégral — Les Métamorphoses du patrimoine à l'ère contemporaine",
+            "audioText": "Le patrimoine culturel d'une nation ne saurait se réduire à un inventaire figé de vieilles pierres et de reliques immobiles. Loin d'être un simple conservatoire du passé, il constitue un organisme vivant, un carrefour où dialoguent la mémoire collective, la création contemporaine et l'engagement citoyen. Longtemps confiné aux palais des souverains et aux nefs des grandes cathédrales, le regard porté sur l'héritage historique s'est profondément démocratisé au fil des décennies. Aujourd'hui, une friche industrielle réhabilitée en tiers-lieu créatif ou un lavoir de village restauré par des bénévoles suscitent la même ferveur qu'un grand musée national. Cette mutation témoigne d'une prise de conscience essentielle : le patrimoine tire sa valeur du lien humain qu'il tisse entre les générations. Pour autant, cette ferveur populaire pose d'inédits défis écologiques et financiers. Comment concilier l'afflux massif de touristes et la préservation matérielle d'édifices fragilisés par le temps ? La réponse réside dans une médiation exigeante et un mécénat responsable. En apprenant à explorer, comprendre et transmettre ces trésors partagés, chaque citoyen devient le gardien vigilant d'un bien commun inaliénable.",
+            "content": "**Les Métamorphoses du patrimoine : De la mémoire sacralisée au bien commun citoyen**\n\nLe patrimoine culturel d'une nation ne saurait se réduire à un inventaire figé de vieilles pierres et de reliques immobiles. Loin d'être un simple conservatoire du passé, il constitue un organisme vivant, un carrefour où dialoguent la mémoire collective, la création contemporaine et l'engagement citoyen.\n\nLongtemps confiné aux palais des souverains et aux nefs des grandes cathédrales, le regard porté sur l'héritage historique s'est profondément démocratisé au fil des décennies. Aujourd'hui, une friche industrielle réhabilitée en tiers-lieu créatif ou un lavoir de village restauré par des bénévoles suscitent la même ferveur qu'un grand musée national. Cette mutation témoigne d'une prise de conscience essentielle : le patrimoine tire sa valeur du lien humain qu'il tisse entre les générations.\n\nPour autant, cette ferveur populaire pose d'inédits défis écologiques et financiers. Comment concilier l'afflux massif de touristes et la préservation matérielle d'édifices fragilisés par le temps ? La réponse réside dans une médiation exigeante et un mécénat responsable. En apprenant à explorer, comprendre et transmettre ces trésors partagés, chaque citoyen devient le gardien vigilant d'un bien commun inaliénable.\n\n---\n\n**Axe d'analyse thématique et stylistique :**\n- **Désacralisation et démocratisation** : Passage d'un patrimoine aristocratique exclusif vers un patrimoine territorial ouvert à la diversité sociétale.\n- **Tension dialectique** : Attractivité touristique de masse face aux impératifs scientifiques de conservation pérenne.\n- **Rôle civique du patrimoine** : Facteur de cohésion républicaine, de transmission intergénérationnelle et d'éveil artistique."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 10 : Compréhension globale de l'article de fond",
+            "question": "D'après le texte de réflexion, quelle est la thèse principale défendue par l'auteur concernant la nature du patrimoine ?",
+            "options": [
+              "Le patrimoine doit rester figé dans son état d'origine sans jamais tolérer de visite publique ni de modernité.",
+              "Le patrimoine est avant tout une source de rentabilité financière exclusive pour les agences touristiques privées.",
+              "Le patrimoine est un organisme vivant et un lien humain qui dépasse le simple inventaire de reliques du passé.",
+              "Seuls les palais et les cathédrales méritent l'attention et les financements publics de l'État."
+            ],
+            "correctIndex": 2,
+            "explanation": "L'auteur affirme que le patrimoine « ne saurait se réduire à un inventaire figé » mais constitue « un organisme vivant » puisant sa vraie valeur dans le lien humain qu'il tisse entre les générations."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 11 : Analyse du dispositif scolaire « Levez les yeux ! »",
+            "question": "Quelle est la visée pédagogique première de l'opération nationale « Levez les yeux ! » organisée le vendredi ?",
+            "options": [
+              "Éveiller le regard des élèves dès le plus jeune âge à l'architecture et à la valeur de leur environnement quotidien.",
+              "Remplacer l'ensemble des cours de mathématiques et de sciences par des visites récréatives obligatoires.",
+              "Faire nettoyer bénévolement les cours de récréation et les façades des préfectures par les écoliers.",
+              "Sélectionner les futurs lauréats des écoles d'architecture par un concours éliminatoire matinal."
             ],
             "correctIndex": 0,
-            "explanation": "La concession structurée (« Si... néanmoins / toutefois ») constitue le standard d'excellence en argumentation soutenue."
+            "explanation": "Le dispositif « Levez les yeux ! » a pour mission d'apprendre aux écoliers et lycéens à observer, décrypter et respecter le patrimoine qui les entoure dans leur vie quotidienne."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 12 : Enjeux territoriaux et réhabilitation des friches industrielles",
+            "question": "Pourquoi la requalification d'anciennes friches industrielles en tiers-lieux culturels est-elle emblématique du regard patrimonial moderne ?",
+            "options": [
+              "Parce qu'elle permet de détruire complètement la mémoire ouvrière pour construire des centres commerciaux standardisés.",
+              "Elle illustre la reconnaissance de l'histoire du travail et la métamorphose d'espaces désaffectés en pôles de vie artistique.",
+              "Parce que l'État interdit désormais formellement d'exposer des œuvres dans des bâtiments construits avant le XXe siècle.",
+              "Il s'agit d'une simple solution d'attente avant la démolition programmée de toutes les anciennes usines."
+            ],
+            "correctIndex": 1,
+            "explanation": "La réhabilitation de friches industrielles honore la mémoire du labeur tout en réinjectant une dynamique culturelle et sociale au cœur des territoires."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 13 : Dialectique tourisme de masse vs impératif de sauvegarde",
+            "question": "Face à la surfréquentation de certains monuments lors des grands rendez-vous culturels, quelle approche d'équilibre est préconisée ?",
+            "options": [
+              "Fermer définitivement tous les monuments historiques au public pour garantir leur éternelle sécurité.",
+              "Augmenter démesurément le prix des billets d'entrée pour réserver l'accès aux classes les plus fortunées.",
+              "Développer une médiation culturelle exigeante, une régulation des flux et un mécénat responsable.",
+              "Supprimer toute consigne de sécurité et laisser les visiteurs circuler librement sans guide ni surveillance."
+            ],
+            "correctIndex": 2,
+            "explanation": "La conciliation entre accessibilité démocratique et pérennité des sites repose sur la pédagogie, l'étalement des visites et la responsabilisation des mécènes et usagers."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 14 : Analyse lexicale — Le champ sémantique de l'héritage collectif",
+            "question": "Quel terme exprime avec le plus de justesse juridique le fait qu'un bien culturel public ne peut être vendu ni cédé ?",
+            "options": [
+              "Inaliénable",
+              "Éphémère",
+              "Somptuaire",
+              "Rétrograde"
+            ],
+            "correctIndex": 0,
+            "explanation": "Le caractère « inaliénable » garantit que les trésors des collections publiques appartiennent à la nation et ne peuvent être cédés au secteur privé."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 15 : Grammaire — Le gérondif et le respect absolu du sujet commun",
+            "question": "Dans quelle phrase le gérondif est-il employé avec une rigueur syntaxique irréprochable (même sujet que le verbe principal) ?",
+            "options": [
+              "En arpentant les galeries souterraines du château, la guide a fait découvrir des graffiti médiévaux aux visiteurs.",
+              "En restaurant cette fresque du XIVe siècle, la beauté des couleurs vives a immédiatement émerveillé la foule.",
+              "Les architectes consolident les arcades de l'édifice par restaurant les pierres fissurées.",
+              "Tout en gravissant les marches de la tour, le vertige s'est emparé de plusieurs touristes imprudents."
+            ],
+            "correctIndex": 0,
+            "explanation": "Dans « En arpentant..., la guide a fait découvrir », c'est bien la guide (sujet principal) qui arpente. Dans les autres propositions, il y a soit rupture fautive de sujet (« la beauté » ne restaure pas, « le vertige » ne gravit pas), soit préposition erronée (« par restaurant »)."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 16 : Conjugaison — Le subjonctif de nécessité après les locutions impersonnelles",
+            "question": "Complétez la consigne patrimoniale : « Afin d'éviter toute dégradation irréversible, il est primordial que chaque conservateur [...] l'hygrométrie de la réserve. »",
+            "options": [
+              "contrôle",
+              "contrôlera",
+              "contrôlait",
+              "contrôlerait"
+            ],
+            "correctIndex": 0,
+            "explanation": "L'expression impersonnelle d'obligation et d'appréciation « il est primordial que » exige impérativement le subjonctif présent (« contrôle »)."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 17 : Grammaire — Les pronoms relatifs composés (auquel, duquel, avec lesquels)",
+            "question": "Complétez l'analyse architecturale : « Les tailleurs de pierre ont restauré les arcs-boutants grâce [...] la nef centrale conserve tout son équilibre. »",
+            "options": [
+              "desquels",
+              "auxquels",
+              "par lesquels",
+              "dont"
+            ],
+            "correctIndex": 1,
+            "explanation": "La locution prépositive « grâce à » combinée au masculin pluriel (« les arcs-boutants ») s'amalgame obligatoirement en « grâce auxquels »."
           },
           {
             "type": "connector_drill",
-            "title": "3. Articulation & Logique (B2)",
-            "question": "Complétez l'articulation B2 : « Des progrès significatifs ont été réalisés, [...] des disparités territoriales subsistent. »",
+            "title": "Étape 18 : Articulation logique — Exprimer la concession et la réconciliation temporelle",
+            "question": "« [...], certains jugent le coût d'entretien des édifices historiques exorbitant, [...] il incarne le socle irremplaçable de notre mémoire commune. »",
             "options": [
-              "or il n'en demeure pas moins que",
-              "parce que",
-              "de sorte à",
-              "faute de"
+              "Dès lors que / aussitôt",
+              "Si à première vue / il n'en reste pas moins qu'",
+              "Puisque / par conséquent",
+              "Tant que / de sorte qu'"
+            ],
+            "correctIndex": 1,
+            "explanation": "L'armature argumentative « Si [concession initiale]..., il n'en reste pas moins que [affirmation renforcée] » apporte une structure solide et éloquente."
+          },
+          {
+            "type": "connector_drill",
+            "title": "Étape 19 : Articulation logique — Exprimer la condition stricte et la sauvegarde",
+            "question": "« Le public pourra continuer d'admirer ces tapisseries séculaires, [...] les conditions d'éclairage et d'humidité demeurent strictement encadrées. »",
+            "options": [
+              "alors même que",
+              "d'autant plus que",
+              "pourvu que",
+              "bien que"
+            ],
+            "correctIndex": 2,
+            "explanation": "« Pourvu que » (suivi du subjonctif « demeurent ») introduit la condition nécessaire et suffisante garantissant la protection des œuvres textiles."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 20 : Orthographe et accords complexes des adjectifs de couleur et composés",
+            "question": "Dans quelle phrase les accords grammaticaux relatifs à la description d'une bâtisse historique sont-ils parfaitement respectés ?",
+            "options": [
+              "Les portes chêne clair et les façades rose pastel ont été soigneusement décapées par les artisans.",
+              "Les portes chênes claires et les façades roses pastelles ont été soigneusement décapées par les artisans.",
+              "Les portes chêne claires et les façades roses pastel ont été soigneusement décapé par les artisans.",
+              "Les portes chênes clair et les façades rose pastelle ont été soigneusement décapées par les artisans."
             ],
             "correctIndex": 0,
-            "explanation": "« Or il n'en demeure pas moins que » introduit une réserve de poids dans une démonstration B2."
+            "explanation": "Les adjectifs de couleur composés de deux mots (« chêne clair », « rose pastel ») sont invariables. Le participe passé « décapées » s'accorde au féminin pluriel avec les sujets coordonnés."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 21 : Défi de style — Métaphore architecturale et registre soutenu",
+            "question": "Parmi ces propositions, quelle phrase traduit avec le plus d'élégance poétique la pérennité d'un cloître ancien au milieu du tumulte urbain ?",
+            "options": [
+              "« Le vieux couvent est resté debout dans la ville et c'est pratique pour se reposer quand les gens ont trop de bruit dehors. »",
+              "« Havre de silence ceint de colonnades ouvragées, le cloître traverse les âges tel un îlot d'éternité face à l'écume fugace du siècle. »",
+              "« Les pierres du cloître sont vraiment très anciennes et les archéologues y nettoient des colonnes depuis des années. »",
+              "« C'est un bâtiment historique qui a coûté cher à entretenir mais qui fait joli pour les photos de mariage. »"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cette phrase convoque une métaphore maritime soignée (« îlot d'éternité », « écume fugace du siècle ») et un lexique d'une grande noblesse (« havre de silence », « colonnades ouvragées »)."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 22 : Argumentation — Défendre la réhabilitation patrimoniale face à la tabula rasa",
+            "question": "Lors d'un débat citoyen sur l'aménagement urbain, quelle intervention déploie la stratégie rhétorique la plus constructive et convaincante ?",
+            "options": [
+              "« Si la tentation de la démolition intégrale promet souvent un gain de temps immédiat, la réhabilitation du bâti existant tisse un dialogue fécond entre mémoire collective et innovations écologiques. »",
+              "« Il faut raser tous les vieux bâtiments sans exception car la pierre ancienne est inutile et ralentit la circulation automobile. »",
+              "« Les architectes contemporains ne savent rien faire de valable, seuls les bâtisseurs du Moyen Âge méritent notre considération. »",
+              "« La discussion ne sert à rien car le budget de la mairie décidera seul de tout sans consulter les habitants. »"
+            ],
+            "correctIndex": 0,
+            "explanation": "La prise en compte de l'argument adverse par une concession (« Si la tentation... ») débouche sur une synthèse valorisante conciliant écologie et transmission historique."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 23 : Nuances de discours — Exprimer une réserve constructive sur le tourisme culturel",
+            "question": "Quelle tournure exprime une critique mesurée de la marchandisation culturelle sans tomber dans le rejet systématique ?",
+            "options": [
+              "« L'ouverture des monuments au tourisme constitue indéniablement un moteur d'attractivité, pour autant qu'elle ne sacrifie point l'âme et la dignité des lieux à la seule rentabilité commerciale. »",
+              "« Les touristes détruisent tout sur leur passage et il conviendrait de barricader immédiatement l'ensemble des sites. »",
+              "« L'argent est la seule chose qui compte dans la gestion des musées contemporains, tout le reste est pure hypocrisie. »",
+              "« Aucun monument ne devrait jamais être photographié sous peine de sanctions financières immédiates. »"
+            ],
+            "correctIndex": 0,
+            "explanation": "« Indéniablement... pour autant qu'elle ne sacrifie point » formule une réserve élégante, nuancée et parfaitement argumentée."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "Étape 24 : Synthèse oratoire — Clôturer un plaidoyer en faveur du patrimoine vivant",
+            "question": "Quelle péroraison offre la conclusion la plus percutante et mémorable pour un discours consacré à l'héritage culturel ?",
+            "options": [
+              "« Voilà, j'ai fini mon texte sur les Journées du patrimoine et j'espère que vous irez visiter un château ce week-end. »",
+              "« En définitive, préserver notre patrimoine ne relève pas d'une vaine nostalgie du passé, mais d'un acte de foi envers l'avenir, offrant aux générations futures des racines pour s'épanouir et des repères pour bâtir le monde. »",
+              "« De toute façon, dans cent ans, la plupart de ces monuments auront disparu sous l'effet de l'érosion naturelle. »",
+              "« Bref, la culture coûte cher mais les affiches dans le métro pour les Journées du patrimoine sont plutôt jolies. »"
+            ],
+            "correctIndex": 1,
+            "explanation": "Une conclusion oratoire de haute tenue transforme l'enjeu patrimonial en projet d'avenir (« acte de foi envers l'avenir », « racines pour s'épanouir »)."
+          },
+          {
+            "type": "matching_drill",
+            "title": "Étape 25 : 🎯 Re-mémorisation lexicale — Tuiles d'association (Français ⇄ Japonais)",
+            "instructions": "Consolidez votre vocabulaire du patrimoine et des arts en associant chaque terme français à sa tuile correspondante en japonais (日本語). Cliquez sur une tuile en français puis sur son équivalent en japonais pour valider la paire.",
+            "pairs": [
+              {
+                "id": "patrimoine",
+                "fr": "Patrimoine",
+                "en": "Heritage / cultural legacy",
+                "jp": "文化遺産・遺産 (bunkaisan)",
+                "cn": "文化遗产 / 遗产 (yíchǎn)"
+              },
+              {
+                "id": "preservation",
+                "fr": "Préservation",
+                "en": "Preservation / conservation",
+                "jp": "保存・保護 (hozon / hogo)",
+                "cn": "保护 / 保存 (bǎohù)"
+              },
+              {
+                "id": "transmission",
+                "fr": "Transmission",
+                "en": "Transmission / passing on",
+                "jp": "継承・伝承 (keishō / denshō)",
+                "cn": "传承 / 传授 (chuánchéng)"
+              },
+              {
+                "id": "mecenat",
+                "fr": "Mécénat",
+                "en": "Patronage / cultural sponsorship",
+                "jp": "文化支援・メセナ (mesena)",
+                "cn": "赞助 / 资助 (zànzhù)"
+              },
+              {
+                "id": "restauration",
+                "fr": "Restauration",
+                "en": "Restoration of artworks",
+                "jp": "修復・復元 (shūfuku / fukugen)",
+                "cn": "修复 / 还原 (xiūfù)"
+              },
+              {
+                "id": "museographie",
+                "fr": "Muséographie",
+                "en": "Museography / exhibit design",
+                "jp": "博物館学・展示法 (tenjihō)",
+                "cn": "博物馆学 / 展陈设计 (zhǎnchén)"
+              },
+              {
+                "id": "inalienable",
+                "fr": "Inaliénable",
+                "en": "Inalienable / non-transferable",
+                "jp": "譲渡不能の・不可分な (jōtofuhō)",
+                "cn": "不可剥夺的 / 不可转让的 (bùkě zhuǎnràng)"
+              },
+              {
+                "id": "desenclavement",
+                "fr": "Désenclavement",
+                "en": "Opening up / ending isolation",
+                "jp": "孤立解消・アクセス改善",
+                "cn": "打破封闭 / 改善通行 (dǎpò fēngbì)"
+              },
+              {
+                "id": "vestige",
+                "fr": "Vestige",
+                "en": "Remains / relic of the past",
+                "jp": "遺跡・名残・遺構 (iseki / nagori)",
+                "cn": "遗迹 / 残留 (yíjī)"
+              },
+              {
+                "id": "venerable",
+                "fr": "Vénérable",
+                "en": "Venerable / time-honored",
+                "jp": "由緒ある・尊ぶべき (yūshoaru)",
+                "cn": "崇高的 / 历史悠久的 (yōujiǔ)"
+              }
+            ]
           }
         ]
       }

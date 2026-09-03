@@ -428,6 +428,24 @@ class JourneyModule {
 
       this.modalBody.innerHTML = `
         <h3 class="step-card-title">${step.title}</h3>
+        ${step.youtubeId ? `
+          <div class="lesson-video-card">
+            <div class="lesson-video-wrapper">
+              <iframe src="https://www.youtube.com/embed/${step.youtubeId}?rel=0&cc_load_policy=1&hl=fr" 
+                      title="Vidéo pédagogique" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      allowfullscreen>
+              </iframe>
+            </div>
+            <div class="lesson-video-hint">
+              <span class="material-icons-round" style="font-size:20px; color:#2563EB;">subtitles</span>
+              <div>
+                <strong>Conseil pédagogique :</strong> Familiarisez-vous avec le contenu médiatique authentique. 
+                Activez les <strong>sous-titres en français</strong> directement dans le lecteur YouTube (bouton <code>[CC]</code> ou ⚙️ Paramètres ➔ Sous-titres ➔ Français).
+              </div>
+            </div>
+          </div>
+        ` : ''}
         ${step.audioText ? `
           <div class="lesson-audio-bar">
             <div class="lesson-audio-info">

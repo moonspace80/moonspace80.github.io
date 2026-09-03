@@ -483,9 +483,15 @@ class GrammarModule {
 
     // 3. Encadrés d'exemples de niveau paragraphe standalone (<p>Ex: ...</p> ou <p>Exemples : ...</p>)
     enhanced = enhanced.replace(/<p>\s*(?:<strong>)?\s*(?:Ex|Exemple|Exemples)\s*:\s*(?:<\/strong>)?\s*(.*?)<\/p>/gi, (match, example) => {
+      const cleanEx = example.replace(/<[^>]*>?/gm, '').replace(/'/g, "\\'").replace(/"/g, '&quot;').trim();
       return `
         <div class="grammar-example-callout">
-          <div class="example-tag"><span class="material-icons-round" style="font-size:14px;">lightbulb</span> Exemple</div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+            <div class="example-tag"><span class="material-icons-round" style="font-size:14px;">lightbulb</span> Exemple</div>
+            <button class="md-icon-button" style="width:28px; height:28px; padding:0;" onclick="window.grammarModule.speakText('${cleanEx}')" title="Écouter l'exemple avec Kokoro TTS" type="button">
+              <span class="material-icons-round" style="font-size:16px; color:var(--md-sys-color-primary);">volume_up</span>
+            </button>
+          </div>
           <div>${example}</div>
         </div>
       `;
@@ -493,11 +499,17 @@ class GrammarModule {
 
     // 4. Encadrés d'exemples dans les listes <li>
     enhanced = enhanced.replace(/<li>(.*?)(?:<strong>)?(?:Ex|Exemple)\s*:\s*(?:<\/strong>)?\s*(<i>.*?<\/i>|.*?)(?:<\/li>)/gi, (match, prefix, example) => {
+      const cleanEx = example.replace(/<[^>]*>?/gm, '').replace(/'/g, "\\'").replace(/"/g, '&quot;').trim();
       return `
         <li>
           ${prefix ? `<span>${prefix}</span>` : ''}
           <div class="grammar-example-callout">
-            <div class="example-tag"><span class="material-icons-round" style="font-size:14px;">lightbulb</span> Exemple</div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+              <div class="example-tag"><span class="material-icons-round" style="font-size:14px;">lightbulb</span> Exemple</div>
+              <button class="md-icon-button" style="width:28px; height:28px; padding:0;" onclick="window.grammarModule.speakText('${cleanEx}')" title="Écouter l'exemple avec Kokoro TTS" type="button">
+                <span class="material-icons-round" style="font-size:16px; color:var(--md-sys-color-primary);">volume_up</span>
+              </button>
+            </div>
             <div>${example}</div>
           </div>
         </li>
@@ -828,14 +840,36 @@ class GrammarModule {
     this.speakText(textToSpeak);
   }
 
+  speakCurrentRule() {
+    const topic = this.filteredDataset[this.currentTopicIndex];
+    if (!topic) return;
+
+    // Build clear audio text combining title and cleaned rule explanation
+    let ruleIntro = (topic.ruleTitle || topic.title || '') + '. ';
+    let ruleBody = (topic.ruleContent || '')
+      .replace(/<[^>]*>?/gm, ' ')
+      .replace(/\s+/g, ' ')
+      .replace(/Ex\s*:\s*/gi, 'Par exemple : ')
+      .trim();
+
+    const fullRuleText = (ruleIntro + ruleBody).trim();
+    this.speakText(fullRuleText);
+  }
+
   speakText(text) {
     if (!text) return;
-    const clean = text.replace(/<[^>]*>?/gm, '').replace(/_{2,}/g, ' ').replace(/[()]/g, '').trim();
+    const clean = text.replace(/<[^>]*>?/gm, ' ').replace(/_{2,}/g, ' ').replace(/[()]/g, '').replace(/\s+/g, ' ').trim();
     if (!clean) return;
 
-    if (window.ttsEngine && typeof window.ttsEngine.speak === 'function') {
-      window.ttsEngine.speak(clean);
-    } else if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis && typeof window.speechSynthesis.speak === 'function') {
+    // Prioritize Kokoro Neural TTS Engine
+    const tts = window.kokoroTTS || window.aiTTS || window.ttsEngine;
+    if (tts && typeof tts.speak === 'function') {
+      tts.speak(clean, { rate: 0.95 });
+      return;
+    }
+
+    // Native Web Speech Fallback
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis && typeof window.speechSynthesis.speak === 'function') {
       try {
         window.speechSynthesis.cancel();
         const u = new SpeechSynthesisUtterance(clean);
@@ -845,6 +879,16 @@ class GrammarModule {
       } catch (e) {
         console.warn('Synthèse vocale Web Speech non disponible:', e);
       }
+    }
+  }
+
+  stopAudio() {
+    const tts = window.kokoroTTS || window.aiTTS || window.ttsEngine;
+    if (tts && typeof tts.stop === 'function') {
+      tts.stop();
+    }
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
     }
   }
 

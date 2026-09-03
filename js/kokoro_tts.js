@@ -220,3 +220,4 @@ class KokoroTTSEngine {
 // Create the global TTS engine instance
 window.aiTTS = new KokoroTTSEngine();
 window.kokoroTTS = window.aiTTS;
+window.ttsEngine = window.aiTTS;

@@ -711,11 +711,20 @@
 
     <!-- GRAMMAR & CONJUGATION VIEW -->
     <section class="view-panel" id="view-grammar">
-      <div class="module-header">
+      <div class="module-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
         <div>
           <h2>Grammaire, Orthographe & Conjugaison (A1 à C1+)</h2>
-          <p>Programme officiel complet du CECRL : Débutant (A1), Élémentaire (A2), Intermédiaire (B1), Avancé (B2) et Autonome (C1/C1+).</p>
+          <p>Programme officiel complet du CECRL : Débutant (A1), Élémentaire (A2), Intermédiaire (B1), Avancé (B2) et Autonome (C1/C1+) avec prononciation neurale Kokoro TTS.</p>
         </div>
+        <div id="grammar-tts-status" class="tts-status-badge" style="
+          padding: 6px 14px; 
+          font-size: 0.8rem; 
+          font-weight: 600; 
+          border-radius: 20px; 
+          background: var(--md-sys-color-surface-variant); 
+          border: 1px solid var(--md-sys-color-outline-variant);
+          letter-spacing: 0.02em;
+        ">⏳ Chargement du moteur vocal Kokoro...</div>
       </div>
 
       <!-- Bannière Dynamique XP & Progression par Niveau -->
@@ -791,6 +800,9 @@
                 <span class="material-icons-round rule-summary-card__icon">menu_book</span>
                 <h3 id="grammar-rule-title">Règle de grammaire</h3>
               </div>
+              <button class="md-button md-button--filled grammar-tts-rule-btn" id="grammar-tts-rule-btn" onclick="window.grammarModule.speakCurrentRule()" title="Écouter l'explication de la règle avec Kokoro TTS" type="button" style="display:inline-flex; align-items:center; gap:6px;">
+                <span class="material-icons-round">volume_up</span> Écouter la règle
+              </button>
             </div>
             <div id="grammar-rule-content">
               <!-- Rule explanation rendered with literary typography -->

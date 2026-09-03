@@ -859,8 +859,27 @@ class ExamSimulatorModule {
           </span>
         </div>
 
-        <!-- Hidden Audio Element with Fallback Handler -->
-        <audio id="exam-co-audio-element" src="${audioUrl}" preload="auto" style="display:none;"></audio>
+        <!-- Direct Audio Player Bar -->
+        <div style="margin-top: 14px; padding: 12px 16px; background: var(--md-sys-color-primary-container, #e8f5e9); border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; border: 1px solid var(--md-sys-color-primary);">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span class="material-icons-round" style="font-size: 24px; color: var(--md-sys-color-primary);">graphic_eq</span>
+            <div>
+              <div style="font-weight: 700; font-size: 0.95rem; color: var(--md-sys-color-on-primary-container, #1b5e20);">
+                🔊 Enregistrement audio officiel :
+              </div>
+              <div style="font-size: 0.8rem; opacity: 0.85;">
+                <code>${audioUrl}</code>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <button class="md-button md-button--filled" onclick="examSimulatorModule.playAudioDirectly()" style="background: var(--md-sys-color-primary); padding: 8px 18px;">
+              <span class="material-icons-round">play_arrow</span> Écouter l'audio maintenant
+            </button>
+            <audio id="exam-co-audio-element" src="${audioUrl}" controls preload="auto" style="height: 40px; min-width: 260px;"></audio>
+          </div>
+        </div>
       </div>
     `;
   }
@@ -1486,6 +1505,16 @@ ${text}
     document.body.removeChild(link);
   }
 
+  getActiveCOExercise() {
+    const coData = (this.currentExam && this.currentExam.sections && this.currentExam.sections.co) || {};
+    const exercises = coData.exercises || [];
+    return exercises[this.activeExercise.co] || exercises[0] || {};
+  }
+
+  playAudioDirectly() {
+    this.setAudioPhase('listening_1', 0);
+  }
+
   // --------------------------------------------------------------------------
   // CO AUDIO STATE MACHINE ORCHESTRATION
   // --------------------------------------------------------------------------
@@ -1543,14 +1572,44 @@ ${text}
       this.audioState.isPlayingAudio = true;
       if (audioEl) {
         audioEl.currentTime = 0;
+        audioEl.onended = () => {
+          console.log("[ExamSimulator] Audio track finished playing.");
+          this.advanceCOPhase();
+        };
         const playPromise = audioEl.play();
         if (playPromise !== undefined) {
-          playPromise.catch(() => {
-            // Browser autoplay prevention or missing audio file fallback
-            console.log("Audio play fallback activated");
-            // Simulate track duration if audio fails to play
-            const simDuration = activeExTrackDuration(this);
-            this.simulateAudioPlay(simDuration);
+          playPromise.catch((err) => {
+            console.warn("[ExamSimulator] Local MP3 play failed/missing, engaging Speech Synthesis fallback:", err);
+            const activeEx = this.getActiveCOExercise();
+            if (activeEx && activeEx.transcript) {
+              const textToSpeak = activeEx.transcript.replace(/<[^>]*>?/gm, " ").replace(/\s+/g, " ").trim();
+              if (window.kokoroTTS) {
+                window.kokoroTTS.speak(textToSpeak, { rate: 0.95 }).then(() => {
+                  if (this.audioState.isPlayingAudio) {
+                    this.advanceCOPhase();
+                  }
+                });
+              } else if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                const u = new SpeechSynthesisUtterance(textToSpeak);
+                u.lang = 'fr-FR';
+                u.rate = 0.92;
+                u.onend = () => {
+                  if (this.audioState.isPlayingAudio) {
+                    this.advanceCOPhase();
+                  }
+                };
+                u.onerror = () => {
+                  this.simulateAudioPlay(60);
+                };
+                speechSynthesis.speak(u);
+              } else {
+                this.simulateAudioPlay(60);
+              }
+            } else {
+              const simDuration = activeExTrackDuration(this);
+              this.simulateAudioPlay(simDuration);
+            }
           });
         }
       } else {
@@ -1559,6 +1618,8 @@ ${text}
     } else if (phase === 'completed') {
       this.audioState.isPlayingAudio = false;
       if (audioEl) audioEl.pause();
+      if ('speechSynthesis' in window) speechSynthesis.cancel();
+      if (window.kokoroTTS) window.kokoroTTS.stop();
     }
 
     this.saveActiveState();

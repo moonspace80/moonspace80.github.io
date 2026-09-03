@@ -30,11 +30,11 @@ const exam1Data = {
       durationMinutes: 30,
       maxScore: 25.0,
       totalPoints: 25.0,
-      audioIntegralUrl: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-integral.mp3",
+      audioIntegralUrl: "audio/delf-b2-tp-coll-exemple1-integral.mp3",
       audioTracks: [
-        { id: "track-1", file: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice1.mp3", durationSec: 320 },
-        { id: "track-2", file: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice2.mp3", durationSec: 310 },
-        { id: "track-3", file: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice3.mp3", durationSec: 240 }
+        { id: "track-1", file: "audio/delf-b2-tp-coll-exemple1-exercice1.mp3", durationSec: 320 },
+        { id: "track-2", file: "audio/delf-b2-tp-coll-exemple1-exercice2.mp3", durationSec: 310 },
+        { id: "track-3", file: "audio/delf-b2-tp-coll-exemple1-exercice3.mp3", durationSec: 240 }
       ],
       exercises: [
         {
@@ -42,8 +42,8 @@ const exam1Data = {
           partNumber: 1,
           title: "Exercice 1 : Radio — Le sport matinal et les rythmes de sommeil",
           theme: "Santé, Sport & Société",
-          audioFile: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice1.mp3",
-          audioUrl: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice1.mp3",
+          audioFile: "audio/delf-b2-tp-coll-exemple1-exercice1.mp3",
+          audioUrl: "audio/delf-b2-tp-coll-exemple1-exercice1.mp3",
           points: 9.0,
           totalPoints: 9.0,
           listeningsCount: 2,
@@ -166,8 +166,8 @@ const exam1Data = {
           partNumber: 2,
           title: "Exercice 2 : Radio — Salariés sans bureau fixe et flex-office",
           theme: "Monde du travail & Flexibilité",
-          audioFile: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice2.mp3",
-          audioUrl: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice2.mp3",
+          audioFile: "audio/delf-b2-tp-coll-exemple1-exercice2.mp3",
+          audioUrl: "audio/delf-b2-tp-coll-exemple1-exercice2.mp3",
           points: 9.0,
           totalPoints: 9.0,
           listeningsCount: 2,
@@ -292,8 +292,8 @@ const exam1Data = {
           partNumber: 3,
           title: "Exercice 3 : Trois documents courts (Presse jeunesse, Jeux de société, Robots)",
           theme: "Société, Médias & Technologies",
-          audioFile: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice3.mp3",
-          audioUrl: "ressources/DELF B2/ex1/delf-b2-tp-coll-exemple1-exercice3.mp3",
+          audioFile: "audio/delf-b2-tp-coll-exemple1-exercice3.mp3",
+          audioUrl: "audio/delf-b2-tp-coll-exemple1-exercice3.mp3",
           points: 7.0,
           totalPoints: 7.0,
           listeningsCount: 1,
@@ -959,10 +959,10 @@ const exam2Data = {
       durationMinutes: 30,
       maxScore: 25.0,
       totalPoints: 25.0,
-      audioIntegralUrl: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-integral.mp3",
+      audioIntegralUrl: "audio/delf-b2-tp-coll-exemple2-integral.mp3",
       audioTracks: [
-        { id: "track-1", file: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice1.mp3", durationSec: 360 },
-        { id: "track-2", file: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice2.mp3", durationSec: 180 }
+        { id: "track-1", file: "audio/delf-b2-tp-coll-exemple2-exercice1.mp3", durationSec: 360 },
+        { id: "track-2", file: "audio/delf-b2-tp-coll-exemple2-exercice2.mp3", durationSec: 180 }
       ],
       exercises: [
         {
@@ -970,8 +970,8 @@ const exam2Data = {
           partNumber: 1,
           title: "Exercice 1 : Radio — Risques infectieux et téléphones portables à l'hôpital",
           theme: "Santé Publique & Hygiène",
-          audioFile: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice1.mp3",
-          audioUrl: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice1.mp3",
+          audioFile: "audio/delf-b2-tp-coll-exemple2-exercice1.mp3",
+          audioUrl: "audio/delf-b2-tp-coll-exemple2-exercice1.mp3",
           points: 18.0,
           totalPoints: 18.0,
           listeningsCount: 2,
@@ -1029,8 +1029,8 @@ const exam2Data = {
           partNumber: 2,
           title: "Exercice 2 : Reportage — La Journée mondiale du don du sang & Festival Globule",
           theme: "Solidarité & Santé",
-          audioFile: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice2.mp3",
-          audioUrl: "ressources/DELF B2/ex2/delf-b2-tp-coll-exemple2-exercice2.mp3",
+          audioFile: "audio/delf-b2-tp-coll-exemple2-exercice2.mp3",
+          audioUrl: "audio/delf-b2-tp-coll-exemple2-exercice2.mp3",
           points: 7.0,
           totalPoints: 7.0,
           listeningsCount: 1,

@@ -336,9 +336,20 @@
 
     <!-- DEDICATED DICTIONARY VIEW -->
     <section class="view-panel" id="view-dictionary">
-      <div class="module-header">
-          <h2>Liste de vocabulaire (<span id="dict-header-total-count">1 415</span> mots)</h2>
-          <p>Retrouvez chaque mot dans son chapitre d'origine.</p>
+      <div class="module-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+        <div>
+          <h2>Liste de vocabulaire (<span id="dict-header-total-count">1 507</span> mots)</h2>
+          <p>Retrouvez chaque mot dans son chapitre d'origine avec prononciation neurale Kokoro TTS.</p>
+        </div>
+        <div id="dict-tts-status" class="tts-status-badge" style="
+          padding: 6px 14px; 
+          font-size: 0.8rem; 
+          font-weight: 600; 
+          border-radius: 20px; 
+          background: var(--md-sys-color-surface-variant); 
+          border: 1px solid var(--md-sys-color-outline-variant);
+          letter-spacing: 0.02em;
+        ">⏳ Chargement du moteur vocal Kokoro...</div>
       </div>
 
       <!-- Dictionary Toolbar & Alphabet Bar -->

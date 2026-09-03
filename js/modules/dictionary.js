@@ -447,12 +447,20 @@ class DictionaryModule {
           Exemples en contexte réel (${item.examples.length})
         </div>
         <div class="modal-examples-list">
-          ${item.examples.map(ex => `
-            <div class="modal-example-item">
-              <div class="modal-example-fr">${ex.fr}</div>
-              ${ex.en ? `<div class="modal-example-en">${ex.en}</div>` : ''}
-            </div>
-          `).join('')}
+          ${item.examples.map(ex => {
+            const safeFr = (ex.fr || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+            return `
+              <div class="modal-example-item">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+                  <div class="modal-example-fr">${ex.fr}</div>
+                  <button class="md-icon-button" style="width:28px; height:28px; flex-shrink:0; margin-top:-2px;" onclick="dictionaryModule.speakText('${safeFr}')" title="Écouter cet exemple">
+                    <span class="material-icons-round" style="font-size:16px;">volume_up</span>
+                  </button>
+                </div>
+                ${ex.en ? `<div class="modal-example-en">${ex.en}</div>` : ''}
+              </div>
+            `;
+          }).join('')}
         </div>
       `;
     }
@@ -463,7 +471,7 @@ class DictionaryModule {
           <h2 class="modal-word-title" id="dict-modal-title">${item.word}</h2>
           ${item.phonetique ? `<div style="font-family:monospace; color:var(--md-sys-color-primary); font-size:0.9rem; margin-top:2px;">${item.phonetique}</div>` : ''}
         </div>
-        <button class="md-button md-button--filled" onclick="dictionaryModule.speakWord('${safeWord}')" style="display:inline-flex; align-items:center; gap:6px;">
+        <button class="md-button md-button--filled dict-listen-btn" id="dict-listen-btn" onclick="dictionaryModule.speakWord('${safeWord}')" style="display:inline-flex; align-items:center; gap:6px;">
           <span class="material-icons-round">volume_up</span> Écouter
         </button>
       </div>
@@ -497,6 +505,7 @@ class DictionaryModule {
     if (this.modal) {
       this.modal.style.display = 'none';
       document.body.style.overflow = '';
+      this.stopAudio();
     }
   }
 
@@ -517,14 +526,47 @@ class DictionaryModule {
     }, 200);
   }
 
+  /**
+   * Pronounce a word using Kokoro neural TTS (or Web Speech API fallback)
+   */
   speakWord(word) {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
+    this.speakText(word);
+  }
 
-    const utterance = new SpeechSynthesisUtterance(word);
-    utterance.lang = 'fr-FR';
-    utterance.rate = 0.9;
-    window.speechSynthesis.speak(utterance);
+  /**
+   * Pronounce arbitrary text using Kokoro neural TTS engine
+   */
+  speakText(text) {
+    if (!text || !text.trim()) return;
+
+    // Check if Kokoro engine is available on window
+    const tts = window.kokoroTTS || window.aiTTS;
+    if (tts && typeof tts.speak === 'function') {
+      tts.speak(text, { rate: 0.95 });
+      return;
+    }
+
+    // Native browser Web Speech fallback
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'fr-FR';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  /**
+   * Stop any playing audio
+   */
+  stopAudio() {
+    const tts = window.kokoroTTS || window.aiTTS;
+    if (tts && typeof tts.stop === 'function') {
+      tts.stop();
+    }
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
   }
 }
 

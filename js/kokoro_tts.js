@@ -66,9 +66,6 @@ class KokoroTTSEngine {
    * Update a status indicator element in the DOM if it exists.
    */
   _updateStatus(status) {
-    const el = document.getElementById("tts-status");
-    if (!el) return;
-
     const statusMap = {
       loading: { text: "⏳ Chargement du moteur vocal Kokoro...", color: "#f59e0b" },
       downloading: { text: "⬇️ Téléchargement du modèle neural (~80 Mo)...", color: "#3b82f6" },
@@ -77,8 +74,11 @@ class KokoroTTSEngine {
     };
 
     const info = statusMap[status] || { text: status, color: "#888" };
-    el.textContent = info.text;
-    el.style.color = info.color;
+    const els = document.querySelectorAll("#tts-status, #dict-tts-status, .tts-status-badge");
+    els.forEach(el => {
+      el.textContent = info.text;
+      el.style.color = info.color;
+    });
   }
 
   /**
@@ -219,3 +219,4 @@ class KokoroTTSEngine {
 
 // Create the global TTS engine instance
 window.aiTTS = new KokoroTTSEngine();
+window.kokoroTTS = window.aiTTS;

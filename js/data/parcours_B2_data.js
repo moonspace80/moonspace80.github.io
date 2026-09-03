@@ -1751,16 +1751,16 @@ window.parcours_B2_Dataset = [
           },
           {
             "type": "quiz_drill",
-            "title": "Étape 14 : Grammaire — Le participe présent et le gérondif de moyen",
-            "question": "Identifiez la phrase employant un gérondif exprimant avec justesse la manière dont l'artisan obtient des effets de profondeur :",
+            "title": "Étape 14 : Grammaire — Le gérondif de moyen et la règle du sujet identique",
+            "question": "Dans laquelle de ces phrases le gérondif est-il employé de façon rigoureusement correcte (respect absolu de la règle du sujet commun) ?",
             "options": [
-              "En variant les contrastes, la composition textile devenait très belle et impressionnante pour tous.",
-              "L'artisan varie les contrastes pour que le volume donne du relief sans coudre.",
-              "Parce qu'il varie les contrastes, donc le volume est obtenu par la couture.",
+              "En observant attentivement les raccords de tissu, les détails du patchwork semblent beaucoup plus précis.",
+              "L'artisan sculpte les volumes de son ouvrage par variant les contrastes d'ombre et de lumière.",
+              "Tout en cousant à la machine avec rapidité, le fil s'est subitement cassé à plusieurs reprises.",
               "C'est en variant les contrastes de valeur et d'éclat que l'artisan confère volume et relief à sa composition textile."
             ],
             "correctIndex": 3,
-            "explanation": "« En variant » (gérondif de moyen) partage rigoureusement le même sujet que le verbe principal (« l'artisan »), évitant toute rupture syntaxique fautive."
+            "explanation": "Règle essentielle : le sujet du verbe principal (« l'artisan ») doit impérativement être celui qui accomplit l'action exprimée par le gérondif (« en variant »). Les autres phrases comportent une rupture fautive de sujet (« les détails » ne peuvent pas observer, « le fil » ne peut pas coudre) ou une préposition erronée (« par variant » au lieu de « en »)."
           },
           {
             "type": "quiz_drill",
@@ -1817,7 +1817,7 @@ window.parcours_B2_Dataset = [
           {
             "type": "quiz_drill",
             "title": "Étape 19 : Argumentation — Défendre la noblesse des arts textiles face aux beaux-arts traditionnels",
-            "question": "Lors d'un débat oral B2 sur la hiérarchie entre arts majeurs (peinture, sculpture) et arts appliqués, quelle intervention démontre la posture argumentative la plus persuasive ?",
+            "question": "Lors d'un débat argumenté sur la hiérarchie entre arts majeurs (peinture, sculpture) et arts appliqués, quelle intervention démontre la posture la plus persuasive et nuancée ?",
             "options": [
               "« Si les beaux-arts ont longtemps revendiqué le monopole de l'émotion esthétique, l'art textile contemporain démontre que la maîtrise tactile des matières et la patience du geste subliment tout autant la condition humaine. »",
               "« La peinture à l'huile est un art bourgeois dépassé, alors que le patchwork est la seule vraie pratique démocratique valable. »",
@@ -1825,7 +1825,7 @@ window.parcours_B2_Dataset = [
               "« Tous les arts se valent exactement, il n'y a donc rien d'intéressant à argumenter sur ce sujet. »"
             ],
             "correctIndex": 0,
-            "explanation": "Une concession solide (« Si les beaux-arts ont longtemps... ») suivie d'une valorisation mesurée et conceptuelle de la matière et du geste (« maîtrise tactile », « patience du geste ») forme une argumentation de haut niveau."
+            "explanation": "Une concession solide (« Si les beaux-arts ont longtemps... ») suivie d'une valorisation mesurée et conceptuelle de la matière et du geste (« maîtrise tactile », « patience du geste ») forme une argumentation rigoureuse et éloquente."
           },
           {
             "type": "quiz_drill",
@@ -1842,8 +1842,8 @@ window.parcours_B2_Dataset = [
           },
           {
             "type": "matching_drill",
-            "title": "Étape 21 : 🎯 Re-mémorisation lexicale — Correspondances trilingues",
-            "instructions": "Consolidez votre vocabulaire en associant chaque terme français à son équivalent trilingue (Anglais, Japonais, Chinois). Cliquez sur un mot en français puis sur sa traduction correspondante.",
+            "title": "Étape 21 : 🎯 Re-mémorisation lexicale — Tuiles d'association (Français ⇄ Japonais)",
+            "instructions": "Associez chaque terme textile français à sa tuile correspondante en japonais (日本語). Cliquez sur une tuile en français puis sur son équivalent en japonais pour valider la paire.",
             "pairs": [
               {
                 "id": "alchimie",

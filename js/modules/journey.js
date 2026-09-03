@@ -529,11 +529,11 @@ class JourneyModule {
             }).join('')}
           </div>
 
-          <!-- Colonne Traductions (EN / JP / CN) -->
+          <!-- Colonne Traductions Japonaises -->
           <div class="matching-col">
             <div class="matching-col-title">
               <span class="material-icons-round" style="font-size:16px;">language</span>
-              <span>Traductions (Anglais / Japonais / Chinois)</span>
+              <span>Équivalent en Japonais (日本語)</span>
             </div>
             ${state.rightItems.map(item => {
               const isMatched = state.matchedIds.has(item.id);
@@ -544,9 +544,9 @@ class JourneyModule {
                         data-side="right"
                         ${isMatched ? 'disabled' : ''}
                         onclick="window.journeyModule.handleMatchingClick('right', '${item.id}')">
-                  <div style="display:flex; flex-direction:column; gap:2px; font-size:0.85rem; line-height:1.35;">
-                    <div><strong style="color:var(--md-sys-color-primary);">${item.en}</strong></div>
-                    <div style="font-size:0.8rem; color:var(--md-sys-color-on-surface-variant);">${item.jp} <span style="opacity:0.6;">|</span> ${item.cn}</div>
+                  <div style="display:flex; flex-direction:column; gap:2px; font-size:0.9rem; line-height:1.35;">
+                    <div><strong style="color:var(--md-sys-color-primary); font-size:0.95rem;">${item.jp || item.text}</strong></div>
+                    ${item.en ? `<div style="font-size:0.78rem; color:var(--md-sys-color-on-surface-variant); opacity:0.85;">${item.en} ${item.cn ? `• ${item.cn}` : ''}</div>` : ''}
                   </div>
                   <span class="material-icons-round" style="font-size:18px; color: ${isMatched ? '#1B4336' : 'var(--md-sys-color-outline)'};">
                     ${isMatched ? 'check_circle' : 'swap_horiz'}

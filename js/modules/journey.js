@@ -404,6 +404,8 @@ class JourneyModule {
         .replace(/\n\n/g, '</p><p>')
         // Sauts simples → <br>
         .replace(/\n/g, '<br>')
+        // Liens markdown [texte](url)
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:var(--md-sys-color-primary); font-weight:600; text-decoration:underline;">$1</a>')
         // Listes numérotées
         .replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
       // Add vocab links (words highlighted in yellow and bold)
@@ -444,6 +446,42 @@ class JourneyModule {
                 Activez les <strong>sous-titres en français</strong> directement dans le lecteur YouTube (bouton <code>[CC]</code> ou ⚙️ Paramètres ➔ Sous-titres ➔ Français).
               </div>
             </div>
+          </div>
+        ` : ''}
+        ${step.documentUrl ? `
+          <div class="lesson-doc-banner" style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            background: #F0FDF4;
+            border: 1px solid #BBF7D0;
+            border-left: 4px solid #16A34A;
+            border-radius: 12px;
+            padding: 12px 18px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+          ">
+            <div style="display:flex; align-items:center; gap:10px; font-size:0.9rem; color:#166534; font-weight:600;">
+              <span class="material-icons-round" style="font-size:24px; color:#16A34A;">description</span>
+              <span>${step.documentLabel || 'Document officiel original disponible'}</span>
+            </div>
+            <a href="${step.documentUrl}" target="_blank" rel="noopener noreferrer" style="
+              display: inline-flex;
+              align-items: center;
+              gap: 6px;
+              background: #16A34A;
+              color: #ffffff;
+              padding: 7px 14px;
+              border-radius: 20px;
+              font-size: 0.825rem;
+              font-weight: 600;
+              text-decoration: none;
+              transition: all 0.2s ease;
+            ">
+              <span>Ouvrir dans un nouvel onglet</span>
+              <span class="material-icons-round" style="font-size:16px;">open_in_new</span>
+            </a>
           </div>
         ` : ''}
         ${step.audioText ? `

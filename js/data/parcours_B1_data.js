@@ -939,7 +939,7 @@ window.parcours_B1_Dataset = [
               "« Ce poste correspond parfaitement à mon projet professionnel car il me permettrait de mettre à profit mes compétences en gestion de projet. »",
               "« Je cherche n importe quel travail disponible parce que j'ai besoin d'argent immédiatement. »",
               "« Vos concurrents ne voulaient pas de moi, alors j'ai décidé de tenter ma chance chez vous. »",
-              "« Je n ai jamais touché à ce domaine mais j'imagine que ce n'est pas bien difficile. »"
+              "« Je n'ai jamais touché à ce domaine mais j'imagine que ce n'est pas bien difficile. »"
             ],
             "correctIndex": 0,
             "explanation": "La structure « Ce poste correspond à mon projet car il me permettrait de mettre à profit... » est valorisante et soignée."
@@ -3449,7 +3449,7 @@ window.parcours_B1_Dataset = [
               "« L essentiel n'est pas la performance chronométrée, mais le plaisir de bouger et d'écouter les besoins de son corps. »",
               "« Si tu as mal aux muscles dès le premier kilomètre, c'est que tu es incapable de faire du sport. »",
               "« Il faut absolument souffrir le martyr pour obtenir le moindre résultat sur sa santé. »",
-              "« Personne à la salle de sport ne voudra te parler si tu n as pas de tenue professionnelle coûteuse. »"
+              "« Personne à la salle de sport ne voudra te parler si tu n'as pas de tenue professionnelle coûteuse. »"
             ],
             "correctIndex": 0,
             "explanation": "Recentrer l'activité sur le plaisir personnel et l écoute du corps désamorce la peur du jugement et de l échec."

@@ -1416,6 +1416,45 @@ body {
 .cefr-chip--c1 { background: #F3E5F5; color: #6A1B9A; border: 1px solid #CE93D8; }
 .cefr-chip--c2 { background: #EDE7F6; color: #4A148C; border: 1px solid #B39DDB; }
 
+/* Interactive legend filter chips */
+.transcript-legend-inline .cefr-chip {
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  user-select: none;
+}
+
+.transcript-legend-inline .cefr-chip:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.transcript-legend-inline .cefr-chip.disabled {
+  opacity: 0.35;
+  background: var(--md-sys-color-surface-variant) !important;
+  color: var(--md-sys-color-outline) !important;
+  border-color: var(--md-sys-color-outline-variant) !important;
+  text-decoration: line-through;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Dynamically disabled transcript word highlights */
+.transcript-word-highlight.highlight-disabled {
+  background-color: transparent !important;
+  color: inherit !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+.transcript-word-highlight.highlight-disabled:hover {
+  filter: none !important;
+  text-decoration: none !important;
+}
+
 /* Mobile Bottom Navigation Bar (< 600px) */
 .md-bottom-nav {
   display: none;

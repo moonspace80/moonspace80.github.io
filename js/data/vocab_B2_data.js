@@ -23974,5 +23974,1625 @@ window.vocab_B2_Dataset = [
         "jp": "経験豊かな外交官たちは、報道機関を通じて流される好戦的な声明よりも、常に控えめで含みを持たせた警告を好みます。"
       }
     ]
+  },
+  {
+    "id": 14486,
+    "word": "Don",
+    "phonetique": "/dɔ̃/",
+    "level": "B1",
+    "theme": "Santé & Solidarité",
+    "type": "nom masculin • courant",
+    "definition": "Action de donner quelque chose à quelqu'un ou à un organisme sans contrepartie financière, acte de générosité (ex. don du sang, don d'organes, don financier).",
+    "traduction_anglais": "donation / gift",
+    "traduction_chinois": "捐赠 / 奉献 (juānzèng)",
+    "traduction_japonais": "寄付 / 寄贈 (きふ / きぞう)",
+    "examples": [
+      {
+        "fr": "Le don du sang régulier permet de sauver chaque année des milliers de vies humaines.",
+        "en": "Regular blood donation saves thousands of human lives every year.",
+        "cn": "定期无偿献血每年挽救数以千计的生命。",
+        "jp": "定期的な献血は、毎年何千もの人命を救うことを可能にしています。"
+      }
+    ]
+  },
+  {
+    "id": 14487,
+    "word": "Sang",
+    "phonetique": "/sɑ̃/",
+    "level": "A2",
+    "theme": "Corps & Santé",
+    "type": "nom masculin • fondamental",
+    "definition": "Liquide biologique rouge circulant dans les artères et les veines sous l'impulsion du cœur, transportant l'oxygène et les nutriments essentiels aux cellules.",
+    "traduction_anglais": "blood",
+    "traduction_chinois": "血液 / 血 (xuè)",
+    "traduction_japonais": "血液 / 血 (けつえき / ち)",
+    "examples": [
+      {
+        "fr": "Une prise de sang permet de contrôler le taux de cholestérol et de globules rouges.",
+        "en": "A blood test checks cholesterol levels and red blood cell counts.",
+        "cn": "验血可以检查胆固醇指标和红细胞计数。",
+        "jp": "血液検査によって、コレステロール値や赤血球数を調べることができます。"
+      }
+    ]
+  },
+  {
+    "id": 14488,
+    "word": "Veille",
+    "phonetique": "/vɛj/",
+    "level": "B1",
+    "theme": "Temps & Société",
+    "type": "nom féminin • courant",
+    "definition": "Le jour ou la période qui précède immédiatement un événement donné (locution courante : « à la veille de » = sur le point de, au moment critique précédant).",
+    "traduction_anglais": "eve / day before / brink",
+    "traduction_chinois": "前夕 / 前夜 (qiánxī)",
+    "traduction_japonais": "前日 / 前夜 (ぜんじつ / ぜんや)",
+    "examples": [
+      {
+        "fr": "À la veille des grands départs en vacances d'été, la circulation sur les autoroutes est particulièrement dense.",
+        "en": "On the eve of the major summer holiday departures, motorway traffic is particularly heavy.",
+        "cn": "在夏季度假出游高峰的前夕，高速公路上的交通尤为拥堵。",
+        "jp": "夏休みの大型連休前夜には、高速道路の交通量が著しく増加します。"
+      }
+    ]
+  },
+  {
+    "id": 14489,
+    "word": "Stocks",
+    "phonetique": "/stɔk/",
+    "level": "B2",
+    "theme": "Économie & Logistique",
+    "type": "nom masculin pluriel • courant",
+    "definition": "Ensemble des réserves de marchandises, de matières premières ou de produits vitaux (ex. poches de sang) conservés en réserve pour subvenir aux besoins futurs.",
+    "traduction_anglais": "stocks / reserves / supplies",
+    "traduction_chinois": "库存 / 储备物资 (kùcún)",
+    "traduction_japonais": "在庫 / 備蓄 (ざいこ / びちく)",
+    "examples": [
+      {
+        "fr": "Les hôpitaux doivent surveiller attentivement leurs stocks de poches de sang avant chaque période de fête.",
+        "en": "Hospitals must carefully monitor their blood bag stocks before every holiday period.",
+        "cn": "各医院在每次节假日前都必须密切监控其血液袋库存。",
+        "jp": "病院は祝日期間の前に、輸血用血液パックの備蓄を注意深く点検しなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": 14490,
+    "word": "S’épuisent",
+    "phonetique": "/s‿e.pɥiz/",
+    "level": "B2",
+    "theme": "État & Évolution",
+    "type": "verbe pronominal (s'épuiser) • 3e personne pluriel",
+    "definition": "Se tarir, diminuer jusqu'à disparaître complètement ou atteindre un seuil critique d'insuffisance.",
+    "traduction_anglais": "are running out / are being depleted",
+    "traduction_chinois": "耗尽 / 枯竭 (hàojìn)",
+    "traduction_japonais": "尽きる / 枯渇する (つきる / こかつする)",
+    "examples": [
+      {
+        "fr": "Quand les réserves de sang s'épuisent, les services de réanimation risquent de différer des opérations vitales.",
+        "en": "When blood reserves run out, intensive care units risk postponing vital surgeries.",
+        "cn": "当血液储备耗尽时，重症监护室可能不得不推迟救命的手术。",
+        "jp": "血液の備蓄が尽きかけると、集中治療部門は命に関わる手術を延期せざるを得なくなる恐れがあります。"
+      }
+    ]
+  },
+  {
+    "id": 14491,
+    "word": "Sensibiliser",
+    "phonetique": "/sɑ̃.si.bi.li.ze/",
+    "level": "B2",
+    "theme": "Communication & Société",
+    "type": "verbe transitif • courant",
+    "definition": "Rendre réceptif, attentif ou conscient à un enjeu humanitaire, médical, environnemental ou civique.",
+    "traduction_anglais": "to raise awareness / to sensitize",
+    "traduction_chinois": "提高警惕 / 增强意识 / 使认识到 (zēngqiáng yìshí)",
+    "traduction_japonais": "啓発する / 意識を高めさせる (けいはつする)",
+    "examples": [
+      {
+        "fr": "Cette campagne nationale vise à sensibiliser les jeunes conducteurs aux dangers de la somnolence au volant.",
+        "en": "This national campaign aims to raise young drivers' awareness of the dangers of driving while drowsy.",
+        "cn": "这场全国性活动旨在使年轻驾驶员充分意识到疲劳驾驶的严重危害。",
+        "jp": "この全国キャンペーンは、若年ドライバーに居眠り運転の危険性を啓発することを目的としています。"
+      }
+    ]
+  },
+  {
+    "id": 14492,
+    "word": "Maladies",
+    "phonetique": "/ma.la.di/",
+    "level": "A2",
+    "theme": "Santé & Médecine",
+    "type": "nom féminin pluriel • courant",
+    "definition": "Altérations de l'état de santé se manifestant par un ensemble de symptômes et de signes caractéristiques chez un organisme vivant.",
+    "traduction_anglais": "diseases / illnesses",
+    "traduction_chinois": "疾病 / 病症 (jíbìng)",
+    "traduction_japonais": "病気 / 疾患 (びょうき / しっかん)",
+    "examples": [
+      {
+        "fr": "La transfusion sanguine est indispensable dans le traitement de nombreuses maladies chroniques ou génétiques.",
+        "en": "Blood transfusion is indispensable in treating numerous chronic or genetic diseases.",
+        "cn": "输血疗法在许多慢性病或遗传性疾病的治疗中是不可或缺的。",
+        "jp": "輸血は、多くの慢性疾患や遺伝性疾患の治療において不可欠です。"
+      }
+    ]
+  },
+  {
+    "id": 14493,
+    "word": "Cour Saint-Émilion",
+    "phonetique": "/kuʁ sɛ̃.t‿e.mi.ljɔ̃/",
+    "level": "B2",
+    "theme": "Géographie & Société parisienne",
+    "type": "nom propre • toponyme urbain parisien",
+    "definition": "Voie piétonne emblématique de Bercy Village (12e arrondissement de Paris), ancienne place forte du négoce vinicole parisien aujourd'hui réhabilitée en zone commerciale et festive accueillant souvent des tentes d'événements associatifs.",
+    "traduction_anglais": "Cour Saint-Émilion (pedestrian plaza in Paris 12th arr.)",
+    "traduction_chinois": "圣埃米利永庭院 (巴黎十二区著名步行商圈)",
+    "traduction_japonais": "クール・サンテミリオン（パリ12区ベルシー地区の歩行者天国広場）",
+    "examples": [
+      {
+        "fr": "Les animations du Festival Globule s'installent chaque année sous des pavillons éphémères Cour Saint-Émilion à Paris.",
+        "en": "The Globule Festival events set up each year under temporary pavilions at Cour Saint-Émilion in Paris.",
+        "cn": "红球献血节的推广宣传活动每年都会在巴黎圣埃米利永庭院的临时棚屋下热烈举行。",
+        "jp": "グロビュール・フェスティバルの各種イベントは毎年、パリのクール・サンテミリオンに設営された仮設テントで開催されます。"
+      }
+    ]
+  },
+  {
+    "id": 14494,
+    "word": "Je suis en bonne santé",
+    "phonetique": "/ʒə sɥi z‿ɑ̃ bɔn sɑ̃.te/",
+    "level": "A2",
+    "theme": "Corps & Bien-être",
+    "type": "locution verbale (être en bonne santé)",
+    "definition": "Formule indiquant qu'on jouit d'une bonne condition physique et biologique, sans trouble pathologique, affection aiguë ni maladie invalidante.",
+    "traduction_anglais": "I am in good health / I am healthy",
+    "traduction_chinois": "我身体健康 (wǒ shēntǐ jiànkāng)",
+    "traduction_japonais": "健康です / 体調が良好です",
+    "examples": [
+      {
+        "fr": "Le médecin vérifie d'abord que le donneur est en parfaite santé avant de prélever son sang.",
+        "en": "The doctor first verifies that the donor is in perfect health before drawing their blood.",
+        "cn": "在抽取血液之前，医生首先会确认献血者的身体机能处于完全健康状态。",
+        "jp": "医師は採血を行う前に、まずドナーが完全に健康であることを確認します。"
+      }
+    ]
+  },
+  {
+    "id": 14495,
+    "word": "Contraignant",
+    "phonetique": "/kɔ̃.tʁɛ.ɲɑ̃/",
+    "level": "B2",
+    "theme": "Description & Jugement",
+    "type": "adjectif qualificatif • soutenu",
+    "definition": "Qui impose une obligation étroite, une gêne pesante ou des limitations strictes à la liberté ou à l'emploi du temps.",
+    "traduction_anglais": "restrictive / binding / constraining",
+    "traduction_chinois": "具约束力的 / 繁琐拘束的 (yuēshù de)",
+    "traduction_japonais": "拘束的な / 負担の大きい (こうそくてきな)",
+    "examples": [
+      {
+        "fr": "Donner son sang ne prend qu'une demi-heure, ce qui n'est pas contraignant dans un emploi du temps chargé.",
+        "en": "Giving blood only takes half an hour, which is not burdensome even in a busy schedule.",
+        "cn": "献血只需要半个小时，这在繁忙的日常日程中并不会让人感到繁重拘束。",
+        "jp": "献血はわずか30分しかかからないため、多忙なスケジュールの中でも負担にはなりません。"
+      }
+    ]
+  },
+  {
+    "id": 14496,
+    "word": "Douloureux",
+    "phonetique": "/du.lu.ʁø/",
+    "level": "B1",
+    "theme": "Corps & Sensations",
+    "type": "adjectif qualificatif • courant",
+    "definition": "Qui provoque une sensation physique pénible, cuisante ou intolérable causée par une blessure, une piqûre ou une affection.",
+    "traduction_anglais": "painful / aching",
+    "traduction_chinois": "疼痛的 / 令人痛苦的 (téngtòng de)",
+    "traduction_japonais": "痛みを伴う / つらい (いたみをともなう)",
+    "examples": [
+      {
+        "fr": "La piqûre de l'aiguille est très brève et n'est absolument pas douloureuse pour le patient.",
+        "en": "The needle prick is very brief and absolutely not painful for the patient.",
+        "cn": "针头的刺入非常迅速，对受试者而言完全不会感到难以忍受的疼痛。",
+        "jp": "針の穿刺は一瞬であり、患者にとって決して痛みを伴うものではありません。"
+      }
+    ]
+  },
+  {
+    "id": 14497,
+    "word": "Entretien",
+    "phonetique": "/ɑ̃.tʁə.tjɛ̃/",
+    "level": "B1",
+    "theme": "Communication & Santé",
+    "type": "nom masculin • courant",
+    "definition": "Conversation organisée et méthodique entre deux ou plusieurs personnes en vue d'échanger des informations (ex. entretien médical confidentiel préalable au don).",
+    "traduction_anglais": "interview / consultation / meeting",
+    "traduction_chinois": "面谈 / 问诊交谈 (miàntán)",
+    "traduction_japonais": "面談 / 問診 (めんだん / もんしん)",
+    "examples": [
+      {
+        "fr": "L'entretien médical préalable permet au praticien d'écarter toute contre-indication temporaire au don.",
+        "en": "The preliminary medical interview allows the practitioner to rule out any temporary contraindications to donation.",
+        "cn": "献血前的医务面谈能够让医生及时排除任何暂时的献血禁忌指征。",
+        "jp": "事前の医療面談（問診）により、医師は献血の一時的な禁忌事項を確実に除外できます。"
+      }
+    ]
+  },
+  {
+    "id": 14498,
+    "word": "Collation",
+    "phonetique": "/kɔ.la.sjɔ̃/",
+    "level": "B1",
+    "theme": "Alimentation & Soins",
+    "type": "nom féminin • courant",
+    "definition": "Léger repas composé de boissons fraîches, de biscuits ou d'en-cas sucrés, offert immédiatement après un don de sang pour reconstituer l'énergie et la glycémie.",
+    "traduction_anglais": "snack / light refreshment",
+    "traduction_chinois": "便餐 / 点心茶点 (diǎnxin)",
+    "traduction_japonais": "軽食 / おやつ (けいしょく)",
+    "examples": [
+      {
+        "fr": "Après le prélèvement, une collation sucrée et un grand verre d'eau sont offerts pour éviter tout étourdissement.",
+        "en": "After the blood draw, a sugary snack and a large glass of water are offered to prevent dizziness.",
+        "cn": "完成采血后，医护人员会提供一份甜点茶点和一大杯清水，以避免发生头晕或低血糖。",
+        "jp": "採血後には、立ちくらみを防ぐために甘い軽食とコップ一杯の水が提供されます。"
+      }
+    ]
+  },
+  {
+    "id": 14499,
+    "word": "Pas de problème",
+    "phonetique": "/pɑ də pʁɔ.blɛm/",
+    "level": "A1",
+    "theme": "Communication courante",
+    "type": "locution familière & courante",
+    "definition": "Expression usuelle marquant l'accord, la facilité, ou rassurant l'interlocuteur sur le bon déroulement d'une situation (synonymes : aucun souci, tout va bien).",
+    "traduction_anglais": "no problem / no worries",
+    "traduction_chinois": "没问题 / 不用担心 (méi wèntí)",
+    "traduction_japonais": "問題ありません / 大丈夫です",
+    "examples": [
+      {
+        "fr": "– Est-ce que tout s'est bien déroulé ? – Oui, très bien, pas de problème !",
+        "en": "– Did everything go well? – Yes, very well, no problem!",
+        "cn": "——一切都还顺利吗？——非常顺利，完全没问题！",
+        "jp": "「すべて順調でしたか？」「はい、とても順調で全く問題ありませんでした！」"
+      }
+    ]
+  },
+  {
+    "id": 14500,
+    "word": "Responsable",
+    "phonetique": "/ʁɛs.pɔ̃.sabl/",
+    "level": "B2",
+    "theme": "Travail & Rôle institutionnel",
+    "type": "nom masculin ou féminin • courant",
+    "definition": "Personne investie de la charge de diriger, coordonner, superviser ou répondre des résultats d'un service, d'une équipe ou d'un projet.",
+    "traduction_anglais": "manager / supervisor / head",
+    "traduction_chinois": "负责人 / 主管 (fùzérén)",
+    "traduction_japonais": "責任者 / 統括管理者 (せきにんしゃ)",
+    "examples": [
+      {
+        "fr": "Le responsable des collectes régionales coordonne les équipes médicales sur les différents sites mobiles.",
+        "en": "The regional collections manager coordinates medical teams across the various mobile sites.",
+        "cn": "大区血液采集部门负责人统一统筹协调派驻在各个移动采血点的医疗医护团队。",
+        "jp": "地域採血部門の責任者は、各地の移動採血会場に配置された医療チームを統括・指導しています。"
+      }
+    ]
+  },
+  {
+    "id": 14501,
+    "word": "Globalement",
+    "phonetique": "/ɡlɔ.bal.mɑ̃/",
+    "level": "B2",
+    "theme": "Argumentation & Nuance",
+    "type": "adverbe • courant",
+    "definition": "Dans l'ensemble, de manière générale, sans entrer dans le détail des cas particuliers.",
+    "traduction_anglais": "overall / globally / on the whole",
+    "traduction_chinois": "总体上 / 大体而言 (zǒngtǐ shàng)",
+    "traduction_japonais": "全般的に / 概して (ぜんばんてきに)",
+    "examples": [
+      {
+        "fr": "Globalement, le bilan de cette journée nationale de collecte dépasse largement les prévisions initiales.",
+        "en": "Overall, the results of this national collection day far exceed initial expectations.",
+        "cn": "总体而言，本次全国无偿采血行动的最终成果远远超出了原先的预估指标。",
+        "jp": "全般的に見て、この全国採血キャンペーンの成果は当初の予測を大幅に上回りました。"
+      }
+    ]
+  },
+  {
+    "id": 14502,
+    "word": "Fréquentation",
+    "phonetique": "/fʁe.kɑ̃.ta.sjɔ̃/",
+    "level": "B2",
+    "theme": "Statistiques & Société",
+    "type": "nom féminin • courant",
+    "definition": "Nombre ou afflux de personnes qui se rendent habituellement ou occasionnellement dans un lieu public, un magasin ou un centre de collecte.",
+    "traduction_anglais": "attendance / footfall / turnout",
+    "traduction_chinois": "到访量 / 客流量 / 出席人数 (kèliúliàng)",
+    "traduction_japonais": "来訪者数 / 動員数 (らいほうしゃすう)",
+    "examples": [
+      {
+        "fr": "La fréquentation des tentes de don du sang a doublé pendant la période du Festival Globule.",
+        "en": "Attendance at blood donation tents doubled during the Globule Festival period.",
+        "cn": "在红球节活动期间，造访各个街头献血大棚的市民人流量翻了一番。",
+        "jp": "グロビュール・フェスティバルの期間中、献血テントの来訪者数は2倍に跳ね上がりました。"
+      }
+    ]
+  },
+  {
+    "id": 14503,
+    "word": "Intéresse",
+    "phonetique": "/ɛ̃.te.ʁɛs/",
+    "level": "A2",
+    "theme": "Communication & Goûts",
+    "type": "verbe transitif (intéresser) • 3e personne singulier",
+    "definition": "Susciter l'attention, la curiosité ou la bienveillance de quelqu'un (ex. « le phénomène qui vous intéresse » = qui retient votre attention).",
+    "traduction_anglais": "interests / appeals to",
+    "traduction_chinois": "引起兴趣 / 引起关注 (yǐnqǐ xìngqù)",
+    "traduction_japonais": "興味を引く / 関心を引く",
+    "examples": [
+      {
+        "fr": "Ce nouveau modèle managérial intéresse vivement les directeurs des ressources humaines.",
+        "en": "This new managerial model greatly interests human resources directors.",
+        "cn": "这种新管理模式引起了人力资源总监的极大兴趣。",
+        "jp": "この新しいマネジメントモデルは、人事部長たちの強い関心を引いています。"
+      }
+    ]
+  },
+  {
+    "id": 14504,
+    "word": "Sans bureau fixe",
+    "phonetique": "/sɑ̃ by.ʁo fiks/",
+    "level": "B2",
+    "theme": "Monde du travail",
+    "type": "locution nominale / expression imagée (jeu de mot sur Sans Domicile Fixe)",
+    "definition": "Désigne les salariés nomades dans une entreprise en flex-office qui ne possèdent aucun poste de travail individuel attribué.",
+    "traduction_anglais": "deskless worker / hot-desker (without fixed desk)",
+    "traduction_chinois": "无固定工位员工 / 游牧员工 (wú gùdìng gōngwèi yuángōng)",
+    "traduction_japonais": "フリーアドレス制の従業員 / 固定席を持たない社員",
+    "examples": [
+      {
+        "fr": "Être sans bureau fixe oblige les salariés à ranger tous leurs dossiers dans un casier chaque soir.",
+        "en": "Being deskless forces employees to store all their files in a locker every evening.",
+        "cn": "没有固定工位迫使员工每天晚上必须把所有文件整理进储物柜中。",
+        "jp": "固定席がないため、社員は毎晩すべての書類をロッカーに片付けなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": 14505,
+    "word": "Salariés",
+    "phonetique": "/sa.la.ʁje/",
+    "level": "B1",
+    "theme": "Travail & Économie",
+    "type": "nom masculin pluriel • courant",
+    "definition": "Personnes liées à un employeur par un contrat de travail et recevant une rémunération régulière (salaire).",
+    "traduction_anglais": "employees / wage earners",
+    "traduction_chinois": "受薪员工 / 雇员 (gùyuán)",
+    "traduction_japonais": "従業員 / 給与所得者 (じゅうぎょういん)",
+    "examples": [
+      {
+        "fr": "Les salariés de l'entreprise participent à la consultation sur les nouveaux aménagements d'espace.",
+        "en": "Company employees take part in the consultation on new office layouts.",
+        "cn": "公司员工参与了有关新工位空间布局的征求意见。",
+        "jp": "会社の従業員は新しいオフィスレイアウトに関する協議に参加します。"
+      }
+    ]
+  },
+  {
+    "id": 14506,
+    "word": "Attitré",
+    "phonetique": "/a.ti.tʁe/",
+    "level": "B2",
+    "theme": "Droit & Statut",
+    "type": "adjectif qualificatif • courant",
+    "definition": "Officiellement désigné, attribué en titre ou réservé à une personne de manière exclusive et permanente (ex. un bureau attitré, un chauffeur attitré).",
+    "traduction_anglais": "assigned / dedicated / appointed",
+    "traduction_chinois": "指定的 / 专属的 / 专职的 (zhuānshǔ de)",
+    "traduction_japonais": "専用の / 指定された / お抱えの",
+    "examples": [
+      {
+        "fr": "Dans ce nouveau siège social, aucun collaborateur ne bénéficie d'un bureau attitré.",
+        "en": "In this new headquarters, no employee has an assigned desk.",
+        "cn": "在这一新总部中，没有任何员工拥有专属固定的工位。",
+        "jp": "この新しい本社では、固定の専用デスクを与えられている社員は一人もいません。"
+      }
+    ]
+  },
+  {
+    "id": 14507,
+    "word": "Se systématise",
+    "phonetique": "/sə sis.te.ma.tiz/",
+    "level": "B2",
+    "theme": "Évolution & Tendances",
+    "type": "verbe pronominal (se systématiser) • 3e personne singulier",
+    "definition": "Devenir général, habituel, adopté de façon méthodique et étendue au sein d'une organisation ou de la société.",
+    "traduction_anglais": "is becoming widespread / is becoming systematic",
+    "traduction_chinois": "走向制度化 / 普及开来 (zǒuxiàng zhìdùhuà)",
+    "traduction_japonais": "制度化される / 定着・一般化する",
+    "examples": [
+      {
+        "fr": "Le recours au télétravail partiel se systématise dans le secteur tertiaire.",
+        "en": "The use of hybrid teleworking is becoming standard practice in the service sector.",
+        "cn": "部分远程办公的模式在第三产业中正日益制度化并普及开来。",
+        "jp": "テレワークの部分的な導入は第3次産業において一般化しつつあります。"
+      }
+    ]
+  },
+  {
+    "id": 14508,
+    "word": "Siège de l’entreprise",
+    "phonetique": "/sjɛʒ də l‿ɑ̃.tʁə.pʁiz/",
+    "level": "B2",
+    "theme": "Entreprise & Organisation",
+    "type": "locution nominale • monde des affaires",
+    "definition": "Bâtiment principal et adresse administrative centrale où se trouvent la direction générale et les services décisionnels d'une société.",
+    "traduction_anglais": "company headquarters",
+    "traduction_chinois": "企业总部 / 公司总部 (qǐyè zǒngbù)",
+    "traduction_japonais": "企業本社 / 本部所在地 (ほんしゃ)",
+    "examples": [
+      {
+        "fr": "La direction a convié les délégués syndicaux au siège de l'entreprise pour négocier l'accord.",
+        "en": "Management invited union representatives to company headquarters to negotiate the agreement.",
+        "cn": "管理层邀请工会代表前往公司总部谈判劳资协议。",
+        "jp": "経営陣は協約を交渉するため、労働組合の代表を企業本社に招致しました。"
+      }
+    ]
+  },
+  {
+    "id": 14509,
+    "word": "Compétition",
+    "phonetique": "/kɔ̃.pe.ti.sjɔ̃/",
+    "level": "B1",
+    "theme": "Société & Travail",
+    "type": "nom féminin • courant",
+    "definition": "Rivalité ou course entre plusieurs personnes poursuivant un même avantage ou un bien en quantité limitée (ex. une compétition quotidienne pour avoir un bureau).",
+    "traduction_anglais": "competition / contest / race",
+    "traduction_chinois": "竞争 / 争夺 (jìngzhēng)",
+    "traduction_japonais": "競争 / 競合 (きょうそう)",
+    "examples": [
+      {
+        "fr": "Le manque de bureaux libres instaure une compétition malsaine dès l'ouverture des portes à 8 heures.",
+        "en": "The lack of available desks creates unhealthy competition as soon as doors open at 8 a.m.",
+        "cn": "可用工位的短缺导致早上八点大门一开就引发不健康的争抢竞争。",
+        "jp": "空きデスクの不足により、朝8時の開場とともに健全とは言えない競争が生じています。"
+      }
+    ]
+  },
+  {
+    "id": 14510,
+    "word": "Souhaite",
+    "phonetique": "/swɛt/",
+    "level": "A2",
+    "theme": "Volonté & Désir",
+    "type": "verbe transitif (souhaiter) • ici synonyme de vouloir",
+    "definition": "Désirer, avoir l'envie ou la volonté de faire quelque chose (« chacun se met là où il le souhaite » = là où il le veut).",
+    "traduction_anglais": "wishes / wants / desires",
+    "traduction_chinois": "希望 / 想要 (xiǎngyào)",
+    "traduction_japonais": "望む / 希望する (のぞむ)",
+    "examples": [
+      {
+        "fr": "Chaque matin, chacun est libre de s'installer à la place qu'il souhaite.",
+        "en": "Every morning, everyone is free to sit wherever they wish.",
+        "cn": "每天早晨，每个人都可以自由选择在自己想要的任何位置坐下。",
+        "jp": "毎朝、各自が望む席に自由に座ることができます。"
+      }
+    ]
+  },
+  {
+    "id": 14511,
+    "word": "Raisons",
+    "phonetique": "/ʁɛ.zɔ̃/",
+    "level": "B1",
+    "theme": "Argumentation & Logique",
+    "type": "nom féminin pluriel • fondamental",
+    "definition": "Motifs, explications logiques ou causes rationnelles qui justifient une action ou une décision.",
+    "traduction_anglais": "reasons / motives",
+    "traduction_chinois": "理由 / 原因 (lǐyóu)",
+    "traduction_japonais": "理由 / 根拠 (りゆう)",
+    "examples": [
+      {
+        "fr": "La direction a exposé les principales raisons qui ont motivé la réorganisation des locaux.",
+        "en": "Management outlined the key reasons driving the reorganization of the premises.",
+        "cn": "管理层陈述了促使办公场所重新规划重组的主要理由。",
+        "jp": "経営陣はオフィスの再編に踏み切った主な理由を説明しました。"
+      }
+    ]
+  },
+  {
+    "id": 14512,
+    "word": "Raison économique",
+    "phonetique": "/ʁɛ.zɔ̃ e.kɔ.nɔ.mik/",
+    "level": "B2",
+    "theme": "Économie & Gestion",
+    "type": "locution nominale • argumentaire",
+    "definition": "Justification fondée sur la rentabilité financière, la réduction des coûts ou l'optimisation des ressources monétaires d'une entreprise.",
+    "traduction_anglais": "economic reason / financial justification",
+    "traduction_chinois": "经济原因 / 财务考量 (jīngjì yuányīn)",
+    "traduction_japonais": "経済的理由 / コスト上の根拠",
+    "examples": [
+      {
+        "fr": "C'est avant tout pour une raison économique que le groupe a décidé de réduire sa surface immobilière de 30 %.",
+        "en": "It is primarily for economic reasons that the group decided to reduce its real estate footprint by 30%.",
+        "cn": "该集团主要是出于经济考量，决定将其办公物业面积缩减30%。",
+        "jp": "グループがオフィス面積を30％縮小することを決定したのは、何よりも経済的理由によるものです。"
+      }
+    ]
+  },
+  {
+    "id": 14513,
+    "word": "Optimiser",
+    "phonetique": "/ɔp.ti.mi.ze/",
+    "level": "B2",
+    "theme": "Performance & Économie",
+    "type": "verbe transitif • professionnel",
+    "definition": "Tirer le meilleur parti possible d'une ressource, d'un espace ou d'un budget pour obtenir un rendement maximal au coût le plus bas.",
+    "traduction_anglais": "to optimize / to make the best use of",
+    "traduction_chinois": "优化 / 使最大化利用 (yōuhuà)",
+    "traduction_japonais": "最適化する / 最大限に活用する (さいてきかする)",
+    "examples": [
+      {
+        "fr": "Le flex-office permet d'optimiser l'espace en supprimant les bureaux inoccupés lors des congés ou déplacements.",
+        "en": "Flex-office optimizes space by eliminating empty desks during leaves or business trips.",
+        "cn": "共享工位制通过消除员工休假或出差期间空置的工位来优化空间利用。",
+        "jp": "フリーアドレスは休暇や出張中の空席をなくすことで、スペースを最適化します。"
+      }
+    ]
+  },
+  {
+    "id": 14514,
+    "word": "Est censé",
+    "phonetique": "/ɛ sɑ̃.se/",
+    "level": "B2",
+    "theme": "Structure grammaticale & Hypothèse",
+    "type": "structure verbale : être censé + infinitif (être supposé)",
+    "definition": "Formule exprimant ce qui est supposé, prévu par une règle ou attendu théoriquement (ex. « ce système est censé renforcer » = on suppose qu'il va renforcer, c'est son but prévu).",
+    "traduction_anglais": "is supposed to / is meant to",
+    "traduction_chinois": "理应 / 本该 / 被期望 (lǐyīng)",
+    "traduction_japonais": "〜することになっている / 〜するはずである",
+    "examples": [
+      {
+        "fr": "Ce nouveau logiciel est censé simplifier les réservations, mais il s'avère complexe à utiliser.",
+        "en": "This new software is supposed to streamline bookings, but it turns out to be complex to use.",
+        "cn": "这款新软件本应简化预约流程，但实际使用起来却很繁琐。",
+        "jp": "この新しいソフトウェアは予約を簡素化することになっていますが、実際には使いづらいことが分かっています。"
+      }
+    ]
+  },
+  {
+    "id": 14515,
+    "word": "Renforcer",
+    "phonetique": "/ʁɑ̃.fɔʁ.se/",
+    "level": "B1",
+    "theme": "Action & Développement",
+    "type": "verbe transitif • courant",
+    "definition": "Rendre plus fort, plus solide ou plus efficace (ex. renforcer la cohésion, renforcer l'esprit d'équipe).",
+    "traduction_anglais": "to strengthen / to reinforce",
+    "traduction_chinois": "加强 / 巩固 / 强化 (jiāqiáng)",
+    "traduction_japonais": "強化する / 強める (きょうかする)",
+    "examples": [
+      {
+        "fr": "Partager les mêmes tables est censé renforcer la communication directe entre départements.",
+        "en": "Sharing the same tables is supposed to strengthen direct communication between departments.",
+        "cn": "共用工作台被认为有助于加强部门之间的面对面沟通。",
+        "jp": "同じテーブルを共有することは、部門間の直接的なコミュニケーションを強化すると考えられています。"
+      }
+    ]
+  },
+  {
+    "id": 14516,
+    "word": "L’esprit d’équipe",
+    "phonetique": "/l‿ɛs.pʁi d‿e.kip/",
+    "level": "B1",
+    "theme": "Ressources humaines & Travail",
+    "type": "locution nominale • collaboration",
+    "definition": "Sentiment de solidarité, de cohésion et de coopération active animant les membres d'un même groupe vers un objectif commun.",
+    "traduction_anglais": "team spirit",
+    "traduction_chinois": "团队精神 / 团队凝聚力 (tuánduì jīngshén)",
+    "traduction_japonais": "チームスピリット / 連帯感 (れんたいかん)",
+    "examples": [
+      {
+        "fr": "L'esprit d'équipe se développe grâce aux projets collaboratifs et au respect mutuel.",
+        "en": "Team spirit thrives through collaborative projects and mutual respect.",
+        "cn": "团队精神依赖于合作项目和相互尊重得以建立和发展。",
+        "jp": "チームスピリットは協働プロジェクトやお互いの尊重によって培われます。"
+      }
+    ]
+  },
+  {
+    "id": 14517,
+    "word": "Capacité d’adaptation",
+    "phonetique": "/ka.pa.si.te d‿a.dap.ta.sjɔ̃/",
+    "level": "B2",
+    "theme": "Compétences professionnelles (Soft skills)",
+    "type": "locution nominale • compétence clé",
+    "definition": "Aptitude psychologique et comportementale à s'acclimater rapidement à de nouveaux environnements, outils ou méthodes de travail.",
+    "traduction_anglais": "adaptability / ability to adapt",
+    "traduction_chinois": "应变能力 / 适应能力 (shìyìng nénglì)",
+    "traduction_japonais": "適応力 / 順応性 (てきおうりょく)",
+    "examples": [
+      {
+        "fr": "La capacité d'adaptation est aujourd'hui l'une des compétences les plus recherchées par les recruteurs.",
+        "en": "Adaptability is nowadays one of the most sought-after skills by recruiters.",
+        "cn": "应变适应能力是当今招聘人员最看重的软实力之一。",
+        "jp": "適応力は今日、採用担当者が最も重視するスキルのひとつです。"
+      }
+    ]
+  },
+  {
+    "id": 14518,
+    "word": "Économies",
+    "phonetique": "/e.kɔ.nɔ.mi/",
+    "level": "B1",
+    "theme": "Finance & Budget",
+    "type": "nom féminin pluriel • courant",
+    "definition": "Réductions de dépenses ou sommes d'argent épargnées grâce à une gestion plus restrictive des ressources.",
+    "traduction_anglais": "savings / cost reductions",
+    "traduction_chinois": "节省 / 节余资金 / 开支缩减 (jiéshěng)",
+    "traduction_japonais": "節約 / コスト削減 (せつやく)",
+    "examples": [
+      {
+        "fr": "Ces économies substantielles sur les loyers de bureau permettent de réinvestir dans la recherche.",
+        "en": "These substantial savings on office rents make it possible to reinvest in research.",
+        "cn": "这些在办公租金上的大幅节省使公司得以向科研领域重新注资。",
+        "jp": "オフィス賃料の大幅な節約により、研究分野への再投資が可能になります。"
+      }
+    ]
+  },
+  {
+    "id": 14519,
+    "word": "Prévoient",
+    "phonetique": "/pʁe.vwa/",
+    "level": "B1",
+    "theme": "Planification",
+    "type": "verbe transitif (prévoir) • 3e personne pluriel",
+    "definition": "Calculer, planifier ou envisager par avance une situation ou une quantité (ex. « prévoient moins de postes que d'employés »).",
+    "traduction_anglais": "plan for / allocate / anticipate",
+    "traduction_chinois": "预计 / 规划配置 (yùjì)",
+    "traduction_japonais": "見込む / 予定する / 割り当てる",
+    "examples": [
+      {
+        "fr": "Les gestionnaires immobiliers prévoient en général un ratio de 0,8 bureau par collaborateur.",
+        "en": "Facility managers typically plan for a ratio of 0.8 desks per employee.",
+        "cn": "物业规划主管通常预计按每位员工0.8个工位的比例进行配额。",
+        "jp": "ファシリティマネージャーは通常、社員1人当たり0.8席の比率を見込んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 14520,
+    "word": "Systématiquement",
+    "phonetique": "/sis.te.ma.tik.mɑ̃/",
+    "level": "B2",
+    "theme": "Fréquence & Méthode",
+    "type": "adverbe • soutenu",
+    "definition": "De manière constante, méthodique et sans exception, en appliquant un principe invariable.",
+    "traduction_anglais": "systematically / invariably / consistently",
+    "traduction_chinois": "系统地 / 一律 / 始终如一地 (xìtǒng de)",
+    "traduction_japonais": "系統的に / 判で押したように常に",
+    "examples": [
+      {
+        "fr": "Les nouveaux baux commerciaux prévoient systématiquement des espaces ouverts partagés.",
+        "en": "New commercial leases systematically feature shared open-plan areas.",
+        "cn": "新的商业写字楼租约一律普遍规定配置开放式共享空间。",
+        "jp": "新しい商業リース契約では、常にオープンな共有スペースが体系的に組み込まれています。"
+      }
+    ]
+  },
+  {
+    "id": 14521,
+    "word": "Concrètement",
+    "phonetique": "/kɔ̃.kʁɛt.mɑ̃/",
+    "level": "B1",
+    "theme": "Explication & Réalité",
+    "type": "adverbe • courant",
+    "definition": "Dans la pratique réelle, sur le plan tangible, par opposition aux principes théoriques ou abstraits.",
+    "traduction_anglais": "in concrete terms / in practice",
+    "traduction_chinois": "具体而言 / 在实际操作中 (jùtǐ ér yán)",
+    "traduction_japonais": "具体的には / 実際のところ (ぐたいてきには)",
+    "examples": [
+      {
+        "fr": "Concrètement, comment s'organise une journée type pour un salarié sans poste attitré ?",
+        "en": "In concrete terms, how is a typical day organized for an unassigned employee?",
+        "cn": "具体而言，一名没有固定工位的员工典型的一天是如何度过的？",
+        "jp": "具体的には、専用席のない社員の一日はどのように運営されるのでしょうか。"
+      }
+    ]
+  },
+  {
+    "id": 14522,
+    "word": "S’installent",
+    "phonetique": "/s‿ɛ̃s.tal/",
+    "level": "A2",
+    "theme": "Mouvement & Espace",
+    "type": "verbe pronominal (s'installer) • 3e personne pluriel",
+    "definition": "Prendre place dans un lieu, s'asseoir et disposer ses affaires pour commencer à travailler ou à séjourner.",
+    "traduction_anglais": "settle in / take their seats",
+    "traduction_chinois": "就座 / 入驻安顿 (jiùzuò)",
+    "traduction_japonais": "着席する / 落ち着く (ちゃくせきする)",
+    "examples": [
+      {
+        "fr": "Dès leur arrivée, les ingénieurs s'installent dans l'îlot central pour brainstormer.",
+        "en": "Upon arrival, the engineers settle in the central pod to brainstorm.",
+        "cn": "工程师们一到就坐在中央办公岛开始头脑风暴。",
+        "jp": "到着するとすぐに、エンジニアたちはブレインストーミングのために中央のスペースに着席します。"
+      }
+    ]
+  },
+  {
+    "id": 14523,
+    "word": "Salles de réunion",
+    "phonetique": "/sal də ʁe.y.njɔ̃/",
+    "level": "A2",
+    "theme": "Lieux de travail",
+    "type": "nom féminin pluriel • vie de bureau",
+    "definition": "Pièces réservées à la concertation, aux présentations et aux discussions d'équipe fermées au public.",
+    "traduction_anglais": "meeting rooms / conference rooms",
+    "traduction_chinois": "会议室 (huìyìshì)",
+    "traduction_japonais": "会議室 (かいぎしつ)",
+    "examples": [
+      {
+        "fr": "Dans les bureaux partagés, les salles de réunion doivent être réservées plusieurs jours à l'avance.",
+        "en": "In shared offices, meeting rooms must be booked several days in advance.",
+        "cn": "在共享办公室中，会议室必须提前数天进行预约。",
+        "jp": "シェアオフィスでは、会議室を数日前に予約しておく必要があります。"
+      }
+    ]
+  },
+  {
+    "id": 14524,
+    "word": "Réserver",
+    "phonetique": "/ʁe.zɛʁ.ve/",
+    "level": "A2",
+    "theme": "Organisation & Services",
+    "type": "verbe transitif • courant",
+    "definition": "Retenir d'avance l'usage d'une place, d'une salle, d'un billet ou d'un service à son profit.",
+    "traduction_anglais": "to book / to reserve",
+    "traduction_chinois": "预订 / 预约 (yùdìng)",
+    "traduction_japonais": "予約する / 確保する (よやくする)",
+    "examples": [
+      {
+        "fr": "Il est impératif de réserver un créneau via l'application interne avant d'occuper la salle.",
+        "en": "It is mandatory to book a slot via the internal app before occupying the room.",
+        "cn": "在占用会议室之前，必须通过内部APP预约具体时段。",
+        "jp": "会議室を使用する前に、社内アプリで枠を予約することが義務付けられています。"
+      }
+    ]
+  },
+  {
+    "id": 14525,
+    "word": "Convoitées",
+    "phonetique": "/kɔ̃.vwa.te/",
+    "level": "B2",
+    "theme": "Désir & Compétition",
+    "type": "adjectif qualificatif féminin pluriel • soutenu",
+    "definition": "Très recherchées, ardemment désirées par un grand nombre de personnes en raison de leur rareté ou de leur attrait.",
+    "traduction_anglais": "coveted / in high demand",
+    "traduction_chinois": "众人觊觎的 / 炙手可热的 (zhìshǒukěrè de)",
+    "traduction_japonais": "垂涎の的となる / 引っ張りだこの",
+    "examples": [
+      {
+        "fr": "Les rares salles calmes et équipées d'écrans vidéo sont les plus convoitées du bâtiment.",
+        "en": "The few quiet rooms equipped with video screens are the most coveted in the building.",
+        "cn": "为数不多配备视频投屏且环境安静的会议室是整座大楼最抢手的宝地。",
+        "jp": "ビデオ画面を備えた数少ない静かな会議室は、ビル内で最も誰もが欲しがる場所です。"
+      }
+    ]
+  },
+  {
+    "id": 14526,
+    "word": "Bloquent",
+    "phonetique": "/blɔk/",
+    "level": "B1",
+    "theme": "Obstacle & Conflit",
+    "type": "verbe transitif (bloquer) • 3e personne pluriel",
+    "definition": "Accaparer indûment un accès, un espace ou une place en empêchant autrui d'en profiter.",
+    "traduction_anglais": "block / monopolize / hold",
+    "traduction_chinois": "霸占 / 阻占 (bàzhàn)",
+    "traduction_japonais": "占有する / ふさぐ / ブロックする",
+    "examples": [
+      {
+        "fr": "Certains salariés bloquent des places en y posant un dossier avant même d'aller prendre un café.",
+        "en": "Some employees hold desks by placing a folder on them even before grabbing a coffee.",
+        "cn": "一些员工甚至在去喝咖啡之前就放个文件夹霸占座位。",
+        "jp": "コーヒーを飲みに行く前に書類を置いて席を確保する社員もいます。"
+      }
+    ]
+  },
+  {
+    "id": 14527,
+    "word": "Laissant",
+    "phonetique": "/lɛ.sɑ̃/",
+    "level": "B1",
+    "theme": "Action & Abandon",
+    "type": "participe présent (laisser)",
+    "definition": "Forme verbale indiquant l'action d'abandonner ou de déposer un objet dans un lieu pendant qu'on fait autre chose.",
+    "traduction_anglais": "leaving / depositing",
+    "traduction_chinois": "留下 / 遗留 (liúxià)",
+    "traduction_japonais": "残したまま / 放置して",
+    "examples": [
+      {
+        "fr": "En laissant leurs affaires sur la table, ils s'assurent que personne n'occupera la place en leur absence.",
+        "en": "By leaving their belongings on the table, they ensure no one takes the seat in their absence.",
+        "cn": "他们把个人物品留在桌上，以此确保离开期间无人抢占该座位。",
+        "jp": "テーブルの上に私物を放置しておくことで、不在中に誰にも席を取られないようにしています。"
+      }
+    ]
+  },
+  {
+    "id": 14528,
+    "word": "Sacs",
+    "phonetique": "/sak/",
+    "level": "A1",
+    "theme": "Objets & Vie quotidienne",
+    "type": "nom masculin pluriel • fondamental",
+    "definition": "Accessoires souples servant à transporter des effets personnels, ordinateurs ou documents professionnels.",
+    "traduction_anglais": "bags / backpacks",
+    "traduction_chinois": "包 / 背包 (bāo)",
+    "traduction_japonais": "バッグ / かばん",
+    "examples": [
+      {
+        "fr": "Les employés posent leurs sacs sur les sièges pour réserver fictivement l'espace.",
+        "en": "Employees place their bags on seats to stake out the space fictitiously.",
+        "cn": "员工把背包放在座椅上来虚设占位。",
+        "jp": "社員たちはスペースをキープするために座席にバッグを置きます。"
+      }
+    ]
+  },
+  {
+    "id": 14529,
+    "word": "Manteaux",
+    "phonetique": "/mɑ̃.to/",
+    "level": "A1",
+    "theme": "Vêtements & Quotidien",
+    "type": "nom masculin pluriel • fondamental",
+    "definition": "Vêtements chauds d'extérieur portés par-dessus les autres vêtements.",
+    "traduction_anglais": "coats / jackets",
+    "traduction_chinois": "大衣 / 外套 (dàyī)",
+    "traduction_japonais": "コート / 上着",
+    "examples": [
+      {
+        "fr": "Dès l'aube, les manteaux accrochés aux dossiers des chaises signalent les places déjà réservées.",
+        "en": "From dawn, coats draped over chair backs signal already claimed spots.",
+        "cn": "清晨搭在椅背上的大衣示意该座位已被提前占用。",
+        "jp": "夜明けから椅子の背もたれに掛けられたコートが、すでに確保された席であることを示しています。"
+      }
+    ]
+  },
+  {
+    "id": 14530,
+    "word": "Pendant",
+    "phonetique": "/pɑ̃.dɑ̃/",
+    "level": "A2",
+    "theme": "Temps & Durée",
+    "type": "préposition • temporelle fondamentale",
+    "definition": "Marque la durée simultanée au cours de laquelle une action se déroule.",
+    "traduction_anglais": "during / while",
+    "traduction_chinois": "在……期间 / 当……的时候 (zài... qījiān)",
+    "traduction_japonais": "〜の間 (のあいだ)",
+    "examples": [
+      {
+        "fr": "Pendant la réunion de direction, les téléphones portables doivent être mis en mode silencieux.",
+        "en": "During the board meeting, mobile phones must be switched to silent mode.",
+        "cn": "在董事会议期间，手机必须调至静音模式。",
+        "jp": "役員会議の間、携帯電話はマナーモードにしておく必要があります。"
+      }
+    ]
+  },
+  {
+    "id": 14531,
+    "word": "Partent",
+    "phonetique": "/paʁ/",
+    "level": "A1",
+    "theme": "Mouvement & Déplacement",
+    "type": "verbe intransitif (partir) • 3e personne pluriel",
+    "definition": "Quitter un lieu pour se diriger vers un autre endroit ou s'absenter.",
+    "traduction_anglais": "leave / go away",
+    "traduction_chinois": "出发 / 离开 (líkāi)",
+    "traduction_japonais": "出発する / 出かける (しゅっぱつする)",
+    "examples": [
+      {
+        "fr": "Les consultants partent en rendez-vous chez les clients dès le milieu de la matinée.",
+        "en": "The consultants leave for client appointments by mid-morning.",
+        "cn": "顾问们上午过半时便出发前往客户处开会。",
+        "jp": "コンサルタントたちは午前半ばにはクライアントとの面談に出発します。"
+      }
+    ]
+  },
+  {
+    "id": 14532,
+    "word": "Extérieur",
+    "phonetique": "/ɛks.te.ʁjœʁ/",
+    "level": "B1",
+    "theme": "Espace & Environnement",
+    "type": "nom masculin • courant (souvent précédé de « à l' »)",
+    "definition": "Espace ou environnement situé hors des locaux de l'entreprise (ex. « rendez-vous à l'extérieur » = rendez-vous chez un client ou hors des bureaux).",
+    "traduction_anglais": "outside / external premises",
+    "traduction_chinois": "外部 / 外界 / 室外 (wàibù)",
+    "traduction_japonais": "外部 / 社外 / 外出先 (しゃがい)",
+    "examples": [
+      {
+        "fr": "Les commerciaux passent la majeure partie de leur temps de travail en clientèle à l'extérieur.",
+        "en": "Sales reps spend most of their working hours off-site with clients.",
+        "cn": "销售代表将大部分工作时间花在外出拜访客户上。",
+        "jp": "営業担当者は勤務時間の大半を社外の顧客先で過ごします。"
+      }
+    ]
+  },
+  {
+    "id": 14533,
+    "word": "Le moindre",
+    "phonetique": "/lə mwɛ̃dʁ/",
+    "level": "B2",
+    "theme": "Superlatif & Emphase",
+    "type": "adjectif superlatif absolu (le moindre + nom)",
+    "definition": "Formule marquant le degré le plus petit ou minime (« le moindre espace » = absolument chaque petit recoin, le plus petit espace possible).",
+    "traduction_anglais": "the slightest / the smallest / any single",
+    "traduction_chinois": "哪怕极微小的 / 丝毫的 / 任何一个极小的 (wéixiǎo de)",
+    "traduction_japonais": "いかなるわずかな〜も / 最小の",
+    "examples": [
+      {
+        "fr": "Aux heures de pointe, le moindre espace disponible est immédiatement pris d'assaut.",
+        "en": "During peak hours, the slightest available space is immediately snapped up.",
+        "cn": "在高峰时段，哪怕最小的一处空地也会立即被抢占一空。",
+        "jp": "ピーク時間帯には、どんなにわずかな空きスペースも即座に奪い合いになります。"
+      }
+    ]
+  },
+  {
+    "id": 14534,
+    "word": "Tensions",
+    "phonetique": "/tɑ̃.sjɔ̃/",
+    "level": "B2",
+    "theme": "Relations humaines & Conflits",
+    "type": "nom féminin pluriel • courant",
+    "definition": "Climat de friction, d'animosité, d'irritation ou de désaccord latent entre plusieurs individus au travail.",
+    "traduction_anglais": "tensions / friction / strains",
+    "traduction_chinois": "紧张局势 / 矛盾摩擦 (jǐnzhāng júshì)",
+    "traduction_japonais": "緊張関係 / 摩擦 / 対立 (きんちょう)",
+    "examples": [
+      {
+        "fr": "La pénurie quotidienne de sièges engendre des tensions permanentes au sein de l'équipe.",
+        "en": "The daily shortage of seats sparks ongoing tension within the team.",
+        "cn": "日常工位的短缺在团队内部引发了持续的矛盾与紧张气氛。",
+        "jp": "毎日の座席不足は、チーム内に絶え間ない緊張関係を生み出しています。"
+      }
+    ]
+  },
+  {
+    "id": 14535,
+    "word": "Collègues",
+    "phonetique": "/kɔ.lɛɡ/",
+    "level": "A2",
+    "theme": "Milieu professionnel",
+    "type": "nom masculin ou féminin pluriel • fondamental",
+    "definition": "Personnes qui travaillent dans la même entreprise, le même service ou exercent la même profession.",
+    "traduction_anglais": "colleagues / coworkers",
+    "traduction_chinois": "同事 (tóngshì)",
+    "traduction_japonais": "同僚 (どうりょう)",
+    "examples": [
+      {
+        "fr": "Entretenir de bonnes relations avec ses collègues favorise une ambiance de travail sereine.",
+        "en": "Maintaining good relations with coworkers fosters a peaceful working atmosphere.",
+        "cn": "与同事保持良好融洽的关系有助于营造轻松的工作氛围。",
+        "jp": "同僚と良好な関係を保つことは、落ち着いた労働環境を促します。"
+      }
+    ]
+  },
+  {
+    "id": 14536,
+    "word": "Pensent",
+    "phonetique": "/pɑ̃s/",
+    "level": "A1",
+    "theme": "Opinion & Pensée",
+    "type": "verbe transitif (penser) • 3e personne pluriel",
+    "definition": "Avoir un avis, juger, estimer ou réfléchir à propos d'un sujet (ex. « que pensent les salariés de cette organisation ? »).",
+    "traduction_anglais": "think / reckon",
+    "traduction_chinois": "认为 / 思考 (rènwéi)",
+    "traduction_japonais": "考える / 思う (かんがえる)",
+    "examples": [
+      {
+        "fr": "Les sociologues étudient ce que pensent réellement les employés de la flexibilité accrue.",
+        "en": "Sociologists study what employees truly think about increased flexibility.",
+        "cn": "社会学家正在研究员工对过度灵活化工作模式的真实看法。",
+        "jp": "社会学者たちは、柔軟性の拡大について社員が実際にどう考えているかを研究しています。"
+      }
+    ]
+  },
+  {
+    "id": 14537,
+    "word": "Organisation du travail",
+    "phonetique": "/ɔʁ.ɡa.ni.za.sjɔ̃ dy tʁa.vaj/",
+    "level": "B2",
+    "theme": "Management & Entreprise",
+    "type": "locution nominale • sciences de gestion",
+    "definition": "Modalités selon lesquelles sont réparties, coordonnées et encadrées les tâches, les horaires et les espaces des travailleurs au sein d'une structure.",
+    "traduction_anglais": "work organization / workplace arrangement",
+    "traduction_chinois": "劳动组织架构 / 工作组织形式 (gōngzuò zǔzhī)",
+    "traduction_japonais": "労働組織形態 / 業務運営体制",
+    "examples": [
+      {
+        "fr": "Cette nouvelle organisation du travail exige une autonomie et une discipline personnelle accrues.",
+        "en": "This new work arrangement requires heightened autonomy and personal discipline.",
+        "cn": "这种全新的工作组织形式要求员工具备更高的自主性与自律意识。",
+        "jp": "この新しい労働組織形態は、より高い自律性と自己規律を要求します。"
+      }
+    ]
+  },
+  {
+    "id": 14538,
+    "word": "En fonction des",
+    "phonetique": "/ɑ̃ fɔ̃k.sjɔ̃ de/",
+    "level": "B1",
+    "theme": "Condition & Variation",
+    "type": "locution prépositive (en fonction de + nom pluriel)",
+    "definition": "Selon, d'après, en tenant compte des particularités ou variations propres à chaque groupe ou paramètre.",
+    "traduction_anglais": "depending on / according to",
+    "traduction_chinois": "根据 / 取决于 (gēnjù)",
+    "traduction_japonais": "〜に応じて / 〜次第で (〜におうじて)",
+    "examples": [
+      {
+        "fr": "L'adhésion au télétravail varie grandement en fonction des profils et des générations.",
+        "en": "Acceptance of teleworking varies widely according to profiles and generations.",
+        "cn": "对远程办公的接受程度因员工个人情况和代际不同而大相径庭。",
+        "jp": "テレワークの受容度は、個人のプロフィールや世代に応じて大きく異なります。"
+      }
+    ]
+  },
+  {
+    "id": 14539,
+    "word": "Générations",
+    "phonetique": "/ʒe.ne.ʁa.sjɔ̃/",
+    "level": "B1",
+    "theme": "Sociologie & Âge",
+    "type": "nom féminin pluriel • courant",
+    "definition": "Ensemble des personnes nées à la même époque et partageant des repères culturels, technologiques et sociaux comparables (ex. générations X, Y, Z, seniors).",
+    "traduction_anglais": "generations",
+    "traduction_chinois": "世代 / 代际人群 (shìdài)",
+    "traduction_japonais": "世代 (せだい)",
+    "examples": [
+      {
+        "fr": "Le fossé numérique entre les générations s'amenuise grâce à des formations adaptées.",
+        "en": "The digital divide between generations is narrowing thanks to targeted training.",
+        "cn": "通过针对性培训，代际之间的数字鸿沟正在不断缩小。",
+        "jp": "世代間のデジタルデバイドは適切な研修のおかげで縮小しています。"
+      }
+    ]
+  },
+  {
+    "id": 14540,
+    "word": "S’adaptent",
+    "phonetique": "/s‿a.dapt/",
+    "level": "B1",
+    "theme": "Évolution & Comportement",
+    "type": "verbe pronominal (s'adapter) • 3e personne pluriel",
+    "definition": "Modifier ses habitudes et ses réactions pour être en phase avec des conditions ou des contraintes nouvelles.",
+    "traduction_anglais": "adapt / adjust themselves",
+    "traduction_chinois": "适应 / 调整适应 (shìyìng)",
+    "traduction_japonais": "適応する / 順応する (てきおうする)",
+    "examples": [
+      {
+        "fr": "Les jeunes diplômés s'adaptent naturellement aux environnements de travail décloisonnés et connectés.",
+        "en": "Young graduates naturally adapt to open and connected work environments.",
+        "cn": "年轻毕业生自然而然地适应开放互联的新型办公环境。",
+        "jp": "新卒者たちは開放的でネットワーク化された職場環境に自然と適応します。"
+      }
+    ]
+  },
+  {
+    "id": 14541,
+    "word": "Situation",
+    "phonetique": "/si.tɥa.sjɔ̃/",
+    "level": "A2",
+    "theme": "Contexte & État",
+    "type": "nom féminin • fondamental",
+    "definition": "Ensemble des circonstances, conditions matérielles et humaines dans lesquelles se trouve une personne à un instant donné.",
+    "traduction_anglais": "situation / circumstances",
+    "traduction_chinois": "处境 / 局势 / 情况 (qíngkuàng)",
+    "traduction_japonais": "状況 / 事態 / 立場 (じょうきょう)",
+    "examples": [
+      {
+        "fr": "La direction cherche des solutions concertées pour débloquer cette situation complexe.",
+        "en": "Management is seeking agreed solutions to resolve this complex situation.",
+        "cn": "管理层正在寻求协商一致的方案以打破这一复杂僵局。",
+        "jp": "経営陣はこの複雑な状況を打開するために合意に基づく解決策を模索しています。"
+      }
+    ]
+  },
+  {
+    "id": 14542,
+    "word": "Plaignent",
+    "phonetique": "/plɛɲ/",
+    "level": "B1",
+    "theme": "Sentiment & Réclamation",
+    "type": "verbe pronominal (se plaindre) • 3e personne pluriel",
+    "definition": "Exprimer son mécontentement, son chagrin ou son agacement à propos d'une gêne subie (ex. se plaignent du bruit).",
+    "traduction_anglais": "complain / grumble",
+    "traduction_chinois": "抱怨 / 申诉不满 (bàoyuàn)",
+    "traduction_japonais": "不満を言う / 愚痴をこぼす",
+    "examples": [
+      {
+        "fr": "De nombreux salariés seniors se plaignent des nuisances sonores incessantes causées par l'open space.",
+        "en": "Many senior employees complain about continuous noise pollution caused by open-plan offices.",
+        "cn": "许多资深老员工都在抱怨开放式办公室带来的不绝于耳的噪音干扰。",
+        "jp": "多くのベテラン社員は、オープンオフィスによる絶え間ない騒音被害に不満を漏らしています。"
+      }
+    ]
+  },
+  {
+    "id": 14543,
+    "word": "Problèmes de concentration",
+    "phonetique": "/pʁɔ.blɛm də kɔ̃.sɑ̃.tʁa.sjɔ̃/",
+    "level": "B2",
+    "theme": "Santé mentale & Travail",
+    "type": "locution nominale • ergonomie cognitive",
+    "definition": "Difficultés psychologiques ou cognitives à fixer son attention de manière soutenue sur une tâche intellectuelle en raison des bruits ambiants.",
+    "traduction_anglais": "concentration issues / focus problems",
+    "traduction_chinois": "注意力难以集中 / 专注力问题 (zhuānzhùlì wèntí)",
+    "traduction_japonais": "集中力障害 / 集中困難 (しゅうちゅうりょく)",
+    "examples": [
+      {
+        "fr": "Les conversations téléphoniques incessantes des voisins créent des problèmes de concentration majeurs.",
+        "en": "Constant phone calls by desk neighbors cause major concentration problems.",
+        "cn": "身旁邻座持续不断的电话交谈造成严重的注意力无法集中问题。",
+        "jp": "隣の人の絶え間ない電話応対は、重大な集中困難を引き起こします。"
+      }
+    ]
+  },
+  {
+    "id": 14544,
+    "word": "Certains",
+    "phonetique": "/sɛʁ.tɛ̃/",
+    "level": "A2",
+    "theme": "Pronom indéfini",
+    "type": "pronom indéfini pluriel",
+    "definition": "Désigne une partie indéterminée d'un ensemble de personnes (« certains ont même peur » = quelques-uns, une portion des salariés).",
+    "traduction_anglais": "some / certain people",
+    "traduction_chinois": "某些人 / 有些人 (mǒuxiē rén)",
+    "traduction_japonais": "一部の人々 / ある人たちは (いちぶのひとびと)",
+    "examples": [
+      {
+        "fr": "Parmi les employés interrogés, certains accueillent favorablement le nomadisme alors que d'autres le rejettent.",
+        "en": "Among surveyed employees, some welcome nomadism while others reject it.",
+        "cn": "在受访员工中，有些人欣然接受游牧办公，而另一些人则断然拒绝。",
+        "jp": "アンケート対象の社員のうち、ノマドワークを歓迎する人もいれば、拒否する人もいます。"
+      }
+    ]
+  },
+  {
+    "id": 14545,
+    "word": "Mode d’organisation",
+    "phonetique": "/mɔd d‿ɔʁ.ɡa.ni.za.sjɔ̃/",
+    "level": "B2",
+    "theme": "Management & Entreprise",
+    "type": "locution nominale • modèle opératoire",
+    "definition": "Manière ou système structuré selon lequel une entité planifie ses ressources et orchestre son fonctionnement.",
+    "traduction_anglais": "mode of organization / organizational model",
+    "traduction_chinois": "组织模式 / 运营体制 (zǔzhī móshì)",
+    "traduction_japonais": "組織形態 / 運営方式",
+    "examples": [
+      {
+        "fr": "Ce nouveau mode d'organisation transforme radicalement les relations hiérarchiques traditionnelles.",
+        "en": "This new mode of organization radically transforms traditional hierarchical relationships.",
+        "cn": "这种全新的组织模式从根本上重塑了传统的层级汇报关系。",
+        "jp": "この新しい組織形態は、従来の階層的関係を根本的に変革します。"
+      }
+    ]
+  },
+  {
+    "id": 14546,
+    "word": "Provoquer",
+    "phonetique": "/pʁɔ.vɔ.ke/",
+    "level": "B1",
+    "theme": "Cause & Effet",
+    "type": "verbe transitif • courant",
+    "definition": "Être la cause directe, déclencher ou susciter un événement, une réaction ou un changement profond.",
+    "traduction_anglais": "to trigger / to cause / to provoke",
+    "traduction_chinois": "引发 / 引起 / 招致 (yǐnfā)",
+    "traduction_japonais": "引き起こす / もたらす (ひきおこす)",
+    "examples": [
+      {
+        "fr": "Cette réorganisation précipitée risque de provoquer une vague d'insatisfaction syndicale.",
+        "en": "This rushed reorganization risks sparking a wave of union discontent.",
+        "cn": "这种仓促的重新组织有可能引发工会的大范围不满浪潮。",
+        "jp": "この拙速な組織再編は、組合の不満の波を引き起こす恐れがあります。"
+      }
+    ]
+  },
+  {
+    "id": 14547,
+    "word": "Outils numériques",
+    "phonetique": "/u.ti ny.me.ʁik/",
+    "level": "B1",
+    "theme": "Technologies & Informatique",
+    "type": "nom masculin pluriel • nouvelles technologies",
+    "definition": "Ensemble des applications, ordinateurs portables, plateformes cloud et logiciels facilitant le travail dématérialisé à distance.",
+    "traduction_anglais": "digital tools / digital software",
+    "traduction_chinois": "数字化工具 / 数字技术设备 (shùzìhuà gōngjù)",
+    "traduction_japonais": "デジタルツール / デジタル機器 (きき)",
+    "examples": [
+      {
+        "fr": "La maîtrise des outils numériques collaboratifs est indispensable pour le travail nomade.",
+        "en": "Mastery of collaborative digital tools is essential for nomadic work.",
+        "cn": "熟练掌握协作类数字化工具是开展游牧办公的必备前提。",
+        "jp": "共同作業用デジタルツールの習熟は、ノマドワークにとって不可欠です。"
+      }
+    ]
+  },
+  {
+    "id": 14548,
+    "word": "Bouleversements",
+    "phonetique": "/bul.vɛʁ.sə.mɑ̃/",
+    "level": "B2",
+    "theme": "Changement & Rupture",
+    "type": "nom masculin pluriel • soutenu",
+    "definition": "Changements profonds, soudains et déstabilisants affectant les structures, les usages ou la société.",
+    "traduction_anglais": "upheavals / disruptions / major shifts",
+    "traduction_chinois": "剧变 / 翻天覆地的动荡变革 (jùbiàn)",
+    "traduction_japonais": "大激変 / 地殻変動 / 激変 (げきへん)",
+    "examples": [
+      {
+        "fr": "L'intelligence artificielle et le télétravail entraînent des bouleversements sans précédent dans le secteur tertiaire.",
+        "en": "Artificial intelligence and remote work are causing unprecedented disruptions in the service sector.",
+        "cn": "人工智能与远程办公正在给第三产业带来前所未有的剧烈变革。",
+        "jp": "人工知能とテレワークは、サービス産業に前例のない大激変をもたらしています。"
+      }
+    ]
+  },
+  {
+    "id": 14549,
+    "word": "Permettent",
+    "phonetique": "/pɛʁ.mɛt/",
+    "level": "B1",
+    "theme": "Capacité & Autorisation",
+    "type": "verbe transitif (permettre) • 3e personne pluriel",
+    "definition": "Donner la possibilité, rendre faisable ou autoriser une action (« permettent déjà de travailler »).",
+    "traduction_anglais": "allow / enable",
+    "traduction_chinois": "使得 / 允许 / 使成为可能 (shǐ kěnéng)",
+    "traduction_japonais": "可能にする / 許容する (かのうにする)",
+    "examples": [
+      {
+        "fr": "Les connexions haut débit permettent d'effectuer des visioconférences depuis n'importe quel lieu.",
+        "en": "Broadband connections make it possible to hold video conferences from anywhere.",
+        "cn": "高速宽带网络使得在任何地方举行视频会议成为可能。",
+        "jp": "ブロードバンド接続により、どこからでもビデオ会議を行うことが可能になります。"
+      }
+    ]
+  },
+  {
+    "id": 14550,
+    "word": "Chez soi",
+    "phonetique": "/ʃe swa/",
+    "level": "A2",
+    "theme": "Lieu & Intimité",
+    "type": "locution adverbiale • vie privée",
+    "definition": "Dans son propre logement, à son domicile privé (« travailler de chez soi » = télétravailler depuis sa maison).",
+    "traduction_anglais": "at home / in one's own home",
+    "traduction_chinois": "在自己家里 / 在家中 (zài jiā zhōng)",
+    "traduction_japonais": "自宅で / 自分の家で (じたくで)",
+    "examples": [
+      {
+        "fr": "Pouvoir travailler de chez soi deux jours par semaine apporte un grand confort de vie.",
+        "en": "Being able to work from home two days a week brings great quality of life.",
+        "cn": "每周能有两天在家中办公带来了极大的生活舒适度。",
+        "jp": "週に2日自宅で仕事ができることは、生活の快適さを大きく向上させます。"
+      }
+    ]
+  },
+  {
+    "id": 14551,
+    "word": "Bureau partagé",
+    "phonetique": "/by.ʁo paʁ.ta.ʒe/",
+    "level": "B1",
+    "theme": "Espaces de travail contemporains",
+    "type": "locution nominale • coworking",
+    "definition": "Espace professionnel collectif (coworking) où des travailleurs indépendants ou des salariés mutualisent postes, imprimantes et salles.",
+    "traduction_anglais": "shared office / coworking space",
+    "traduction_chinois": "共享办公室 / 联合办公空间 (gòngxiǎng bàngōngshì)",
+    "traduction_japonais": "シェアオフィス / コワーキングスペース",
+    "examples": [
+      {
+        "fr": "Louer un bureau partagé en périphérie évite aux salariés de longs trajets quotidiens vers le centre.",
+        "en": "Renting a shared office on the outskirts spares employees long daily commutes downtown.",
+        "cn": "在郊区租赁共享办公工位让员工免受每日往返市中心的长途通勤之苦。",
+        "jp": "郊外のシェアオフィスを借りることで、社員は都心への長い毎日の通勤を避けることができます。"
+      }
+    ]
+  },
+  {
+    "id": 14552,
+    "word": "Concept",
+    "phonetique": "/kɔ̃.sɛpt/",
+    "level": "B2",
+    "theme": "Idée & Innovation",
+    "type": "nom masculin • soutenu",
+    "definition": "Idée générale, modèle innovant ou représentation intellectuelle servant de base à une nouvelle offre ou un nouveau mode de vie.",
+    "traduction_anglais": "concept / paradigm",
+    "traduction_chinois": "概念 / 创新理念 (gàiniàn)",
+    "traduction_japonais": "コンセプト / 概念 / 構想 (がいねん)",
+    "examples": [
+      {
+        "fr": "Le concept des hôtels de travail repousse encore les frontières de l'hôtellerie traditionnelle.",
+        "en": "The concept of work hotels further pushes the boundaries of traditional hospitality.",
+        "cn": "工宿一体酒店的这一全新概念进一步拓宽了传统酒店业的发展边界。",
+        "jp": "ワークホテルというコンセプトは、従来のホテル業界の境界をさらに押し広げています。"
+      }
+    ]
+  },
+  {
+    "id": 14553,
+    "word": "Va plus loin",
+    "phonetique": "/va ply lwɛ̃/",
+    "level": "B2",
+    "theme": "Progression & Dépassement",
+    "type": "locution verbale (aller plus loin)",
+    "definition": "Dépasser ce qui existe déjà, franchir une nouvelle étape plus avancée ou plus radicale.",
+    "traduction_anglais": "goes further / pushes the envelope",
+    "traduction_chinois": "走得更远 / 更进一步 (zǒu de gèng yuǎn)",
+    "traduction_japonais": "さらに先を行く / 一歩踏み込む",
+    "examples": [
+      {
+        "fr": "Cette entreprise va plus loin en fusionnant complètement espaces résidentiels et postes de travail.",
+        "en": "This company goes further by completely merging residential spaces and workstations.",
+        "cn": "该企业走得更远，将起居居住空间与办公工作席位进行了彻底的融合。",
+        "jp": "この企業は居住空間とワークステーションを完全に融合させることで、さらに先を行っています。"
+      }
+    ]
+  },
+  {
+    "id": 14554,
+    "word": "Hôtels",
+    "phonetique": "/o.tɛl/",
+    "level": "A1",
+    "theme": "Tourisme & Hébergement",
+    "type": "nom masculin pluriel • fondamental",
+    "definition": "Établissements commerciaux proposant des chambres meublées et des services payants pour des séjours temporaires.",
+    "traduction_anglais": "hotels",
+    "traduction_chinois": "宾馆 / 酒店 (jiǔdiàn)",
+    "traduction_japonais": "ホテル (ほてる)",
+    "examples": [
+      {
+        "fr": "Certains grands hôtels urbains reconvertissent leurs étages inoccupés en espaces de travail partagés.",
+        "en": "Some large urban hotels are converting their vacant floors into shared workspaces.",
+        "cn": "一些大型城市酒店将闲置楼层改造成共享办公空间。",
+        "jp": "一部の大型都市型ホテルは、空きフロアをシェアワークスペースに改装しています。"
+      }
+    ]
+  },
+  {
+    "id": 14555,
+    "word": "Proposent",
+    "phonetique": "/pʁɔ.poz/",
+    "level": "A2",
+    "theme": "Offre & Suggestion",
+    "type": "verbe transitif (proposer) • 3e personne pluriel",
+    "definition": "Offrir, mettre à la disposition de quelqu'un ou suggérer un choix de service ou de produit.",
+    "traduction_anglais": "offer / provide / suggest",
+    "traduction_chinois": "提供 / 提议 (tígōng)",
+    "traduction_japonais": "提供する / 提案する (ていきょうする)",
+    "examples": [
+      {
+        "fr": "Ces établissements proposent des forfaits mensuels comprenant hébergement et bureau haut débit.",
+        "en": "These establishments offer monthly packages including accommodation and high-speed desks.",
+        "cn": "这些机构提供包含住宿和高速网络办公桌的按月全包套餐。",
+        "jp": "これらの施設は宿泊と高速通信デスクを含む月額パッケージを提供しています。"
+      }
+    ]
+  },
+  {
+    "id": 14556,
+    "word": "Lieu de vie",
+    "phonetique": "/ljø də vi/",
+    "level": "B1",
+    "theme": "Habitat & Société",
+    "type": "locution nominale • cadre de vie",
+    "definition": "Espace convivial aménagé pour habiter, se détendre, cuisiner et tisser des liens sociaux au quotidien.",
+    "traduction_anglais": "living space / place to live",
+    "traduction_chinois": "生活起居空间 (shēnghuó kōngjiān)",
+    "traduction_japonais": "生活空間 / 憩いの場 (せいかつくうかん)",
+    "examples": [
+      {
+        "fr": "Le bureau moderne ne doit plus être un simple lieu de production, mais un véritable lieu de vie agréable.",
+        "en": "The modern office must no longer be a mere production site, but a genuinely pleasant living space.",
+        "cn": "现代办公室不应再仅仅是冰冷的生产场所，而应成为舒适宜居的真正生活起居空间。",
+        "jp": "現代のオフィスは単なる生産の場ではなく、真に快適な生活空間でなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": 14557,
+    "word": "Frontière",
+    "phonetique": "/fʁɔ̃.tjɛʁ/",
+    "level": "B1",
+    "theme": "Limite & Démarcation",
+    "type": "nom féminin • courant",
+    "definition": "Ligne de séparation réelle ou symbolique qui distingue deux domaines, états ou réalités (ex. la frontière entre vie privée et vie professionnelle).",
+    "traduction_anglais": "boundary / border / dividing line",
+    "traduction_chinois": "界限 / 分界线 (jièxiàn)",
+    "traduction_japonais": "境界線 / 境目 (きょうかいせん)",
+    "examples": [
+      {
+        "fr": "Le télétravail constant efface peu à peu la frontière nette entre temps de travail et temps de repos.",
+        "en": "Constant remote work gradually blurs the clear boundary between working hours and rest periods.",
+        "cn": "持续的远程办公正在逐步模糊工作时间与休息时间之间清晰的分界线。",
+        "jp": "常時テレワークは、労働時間と休息時間との明確な境界線を徐々に曖昧にしています。"
+      }
+    ]
+  },
+  {
+    "id": 14558,
+    "word": "Vie professionnelle",
+    "phonetique": "/vi pʁɔ.fɛ.sjɔ.nɛl/",
+    "level": "B1",
+    "theme": "Carrière & Travail",
+    "type": "locution nominale • sphère publique",
+    "definition": "Ensemble des activités, engagements, responsabilités et relations liés à l'emploi et à la carrière d'une personne.",
+    "traduction_anglais": "professional life / working life",
+    "traduction_chinois": "职业生活 / 工作生涯 (zhíyè shēnghuó)",
+    "traduction_japonais": "職業生活 / 仕事面 (しょくぎょうせいかつ)",
+    "examples": [
+      {
+        "fr": "Réussir sa vie professionnelle sans sacrifier sa santé mentale constitue le grand défi de notre époque.",
+        "en": "Succeeding in one's professional life without sacrificing mental health is the great challenge of our era.",
+        "cn": "在不牺牲心理健康的前提下实现职业生涯的成功，构成了我们这个时代的重大挑战。",
+        "jp": "精神的健康を犠牲にすることなく職業生活で成功することは、現代の大きな課題です。"
+      }
+    ]
+  },
+  {
+    "id": 14559,
+    "word": "Vie personnelle",
+    "phonetique": "/vi pɛʁ.sɔ.nɛl/",
+    "level": "B1",
+    "theme": "Intimité & Famille",
+    "type": "locution nominale • sphère privée",
+    "definition": "Domaine de l'existence regroupant la vie privée, les relations familiales, les loisirs et le repos personnel.",
+    "traduction_anglais": "personal life / private life",
+    "traduction_chinois": "个人生活 / 私人生活 (gèrén shēnghuó)",
+    "traduction_japonais": "私生活 / プライベート (しせいかつ)",
+    "examples": [
+      {
+        "fr": "Les lois sur le droit à la déconnexion visent à préserver la vie personnelle des intrusions numériques.",
+        "en": "Right-to-disconnect laws aim to protect personal life from digital intrusions.",
+        "cn": "离线权相关法规旨在保护个人私生活免受数字通讯的无端侵扰。",
+        "jp": "つながらない権利に関する法律は、デジタルの侵入から私生活を守ることを目的としています。"
+      }
+    ]
+  },
+  {
+    "id": 14560,
+    "word": "De plus en plus",
+    "phonetique": "/də ply z‿ɑ̃ ply/",
+    "level": "A2",
+    "theme": "Quantité & Intensité progressive",
+    "type": "locution adverbiale • gradation",
+    "definition": "Indique une augmentation continue, graduelle et progressive dans le temps (« une frontière de plus en plus réduite »).",
+    "traduction_anglais": "more and more / increasingly",
+    "traduction_chinois": "越来越…… / 日益…… (yuè lái yuè)",
+    "traduction_japonais": "ますます / いよいよ / ますます多く",
+    "examples": [
+      {
+        "fr": "Les cadres supérieurs recherchent de plus en plus des postes offrant une réelle flexibilité.",
+        "en": "Senior executives are increasingly seeking positions that offer true flexibility.",
+        "cn": "高管人员日益寻求能够提供真正灵活度的高薪职位。",
+        "jp": "上級管理職は真の柔軟性を提供するポジションをますます求めています。"
+      }
+    ]
+  },
+  {
+    "id": 14561,
+    "word": "Sans limite",
+    "phonetique": "/sɑ̃ li.mit/",
+    "level": "B1",
+    "theme": "Absolu & Liberté",
+    "type": "locution adverbiale ou adjectivale • infinité",
+    "definition": "Dépourvu de borne, de restriction ou de frein temporel ou géographique (« sans limite de temps ou d'espace »).",
+    "traduction_anglais": "limitless / boundless / without limit",
+    "traduction_chinois": "无限度的 / 无边界的 (wú xiàndù de)",
+    "traduction_japonais": "無制限の / 際限のない (むせいげんの)",
+    "examples": [
+      {
+        "fr": "Un travail sans limite horaire peut rapidement conduire à l'épuisement professionnel.",
+        "en": "Work without time limits can quickly lead to burnout.",
+        "cn": "毫无时间上限约束的工作极易迅速导致职业倦怠甚至过劳崩溃。",
+        "jp": "時間制限のない仕事は、急速に燃え尽き症候群（バーンアウト）へとつながる恐れがあります。"
+      }
+    ]
+  },
+  {
+    "id": 14562,
+    "word": "Attend",
+    "phonetique": "/a.tɑ̃/",
+    "level": "A2",
+    "theme": "Avenir & Prévision",
+    "type": "verbe transitif (attendre) • 3e personne singulier",
+    "definition": "Être réservé pour l'avenir, être ce vers quoi la société se dirige (« c'est peut-être ce qui nous attend » = ce qui va nous arriver dans le futur).",
+    "traduction_anglais": "awaits / lies ahead for",
+    "traduction_chinois": "等待着 / 即将迎来 (děngdài zhe)",
+    "traduction_japonais": "待ち受けている / 待っている",
+    "examples": [
+      {
+        "fr": "Personne ne peut prédire avec certitude quel avenir attend le modèle du bureau d'entreprise.",
+        "en": "No one can predict with certainty what future awaits the corporate office model.",
+        "cn": "没有人能确凿预测未来等待着企业传统办公室模式的究竟是什么命运。",
+        "jp": "企業のオフィスモデルをどのような未来が待ち受けているか、誰も確実に予測することはできません。"
+      }
+    ]
+  },
+  {
+    "id": 14563,
+    "word": "Hyper flexibles",
+    "phonetique": "/i.pɛʁ flɛk.sibl/",
+    "level": "B2",
+    "theme": "Monde moderne & Travail",
+    "type": "adjectif qualificatif pluriel • néologisme contemporain",
+    "definition": "Caractérise des personnes ou des organisations dotées d'une capacité d'adaptation extrême, capables de travailler à toute heure et depuis n'importe quel lieu.",
+    "traduction_anglais": "hyper-flexible / ultra-flexible",
+    "traduction_chinois": "超高度灵活的 / 极度弹性化的 (chāo gāodù línghuó de)",
+    "traduction_japonais": "極めて柔軟な / 超フレキシブルな",
+    "examples": [
+      {
+        "fr": "Les entreprises modernes s'appuient sur des employés hyper flexibles capables de basculer instantanément d'un projet à un autre.",
+        "en": "Modern companies rely on hyper-flexible employees capable of instantly pivoting from one project to another.",
+        "cn": "现代企业依赖能够在一瞬间从一个项目快速切换到另一个项目的超高度灵活型员工。",
+        "jp": "現代の企業は、あるプロジェクトから別のプロジェクトへと瞬時に移行できる超柔軟な社員に頼っています。"
+      }
+    ]
+  },
+  {
+    "id": 14564,
+    "word": "Pourront",
+    "phonetique": "/pu.ʁɔ̃/",
+    "level": "A2",
+    "theme": "Capacité & Futur",
+    "type": "verbe pouvoir • futur simple 3e personne pluriel",
+    "definition": "Avoir la possibilité physique, légale ou pratique d'agir dans le futur (« pourront travailler n'importe où »).",
+    "traduction_anglais": "will be able to / will can",
+    "traduction_chinois": "将能够 / 将可以 (jiāng nénggòu)",
+    "traduction_japonais": "〜することができるだろう",
+    "examples": [
+      {
+        "fr": "Grâce aux technologies satellitaires, les salariés pourront se connecter même depuis les zones les plus isolées.",
+        "en": "Thanks to satellite technologies, employees will be able to connect even from the most remote areas.",
+        "cn": "借助卫星通讯技术，员工即使身处最偏僻的偏远地区也将能够随时连线办公。",
+        "jp": "衛星技術のおかげで、社員は最も孤立した僻地からでも接続できるようになるでしょう。"
+      }
+    ]
+  },
+  {
+    "id": 14565,
+    "word": "N’importe où",
+    "phonetique": "/n‿ɛ̃.pɔʁt u/",
+    "level": "A2",
+    "theme": "Lieu indéfini",
+    "type": "locution adverbiale de lieu • indétermination totale",
+    "definition": "Dans n'importe quel endroit sans restriction, en quelque lieu que ce soit.",
+    "traduction_anglais": "anywhere / wherever",
+    "traduction_chinois": "任何地方 / 随处 (rènhé dìfang)",
+    "traduction_japonais": "どこでも / どこであれ",
+    "examples": [
+      {
+        "fr": "Avec un simple ordinateur portable et un accès au réseau, on peut désormais travailler n'importe où.",
+        "en": "With a simple laptop and network access, one can now work anywhere.",
+        "cn": "只需一台轻便笔记本电脑和网络连接，如今人们可以在任何地方办公。",
+        "jp": "シンプルなノートパソコンとネットワーク環境さえあれば、今やどこででも仕事ができます。"
+      }
+    ]
+  },
+  {
+    "id": 14566,
+    "word": "N’importe quelle heure",
+    "phonetique": "/n‿ɛ̃.pɔʁt kɛl œʁ/",
+    "level": "A2",
+    "theme": "Temps & Disponibilité",
+    "type": "locution adverbiale de temps • indétermination horaire",
+    "definition": "À tout moment du jour ou de la nuit sans contrainte d'horaire fixe (« à n'importe quelle heure »).",
+    "traduction_anglais": "at any time / any hour of the day or night",
+    "traduction_chinois": "任何时候 / 无论几点 (rènhé shíhou)",
+    "traduction_japonais": "何時でも / 24時間いつでも",
+    "examples": [
+      {
+        "fr": "Travailler à n'importe quelle heure pose la question sensible du respect des temps de sommeil et de déconnexion.",
+        "en": "Working at any hour raises the sensitive question of respecting sleep and disconnect time.",
+        "cn": "无论几点随时都在工作引发了关于尊重作息睡眠与断连休息时间的敏感探讨。",
+        "jp": "何時であっても働くことができる体制は、睡眠時間やつながらない時間の尊重というデリケートな問題を提起します。"
+      }
+    ]
   }
 ];

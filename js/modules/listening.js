@@ -14,6 +14,7 @@ class ListeningModule {
     this.selectedLevel = 'all';
     this.selectedSource = 'all';
     this.sortOrder = 'newest';
+    this.disabledLevels = new Set(); // Set of CEFR levels whose highlights are hidden ('A1', 'A2', etc.)
 
     this.initDOM();
     this.bindEvents();
@@ -70,6 +71,20 @@ class ListeningModule {
   }
 
   bindEvents() {
+    // Interactive CEFR legend chips (click to toggle highlights on/off)
+    const legendContainer = document.getElementById('transcript-legend-chips');
+    if (legendContainer) {
+      legendContainer.addEventListener('click', (e) => {
+        const btn = e.target.closest('.cefr-chip');
+        if (btn) {
+          const lvl = btn.getAttribute('data-level');
+          if (lvl) {
+            this.toggleLevelHighlight(lvl, btn);
+          }
+        }
+      });
+    }
+
     // Subtabs toggle (Transcription vs Exercices)
     if (this.subtabBtnTranscript && this.subtabBtnQuiz) {
       this.subtabBtnTranscript.addEventListener('click', () => this.switchSubtab('transcript'));
@@ -458,10 +473,12 @@ class ListeningModule {
     return 600;
   }
 
-  loadTrack(index, startTime = 0) {
+  loadTrack(index, startTime = null) {
     this.currentTrackIndex = index;
     const track = this.dataset[index];
     if (!track) return;
+
+    const initialTime = startTime !== null ? startTime : (track.startTime || 0);
 
     if (this.trackTitle) this.trackTitle.textContent = track.title;
     if (this.trackDate) this.trackDate.textContent = track.date;
@@ -473,8 +490,20 @@ class ListeningModule {
 
     if (this.audioElement && track.audioUrl) {
       this.audioElement.src = track.audioUrl;
-      if (startTime > 0) {
-        this.audioElement.currentTime = startTime;
+      const applyStartTime = () => {
+        if (initialTime > 0) {
+          try {
+            this.audioElement.currentTime = initialTime;
+          } catch (e) {
+            // Ignore if seeking fails before metadata
+          }
+        }
+      };
+
+      // Set immediately and also listen once on loadedmetadata to ensure accurate seeking
+      if (initialTime > 0) {
+        applyStartTime();
+        this.audioElement.addEventListener('loadedmetadata', applyStartTime, { once: true });
       }
     }
 
@@ -483,6 +512,38 @@ class ListeningModule {
 
     this.renderQuiz(track.questions);
     this.renderEpisodesList();
+  }
+
+  toggleLevelHighlight(level, chipBtn) {
+    const normLevel = level.toUpperCase();
+    if (this.disabledLevels.has(normLevel)) {
+      this.disabledLevels.delete(normLevel);
+      if (chipBtn) {
+        chipBtn.classList.remove('disabled');
+        chipBtn.classList.add('active');
+        chipBtn.setAttribute('aria-pressed', 'true');
+      }
+    } else {
+      this.disabledLevels.add(normLevel);
+      if (chipBtn) {
+        chipBtn.classList.add('disabled');
+        chipBtn.classList.remove('active');
+        chipBtn.setAttribute('aria-pressed', 'false');
+      }
+    }
+    this.updateHighlightVisibility();
+  }
+
+  updateHighlightVisibility() {
+    if (!this.transcriptBody) return;
+    this.transcriptBody.querySelectorAll('.transcript-word-highlight').forEach(span => {
+      const lvl = (span.getAttribute('data-level') || '').toUpperCase();
+      if (this.disabledLevels.has(lvl)) {
+        span.classList.add('highlight-disabled');
+      } else {
+        span.classList.remove('highlight-disabled');
+      }
+    });
   }
 
   renderHighlightedTranscript(rawTranscript) {
@@ -495,14 +556,34 @@ class ListeningModule {
     const vocabData = window.vocabDataset || [];
     const learnedIds = JSON.parse(localStorage.getItem('delf_learned_vocab') || '[]');
 
-    // Build map of non-mastered words in dictionary: lowercase -> item
-    const unmasteredMap = new Map();
+    // Build list of non-mastered items sorted by word length descending (multi-word phrases first)
+    const activeItems = [];
+    const seenWords = new Set();
     vocabData.forEach(item => {
       if (!learnedIds.includes(item.id)) {
-        const cleanW = item.word.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        if (cleanW.length >= 3) {
-          unmasteredMap.set(cleanW, item);
+        const cleanW = (item.word || '').trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        if (cleanW.length >= 3 && !seenWords.has(cleanW)) {
+          seenWords.add(cleanW);
+          activeItems.push({
+            item,
+            clean: cleanW,
+            isMultiWord: cleanW.includes(' ') || cleanW.includes('-')
+          });
         }
+      }
+    });
+
+    // Sort longer phrases first so "extrême droite" matches before "extrême" or "droite"
+    activeItems.sort((a, b) => b.clean.length - a.clean.length);
+
+    // Fast map for single words
+    const singleWordMap = new Map();
+    const multiWordList = [];
+    activeItems.forEach(entry => {
+      if (entry.isMultiWord) {
+        multiWordList.push(entry);
+      } else {
+        singleWordMap.set(entry.clean, entry.item);
       }
     });
 
@@ -510,53 +591,96 @@ class ListeningModule {
     const tempDiv = document.createElement('div');
     tempDiv.innerHTML = rawTranscript;
 
+    const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
     const processTextNode = (textNode) => {
-      const text = textNode.nodeValue;
+      let text = textNode.nodeValue;
       if (!text || text.trim() === '') return;
 
-      // Regex matching French words (letters with accents)
-      const regex = /([a-zA-Zà-ÿÀ-ŸêëîïôûùüçÉÈÊËÎÏÔÛÙÜÇæœÆŒ-]+)/g;
-      let match;
-      let lastIndex = 0;
-      const frag = document.createDocumentFragment();
-      let hasMatches = false;
+      // First check for multi-word phrases (e.g. "extrême droite", "contre-intelligence", "avoir ordonné")
+      const matches = []; // { start, end, text, item }
 
-      while ((match = regex.exec(text)) !== null) {
-        const wordStr = match[1];
-        const normalized = wordStr.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-        if (unmasteredMap.has(normalized)) {
-          hasMatches = true;
-          // Append preceding unhighlighted text
-          if (match.index > lastIndex) {
-            frag.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+      multiWordList.forEach(({ item, clean }) => {
+        // Construct flexible regex that handles accents and case
+        const pattern = new RegExp(`\\b${escapeRegex(clean)}\\b`, 'gi');
+        // Normalize text temporarily for searching
+        const normalizedText = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        let m;
+        while ((m = pattern.exec(normalizedText)) !== null) {
+          const start = m.index;
+          const end = start + m[0].length;
+          // Check collision with already matched ranges
+          const collides = matches.some(r => Math.max(start, r.start) < Math.min(end, r.end));
+          if (!collides) {
+            matches.push({
+              start,
+              end,
+              text: text.substring(start, end),
+              item
+            });
           }
+        }
+      });
 
-          const item = unmasteredMap.get(normalized);
-          const lvlClass = `highlight-${(item.level || 'B2').toLowerCase()}`;
-
-          const span = document.createElement('span');
-          span.className = `transcript-word-highlight ${lvlClass}`;
-          span.textContent = wordStr;
-          span.setAttribute('data-word-id', item.id);
-          span.title = `Niveau ${item.level} • Cliquer pour voir la définition`;
-
-          span.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.showWordPopover(e.currentTarget, item);
-          });
-
-          frag.appendChild(span);
-          lastIndex = regex.lastIndex;
+      // Next check for single words in regions not already matched
+      const wordRegex = /([a-zA-Zà-ÿÀ-ŸêëîïôûùüçÉÈÊËÎÏÔÛÙÜÇæœÆŒ-]+)/g;
+      let wm;
+      while ((wm = wordRegex.exec(text)) !== null) {
+        const start = wm.index;
+        const end = start + wm[0].length;
+        const collides = matches.some(r => Math.max(start, r.start) < Math.min(end, r.end));
+        if (!collides) {
+          const normalized = wm[1].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+          if (singleWordMap.has(normalized)) {
+            matches.push({
+              start,
+              end,
+              text: wm[1],
+              item: singleWordMap.get(normalized)
+            });
+          }
         }
       }
 
-      if (hasMatches) {
-        if (lastIndex < text.length) {
-          frag.appendChild(document.createTextNode(text.substring(lastIndex)));
+      if (matches.length === 0) return;
+
+      // Sort matches by start position
+      matches.sort((a, b) => a.start - b.start);
+
+      const frag = document.createDocumentFragment();
+      let curIndex = 0;
+
+      matches.forEach(m => {
+        if (m.start > curIndex) {
+          frag.appendChild(document.createTextNode(text.substring(curIndex, m.start)));
         }
-        textNode.parentNode.replaceChild(frag, textNode);
+
+        const item = m.item;
+        const lvl = (item.level || 'B2').toUpperCase();
+        const lvlClass = `highlight-${lvl.toLowerCase()}`;
+        const isDisabled = this.disabledLevels.has(lvl);
+
+        const span = document.createElement('span');
+        span.className = `transcript-word-highlight ${lvlClass}${isDisabled ? ' highlight-disabled' : ''}`;
+        span.textContent = m.text;
+        span.setAttribute('data-word-id', item.id);
+        span.setAttribute('data-level', lvl);
+        span.title = `Niveau ${lvl} • Cliquer pour voir la définition`;
+
+        span.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.showWordPopover(e.currentTarget, item);
+        });
+
+        frag.appendChild(span);
+        curIndex = m.end;
+      });
+
+      if (curIndex < text.length) {
+        frag.appendChild(document.createTextNode(text.substring(curIndex)));
       }
+
+      textNode.parentNode.replaceChild(frag, textNode);
     };
 
     const walkTree = (node) => {
@@ -581,6 +705,9 @@ class ListeningModule {
         });
       }
     });
+
+    // Synchronize current disabled levels with newly rendered transcript
+    this.updateHighlightVisibility();
   }
 
   showWordPopover(targetEl, item) {

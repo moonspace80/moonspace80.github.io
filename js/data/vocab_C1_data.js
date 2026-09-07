@@ -1922,5 +1922,125 @@ window.vocab_C1_Dataset = [
         "jp": "古典文学の学生たちは、ソクラテス以前の哲学者断片の精緻な釈義技法を学んでいる。"
       }
     ]
+  },
+  {
+    "id": 14480,
+    "word": "Extrême droite",
+    "phonetique": "/ɛk.stʁɛm dʁwat/",
+    "level": "C1",
+    "theme": "Politique & Société",
+    "type": "locution nominale féminine • courant",
+    "definition": "Ensemble des mouvements et partis politiques situés à la droite la plus radicale de l'échiquier politique, caractérisés par un nationalisme exacerbé, un discours identitaire et souvent anti-immigration.",
+    "traduction_anglais": "far-right / extreme right",
+    "traduction_chinois": "极右翼 (jí yòuyì)",
+    "traduction_japonais": "極右 (きょくう)",
+    "examples": [
+      {
+        "fr": "La montée de l'extrême droite aux élections régionales suscite de vives inquiétudes au sein des minorités.",
+        "en": "The rise of the far-right in regional elections causes deep concern among minorities.",
+        "cn": "地方选举中极右翼势力的抬头在少数族裔群体中引发了深切担忧。",
+        "jp": "地方選挙における極右勢力の台頭は、少数派コミュニティの間に深い懸念を呼び起こしている。"
+      }
+    ]
+  },
+  {
+    "id": 14481,
+    "word": "Ravagés",
+    "phonetique": "/ʁa.va.ʒe/",
+    "level": "B2",
+    "theme": "Environnement & Climat",
+    "type": "participe passé / adjectif • courant",
+    "definition": "Détruits, dévastés ou profondément détériorés par un fléau naturel (sécheresse, incendie, tempête) ou une violence extrême.",
+    "traduction_anglais": "ravaged / devastated",
+    "traduction_chinois": "饱受摧残的 / 荒芜破败的 (zāoshòu cuīcán de)",
+    "traduction_japonais": "荒廃した / 壊滅的な打撃を受けた (こうはいした)",
+    "examples": [
+      {
+        "fr": "Des champs de maïs ravagés par la canicule et le manque prolongé de précipitations.",
+        "en": "Corn fields ravaged by the heatwave and prolonged lack of rainfall.",
+        "cn": "饱受热浪炙烤和长期干旱无雨摧残的玉米田地。",
+        "jp": "猛暑と長期にわたる降雨不足によって荒廃したトウモロコシ畑。"
+      }
+    ]
+  },
+  {
+    "id": 14482,
+    "word": "SBU",
+    "phonetique": "/ɛs.be.y/",
+    "level": "C1",
+    "theme": "Relations internationales & Défense",
+    "type": "sigle masculin propre • géopolitique",
+    "definition": "Sluzhba Bezpeky Ukrayiny (Служба безпеки України) : Service de sécurité de l'Ukraine, agence principale chargée du renseignement intérieur, de la contre-intelligence et de la lutte antiterroriste.",
+    "traduction_anglais": "Security Service of Ukraine (SBU)",
+    "traduction_chinois": "乌克兰国家安全局 (SBU)",
+    "traduction_japonais": "ウクライナ保安庁 (SBU)",
+    "examples": [
+      {
+        "fr": "Le quartier général du SBU à Kiev a été ciblé par une frappe ciblée de drone.",
+        "en": "The SBU headquarters in Kyiv was targeted by a pinpoint drone strike.",
+        "cn": "乌克兰国家安全局位于基辅的总指挥部遭到无人机精准打击。",
+        "jp": "キーウにあるウクライナ保安庁の本部がドローンによる精密攻撃の標的となった。"
+      }
+    ]
+  },
+  {
+    "id": 14483,
+    "word": "Contre-intelligence",
+    "phonetique": "/kɔ̃.tʁ‿ɛ̃.tɛ.li.ʒɑ̃s/",
+    "level": "C1",
+    "theme": "Défense & Stratégie",
+    "type": "nom féminin • technique",
+    "definition": "Contre-espionnage ; ensemble des activités et services de renseignement destinés à déceler, neutraliser et contrecarrer les opérations d'espionnage, de sabotage ou d'ingérence menées par une puissance adverse.",
+    "traduction_anglais": "counter-intelligence / counter-espionage",
+    "traduction_chinois": "反间谍 / 反情报 (fǎnjiàndié / fǎnqíngbào)",
+    "traduction_japonais": "防諜 / カウンターインテリジェンス (ぼうちょう)",
+    "examples": [
+      {
+        "fr": "La centrale de contre-intelligence ukrainienne coordonne les opérations de traque des réseaux clandestins.",
+        "en": "The Ukrainian counter-intelligence agency coordinates operations to track down clandestine networks.",
+        "cn": "乌克兰反情报中央指挥中枢负责协调搜捕地下秘密谍报网络的联合行动。",
+        "jp": "ウクライナの防諜中枢は、秘密工作ネットワークを追跡する作戦を統括している。"
+      }
+    ]
+  },
+  {
+    "id": 14484,
+    "word": "Bombardement",
+    "phonetique": "/bɔ̃.baʁ.də.mɑ̃/",
+    "level": "B2",
+    "theme": "Conflit & Guerre",
+    "type": "nom masculin • courant",
+    "definition": "Attaque méthodique et intensive menée par des tirs d'artillerie, des missiles ou des largages aériens de bombes sur un objectif militaire ou civil.",
+    "traduction_anglais": "bombardment / shelling / bombing",
+    "traduction_chinois": "轰炸 / 炮击 (hōngzhà / pàojī)",
+    "traduction_japonais": "爆撃 / 砲撃 (ばくげき / ほうげき)",
+    "examples": [
+      {
+        "fr": "Ce bombardement sur les infrastructures stratégiques marque une nouvelle escalade des tensions.",
+        "en": "This bombing of strategic infrastructure marks a new escalation in tensions.",
+        "cn": "此次对战略性基础设施的密集轰炸标志着战局紧张态势的再度升级。",
+        "jp": "戦略インフラに対するこの爆撃は、緊張の新たなエスカレーションを示している。"
+      }
+    ]
+  },
+  {
+    "id": 14485,
+    "word": "Avoir ordonné",
+    "phonetique": "/a.vwaʁ ɔʁ.dɔ.ne/",
+    "level": "C1",
+    "theme": "Conjugaison & Grammaire",
+    "type": "infinitif passé (forme verbale composée) • focus conjugaison",
+    "definition": "Infinitif passé du verbe « ordonner » (auxiliaire « avoir » à l'infinitif présent + participe passé « ordonné »). Exprime une action antérieure et accomplie par rapport au verbe principal (ex. « dit avoir ordonné » = il dit [présent] qu'il a ordonné [action antérieure terminée]).",
+    "traduction_anglais": "to have ordered / to have mandated",
+    "traduction_chinois": "已经下令 / 曾下达指令 (yǐjīng xiàlìng)",
+    "traduction_japonais": "命じたこと / 指示を出したこと",
+    "examples": [
+      {
+        "fr": "Le président affirme avoir ordonné une riposte immédiate après l'attaque.",
+        "en": "The president claims to have ordered an immediate retaliation after the attack.",
+        "cn": "总统声称在袭击发生后已立即下达组织反击的指令（不定式过去时，表先行完成态）。",
+        "jp": "大統領は攻撃直後に即時報復を命じたと明言している（過去不定詞：主動詞より前の完了動作）。"
+      }
+    ]
   }
 ];

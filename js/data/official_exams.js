@@ -1035,9 +1035,17 @@ const exam2Data = {
           totalPoints: 7.0,
           listeningsCount: 1,
           instructions: "Vous allez entendre 1 seule fois un enregistrement sonore. Vous aurez 1 minute pour lire les questions, écouterez l'enregistrement puis aurez 3 minutes pour répondre.",
-          transcript: `
-            Reportage lors du Festival Globule à l'occasion de la Journée mondiale des donneurs de sang, rappelant les critères médicaux pour donner son sang (18-70 ans, peser plus de 50 kg) et la nécessité de renouveler les réserves avant les vacances estivales.
-          `,
+          transcript: `–Journaliste : C’est la journée mondiale du don du sang. Nous sommes à la veille des vacances d’été. Les stocks s’épuisent, alors l’Établissement français du sang tente de nous sensibiliser sur l’importance de ce don dans le traitement de milliers de maladies. L’année dernière, 11 000 dons ont été effectués et cette année, il organise le « Festival Globule » dans 24 grandes villes en France, dont Paris. Émilie Valès, vous vous êtes rendue dans le 12e arrondissement.
+–Emilie Valès : Oui, et sous la grande tente blanche de l’Établissement français du sang, installée Cour Saint-Émilion, 50 bénévoles s’activent autour des donneurs. Une aiguille dans le bras, Alain, retraité de 60 ans, donne son sang.
+–Alain : Je suis en bonne santé pour le faire, donc, je le fais. L’idée, c’est que mon sang soit utilisé pour soigner des gens, voilà. C’est un acte citoyen, il me semble que c’est important de le faire. Pour moi ce n’est pas contraignant. D’abord, ce n’est pas douloureux, ça prend une demi-heure en tout avec l’entretien, le don et puis la collation après, ça prend une demi-heure maximum.
+–EV : Alors, monsieur, ça s’est bien passé, ça va bien ?
+–Alain : Très bien, pas de problème.
+–EV : Le docteur François Charpentier, responsable des collectes en Île-de-France, il s’attend à une belle mobilisation.
+–Docteur François Charpentier : Globalement, on estime qu’une journée comme aujourd’hui... la fréquentation de nos collectes est entre 120 et 200 % de ce qu’elle est habituellement. Donc, voilà en termes de chiffres ce qu’on attend.
+–EV : Et ces dons sont essentiels. L’an dernier, 1 million de malades en ont bénéficié.
+–Dr FC : Tout un pan de la médecine ou de la chirurgie aujourd’hui ne pourrait exister s’il n’y avait pas la transfusion. Les besoins sont incessants et quotidiens. On en a, côté chirurgical, dans l’accidentologie évidemment – on pense tout de suite à ça –. Mais également des spécialités comme la chirurgie cardiaque, aujourd’hui on ne pourrait pas transfuser les malades en globules rouges ou en plasma, la chirurgie cardiaque n’existerait pas. En Île-de-France, il faut 1 800 dons tous les jours, au plan national 9 500 dons.
+–EV : Alors pour donner son sang, deux conditions : avoir entre 18 et 70 ans et peser plus de 50 kilos.
+–Journaliste : Merci beaucoup Émilie Valès. Un numéro de téléphone utile si vous voulez vous renseigner sur ces dons de sang : 0810 150 150, 0810 150 150.`,
           questions: [
             {
               id: "co2-4",

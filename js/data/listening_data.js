@@ -665,5 +665,173 @@ window.listeningDataset = [
         "explanation": "La ministre de la Culture a indiqué que deux fils s'étaient rompus lors du voyage de la broderie de 70 mètres, sans causer d'autres dégâts avant son exposition au British Museum."
       }
     ]
+  },
+  {
+    "id": "rfi-ep-10",
+    "title": "Journée mondiale du don du sang & Festival Globule (Reportage)",
+    "date": "Reportage radio DELF B2 (Journée mondiale du don du sang)",
+    "isoDate": "2026-09-05",
+    "level": "B2",
+    "source": "DELF",
+    "topic": "Santé & Solidarité",
+    "recommendedChapter": "ch-10",
+    "duration": "03:00",
+    "audioUrl": "audio/delf-b2-tp-coll-exemple2-exercice2.mp3",
+    "transcript": "<div class=\"transcript-text\">\n<p>–Journaliste : C’est la journée mondiale du don du sang. Nous sommes à la veille des vacances d’été. Les stocks s’épuisent, alors l’Établissement français du sang tente de nous sensibiliser sur l’importance de ce don dans le traitement de milliers de maladies. L’année dernière, 11 000 dons ont été effectués et cette année, il organise le « Festival Globule » dans 24 grandes villes en France, dont Paris. Émilie Valès, vous vous êtes rendue dans le 12e arrondissement.</p>\n<p>–Emilie Valès : Oui, et sous la grande tente blanche de l’Établissement français du sang, installée Cour Saint-Émilion, 50 bénévoles s’activent autour des donneurs. Une aiguille dans le bras, Alain, retraité de 60 ans, donne son sang.</p>\n<p>–Alain : Je suis en bonne santé pour le faire, donc, je le fais. L’idée, c’est que mon sang soit utilisé pour soigner des gens, voilà. C’est un acte citoyen, il me semble que c’est important de le faire. Pour moi ce n’est pas contraignant. D’abord, ce n’est pas douloureux, ça prend une demi-heure en tout avec l’entretien, le don et puis la collation après, ça prend une demi-heure maximum.</p>\n<p>–EV : Alors, monsieur, ça s’est bien passé, ça va bien ?</p>\n<p>–Alain : Très bien, pas de problème.</p>\n<p>–EV : Le docteur François Charpentier, responsable des collectes en Île-de-France, il s’attend à une belle mobilisation.</p>\n<p>–Docteur François Charpentier : Globalement, on estime qu’une journée comme aujourd’hui... la fréquentation de nos collectes est entre 120 et 200 % de ce qu’elle est habituellement. Donc, voilà en termes de chiffres ce qu’on attend.</p>\n<p>–EV : Et ces dons sont essentiels. L’an dernier, 1 million de malades en ont bénéficié.</p>\n<p>–Dr FC : Tout un pan de la médecine ou de la chirurgie aujourd’hui ne pourrait exister s’il n’y avait pas la transfusion. Les besoins sont incessants et quotidiens. On en a, côté chirurgical, dans l’accidentologie évidemment – on pense tout de suite à ça –. Mais également des spécialités comme la chirurgie cardiaque, aujourd’hui on ne pourrait pas transfuser les malades en globules rouges ou en plasma, la chirurgie cardiaque n’existerait pas. En Île-de-France, il faut 1 800 dons tous les jours, au plan national 9 500 dons.</p>\n<p>–EV : Alors pour donner son sang, deux conditions : avoir entre 18 et 70 ans et peser plus de 50 kilos.</p>\n<p>–Journaliste : Merci beaucoup Émilie Valès. Un numéro de téléphone utile si vous voulez vous renseigner sur ces dons de sang : 0810 150 150, 0810 150 150.</p>\n</div>",
+    "questions": [
+      {
+        "id": "lq10-1",
+        "question": "Quel est l'objectif principal du Festival Globule organisé par l'Établissement français du sang ?",
+        "options": [
+          "Sensibiliser le grand public et reconstituer les réserves de sang avant les vacances d'été",
+          "Vendre des produits dérivés au profit de la recherche médicale pédiatrique",
+          "Recruter des professionnels de santé pour les hôpitaux de Paris",
+          "Inaugurer de nouveaux centres de transfusion sanguine en milieu rural"
+        ],
+        "correct": 0,
+        "explanation": "Le reportage indique que les stocks s'épuisent à la veille des départs en vacances et que l'Établissement français du sang organise ce festival dans 24 grandes villes pour mobiliser les donneurs."
+      },
+      {
+        "id": "lq10-2",
+        "question": "Combien de temps prend l'ensemble de la démarche du don du sang selon Alain, le donneur interrogé ?",
+        "options": [
+          "Une demi-heure maximum, incluant l'entretien préalable, le prélèvement et la collation",
+          "Deux heures complètes en raison du questionnaire médical approfondi",
+          "Environ dix minutes chrono sous la tente de collecte",
+          "Une journée entière d'observation et de repos obligatoire"
+        ],
+        "correct": 0,
+        "explanation": "Alain explique que le don n'est pas contraignant et prend 'une demi-heure en tout avec l'entretien, le don et puis la collation après, ça prend une demi-heure maximum'."
+      },
+      {
+        "id": "lq10-3",
+        "question": "Quelle affluence le docteur François Charpentier prévoit-il pour cette journée de mobilisation ?",
+        "options": [
+          "Une fréquentation entre 120 % et 200 % de celle observée habituellement",
+          "Exactement le double du nombre habituel de donneurs réguliers",
+          "Une légère baisse causée par les départs massifs en vacances d'été",
+          "Un record historique de plus de 500 % par rapport au mois précédent"
+        ],
+        "correct": 0,
+        "explanation": "Le Dr François Charpentier estime que la fréquentation des collectes sera entre 120 et 200 % de la fréquentation habituelle."
+      },
+      {
+        "id": "lq10-4",
+        "question": "D'après le médecin, quelle discipline chirurgicale ne pourrait tout simplement pas exister sans la transfusion sanguine ?",
+        "options": [
+          "La chirurgie cardiaque",
+          "La chirurgie ophtalmologique",
+          "La chirurgie dentaire",
+          "La microchirurgie réparatrice de la main"
+        ],
+        "correct": 0,
+        "explanation": "Le Dr François Charpentier précise que si l'on ne pouvait pas transfuser les malades en globules rouges ou en plasma, la chirurgie cardiaque n'existerait pas."
+      },
+      {
+        "id": "lq10-5",
+        "question": "Quelles sont les deux conditions physiques mentionnées pour pouvoir donner son sang ?",
+        "options": [
+          "Avoir entre 18 et 70 ans et peser plus de 50 kilos",
+          "Avoir entre 20 et 65 ans et mesurer plus d'un mètre soixante",
+          "Avoir entre 16 et 60 ans et être à jeun depuis huit heures",
+          "Être majeur et ne jamais avoir voyagé hors d'Europe"
+        ],
+        "correct": 0,
+        "explanation": "Émilie Valès rappelle les deux conditions indispensables : avoir entre 18 et 70 ans et peser plus de 50 kilos."
+      }
+    ]
+  },
+  {
+    "id": "rfi-ep-11",
+    "title": "Salariés sans bureau fixe et flex-office (Reportage)",
+    "date": "Reportage radio DELF B2 (Flex-office & Entreprise)",
+    "isoDate": "2026-09-06",
+    "level": "B2",
+    "source": "DELF",
+    "topic": "Travail & Société",
+    "recommendedChapter": "ch-18",
+    "duration": "03:10",
+    "audioUrl": "audio/delf-b2-tp-coll-exemple1-exercice2-cut.mp3",
+    "transcript": "<div class=\"transcript-text\">\n<p>–Marc Fauvelle : Bonjour Laetitia Saavedra.</p>\n<p>–Laetitia Saavedra : Bonjour Marc.</p>\n<p>–MF : Le phénomène qui vous intéresse cette semaine, c’est celui des « sans bureau fixe », ces salariés qui n’ont plus de bureau attitré. L’entreprise américaine Google a lancé le mouvement il y a quelques années, suivie depuis par plusieurs grands groupes français.</p>\n<p>–LS : Oui, le principe des salariés sans bureau attribué se systématise en France aujourd’hui, c’est le cas notamment au siège de l’entreprise Sanofi, installé près de Paris depuis 2015. Ici, plus personne n’a de bureau attitré et chaque jour est une compétition pour obtenir un bureau. Le premier arrivé est le premier servi. Les employés arrivent le matin sur un espace commun à toute l’équipe, et chacun se met là où il le souhaite, y compris les chefs qui n’ont plus de bureau.</p>\n<p>–MF : Alors pourquoi ne pas donner de bureau attitré aux salariés ?</p>\n<p>–LS : Deux raisons à cela. La première c’est une raison économique : il faut optimiser l’utilisation des bureaux occupés en moyenne à 60 % du temps. Et puis la deuxième raison c’est que ce système est censé renforcer l’esprit d’équipe et la capacité d’adaptation des salariés. La conséquence de ces économies c’est que les entreprises prévoient systématiquement moins de postes de travail que d’employés, chez Sanofi par exemple c’est 8 postes pour 10 employés.</p>\n<p>–MF : Alors comment ça se passe concrètement pour les salariés ?</p>\n<p>–LS : Eh bien ce n’est pas toujours facile, ils s’installent là où il y a de la place, et parfois il n’y en a pas. Il arrive que certains rentrent chez eux. Autre problème : l’utilisation des salles de réunion qu’il faut réserver et qui sont très convoitées. Parfois, des employés bloquent leur place dans ces salles de réunion, en y laissant leurs sacs ou leurs manteaux pendant qu’ils partent en rendez-vous à l’extérieur. Le moindre espace disponible est occupé, et cela peut créer des tensions entre collègues.</p>\n<p>–MF : Et que pensent les salariés de cette organisation du travail ?</p>\n<p>–LS : Cela varie en fonction des générations : les jeunes s’adaptent à cette situation, mais les plus âgés se plaignent du bruit, de problèmes de concentration, certains ont même peur de ne plus avoir leur place dans l’entreprise.</p>\n<p>–MF : Ce nouveau mode d’organisation va donc provoquer d’autres bouleversements, non ?</p>\n<p>–LS : Oui, les outils numériques permettent déjà de travailler de chez soi ou d’un bureau partagé. Mais un concept va encore plus loin aux États-Unis : il s’agit des hôtels de travail, qui proposent à la fois un lieu de vie et un lieu de travail, avec une frontière entre la vie professionnelle et la vie personnelle de plus en plus réduite. Une nouvelle forme de travail sans limite de temps ou d’espace, c’est peut-être ce qui nous attend, avec des employés hyper flexibles qui pourront travailler n’importe où et à n’importe quelle heure.</p>\n</div>",
+    "questions": [
+      {
+        "id": "lq11-1",
+        "question": "L’entreprise américaine Google a lancé l’idée d’une nouvelle…",
+        "options": [
+          "forme de réunion au travail.",
+          "manière d’utiliser les bureaux.",
+          "organisation du travail à distance."
+        ],
+        "correct": 1,
+        "explanation": "Google a initié le mouvement des salariés sans bureau attitré, soit une nouvelle manière d'utiliser les bureaux physiques."
+      },
+      {
+        "id": "lq11-2",
+        "question": "Dans l’entreprise Sanofi, la nouvelle organisation concerne…",
+        "options": [
+          "uniquement les chefs.",
+          "les chefs et les employés.",
+          "uniquement les employés."
+        ],
+        "correct": 1,
+        "explanation": "La journaliste précise que 'chacun se met là où il le souhaite, y compris les chefs qui n'ont plus de bureau'."
+      },
+      {
+        "id": "lq11-3",
+        "question": "Quel est l’objectif principal de cette organisation ?",
+        "options": [
+          "Limiter les retards et l’absentéisme.",
+          "Améliorer l’utilisation des espaces de travail.",
+          "Créer des salles de réunion supplémentaires."
+        ],
+        "correct": 1,
+        "explanation": "La raison économique première est d'optimiser l'utilisation des bureaux qui n'étaient occupés qu'à 60 % du temps."
+      },
+      {
+        "id": "lq11-4",
+        "question": "Du fait de cette organisation, les employés…",
+        "options": [
+          "rentrent parfois travailler chez eux.",
+          "louent des espaces pour travailler tranquillement.",
+          "organisent leurs rendez-vous à l’extérieur de l’entreprise."
+        ],
+        "correct": 0,
+        "explanation": "Quand il n'y a pas assez de bureaux disponibles (8 postes pour 10 salariés), il arrive que certains rentrent travailler chez eux."
+      },
+      {
+        "id": "lq11-5",
+        "question": "Chez les employés, cette organisation peut…",
+        "options": [
+          "entraîner des conflits.",
+          "être source de fatigue.",
+          "diminuer la productivité."
+        ],
+        "correct": 0,
+        "explanation": "La compétition pour réserver les salles et bloquer des places avec des manteaux crée des tensions et des conflits entre collègues."
+      },
+      {
+        "id": "lq11-6",
+        "question": "Comment les employés les plus âgés réagissent-ils à ce système ?",
+        "options": [
+          "Ils protestent et refusent de l’adopter.",
+          "Ils s’adaptent même si ça ne leur plaît pas.",
+          "Ils s’inquiètent pour leur avenir professionnel."
+        ],
+        "correct": 2,
+        "explanation": "Les plus âgés se plaignent du bruit et 'certains ont même peur de ne plus avoir leur place dans l'entreprise'."
+      },
+      {
+        "id": "lq11-7",
+        "question": "La journaliste estime que les hôtels de travail…",
+        "options": [
+          "facilitent la mise en place du travail à distance.",
+          "renforcent les capacités d’adaptation des salariés.",
+          "favorisent la confusion entre vie privée et vie professionnelle."
+        ],
+        "correct": 2,
+        "explanation": "Les hôtels de travail créent une frontière de plus en plus réduite et floue entre vie professionnelle et vie personnelle."
+      }
+    ]
   }
 ];
+

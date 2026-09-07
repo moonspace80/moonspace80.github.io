@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   
   <link rel="stylesheet" href="css/material.css?v=1788806615802">
-  <link rel="stylesheet" href="css/styles.css?v=1788810500000">
+  <link rel="stylesheet" href="css/styles.css?v=1788811200000">
   <link rel="stylesheet" href="css/writing.css?v=1788806615802">
   <link rel="stylesheet" href="css/journey.css?v=1788806615802">
   <link rel="stylesheet" href="css/grammar.css?v=1788806615802">
@@ -647,7 +647,7 @@
           <!-- Episodes Explorer & Playlist -->
           <div class="listening-episodes-section">
             <div class="episodes-section-header">
-              <h3><span class="material-icons-round">queue_music</span> Épisodes disponibles (<span id="episodes-count-badge">9</span>)</h3>
+              <h3><span class="material-icons-round">queue_music</span> Épisodes disponibles (<span id="episodes-count-badge">11</span>)</h3>
             </div>
 
             <!-- Search & Filters -->
@@ -710,14 +710,14 @@
             <div class="md-card transcript-card">
               <div class="transcript-header">
                 <div class="transcript-header__left">
-                  <div class="transcript-legend-inline">
+                  <div class="transcript-legend-inline" id="transcript-legend-chips" role="group" aria-label="Filtrer les surlignages par niveau">
                     <span class="legend-title">Lexique :</span>
-                    <span class="cefr-chip cefr-chip--a1">A1</span>
-                    <span class="cefr-chip cefr-chip--a2">A2</span>
-                    <span class="cefr-chip cefr-chip--b1">B1</span>
-                    <span class="cefr-chip cefr-chip--b2">B2</span>
-                    <span class="cefr-chip cefr-chip--c1">C1</span>
-                    <span class="cefr-chip cefr-chip--c2">C2</span>
+                    <button type="button" class="cefr-chip cefr-chip--a1 active" data-level="A1" title="Cliquer pour masquer/afficher le surlignage A1" aria-pressed="true">A1</button>
+                    <button type="button" class="cefr-chip cefr-chip--a2 active" data-level="A2" title="Cliquer pour masquer/afficher le surlignage A2" aria-pressed="true">A2</button>
+                    <button type="button" class="cefr-chip cefr-chip--b1 active" data-level="B1" title="Cliquer pour masquer/afficher le surlignage B1" aria-pressed="true">B1</button>
+                    <button type="button" class="cefr-chip cefr-chip--b2 active" data-level="B2" title="Cliquer pour masquer/afficher le surlignage B2" aria-pressed="true">B2</button>
+                    <button type="button" class="cefr-chip cefr-chip--c1 active" data-level="C1" title="Cliquer pour masquer/afficher le surlignage C1" aria-pressed="true">C1</button>
+                    <button type="button" class="cefr-chip cefr-chip--c2 active" data-level="C2" title="Cliquer pour masquer/afficher le surlignage C2" aria-pressed="true">C2</button>
                   </div>
                 </div>
 
@@ -1123,13 +1123,13 @@
   <script src="js/data/vocab_A1_data.js?v=1788806615802"></script>
   <script src="js/data/vocab_A2_data.js?v=1788806615802"></script>
   <script src="js/data/vocab_B1_data.js?v=1788806615802"></script>
-  <script src="js/data/vocab_B2_data.js?v=1788806615802"></script>
-  <script src="js/data/vocab_C1_data.js?v=1788806615802"></script>
+  <script src="js/data/vocab_B2_data.js?v=1788815000000"></script>
+  <script src="js/data/vocab_C1_data.js?v=1788811200000"></script>
   <script src="js/data/vocab_C2_data.js?v=1788806615802"></script>
-  <script src="js/data/vocab_data.js?v=1788806615802"></script>
+  <script src="js/data/vocab_data.js?v=1788815000000"></script>
   <script src="js/data/expressions_data.js?v=1788806615802"></script>
   <script src="js/data/reading_data.js?v=1788806615802"></script>
-  <script src="js/data/listening_data.js?v=1788806615802"></script>
+  <script src="js/data/listening_data.js?v=1788812000000"></script>
   <script src="js/data/writing_data.js?v=1788806615802"></script>
   <script src="js/data/official_exams.js?v=1788806615802"></script>
   <script src="js/data/parcours_A1_data.js?v=1788806615802"></script>
@@ -1146,7 +1146,7 @@
   <script src="js/modules/dictionary.js?v=1788806615802"></script>
   <script src="js/modules/expressions.js?v=1788806615802"></script>
   <script src="js/modules/reading.js?v=1788806615802"></script>
-  <script src="js/modules/listening.js?v=1788810100000"></script>
+  <script src="js/modules/listening.js?v=1788814000000"></script>
   <script src="js/modules/writing.js?v=1788806615802"></script>
   <script src="js/modules/exam_simulator.js?v=1788806615802"></script>
   <script src="js/modules/sessions.js?v=1788806615802"></script>

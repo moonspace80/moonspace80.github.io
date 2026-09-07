@@ -9,6 +9,12 @@ class ListeningModule {
     this.isPlaying = false;
     this.isSeeking = false; // true while user drags the seek bar
 
+    // Search and filter states
+    this.searchQuery = '';
+    this.selectedLevel = 'all';
+    this.selectedSource = 'all';
+    this.sortOrder = 'newest';
+
     this.initDOM();
     this.bindEvents();
     this.render();
@@ -25,7 +31,9 @@ class ListeningModule {
   initDOM() {
     this.audioElement = document.getElementById('main-audio-element');
     this.trackTitle = document.getElementById('audio-track-title');
-    this.trackDate = document.getElementById('audio-track-date');
+    this.trackDate = document.getElementById('compact-track-date');
+    this.sourceBadge = document.getElementById('compact-source-badge');
+    this.levelBadge = document.getElementById('compact-level-badge');
     this.playPauseBtn = document.getElementById('audio-play-pause-btn');
     this.rewindBtn = document.getElementById('audio-rewind-btn');
     this.forwardBtn = document.getElementById('audio-forward-btn');
@@ -39,6 +47,20 @@ class ListeningModule {
     this.submitBtn = document.getElementById('submit-listening-quiz-btn');
     this.scoreDisplay = document.getElementById('listening-quiz-score');
 
+    // Subtabs Elements
+    this.subtabBtnTranscript = document.getElementById('subtab-btn-transcript');
+    this.subtabBtnQuiz = document.getElementById('subtab-btn-quiz');
+    this.subtabPanelTranscript = document.getElementById('subtab-panel-transcript');
+    this.subtabPanelQuiz = document.getElementById('subtab-panel-quiz');
+    this.episodesCountBadge = document.getElementById('episodes-count-badge');
+
+    // Episodes Toolbar Elements
+    this.episodeSearchInput = document.getElementById('listening-search-input');
+    this.levelFilter = document.getElementById('listening-level-filter');
+    this.sourceFilter = document.getElementById('listening-source-filter');
+    this.sortOrderSelect = document.getElementById('listening-sort-order');
+    this.ariaAnnouncer = document.getElementById('listening-aria-announcer');
+
     // Transcript Controls
     this.fontMinusBtn = document.getElementById('transcript-font-minus');
     this.fontPlusBtn = document.getElementById('transcript-font-plus');
@@ -48,6 +70,12 @@ class ListeningModule {
   }
 
   bindEvents() {
+    // Subtabs toggle (Transcription vs Exercices)
+    if (this.subtabBtnTranscript && this.subtabBtnQuiz) {
+      this.subtabBtnTranscript.addEventListener('click', () => this.switchSubtab('transcript'));
+      this.subtabBtnQuiz.addEventListener('click', () => this.switchSubtab('quiz'));
+    }
+
     // Font size adjustments
     if (this.fontMinusBtn) {
       this.fontMinusBtn.addEventListener('click', () => {
@@ -73,30 +101,69 @@ class ListeningModule {
         this.searchInTranscript(e.target.value.trim().toLowerCase());
       });
     }
+
+    // Episode search & filters toolbar
+    if (this.episodeSearchInput) {
+      this.episodeSearchInput.addEventListener('input', (e) => {
+        this.searchQuery = e.target.value.trim().toLowerCase();
+        this.renderEpisodesList();
+      });
+    }
+
+    if (this.levelFilter) {
+      this.levelFilter.addEventListener('change', (e) => {
+        this.selectedLevel = e.target.value;
+        this.renderEpisodesList();
+      });
+    }
+
+    if (this.sourceFilter) {
+      this.sourceFilter.addEventListener('change', (e) => {
+        this.selectedSource = e.target.value;
+        this.renderEpisodesList();
+      });
+    }
+
+    if (this.sortOrderSelect) {
+      this.sortOrderSelect.addEventListener('change', (e) => {
+        this.sortOrder = e.target.value;
+        this.renderEpisodesList();
+      });
+    }
+
     if (this.playPauseBtn) {
       this.playPauseBtn.addEventListener('click', () => this.togglePlayPause());
     }
 
     if (this.rewindBtn) {
       this.rewindBtn.addEventListener('click', () => {
-        if (this.audioElement) this.audioElement.currentTime -= 10;
+        if (this.audioElement) this.audioElement.currentTime = Math.max(0, this.audioElement.currentTime - 10);
       });
     }
 
     if (this.forwardBtn) {
       this.forwardBtn.addEventListener('click', () => {
-        if (this.audioElement) this.audioElement.currentTime += 10;
+        if (this.audioElement) this.audioElement.currentTime = Math.min(this.audioElement.duration || 0, this.audioElement.currentTime + 10);
       });
     }
 
     if (this.audioElement) {
       this.audioElement.addEventListener('timeupdate', () => this.updateProgress());
       this.audioElement.addEventListener('loadedmetadata', () => {
-        if (this.durationEl) this.durationEl.textContent = this.formatTime(this.audioElement.duration);
+        const durFormatted = this.formatTime(this.audioElement.duration);
+        if (this.durationEl) this.durationEl.textContent = durFormatted;
+      });
+      this.audioElement.addEventListener('play', () => {
+        this.isPlaying = true;
+        this.syncPlayStateUI();
+      });
+      this.audioElement.addEventListener('pause', () => {
+        this.isPlaying = false;
+        this.syncPlayStateUI();
       });
       this.audioElement.addEventListener('ended', () => {
         this.isPlaying = false;
-        if (this.playPauseBtn) this.playPauseBtn.innerHTML = '<span class="material-icons-round">play_arrow</span>';
+        this.syncPlayStateUI();
       });
     }
 
@@ -150,26 +217,266 @@ class ListeningModule {
     if (this.submitBtn) {
       this.submitBtn.addEventListener('click', () => this.evaluateQuiz());
     }
+
+    // Keyboard Shortcuts (Space/k: play-pause, j: -10s, l: +10s) when not focused on an input
+    document.addEventListener('keydown', (e) => {
+      // Only active if Listening view is visible
+      const listeningView = document.getElementById('view-listening');
+      if (!listeningView || !listeningView.classList.contains('view-panel--active')) return;
+
+      const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+      if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') return;
+
+      if (e.code === 'Space' || e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        this.togglePlayPause();
+      } else if (e.key.toLowerCase() === 'j') {
+        e.preventDefault();
+        if (this.audioElement) this.audioElement.currentTime = Math.max(0, this.audioElement.currentTime - 10);
+      } else if (e.key.toLowerCase() === 'l') {
+        e.preventDefault();
+        if (this.audioElement) this.audioElement.currentTime = Math.min(this.audioElement.duration || 0, this.audioElement.currentTime + 10);
+      }
+    });
+  }
+
+  setLevelFilter(level) {
+    this.selectedLevel = level;
+    if (this.levelFilter) {
+      this.levelFilter.value = level;
+    }
+    this.renderEpisodesList();
+  }
+
+  switchSubtab(tabName) {
+    if (!this.subtabBtnTranscript) this.subtabBtnTranscript = document.getElementById('subtab-btn-transcript');
+    if (!this.subtabBtnQuiz) this.subtabBtnQuiz = document.getElementById('subtab-btn-quiz');
+    if (!this.subtabPanelTranscript) this.subtabPanelTranscript = document.getElementById('subtab-panel-transcript');
+    if (!this.subtabPanelQuiz) this.subtabPanelQuiz = document.getElementById('subtab-panel-quiz');
+
+    if (tabName === 'transcript') {
+      if (this.subtabBtnTranscript) {
+        this.subtabBtnTranscript.classList.add('active');
+        this.subtabBtnTranscript.setAttribute('aria-selected', 'true');
+      }
+      if (this.subtabBtnQuiz) {
+        this.subtabBtnQuiz.classList.remove('active');
+        this.subtabBtnQuiz.setAttribute('aria-selected', 'false');
+      }
+      if (this.subtabPanelTranscript) {
+        this.subtabPanelTranscript.classList.add('active');
+        this.subtabPanelTranscript.style.display = 'block';
+      }
+      if (this.subtabPanelQuiz) {
+        this.subtabPanelQuiz.classList.remove('active');
+        this.subtabPanelQuiz.style.display = 'none';
+      }
+    } else if (tabName === 'quiz') {
+      if (this.subtabBtnQuiz) {
+        this.subtabBtnQuiz.classList.add('active');
+        this.subtabBtnQuiz.setAttribute('aria-selected', 'true');
+      }
+      if (this.subtabBtnTranscript) {
+        this.subtabBtnTranscript.classList.remove('active');
+        this.subtabBtnTranscript.setAttribute('aria-selected', 'false');
+      }
+      if (this.subtabPanelTranscript) {
+        this.subtabPanelTranscript.classList.remove('active');
+        this.subtabPanelTranscript.style.display = 'none';
+      }
+      if (this.subtabPanelQuiz) {
+        this.subtabPanelQuiz.classList.add('active');
+        this.subtabPanelQuiz.style.display = 'block';
+      }
+
+      // Ensure quiz questions are rendered if container is empty
+      if (this.quizQuestionsEl && (!this.quizQuestionsEl.children || this.quizQuestionsEl.children.length === 0)) {
+        const track = this.dataset[this.currentTrackIndex];
+        if (track && track.questions) {
+          this.renderQuiz(track.questions);
+        }
+      }
+    }
+  }
+
+  syncPlayStateUI() {
+    const playIcon = this.isPlaying ? '<span class="material-icons-round">pause</span>' : '<span class="material-icons-round">play_arrow</span>';
+    if (this.playPauseBtn) this.playPauseBtn.innerHTML = playIcon;
+
+    // Update equalizer animation state
+    const currentCard = document.querySelector(`.episode-card[data-index="${this.currentTrackIndex}"]`);
+    if (currentCard) {
+      const eq = currentCard.querySelector('.now-playing-badge');
+      if (eq) {
+        if (this.isPlaying) eq.classList.remove('is-paused');
+        else eq.classList.add('is-paused');
+      }
+    }
+  }
+
+  getFilteredEpisodes() {
+    let list = this.dataset.map((ep, originalIndex) => ({ ...ep, originalIndex }));
+
+    // Filter by CEFR Level
+    if (this.selectedLevel && this.selectedLevel !== 'all') {
+      list = list.filter(ep => (ep.level || 'B2').toUpperCase() === this.selectedLevel.toUpperCase());
+    }
+
+    // Filter by Source
+    if (this.selectedSource && this.selectedSource !== 'all') {
+      list = list.filter(ep => (ep.source || 'RFI').toUpperCase() === this.selectedSource.toUpperCase());
+    }
+
+    // Filter by text search query
+    if (this.searchQuery && this.searchQuery !== '') {
+      list = list.filter(ep => {
+        const titleMatch = (ep.title || '').toLowerCase().includes(this.searchQuery);
+        const topicMatch = (ep.topic || '').toLowerCase().includes(this.searchQuery);
+        const dateMatch = (ep.date || '').toLowerCase().includes(this.searchQuery);
+        return titleMatch || topicMatch || dateMatch;
+      });
+    }
+
+    // Sort order
+    if (this.sortOrder === 'newest') {
+      list.sort((a, b) => new Date(b.isoDate || 0) - new Date(a.isoDate || 0));
+    } else if (this.sortOrder === 'oldest') {
+      list.sort((a, b) => new Date(a.isoDate || 0) - new Date(b.isoDate || 0));
+    } else if (this.sortOrder === 'level') {
+      const levelRank = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4, 'C1': 5, 'C2': 6 };
+      list.sort((a, b) => (levelRank[a.level || 'B2'] || 4) - (levelRank[b.level || 'B2'] || 4));
+    }
+
+    return list;
   }
 
   renderEpisodesList() {
     if (!this.episodesListEl) return;
-    this.episodesListEl.innerHTML = this.dataset.map((ep, idx) => `
-      <div class="example-item ${idx === this.currentTrackIndex ? 'active' : ''}" style="cursor:pointer" onclick="listeningModule.loadTrack(${idx})">
-        <strong>${ep.title}</strong>
-        <div style="font-size:0.75rem; color:var(--md-sys-color-on-surface-variant)">${ep.date} • Durée : ${ep.duration}</div>
-      </div>
-    `).join('');
+    const episodes = this.getFilteredEpisodes();
+    const savedProgress = JSON.parse(localStorage.getItem('delf_listening_progress') || '{}');
+    const listenedEpisodes = JSON.parse(localStorage.getItem('delf_listened_episodes') || '[]');
+
+    if (this.episodesCountBadge) {
+      this.episodesCountBadge.textContent = episodes.length;
+    }
+
+    if (this.ariaAnnouncer) {
+      this.ariaAnnouncer.textContent = `${episodes.length} épisode${episodes.length > 1 ? 's' : ''} trouvé${episodes.length > 1 ? 's' : ''}`;
+    }
+
+    if (episodes.length === 0) {
+      this.episodesListEl.innerHTML = `
+        <div style="padding: 24px; text-align: center; color: var(--md-sys-color-on-surface-variant); grid-column: 1 / -1;">
+          <span class="material-icons-round" style="font-size: 32px; opacity: 0.6; display:block; margin-bottom:8px;">search_off</span>
+          <p style="font-weight: 600; margin-bottom: 4px;">Aucun épisode trouvé</p>
+          <p style="font-size: var(--font-size-caption);">Modifiez vos filtres ou termes de recherche pour afficher des émissions.</p>
+        </div>
+      `;
+      return;
+    }
+
+    this.episodesListEl.innerHTML = episodes.map(ep => {
+      const isCurrent = ep.originalIndex === this.currentTrackIndex;
+      const isListened = listenedEpisodes.includes(ep.id);
+      const prog = savedProgress[ep.id] || 0;
+      const progressPercent = ep.duration ? Math.min(100, Math.round((prog / this.parseDuration(ep.duration)) * 100)) : 0;
+      const lvl = (ep.level || 'B2').toLowerCase();
+
+      return `
+        <article class="episode-card ${isCurrent ? 'active' : ''} ${isListened ? 'listened' : ''}" 
+                 data-index="${ep.originalIndex}" 
+                 role="listitem"
+                 tabindex="0"
+                 aria-label="${ep.title} - Niveau ${ep.level || 'B2'}">
+          <div class="episode-card__top">
+            <div class="episode-badges">
+              <span class="source-badge">${ep.source || 'RFI'}</span>
+              <span class="cefr-chip cefr-chip--${lvl}">${ep.level || 'B2'}</span>
+            </div>
+            ${isCurrent ? `
+              <div class="now-playing-badge ${this.isPlaying ? '' : 'is-paused'}" title="Lecture en cours">
+                <div class="eq-bar eq-bar--1"></div>
+                <div class="eq-bar eq-bar--2"></div>
+                <div class="eq-bar eq-bar--3"></div>
+              </div>
+            ` : (isListened ? `<span class="material-icons-round" style="font-size: 18px; color: var(--md-sys-color-primary);" title="Épisode écouté">task_alt</span>` : '')}
+          </div>
+
+          <h4 class="episode-card__title">${ep.title}</h4>
+
+          <div class="episode-card__meta">
+            <div class="episode-meta-tags">
+              <span><span class="material-icons-round" style="font-size:14px; vertical-align:middle;">schedule</span> ${ep.duration || '10:00'}</span>
+              ${ep.topic ? `<span>• ${ep.topic}</span>` : ''}
+            </div>
+
+            ${prog > 15 && !isCurrent ? `
+              <button class="resume-btn" data-resume-index="${ep.originalIndex}" data-resume-time="${prog}" title="Reprendre la lecture">
+                <span class="material-icons-round" style="font-size:14px;">play_arrow</span> Reprendre à ${this.formatTime(prog)}
+              </button>
+            ` : ''}
+          </div>
+
+          ${progressPercent > 0 ? `
+            <div class="episode-card-progress">
+              <div class="episode-card-progress__fill" style="width: ${progressPercent}%;"></div>
+            </div>
+          ` : ''}
+        </article>
+      `;
+    }).join('');
+
+    // Attach card click handlers and resume handlers
+    this.episodesListEl.querySelectorAll('.episode-card').forEach(card => {
+      const idx = parseInt(card.getAttribute('data-index'), 10);
+      card.addEventListener('click', (e) => {
+        const resumeBtn = e.target.closest('.resume-btn');
+        if (resumeBtn) {
+          e.stopPropagation();
+          const resumeTime = parseFloat(resumeBtn.getAttribute('data-resume-time'));
+          this.loadTrack(idx, resumeTime);
+          this.togglePlayPause(true);
+          return;
+        }
+        this.loadTrack(idx);
+      });
+
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.loadTrack(idx);
+        }
+      });
+    });
   }
 
-  loadTrack(index) {
+  parseDuration(durationStr) {
+    if (!durationStr) return 600;
+    const parts = durationStr.split(':').map(Number);
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    return 600;
+  }
+
+  loadTrack(index, startTime = 0) {
     this.currentTrackIndex = index;
     const track = this.dataset[index];
     if (!track) return;
 
     if (this.trackTitle) this.trackTitle.textContent = track.title;
     if (this.trackDate) this.trackDate.textContent = track.date;
-    if (this.audioElement && track.audioUrl) this.audioElement.src = track.audioUrl;
+    if (this.sourceBadge) this.sourceBadge.textContent = track.source || 'RFI';
+    if (this.levelBadge) {
+      this.levelBadge.textContent = track.level || 'B2';
+      this.levelBadge.className = `cefr-chip cefr-chip--${(track.level || 'B2').toLowerCase()}`;
+    }
+
+    if (this.audioElement && track.audioUrl) {
+      this.audioElement.src = track.audioUrl;
+      if (startTime > 0) {
+        this.audioElement.currentTime = startTime;
+      }
+    }
 
     // Render transcript with highlighted non-mastered dictionary words
     this.renderHighlightedTranscript(track.transcript);
@@ -401,14 +708,34 @@ class ListeningModule {
 
   updateProgress() {
     if (!this.audioElement || !this.audioElement.duration) return;
+    const curTime = this.audioElement.currentTime;
+    const dur = this.audioElement.duration;
+
     // Don't overwrite the seekBar while the user is actively dragging it
     if (!this.isSeeking) {
-      const pct = (this.audioElement.currentTime / this.audioElement.duration) * 100;
+      const pct = (curTime / dur) * 100;
       if (this.seekBar) {
         this.seekBar.value = pct;
         this._updateSeekFill();
       }
-      if (this.currentTimeEl) this.currentTimeEl.textContent = this.formatTime(this.audioElement.currentTime);
+      const formattedCurTime = this.formatTime(curTime);
+      if (this.currentTimeEl) this.currentTimeEl.textContent = formattedCurTime;
+    }
+
+    // Persist playback position to localStorage for resume functionality (throttled every ~2s)
+    const track = this.dataset[this.currentTrackIndex];
+    if (track && curTime > 5) {
+      const nowSec = Math.floor(curTime);
+      if (!this._lastSavedSec || Math.abs(nowSec - this._lastSavedSec) >= 2) {
+        this._lastSavedSec = nowSec;
+        try {
+          const progMap = JSON.parse(localStorage.getItem('delf_listening_progress') || '{}');
+          progMap[track.id] = Math.round(curTime);
+          localStorage.setItem('delf_listening_progress', JSON.stringify(progMap));
+        } catch (e) {
+          // Ignore storage quota errors
+        }
+      }
     }
   }
 

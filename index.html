@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   
   <link rel="stylesheet" href="css/material.css?v=1788806615802">
-  <link rel="stylesheet" href="css/styles.css?v=1788806615802">
+  <link rel="stylesheet" href="css/styles.css?v=1788810500000">
   <link rel="stylesheet" href="css/writing.css?v=1788806615802">
   <link rel="stylesheet" href="css/journey.css?v=1788806615802">
   <link rel="stylesheet" href="css/grammar.css?v=1788806615802">
@@ -584,128 +584,186 @@
 
     <!-- LISTENING COMPREHENSION VIEW -->
     <section class="view-panel" id="view-listening">
-      <div class="module-header">
-        <div>
-          <h2>Compréhension Orale (Podcasts & RFI)</h2>
-          <p>Écoutez les actus et émissions en français avec vitesse ajustable, transcriptions interactives et exercices d'écoute.</p>
-        </div>
-      </div>
 
-      <div class="listening-grid">
-        <!-- Audio Player & Feed Card -->
-        <div class="md-card listening-player-card">
-          <div class="rfi-banner">
-            <span class="material-icons-round banner-icon">radio</span>
-            <div>
-              <h3>RFI - Journal en français facile & Podcasts DELF</h3>
-              <p>Ressources officielles d'entraînement à l'écoute niveau B2/C1</p>
-            </div>
+      <!-- 2-Column Desktop / Responsive Layout -->
+      <div class="listening-layout">
+        <!-- Left Column: Module Header, Compact Player & Episodes Playlist -->
+        <aside class="listening-left-col">
+          <div class="listening-sidebar-header">
+            <h2>Compréhension Orale</h2>
+            <p>Podcasts et émissions RFI en français facile avec exercices immersifs.</p>
           </div>
 
-          <!-- TTS Engine Status -->
-          <div id="tts-status" style="padding: 6px 16px; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.02em;">⏳ Chargement du moteur vocal Kokoro...</div>
-
-          <!-- Custom Audio Player Component -->
-          <div class="custom-audio-player">
+          <!-- Compact Audio Player Card -->
+          <div class="compact-audio-card" id="compact-audio-card">
             <audio id="main-audio-element" src=""></audio>
-            
-            <div class="track-info">
-              <h4 id="audio-track-title">Sélectionnez une émission audio</h4>
-              <span id="audio-track-date">Édition du jour</span>
+
+            <!-- Track Metadata -->
+            <div class="player-track-meta">
+              <div class="player-badges-row">
+                <span class="now-listening-badge">
+                  <span class="material-icons-round">headphones</span>
+                  <span>À l'écoute</span>
+                </span>
+                <span class="source-badge" id="compact-source-badge">RFI</span>
+                <span class="cefr-chip cefr-chip--b2" id="compact-level-badge">B2</span>
+                <span id="compact-track-date" class="compact-track-date">Édition du jour</span>
+              </div>
+              <h4 id="audio-track-title" class="player-track-title">Sélectionnez une émission audio</h4>
             </div>
 
-            <div class="player-controls">
-              <button class="md-icon-button" id="audio-rewind-btn" title="Reculer de 10s">
+            <!-- Controls (Rewind, Play/Pause, Forward, Speed) -->
+            <div class="player-controls-row">
+              <button class="md-icon-button" id="audio-rewind-btn" title="Reculer de 10 secondes (j)" aria-label="Reculer de 10 secondes">
                 <span class="material-icons-round">replay_10</span>
               </button>
-              <button class="md-icon-button md-icon-button--large primary-play-btn" id="audio-play-pause-btn">
+              <button class="md-icon-button primary-play-circle-btn" id="audio-play-pause-btn" title="Lecture / Pause (Espace)" aria-label="Lecture ou Pause">
                 <span class="material-icons-round">play_arrow</span>
               </button>
-              <button class="md-icon-button" id="audio-forward-btn" title="Avancer de 10s">
+              <button class="md-icon-button" id="audio-forward-btn" title="Avancer de 10 secondes (l)" aria-label="Avancer de 10 secondes">
                 <span class="material-icons-round">forward_10</span>
               </button>
-              
-              <div class="speed-selector">
-                <span class="speed-label">Vitesse :</span>
-                <button class="speed-btn active" data-speed="1.0">1.0x</button>
-                <button class="speed-btn" data-speed="0.85">0.85x</button>
-                <button class="speed-btn" data-speed="1.25">1.25x</button>
+
+              <div class="speed-selector compact-speed-selector" role="group" aria-label="Vitesse de lecture">
+                <button class="speed-btn active" data-speed="1.0" aria-label="1.0x">1.0x</button>
+                <button class="speed-btn" data-speed="0.85" aria-label="0.85x">0.85x</button>
+                <button class="speed-btn" data-speed="1.25" aria-label="1.25x">1.25x</button>
               </div>
             </div>
 
-            <div class="audio-progress-row">
-              <span id="audio-current-time">00:00</span>
-              <input type="range" id="audio-seek-bar" value="0" max="100">
-              <span id="audio-duration">00:00</span>
+            <!-- Progress Bar & Timers -->
+            <div class="player-progress-row">
+              <span id="audio-current-time" class="time-label">00:00</span>
+              <input type="range" id="audio-seek-bar" value="0" max="100" aria-label="Barre de défilement audio">
+              <span id="audio-duration" class="time-label">00:00</span>
+            </div>
+
+            <!-- TTS Status Line -->
+            <div class="player-footer-status">
+              <span id="tts-status" class="tts-mini-badge">⏳ Kokoro...</span>
             </div>
           </div>
 
-          <!-- Playlist / Episode selector -->
-          <div class="episodes-list-wrapper">
-            <h4>Épisodes & Audio-Exercices disponibles</h4>
-            <div class="episodes-list" id="listening-episodes-list">
-              <!-- Audio tracks list -->
+          <!-- Episodes Explorer & Playlist -->
+          <div class="listening-episodes-section">
+            <div class="episodes-section-header">
+              <h3><span class="material-icons-round">queue_music</span> Épisodes disponibles (<span id="episodes-count-badge">9</span>)</h3>
+            </div>
+
+            <!-- Search & Filters -->
+            <div class="episodes-toolbar">
+              <div class="search-box md-text-field">
+                <span class="material-icons-round icon">search</span>
+                <input type="text" id="listening-search-input" placeholder="Rechercher par titre, thème..." aria-label="Rechercher un épisode">
+              </div>
+
+              <div class="episodes-filter-row">
+                <select id="listening-level-filter" aria-label="Filtrer par niveau">
+                  <option value="all">🎯 Niveaux</option>
+                  <option value="A1">A1</option>
+                  <option value="A2">A2</option>
+                  <option value="B1">B1</option>
+                  <option value="B2">B2</option>
+                  <option value="C1">C1</option>
+                  <option value="C2">C2</option>
+                </select>
+
+                <select id="listening-source-filter" aria-label="Filtrer par source">
+                  <option value="all">📻 Sources</option>
+                  <option value="RFI">RFI</option>
+                  <option value="DELF">DELF</option>
+                </select>
+
+                <select id="listening-sort-order" aria-label="Trier les épisodes">
+                  <option value="newest">📅 Plus récents</option>
+                  <option value="oldest">📅 Plus anciens</option>
+                  <option value="level">🏆 Par niveau</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="listening-aria-announcer" class="sr-only" aria-live="polite"></div>
+
+            <!-- Playlist of cards -->
+            <div class="episodes-list" id="listening-episodes-list" role="list" aria-label="Liste des émissions audio">
+              <!-- Dynamically populated cards -->
             </div>
           </div>
-        </div>
+        </aside>
 
-        <!-- Transcript & Listening Questions -->
-        <div class="listening-right-column">
-          <div class="md-card transcript-card">
-            <div class="transcript-header" style="display:flex; flex-direction:column; gap:12px; align-items:stretch;">
-              <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-                <h3><span class="material-icons-round">description</span> Transcription intégrale</h3>
-                <div class="transcript-action-bar" style="display:flex; align-items:center; gap:8px;">
+        <!-- Right Column: Content Tabs (Transcription & Exercices) -->
+        <main class="listening-right-col">
+          <!-- Subtabs Navigation -->
+          <div class="listening-subtabs-nav" role="tablist" aria-label="Sections du module d'écoute">
+            <button class="listening-subtab active" id="subtab-btn-transcript" role="tab" aria-selected="true" aria-controls="subtab-panel-transcript" onclick="if(window.listeningModule) window.listeningModule.switchSubtab('transcript')">
+              <span class="material-icons-round">description</span>
+              <span>Transcription synchronisée</span>
+            </button>
+            <button class="listening-subtab" id="subtab-btn-quiz" role="tab" aria-selected="false" aria-controls="subtab-panel-quiz" onclick="if(window.listeningModule) window.listeningModule.switchSubtab('quiz')">
+              <span class="material-icons-round">quiz</span>
+              <span>Exercices & Test d'écoute</span>
+            </button>
+          </div>
+
+          <!-- Subtab 1: Transcript Panel -->
+          <div class="listening-subtab-panel active" id="subtab-panel-transcript" role="tabpanel" aria-labelledby="subtab-btn-transcript">
+            <div class="md-card transcript-card">
+              <div class="transcript-header">
+                <div class="transcript-header__left">
+                  <div class="transcript-legend-inline">
+                    <span class="legend-title">Lexique :</span>
+                    <span class="cefr-chip cefr-chip--a1">A1</span>
+                    <span class="cefr-chip cefr-chip--a2">A2</span>
+                    <span class="cefr-chip cefr-chip--b1">B1</span>
+                    <span class="cefr-chip cefr-chip--b2">B2</span>
+                    <span class="cefr-chip cefr-chip--c1">C1</span>
+                    <span class="cefr-chip cefr-chip--c2">C2</span>
+                  </div>
+                </div>
+
+                <div class="transcript-header__actions">
+                  <!-- Search inside transcript -->
+                  <div class="transcript-quick-search">
+                    <span class="material-icons-round">search</span>
+                    <input type="text" id="transcript-search-input" placeholder="Chercher dans le texte..." aria-label="Rechercher dans la transcription">
+                  </div>
+
                   <!-- Font Size Controls -->
-                  <div class="font-size-controls" style="display:flex; align-items:center; background:var(--md-sys-color-surface-variant); border-radius:18px; padding:2px 6px;">
-                    <button class="md-icon-button" id="transcript-font-minus" title="Réduire la taille du texte" style="width:28px; height:28px; font-weight:700;">A-</button>
-                    <span id="transcript-font-label" style="font-size:0.75rem; font-weight:600; min-width:32px; text-align:center;">16px</span>
-                    <button class="md-icon-button" id="transcript-font-plus" title="Agrandir la taille du texte" style="width:28px; height:28px; font-weight:700;">A+</button>
+                  <div class="font-size-controls">
+                    <button class="md-icon-button" id="transcript-font-minus" title="Réduire la taille" aria-label="Réduire la police">A-</button>
+                    <span id="transcript-font-label">16px</span>
+                    <button class="md-icon-button" id="transcript-font-plus" title="Agrandir la taille" aria-label="Agrandir la police">A+</button>
                   </div>
                   
-                  <button class="md-button md-button--text" id="toggle-transcript-btn">
-                    <span class="material-icons-round">visibility</span> Masquer / Afficher
+                  <button class="md-button md-button--text" id="toggle-transcript-btn" title="Masquer ou afficher la transcription">
+                    <span class="material-icons-round">visibility</span>
                   </button>
                 </div>
               </div>
 
-              <!-- Search Bar & CECRL Filter Row -->
-              <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
-                <div class="search-box" style="flex:1; min-width:200px; background:var(--md-sys-color-surface-variant); border-radius:20px; padding:4px 12px; display:flex; align-items:center;">
-                  <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-outline);">search</span>
-                  <input type="text" id="transcript-search-input" placeholder="Rechercher un mot dans la transcription..." style="border:none; background:transparent; font-size:0.85rem; padding:4px 8px; width:100%; outline:none;">
-                </div>
+              <div class="transcript-content" id="listening-transcript-body">
+                <!-- Transcript text -->
               </div>
-
-              <!-- Color-coded legend for non-mastered words by CECRL level -->
-              <div class="transcript-legend" style="display:flex; flex-wrap:wrap; gap:8px; padding:8px 12px; background:var(--md-sys-color-surface-variant); border-radius:8px; font-size:0.78rem; align-items:center;">
-                <span style="font-weight:600; color:var(--md-sys-color-on-surface-variant);">Mots non maîtrisés :</span>
-                <span class="legend-chip chip-a1" style="background:#e8f5e9; color:#2e7d32; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #a5d6a7;">🟢 A1</span>
-                <span class="legend-chip chip-a2" style="background:#fffde7; color:#f57f17; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #fff59d;">🟡 A2</span>
-                <span class="legend-chip chip-b1" style="background:#fff3e0; color:#e65100; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ffcc80;">🟠 B1</span>
-                <span class="legend-chip chip-b2" style="background:#ffebee; color:#c62828; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ef9a9a;">🔴 B2</span>
-                <span class="legend-chip chip-c1" style="background:#f3e5f5; color:#6a1b9a; padding:2px 8px; border-radius:12px; font-weight:600; border:1px solid #ce93d8;">🟣 C1/C2</span>
-                <span style="margin-left:auto; color:var(--md-sys-color-outline); font-size:0.75rem;">Cliquez sur un mot surligné pour voir sa définition</span>
-              </div>
-            </div>
-            <div class="transcript-content" id="listening-transcript-body">
-              <!-- Transcript text -->
             </div>
           </div>
 
-          <div class="md-card quiz-card" id="listening-quiz-card">
-            <div class="quiz-header">
-              <h3><span class="material-icons-round">quiz</span> Test d'écoute (QCM & Vrai/Faux)</h3>
-            </div>
-            <div class="quiz-questions-list" id="listening-quiz-questions">
-              <!-- Injected dynamically -->
-            </div>
-            <div class="quiz-footer">
-              <button class="md-button md-button--filled" id="submit-listening-quiz-btn">Vérifier l'écoute</button>
-              <div class="quiz-result-score" id="listening-quiz-score"></div>
+          <!-- Subtab 2: Quiz & Exercises Panel -->
+          <div class="listening-subtab-panel" id="subtab-panel-quiz" role="tabpanel" aria-labelledby="subtab-btn-quiz">
+            <div class="md-card quiz-card" id="listening-quiz-card">
+              <div class="quiz-header">
+                <h3><span class="material-icons-round">quiz</span> Test d'écoute (QCM de compréhension)</h3>
+                <p style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:4px;">Répondez aux questions pour vérifier votre compréhension orale de l'épisode sélectionné.</p>
+              </div>
+              <div class="quiz-questions-list" id="listening-quiz-questions">
+                <!-- Injected dynamically -->
+              </div>
+              <div class="quiz-footer">
+                <button class="md-button md-button--filled" id="submit-listening-quiz-btn" style="min-height:44px;">Vérifier mes réponses</button>
+                <div class="quiz-result-score" id="listening-quiz-score"></div>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
       </div>
     </section>
 
@@ -983,6 +1041,68 @@
     </div>
   </footer>
 
+  <!-- Mobile Bottom Navigation Bar (< 600px) -->
+  <nav class="md-bottom-nav" id="mobile-bottom-nav" aria-label="Navigation mobile">
+    <button class="md-bottom-nav__item active" data-tab="dashboard" aria-label="Parcours d'apprentissage">
+      <div class="md-bottom-nav__icon-box">
+        <span class="material-icons-round">dashboard</span>
+      </div>
+      <span class="md-bottom-nav__label">Parcours</span>
+    </button>
+    <button class="md-bottom-nav__item" data-tab="listening" aria-label="Compréhension Orale">
+      <div class="md-bottom-nav__icon-box">
+        <span class="material-icons-round">headphones</span>
+      </div>
+      <span class="md-bottom-nav__label">Écoute</span>
+    </button>
+    <button class="md-bottom-nav__item" data-tab="reading" aria-label="Compréhension Écrite">
+      <div class="md-bottom-nav__icon-box">
+        <span class="material-icons-round">menu_book</span>
+      </div>
+      <span class="md-bottom-nav__label">Lecture</span>
+    </button>
+    <button class="md-bottom-nav__item" data-tab="writing" aria-label="Production Écrite">
+      <div class="md-bottom-nav__icon-box">
+        <span class="material-icons-round">history_edu</span>
+      </div>
+      <span class="md-bottom-nav__label">Écriture</span>
+    </button>
+    <button class="md-bottom-nav__item" id="mobile-more-btn" aria-label="Autres modules">
+      <div class="md-bottom-nav__icon-box">
+        <span class="material-icons-round">more_horiz</span>
+      </div>
+      <span class="md-bottom-nav__label">Plus</span>
+    </button>
+  </nav>
+
+  <!-- More Modules Bottom Sheet -->
+  <div class="more-modules-sheet" id="more-modules-sheet">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+      <h3 style="font-size:1rem; font-family:var(--md-font-serif); margin:0;">Autres Outils & Modules</h3>
+      <button class="md-icon-button" id="close-more-sheet-btn" aria-label="Fermer le menu" style="min-width:36px; min-height:36px;">
+        <span class="material-icons-round">close</span>
+      </button>
+    </div>
+    <div class="more-modules-grid">
+      <button class="more-module-btn" onclick="app.switchTab('vocabulary'); document.getElementById('more-modules-sheet').classList.remove('visible');">
+        <span class="material-icons-round" style="color:var(--md-sys-color-primary);">style</span>
+        <span>Vocabulaire SRS</span>
+      </button>
+      <button class="more-module-btn" onclick="app.switchTab('dictionary'); document.getElementById('more-modules-sheet').classList.remove('visible');">
+        <span class="material-icons-round" style="color:var(--md-sys-color-primary);">auto_stories</span>
+        <span>Dictionnaire</span>
+      </button>
+      <button class="more-module-btn" onclick="app.switchTab('grammar'); document.getElementById('more-modules-sheet').classList.remove('visible');">
+        <span class="material-icons-round" style="color:var(--md-sys-color-primary);">quiz</span>
+        <span>Grammaire</span>
+      </button>
+      <button class="more-module-btn" onclick="app.switchTab('expressions'); document.getElementById('more-modules-sheet').classList.remove('visible');">
+        <span class="material-icons-round" style="color:var(--md-sys-color-primary);">forum</span>
+        <span>Expressions</span>
+      </button>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script type="module" src="js/kokoro_tts.js"></script>
   <!-- Data scripts in required order -->
@@ -1026,7 +1146,7 @@
   <script src="js/modules/dictionary.js?v=1788806615802"></script>
   <script src="js/modules/expressions.js?v=1788806615802"></script>
   <script src="js/modules/reading.js?v=1788806615802"></script>
-  <script src="js/modules/listening.js?v=1788806615802"></script>
+  <script src="js/modules/listening.js?v=1788810100000"></script>
   <script src="js/modules/writing.js?v=1788806615802"></script>
   <script src="js/modules/exam_simulator.js?v=1788806615802"></script>
   <script src="js/modules/sessions.js?v=1788806615802"></script>

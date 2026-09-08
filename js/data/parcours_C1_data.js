@@ -1,8 +1,8 @@
 window.parcours_C1_Dataset = [
   {
-    "chapterId": "chap_65",
-    "chapterNumber": 65,
-    "chapterTitle": "Chapitre 65 : Pensée critique et épistémologie",
+    "chapterId": "chap_67",
+    "chapterNumber": 67,
+    "chapterTitle": "Chapitre 67 : Pensée critique et épistémologie",
     "chapterSubtitle": "批判的思考と認識論 — 批判性思维与认识论",
     "level": "C1",
     "year": 4,
@@ -10,7 +10,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_65",
+        "id": "quest_ch_67",
         "title": "Pensée critique et épistémologie : Analyse & Débats",
         "level": "C1",
         "icon": "psychology",
@@ -85,9 +85,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q5"
   },
   {
-    "chapterId": "chap_66",
-    "chapterNumber": 66,
-    "chapterTitle": "Chapitre 66 : Institutions et action publique",
+    "chapterId": "chap_68",
+    "chapterNumber": 68,
+    "chapterTitle": "Chapitre 68 : Institutions et action publique",
     "chapterSubtitle": "制度と公共政策 — 制度与公共行动",
     "level": "C1",
     "year": 4,
@@ -95,7 +95,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_66",
+        "id": "quest_ch_68",
         "title": "Institutions et action publique : Analyse & Débats",
         "level": "C1",
         "icon": "account_balance",
@@ -170,9 +170,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q6"
   },
   {
-    "chapterId": "chap_67",
-    "chapterNumber": 67,
-    "chapterTitle": "Chapitre 67 : Économie, inégalités et travail",
+    "chapterId": "chap_69",
+    "chapterNumber": 69,
+    "chapterTitle": "Chapitre 69 : Économie, inégalités et travail",
     "chapterSubtitle": "経済・不平等・労働 — 经济不平等与劳动",
     "level": "C1",
     "year": 4,
@@ -180,7 +180,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_67",
+        "id": "quest_ch_69",
         "title": "Économie, inégalités et travail : Analyse & Débats",
         "level": "C1",
         "icon": "work",
@@ -255,9 +255,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-demonstratifs-possessifs"
   },
   {
-    "chapterId": "chap_68",
-    "chapterNumber": 68,
-    "chapterTitle": "Chapitre 68 : Science, expertise et controverse",
+    "chapterId": "chap_70",
+    "chapterNumber": 70,
+    "chapterTitle": "Chapitre 70 : Science, expertise et controverse",
     "chapterSubtitle": "科学・専門知・論争 — 科学专业知识与争议",
     "level": "C1",
     "year": 4,
@@ -265,7 +265,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_68",
+        "id": "quest_ch_70",
         "title": "Bilan Chapitre 3 : Le Grand Défi de Compréhension & Synthèse",
         "level": "C1",
         "icon": "military_tech",
@@ -317,9 +317,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-8-q1"
   },
   {
-    "chapterId": "chap_69",
-    "chapterNumber": 69,
-    "chapterTitle": "Chapitre 69 : Éthique, droit et technologies",
+    "chapterId": "chap_71",
+    "chapterNumber": 71,
+    "chapterTitle": "Chapitre 71 : Éthique, droit et technologies",
     "chapterSubtitle": "倫理・法・技術 — 伦理法律与技术",
     "level": "C1",
     "year": 4,
@@ -327,7 +327,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_69",
+        "id": "quest_ch_71",
         "title": "Intelligence Artificielle & Mutation du Travail Intellectuel",
         "level": "C1",
         "icon": "smart_toy",
@@ -402,9 +402,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-8-q2"
   },
   {
-    "chapterId": "chap_70",
-    "chapterNumber": 70,
-    "chapterTitle": "Chapitre 70 : Écologie systémique",
+    "chapterId": "chap_72",
+    "chapterNumber": 72,
+    "chapterTitle": "Chapitre 72 : Écologie systémique",
     "chapterSubtitle": "システムとしての生態 — 系统生态学",
     "level": "C1",
     "year": 4,
@@ -412,7 +412,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_70",
+        "id": "quest_ch_72",
         "title": "Écologie systémique : Analyse & Débats",
         "level": "C1",
         "icon": "forest",
@@ -487,9 +487,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-6-q6"
   },
   {
-    "chapterId": "chap_71",
-    "chapterNumber": 71,
-    "chapterTitle": "Chapitre 71 : Médias, récit et opinion publique",
+    "chapterId": "chap_73",
+    "chapterNumber": 73,
+    "chapterTitle": "Chapitre 73 : Médias, récit et opinion publique",
     "chapterSubtitle": "メディア・語り・世論 — 媒体叙事与公众舆论",
     "level": "C1",
     "year": 4,
@@ -497,7 +497,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_71",
+        "id": "quest_ch_73",
         "title": "Médias, récit et opinion publique : Analyse & Débats",
         "level": "C1",
         "icon": "newspaper",
@@ -572,9 +572,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-prepositions-lieu"
   },
   {
-    "chapterId": "chap_72",
-    "chapterNumber": 72,
-    "chapterTitle": "Chapitre 72 : Littérature, arts et interprétation",
+    "chapterId": "chap_74",
+    "chapterNumber": 74,
+    "chapterTitle": "Chapitre 74 : Littérature, arts et interprétation",
     "chapterSubtitle": "文学・芸術・解釈 — 文学艺术与诠释",
     "level": "C1",
     "year": 4,
@@ -582,7 +582,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_72",
+        "id": "quest_ch_74",
         "title": "Le Registre Soutenu & Les Joyaux de la Langue",
         "level": "C1-C2",
         "icon": "auto_awesome",
@@ -657,9 +657,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q1"
   },
   {
-    "chapterId": "chap_73",
-    "chapterNumber": 73,
-    "chapterTitle": "Chapitre 73 : Géopolitique et interdépendances",
+    "chapterId": "chap_75",
+    "chapterNumber": 75,
+    "chapterTitle": "Chapitre 75 : Géopolitique et interdépendances",
     "chapterSubtitle": "地政学と相互依存 — 地缘政治与相互依赖",
     "level": "C1",
     "year": 4,
@@ -667,7 +667,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_73",
+        "id": "quest_ch_75",
         "title": "Diplomatie & Discours Stratégique International",
         "level": "C1",
         "icon": "public",
@@ -742,9 +742,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q2"
   },
   {
-    "chapterId": "chap_74",
-    "chapterNumber": 74,
-    "chapterTitle": "Chapitre 74 : Ville, logement et cohésion sociale",
+    "chapterId": "chap_76",
+    "chapterNumber": 76,
+    "chapterTitle": "Chapitre 76 : Ville, logement et cohésion sociale",
     "chapterSubtitle": "都市・住宅・社会的結束 — 城市住房与社会凝聚",
     "level": "C1",
     "year": 4,
@@ -752,7 +752,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_74",
+        "id": "quest_ch_76",
         "title": "Ville, logement et cohésion sociale : Analyse & Débats",
         "level": "C1",
         "icon": "home",
@@ -827,9 +827,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q3"
   },
   {
-    "chapterId": "chap_75",
-    "chapterNumber": 75,
-    "chapterTitle": "Chapitre 75 : Entreprise, stratégie et conduite du changement",
+    "chapterId": "chap_77",
+    "chapterNumber": 77,
+    "chapterTitle": "Chapitre 77 : Entreprise, stratégie et conduite du changement",
     "chapterSubtitle": "企業・戦略・変革 — 企业战略与变革管理",
     "level": "C1",
     "year": 4,
@@ -837,7 +837,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_75",
+        "id": "quest_ch_77",
         "title": "Entreprise, stratégie et conduite du changement : Analyse & Débats",
         "level": "C1",
         "icon": "work",
@@ -912,9 +912,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q4"
   },
   {
-    "chapterId": "chap_76",
-    "chapterNumber": 76,
-    "chapterTitle": "Chapitre 76 : Éducation, culture et transmission",
+    "chapterId": "chap_78",
+    "chapterNumber": 78,
+    "chapterTitle": "Chapitre 78 : Éducation, culture et transmission",
     "chapterSubtitle": "教育・文化・継承 — 教育文化与传承",
     "level": "C1",
     "year": 4,
@@ -922,7 +922,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_76",
+        "id": "quest_ch_78",
         "title": "Éducation, culture et transmission : Analyse & Débats",
         "level": "C1",
         "icon": "theater_comedy",
@@ -997,9 +997,9 @@ window.parcours_C1_Dataset = [
     "grammarLessonId": "a1-7-q5"
   },
   {
-    "chapterId": "chap_77",
-    "chapterNumber": 77,
-    "chapterTitle": "Chapitre 77 : Discours, rhétorique et débat public",
+    "chapterId": "chap_79",
+    "chapterNumber": 79,
+    "chapterTitle": "Chapitre 79 : Discours, rhétorique et débat public",
     "chapterSubtitle": "談話・修辞・公共討論 — 话语修辞与公共辩论",
     "level": "C1",
     "year": 4,
@@ -1007,7 +1007,7 @@ window.parcours_C1_Dataset = [
     "color": "#5E35B1",
     "quests": [
       {
-        "id": "quest_ch_77",
+        "id": "quest_ch_79",
         "title": "La Dissertation Dialectique : Thèse, Antithèse, Dépassement",
         "level": "C1-C2",
         "icon": "history_edu",

@@ -1,8 +1,8 @@
 window.parcours_C2_Dataset = [
   {
-    "chapterId": "chap_78",
-    "chapterNumber": 78,
-    "chapterTitle": "Chapitre 78 : Médiation de savoirs complexes",
+    "chapterId": "chap_80",
+    "chapterNumber": 80,
+    "chapterTitle": "Chapitre 80 : Médiation de savoirs complexes",
     "chapterSubtitle": "複雑な知識の媒介 — 复杂知识的调解",
     "level": "C2",
     "year": 5,
@@ -10,7 +10,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_78",
+        "id": "quest_ch_80",
         "title": "Médiation de savoirs complexes : Analyse & Débats",
         "level": "C2",
         "icon": "translate",
@@ -85,9 +85,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-articles"
   },
   {
-    "chapterId": "chap_79",
-    "chapterNumber": 79,
-    "chapterTitle": "Chapitre 79 : Éthique des sociétés contemporaines",
+    "chapterId": "chap_81",
+    "chapterNumber": 81,
+    "chapterTitle": "Chapitre 81 : Éthique des sociétés contemporaines",
     "chapterSubtitle": "現代社会の倫理 — 当代社会伦理",
     "level": "C2",
     "year": 5,
@@ -95,7 +95,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_79",
+        "id": "quest_ch_81",
         "title": "Éthique des sociétés contemporaines : Analyse & Débats",
         "level": "C2",
         "icon": "gavel",
@@ -170,9 +170,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q1"
   },
   {
-    "chapterId": "chap_80",
-    "chapterNumber": 80,
-    "chapterTitle": "Chapitre 80 : Économie politique et mondialisation",
+    "chapterId": "chap_82",
+    "chapterNumber": 82,
+    "chapterTitle": "Chapitre 82 : Économie politique et mondialisation",
     "chapterSubtitle": "政治経済とグローバル化 — 政治经济与全球化",
     "level": "C2",
     "year": 5,
@@ -180,7 +180,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_80",
+        "id": "quest_ch_82",
         "title": "Économie politique et mondialisation : Analyse & Débats",
         "level": "C2",
         "icon": "menu_book",
@@ -255,9 +255,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q2"
   },
   {
-    "chapterId": "chap_81",
-    "chapterNumber": 81,
-    "chapterTitle": "Chapitre 81 : Connaissance, vérité et incertitude",
+    "chapterId": "chap_83",
+    "chapterNumber": 83,
+    "chapterTitle": "Chapitre 83 : Connaissance, vérité et incertitude",
     "chapterSubtitle": "知識・真実・不確実性 — 知识真相与不确定性",
     "level": "C2",
     "year": 5,
@@ -265,7 +265,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_81",
+        "id": "quest_ch_83",
         "title": "Connaissance, vérité et incertitude : Analyse & Débats",
         "level": "C2",
         "icon": "psychology",
@@ -340,9 +340,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q3"
   },
   {
-    "chapterId": "chap_82",
-    "chapterNumber": 82,
-    "chapterTitle": "Chapitre 82 : Technologies, données et humanité",
+    "chapterId": "chap_84",
+    "chapterNumber": 84,
+    "chapterTitle": "Chapitre 84 : Technologies, données et humanité",
     "chapterSubtitle": "技術・データ・人間性 — 技术数据与人性",
     "level": "C2",
     "year": 5,
@@ -350,7 +350,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_82",
+        "id": "quest_ch_84",
         "title": "Technologies, données et humanité : Analyse & Débats",
         "level": "C2",
         "icon": "devices",
@@ -425,9 +425,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q4"
   },
   {
-    "chapterId": "chap_83",
-    "chapterNumber": 83,
-    "chapterTitle": "Chapitre 83 : Climat, vivant et générations futures",
+    "chapterId": "chap_85",
+    "chapterNumber": 85,
+    "chapterTitle": "Chapitre 85 : Climat, vivant et générations futures",
     "chapterSubtitle": "気候・生物・将来世代 — 气候生命与未来世代",
     "level": "C2",
     "year": 5,
@@ -435,7 +435,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_83",
+        "id": "quest_ch_85",
         "title": "Climat, vivant et générations futures : Analyse & Débats",
         "level": "C2",
         "icon": "forest",
@@ -510,9 +510,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q5"
   },
   {
-    "chapterId": "chap_84",
-    "chapterNumber": 84,
-    "chapterTitle": "Chapitre 84 : Pouvoir, institutions et contre-pouvoirs",
+    "chapterId": "chap_86",
+    "chapterNumber": 86,
+    "chapterTitle": "Chapitre 86 : Pouvoir, institutions et contre-pouvoirs",
     "chapterSubtitle": "権力・制度・対抗権力 — 权力制度与制衡",
     "level": "C2",
     "year": 5,
@@ -520,7 +520,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_84",
+        "id": "quest_ch_86",
         "title": "Pouvoir, institutions et contre-pouvoirs : Analyse & Débats",
         "level": "C2",
         "icon": "account_balance",
@@ -595,9 +595,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-1-q6"
   },
   {
-    "chapterId": "chap_85",
-    "chapterNumber": 85,
-    "chapterTitle": "Chapitre 85 : Mémoire, histoire et représentations",
+    "chapterId": "chap_87",
+    "chapterNumber": 87,
+    "chapterTitle": "Chapitre 87 : Mémoire, histoire et représentations",
     "chapterSubtitle": "記憶・歴史・表象 — 记忆历史与表征",
     "level": "C2",
     "year": 5,
@@ -605,7 +605,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_85",
+        "id": "quest_ch_87",
         "title": "Mémoire, histoire et représentations : Analyse & Débats",
         "level": "C2",
         "icon": "badge",
@@ -680,9 +680,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-genre-nombre"
   },
   {
-    "chapterId": "chap_86",
-    "chapterNumber": 86,
-    "chapterTitle": "Chapitre 86 : Esthétique, création et jugement",
+    "chapterId": "chap_88",
+    "chapterNumber": 88,
+    "chapterTitle": "Chapitre 88 : Esthétique, création et jugement",
     "chapterSubtitle": "美学・創作・判断 — 美学创作与判断",
     "level": "C2",
     "year": 5,
@@ -690,7 +690,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_86",
+        "id": "quest_ch_88",
         "title": "Esthétique, création et jugement : Analyse & Débats",
         "level": "C2",
         "icon": "menu_book",
@@ -765,9 +765,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-2-q1"
   },
   {
-    "chapterId": "chap_87",
-    "chapterNumber": 87,
-    "chapterTitle": "Chapitre 87 : Langues, cultures et traduction",
+    "chapterId": "chap_89",
+    "chapterNumber": 89,
+    "chapterTitle": "Chapitre 89 : Langues, cultures et traduction",
     "chapterSubtitle": "言語・文化・翻訳 — 语言文化与翻译",
     "level": "C2",
     "year": 5,
@@ -775,7 +775,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_87",
+        "id": "quest_ch_89",
         "title": "Langues, cultures et traduction : Analyse & Débats",
         "level": "C2",
         "icon": "theater_comedy",
@@ -850,9 +850,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-2-q2"
   },
   {
-    "chapterId": "chap_88",
-    "chapterNumber": 88,
-    "chapterTitle": "Chapitre 88 : Prospective, risques et décision",
+    "chapterId": "chap_90",
+    "chapterNumber": 90,
+    "chapterTitle": "Chapitre 90 : Prospective, risques et décision",
     "chapterSubtitle": "未来予測・リスク・意思決定 — 前瞻风险与决策",
     "level": "C2",
     "year": 5,
@@ -860,7 +860,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_88",
+        "id": "quest_ch_90",
         "title": "Prospective, risques et décision : Analyse & Débats",
         "level": "C2",
         "icon": "menu_book",
@@ -935,9 +935,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-2-q3"
   },
   {
-    "chapterId": "chap_89",
-    "chapterNumber": 89,
-    "chapterTitle": "Chapitre 89 : Recherche, expertise et transmission",
+    "chapterId": "chap_91",
+    "chapterNumber": 91,
+    "chapterTitle": "Chapitre 91 : Recherche, expertise et transmission",
     "chapterSubtitle": "研究・専門性・継承 — 研究专业与传承",
     "level": "C2",
     "year": 5,
@@ -945,7 +945,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_89",
+        "id": "quest_ch_91",
         "title": "Recherche, expertise et transmission : Analyse & Débats",
         "level": "C2",
         "icon": "menu_book",
@@ -1020,9 +1020,9 @@ window.parcours_C2_Dataset = [
     "grammarLessonId": "a1-2-q4"
   },
   {
-    "chapterId": "chap_90",
-    "chapterNumber": 90,
-    "chapterTitle": "Chapitre 90 : Éloquence, controverse et synthèse",
+    "chapterId": "chap_92",
+    "chapterNumber": 92,
+    "chapterTitle": "Chapitre 92 : Éloquence, controverse et synthèse",
     "chapterSubtitle": "雄弁・論争・総合 — 雄辩争议与综合",
     "level": "C2",
     "year": 5,
@@ -1030,7 +1030,7 @@ window.parcours_C2_Dataset = [
     "color": "#7928CA",
     "quests": [
       {
-        "id": "quest_ch_90",
+        "id": "quest_ch_92",
         "title": "L'Art de l'Éloquence & Les Figures Rhétoriques",
         "level": "C2",
         "icon": "theater_comedy",
@@ -1102,7 +1102,7 @@ window.parcours_C2_Dataset = [
         ]
       },
       {
-        "id": "quest_ch_90",
+        "id": "quest_ch_92",
         "title": "Le Couronnement : Grand Défi du Maître Francophone",
         "level": "C2",
         "icon": "stars",

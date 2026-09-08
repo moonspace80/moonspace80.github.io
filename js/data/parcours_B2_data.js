@@ -1,8 +1,8 @@
 window.parcours_B2_Dataset = [
   {
-    "chapterId": "chap_46",
-    "chapterNumber": 46,
-    "chapterTitle": "Chapitre 46 : Identité, diversité et inclusion",
+    "chapterId": "chap_48",
+    "chapterNumber": 48,
+    "chapterTitle": "Chapitre 48 : Identité, diversité et inclusion",
     "chapterSubtitle": "多様性と包摂 — 多样性与包容",
     "level": "B2",
     "year": 3,
@@ -10,7 +10,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_46",
+        "id": "quest_ch_48",
         "title": "Exprimer son désaccord : Réfuter sans heurter",
         "level": "B2",
         "icon": "record_voice_over",
@@ -184,9 +184,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q2"
   },
   {
-    "chapterId": "chap_47",
-    "chapterNumber": 47,
-    "chapterTitle": "Chapitre 47 : Exprimer le doute, la volonté, le sentiment ou l'obligation",
+    "chapterId": "chap_49",
+    "chapterNumber": 49,
+    "chapterTitle": "Chapitre 49 : Exprimer le doute, la volonté, le sentiment ou l'obligation",
     "chapterSubtitle": "疑惑・意志・感情・義務の表現 — 表达怀疑、意志、情感与义务",
     "level": "B2",
     "year": 3,
@@ -194,7 +194,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_47",
+        "id": "quest_ch_49",
         "title": "Le Monde Virtuel : Subjonctif Présent et Subjonctif Passé",
         "level": "B2",
         "icon": "psychology_alt",
@@ -328,9 +328,9 @@ window.parcours_B2_Dataset = [
     ]
   },
   {
-    "chapterId": "chap_48",
-    "chapterNumber": 48,
-    "chapterTitle": "Chapitre 48 : Travail, économie et reconversion",
+    "chapterId": "chap_50",
+    "chapterNumber": 50,
+    "chapterTitle": "Chapitre 50 : Travail, économie et reconversion",
     "chapterSubtitle": "仕事・経済・転職 — 工作经济与转型",
     "level": "B2",
     "year": 3,
@@ -338,7 +338,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_48",
+        "id": "quest_ch_50",
         "title": "Le monde du travail en mutation : Reconversion et nouveaux enjeux",
         "level": "B2",
         "icon": "work",
@@ -513,9 +513,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q3"
   },
   {
-    "chapterId": "chap_49",
-    "chapterNumber": 49,
-    "chapterTitle": "Chapitre 49 : Éducation et esprit critique",
+    "chapterId": "chap_51",
+    "chapterNumber": 51,
+    "chapterTitle": "Chapitre 51 : Éducation et esprit critique",
     "chapterSubtitle": "教育と批判的思考 — 教育与批判思维",
     "level": "B2",
     "year": 3,
@@ -523,7 +523,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_49",
+        "id": "quest_ch_51",
         "title": "Éducation et esprit critique à l'ère de l'information",
         "level": "B2",
         "icon": "psychology",
@@ -698,9 +698,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q4"
   },
   {
-    "chapterId": "chap_50",
-    "chapterNumber": 50,
-    "chapterTitle": "Chapitre 50 : Formuler des hypothèses, donner des conseils ou exprimer des regrets",
+    "chapterId": "chap_52",
+    "chapterNumber": 52,
+    "chapterTitle": "Chapitre 52 : Formuler des hypothèses, donner des conseils ou exprimer des regrets",
     "chapterSubtitle": "仮定・助言・後悔の表現 — 表达假设、建议与遗憾",
     "level": "B2",
     "year": 3,
@@ -708,7 +708,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_50",
+        "id": "quest_ch_52",
         "title": "L'Univers du Conditionnel : Présent et Passé",
         "level": "B2",
         "icon": "help_outline",
@@ -842,9 +842,9 @@ window.parcours_B2_Dataset = [
     ]
   },
   {
-    "chapterId": "chap_51",
-    "chapterNumber": 51,
-    "chapterTitle": "Chapitre 51 : Innovation, sciences et éthique",
+    "chapterId": "chap_53",
+    "chapterNumber": 53,
+    "chapterTitle": "Chapitre 53 : Innovation, sciences et éthique",
     "chapterSubtitle": "革新・科学・倫理 — 创新科学与伦理",
     "level": "B2",
     "year": 3,
@@ -852,7 +852,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_51",
+        "id": "quest_ch_53",
         "title": "Innovation, sciences et éthique : le progrès'en question",
         "level": "B2",
         "icon": "gavel",
@@ -1026,9 +1026,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q5"
   },
   {
-    "chapterId": "chap_52",
-    "chapterNumber": 52,
-    "chapterTitle": "Chapitre 52 : Écologie et transition",
+    "chapterId": "chap_54",
+    "chapterNumber": 54,
+    "chapterTitle": "Chapitre 54 : Écologie et transition",
     "chapterSubtitle": "生態と転換 — 生态与转型",
     "level": "B2",
     "year": 3,
@@ -1036,7 +1036,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_52",
+        "id": "quest_ch_54",
         "title": "Écologie et transition : les défis environnementaux",
         "level": "B2",
         "icon": "forest",
@@ -1237,9 +1237,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-5-q3"
   },
   {
-    "chapterId": "chap_53",
-    "chapterNumber": 53,
-    "chapterTitle": "Chapitre 53 : Situer une action dans le futur avant une autre",
+    "chapterId": "chap_55",
+    "chapterNumber": 55,
+    "chapterTitle": "Chapitre 55 : Situer une action dans le futur avant une autre",
     "chapterSubtitle": "未来における動作の先行性 — 在未来中定位先行动作",
     "level": "B2",
     "year": 3,
@@ -1247,7 +1247,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_53",
+        "id": "quest_ch_55",
         "title": "Projection et Antériorité : Le Futur Antérieur dans la prospective",
         "level": "B2",
         "icon": "update",
@@ -1381,9 +1381,9 @@ window.parcours_B2_Dataset = [
     ]
   },
   {
-    "chapterId": "chap_54",
-    "chapterNumber": 54,
-    "chapterTitle": "Chapitre 54 : Santé publique et bioéthique",
+    "chapterId": "chap_56",
+    "chapterNumber": 56,
+    "chapterTitle": "Chapitre 56 : Santé publique et bioéthique",
     "chapterSubtitle": "公衆衛生と生命倫理 — 公共卫生与生命伦理",
     "level": "B2",
     "year": 3,
@@ -1391,7 +1391,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_54",
+        "id": "quest_ch_56",
         "title": "Santé publique et bioéthique : enjeux et récits de soignants",
         "level": "B2",
         "icon": "health_and_safety",
@@ -1630,9 +1630,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-5-q4"
   },
   {
-    "chapterId": "chap_55",
-    "chapterNumber": 55,
-    "chapterTitle": "Chapitre 55 : Médias, influence et désinformation",
+    "chapterId": "chap_57",
+    "chapterNumber": 57,
+    "chapterTitle": "Chapitre 57 : Médias, influence et désinformation",
     "chapterSubtitle": "メディア・影響・偽情報 — 媒体影响与虚假信息",
     "level": "B2",
     "year": 3,
@@ -1640,7 +1640,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_55",
+        "id": "quest_ch_57",
         "title": "Médias, influence et désinformation : décrypter l'information",
         "level": "B2",
         "icon": "newspaper",
@@ -1841,9 +1841,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-5-q5"
   },
   {
-    "chapterId": "chap_56",
-    "chapterNumber": 56,
-    "chapterTitle": "Chapitre 56 : Arts, patrimoine et création",
+    "chapterId": "chap_58",
+    "chapterNumber": 58,
+    "chapterTitle": "Chapitre 58 : Arts, patrimoine et création",
     "chapterSubtitle": "芸術・文化遺産・創作 — 探索・理解・保存",
     "level": "B2",
     "year": 3,
@@ -1851,7 +1851,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_56",
+        "id": "quest_ch_58",
         "title": "Arts, patrimoine et création : Analyse & Débats",
         "level": "B2",
         "icon": "account_balance",
@@ -2320,9 +2320,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-5-q6"
   },
   {
-    "chapterId": "chap_57",
-    "chapterNumber": 57,
-    "chapterTitle": "Chapitre 57 : L'Art du patchwork et l'expression textile",
+    "chapterId": "chap_59",
+    "chapterNumber": 59,
+    "chapterTitle": "Chapitre 59 : L'Art du patchwork et l'expression textile",
     "chapterSubtitle": "パッチワークの芸術と織物の表現 — 拼布艺术与纺织表达",
     "level": "B2",
     "year": 3,
@@ -2330,7 +2330,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_57",
+        "id": "quest_ch_59",
         "title": "L'Art du patchwork : Métamorphose textile et poésie des matières",
         "level": "B2",
         "icon": "palette",
@@ -2765,9 +2765,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "b2-pronoms-relatifs-composes"
   },
   {
-    "chapterId": "chap_58",
-    "chapterNumber": 58,
-    "chapterTitle": "Chapitre 58 : Révisions B1 : L'imparfait et les temps du passé",
+    "chapterId": "chap_60",
+    "chapterNumber": 60,
+    "chapterTitle": "Chapitre 60 : Révisions B1 : L'imparfait et les temps du passé",
     "chapterSubtitle": "B1復習：半過去と過去時制の総合演習 — B1复习：未完成过去时与过去时态综合演练",
     "level": "B2",
     "year": 3,
@@ -2775,7 +2775,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_58",
+        "id": "quest_ch_60",
         "title": "Consolidation Avancée : Architecture des Temps du Passé",
         "level": "B2",
         "icon": "auto_stories",
@@ -2880,9 +2880,9 @@ window.parcours_B2_Dataset = [
     ]
   },
   {
-    "chapterId": "chap_59",
-    "chapterNumber": 59,
-    "chapterTitle": "Chapitre 59 : Justice, sécurité et libertés",
+    "chapterId": "chap_61",
+    "chapterNumber": 61,
+    "chapterTitle": "Chapitre 61 : Justice, sécurité et libertés",
     "chapterSubtitle": "司法・安全・自由 — 司法安全与自由",
     "level": "B2",
     "year": 3,
@@ -2890,7 +2890,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_59",
+        "id": "quest_ch_61",
         "title": "L'Art de la Concession Stratégique : « Certes... toutefois »",
         "level": "B2-C1",
         "icon": "balance",
@@ -2965,9 +2965,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-negation-simple"
   },
   {
-    "chapterId": "chap_60",
-    "chapterNumber": 60,
-    "chapterTitle": "Chapitre 60 : Villes, territoires et mobilité",
+    "chapterId": "chap_62",
+    "chapterNumber": 62,
+    "chapterTitle": "Chapitre 62 : Villes, territoires et mobilité",
     "chapterSubtitle": "都市・地域・移動 — 城市地域与流动",
     "level": "B2",
     "year": 3,
@@ -2975,7 +2975,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_60",
+        "id": "quest_ch_62",
         "title": "La Lettre Formelle au Maire ou Directeur",
         "level": "B2",
         "icon": "mark_email_read",
@@ -3050,9 +3050,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q1"
   },
   {
-    "chapterId": "chap_61",
-    "chapterNumber": 61,
-    "chapterTitle": "Chapitre 61 : Relations internationales et francophonie",
+    "chapterId": "chap_63",
+    "chapterNumber": 63,
+    "chapterTitle": "Chapitre 63 : Relations internationales et francophonie",
     "chapterSubtitle": "国際関係とフランコフォニー — 国际关系与法语世界",
     "level": "B2",
     "year": 3,
@@ -3060,7 +3060,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_61",
+        "id": "quest_ch_63",
         "title": "Bilan Chapitre 2 : L'Épreuve Complète de Production Argumentée",
         "level": "B2+",
         "icon": "workspace_premium",
@@ -3112,9 +3112,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q2"
   },
   {
-    "chapterId": "chap_62",
-    "chapterNumber": 62,
-    "chapterTitle": "Chapitre 62 : Consommation, publicité et numérique",
+    "chapterId": "chap_64",
+    "chapterNumber": 64,
+    "chapterTitle": "Chapitre 64 : Consommation, publicité et numérique",
     "chapterSubtitle": "消費・広告・デジタル — 消费广告与数字化",
     "level": "B2",
     "year": 3,
@@ -3122,7 +3122,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_62",
+        "id": "quest_ch_64",
         "title": "Société & Travail : Les Nouveaux Paradigmes",
         "level": "B2",
         "icon": "domain",
@@ -3197,9 +3197,9 @@ window.parcours_B2_Dataset = [
     "grammarLessonId": "a1-6-q3"
   },
   {
-    "chapterId": "chap_63",
-    "chapterNumber": 63,
-    "chapterTitle": "Chapitre 63 : Révisions B1 : Le participe présent et le gérondif",
+    "chapterId": "chap_65",
+    "chapterNumber": 65,
+    "chapterTitle": "Chapitre 65 : Révisions B1 : Le participe présent et le gérondif",
     "chapterSubtitle": "B1復習：現在分詞とジェロンディフの高度な運用 — B1复习：现在分词与副动词的高级运用",
     "level": "B2",
     "year": 3,
@@ -3207,7 +3207,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_63",
+        "id": "quest_ch_65",
         "title": "Consolidation Avancée : Formes en -ANT et Précision Syntaxique",
         "level": "B2",
         "icon": "alt_route",
@@ -3312,9 +3312,9 @@ window.parcours_B2_Dataset = [
     ]
   },
   {
-    "chapterId": "chap_64",
-    "chapterNumber": 64,
-    "chapterTitle": "Chapitre 64 : Débats de société et prospective",
+    "chapterId": "chap_66",
+    "chapterNumber": 66,
+    "chapterTitle": "Chapitre 66 : Débats de société et prospective",
     "chapterSubtitle": "社会論争と展望 — 社会议题与前瞻",
     "level": "B2",
     "year": 3,
@@ -3322,7 +3322,7 @@ window.parcours_B2_Dataset = [
     "color": "#2E6171",
     "quests": [
       {
-        "id": "quest_ch_64",
+        "id": "quest_ch_66",
         "title": "Bilan Chapitre 1 : Le Grand Défi Lexical & Syntaxique",
         "level": "B2",
         "icon": "military_tech",

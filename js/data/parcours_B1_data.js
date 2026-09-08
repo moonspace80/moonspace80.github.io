@@ -1,8 +1,8 @@
 window.parcours_B1_Dataset = [
   {
-    "chapterId": "chap_17",
-    "chapterNumber": 17,
-    "chapterTitle": "Chapitre 17 : Parcours personnel et récit",
+    "chapterId": "chap_19",
+    "chapterNumber": 19,
+    "chapterTitle": "Chapitre 19 : Parcours personnel et récit",
     "chapterSubtitle": "人生経験と物語 — 个人经历与叙述",
     "level": "B1",
     "year": 2,
@@ -10,7 +10,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_17",
+        "id": "quest_ch_19",
         "title": "Raconter son histoire et partager son parcours",
         "level": "B1",
         "icon": "menu_book",
@@ -301,9 +301,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "a2-passe-compose-imparfait-detail"
   },
   {
-    "chapterId": "chap_18",
-    "chapterNumber": 18,
-    "chapterTitle": "Chapitre 18 : Raconter un évènement, une expérience, un rêve",
+    "chapterId": "chap_20",
+    "chapterNumber": 20,
+    "chapterTitle": "Chapitre 20 : Raconter un évènement, une expérience, un rêve",
     "chapterSubtitle": "出来事・経験・夢を語る — 叙述事件、经历与梦想",
     "level": "B1",
     "year": 2,
@@ -311,7 +311,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_18",
+        "id": "quest_ch_20",
         "title": "Raconter un évènement, une expérience, un rêve : L'art du récit vivant",
         "level": "B1",
         "icon": "auto_stories",
@@ -732,9 +732,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-recit-passe-compose-imparfait"
   },
   {
-    "chapterId": "chap_19",
-    "chapterNumber": 19,
-    "chapterTitle": "Chapitre 19 : Études et insertion professionnelle",
+    "chapterId": "chap_21",
+    "chapterNumber": 21,
+    "chapterTitle": "Chapitre 21 : Études et insertion professionnelle",
     "chapterSubtitle": "学業と就職 — 学业与职业融入",
     "level": "B1",
     "year": 2,
@@ -742,7 +742,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_19",
+        "id": "quest_ch_21",
         "title": "Réussir sa formation et son insertion professionnelle",
         "level": "B1",
         "icon": "school",
@@ -1033,9 +1033,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-cause-consequence-but"
   },
   {
-    "chapterId": "chap_20",
-    "chapterNumber": 20,
-    "chapterTitle": "Chapitre 20 : Décrire un espoir, un but, un projet",
+    "chapterId": "chap_22",
+    "chapterNumber": 22,
+    "chapterTitle": "Chapitre 22 : Décrire un espoir, un but, un projet",
     "chapterSubtitle": "希望・目標・計画を描く — 描述希望、目标与项目",
     "level": "B1",
     "year": 2,
@@ -1043,7 +1043,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_20",
+        "id": "quest_ch_22",
         "title": "Décrire un espoir, un but, un projet : Tracer son avenir",
         "level": "B1",
         "icon": "flag",
@@ -1464,9 +1464,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-expression-but-subjonctif"
   },
   {
-    "chapterId": "chap_21",
-    "chapterNumber": 21,
-    "chapterTitle": "Chapitre 21 : Vie quotidienne et consommation",
+    "chapterId": "chap_23",
+    "chapterNumber": 23,
+    "chapterTitle": "Chapitre 23 : Vie quotidienne et consommation",
     "chapterSubtitle": "日常生活と消費 — 日常生活与消费",
     "level": "B1",
     "year": 2,
@@ -1474,7 +1474,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_21",
+        "id": "quest_ch_23",
         "title": "Maîtriser son budget et consommer de façon responsable",
         "level": "B1",
         "icon": "shopping_bag",
@@ -1765,9 +1765,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-pronoms-demonstratifs-possessifs"
   },
   {
-    "chapterId": "chap_22",
-    "chapterNumber": 22,
-    "chapterTitle": "Chapitre 22 : Habitat et modes de vie",
+    "chapterId": "chap_24",
+    "chapterNumber": 24,
+    "chapterTitle": "Chapitre 24 : Habitat et modes de vie",
     "chapterSubtitle": "住居と生活様式 — 住房与生活方式",
     "level": "B1",
     "year": 2,
@@ -1775,7 +1775,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_22",
+        "id": "quest_ch_24",
         "title": "Choisir son logement et réinventer son mode de vie",
         "level": "B1",
         "icon": "home",
@@ -2066,9 +2066,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-voix-passive"
   },
   {
-    "chapterId": "chap_23",
-    "chapterNumber": 23,
-    "chapterTitle": "Chapitre 23 : Mobilité et tourisme responsable",
+    "chapterId": "chap_25",
+    "chapterNumber": 25,
+    "chapterTitle": "Chapitre 25 : Mobilité et tourisme responsable",
     "chapterSubtitle": "移動と責任ある旅行 — 出行与负责任旅游",
     "level": "B1",
     "year": 2,
@@ -2076,7 +2076,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_23",
+        "id": "quest_ch_25",
         "title": "Voyager autrement et adopter les mobilités douces",
         "level": "B1",
         "icon": "directions_subway",
@@ -2367,9 +2367,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-condition-si-hypothese"
   },
   {
-    "chapterId": "chap_24",
-    "chapterNumber": 24,
-    "chapterTitle": "Chapitre 24 : Préparer son voyage en France",
+    "chapterId": "chap_26",
+    "chapterNumber": 26,
+    "chapterTitle": "Chapitre 26 : Préparer son voyage en France",
     "chapterSubtitle": "フランス旅行の準備 — 准备法国之旅",
     "level": "B1",
     "year": 2,
@@ -2377,7 +2377,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_24",
+        "id": "quest_ch_26",
         "title": "Préparer son voyage en France : Des préparatifs à l'immersion culturelle",
         "level": "B1",
         "icon": "flight_takeoff",
@@ -2798,9 +2798,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-conditionnel-politesse-voyage"
   },
   {
-    "chapterId": "chap_25",
-    "chapterNumber": 25,
-    "chapterTitle": "Chapitre 25 : Se débrouiller dans des situations imprévues de la vie quotidienne",
+    "chapterId": "chap_27",
+    "chapterNumber": 27,
+    "chapterTitle": "Chapitre 27 : Se débrouiller dans des situations imprévues de la vie quotidienne",
     "chapterSubtitle": "日常の不測の事態に対処する — 应对日常突发状况",
     "level": "B1",
     "year": 2,
@@ -2808,7 +2808,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_25",
+        "id": "quest_ch_27",
         "title": "Se débrouiller dans des situations imprévues : Résoudre les aléas du quotidien",
         "level": "B1",
         "icon": "support_agent",
@@ -3229,9 +3229,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-imprevus-cause-concession-indirect"
   },
   {
-    "chapterId": "chap_26",
-    "chapterNumber": 26,
-    "chapterTitle": "Chapitre 26 : Santé, bien-être et sport",
+    "chapterId": "chap_28",
+    "chapterNumber": 28,
+    "chapterTitle": "Chapitre 28 : Santé, bien-être et sport",
     "chapterSubtitle": "健康・ウェルビーイング・スポーツ — 健康、身心幸福与体育",
     "level": "B1",
     "year": 2,
@@ -3239,7 +3239,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_26",
+        "id": "quest_ch_28",
         "title": "Prendre soin de sa santé et cultiver l équilibre physique et mental",
         "level": "B1",
         "icon": "fitness_center",
@@ -3530,9 +3530,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-gerondif"
   },
   {
-    "chapterId": "chap_27",
-    "chapterNumber": 27,
-    "chapterTitle": "Chapitre 27 : Les Allergies : Comprendre, Prévenir et Soigner",
+    "chapterId": "chap_29",
+    "chapterNumber": 29,
+    "chapterTitle": "Chapitre 29 : Les Allergies : Comprendre, Prévenir et Soigner",
     "chapterSubtitle": "アレルギーの理解・予防・治療 — 过敏的认识、预防与治疗",
     "level": "B1",
     "year": 2,
@@ -3540,7 +3540,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_27",
+        "id": "quest_ch_29",
         "title": "Les Allergies au quotidien : Du dérèglement immunitaire aux thérapies ciblées",
         "level": "B1",
         "icon": "medical_services",
@@ -3975,9 +3975,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-cause-consequence-but"
   },
   {
-    "chapterId": "chap_28",
-    "chapterNumber": 28,
-    "chapterTitle": "Chapitre 28 : Médias et information",
+    "chapterId": "chap_30",
+    "chapterNumber": 30,
+    "chapterTitle": "Chapitre 30 : Médias et information",
     "chapterSubtitle": "L'information à l'ère numérique, vérification des sources et presse",
     "level": "B1",
     "year": 2,
@@ -4272,9 +4272,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-discours-indirect-present"
   },
   {
-    "chapterId": "chap_29",
-    "chapterNumber": 29,
-    "chapterTitle": "Chapitre 29 : Comprendre les éléments importants de l’actualité : l'article de journal",
+    "chapterId": "chap_31",
+    "chapterNumber": 31,
+    "chapterTitle": "Chapitre 31 : Comprendre les éléments importants de l’actualité : l'article de journal",
     "chapterSubtitle": "ニュースの重要事項を理解する：新聞記事 — 理解新闻要点：报纸文章",
     "level": "B1",
     "year": 2,
@@ -4282,7 +4282,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_29",
+        "id": "quest_ch_31",
         "title": "Comprendre l'actualité dans la presse écrite : Décrypter l'information",
         "level": "B1",
         "icon": "newspaper",
@@ -4703,9 +4703,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-presse-conditionnel-nominalisation"
   },
   {
-    "chapterId": "chap_30",
-    "chapterNumber": 30,
-    "chapterTitle": "Chapitre 30 : Comprendre les éléments importants de l’actualité : le journal télévisé",
+    "chapterId": "chap_32",
+    "chapterNumber": 32,
+    "chapterTitle": "Chapitre 32 : Comprendre les éléments importants de l’actualité : le journal télévisé",
     "chapterSubtitle": "ニュースの重要事項を理解する：テレビニュース — 理解新闻要点：电视新闻",
     "level": "B1",
     "year": 2,
@@ -4713,7 +4713,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_30",
+        "id": "quest_ch_32",
         "title": "Comprendre l'actualité audiovisuelle : Décrypter le journal télévisé",
         "level": "B1",
         "icon": "live_tv",
@@ -5134,9 +5134,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-tv-voix-passive-indirect"
   },
   {
-    "chapterId": "chap_31",
-    "chapterNumber": 31,
-    "chapterTitle": "Chapitre 31 : Comprendre les éléments importants de l’actualité : l'émission de radio",
+    "chapterId": "chap_33",
+    "chapterNumber": 33,
+    "chapterTitle": "Chapitre 33 : Comprendre les éléments importants de l’actualité : l'émission de radio",
     "chapterSubtitle": "ニュースの重要事項を理解する：ラジオ番組 — 理解新闻要点：广播节目",
     "level": "B1",
     "year": 2,
@@ -5144,7 +5144,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_31",
+        "id": "quest_ch_33",
         "title": "Comprendre l'actualité radiophonique : Clés d'écoute et d'analyse",
         "level": "B1",
         "icon": "radio",
@@ -5579,9 +5579,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-radio-actualite"
   },
   {
-    "chapterId": "chap_32",
-    "chapterNumber": 32,
-    "chapterTitle": "Chapitre 32 : Culture, loisirs et création",
+    "chapterId": "chap_34",
+    "chapterNumber": 34,
+    "chapterTitle": "Chapitre 34 : Culture, loisirs et création",
     "chapterSubtitle": "Pratiques culturelles, créations artistiques et lieux de spectacle",
     "level": "B1",
     "year": 2,
@@ -5876,9 +5876,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "a2-relatifs-simples"
   },
   {
-    "chapterId": "chap_33",
-    "chapterNumber": 33,
-    "chapterTitle": "Chapitre 33 : Exprimer mes sentiments",
+    "chapterId": "chap_35",
+    "chapterNumber": 35,
+    "chapterTitle": "Chapitre 35 : Exprimer mes sentiments",
     "chapterSubtitle": "感情を表現する — 表达我的情感",
     "level": "B1",
     "year": 2,
@@ -5886,7 +5886,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_33",
+        "id": "quest_ch_35",
         "title": "Exprimer mes sentiments : Joie, crainte, surprise et soulagement",
         "level": "B1",
         "icon": "favorite",
@@ -6321,9 +6321,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-exprimer-sentiments"
   },
   {
-    "chapterId": "chap_34",
-    "chapterNumber": 34,
-    "chapterTitle": "Chapitre 34 : Donner mon opinion et la justifier avec des arguments",
+    "chapterId": "chap_36",
+    "chapterNumber": 36,
+    "chapterTitle": "Chapitre 36 : Donner mon opinion et la justifier avec des arguments",
     "chapterSubtitle": "意見を述べ、論拠で正当化する — 发表观点并用论据支持",
     "level": "B1",
     "year": 2,
@@ -6331,7 +6331,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_34",
+        "id": "quest_ch_36",
         "title": "L'Art de l'opinion argumentée : Thèse, arguments et illustrations",
         "level": "B1",
         "icon": "question_answer",
@@ -6766,9 +6766,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-donner-opinion-argumenter"
   },
   {
-    "chapterId": "chap_35",
-    "chapterNumber": 35,
-    "chapterTitle": "Chapitre 35 : Exprimer mon accord ou mon désaccord et expliquer pourquoi",
+    "chapterId": "chap_37",
+    "chapterNumber": 37,
+    "chapterTitle": "Chapitre 37 : Exprimer mon accord ou mon désaccord et expliquer pourquoi",
     "chapterSubtitle": "賛成・反対を表明し理由を説明する — 表达赞同或反对并说明理由",
     "level": "B1",
     "year": 2,
@@ -6776,7 +6776,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_35",
+        "id": "quest_ch_37",
         "title": "Exprimer l'accord ou le désaccord : Réfuter avec courtoisie et rigueur",
         "level": "B1",
         "icon": "thumbs_up_down",
@@ -7211,9 +7211,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-accord-desaccord"
   },
   {
-    "chapterId": "chap_36",
-    "chapterNumber": 36,
-    "chapterTitle": "Chapitre 36 : Environnement local",
+    "chapterId": "chap_38",
+    "chapterNumber": 38,
+    "chapterTitle": "Chapitre 38 : Environnement local",
     "chapterSubtitle": "Biodiversité locale, tri des déchets, circuits courts et éco-gestes",
     "level": "B1",
     "year": 2,
@@ -7508,9 +7508,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-subjonctif-present"
   },
   {
-    "chapterId": "chap_37",
-    "chapterNumber": 37,
-    "chapterTitle": "Chapitre 37 : Citoyenneté et solidarité",
+    "chapterId": "chap_39",
+    "chapterNumber": 39,
+    "chapterTitle": "Chapitre 39 : Citoyenneté et solidarité",
     "chapterSubtitle": "Engagement associatif, entraide intergénérationnelle et action civique",
     "level": "B1",
     "year": 2,
@@ -7805,9 +7805,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-voix-passive"
   },
   {
-    "chapterId": "chap_38",
-    "chapterNumber": 38,
-    "chapterTitle": "Chapitre 38 : Faire des propositions, des hypothèses, donner des conseils",
+    "chapterId": "chap_40",
+    "chapterNumber": 40,
+    "chapterTitle": "Chapitre 40 : Faire des propositions, des hypothèses, donner des conseils",
     "chapterSubtitle": "提案・仮説を立て、助言を与える — 提出建议、假设并给予指导",
     "level": "B1",
     "year": 2,
@@ -7815,7 +7815,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_38",
+        "id": "quest_ch_40",
         "title": "Proposer, conseiller et imaginer : Le conditionnel et les systèmes hypothétiques",
         "level": "B1",
         "icon": "tips_and_updates",
@@ -8250,9 +8250,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-propositions-hypotheses-conseils"
   },
   {
-    "chapterId": "chap_39",
-    "chapterNumber": 39,
-    "chapterTitle": "Chapitre 39 : Convaincre quelqu’un",
+    "chapterId": "chap_41",
+    "chapterNumber": 41,
+    "chapterTitle": "Chapitre 41 : Convaincre quelqu’un",
     "chapterSubtitle": "人を説得する — 说服他人",
     "level": "B1",
     "year": 2,
@@ -8260,7 +8260,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_39",
+        "id": "quest_ch_41",
         "title": "Convaincre et persuader : Maîtrise de l'expression et persuasion bienveillante",
         "level": "B1",
         "icon": "campaign",
@@ -8695,9 +8695,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-convaincre-persuader"
   },
   {
-    "chapterId": "chap_40",
-    "chapterNumber": 40,
-    "chapterTitle": "Chapitre 40 : Technologie et communication",
+    "chapterId": "chap_42",
+    "chapterNumber": 42,
+    "chapterTitle": "Chapitre 42 : Technologie et communication",
     "chapterSubtitle": "Réseaux sociaux, télétravail, déconnexion et intelligence artificielle",
     "level": "B1",
     "year": 2,
@@ -8992,9 +8992,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-hypothese-condition"
   },
   {
-    "chapterId": "chap_41",
-    "chapterNumber": 41,
-    "chapterTitle": "Chapitre 41 : Raconter, situer un événement ou contraster des faits",
+    "chapterId": "chap_43",
+    "chapterNumber": 43,
+    "chapterTitle": "Chapitre 43 : Raconter, situer un événement ou contraster des faits",
     "chapterSubtitle": "Articuler des actions successives, des ruptures temporelles et des contrastes passés",
     "level": "B1",
     "year": 2,
@@ -9289,9 +9289,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "a2-passe-compose-imparfait-detail"
   },
   {
-    "chapterId": "chap_42",
-    "chapterNumber": 42,
-    "chapterTitle": "Chapitre 42 : Organiser une présentation ou un discours, dans un ordre logique",
+    "chapterId": "chap_44",
+    "chapterNumber": 44,
+    "chapterTitle": "Chapitre 44 : Organiser une présentation ou un discours, dans un ordre logique",
     "chapterSubtitle": "論理的な順序で発表や演説を構成する — 按逻辑顺序组织演示或演讲",
     "level": "B1",
     "year": 2,
@@ -9299,7 +9299,7 @@ window.parcours_B1_Dataset = [
     "color": "#D97706",
     "quests": [
       {
-        "id": "quest_ch_42",
+        "id": "quest_ch_44",
         "title": "Structurer son exposé : Introduction, transitions, démonstration et péroraison",
         "level": "B1",
         "icon": "format_list_numbered",
@@ -9734,9 +9734,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-organiser-discours-presentation"
   },
   {
-    "chapterId": "chap_43",
-    "chapterNumber": 43,
-    "chapterTitle": "Chapitre 43 : Relations sociales et conflits",
+    "chapterId": "chap_45",
+    "chapterNumber": 45,
+    "chapterTitle": "Chapitre 45 : Relations sociales et conflits",
     "chapterSubtitle": "Médiation, gestion des malentendus de voisinage et résolution pacifique",
     "level": "B1",
     "year": 2,
@@ -10031,9 +10031,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-orthographe-adverbes-accord-avoir"
   },
   {
-    "chapterId": "chap_44",
-    "chapterNumber": 44,
-    "chapterTitle": "Chapitre 44 : Exprimer la simultanéité ou la cause",
+    "chapterId": "chap_46",
+    "chapterNumber": 46,
+    "chapterTitle": "Chapitre 46 : Exprimer la simultanéité ou la cause",
     "chapterSubtitle": "Simultanéité temporelle, relation de cause à effet et structuration logique",
     "level": "B1",
     "year": 2,
@@ -10328,9 +10328,9 @@ window.parcours_B1_Dataset = [
     "grammarLessonId": "b1-gerondif"
   },
   {
-    "chapterId": "chap_45",
-    "chapterNumber": 45,
-    "chapterTitle": "Chapitre 45 : Actualité et projets d’avenir",
+    "chapterId": "chap_47",
+    "chapterNumber": 47,
+    "chapterTitle": "Chapitre 47 : Actualité et projets d’avenir",
     "chapterSubtitle": "Perspectives de carrière, grands défis du futur, aspirations et rétrospective",
     "level": "B1",
     "year": 2,

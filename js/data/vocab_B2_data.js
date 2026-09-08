@@ -25594,5 +25594,3031 @@ window.vocab_B2_Dataset = [
         "jp": "何時であっても働くことができる体制は、睡眠時間やつながらない時間の尊重というデリケートな問題を提起します。"
       }
     ]
-  }
+  },
+    {
+        id: 14567,
+        word: "En direct de",
+        phonetic: "/ɑ̃ di.ʁɛkt də/",
+        type: "locution prépositive • radiophonique",
+        theme: "Médias & Journalisme",
+        level: "A2",
+        definition: "Indique qu'une émission, une retransmission ou un reportage est diffusé en temps réel depuis le lieu même de l'événement (ex. « en direct de Paris »).",
+        examples: [
+            {
+                fr: "RFI émet en direct de Paris pour informer les auditeurs francophones du monde entier.",
+                en: "RFI broadcasts live from Paris to inform French-speaking listeners worldwide.",
+                cn: "法国国际广播电台从巴黎现场直播，向全球法语听众播报新闻。",
+                jp: "RFIは世界中のフランス語圏のリスナーに情報を提供するため、パリから生放送しています。"
+            }
+        ]
+    },
+    {
+        id: 14568,
+        word: "Profondément",
+        phonetic: "/pʁɔ.fɔ̃.de.mɑ̃/",
+        type: "adverbe • courant",
+        theme: "Degré & Intensité",
+        level: "B1",
+        definition: "D'une manière très intense, au plus profond de soi-même ou de façon durable (ex. « profondément choqué »).",
+        examples: [
+            {
+                fr: "Le chancelier s'est déclaré profondément affecté par la montée des tensions politiques.",
+                en: "The chancellor declared himself deeply affected by the rise in political tensions.",
+                cn: "总理表示对政治紧张局势的加剧感到深受触动与不安。",
+                jp: "首相は政治的緊張の高まりに深く心を痛めていると表明しました。"
+            }
+        ]
+    },
+    {
+        id: 14569,
+        word: "Choqué",
+        phonetic: "/ʃɔ.ke/",
+        type: "adjectif / participe passé • courant",
+        theme: "Émotions & Sentiments",
+        level: "A2",
+        definition: "Fortement troublé, heurté ou indigné par un événement inattendu, grave ou scandaleux.",
+        examples: [
+            {
+                fr: "Les citoyens sont choqués par la violence des inondations survenues cet été.",
+                en: "Citizens are shocked by the violence of the floods that occurred this summer.",
+                cn: "市民们对今年夏天发生的毁灭性洪水的猛烈程度感到震惊。",
+                jp: "市民たちはこの夏に発生した洪水の激しさに衝撃を受けています。"
+            }
+        ]
+    },
+    {
+        id: 14570,
+        word: "Chancelier",
+        phonetic: "/ʃɑ̃.sə.lje/",
+        type: "nom masculin • politique",
+        theme: "Institutions politiques",
+        level: "B2",
+        definition: "Titre porté par le chef du gouvernement fédéral en Allemagne (chancelier fédéral, Bundeskanzler) et en Autriche, détenteur du pouvoir exécutif principal.",
+        examples: [
+            {
+                fr: "Le chancelier allemand dirige les grandes orientations de la politique fédérale.",
+                en: "The German chancellor directs the main guidelines of federal policy.",
+                cn: "德国联邦总理掌舵并决定联邦政府的大政方针。",
+                jp: "ドイツ連邦首相は連邦政策の基本方針を指揮します。"
+            }
+        ]
+    },
+    {
+        id: 14571,
+        word: "Victoire",
+        phonetic: "/vik.twaʁ/",
+        type: "nom féminin • courant",
+        theme: "Succès & Compétition",
+        level: "A2",
+        definition: "Succès remporté dans une élection, une compétition sportive ou une bataille contre des adversaires.",
+        examples: [
+            {
+                fr: "Cette formation politique célèbre une victoire électorale sans précédent.",
+                en: "This political party is celebrating an unprecedented electoral victory.",
+                cn: "该政党正在庆祝一场史无前例的选举大捷。",
+                jp: "この政党は前例のない選挙の勝利を祝っています。"
+            }
+        ]
+    },
+    {
+        id: 14572,
+        word: "Élection",
+        phonetic: "/e.lɛk.sjɔ̃/",
+        type: "nom féminin • fondamental",
+        theme: "Politique & Démocratie",
+        level: "A2",
+        definition: "Choix public et démocratique fait par les citoyens au moyen du vote pour désigner leurs représentants ou dirigeants.",
+        examples: [
+            {
+                fr: "La participation à l'élection régionale a atteint un niveau record ce dimanche.",
+                en: "Turnout in the regional election reached a record high this Sunday.",
+                cn: "本周日地方选举的选民投票率创下了历史新高。",
+                jp: "今週日曜日の州議会選挙の投票率は記録的な水準に達しました。"
+            }
+        ]
+    },
+    {
+        id: 14573,
+        word: "Régionale",
+        phonetic: "/ʁe.ʒjɔ.nal/",
+        type: "adjectif féminin • politique",
+        theme: "Politique & Territoire",
+        level: "B1",
+        definition: "Qui concerne une région administrative ou un Land particulier (ex. une élection régionale).",
+        examples: [
+            {
+                fr: "L'élection régionale en Saxe-Anhalt a bouleversé les équilibres politiques traditionnels.",
+                en: "The regional election in Saxony-Anhalt disrupted traditional political balances.",
+                cn: "萨克森-安哈尔特州的地区选举彻底打破了传统政治力量的均势。",
+                jp: "ザクセン＝アンハルト州の地方選挙は従来の政治バランスを大きく覆しました。"
+            }
+        ]
+    },
+    {
+        id: 14574,
+        word: "Se recueillir",
+        phonetic: "/sə ʁə.kœ.jiʁ/",
+        type: "verbe pronominal • émotion",
+        theme: "Mémoire & Deuil",
+        level: "B2",
+        definition: "S'isoler intérieurement dans le silence, la méditation et le respect pour honorer la mémoire de disparus ou vivre un moment de recueillement.",
+        examples: [
+            {
+                fr: "Les familles se rassemblent en silence pour se recueillir en mémoire des victimes.",
+                en: "Families gather in silence to pay their respects in memory of the victims.",
+                cn: "遇难者家属静静地聚集在一起，为逝去的亲人默哀追思。",
+                jp: "遺族たちは犠牲者の追悼のために静かに集まり、黙祷を捧げています。"
+            }
+        ]
+    },
+    {
+        id: 14575,
+        word: "Se souvenir",
+        phonetic: "/sə su.və.niʁ/",
+        type: "verbe pronominal (se souvenir de) • courant",
+        theme: "Mémoire & Pensée",
+        level: "A2",
+        definition: "Garder ou rappeler le souvenir d'une personne, d'un lieu ou d'un événement dans sa mémoire.",
+        examples: [
+            {
+                fr: "Il est indispensable de se souvenir des leçons de l'histoire pour préserver la paix.",
+                en: "It is vital to remember the lessons of history to preserve peace.",
+                cn: "铭记历史的深刻教训对于捍卫和平至关重要。",
+                jp: "平和を維持するためには、歴史の教訓を記憶にとどめることが不可欠です。"
+            }
+        ]
+    },
+    {
+        id: 14576,
+        word: "Rendre hommage",
+        phonetic: "/ʁɑ̃dʁ ɔ.maʒ/",
+        type: "locution verbale (rendre hommage à) • courant",
+        theme: "Respect & Célébration",
+        level: "B1",
+        definition: "Témoigner publiquement son respect, sa vénération, son admiration ou sa reconnaissance envers quelqu'un (ex. « rendre hommage aux morts »).",
+        examples: [
+            {
+                fr: "La nation tout entière s'est rassemblée pour rendre hommage aux sauveteurs et aux disparus.",
+                en: "The entire nation gathered to pay tribute to the rescuers and the deceased.",
+                cn: "全体国民齐聚一堂，向英勇的救援人员和遇难同胞深情致敬与缅怀。",
+                jp: "国民全体が集まり、救助隊員と犠牲者に敬意を表し追悼しました。"
+            }
+        ]
+    },
+    {
+        id: 14577,
+        word: "Deuil",
+        phonetic: "/dœj/",
+        type: "nom masculin • courant",
+        theme: "Émotions & Société",
+        level: "B1",
+        definition: "Douleur ressentie à la suite de la mort de quelqu'un ; période et ensemble des coutumes qui accompagnent cette perte (ex. « deuil national » = décrété par l'État).",
+        examples: [
+            {
+                fr: "Le gouvernement a proclamé trois jours de deuil national après la tragédie.",
+                en: "The government declared three days of national mourning after the tragedy.",
+                cn: "悲剧发生后，政府宣布全国降半旗并举行为期三天的国哀。",
+                jp: "悲劇の後、政府は3日間の国民服喪を宣言しました。"
+            }
+        ]
+    },
+    {
+        id: 14578,
+        word: "Inondations",
+        phonetic: "/i.nɔ̃.da.sjɔ̃/",
+        type: "nom féminin pluriel • météorologie",
+        theme: "Catastrophes naturelles",
+        level: "A2",
+        definition: "Submersion temporaire par l'eau de terres habituellement émergées, provoquée par de fortes pluies torrentielles ou des crues de rivières.",
+        examples: [
+            {
+                fr: "Les inondations de mousson ont provoqué des glissements de terrain dévastateurs au Népal.",
+                en: "Monsoon floods caused devastating landslides in Nepal.",
+                cn: "季风暴雨引发的洪水在尼泊尔各地造成了灾难性的山体滑坡。",
+                jp: "モンスーンによる洪水は、ネパールで壊滅的な土砂崩れを引き起こしました。"
+            }
+        ]
+    },
+    {
+        id: 14579,
+        word: "Meurtrières",
+        phonetic: "/mœʁ.tʁi.jɛʁ/",
+        type: "adjectif féminin pluriel • courant",
+        theme: "Dangers & Catastrophes",
+        level: "B2",
+        definition: "Qui cause la mort d'un grand nombre de personnes (ex. « des inondations meurtrières »).",
+        examples: [
+            {
+                fr: "Ces crues meurtrières ont coûté la vie à des centaines de villageois.",
+                en: "These deadly flash floods claimed the lives of hundreds of villagers.",
+                cn: "这场造成惨重死伤的特大山洪夺去了数百名村民的宝贵生命。",
+                jp: "この多数の死者を出した洪水は、数百人の村人の命を奪いました。"
+            }
+        ]
+    },
+    {
+        id: 14580,
+        word: "Cameroun",
+        phonetic: "/kam.ʁun/",
+        type: "nom propre masculin • pays",
+        theme: "Géographie & Francophonie",
+        level: "A2",
+        definition: "Pays d'Afrique centrale bordé par l'océan Atlantique et plusieurs pays voisins, dont Yaoundé est la capitale politique et Douala la métropole économique.",
+        examples: [
+            {
+                fr: "La rentrée scolaire au Cameroun mobilise plus de 4 millions d'élèves.",
+                en: "The start of the school year in Cameroon involves over 4 million students.",
+                cn: "喀麦隆新学年开学动员了超过400万名中小学生返校上课。",
+                jp: "カメルーンの新学期には400万人以上の児童・生徒が登校します。"
+            }
+        ]
+    },
+    {
+        id: 14581,
+        word: "Allemagne",
+        phonetic: "/al.maɲ/",
+        type: "nom propre féminin • pays",
+        theme: "Géographie & Europe",
+        level: "A1",
+        definition: "État d'Europe centrale, membre fondateur de l'Union européenne, dont la capitale est Berlin.",
+        examples: [
+            {
+                fr: "L'Allemagne est la première puissance économique de l'Union européenne.",
+                en: "Germany is the leading economic power in the European Union.",
+                cn: "德国是欧洲联盟内部的第一大经济强国。",
+                jp: "ドイツは欧州連合（EU）最大の経済大国です。"
+            }
+        ]
+    },
+    {
+        id: 14582,
+        word: "Népal",
+        phonetic: "/ne.pal/",
+        type: "nom propre masculin • pays",
+        theme: "Géographie mondiale",
+        level: "A2",
+        definition: "Pays montagneux d'Asie du Sud situé dans l'Himalaya, entre l'Inde et la Chine, dont la capitale est Katmandou.",
+        examples: [
+            {
+                fr: "Le Népal traverse une crise humanitaire majeure après les inondations en montagne.",
+                en: "Nepal is experiencing a major humanitarian crisis following mountain floods.",
+                cn: "尼泊尔在高山洪灾过后正面临着一场严峻的重大人道主义危机。",
+                jp: "ネパールは山間部の洪水の後、深刻な人道危機に直面しています。"
+            }
+        ]
+    },
+    {
+        id: 14583,
+        word: "Katmandou",
+        phonetic: "/kat.mɑ̃.du/",
+        type: "nom propre • capitale",
+        theme: "Villes & Géographie",
+        level: "A2",
+        definition: "Capitale et plus grande ville du Népal, située au cœur d'une vallée historique de l'Himalaya.",
+        examples: [
+            {
+                fr: "Les secours d'urgence sont acheminés depuis Katmandou vers les vallées isolées.",
+                en: "Emergency relief is routed from Kathmandu to isolated valleys.",
+                cn: "紧急救援救灾物资正从加德满都源源不断运往偏远被困的山谷。",
+                jp: "緊急救援物資がカトマンズから孤立した谷へと搬送されています。"
+            }
+        ]
+    },
+    {
+        id: 14584,
+        word: "Seconde Guerre mondiale",
+        phonetic: "/sə.ɡɔ̃d ɡɛʁ mɔ̃.djal/",
+        type: "nom propre féminin • histoire",
+        theme: "Histoire contemporaine",
+        level: "B1",
+        definition: "Conflit militaire planétaire (1939-1945) opposant les Alliés aux puissances de l'Axe, marqué par la Shoah et la capitulation du régime nazi.",
+        examples: [
+            {
+                fr: "Ce résultat électoral est inédit en Allemagne depuis la Seconde Guerre mondiale.",
+                en: "This election result is unprecedented in Germany since World War II.",
+                cn: "这一选举结果是自第二次世界大战结束以来在德国前所未见的。",
+                jp: "この選挙結果は、第二次世界大戦以来ドイツにおいて前例のないものです。"
+            }
+        ]
+    },
+    {
+        id: 14585,
+        word: "Voix (votes)",
+        phonetic: "/vwa/",
+        type: "nom féminin pluriel • politique (ici, votes / suffrages)",
+        theme: "Élections & Suffrage",
+        level: "B1",
+        definition: "Suffrage exprimé par un électeur lors d'un vote ou d'une consultation électorale (ex. « remporter 44 % des voix » = des suffrages exprimés).",
+        examples: [
+            {
+                fr: "Le parti vainqueur a recueilli une majorité écrasante de voix au premier tour.",
+                en: "The winning party garnered an overwhelming majority of votes in the first round.",
+                cn: "获胜政党在第一轮投票中就赢得了压倒性的绝大多数选票。",
+                jp: "勝利した政党は第1回投票で圧倒的多数の票を獲得しました。"
+            }
+        ]
+    },
+    {
+        id: 14586,
+        word: "Coup de tonnerre",
+        phonetic: "/ku də tɔ.nɛʁ/",
+        type: "locution nominale • métaphore",
+        theme: "Expressions idiomatiques",
+        level: "B2",
+        definition: "Événement soudain, imprévu et spectaculaire qui surprend, sidère ou bouleverse profondément l'opinion publique.",
+        examples: [
+            {
+                fr: "L'annonce de cette victoire électorale a fait l'effet d'un coup de tonnerre sur le continent européen.",
+                en: "The announcement of this election victory came like a bombshell across the European continent.",
+                cn: "这一大选获胜结果的公布如同一记晴天霹雳，震撼了整个欧洲大陆。",
+                jp: "この選挙勝利の発表は、ヨーロッパ大陸全体に青天の霹靂のような衝撃を与えました。"
+            }
+        ]
+    },
+    {
+        id: 14587,
+        word: "Continent",
+        phonetic: "/kɔ̃.ti.nɑ̃/",
+        type: "nom masculin • géographie",
+        theme: "Géographie",
+        level: "A2",
+        definition: "Très vaste étendue de terre émergée entourée par les océans (ex. le continent européen, l'Afrique, l'Asie).",
+        examples: [
+            {
+                fr: "Cette crise politique a des répercussions sur l'ensemble du continent.",
+                en: "This political crisis has repercussions across the entire continent.",
+                cn: "这场政治危机在整个欧洲大陆范围内都引发了连锁震荡反应。",
+                jp: "この政治危機は大陸全体に波及効果を及ぼしています。"
+            }
+        ]
+    },
+    {
+        id: 14588,
+        word: "Vote",
+        phonetic: "/vɔt/",
+        type: "nom masculin • politique",
+        theme: "Démocratie",
+        level: "A2",
+        definition: "Acte par lequel un citoyen ou membre d'une assemblée exprime son choix lors d'une élection ou prise de décision.",
+        examples: [
+            {
+                fr: "Les analystes politiques s'efforcent de décrypter les motivations de ce vote protestataire.",
+                en: "Political analysts are striving to decipher the motivations behind this protest vote.",
+                cn: "政治分析人士正试图解读选民投下这一抗议票背后的深层动机。",
+                jp: "政治アナリストたちはこの抗議投票の背後にある動機を解読しようと努めています。"
+            }
+        ]
+    },
+    {
+        id: 14589,
+        word: "Réunification",
+        phonetic: "/ʁe.y.ni.fi.ka.sjɔ̃/",
+        type: "nom féminin • histoire politique",
+        theme: "Histoire & Géopolitique",
+        level: "B2",
+        definition: "Action de réunir à nouveau des territoires ou des peuples qui avaient été séparés (spécifiquement la Réunification de la RFA et de la RDA le 3 octobre 1990 ; <a href=\"html/reunification-allemande.html\" target=\"_blank\" style=\"text-decoration:underline; font-weight:bold; color:var(--md-sys-color-primary);\">fiche repère</a>).",
+        examples: [
+            {
+                fr: "Après la réunification allemande, les nouveaux Länder ont connu d'importantes mutations économiques.",
+                en: "After German reunification, the new states underwent major economic shifts.",
+                cn: "德国重新统一后，原东德各州经历了剧烈的经济结构转型。",
+                jp: "ドイツ再統一後、旧東ドイツの新しい諸州は大きな経済的変革を経験しました。"
+            }
+        ]
+    },
+    {
+        id: 14590,
+        word: "Partisans",
+        phonetic: "/paʁ.ti.zɑ̃/",
+        type: "nom masculin pluriel • politique",
+        theme: "Politique & Idéologie",
+        level: "B2",
+        definition: "Personnes attachées à une doctrine, un parti, une cause ou un chef qu'elles soutiennent activement et défendent.",
+        examples: [
+            {
+                fr: "Des milliers de partisans ont fêté la victoire électorale dans les rues de la ville.",
+                en: "Thousands of supporters celebrated the election victory in the city streets.",
+                cn: "数以千计的政党支持者涌上市区街道欢庆大选的胜利。",
+                jp: "何千人もの支持者が街頭で選挙の勝利を祝いました。"
+            }
+        ]
+    },
+    {
+        id: 14591,
+        word: "Fantastique",
+        phonetic: "/fɑ̃.tas.tik/",
+        type: "adjectif qualificatif • registre familier/courant",
+        theme: "Appréciation",
+        level: "A2",
+        definition: "Extraordinaire, formidable, d'une qualité remarquable qui suscite un grand enthousiasme.",
+        examples: [
+            {
+                fr: "Les militants ont qualifié l'ambiance de cette campagne électorale de fantastique.",
+                en: "Campaigners described the atmosphere of this election campaign as fantastic.",
+                cn: "竞选志愿者们将本次选战期间全场的热烈氛围形容为棒极了。",
+                jp: "活動家たちはこの選挙戦の雰囲気を最高だったと表現しました。"
+            }
+        ]
+    },
+    {
+        id: 14592,
+        word: "Déclassement social",
+        phonetic: "/de.klas.mɑ̃ sɔ.sjal/",
+        type: "locution nominale • sociologie",
+        theme: "Sociologie & Économie",
+        level: "B2",
+        definition: "Perte de statut social, de niveau de vie ou de prestige d'un individu ou groupe par rapport à sa situation antérieure ou à celle de ses parents.",
+        examples: [
+            {
+                fr: "La peur du déclassement social pousse de nombreux électeurs vers les partis contestataires.",
+                en: "The fear of downward social mobility pushes many voters toward protest parties.",
+                cn: "对陷入社会阶层下滑与经济跌落的恐惧驱使着大量选民投向抗议型政党。",
+                jp: "社会的地位の下落に対する不安が、多くの有権者を抗議政党へと向かわせています。"
+            }
+        ]
+    },
+    {
+        id: 14593,
+        word: "Promettent",
+        phonetic: "/pʁɔ.mɛt/",
+        type: "verbe transitif (promettre) • 3e personne pluriel",
+        theme: "Parole & Engagement",
+        level: "A2",
+        definition: "S'engager par la parole ou un écrit à donner, faire ou accomplir quelque chose à l'avenir (ex. « les politiques promettent toujours des choses »).",
+        examples: [
+            {
+                fr: "Les candidats promettent souvent des réformes ambitieuses durant la campagne électorale.",
+                en: "Candidates often promise ambitious reforms during the election campaign.",
+                cn: "候选人在竞选拉票期间往往会向选民许诺实施雄心勃勃的改革方案。",
+                jp: "候補者たちは選挙戦中に野心的な改革を約束することがよくあります。"
+            }
+        ]
+    },
+    {
+        id: 14594,
+        word: "Les gens en ont marre",
+        phonetic: "/le ʒɑ̃ z‿ɑ̃ n‿ɔ̃ maʁ/",
+        type: "expression idiomatique familière (en avoir marre)",
+        theme: "Expressions familières",
+        level: "B1",
+        definition: "Formule très courante signifiant être excédé, exaspéré, las, n'en plus pouvoir d'une situation désagréable ou répétitive.",
+        examples: [
+            {
+                fr: "Face à la hausse continue des prix, les gens en ont marre des promesses sans lendemain.",
+                en: "Faced with continuous price hikes, people are fed up with unfulfilled promises.",
+                cn: "面对物价的接连飞涨，普通老百姓对政客们口惠而实不至的承诺已经彻底受够了。",
+                jp: "物価の上昇が続く中、人々は実行されない約束にうんざりしています。"
+            }
+        ]
+    },
+    {
+        id: 14595,
+        word: "Migrants",
+        phonetic: "/mi.ɡʁɑ̃/",
+        type: "nom masculin pluriel • sociopolitique",
+        theme: "Société & Démographie",
+        level: "B1",
+        definition: "Personnes qui se déplacent d'un pays ou d'une région vers un autre lieu pour s'y établir, pour des raisons économiques, politiques, climatiques ou sécuritaires.",
+        examples: [
+            {
+                fr: "La gestion de l'accueil et de l'intégration des migrants fait l'objet d'âpres débats en Europe.",
+                en: "The management of receiving and integrating migrants is the subject of fierce debates in Europe.",
+                cn: "如何安置和融合移居者的问题在欧洲各国引发了激烈的政治辩论。",
+                jp: "移民の受け入れと統合の管理は、ヨーロッパで激しい議論の対象となっています。"
+            }
+        ]
+    },
+    {
+        id: 14596,
+        word: "S'en occuper",
+        phonetic: "/s‿ɑ̃ n‿ɔ.ky.pe/",
+        type: "locution verbale pronominale (s'occuper de)",
+        theme: "Action & Résolution",
+        level: "A2",
+        definition: "Prendre en charge un problème, régler une affaire, veiller sur quelqu'un ou agir concrètement pour trouver une solution (ex. « il faut s'en occuper »).",
+        examples: [
+            {
+                fr: "Ce problème d'insalubrité est urgent et les élus locaux doivent s'en occuper sans délai.",
+                en: "This insalubrity problem is urgent, and local officials must deal with it without delay.",
+                cn: "这一公共卫生隐患刻不容缓，地方民意代表必须立即出面着手予以解决。",
+                jp: "この衛生問題は緊急を要するため、地方自治体の議員らは直ちに対処しなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14597,
+        word: "Magdebourg",
+        phonetic: "/maɡ.də.buʁ/",
+        type: "nom propre • toponyme",
+        theme: "Géographie & Villes",
+        level: "A2",
+        definition: "Capitale du Land allemand de Saxe-Anhalt, située sur l'Elbe, théâtre central des élections régionales de septembre 2026.",
+        examples: [
+            {
+                fr: "L'envoyée spéciale de RFI a recueilli les réactions des habitants sur la place centrale de Magdebourg.",
+                en: "RFI's special correspondent gathered reactions from residents on Magdeburg's central square.",
+                cn: "法广特派记者在马格德堡市中心广场采访收集了当地居民对选举结果的真实反响。",
+                jp: "RFIの特派員はマクデブルクの中心部広場で住民たちの反応を取材しました。"
+            }
+        ]
+    },
+    {
+        id: 14598,
+        word: "Propos recueillis",
+        phonetic: "/pʁɔ.po ʁə.kœ.ji/",
+        type: "locution journalistique figée",
+        theme: "Médias & Journalisme",
+        level: "B2",
+        definition: "Mention rituelle en fin d'interview indiquant que les déclarations orales citées ont été interviewées et enregistrées par le journaliste nommé.",
+        examples: [
+            {
+                fr: "Propos recueillis à Magdebourg par la correspondante permanente de la rédaction.",
+                en: "Interview conducted in Magdeburg by the editorial team's permanent correspondent.",
+                cn: "本台特派常驻记者在马格德堡现场进行采访与谈话记录。",
+                jp: "編集部常駐特派員がマクデブルクにて取材・談話録取。"
+            }
+        ]
+    },
+    {
+        id: 14599,
+        word: "Désormais",
+        phonetic: "/de.zɔʁ.mɛ/",
+        type: "adverbe de temps • courant",
+        theme: "Temps & Succession",
+        level: "B1",
+        definition: "À partir de maintenant, dorénavant, à compter de cet instant précis.",
+        examples: [
+            {
+                fr: "Désormais, les regards de la communauté internationale se tournent vers les pourparlers de paix.",
+                en: "From now on, the eyes of the international community turn toward the peace talks.",
+                cn: "从这一刻起，国际社会的目光已全部聚焦于即将开启的和谈进程。",
+                jp: "今や国際社会の視線は和平交渉に向けられています。"
+            }
+        ]
+    },
+    {
+        id: 14600,
+        word: "Touché",
+        phonetic: "/tu.ʃe/",
+        type: "adjectif / participe passé • affectif",
+        theme: "Émotions & Sentiments",
+        level: "B1",
+        definition: "Ému, intérieurement remué ou attristé par une nouvelle difficile, un hommage ou un événement marquant.",
+        examples: [
+            {
+                fr: "Le dirigeant est apparu visiblement touché lors de sa prise de parole devant les journalistes.",
+                en: "The leader appeared visibly moved while speaking before journalists.",
+                cn: "这位领导人在面对现场中外记者公开发表讲话时显得深感触动与沉重。",
+                jp: "指導者は記者団の前で発言する際、明らかに心を痛めた様子を見せていました。"
+            }
+        ]
+    },
+    {
+        id: 14601,
+        word: "Ému",
+        phonetic: "/e.my/",
+        type: "adjectif qualificatif • affectif",
+        theme: "Sensibilité & Émotion",
+        level: "B1",
+        definition: "Qui éprouve une émotion vive sous le coup de la tristesse, de la gratitude, du regret ou de la surprise.",
+        examples: [
+            {
+                fr: "Il a prononcé un discours vibrant, la voix visiblement émue.",
+                en: "He delivered a stirring speech, his voice visibly emotional.",
+                cn: "他发表了一场慷慨激昂的演说，语调中难掩抑制不住的动容与哽咽。",
+                jp: "彼は声を震わせ、感極まった様子で熱のこもった演説を行いました。"
+            }
+        ]
+    },
+    {
+        id: 14602,
+        word: "Avertissement",
+        phonetic: "/a.vɛʁ.tis.mɑ̃/",
+        type: "nom masculin • courant",
+        theme: "Politique & Signaux",
+        level: "B2",
+        definition: "Parole, acte ou signal destiné à mettre en garde ou à alerter d'un danger imminent (ex. « un sérieux avertissement électoral »).",
+        examples: [
+            {
+                fr: "Ce revers électoral constitue un sérieux avertissement pour la coalition au pouvoir.",
+                en: "This electoral setback is a serious wake-up call for the governing coalition.",
+                cn: "这次地方补选失利对执政联盟而言无疑是一记极其沉重的当头棒喝与严厉警钟。",
+                jp: "この選挙の敗北は、与党連立政権にとって深刻な警鐘となっています。"
+            }
+        ]
+    },
+    {
+        id: 14603,
+        word: "Alliance",
+        phonetic: "/a.ljɑ̃s/",
+        type: "nom féminin • politique",
+        theme: "Diplomatie & Politique",
+        level: "B1",
+        definition: "Pacte, union ou accord de coopération conclu entre plusieurs partis ou nations pour atteindre un objectif commun.",
+        examples: [
+            {
+                fr: "Le parti démocrate refuse catégoriquement toute alliance formelle avec l'extrême droite.",
+                en: "The democratic party categorically rejects any formal alliance with the far-right.",
+                cn: "该民主政党断然拒绝与极右翼势力结成任何形式的正式政治同盟。",
+                jp: "民主党派は極右勢力とのあらゆる正式な同盟・連携を断固として拒絶しています。"
+            }
+        ]
+    },
+    {
+        id: 14604,
+        word: "Impopulaire",
+        phonetic: "/ɛ̃.pɔ.py.lɛʁ/",
+        type: "adjectif qualificatif • politique",
+        theme: "Opinion publique",
+        level: "B2",
+        definition: "Qui ne jouit pas de la faveur ni de l'adhésion du peuple ou de l'opinion publique ; rejeté ou mal aimé.",
+        examples: [
+            {
+                fr: "L'adoption de cette loi budgétaire rigide a rendu le ministre profondément impopulaire.",
+                en: "The passing of this rigid budget law made the minister deeply unpopular.",
+                cn: "这项严苛紧缩财政预算法案的强行通过，导致该部长在民间的民调支持率跌至冰点。",
+                jp: "この厳しい予算法の可決により、大臣は国民の間で極めて不人気となりました。"
+            }
+        ]
+    },
+    {
+        id: 14605,
+        word: "Revers",
+        phonetic: "/ʁə.vɛʁ/",
+        type: "nom masculin • politique/sport",
+        theme: "Succès & Échec",
+        level: "B2",
+        definition: "Échec soudain, défaite électorale cuisante ou coup dur imprévu qui modifie une position avantageuse.",
+        examples: [
+            {
+                fr: "Le parti gouvernemental essuie un lourd revers lors des élections territoriales.",
+                en: "The governing party suffered a heavy setback in the regional elections.",
+                cn: "执政党在本次地方中期大选中遭遇了意料之外的惨重败绩与重大挫折。",
+                jp: "与党は地方選挙において手痛い敗北（挫折）を喫しました。"
+            }
+        ]
+    },
+    {
+        id: 14606,
+        word: "IFRI",
+        phonetic: "/i.fʁi/",
+        type: "sigle masculin • institution (think tank)",
+        theme: "Recherche & Géopolitique",
+        level: "C1",
+        definition: "Institut Français des Relations Internationales : principal centre de recherche indépendant français en géopolitique (<a href=\"html/ifri.html\" target=\"_blank\" style=\"text-decoration:underline; font-weight:bold; color:var(--md-sys-color-primary);\">fiche repère</a>).",
+        examples: [
+            {
+                fr: "Les chercheurs de l'IFRI décryptent les conséquences stratégiques des élections européennes.",
+                en: "IFRI researchers decipher the strategic consequences of European elections.",
+                cn: "法国国际关系研究所的权威资深学者深度解读了欧洲大选的地缘战略深远影响。",
+                jp: "IFRIの研究員たちは欧州議会選挙の戦略的帰結を解読・分析しています。"
+            }
+        ]
+    },
+    {
+        id: 14607,
+        word: "Remplacement",
+        phonetic: "/ʁɑ̃.plas.mɑ̃/",
+        type: "nom masculin • courant",
+        theme: "Organisation & Changement",
+        level: "B1",
+        definition: "Action de substituer une personne ou une chose à une autre dans une fonction, un mandat ou un rôle.",
+        examples: [
+            {
+                fr: "Le remplacement prématuré du Premier ministre fait l'objet de rumeurs insistantes.",
+                en: "The premature replacement of the Prime Minister is the subject of persistent rumors.",
+                cn: "关于提前撤换现任总理并在党内物色接替人选的传闻正在政坛甚嚣尘上。",
+                jp: "首相の任期前交代に関する噂が政界で執拗に取り沙汰されています。"
+            }
+        ]
+    },
+    {
+        id: 14608,
+        word: "Un peu à",
+        phonetic: "/œ̃ pø a/",
+        type: "locution prépositive de manière",
+        theme: "Comparaison & Façon",
+        level: "B1",
+        definition: "D'une façon similaire à, à la manière approximative de (ex. « un scénario un peu à la britannique » = rappelant le modèle britannique).",
+        examples: [
+            {
+                fr: "Ils ont choisi de gérer cette crise politique un peu à la manière scandinave.",
+                en: "They chose to manage this political crisis somewhat in the Scandinavian manner.",
+                cn: "他们选择采取一种略带有斯堪的纳维亚北欧式风格的方式来低调妥善化解此次政局危机。",
+                jp: "彼らはこの政治的危機を、どこかスカンジナビア（北欧）風の手法で処理することを選びました。"
+            }
+        ]
+    },
+    {
+        id: 14609,
+        word: "Britannique",
+        phonetic: "/bʁi.ta.nik/",
+        type: "adjectif qualificatif • géopolitique",
+        theme: "Nationalités & Politique",
+        level: "A2",
+        definition: "Relatif à la Grande-Bretagne ou au Royaume-Uni (au sens politique : référence aux changements rapides de Premier ministre décidés par le parti au pouvoir).",
+        examples: [
+            {
+                fr: "Un scénario politique à la britannique verrait le parti au pouvoir changer de chef en cours de mandat.",
+                en: "A British-style political scenario would see the governing party change leaders mid-term.",
+                cn: "类似于英国式的政局推演预案，执政党将会在任期中途直接推举更换新党首取代现任总理。",
+                jp: "イギリス風の政治シナリオでは、与党が任期途中で指導者を交代させることになります。"
+            }
+        ]
+    },
+    {
+        id: 14610,
+        word: "Dirigeant",
+        phonetic: "/di.ʁi.ʒɑ̃/",
+        type: "nom masculin • politique/entreprise",
+        theme: "Pouvoir & Gouvernance",
+        level: "B1",
+        definition: "Personne qui exerce l'autorité, guide et oriente les choix d'un parti politique, d'un État ou d'une grande institution.",
+        examples: [
+            {
+                fr: "Les dirigeants de la majorité se sont réunis d'urgence pour stabiliser la coalition.",
+                en: "Majority leaders gathered urgently to stabilize the coalition.",
+                cn: "国会执政多数派的各位核心领导人举行紧急闭门会议以竭力维稳执政联盟。",
+                jp: "与党多数派の指導者たちは連立を安定させるため緊急会合を開きました。"
+            }
+        ]
+    },
+    {
+        id: 14611,
+        word: "CDU",
+        phonetic: "/se.de.y/",
+        type: "sigle féminin propre • politique allemande",
+        theme: "Partis politiques",
+        level: "B2",
+        definition: "Christlich Demokratische Union Deutschlands : grand parti politique allemand chrétien-démocrate et conservateur (<a href=\"html/cdu.html\" target=\"_blank\" style=\"text-decoration:underline; font-weight:bold; color:var(--md-sys-color-primary);\">fiche repère</a>).",
+        examples: [
+            {
+                fr: "La CDU cherche à reconquérir l'électorat conservateur face à la concurrence de l'extrême droite.",
+                en: "The CDU seeks to win back conservative voters in the face of competition from the far-right.",
+                cn: "面对极右翼民粹阵营的严峻分流竞争，基民盟正全力试图重新赢回传统保守派选民。",
+                jp: "CDUは極右からの激しい競争に直面し、保守層の有権者の奪還を目指しています。"
+            }
+        ]
+    },
+    {
+        id: 14612,
+        word: "Ses jours sont comptés",
+        phonetic: "/se ʒuʁ sɔ̃ kɔ̃.te/",
+        type: "locution proverbiale métaphorique",
+        theme: "Expressions idiomatiques",
+        level: "B2",
+        definition: "Expression indiquant que le temps restant à quelqu'un dans un poste, un mandat politique ou avant un terme inéluctable est très limité.",
+        examples: [
+            {
+                fr: "Après cette série de revers électoraux, beaucoup de commentateurs estiment que ses jours à la tête du gouvernement sont comptés.",
+                en: "After this string of electoral defeats, many commentators believe his days leading the government are numbered.",
+                cn: "在接连遭遇数次灾难性的大选溃败之后，诸多资深政论家皆断言其总理宝座的时日已然屈指可数。",
+                jp: "一連の選挙での敗北の後、多くの評論家は彼が政権トップに留まれる日数は残り少ないと見ています。"
+            }
+        ]
+    },
+    {
+        id: 14613,
+        word: "Batailles",
+        phonetic: "/ba.taj/",
+        type: "nom féminin pluriel • courant/politique",
+        theme: "Conflits & Compétition",
+        level: "A2",
+        definition: "Combats armés ou, au sens figuré, affrontements ardents et luttes de pouvoir au sein d'un parti ou d'une organisation (ex. « batailles internes »).",
+        examples: [
+            {
+                fr: "Les batailles d'appareil pour le contrôle de la direction divisent profondément le mouvement.",
+                en: "Internal factional battles for control of leadership are deeply dividing the movement.",
+                cn: "党内派系之间为争夺领导核心大权而爆发的残酷内斗，正在严重撕裂整个政党基层。",
+                jp: "指導部の支配権をめぐる党内の権力闘争が、運動組織を深刻に分断しています。"
+            }
+        ]
+    },
+    {
+        id: 14614,
+        word: "Conservatisme",
+        phonetic: "/kɔ̃.sɛʁ.va.tism/",
+        type: "nom masculin • politique",
+        theme: "Doctrines politiques",
+        level: "B2",
+        definition: "Attitude, idéologie ou courant politique qui privilégie la préservation des traditions, la continuité des institutions existantes et la prudence face aux réformes rapides.",
+        examples: [
+            {
+                fr: "Une partie des militants revendique un retour assumé au conservatisme traditionnel.",
+                en: "A faction of grassroots members advocates an assertive return to traditional conservatism.",
+                cn: "党内一部分基层骨干成员公开大声疾呼，要求坚定全面回归传统的保守主义价值理念。",
+                jp: "党員の一部は、伝統的な保守主義への堂々たる回帰を訴えています。"
+            }
+        ]
+    },
+    {
+        id: 14615,
+        word: "Au sein de",
+        phonetic: "/o sɛ̃ də/",
+        type: "locution prépositive de lieu abstrait",
+        theme: "Position & Institution",
+        level: "B1",
+        definition: "À l'intérieur de, parmi les membres de (ex. « au sein de la CDU », « au sein de la société »).",
+        examples: [
+            {
+                fr: "Des dissensions profondes se font jour au sein de l'équipe de négociation.",
+                en: "Deep dissensions are surfacing within the negotiating team.",
+                cn: "谈判团队内部悄然浮现出越来越深的分歧与立场对立。",
+                jp: "交渉チームの内部において深刻な意見の対立が表面化しています。"
+            }
+        ]
+    },
+    {
+        id: 14616,
+        word: "Effectivement",
+        phonetic: "/e.fɛk.tiv.mɑ̃/",
+        type: "adverbe • affirmation",
+        theme: "Confirmation & Discours",
+        level: "B1",
+        definition: "De manière réelle, indubitable ; confirme ce qui a été dit précédemment (« c'est bien le cas, en effet »).",
+        examples: [
+            {
+                fr: "Les prévisions météo avaient effectivement annoncé de fortes précipitations.",
+                en: "The weather forecast had indeed predicted heavy rainfall.",
+                cn: "正如先前预报的那样，国家气象部门此前确实早已预警将有极端特大暴雨降临。",
+                jp: "気象予報は確かに激しい降雨をあらかじめ告知していました。"
+            }
+        ]
+    },
+    {
+        id: 14617,
+        word: "C'est ce qui",
+        phonetic: "/s‿ɛ s k‿i/",
+        type: "tournure présentative clivée (sujet mis en relief)",
+        theme: "Grammaire & Mise en relief",
+        level: "A2",
+        definition: "Structure d'insistance mettant en valeur le sujet logique d'une proposition (ex. « c'est ce qui est reproché au chancelier »).",
+        examples: [
+            {
+                fr: "C'est ce qui explique le succès retentissant de cette initiative locale.",
+                en: "That is what explains the resounding success of this local initiative.",
+                cn: "这恰恰从根本上解释了这一地方创新举措之所以能够取得轰动性成功的关键原因。",
+                jp: "それこそが、この地域的取り組みの目覚ましい成功を説明する理由です。"
+            }
+        ]
+    },
+    {
+        id: 14618,
+        word: "Reproché",
+        phonetic: "/ʁə.pʁɔ.ʃe/",
+        type: "participe passé / adjectif (reprocher)",
+        theme: "Critique & Jugement",
+        level: "B1",
+        definition: "Attribué à grief, blâmé ou critiqué par autrui pour un manquement ou une faute commise.",
+        examples: [
+            {
+                fr: "Le manque de concertation avec les syndicats est souvent reproché à la direction.",
+                en: "The lack of consultation with unions is often held against management.",
+                cn: "缺乏与基层工会的开诚布公协商与对话，常常成为管理层广受员工诟病的主要焦点。",
+                jp: "労働組合との協議不足は、経営陣に対してしばしば非難される点です。"
+            }
+        ]
+    },
+    {
+        id: 14619,
+        word: "Clairement",
+        phonetic: "/klɛʁ.mɑ̃/",
+        type: "adverbe de manière • courant",
+        theme: "Manière & Expression",
+        level: "B1",
+        definition: "D'une façon nette, intelligible, sans ambiguïté ni équivoque possible.",
+        examples: [
+            {
+                fr: "Le président a clairement réaffirmé son opposition à toute concession territoriale.",
+                en: "The president clearly reaffirmed his opposition to any territorial concessions.",
+                cn: "总统在公开讲话中极其明确无误地重申了他断然反对在领土问题上做任何妥协的坚定立场。",
+                jp: "大統領はいかなる領土的妥協にも反対する意向を明確に再確認しました。"
+            }
+        ]
+    },
+    {
+        id: 14620,
+        word: "Libéral",
+        phonetic: "/li.be.ʁal/",
+        type: "adjectif qualificatif • économie/politique",
+        theme: "Économie & Pensée",
+        level: "B2",
+        definition: "Favorable à la liberté d'entreprendre, au libre jeu du marché et à la limitation des interventions de l'État dans l'économie.",
+        examples: [
+            {
+                fr: "Son programme économique libéral prévoit d'importantes baisses de cotisations pour les entreprises.",
+                en: "His pro-market economic program plans major payroll tax cuts for businesses.",
+                cn: "他倡导的自由市场化经济纲领规划了为私营企业大幅减免社会保障缴费的优惠政策。",
+                jp: "彼の自由主義的な経済プログラムは、企業に対する大規模な社会保険料削減を盛り込んでいます。"
+            }
+        ]
+    },
+    {
+        id: 14621,
+        word: "Électeurs",
+        phonetic: "/e.lɛk.tœʁ/",
+        type: "nom masculin pluriel • démocratie",
+        theme: "Citoyenneté & Vote",
+        level: "B1",
+        definition: "Citoyens jouissant du droit de vote et participant au choix de leurs représentants lors d'un scrutin.",
+        examples: [
+            {
+                fr: "Les électeurs se sont déplacés massivement pour ce scrutin décisif.",
+                en: "Voters turned out in droves for this decisive election.",
+                cn: "广大选民在本次决定国家未来前途命运的关键性大选中展现出极高的投票热情。",
+                jp: "有権者たちはこの決定的な投票に大挙して足を運びました。"
+            }
+        ]
+    },
+    {
+        id: 14622,
+        word: "Progressivement",
+        phonetic: "/pʁɔ.ɡʁɛ.siv.mɑ̃/",
+        type: "adverbe • évolution",
+        theme: "Temps & Vitesse",
+        level: "B1",
+        definition: "Par degrés successifs, de manière continue et sans à-coups brutaux au fil du temps.",
+        examples: [
+            {
+                fr: "La confiance des consommateurs se rétablit progressivement après des mois d'inflation.",
+                en: "Consumer confidence is gradually recovering after months of inflation.",
+                cn: "在经历数月的高通胀冲击后，居民消费者的市场信心正呈现出逐步企稳回升的态势。",
+                jp: "数か月にわたるインフレの後、消費者心理は徐々に回復しつつあります。"
+            }
+        ]
+    },
+    {
+        id: 14623,
+        word: "Joue de ça (jouer de ça)",
+        phonetic: "/ʒu də sa/",
+        type: "locution verbale (jouer de + pronom démonstratif)",
+        theme: "Stratégie & Manipulation",
+        level: "B2",
+        definition: "Tirer profit habilement ou cyniquement d'une faiblesse, d'un sentiment ou d'une peur pour faire avancer ses intérêts (« jouer de cela / en tirer parti »).",
+        examples: [
+            {
+                fr: "L'extrême droite joue de ça pour canaliser les rancœurs et gagner des voix.",
+                en: "The far-right plays on that to channel resentments and win votes.",
+                cn: "极右翼民粹势力正是善于借题发挥、充分利用这一心理死结来煽动怨气以大肆搜刮选票。",
+                jp: "極右勢力はそれを巧みに利用して不満を吸い上げ、票を獲得しています。"
+            }
+        ]
+    },
+    {
+        id: 14624,
+        word: "Analyse recueillie",
+        phonetic: "/a.na.liz ʁə.kœ.ji/",
+        type: "locution journalistique figée",
+        theme: "Médias & Journalisme",
+        level: "B2",
+        definition: "Formule par laquelle un journaliste indique que l'expertise analytique ou le commentaire diffusé a été recueilli lors d'un entretien.",
+        examples: [
+            {
+                fr: "Analyse recueillie par la rédaction internationale auprès des meilleurs spécialistes.",
+                en: "Analysis gathered by the international desk from top specialists.",
+                cn: "国际新闻采编部特约顶尖国际关系专家进行深度权威分析与记录。",
+                jp: "国際編集部が最高峰の専門家から取材・録取した分析。"
+            }
+        ]
+    },
+    {
+        id: 14625,
+        word: "Une marée humaine",
+        phonetic: "/yn ma.ʁe y.mɛn/",
+        type: "locution nominale métaphorique",
+        theme: "Foules & Rassemblements",
+        level: "B2",
+        definition: "Foule immense, dense et en mouvement compact, comparée poétiquement à la puissance déferlante de la marée montante.",
+        examples: [
+            {
+                fr: "Une marée humaine s'est pressée le long des avenues pour rendre un dernier hommage.",
+                en: "A sea of people crowded along the avenues to pay a final tribute.",
+                cn: "人山人海的汹涌人潮紧密挤满了沿途主干林荫大道，只为献上最后的深情告别。",
+                jp: "最後の一礼を捧げるため、大通り沿いには押し寄せる群衆（人の波）が埋め尽くしました。"
+            }
+        ]
+    },
+    {
+        id: 14626,
+        word: "Hommage",
+        phonetic: "/ɔ.maʒ/",
+        type: "nom masculin • solennel",
+        theme: "Célébration & Mémoire",
+        level: "B1",
+        definition: "Témoignage public de déférence, de respect, d'estime ou de souvenir offert à une personnalité vivante ou défunte.",
+        examples: [
+            {
+                fr: "Un vibrant hommage national a été rendu aux victimes du devoir.",
+                en: "A vibrant national tribute was paid to the victims of duty.",
+                cn: "国家为恪尽职守而英勇牺牲的公职人员举行了一场庄严隆重的国葬追悼大典。",
+                jp: "職務に殉じた犠牲者たちに対して、力強い国民的追悼（オマージュ）が捧げられました。"
+            }
+        ]
+    },
+    {
+        id: 14627,
+        word: "Ratko Mladic",
+        phonetic: "/ʁat.ko mla.ditʃ/",
+        type: "nom propre masculin • personnage historique",
+        theme: "Histoire & Justice internationale",
+        level: "C1",
+        definition: "Ancien chef militaire serbe de Bosnie (« le boucher des Balkans »), condamné pour génocide et crimes contre l'humanité commis durant la guerre de Bosnie.",
+        examples: [
+            {
+                fr: "Ratko Mladic a été condamné à la réclusion à perpétuité par le tribunal pénal international.",
+                en: "Ratko Mladić was sentenced to life imprisonment by the international criminal tribunal.",
+                cn: "拉特科·姆拉迪奇最终被联合国前南斯拉夫国际刑事法庭判处终身监禁。",
+                jp: "ラトコ・ムラディッチは国際刑事法廷によって終身刑の判決を下されました。"
+            }
+        ]
+    },
+    {
+        id: 14628,
+        word: "Foule",
+        phonetic: "/ful/",
+        type: "nom féminin • fondamental",
+        theme: "Société & Rassemblement",
+        level: "A2",
+        definition: "Grand nombre de personnes réunies en un même lieu à l'occasion d'un événement, d'une fête ou d'une manifestation.",
+        examples: [
+            {
+                fr: "La foule s'est massée sur le parvis dès les premières lueurs du jour.",
+                en: "The crowd gathered in the forecourt from the first light of day.",
+                cn: "破晓拂晓时分刚至，大批热情的民众就早已密密匝匝地聚集在广场前空地上。",
+                jp: "夜明けとともに、大聖堂の前庭には大勢の群衆が押し寄せました。"
+            }
+        ]
+    },
+    {
+        id: 14629,
+        word: "Belgrade",
+        phonetic: "/bɛl.ɡʁad/",
+        type: "nom propre • capitale",
+        theme: "Géographie & Villes",
+        level: "A2",
+        definition: "Capitale de la Serbie (et ancienne capitale de la Yougoslavie), située au confluent de la Save et du Danube.",
+        examples: [
+            {
+                fr: "Les funérailles se sont tenues dans la banlieue de Belgrade sous haute surveillance policière.",
+                en: "The funeral was held in the suburbs of Belgrade under tight police surveillance.",
+                cn: "这场极具争议的葬礼在贝尔格莱德郊区警察严阵以待的高度警戒防卫下举行。",
+                jp: "葬儀は警察の厳重な警戒態勢のもと、ベオグラード郊外で執り行われました。"
+            }
+        ]
+    },
+    {
+        id: 14630,
+        word: "Obsèques",
+        phonetic: "/ɔb.sɛk/",
+        type: "nom féminin pluriel (toujours au pluriel) • solennel",
+        theme: "Deuil & Cérémonie",
+        level: "B2",
+        definition: "Cérémonie funèbre solennelle célébrée en l'honneur d'un défunt avant son inhumation ou son incinération.",
+        examples: [
+            {
+                fr: "Les obsèques du chef d'État ont réuni des dignitaires venus des cinq continents.",
+                en: "The head of state's funeral brought together dignitaries from all five continents.",
+                cn: "这位国家元首的国葬大典汇聚了来自全球五大洲的诸多政要使节与王室代表。",
+                jp: "国家元首の葬儀には、五大陸から集まった高官たちが参列しました。"
+            }
+        ]
+    },
+    {
+        id: 14631,
+        word: "Est surnommé (être surnommé)",
+        phonetic: "/ɛ syʁ.nɔ.me/",
+        type: "verbe passif (être surnommé)",
+        theme: "Désignation & Langage",
+        level: "A2",
+        definition: "Recevoir un nom d'usage familier ou imagé (un sobriquet) donné à quelqu'un en raison de son comportement ou de ses actes (ex. « est surnommé le boucher des Balkans »).",
+        examples: [
+            {
+                fr: "Ce redoutable attaquant est surnommé le prodige par tous ses coéquipiers.",
+                en: "This formidable striker is nicknamed the prodigy by all his teammates.",
+                cn: "这位球场前锋因为精湛球技而被俱乐部所有队友一致亲切地称作旷世神童。",
+                jp: "この恐るべきストライカーは、チームメイト全員から「神童」の異名で呼ばれています。"
+            }
+        ]
+    },
+    {
+        id: 14632,
+        word: "Balkans",
+        phonetic: "/bal.kɑ̃/",
+        type: "nom propre masculin pluriel • région",
+        theme: "Géographie européenne",
+        level: "B1",
+        definition: "Péninsule et région du sud-est de l'Europe englobant des pays comme la Serbie, la Bosnie, la Croatie, la Grèce, l'Albanie, etc.",
+        examples: [
+            {
+                fr: "La stabilité des Balkans occidentaux demeure un enjeu géopolitique stratégique pour l'Union européenne.",
+                en: "The stability of the Western Balkans remains a strategic geopolitical issue for the European Union.",
+                cn: "西巴尔干地区的长期和平稳定依然是欧洲联盟在地缘政治战略层面的核心关切。",
+                jp: "西バルカン地域の安定は、欧州連合にとって引き続き戦略的な地政学的重要課題です。"
+            }
+        ]
+    },
+    {
+        id: 14633,
+        word: "Condamné",
+        phonetic: "/kɔ̃.da.ne/",
+        type: "participe passé / nom • justice",
+        theme: "Justice & Droit",
+        level: "B1",
+        definition: "Qui a été reconnu coupable d'une infraction, d'un crime ou d'un délit et frappé d'une peine par un tribunal.",
+        examples: [
+            {
+                fr: "L'ancien commandant a été condamné pour crimes de guerre à la prison à perpétuité.",
+                en: "The former commander was convicted of war crimes and sentenced to life imprisonment.",
+                cn: "这位前军阀指挥官因犯下战争罪行而被特别法庭正式判处终身监禁。",
+                jp: "元司令官は戦争犯罪により終身刑の有罪判決を受けました。"
+            }
+        ]
+    },
+    {
+        id: 14634,
+        word: "Génocide",
+        phonetic: "/ʒe.nɔ.sid/",
+        type: "nom masculin • droit pénal international",
+        theme: "Droit international & Histoire",
+        level: "B2",
+        definition: "Extermination méthodique et planifiée d'un groupe national, ethnique, racial ou religieux en tant que tel.",
+        examples: [
+            {
+                fr: "La convention des Nations unies de 1948 sanctionne et prévient le crime de génocide.",
+                en: "The 1948 United Nations Convention punishes and prevents the crime of genocide.",
+                cn: "1948年通过的联合国公约对种族灭绝这一人类最严重的滔天罪行作出了严惩与防范规定。",
+                jp: "1948年の国連条約は、集団殺害（ジェノサイド）の罪を処罰し防止しています。"
+            }
+        ]
+    },
+    {
+        id: 14635,
+        word: "Crimes contre l'humanité",
+        phonetic: "/kʁim kɔ̃.tʁə l‿y.ma.ni.te/",
+        type: "locution nominale • droit pénal international",
+        theme: "Justice internationale",
+        level: "C1",
+        definition: "Violations systématiques et généralisées des droits fondamentaux (assassinats, déportations, tortures, réductions en esclavage) dirigées contre une population civile.",
+        examples: [
+            {
+                fr: "Les crimes contre l'humanité sont imprescriptibles et relèvent de la compétence de la Cour pénale internationale.",
+                en: "Crimes against humanity are not subject to a statute of limitations and fall within the jurisdiction of the ICC.",
+                cn: "反人类罪在国际刑法上不适用诉讼时效限制，属于国际刑事法院的普遍管辖范畴。",
+                jp: "人道に対する罪は時効がなく、国際刑事裁判所の管轄下にあります。"
+            }
+        ]
+    },
+    {
+        id: 14636,
+        word: "Guerre de Bosnie des années 1990",
+        phonetic: "/ɡɛʁ də bɔs.ni dez‿a.ne mil nɶf sɑ̃ katʁə.vɛ̃.dis/",
+        type: "nom propre • conflit historique",
+        theme: "Histoire européenne",
+        level: "C1",
+        definition: "Conflit meurtrier (1992-1995) ayant suivi l'éclatement de la Yougoslavie, marqué par le siège de Sarajevo et le génocide de Srebrenica (<a href=\"html/guerre-de-bosnie.html\" target=\"_blank\" style=\"text-decoration:underline; font-weight:bold; color:var(--md-sys-color-primary);\">fiche repère</a>).",
+        examples: [
+            {
+                fr: "La guerre de Bosnie des années 1990 a constitué la tragédie humaine la plus sanglante en Europe depuis 1945.",
+                en: "The Bosnian War of the 1990s was the bloodiest human tragedy in Europe since 1945.",
+                cn: "1990年代爆发的波黑战争，构成了欧洲自1945年二战结束以来死伤最为惨烈的人类历史悲剧。",
+                jp: "1990年代のボスニア紛争は、1945年以降のヨーロッパで最も血塗られた人道的悲劇となりました。"
+            }
+        ]
+    },
+    {
+        id: 14637,
+        word: "Empêché ... de (empêcher de)",
+        phonetic: "/ɑ̃.pɛ.ʃe də/",
+        type: "verbe transitif (empêcher quelqu'un de faire quelque chose)",
+        theme: "Grammaire & Restriction",
+        level: "A2",
+        definition: "Mettre un obstacle à une action, faire en sorte que quelque chose ne se produise pas (ex. « ce qui n'a pas empêché certains de le considérer comme un héros »).",
+        examples: [
+            {
+                fr: "Les conditions climatiques extrêmes ont empêché les hélicoptères de décoller.",
+                en: "Extreme weather conditions prevented helicopters from taking off.",
+                cn: "极端恶劣的高空气象条件迫使救援直升机群无法正常离地升空执飞。",
+                jp: "極端な悪天候により、ヘリコプターの離陸が妨げられました。"
+            }
+        ]
+    },
+    {
+        id: 14638,
+        word: "Héros",
+        phonetic: "/e.ʁo/",
+        type: "nom masculin ('h' aspiré) • courant",
+        theme: "Admiration & Mythes",
+        level: "A2",
+        definition: "Personne remarquable qui se distingue par son courage extraordinaire, ses exploits exemplaires ou que certains glorifient pour son rôle.",
+        examples: [
+            {
+                fr: "Certains nationalistes tentent de présenter ce général déchu comme un héros de la nation.",
+                en: "Some nationalists attempt to portray this fallen general as a national hero.",
+                cn: "部分极端民族主义分子妄图将这位被国际司法定罪的落马将军粉饰包装为所谓的民族英雄。",
+                jp: "一部の民族主義者たちは、この失脚した将軍を国家の英雄として描こうと試みています。"
+            }
+        ]
+    },
+    {
+        id: 14639,
+        word: "Glorification",
+        phonetic: "/ɡlɔ.ʁi.fi.ka.sjɔ̃/",
+        type: "nom féminin • politique/morale",
+        theme: "Discours & Société",
+        level: "B2",
+        definition: "Action d'exalter, de célébrer avec éclat ou de parer de vertus héroïques des actes ou des personnes (souvent contestables, ex. la glorification de criminels de guerre).",
+        examples: [
+            {
+                fr: "L'Union européenne a fermement condamné toute forme de glorification de criminels de guerre.",
+                en: "The European Union firmly condemned any form of glorification of war criminals.",
+                cn: "欧洲联盟以最强烈的严正措辞谴责了任何公然粉饰与美化战争罪犯的丑恶行径。",
+                jp: "欧州連合（EU）は、戦争犯罪人を美化・礼賛するいかなる行為も断固として非難しました。"
+            }
+        ]
+    },
+    {
+        id: 14640,
+        word: "Criminels",
+        phonetic: "/kʁi.mi.nɛl/",
+        type: "nom masculin pluriel • droit pénal",
+        theme: "Justice & Criminalité",
+        level: "B1",
+        definition: "Personnes coupables d'avoir commis un ou plusieurs crimes punis par la loi (ex. criminels de guerre).",
+        examples: [
+            {
+                fr: "Les tribunaux internationaux veillent à ce que les criminels répondent de leurs actes odieux.",
+                en: "International tribunals ensure that criminals answer for their heinous acts.",
+                cn: "国际特别法庭致力于确保所有恶贯满盈的罪犯都必须为其滔天罪行承担法律惩处。",
+                jp: "国際裁判所は、犯罪者たちがその凶悪な行為に対して責任を負うよう努めています。"
+            }
+        ]
+    },
+    {
+        id: 14641,
+        word: "Porte-parole",
+        phonetic: "/pɔʁt.pa.ʁɔl/",
+        type: "nom masculin ou féminin invariable • diplomatie/politique",
+        theme: "Communication & Médias",
+        level: "B1",
+        definition: "Personne officiellement chargée d'exprimer publiquement la position, l'avis ou les déclarations d'un gouvernement, d'un organisme ou d'un parti.",
+        examples: [
+            {
+                fr: "Le porte-parole de la Commission européenne a réagi lors du point presse quotidien à Bruxelles.",
+                en: "The European Commission spokesperson responded during the daily press briefing in Brussels.",
+                cn: "欧洲委员会发言人在布鲁塞尔举行的例行每日记者例会上对此作出回应阐明官方立场。",
+                jp: "欧州委員会の報道官は、ブリュッセルでの定例記者会見で回答しました。"
+            }
+        ]
+    },
+    {
+        id: 14642,
+        word: "Commission européenne",
+        phonetic: "/kɔ.mi.sjɔ̃ ø.ʁɔ.pe.ɛn/",
+        type: "nom propre féminin • institutions européennes",
+        theme: "Union européenne",
+        level: "B2",
+        definition: "Organe exécutif de l'Union européenne siégeant à Bruxelles, chargé de proposer les lois et de veiller au respect des traités (<a href=\"html/commission-europeenne.html\" target=\"_blank\" style=\"text-decoration:underline; font-weight:bold; color:var(--md-sys-color-primary);\">fiche repère</a>).",
+        examples: [
+            {
+                fr: "La Commission européenne débloque des financements stratégiques pour soutenir la transition écologique.",
+                en: "The European Commission releases strategic funding to support the green transition.",
+                cn: "欧洲联盟委员会紧急划拨战略性专项财政资金，以全力扶持绿色生态低碳转型。",
+                jp: "欧州委員会は環境移行を支援するため、戦略的資金を拠出しています。"
+            }
+        ]
+    },
+    {
+        id: 14643,
+        word: "Est en déplacement (être en déplacement)",
+        phonetic: "/ɛ t‿ɑ̃ de.plas.mɑ̃/",
+        type: "locution verbale (être en déplacement)",
+        theme: "Voyage officiel & Travail",
+        level: "B1",
+        definition: "Effectuer un voyage professionnel ou officiel hors de son lieu de travail habituel (ex. « la présidente est en déplacement à Nuuk »).",
+        examples: [
+            {
+                fr: "Le ministre des Affaires étrangères est actuellement en déplacement à l'étranger pour négocier un accord.",
+                en: "The Foreign Minister is currently traveling abroad to negotiate an agreement.",
+                cn: "外交部长目前正在海外出差访问，以就关键的双边经贸合作框架协议进行最后攻坚谈判。",
+                jp: "外務大臣は協定を交渉するため、現在海外へ出張中です。"
+            }
+        ]
+    },
+    {
+        id: 14644,
+        word: "Capitale",
+        phonetic: "/ka.pi.tal/",
+        type: "nom féminin • fondamental",
+        theme: "Géographie & Villes",
+        level: "A1",
+        definition: "Ville principale d'un État ou d'un territoire où siègent les autorités gouvernementales et administratives centrales.",
+        examples: [
+            {
+                fr: "Nuuk est la capitale et la ville la plus peuplée du Groenland.",
+                en: "Nuuk is the capital and most populous city of Greenland.",
+                cn: "努克是格陵兰自治领的首府，同时也是该岛屿常住人口规模最大的中心城市。",
+                jp: "ヌークはグリーンランドの首都であり、最も人口の多い都市です。"
+            }
+        ]
+    },
+    {
+        id: 14645,
+        word: "Groenland",
+        phonetic: "/ɡʁɔ.ɛn.lɑ̃d/",
+        type: "nom propre masculin • territoire",
+        theme: "Géographie mondiale",
+        level: "B1",
+        definition: "Plus grande île du monde située dans l'océan Arctique, territoire autonome rattaché au Danemark.",
+        examples: [
+            {
+                fr: "Le Groenland suscite un intérêt géopolitique croissant en raison de ses riches réserves en terres rares.",
+                en: "Greenland attracts growing geopolitical interest due to its rich rare earth reserves.",
+                cn: "因蕴藏储量惊人的稀土金属战略矿产资源，格陵兰正日益成为大国竞相角逐的地缘焦点。",
+                jp: "グリーンランドは豊富なレアアース埋蔵量のため、地政学的に高まる関心を集めています。"
+            }
+        ]
+    },
+    {
+        id: 14646,
+        word: "N'est pas venue les mains vides (ne pas venir les mains vides)",
+        phonetic: "/n‿ɛ pa və.ny le mɛ̃ vid/",
+        type: "locution verbale idiomatique",
+        theme: "Expressions imagées",
+        level: "B1",
+        definition: "Arriver chez quelqu'un ou lors d'un déplacement officiel en apportant des cadeaux, des promesses d'aide financière ou des accords concrets.",
+        examples: [
+            {
+                fr: "Pour sa visite officielle, la dirigeante européenne n'est pas venue les mains vides : elle a annoncé 200 millions d'euros d'aide.",
+                en: "For her official visit, the European leader did not come empty-handed: she announced 200 million euros in aid.",
+                cn: "在本次正式国事访问中，这位欧盟领袖绝非空手而来：她现场宣布了一笔两亿欧元的援助款。",
+                jp: "公式訪問において欧州の指導者は手ぶらでは来ず、2億ユーロの支援パッケージを発表しました。"
+            }
+        ]
+    },
+    {
+        id: 14647,
+        word: "Territoire autonome",
+        phonetic: "/tɛ.ʁi.twaʁ o.tɔ.nom/",
+        type: "locution nominale • géopolitique",
+        theme: "Droit constitutionnel",
+        level: "B2",
+        definition: "Région géographique bénéficiant de pouvoirs législatifs et administratifs propres au sein d'un État souverain (ex. le Groenland au sein du royaume de Danemark).",
+        examples: [
+            {
+                fr: "Bien que rattaché au Danemark, le Groenland est un territoire autonome qui gère ses propres affaires intérieures.",
+                en: "Although attached to Denmark, Greenland is an autonomous territory that manages its own internal affairs.",
+                cn: "尽管在国家主权层面归属于丹麦王国，但格陵兰是一个全权管理本岛绝大多数内部事务的自治领。",
+                jp: "デンマークに帰属しているものの、グリーンランドは独自の内政を管理する自治領です。"
+            }
+        ]
+    },
+    {
+        id: 14648,
+        word: "Danois",
+        phonetic: "/da.nwa/",
+        type: "adjectif qualificatif / nom • géographie",
+        theme: "Nationalités & Langues",
+        level: "A2",
+        definition: "Relatif au Danemark, à son peuple ou à sa langue.",
+        examples: [
+            {
+                fr: "Le gouvernement danois conserve la responsabilité de la politique étrangère et de la défense du Groenland.",
+                en: "The Danish government retains responsibility for Greenland's foreign and defense policy.",
+                cn: "丹麦中央政府依然全面保留并负责统筹格陵兰的外交防务与国家安全重大事务。",
+                jp: "デンマーク政府はグリーンランドの外交・防衛政策に関する管轄責任を保持しています。"
+            }
+        ]
+    },
+    {
+        id: 14649,
+        word: "Exister",
+        phonetic: "/ɛɡ.zis.te/",
+        type: "verbe intransitif • fondamental",
+        theme: "Existence & Philosophie",
+        level: "A2",
+        definition: "Avoir une réalité concrète, être vivant, avoir une place et une identité reconnues dans le monde (ex. « doit exister avec l'Europe »).",
+        examples: [
+            {
+                fr: "Pour les petites nations insulaires, exister sur la scène internationale nécessite des partenariats solides.",
+                en: "For small island nations, having a presence on the international stage requires solid partnerships.",
+                cn: "对于偏远微型岛屿地区而言，要想在错综复杂的地缘大国博弈中立足，离不开稳固的伙伴同盟。",
+                jp: "小さな島国にとって、国際舞台で存在感を持つには強固なパートナーシップが必要です。"
+            }
+        ]
+    },
+    {
+        id: 14650,
+        word: "Catastrophe",
+        phonetic: "/ka.tas.tʁɔf/",
+        type: "nom féminin • courant",
+        theme: "Événements graves",
+        level: "B1",
+        definition: "Événement tragique et dévastateur soudain provoquant de nombreuses victimes et de considérables dégâts matériels.",
+        examples: [
+            {
+                fr: "La communauté internationale s'organise pour répondre à cette catastrophe humanitaire.",
+                en: "The international community is organizing to respond to this humanitarian catastrophe.",
+                cn: "国际社会正迅速紧急统筹调集跨国人道力量，以全力应对这场突如其来的灭顶之灾。",
+                jp: "国際社会はこの人道的破局（大惨事）に対処するために団結して動いています。"
+            }
+        ]
+    },
+    {
+        id: 14651,
+        word: "Sorte de",
+        phonetic: "/sɔʁt də/",
+        type: "locution prépositive d'analogie",
+        theme: "Comparaison & Approximation",
+        level: "B1",
+        definition: "Une espèce de, quelque chose d'analogue à, permettant de décrire une réalité par ressemblance (ex. « une sorte de tsunami des montagnes »).",
+        examples: [
+            {
+                fr: "Cette crue soudaine s'est abattue sur la vallée comme une sorte de mur d'eau inarrêtable.",
+                en: "This flash flood hit the valley like a sort of unstoppable wall of water.",
+                cn: "突发暴发的巨大山洪如同一道势不可当、狂暴倾泻的高耸水墙，瞬间吞没了整个山谷。",
+                jp: "この鉄砲水は、まるで阻止不可能な一種の水の壁のように谷を襲いました。"
+            }
+        ]
+    },
+    {
+        id: 14652,
+        word: "Précisément",
+        phonetic: "/pʁe.si.ze.mɑ̃/",
+        type: "adverbe • courant",
+        theme: "Exactitude & Précision",
+        level: "B1",
+        definition: "D'une façon rigoureusement exacte, ponctuelle et déterminée (ex. « ce 13e jour précisément »).",
+        examples: [
+            {
+                fr: "C'est précisément à cette date que prend fin la période de deuil rituel.",
+                en: "It is precisely on this date that the ritual mourning period ends.",
+                cn: "恰恰就是在这一天，根据古老的神圣传统仪轨，长达数日的正式居丧期才算宣告结束。",
+                jp: "儀礼的な服喪期間が終了するのは、まさにこの日付においてです。"
+            }
+        ]
+    },
+    {
+        id: 14653,
+        word: "Désastre",
+        phonetic: "/de.zastʁ/",
+        type: "nom masculin • soutenu/courant",
+        theme: "Dévastation & Épreuves",
+        level: "B2",
+        definition: "Grand malheur imprévu causant des destructions généralisées, des pertes irréparables et une détresse profonde.",
+        examples: [
+            {
+                fr: "Le pays mettra des années à se relever des séquelles économiques de ce désastre.",
+                en: "The country will take years to recover from the economic aftermath of this disaster.",
+                cn: "要想彻底走出这场毁灭性自然灾害对国民经济造成的严重创伤，该国将需要数年之久。",
+                jp: "国がこの惨害の経済的打撃から立ち直るには何年もかかるでしょう。"
+            }
+        ]
+    },
+    {
+        id: 14654,
+        word: "Symbolique",
+        phonetic: "/sɛ̃.bɔ.lik/",
+        type: "adjectif qualificatif • abstrait",
+        theme: "Sens & Valeurs",
+        level: "B1",
+        definition: "Qui a la valeur d'un symbole, qui représente une réalité morale ou spirituelle plus profonde qu'un simple fait matériel.",
+        examples: [
+            {
+                fr: "Le 13e jour après un décès revêt une valeur symbolique fondamentale dans la tradition hindoue.",
+                en: "The 13th day after a death holds a fundamental symbolic value in Hindu tradition.",
+                cn: "在古老的印度教生死文化传统之中，亲人过世后的第十三天具有至关重要的神圣象征意义。",
+                jp: "死後13日目は、ヒンドゥー教の伝統において根本的な象徴的価値を持っています。"
+            }
+        ]
+    },
+    {
+        id: 14655,
+        word: "Tradition",
+        phonetic: "/tʁa.di.sjɔ̃/",
+        type: "nom féminin • culturel",
+        theme: "Culture & Coutumes",
+        level: "A2",
+        definition: "Ensemble d'usages, de croyances et de valeurs transmis de génération en génération au sein d'une société.",
+        examples: [
+            {
+                fr: "Les rites funéraires sont profondément ancrés dans la tradition séculaire du village.",
+                en: "Funeral rites are deeply rooted in the village's centuries-old tradition.",
+                cn: "肃穆庄严的丧葬礼仪深深植根于这座古老山村世代相传的百年文化传统之中。",
+                jp: "葬礼の儀式は村の何世紀にもわたる伝統に深く根ざしています。"
+            }
+        ]
+    },
+    {
+        id: 14656,
+        word: "Hindoue",
+        phonetic: "/ɛ̃.du/",
+        type: "adjectif féminin • religion",
+        theme: "Religions & Spiritualité",
+        level: "B1",
+        definition: "Qui se rapporte à l'hindouisme, religion et philosophie majoritaire en Inde et au Népal.",
+        examples: [
+            {
+                fr: "Dans la culture hindoue, plusieurs rituels de purification ponctuent la fin du deuil.",
+                en: "In Hindu culture, several purification rituals punctuate the end of mourning.",
+                cn: "在深厚的印度教文化信仰体系中，居丧期的圆满结束伴随着数个神圣的净心净身祈福仪式。",
+                jp: "ヒンドゥー文化において、いくつかの浄化の儀式が服喪の終わりを告げます。"
+            }
+        ]
+    },
+    {
+        id: 14657,
+        word: "Au-delà du",
+        phonetic: "/o.də.la dy/",
+        type: "locution prépositive (au-delà de + article)",
+        theme: "Transition & Perspective",
+        level: "B2",
+        definition: "En dépassant le cadre immédiat, plus loin que, en plus de (ex. « au-delà du drame humain »).",
+        examples: [
+            {
+                fr: "Au-delà du coût financier immédiat, cette catastrophe laisse de profondes séquelles psychologiques.",
+                en: "Beyond the immediate financial cost, this disaster leaves deep psychological scars.",
+                cn: "在抛开显而易见的直接经济财产损失之外，这场浩劫给广大幸存者留下了难以抚平的心理创伤。",
+                jp: "直接的な金銭的被害を超えて、この惨事は深い心理的傷跡を残しています。"
+            }
+        ]
+    },
+    {
+        id: 14658,
+        word: "Drame",
+        phonetic: "/dʁam/",
+        type: "nom masculin • émotion",
+        theme: "Événements tragiques",
+        level: "B1",
+        definition: "Événement tragique, douloureux et éprouvant qui bouleverse des vies humaines (ex. « un drame humain »).",
+        examples: [
+            {
+                fr: "Face à ce drame humanitaire, l'élan de solidarité internationale ne faiblit pas.",
+                en: "Faced with this humanitarian tragedy, the surge of international solidarity does not waver.",
+                cn: "面对这场令人心碎的人类惨剧，全球国际社会踊跃解囊援助的爱心暖流始终未曾停歇。",
+                jp: "この人道的一大悲劇に直面しても、国際的な連帯のうねりは衰えを見せません。"
+            }
+        ]
+    },
+    {
+        id: 14659,
+        word: "Sinistrées",
+        phonetic: "/si.nis.tʁe/",
+        type: "adjectif féminin pluriel • protection civile",
+        theme: "Secours & Urgences",
+        level: "B2",
+        definition: "Qui ont subi des dommages graves causés par une catastrophe naturelle, une guerre ou un accident (ex. « les régions sinistrées »).",
+        examples: [
+            {
+                fr: "Les convois de ravitaillement peinent à rejoindre les zones montagnardes sinistrées.",
+                en: "Supply convoys struggle to reach the disaster-stricken mountain areas.",
+                cn: "运送救急粮草与药品的救灾车队正艰难穿梭跋涉，试图赶抵遭受毁灭性泥石流洗劫的重灾区。",
+                jp: "物資補給車列は、被災した山岳地帯に到達するのに苦労しています。"
+            }
+        ]
+    },
+    {
+        id: 14660,
+        word: "Aide humanitaire",
+        phonetic: "/ɛd y.ma.ni.tɛʁ/",
+        type: "locution nominale • diplomatie",
+        theme: "Solidarité internationale",
+        level: "B1",
+        definition: "Secours d'urgence (nourriture, soins médicaux, abris, eau potable) apporté aux populations en détresse lors d'une catastrophe ou d'un conflit armé.",
+        examples: [
+            {
+                fr: "Des tonnes de vivres et d'équipements d'aide humanitaire sont déchargées sur le tarmac.",
+                en: "Tons of food supplies and humanitarian aid gear are being unloaded onto the tarmac.",
+                cn: "数以吨计的紧急救济口粮和专业人道医疗救援装备正源源不断地卸载在机场停机坪上。",
+                jp: "何トンもの食料や人道支援物資が空港の滑走路に荷降ろしされています。"
+            }
+        ]
+    },
+    {
+        id: 14661,
+        word: "Arrachés",
+        phonetic: "/a.ʁa.ʃe/",
+        type: "participe passé / adjectif masculin pluriel",
+        theme: "Violence de la nature",
+        level: "B1",
+        definition: "Détachés ou déracinés avec une grande violence physique par les flots, le vent ou une force mécanique (ex. « des ponts arrachés par les crues »).",
+        examples: [
+            {
+                fr: "Plusieurs ponts suspendus ont été littéralement arrachés par la furie des eaux torrentielles.",
+                en: "Several suspension bridges were literally torn away by the fury of the torrents.",
+                cn: "数座悬索吊桥在滔天山洪咆哮席卷而过时被连桥墩带钢索硬生生连根冲毁拔除。",
+                jp: "激しい濁流の猛威により、いくつかの吊り橋が文字通り押し流されてしまいました。"
+            }
+        ]
+    },
+    {
+        id: 14662,
+        word: "Crues",
+        phonetic: "/kʁy/",
+        type: "nom féminin pluriel • hydrologie",
+        theme: "Hydrologie & Climat",
+        level: "B2",
+        definition: "Élévation rapide et anormale du niveau de l'eau d'un cours d'eau sous l'effet de fortes pluies ou de la fonte des neiges.",
+        examples: [
+            {
+                fr: "La violence exceptionnelle des crues a submergé des villages entiers en quelques minutes.",
+                en: "The exceptional violence of the spates submerged entire villages in minutes.",
+                cn: "洪峰裹挟滚滚浊流瞬间咆哮而下，在短短数分钟内便将地势低洼的几个村庄全数彻底吞噬淹没。",
+                jp: "並外れた激しさの出水が、わずか数分で村全体を水没させました。"
+            }
+        ]
+    },
+    {
+        id: 14663,
+        word: "Complique",
+        phonetic: "/kɔ̃.plik/",
+        type: "verbe transitif (compliquer) • 3e personne singulier",
+        theme: "Difficultés & Obstacles",
+        level: "A2",
+        definition: "Rendre plus difficile, plus complexe ou plus difficilement réalisable une action ou une mission.",
+        examples: [
+            {
+                fr: "L'effondrement des routes de montagne complique fortement l'arrivée des secours.",
+                en: "The collapse of mountain roads greatly complicates the arrival of rescue teams.",
+                cn: "高山公路路基的严重塌方大面积瘫痪阻断了交通，这极大增加了前方救援部队的推进难度。",
+                jp: "山道の崩落により、救助隊の到着が非常に困難になっています。"
+            }
+        ]
+    },
+    {
+        id: 14664,
+        word: "Se retrouvent",
+        phonetic: "/sə ʁə.tʁuv/",
+        type: "verbe pronominal (se retrouver) • 3e personne pluriel",
+        theme: "Situation & État",
+        level: "A2",
+        definition: "Se trouver placé, souvent de façon involontaire ou soudaine, dans une certaine situation difficile (ex. « se retrouvent sans eau potable »).",
+        examples: [
+            {
+                fr: "Des milliers de familles sinistrées se retrouvent privées d'abri décent à l'approche de l'hiver.",
+                en: "Thousands of affected families find themselves deprived of decent shelter as winter approaches.",
+                cn: "眼看寒冬一天天步步逼近，成千上万流离失所的受灾家庭却悲催地发现自己依然无处栖身。",
+                jp: "何千もの被災家族が、冬の到来を前にまともな住居のない状態に陥っています。"
+            }
+        ]
+    },
+    {
+        id: 14665,
+        word: "Potable",
+        phonetic: "/pɔ.tabl/",
+        type: "adjectif qualificatif • fondamental",
+        theme: "Alimentation & Santé",
+        level: "A2",
+        definition: "Qui est propre à la consommation humaine sans risque pour la santé (ex. eau potable).",
+        examples: [
+            {
+                fr: "L'accès à l'eau potable constitue la priorité absolue pour éviter les épidémies dans les camps.",
+                en: "Access to drinking water is the absolute priority to prevent epidemics in the camps.",
+                cn: "为难民营紧急恢复纯净安全的生活饮用水供应，是彻底防堵恶性传染病肆虐爆发的首要底线。",
+                jp: "難民キャンプでの伝染病を防ぐためには、安全な飲料水の確保が最優先課題です。"
+            }
+        ]
+    },
+    {
+        id: 14666,
+        word: "Reconstruire (construire à nouveau)",
+        phonetic: "/ʁə.kɔ̃s.tʁɥiʁ/",
+        type: "verbe transitif • action (préfixe re- : construire à nouveau)",
+        theme: "Architecture & Résilience",
+        level: "B1",
+        definition: "Bâtir de nouveau ce qui a été abattu, détruit ou endommagé ; refaire une vie ou un système après un effondrement.",
+        examples: [
+            {
+                fr: "Les habitants s'unissent avec courage pour reconstruire les écoles et les ponts détruits.",
+                en: "Residents unite courageously to rebuild destroyed schools and bridges.",
+                cn: "乡亲们众志成城、万众一心团结起来，以巨大勇气动手重新修葺重建被山洪夷为平地的学校与桥梁。",
+                jp: "住民たちは勇気を持って結束し、破壊された学校や橋の再建に取り組んでいます。"
+            }
+        ]
+    },
+    {
+        id: 14667,
+        word: "Plonge ... dans l'incertitude (plonger dans l'incertitude)",
+        phonetic: "/plɔ̃ʒ dɑ̃ l‿ɛ̃.sɛʁ.ti.tyd/",
+        type: "locution verbale métaphorique",
+        theme: "Sentiments & Avenir",
+        level: "B2",
+        definition: "Faire basculer quelqu'un ou une population dans un état d'inquiétude profonde et d'absence totale de repères ou de garanties pour l'avenir.",
+        examples: [
+            {
+                fr: "La perte de tous leurs biens plonge les villageois sinistrés dans une angoissante incertitude.",
+                en: "Losing all their belongings plunges the affected villagers into agonizing uncertainty.",
+                cn: "一生积蓄家当顷刻间化为乌有的残酷现实，让劫后余生的村民们彻底深陷绝望迷茫的不确定感中。",
+                jp: "すべての財産を失ったことは、被災した村人たちを苦悩に満ちた先行き不安へと突き落としました。"
+            }
+        ]
+    },
+    {
+        id: 14668,
+        word: "Envoyée spéciale",
+        phonetic: "/ɑ̃.vwa.je spe.sjal/",
+        type: "nom féminin • médias",
+        theme: "Journalisme",
+        level: "B1",
+        definition: "Journaliste spécialement dépêchée sur place par une rédaction pour couvrir un événement ponctuel ou une crise majeure.",
+        examples: [
+            {
+                fr: "Notre envoyée spéciale au Népal témoigne des conditions de vie précaires des rescapés.",
+                en: "Our special correspondent in Nepal reports on the precarious living conditions of survivors.",
+                cn: "本台派驻尼泊尔灾区一线的特派女记者向全世界如实发回报道，披露了广大幸存者的艰辛处境。",
+                jp: "ネパール現地にいる本局の女性特派員が、生存者たちの厳しい生活環境を伝えています。"
+            }
+        ]
+    },
+    {
+        id: 14669,
+        word: "Sûrement",
+        phonetic: "/syʁ.mɑ̃/",
+        type: "adverbe • probabilité forte",
+        theme: "Certitude & Probabilité",
+        level: "A2",
+        definition: "Très probablement, selon toute vraisemblance, sans grand doute (ex. « sûrement plusieurs semaines »).",
+        examples: [
+            {
+                fr: "Les travaux de déblaiement prendront sûrement plusieurs semaines supplémentaires.",
+                en: "The clearing work will surely take several additional weeks.",
+                cn: "前方沿线繁重艰巨的清障排淤抢通作业，想必还少不了要再耗费长达数周的宝贵时间。",
+                jp: "土砂の撤去作業には、おそらくさらに数週間かかることでしょう。"
+            }
+        ]
+    },
+    {
+        id: 14670,
+        word: "Gouvernement",
+        phonetic: "/ɡu.vɛʁ.nə.mɑ̃/",
+        type: "nom masculin • institutions",
+        theme: "État & Politique",
+        level: "A2",
+        definition: "Organe exécutif qui dirige un État, composé du Premier ministre et de ses ministres sous l'autorité du chef de l'État.",
+        examples: [
+            {
+                fr: "Le gouvernement a promis de débloquer des aides financières d'urgence pour reloger les sinistrés.",
+                en: "The government promised to release emergency financial aid to rehouse disaster victims.",
+                cn: "内阁政府已向全民庄严承诺将紧急特批下拨专项救济金，以妥善集中安置无家可归的受灾民众。",
+                jp: "政府は被災者を再定住させるため、緊急の財政援助金を拠出すると約束しました。"
+            }
+        ]
+    },
+    {
+        id: 14671,
+        word: "La sienne",
+        phonetic: "/la sjɛn/",
+        type: "pronom possessif féminin singulier",
+        theme: "Grammaire & Pronoms",
+        level: "B1",
+        definition: "Remplace un nom féminin possédé par une tierce personne (« sa maison » -> « la sienne »).",
+        examples: [
+            {
+                fr: "Plus de vingt mille maisons comme la sienne ont été submergées par la coulée de boue.",
+                en: "More than twenty thousand houses like hers were submerged by the mudflow.",
+                cn: "有超过两万多座像她自家那样的小宅院，在漫天涌来的泥石流轰然碾压下被瞬间淹没无存。",
+                jp: "彼女の家のような家屋2万棟以上が泥流によって水没しました。"
+            }
+        ]
+    },
+    {
+        id: 14672,
+        word: "Ne sont plus",
+        phonetic: "/nə sɔ̃ ply/",
+        type: "locution verbale négative (ne ... plus + être)",
+        theme: "Négation & Changement",
+        level: "A1",
+        definition: "Indique la cessation définitive d'un état ou d'une qualité (« ne sont plus habitables » = elles étaient habitables avant, elles ne le sont plus désormais).",
+        examples: [
+            {
+                fr: "Ces habitations fissurées par le séisme ne sont plus sûres pour abriter des familles.",
+                en: "These dwellings cracked by the earthquake are no longer safe to shelter families.",
+                cn: "这些被地质灾害震出巨大裂缝的民房由于结构性受损，已绝不再适合供家庭安全避难居住。",
+                jp: "地震で亀裂が入ったこれらの住宅は、もはや家族を安全に収容できる状態ではありません。"
+            }
+        ]
+    },
+    {
+        id: 14673,
+        word: "Recouvert",
+        phonetic: "/ʁə.ku.vɛʁ/",
+        type: "participe passé / adjectif masculin singulier",
+        theme: "État des lieux",
+        level: "A2",
+        definition: "Entièrement enveloppé, tapissé ou masqué par une couche de matière (ex. « tout est recouvert de boue »).",
+        examples: [
+            {
+                fr: "Le plancher du salon est totalement recouvert d'une épaisse couche de sédiments.",
+                en: "The living room floor is completely covered with a thick layer of sediment.",
+                cn: "客堂客厅原本平整的地板，如今已被厚达几十公分的黏稠泥沙淤泥全面沉重覆盖。",
+                jp: "居間の床は、厚い堆積物の層によって完全に覆われてしまっています。"
+            }
+        ]
+    },
+    {
+        id: 14674,
+        word: "Boue",
+        phonetic: "/bu/",
+        type: "nom féminin • nature",
+        theme: "Matières & Éléments",
+        level: "A2",
+        definition: "Mélange épais de terre meuble et d'eau liquide produit par de fortes pluies ou des inondations.",
+        examples: [
+            {
+                fr: "Les bénévoles s'arment de pelles pour dégager la boue qui a envahi les maisons.",
+                en: "Volunteers arm themselves with shovels to clear the mud that invaded houses.",
+                cn: "各路青年志愿者手握铁锹，争分夺秒奋力清除灌入村民家中的厚厚泥浆。",
+                jp: "ボランティアの人々はスコップを手に取り、家屋に流れ込んだ泥の掻き出しを行っています。"
+            }
+        ]
+    },
+    {
+        id: 14675,
+        word: "Pourrait-on",
+        phonetic: "/pu.ʁɛ t‿ɔ̃/",
+        type: "tournure verbale inversée (conditionnel présent de pouvoir)",
+        theme: "Interrogation & Modalité",
+        level: "B1",
+        definition: "Formule interrogative exprimant le doute, la recherche d'une issue ou l'hésitation désemparée (« où pourrait-on aller ? »).",
+        examples: [
+            {
+                fr: "Quand tout est dévasté, où pourrait-on bien trouver un refuge décent ?",
+                en: "When everything is devastated, where could one possibly find decent shelter?",
+                cn: "当目之所及皆成废墟时，无依无靠的百姓在这凄风苦雨中又能去哪里寻得一处安身立命之所呢？",
+                jp: "すべてが荒廃してしまったとき、一体どこへ行けばまともな避難場所を見つけられるでしょうか。"
+            }
+        ]
+    },
+    {
+        id: 14676,
+        word: "Ne ... plus",
+        phonetic: "/nə ... ply/",
+        type: "adverbe de négation temporelle",
+        theme: "Grammaire & Négation",
+        level: "A1",
+        definition: "Marque la rupture ou l'interruption d'une action qui avait lieu dans le passé mais qui ne se produit plus maintenant (ex. « on ne veut plus vivre au bord de la rivière »).",
+        examples: [
+            {
+                fr: "Traumatisés par la crue, les habitants ne veulent plus habiter si près des rives instables.",
+                en: "Traumatized by the flood, residents no longer want to live so close to unstable banks.",
+                cn: "历经恶水灭顶的心理重创后，受惊的沿岸乡民再也不愿意在极不稳定的湍急河堤旁居住了。",
+                jp: "洪水のトラウマから、住民たちはもはや危険な川岸の近くに住むことを望んでいません。"
+            }
+        ]
+    },
+    {
+        id: 14677,
+        word: "Au bord de",
+        phonetic: "/o bɔʁ də/",
+        type: "locution prépositive de lieu",
+        theme: "Localisation spatiale",
+        level: "A2",
+        definition: "Sur la limite extrême, sur le rivage ou tout près de l'eau (ex. « au bord de la rivière »).",
+        examples: [
+            {
+                fr: "Leur maison familiale était jadis construite au bord d'un charmant cours d'eau.",
+                en: "Their family home was once built on the banks of a charming stream.",
+                cn: "他们家祖传的祖屋旧宅，当年正是依山傍水修建在一条风景如画的清冽小溪畔旁。",
+                jp: "彼らの生家はかつて、風光明媚な小川のほとりに建てられていました。"
+            }
+        ]
+    },
+    {
+        id: 14678,
+        word: "Gardais (garder)",
+        phonetic: "/ɡaʁ.dɛ/",
+        type: "verbe transitif (garder à l'imparfait 1re personne)",
+        theme: "Temps du passé & Possession",
+        level: "A2",
+        definition: "Conserver précieusement en sa possession, thésauriser ou mettre de côté pour les jours difficiles.",
+        examples: [
+            {
+                fr: "Je gardais mes maigres économies dans un coffret caché sous le lit.",
+                en: "I used to keep my meager savings in a box hidden under the bed.",
+                cn: "我原先一直将自己多年省吃俭用积攒下来的微薄积蓄，小心翼翼收藏在床底暗格的一个小铁盒里。",
+                jp: "私はベッドの下に隠した小箱に、わずかな貯金を大切に保管していました。"
+            }
+        ]
+    },
+    {
+        id: 14679,
+        word: "Réserve",
+        phonetic: "/ʁe.zɛʁv/",
+        type: "nom féminin • prévoyance",
+        theme: "Économie & Prévoyance",
+        level: "B1",
+        definition: "Ce qui est mis de côté, économisé ou stocké pour subvenir aux besoins futurs ou faire face à une urgence (ex. « garder de l'or en réserve »).",
+        examples: [
+            {
+                fr: "Constituer une réserve financière de secours est une mesure de prudence essentielle.",
+                en: "Building an emergency financial reserve is an essential measure of prudence.",
+                cn: "未雨绸缪提前建立一笔应急备用资金库，是应对突发人生意外时不可或缺的明智避险策略。",
+                jp: "緊急用の予備資金を蓄えておくことは、生活上の極めて重要な予防策です。"
+            }
+        ]
+    },
+    {
+        id: 14680,
+        word: "Recommencer à zéro",
+        phonetic: "/ʁə.kɔ.mɑ̃.se a ze.ʁo/",
+        type: "locution verbale idiomatique",
+        theme: "Résilience & Nouveau départ",
+        level: "B1",
+        definition: "Repartir du tout début après avoir absolument tout perdu, sans rien conserver de ses acquis passés.",
+        examples: [
+            {
+                fr: "Après la destruction de leur atelier, ils ont dû avec courage recommencer à zéro.",
+                en: "After their workshop was destroyed, they had to courageously start from scratch.",
+                cn: "在全家赖以维生的手工作坊毁于一旦后，他们不得不咬紧牙关从零开始重头打拼谋生。",
+                jp: "工房が全壊した後、彼らは勇気を出してゼロからやり直さなければなりませんでした。"
+            }
+        ]
+    },
+    {
+        id: 14681,
+        word: "Élevage",
+        phonetic: "/el.vaʒ/",
+        type: "nom masculin • monde rural",
+        theme: "Agriculture & Animaux",
+        level: "A2",
+        definition: "Ensemble des activités consacrées à la reproduction, à l'entretien et à la nourriture des animaux domestiques ou utiles.",
+        examples: [
+            {
+                fr: "L'élevage traditionnel de volailles assure des revenus indispensables aux foyers paysans.",
+                en: "Traditional poultry farming provides essential income to peasant households.",
+                cn: "家庭散养家禽的传统养殖业，为当地广袤的农户家庭提供了不可或缺的现金收入来源。",
+                jp: "伝統的な家禽の飼育は、農家にとって不可欠な収入源を確保しています。"
+            }
+        ]
+    },
+    {
+        id: 14682,
+        word: "Porcin",
+        phonetic: "/pɔʁ.sɛ̃/",
+        type: "adjectif qualificatif • technique rural",
+        theme: "Agriculture & Zootechnie",
+        level: "B2",
+        definition: "Relatif au porc ou au cochon (ex. « l'élevage porcin » = l'élevage des cochons).",
+        examples: [
+            {
+                fr: "La paysanne espère relancer rapidement son petit élevage porcin pour nourrir sa famille.",
+                en: "The peasant woman hopes to quickly restart her small pig farm to feed her family.",
+                cn: "这位受灾农妇热切期盼能尽早重启自家的生猪养殖副业，以便重新有能力挣钱糊口养家。",
+                jp: "農婦は家族を養うため、小規模な養豚業を一刻も早く再開したいと願っています。"
+            }
+        ]
+    },
+    {
+        id: 14683,
+        word: "La plupart",
+        phonetic: "/la ply.paʁ/",
+        type: "pronom indéfini de quantité (la plupart des)",
+        theme: "Quantité & Indéfinis",
+        level: "A2",
+        definition: "La plus grande partie, la majorité presque totale d'un ensemble de personnes ou d'objets.",
+        examples: [
+            {
+                fr: "La plupart des réfugiés ont trouvé un abri provisoire dans les gymnases de la région.",
+                en: "Most of the refugees found temporary shelter in regional sports halls.",
+                cn: "绝大多数难民已在邻近县市的公共体育馆和应急避难所里获得了暂时的安身庇护。",
+                jp: "避難民の大部分は、地域の体育館で一時的な避難場所を見つけました。"
+            }
+        ]
+    },
+    {
+        id: 14684,
+        word: "Rasuwa",
+        phonetic: "/ʁa.su.wa/",
+        type: "nom propre • toponyme",
+        theme: "Géographie du Népal",
+        level: "B1",
+        definition: "District montagneux du Népal situé au nord de Katmandou, l'une des zones les plus durement frappées par les inondations et glissements de terrain.",
+        examples: [
+            {
+                fr: "Le district reculé de Rasuwa a enregistré d'innombrables pertes humaines lors du sinistre.",
+                en: "The remote district of Rasuwa suffered countless casualties during the disaster.",
+                cn: "偏远的拉苏瓦山区在本次特大山洪泥石流灾情肆虐期间蒙受了触目惊心的人员伤亡。",
+                jp: "へき地にあるラスワ地区は、災害時に無数の人的被害を出しました。"
+            }
+        ]
+    },
+    {
+        id: 14685,
+        word: "Thérapeute",
+        phonetic: "/te.ʁa.pøt/",
+        type: "nom masculin ou féminin • médical",
+        theme: "Santé mentale & Soins",
+        level: "B2",
+        definition: "Professionnel de santé qualifié dispensant des soins et un accompagnement psychologique ou médical pour soulager une souffrance physique ou morale.",
+        examples: [
+            {
+                fr: "Une thérapeute bénévole vient écouter les sinistrés pour les aider à surmonter leur deuil.",
+                en: "A volunteer therapist comes to listen to victims to help them overcome their grief.",
+                cn: "一名热心志愿前来的心理治疗师正在耐心倾听受难乡民的苦水，以协助大家抚平丧亲之痛。",
+                jp: "ボランティアの心理療法士が被災者の話に耳を傾け、悲嘆を乗り越える手助けをしています。"
+            }
+        ]
+    },
+    {
+        id: 14686,
+        word: "Sur le moment",
+        phonetic: "/syʁ lə mɔ.mɑ̃/",
+        type: "locution adverbiale de temps",
+        theme: "Temps & Réaction immédiate",
+        level: "B1",
+        definition: "Au moment même où l'événement survient, dans l'immédiateté d'une première impression (ex. « sur le moment, ça fait du bien »).",
+        examples: [
+            {
+                fr: "Sur le moment, la parole réconforte, mais la douleur morale resurgit bien vite.",
+                en: "At the moment, words comfort, but emotional pain quickly resurfaces.",
+                cn: "在那一刻，温馨宽慰的话语确实能抚慰心头，但深藏内心的锥心之痛很快便又再度袭来。",
+                jp: "その場では温かい言葉に救われますが、心の痛みはすぐに再び蘇ってきます。"
+            }
+        ]
+    },
+    {
+        id: 14687,
+        word: "Se sent (se sentir)",
+        phonetic: "/sə sɑ̃/",
+        type: "verbe pronominal (se sentir) • 3e personne singulier",
+        theme: "Sensations & Émotions",
+        level: "A2",
+        definition: "Éprouver en soi-même un état psychologique, moral ou physique déterminé (ex. « on se sent à nouveau le cœur lourd »).",
+        examples: [
+            {
+                fr: "Elle se sent désorientée devant l'immensité des décombres à déblayer.",
+                en: "She feels disoriented in front of the sheer scale of the rubble to clear.",
+                cn: "伫立在眼前延绵无际、等待一点点费力清运的废墟瓦砾堆前，她只觉心头空空荡荡、六神无主。",
+                jp: "彼女は片付けるべき膨大な瓦礫の山を前にして、途方に暮れる思いがしています。"
+            }
+        ]
+    },
+    {
+        id: 14688,
+        word: "Désormais",
+        phonetic: "/de.zɔʁ.mɛ/",
+        type: "adverbe • temps",
+        theme: "Temps & Changement",
+        level: "B1",
+        definition: "Dorénavant, à partir de cet instant présent, marquant l'entrée dans un état nouveau et irréversible.",
+        examples: [
+            {
+                fr: "Tout projet de départ à l'étranger est désormais reporté sine die.",
+                en: "Any plans to travel abroad are now postponed indefinitely.",
+                cn: "原本早早规划好的所有赴海外务工求学出国计划，如今皆已被无限期搁置推迟。",
+                jp: "海外へ出発するあらゆる計画は、今や無期限に延期されています。"
+            }
+        ]
+    },
+    {
+        id: 14689,
+        word: "Se relever",
+        phonetic: "/sə ʁəl.ve/",
+        type: "verbe pronominal • métaphore",
+        theme: "Résilience & Récupération",
+        level: "B2",
+        definition: "Retrouver des forces, sa stabilité et sa prospérité après avoir essuyé un échec, une crise économique ou une ruine brutale.",
+        examples: [
+            {
+                fr: "Se relever après une telle catastrophe exigera un soutien financier international massif.",
+                en: "Getting back on their feet after such a catastrophe will require massive international financial backing.",
+                cn: "要在历经如此重创劫难之后重新恢复元气，离不开国际社会慷慨庞大的紧急财政注资支持。",
+                jp: "このような大惨事から立ち直るには、大規模な国際的資金支援が必要となります。"
+            }
+        ]
+    },
+    {
+        id: 14690,
+        word: "Ministre",
+        phonetic: "/mi.nistʁ/",
+        type: "nom masculin ou féminin • gouvernement",
+        theme: "Institutions de l'État",
+        level: "A2",
+        definition: "Haut responsable politique placé à la tête d'un département ministériel au sein du pouvoir exécutif d'un État.",
+        examples: [
+            {
+                fr: "Le ministre a chiffré les besoins de reconstruction à plusieurs milliards de dollars.",
+                en: "The minister estimated reconstruction needs at several billion dollars.",
+                cn: "主管部长在新闻通气会上将灾后整体重建所急需的预算资金预估为数十亿美元之巨。",
+                jp: "大臣は復興に必要な費用を数十億ドルに上ると見積もりました。"
+            }
+        ]
+    },
+    {
+        id: 14691,
+        word: "Finances",
+        phonetic: "/fi.nɑ̃s/",
+        type: "nom féminin pluriel • gestion publique",
+        theme: "Économie & Budget",
+        level: "B1",
+        definition: "Ressources financières et gestion des deniers publics et des budgets d'un État ou d'une collectivité.",
+        examples: [
+            {
+                fr: "Le ministre des Finances évalue l'impact du désastre sur le produit intérieur brut.",
+                en: "The Finance Minister assesses the disaster's impact on gross domestic product.",
+                cn: "财政部部长正抓紧评估这场严重天灾对国家国内生产总值（GDP）带来的冲击影响。",
+                jp: "財務大臣はこの惨事が国内総生産に与える影響を精査しています。"
+            }
+        ]
+    },
+    {
+        id: 14692,
+        word: "Népalais",
+        phonetic: "/ne.pa.lɛ/",
+        type: "adjectif qualificatif / nom masculin • géographie",
+        theme: "Nationalités",
+        level: "A2",
+        definition: "Relatif au Népal, à ses habitants ou à sa culture.",
+        examples: [
+            {
+                fr: "Le peuple népalais fait preuve d'une formidable résilience face aux aléas naturels.",
+                en: "The Nepalese people demonstrate tremendous resilience in the face of natural hazards.",
+                cn: "在接踵而至的自然灾难面前，勤劳勇敢的尼泊尔人民展现出了令人由衷敬佩的顽强韧性。",
+                jp: "ネパール国民は自然災害に直面しても、驚くべき強靭さ（レジリエンス）を発揮しています。"
+            }
+        ]
+    },
+    {
+        id: 14693,
+        word: "De retour de",
+        phonetic: "/də ʁə.tuʁ də/",
+        type: "locution prépositive",
+        theme: "Déplacement & Journalisme",
+        level: "A2",
+        definition: "Revenant tout juste d'un endroit ou d'une mission de reportage sur le terrain.",
+        examples: [
+            {
+                fr: "De retour de la zone sinistrée, les secouristes dressent un premier bilan des opérations.",
+                en: "Returning from the disaster area, rescuers draw up an initial assessment of operations.",
+                cn: "刚从满目疮痍的重灾区前线归来的搜救官兵，第一时间对阶段性救援工作作出了初步梳理总结。",
+                jp: "被災地から帰還した救助隊員たちは、活動の初期総括をまとめています。"
+            }
+        ]
+    },
+    {
+        id: 14694,
+        word: "Bidur",
+        phonetic: "/bi.duʁ/",
+        type: "nom propre • toponyme",
+        theme: "Géographie du Népal",
+        level: "B1",
+        definition: "Ville du centre du Népal (district de Nuwakot) où un gymnase a été converti en centre d'hébergement d'urgence pour les sinistrés.",
+        examples: [
+            {
+                fr: "À Bidur, plus de 200 sinistrés dorment sur des tapis de sol dans le gymnase municipal.",
+                en: "In Bidur, over 200 victims sleep on floor mats in the municipal gymnasium.",
+                cn: "在比杜尔市，有两百多名受灾无家可归的灾民夜间并排挤在市立体育馆的地垫上过夜容身。",
+                jp: "ビドゥールでは、200人以上の被災者が市立体育館のマットの上で雑魚寝しています。"
+            }
+        ]
+    },
+    {
+        id: 14695,
+        word: "Proche-Orient",
+        phonetic: "/pʁɔ.ʃ‿ɔ.ʁjɑ̃/",
+        type: "nom propre masculin • région",
+        theme: "Géopolitique régionale",
+        level: "B1",
+        definition: "Région comprenant les pays riverains du bassin oriental de la Méditerranée (Liban, Syrie, Israël, territoires palestiniens, etc.).",
+        examples: [
+            {
+                fr: "Les tensions diplomatiques s'intensifient une nouvelle fois au Proche-Orient.",
+                en: "Diplomatic tensions are once again escalating in the Middle East.",
+                cn: "中东地区各方错综复杂的地缘外交对抗与军事紧张态势，再度出现新一轮螺旋式急剧升级。",
+                jp: "中東（近東）地域において外交的緊張が再び激化しています。"
+            }
+        ]
+    },
+    {
+        id: 14696,
+        word: "Le sud-Liban",
+        phonetic: "/lə syd li.bɑ̃/",
+        type: "nom propre géographique",
+        theme: "Géographie régionale",
+        level: "B1",
+        definition: "Région méridionale de la République libanaise, frontalière avec Israël, régulièrement théâtre de frappes militaires et d'affrontements.",
+        examples: [
+            {
+                fr: "De nouvelles frappes aériennes ont visé des cibles dans le sud-Liban ce matin.",
+                en: "New air strikes targeted sites in southern Lebanon this morning.",
+                cn: "今天清晨，新一轮远程高空精确战术空袭再次猛烈轰炸了黎巴嫩南部的多个关键阵地目标。",
+                jp: "今朝、南レバノンの拠点を狙った新たな空爆が実施されました。"
+            }
+        ]
+    },
+    {
+        id: 14697,
+        word: "Cessez-le-feu",
+        phonetic: "/se.se lə fø/",
+        type: "nom masculin invariable • droit de la guerre",
+        theme: "Diplomatie & Paix",
+        level: "B2",
+        definition: "Arrêt officiel et concerté des hostilités et combats militaires entre des belligérants en vue d'ouvrir des pourparlers de paix.",
+        examples: [
+            {
+                fr: "Malgré l'accord de cessez-le-feu signé le mois dernier, les bombardements sporadiques se poursuivent.",
+                en: "Despite the ceasefire agreement signed last month, sporadic shelling continues.",
+                cn: "尽管双方上个月才刚刚正式签署停火协议，但局部边境线上零星的炮击交火事件仍屡禁不止。",
+                jp: "先月調印された停戦合意にもかかわらず、散発的な砲撃は続いています。"
+            }
+        ]
+    },
+    {
+        id: 14698,
+        word: "Israël",
+        phonetic: "/is.ʁa.ɛl/",
+        type: "nom propre masculin • État",
+        theme: "Géographie mondiale",
+        level: "A2",
+        definition: "État du Proche-Orient bordé par la mer Méditerranée, dont Jérusalem est la capitale proclamée.",
+        examples: [
+            {
+                fr: "Israël affirme poursuivre ses opérations ciblées contre les positions du Hezbollah.",
+                en: "Israel asserts that it continues its targeted operations against Hezbollah positions.",
+                cn: "以色列军方坚称将继续针对真主党盘踞的前沿发射阵地发起高精度的越境清剿打击。",
+                jp: "イスラエルはヒズボラの拠点に対するピンポイント作戦を継続していると主張しています。"
+            }
+        ]
+    },
+    {
+        id: 14699,
+        word: "Affirme (affirmer)",
+        phonetic: "/a.fiʁm/",
+        type: "verbe transitif • déclaration",
+        theme: "Déclaration & Vérité",
+        level: "B2",
+        definition: "Déclarer fermement et sans hésitation une chose tenue pour vraie et certaine.",
+        examples: [
+            {
+                fr: "L'état-major affirme avoir détruit plusieurs dépôts d'armements stratégiques.",
+                en: "The military command asserts that it destroyed several strategic arms depots.",
+                cn: "前方联合司令部公开向外界证实坚称，已在深夜突袭中摧毁了数座敌军战略军火弹药库。",
+                jp: "軍司令部はいくつかの戦略兵器庫を破壊したと主張しています。"
+            }
+        ]
+    },
+    {
+        id: 14700,
+        word: "Frapper",
+        phonetic: "/fʁa.pe/",
+        type: "verbe transitif • militaire/courant",
+        theme: "Conflit & Attaque",
+        level: "B1",
+        definition: "Toucher une cible avec force par des tirs, des bombes ou des missiles (sens militaire) ; porter des coups.",
+        examples: [
+            {
+                fr: "L'aviation militaire continue de frapper des positions retranchées au-delà de la frontière.",
+                en: "Military aircraft continue to strike fortified positions beyond the border.",
+                cn: "空军前线战斗机联队继续对越过分界线深处的坚固地下堡垒阵地发动一轮又一轮饱和轰炸打击。",
+                jp: "空軍は国境を越えた要塞拠点を引き続き空爆し（攻撃し）ています。"
+            }
+        ]
+    },
+    {
+        id: 14701,
+        word: "Hezbollah",
+        phonetic: "/hɛz.bɔ.la/",
+        type: "nom propre masculin • géopolitique",
+        theme: "Politique & Conflit",
+        level: "B2",
+        definition: "Organisation politique et militaire chiite libanaise, dotée d'une branche armée puissante soutenue par l'Iran.",
+        examples: [
+            {
+                fr: "Les accrochages entre l'armée israélienne et le Hezbollah menacent d'embraser toute la sous-région.",
+                en: "Clashes between the Israeli army and Hezbollah threaten to set the entire subregion ablaze.",
+                cn: "以军与黎巴嫩真主党武装力量之间愈演愈烈的边境交火交锋，极有可能引爆整个次区域大战火药桶。",
+                jp: "イスラエル軍とヒズボラの衝突は、この準地域全体に火を放ちかねない脅威となっています。"
+            }
+        ]
+    },
+    {
+        id: 14702,
+        word: "Bombardements",
+        phonetic: "/bɔ̃.baʁ.də.mɑ̃/",
+        type: "nom masculin pluriel • militaire",
+        theme: "Guerre & Artillerie",
+        level: "B2",
+        definition: "Attaques massives et répétées menées au moyen de tirs d'artillerie, d'obus, de missiles ou de largages aériens de bombes.",
+        examples: [
+            {
+                fr: "Les bombardements intensifs de l'aube ont détruit plusieurs quartiers résidentiels.",
+                en: "Intensive dawn bombardments destroyed several residential neighborhoods.",
+                cn: "拂晓时分突然降临的密集狂暴轰炸，将数个无辜平民住宅居住街区彻底夷为平地瓦砾堆。",
+                jp: "夜明けの激しい爆撃により、いくつかの住宅街が破壊されました。"
+            }
+        ]
+    },
+    {
+        id: 14703,
+        word: "Président",
+        phonetic: "/pʁe.zi.dɑ̃/",
+        type: "nom masculin • politique",
+        theme: "Institutions politiques",
+        level: "A1",
+        definition: "Chef de l'État dans une république, garant de la constitution et de l'indépendance nationale.",
+        examples: [
+            {
+                fr: "Le président de la République libanaise a appelé à un arrêt immédiat des hostilités.",
+                en: "The President of the Lebanese Republic called for an immediate cessation of hostilities.",
+                cn: "黎巴嫩共和国总统郑重向国际社会发表公开电视讲话，强烈呼吁立即全面停止一切敌对武装交火。",
+                jp: "レバノン共和国大統領は、敵対行為の即時停止を強く求めました。"
+            }
+        ]
+    },
+    {
+        id: 14704,
+        word: "La communauté internationale",
+        phonetic: "/la kɔ.my.no.te ɛ̃.tɛʁ.na.sjɔ.nal/",
+        type: "locution nominale • diplomatie",
+        theme: "Diplomatie & Relations mondiales",
+        level: "B2",
+        definition: "Ensemble des pays, des gouvernements souverains et des grandes organisations mondiales (ONU, UE, etc.) agissant de concert pour réguler les relations mondiales.",
+        examples: [
+            {
+                fr: "Le président demande à la communauté internationale d'intervenir pour faire respecter le droit humanitaire.",
+                en: "The president asks the international community to intervene to enforce humanitarian law.",
+                cn: "总统敦促国际社会切实采取有效干预行动，以铁腕手段捍卫国际人道主义法公约的至高尊严。",
+                jp: "大統領は人道法を遵守させるため、国際社会に対して介入を要請しています。"
+            }
+        ]
+    },
+    {
+        id: 14705,
+        word: "Maroc",
+        phonetic: "/ma.ʁɔk/",
+        type: "nom propre masculin • pays",
+        theme: "Géographie & Maghreb",
+        level: "A1",
+        definition: "Royaume d'Afrique du Nord bordé par l'océan Atlantique et la Méditerranée, dont Rabat est la capitale.",
+        examples: [
+            {
+                fr: "Le 7 septembre marque le jour officiel de la rentrée scolaire au Maroc.",
+                en: "September 7 marks the official start of the school year in Morocco.",
+                cn: "九月七日这天，标志着摩洛哥全国各地大中小学校园正式拉开了全新学年的开学大幕。",
+                jp: "9月7日はモロッコにおける公式の新学期初日にあたります。"
+            }
+        ]
+    },
+    {
+        id: 14706,
+        word: "Gabon",
+        phonetic: "/ɡa.bɔ̃/",
+        type: "nom propre masculin • pays",
+        theme: "Géographie & Afrique",
+        level: "A2",
+        definition: "Pays d'Afrique centrale équatoriale situé sur l'océan Atlantique, dont Libreville est la capitale.",
+        examples: [
+            {
+                fr: "Au Gabon, des centaines de milliers d'élèves ont repris le chemin des salles de classe.",
+                en: "In Gabon, hundreds of thousands of students headed back to the classroom.",
+                cn: "在加蓬全国各地，数十万名背着书包的少儿学子欢天喜地重返课堂展开全新的求知征程。",
+                jp: "ガボンでは、何十万人もの子どもたちが教室へと戻りました。"
+            }
+        ]
+    },
+    {
+        id: 14707,
+        word: "Chemin",
+        phonetic: "/ʃə.mɛ̃/",
+        type: "nom masculin • courant (reprendre le chemin de l'école)",
+        theme: "Déplacement & École",
+        level: "A1",
+        definition: "Voie de terre permettant de se déplacer ; au sens figuré, « reprendre le chemin de l'école » signifie recommencer à fréquenter la classe à la rentrée.",
+        examples: [
+            {
+                fr: "Les écoliers reprennent joyeusement le chemin de l'école après deux mois de vacances.",
+                en: "Schoolchildren cheerfully make their way back to school after two months of holidays.",
+                cn: "历经两个多月漫长惬意的暑假之后，各年级小学生们重新兴高采烈地踏上了清晨的返校求学之路。",
+                jp: "児童たちは2ヶ月の休暇を終え、楽しそうに学校への道を歩んでいます。"
+            }
+        ]
+    },
+    {
+        id: 14708,
+        word: "Yaoundé",
+        phonetic: "/ja.un.de/",
+        type: "nom propre • capitale",
+        theme: "Géographie & Villes",
+        level: "A2",
+        definition: "Capitale politique du Cameroun, située dans la région du Centre, siège du gouvernement et de la présidence.",
+        examples: [
+            {
+                fr: "Le village d'Esse est situé à environ 80 kilomètres à l'est de Yaoundé.",
+                en: "The village of Esse is located approximately 80 kilometers east of Yaounde.",
+                cn: "埃塞乡村小镇坐落于喀麦隆首都雅温得以东约八十公里处起伏葱郁的丘陵地带。",
+                jp: "エッセの村はヤウンデの東約80キロメートルに位置しています。"
+            }
+        ]
+    },
+    {
+        id: 14709,
+        word: "Font tout leur possible (faire tout son possible)",
+        phonetic: "/fɔ̃ tu lœʁ pɔ.sibl/",
+        type: "locution verbale idiomatique",
+        theme: "Effort & Dévouement",
+        level: "B1",
+        definition: "Mettre en œuvre tous les moyens dont on dispose, redoubler d'ardeur et faire le maximum pour réussir une tâche.",
+        examples: [
+            {
+                fr: "Les instituteurs ruraux font tout leur possible pour transmettre le savoir malgré le dénuement des salles.",
+                en: "Rural primary teachers do everything they can to pass on knowledge despite barren classrooms.",
+                cn: "尽管乡野简陋教室里缺乏最基础的教学用具，但广大乡村乡村教师依然竭尽所能用心传播知识火种。",
+                jp: "農村部の教師たちは、教室の設備が不十分であるにもかかわらず、知識を伝えるために最善を尽くしています。"
+            }
+        ]
+    },
+    {
+        id: 14710,
+        word: "Enseigner",
+        phonetic: "/ɑ̃.sɛ.ɲe/",
+        type: "verbe transitif • pédagogie",
+        theme: "Éducation",
+        level: "A2",
+        definition: "Transmettre des connaissances, des compétences ou des valeurs à des élèves dans un cadre éducatif.",
+        examples: [
+            {
+                fr: "Enseigner en milieu rural exige une inventivité et un engagement pédagogique constants.",
+                en: "Teaching in rural areas requires constant inventiveness and pedagogical commitment.",
+                cn: "在师资力量匮乏的偏远乡村从事一线教学，需要教师具备源源不断的教学创新智慧与崇高奉献精神。",
+                jp: "農村部で教育を行うには、絶え間ない工夫と教育への強い献身が求められます。"
+            }
+        ]
+    },
+    {
+        id: 14711,
+        word: "Passion",
+        phonetic: "/pa.sjɔ̃/",
+        type: "nom féminin • affectif",
+        theme: "Sentiments & Vocation",
+        level: "A2",
+        definition: "Amour ardent, enthousiasme profond et dévouement absolu pour une activité, un métier ou un idéal.",
+        examples: [
+            {
+                fr: "C'est avec une passion communicative qu'il transmet l'amour de la langue française à ses élèves.",
+                en: "It is with infectious passion that he passes on a love of the French language to his students.",
+                cn: "他正是凭借着一腔极富感染力与亲和力的崇高热情，将对法语语言文化的真挚挚爱深植入学生心田。",
+                jp: "彼は人を引き込むような情熱をもって、生徒たちにフランス語への愛を伝えています。"
+            }
+        ]
+    },
+    {
+        id: 14712,
+        word: "L'école publique",
+        phonetic: "/l‿e.kɔl py.blik/",
+        type: "locution nominale • éducation",
+        theme: "Système éducatif",
+        level: "A2",
+        definition: "Établissement scolaire géré, financé et contrôlé par l'État ou les collectivités, laïque et accessible à tous les enfants.",
+        examples: [
+            {
+                fr: "L'école publique d'Afanloum accueille les enfants scolarisés de plusieurs hameaux voisins.",
+                en: "Afanloum public school welcomes enrolled children from several neighboring hamlets.",
+                cn: "坐落于阿凡鲁姆村的公立乡村小学校，热诚接纳收罗了周边数个分散小村落里的所有适龄求学儿童。",
+                jp: "アファンルム公立学校は、近隣のいくつかの小村から就学児童を受け入れています。"
+            }
+        ]
+    },
+    {
+        id: 14713,
+        word: "Timide",
+        phonetic: "/ti.mid/",
+        type: "adjectif qualificatif • sens figuré (ex. une rentrée timide)",
+        theme: "Caractère & Débuts",
+        level: "A2",
+        definition: "Réservé, craintif ; au sens figuré, se dit d'un démarrage modeste, lent, peu animé ou hésitant au début.",
+        examples: [
+            {
+                fr: "La rentrée des classes en milieu paysan est souvent timide les premiers jours de septembre.",
+                en: "The start of the school year in rural areas is often slow in the first days of September.",
+                cn: "在农业耕作繁忙的乡村地区，每年九月初第一周的开学返校势头往往显得略为冷清和迟缓滞后。",
+                jp: "農村地域における新学期の出足は、9月の最初の数日間は控えめで遅いことがよくあります。"
+            }
+        ]
+    },
+    {
+        id: 14714,
+        word: "Les effectifs",
+        phonetic: "/lez‿e.fɛk.tif/",
+        type: "nom masculin pluriel • éducation/travail",
+        theme: "Gestion & Statistiques",
+        level: "B2",
+        definition: "Nombre total d'élèves, d'étudiants, d'enseignants ou de salariés inscrits ou en fonction dans un groupe donné.",
+        examples: [
+            {
+                fr: "Il faut attendre deux bonnes semaines avant de voir les effectifs se remplir dans les classes de village.",
+                en: "It takes a solid two weeks to see class sizes fill up in village schools.",
+                cn: "在偏僻山村小学里，通常必须耐心等待整整大半个月，各班级在籍出勤的实际上课人数才会真正坐满全场。",
+                jp: "村の学校で教室の在籍者数が埋まるまでには、たっぷり2週間待たなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14715,
+        word: "Institutrice",
+        phonetic: "/ɛ̃s.ti.ty.tʁis/",
+        type: "nom féminin • enseignement primaire",
+        theme: "Métiers de l'enseignement",
+        level: "A2",
+        definition: "Femme qui enseigne aux jeunes élèves des écoles maternelles ou élémentaires (professeure des écoles).",
+        examples: [
+            {
+                fr: "L'institutrice prépare minutieusement les livrets d'apprentissage pour la nouvelle année scolaire.",
+                en: "The primary school teacher meticulously prepares learning booklets for the new school year.",
+                cn: "这位责任心极强的小学女教师，正在油灯下细致工整地为新学年全班孩子装订手写学习训练小册子。",
+                jp: "女性教員は新学期に向けて、学習テキストを入念に準備しています。"
+            }
+        ]
+    },
+    {
+        id: 14716,
+        word: "Instituteur",
+        phonetic: "/ɛ̃s.ti.ty.tœʁ/",
+        type: "nom masculin • enseignement primaire",
+        theme: "Métiers de l'enseignement",
+        level: "A2",
+        definition: "Homme qui enseigne aux élèves des écoles primaires (professeur des écoles).",
+        examples: [
+            {
+                fr: "Instituteur depuis vingt ans, il a formé avec bienveillance plusieurs générations de villageois.",
+                en: "A primary teacher for twenty years, he has benevolently educated several generations of villagers.",
+                cn: "身为在三尺讲台上默默坚守二十余载的老资格小学男教师，他已用慈父般的春风化雨培养了整整两代村民。",
+                jp: "教員生活20年の男性教師は、温かみをもって村の何世代もの人々を育成してきました。"
+            }
+        ]
+    },
+    {
+        id: 14717,
+        word: "Rurale",
+        phonetic: "/ʁy.ʁal/",
+        type: "adjectif féminin • géographie humaine",
+        theme: "Territoire & Campagne",
+        level: "B1",
+        definition: "Qui est propre à la campagne, aux villages agricoles, par opposition au milieu urbain ou citadin.",
+        examples: [
+            {
+                fr: "En zone rurale, l'école est souvent le cœur battant de la vie communautaire.",
+                en: "In rural areas, the school is often the beating heart of community life.",
+                cn: "在广袤的乡村地区，小学校往往是凝聚全体村民情感与文化精神寄托的跃动活力心脏。",
+                jp: "農村地域において、学校はしばしば地域コミュニティの心臓部（中核）となっています。"
+            }
+        ]
+    },
+    {
+        id: 14718,
+        word: "Les tout-petits",
+        phonetic: "/le tu.pə.ti/",
+        type: "nom masculin pluriel • affectif",
+        theme: "Enfance & Âge",
+        level: "A2",
+        definition: "Les très jeunes enfants (ex. les élèves de maternelle ou du cours d'initiation).",
+        examples: [
+            {
+                fr: "L'enseignante accueille les tout-petits avec des chansons pour les rassurer le premier jour.",
+                en: "The teacher welcomes toddlers with songs to reassure them on the first day.",
+                cn: "开学报到第一天清早，女教师亲切地用悠扬动听的儿歌微笑着迎接这群初次离家的小不点们。",
+                jp: "初日に子どもたちを安心させるため、女性教師は歌を歌って幼い子どもたちを出迎えます。"
+            }
+        ]
+    },
+    {
+        id: 14719,
+        word: "Un à un",
+        phonetic: "/œ̃ a œ̃/",
+        type: "locution adverbiale • ordre successif",
+        theme: "Manière & Progression",
+        level: "A2",
+        definition: "L'un après l'autre, de manière individuelle et échelonnée dans le temps.",
+        examples: [
+            {
+                fr: "Les élèves rentrent en classe un à un après avoir salué respectueusement le maître.",
+                en: "Students enter the classroom one by one after respectfully greeting the teacher.",
+                cn: "在校门口规规矩矩向班主任老师躬身行礼之后，孩子们鱼贯而入，一个接一个地迈进教室入座。",
+                jp: "生徒たちは先生に丁寧に挨拶をした後、一人ずつ教室に入っていきます。"
+            }
+        ]
+    },
+    {
+        id: 14720,
+        word: "Empiété (empiéter sur)",
+        phonetic: "/ɑ̃.pje.te/",
+        type: "participe passé (empiéter sur)",
+        theme: "Espace & Empiètement",
+        level: "B2",
+        definition: "Prendre indûment sur le temps, l'espace ou les prérogatives d'autre chose (ex. « le programme est déjà empiété de deux semaines de retard »).",
+        examples: [
+            {
+                fr: "Les retards de rentrée ont empiété sur les premières semaines du programme officiel.",
+                en: "Delays in the start of the school year have encroached upon the first weeks of the official syllabus.",
+                cn: "由于开学出勤整体延误迟滞，教育部制定的正式教学进度大纲在前几周已被严重耽搁挤占了。",
+                jp: "新学期の開始の遅れは、公式カリキュラムの最初の数週間に食い込んで（支障をきたして）しまいました。"
+            }
+        ]
+    },
+    {
+        id: 14721,
+        word: "Par rapport à",
+        phonetic: "/paʁ ʁa.pɔʁ a/",
+        type: "locution prépositive de comparaison",
+        theme: "Comparaison",
+        level: "B1",
+        definition: "En comparaison de, en proportion avec ou relativement à (ex. « par rapport à la ville »).",
+        examples: [
+            {
+                fr: "Les écoles rurales accusent souvent un décalage de moyens par rapport à celles des grandes agglomérations.",
+                en: "Rural schools often face a disparity in resources compared to those in major urban centers.",
+                cn: "与省城大都会设施完备的重点校舍相较之下，穷乡僻壤的山村小学常常面临巨大的硬件资源缺口。",
+                jp: "農村部の学校は、大都市圏の学校と比べて設備や手段の格差を抱えがちです。"
+            }
+        ]
+    },
+    {
+        id: 14722,
+        word: "Ponctuel",
+        phonetic: "/pɔ̃k.tɥɛl/",
+        type: "adjectif qualificatif • régularité",
+        theme: "Qualités professionnelles",
+        level: "A2",
+        definition: "Qui arrive exactement à l'heure fixée, sans retard (fém. ponctuelle).",
+        examples: [
+            {
+                fr: "Cet enseignant ponctuel ouvre toujours la grille de l'école un quart d'heure avant la sonnerie.",
+                en: "This punctual teacher always unlocks the school gates a quarter of an hour before the bell.",
+                cn: "这位一贯严谨守时的男老师，每天早晨上课前十五分钟便早早将生锈的学校校门全部敞开以待学生。",
+                jp: "時間に正確なこの教師は、始業のチャイムが鳴る15分前にはいつも校門を開けています。"
+            }
+        ]
+    },
+    {
+        id: 14723,
+        word: "Assidu",
+        phonetic: "/a.si.dy/",
+        type: "adjectif qualificatif • rigueur",
+        theme: "Travail & Constance",
+        level: "B2",
+        definition: "Qui est présent avec une régularité exemplaire et constante ; assidu au travail (fém. assidue).",
+        examples: [
+            {
+                fr: "Un travail assidu et régulier est la clé de voûte de toute réussite scolaire.",
+                en: "Assiduous and regular work is the keystone of any academic success.",
+                cn: "日积月累、持之以恒的勤勉学习，是任何学子摘取优异学业硕果不可或缺的坚实中流砥柱。",
+                jp: "勤勉かつ定期的な学習こそが、いかなる学業の成功にとっても要となる基盤です。"
+            }
+        ]
+    },
+    {
+        id: 14724,
+        word: "Adopté (être adopté par)",
+        phonetic: "/a.dɔp.te/",
+        type: "participe passé (être adopté par)",
+        theme: "Intégration & Communauté",
+        level: "B1",
+        definition: "Être chaleureusement accueilli, accepté et pleinement intégré au sein d'une famille ou communauté.",
+        examples: [
+            {
+                fr: "L'instituteur dévoué a été rapidement adopté par toute la communauté villageoise.",
+                en: "The devoted primary teacher was quickly embraced by the entire village community.",
+                cn: "这位默默奉献教书育人的热忱教师，很快就被淳朴的全村老少全盘接纳为血脉相连的自家人。",
+                jp: "献身的な教員は、村のコミュニティ全体からすぐに温かく受け入れられました。"
+            }
+        ]
+    },
+    {
+        id: 14725,
+        word: "Généralement",
+        phonetic: "/ʒe.ne.ʁal.mɑ̃/",
+        type: "adverbe • fréquence",
+        theme: "Fréquence & Généralité",
+        level: "A2",
+        definition: "D'ordinaire, dans la plupart des cas, habituellement.",
+        examples: [
+            {
+                fr: "Les parents d'élèves soutiennent généralement les professeurs qui s'investissent auprès de leurs enfants.",
+                en: "Parents generally support teachers who invest themselves in their children.",
+                cn: "广大学生家长通常都会发自真心地全力支持并体谅那些全心全意为孩子付出的敬业老师。",
+                jp: "保護者たちは一般的に、子どもたちのために尽力してくれる教師を支援します。"
+            }
+        ]
+    },
+    {
+        id: 14726,
+        word: "Efforts",
+        phonetic: "/e.fɔʁ/",
+        type: "nom masculin pluriel • volonté",
+        theme: "Travail & Énergie",
+        level: "A2",
+        definition: "Mobilisation soutenue et volontaire de ses forces physiques, intellectuelles ou matérielles pour surmonter un obstacle.",
+        examples: [
+            {
+                fr: "Malgré leur précarité, les familles paysannes consentent de lourds efforts pour scolariser leurs enfants.",
+                en: "Despite precarious conditions, peasant families make great efforts to school their children.",
+                cn: "尽管家境极其贫寒拮据，但是广大农家父母宁愿节衣缩食也要倾尽全力咬牙供孩子们读书求学。",
+                jp: "生活が不安定であるにもかかわらず、農家の家族は子どもたちを通学させるため多大な努力を払っています。"
+            }
+        ]
+    },
+    {
+        id: 14727,
+        word: "Vraiment",
+        phonetic: "/vʁɛ.mɑ̃/",
+        type: "adverbe • affirmation sincère",
+        theme: "Intensité & Vérité",
+        level: "A1",
+        definition: "D'une manière conforme à la réalité, sincèrement, en toute authenticité.",
+        examples: [
+            {
+                fr: "Ces instituteurs méritent vraiment la reconnaissance de la nation tout entière.",
+                en: "These teachers truly deserve the gratitude of the entire nation.",
+                cn: "这些甘为人梯、长年默默耕耘在边远大山深处的一线乡村教师，确实配得上全民族最崇高的敬意。",
+                jp: "これらの教師たちは、まさに国全体の感謝と称賛に値します。"
+            }
+        ]
+    },
+    {
+        id: 14728,
+        word: "Besoins",
+        phonetic: "/bə.zwɛ̃/",
+        type: "nom masculin pluriel • fondamental",
+        theme: "Nécessité",
+        level: "A2",
+        definition: "Ce qui est indispensable à l'existence, au bon fonctionnement ou à la subsistance (ex. les besoins de l'école).",
+        examples: [
+            {
+                fr: "La directrice a recensé tous les besoins urgents en matériel pédagogique et mobilier.",
+                en: "The headmistress listed all urgent needs for pedagogical materials and furniture.",
+                cn: "女校长逐一详尽地清点了当前全校在教学黑板、课桌椅和教材文具等方面的所有迫切紧急需求。",
+                jp: "校長は教材や家具に関するすべての緊急な必要事項（ニーズ）を一覧にまとめました。"
+            }
+        ]
+    },
+    {
+        id: 14729,
+        word: "Panneaux solaires",
+        phonetic: "/pa.no sɔ.lɛʁ/",
+        type: "nom masculin pluriel • technologie verte",
+        theme: "Énergie & Écologie",
+        level: "B1",
+        definition: "Dispositifs technologiques captant l'énergie du rayonnement solaire pour la transformer en électricité ou en chaleur.",
+        examples: [
+            {
+                fr: "L'installation de petits panneaux solaires permet d'éclairer les salles de classe isolées du réseau électrique.",
+                en: "Installing small solar panels provides lighting for classrooms cut off from the power grid.",
+                cn: "几块小型太阳能光伏电池板的架设通电，让远离国家主电网的孤岛乡村小学第一次亮起了明亮的电灯。",
+                jp: "小型ソーラーパネルの設置により、電力網から切り離された教室に明かりが灯るようになりました。"
+            }
+        ]
+    },
+    {
+        id: 14730,
+        word: "Nous nous sommes rendu compte (se rendre compte de)",
+        phonetic: "/nu nu sɔm ʁɑ̃.dy kɔ̃t/",
+        type: "locution verbale pronominale passée",
+        theme: "Prise de conscience",
+        level: "B1",
+        definition: "Prendre conscience d'une réalité qu'on ignorait ou sous-estimait jusqu'alors (invariable : « rendu compte »).",
+        examples: [
+            {
+                fr: "Nous nous sommes rendu compte que certains instituteurs vivaient dans le noir sans électricité.",
+                en: "We realized that some primary teachers were living in the dark without electricity.",
+                cn: "我们在下乡深入调研时才骤然察觉意识到，原来还有部分乡村教师夜间常年在无电的黑暗里批改作业。",
+                jp: "私たちは、一部の教員が電気のない暗闇の中で暮らしているという事実に気づきました。"
+            }
+        ]
+    },
+    {
+        id: 14731,
+        word: "Ont été",
+        phonetic: "/ɔ̃ t‿e.te/",
+        type: "auxiliaire passif (passé composé du verbe être)",
+        theme: "Grammaire & Voix passive",
+        level: "A2",
+        definition: "Forme composée au passé servant à construire la voix passive pour une action accomplie sur un sujet pluriel (ex. « cinq écoles ont été choisies »).",
+        examples: [
+            {
+                fr: "Cinq écoles pilotes ont été sélectionnées pour bénéficier de ce programme d'électrification.",
+                en: "Five pilot schools have been selected to benefit from this electrification program.",
+                cn: "当地市政当局已正式择优遴选出五所乡村试点小学，作为率先入驻受惠此项光伏通电工程的代表。",
+                jp: "5つのパイロット校が、この電化プログラムの恩恵を受けるために選定されました。"
+            }
+        ]
+    },
+    {
+        id: 14732,
+        word: "Éclairage",
+        phonetic: "/e.klɛ.ʁaʒ/",
+        type: "nom masculin • quotidien",
+        theme: "Énergie & Confort",
+        level: "A2",
+        definition: "Ensemble des moyens d'illuminer un lieu ou une pièce (lampes, ampoules, lumière artificielle).",
+        examples: [
+            {
+                fr: "Un bon éclairage en soirée permet aux instituteurs de corriger les devoirs et préparer leurs cours.",
+                en: "Good lighting in the evening allows teachers to grade homework and prepare lessons.",
+                cn: "夜晚充足温馨的室内电灯照明，使乡村教师们终于能够体面地在案头挑灯备课和精心批改作业。",
+                jp: "夜間の適切な照明のおかげで、教師たちは宿題の採点や授業の準備ができるようになります。"
+            }
+        ]
+    },
+    {
+        id: 14733,
+        word: "Non seulement de",
+        phonetic: "/nɔ̃ sœl.mɑ̃ də/",
+        type: "locution de liaison connective",
+        theme: "Liaison & Addition",
+        level: "B2",
+        definition: "Formule annonçant un premier fait complété par un second élément encore plus important (« non seulement de... mais de... »).",
+        examples: [
+            {
+                fr: "L'énergie solaire permet aux maîtres non seulement de vivre dignement mais aussi de préparer leurs cours.",
+                en: "Solar power enables teachers not only to live with dignity but also to prepare their lessons.",
+                cn: "太阳能清洁电力不仅能让教师们享有体面的基本起居生活，更能确保他们安心在夜间从容备课。",
+                jp: "太陽光発電は、教師たちが尊厳を持って暮らすことのみならず、授業の準備をすることも可能にします。"
+            }
+        ]
+    },
+    {
+        id: 14734,
+        word: "Préparer",
+        phonetic: "/pʁe.pa.ʁe/",
+        type: "verbe transitif • action",
+        theme: "Organisation & Travail",
+        level: "A1",
+        definition: "Organiser, concevoir ou mettre en état d'avance ce qui servira plus tard (ex. « préparer ses cours »).",
+        examples: [
+            {
+                fr: "L'enseignant consacre chaque soirée à préparer les fiches d'exercices du lendemain.",
+                en: "The teacher devotes every evening to preparing the next day's exercise sheets.",
+                cn: "这位诲人不倦的老师每天夜里都要花费数小时，潜心精心设计制作次日课堂所用的练习卷子。",
+                jp: "教師は毎晩、翌日の演習プリントの準備に時間を費やしています。"
+            }
+        ]
+    },
+    {
+        id: 14735,
+        word: "Selon",
+        phonetic: "/sə.lɔ̃/",
+        type: "préposition de référence • discours",
+        theme: "Source & Référence",
+        level: "A2",
+        definition: "D'après les affirmations, les statistiques ou le témoignage de quelqu'un (ex. « selon les données du ministère »).",
+        examples: [
+            {
+                fr: "Selon les chiffres officiels, deux tiers des instituteurs camerounais exercent en campagne.",
+                en: "According to official figures, two-thirds of Cameroonian primary teachers work in the countryside.",
+                cn: "据国家官方权威普查统计数据表明，喀麦隆全国有三分之二的小学专任教师常年驻守在乡村任教。",
+                jp: "公式統計によると、カメルーンの初等教育教員の3分の2が農村部で勤務しています。"
+            }
+        ]
+    },
+    {
+        id: 14736,
+        word: "Ministère",
+        phonetic: "/mi.nis.tɛʁ/",
+        type: "nom masculin • institutions",
+        theme: "Administration publique",
+        level: "B1",
+        definition: "Grand service de l'administration d'État placé sous la direction d'un ministre (ex. ministère de l'Éducation de base).",
+        examples: [
+            {
+                fr: "Le ministère de l'Éducation de base impulse des réformes pour réduire la fracture territoriale.",
+                en: "The Ministry of Basic Education is spearheading reforms to reduce the territorial divide.",
+                cn: "基础教育部正大力推行均衡化教育扶持改革方案，以期逐步缩小城乡教育资源之间的巨大鸿沟。",
+                jp: "基礎教育省は、地域間の教育格差を縮小するための改革を推進しています。"
+            }
+        ]
+    },
+    {
+        id: 14737,
+        word: "Enseignants",
+        phonetic: "/ɑ̃.sɛ.ɲɑ̃/",
+        type: "nom masculin pluriel • éducation",
+        theme: "Éducation & Personnel",
+        level: "A2",
+        definition: "Personnes chargées d'instruire, de former et d'éduquer les élèves dans une école ou université.",
+        examples: [
+            {
+                fr: "Les enseignants ruraux font preuve d'une formidable abnégation au service de la jeunesse.",
+                en: "Rural teachers show remarkable selflessness in the service of youth.",
+                cn: "广大扎根基层的乡村教师为偏远山乡青少年的健康成长，展现出了令人动容的高尚无私奉献精神。",
+                jp: "農村の教員たちは、青少年のために素晴らしい自己犠牲と献身を示しています。"
+            }
+        ]
+    },
+    {
+        id: 14738,
+        word: "Exercent (exercer)",
+        phonetic: "/ɛɡ.zɛʁs/",
+        type: "verbe transitif ou intransitif • profession",
+        theme: "Travail & Profession",
+        level: "B1",
+        definition: "Pratiquer un métier, accomplir les fonctions d'une charge ou d'une profession (ex. « exercent en milieu rural »).",
+        examples: [
+            {
+                fr: "Soixante-sept pour cent des instituteurs camerounais exercent en zone rurale.",
+                en: "Sixty-seven percent of Cameroonian primary teachers work in rural areas.",
+                cn: "喀麦隆全国整整百分之六十七的小学教师长期默默驻留在各偏远农村地区辛勤执教。",
+                jp: "カメルーンの初等教員の67パーセントが農村部で職務に従事しています。"
+            }
+        ]
+    },
+    {
+        id: 14739,
+        word: "Le Ballon d'or",
+        phonetic: "/lə ba.lɔ̃ d‿ɔʁ/",
+        type: "nom propre masculin • football",
+        theme: "Sport & Distinctions",
+        level: "B1",
+        definition: "Prestigieuse récompense individuelle attribuée chaque année par le magazine France Football au meilleur joueur de football du monde.",
+        examples: [
+            {
+                fr: "Décrocher le Ballon d'or représente l'accomplissement suprême dans la carrière d'un footballeur.",
+                en: "Winning the Ballon d'Or represents the ultimate achievement in a footballer's career.",
+                cn: "荣膺捧起金球奖奖杯，是每一位世界级职业足球运动员毕生职业生涯中无与伦比的登峰造极荣耀。",
+                jp: "バロンドールを獲得することは、サッカー選手のキャリアにおいて最高峰の栄誉を意味します。"
+            }
+        ]
+    },
+    {
+        id: 14740,
+        word: "Superstar",
+        phonetic: "/sy.pɛʁ.staʁ/",
+        type: "nom féminin ou adjectif invariable • médias",
+        theme: "Célébrité",
+        level: "A2",
+        definition: "Personnalité extrêmement célèbre à l'échelle planétaire dans les domaines du sport, de la musique ou du cinéma.",
+        examples: [
+            {
+                fr: "Kylian Mbappé est considéré comme une véritable superstar planétaire du ballon rond.",
+                en: "Kylian Mbappé is considered a true global soccer superstar.",
+                cn: "基利安·姆巴佩被举世公认为当今世界绿茵足坛当之无愧、家喻户晓的全球超级巨星。",
+                jp: "キリアン・エムバペは、世界的な本物のスーパースターと見なされています。"
+            }
+        ]
+    },
+    {
+        id: 14741,
+        word: "A été",
+        phonetic: "/a e.te/",
+        type: "passé composé du verbe être (3e personne singulier)",
+        theme: "Grammaire & Temps du passé",
+        level: "A1",
+        definition: "Exprime qu'une personne ou chose a possédé une qualité ou traversé un état dans le passé (ex. « a été le meilleur buteur »).",
+        examples: [
+            {
+                fr: "L'attaquant a été désigné meilleur joueur du tournoi après sa prestation magistrale.",
+                en: "The striker was named player of the tournament after his masterclass performance.",
+                cn: "凭借决赛中堪称大师级的无双神级发挥，这位前锋毫无悬念地被当场评选为本届杯赛的最佳球员。",
+                jp: "フォワードの選手は圧巻のパフォーマンスの後、大会最優秀選手に選ばれました。"
+            }
+        ]
+    },
+    {
+        id: 14742,
+        word: "Peut-être",
+        phonetic: "/pø.t‿ɛtʁ/",
+        type: "adverbe de probabilité • fondamental",
+        theme: "Modalité & Doute",
+        level: "A1",
+        definition: "Indique une possibilité, une supposition qui n'est pas certaine mais concevable (« c'est peut-être la bonne année »).",
+        examples: [
+            {
+                fr: "C'est peut-être l'occasion idéale pour franchir ce cap décisif dans sa carrière.",
+                en: "It is perhaps the ideal opportunity to take this decisive step in his career.",
+                cn: "这或许正是他在个人漫漫职业生涯中跨越重大分水岭门槛、攀登崭新巅峰的千载难逢良机。",
+                jp: "これはおそらく、彼のキャリアにおいて決定的な一歩を踏み出す絶好の機会でしょう。"
+            }
+        ]
+    },
+    {
+        id: 14743,
+        word: "Le meilleur",
+        phonetic: "/lə mɛ.jœʁ/",
+        type: "adjectif superlatif relatif • excellence",
+        theme: "Superlatif",
+        level: "A2",
+        definition: "Qui l'emporte sur tous les autres par ses compétences, ses qualités ou ses performances (ex. le meilleur buteur).",
+        examples: [
+            {
+                fr: "Il a terminé la compétition en étant sacré le meilleur buteur de la Coupe du monde.",
+                en: "He finished the competition crowned the top goal scorer of the World Cup.",
+                cn: "在群雄逐鹿的世界杯大决战落下帷幕之际，他以傲视群雄的进球数荣膺本届世界杯的最佳射手王。",
+                jp: "彼はワールドカップの大会得点王（最優秀得点者）として大会を終えました。"
+            }
+        ]
+    },
+    {
+        id: 14744,
+        word: "Mondial (Mondial de football)",
+        phonetic: "/mɔ̃.djal/",
+        type: "nom masculin • football (la Coupe du monde)",
+        theme: "Sport & Tournois",
+        level: "B1",
+        definition: "Désigne familièrement la Coupe du monde de football organisée par la FIFA tous les quatre ans.",
+        examples: [
+            {
+                fr: "Le Mondial de football réunit des milliards de téléspectateurs passionnés devant leurs écrans.",
+                en: "The football World Cup brings together billions of passionate viewers in front of their screens.",
+                cn: "四年一度的足球世界杯盛宴，将全球数十亿狂热痴迷的拥趸观众紧密吸引驻足在荧屏电视机前。",
+                jp: "サッカーのワールドカップは、世界中の何十億もの熱狂的な視聴者を画面の前に集結させます。"
+            }
+        ]
+    }
 ];

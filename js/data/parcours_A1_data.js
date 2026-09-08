@@ -1492,6 +1492,262 @@ window.parcours_A1_Dataset = [
             ]
           }
         ]
+      },
+      {
+        "id": "quest_ch_2_4",
+        "title": "Module 4 : États, Disponibilité & Totalité",
+        "level": "A1",
+        "icon": "auto_awesome",
+        "xp": 65,
+        "description": "Maîtriser les 12 adjectifs fondamentaux : nouveau, pareil, petit, plein, premier, prêt, prochain, quoi, seul, tout, vert, vivant.",
+        "steps": [
+          {
+            "type": "image_scene",
+            "title": "1. Scène visuelle : Terrasse de café et marché aux fleurs",
+            "imageUrl": "assets/scenes/marche_fleurs_cafe_pastel.jpg",
+            "caption": "Une matinée animée dans un quartier parisien : un serveur prêt à servir un café bien plein, un petit vélo près d'un grand arbre vert et un marché aux fleurs très vivant.",
+            "words": [
+              "Nouveau",
+              "Pareil",
+              "Petit",
+              "Plein",
+              "Premier",
+              "Prêt",
+              "Prochain",
+              "Seul",
+              "Tout",
+              "Vert",
+              "Vivant"
+            ]
+          },
+          {
+            "type": "vocab_drill",
+            "title": "2. Vocabulaire : Nouveauté, Ordre & Préparation",
+            "words": [
+              "Nouveau",
+              "Premier",
+              "Prochain",
+              "Prêt"
+            ],
+            "details": [
+              {
+                "word": "Nouveau",
+                "type": "adj. m.",
+                "def": "Récemment apparu, moderne ou inédit (fém. nouvelle, nouvel devant voyelle).",
+                "example": "Voici mon nouveau cahier avec un stylo pour les cours.",
+                "imageUrl": "assets/vocab/nouveau.jpg"
+              },
+              {
+                "word": "Premier",
+                "type": "adj. m.",
+                "def": "Qui se place avant tous les autres dans le temps ou l'espace (fém. première).",
+                "example": "Il a remporté la médaille d'or de la première place.",
+                "imageUrl": "assets/vocab/premier.jpg"
+              },
+              {
+                "word": "Prochain",
+                "type": "adj. m.",
+                "def": "Qui va arriver tout de suite après, très proche dans le temps (fém. prochaine).",
+                "example": "Le panneau indique le quai pour le prochain train de Paris.",
+                "imageUrl": "assets/vocab/prochain.jpg"
+              },
+              {
+                "word": "Prêt",
+                "type": "adj. m.",
+                "def": "Disposé et préparé pour une action immédiate (fém. prête).",
+                "example": "Elle a pris son sac et ses clés, elle est fin prête pour le voyage.",
+                "imageUrl": "assets/vocab/pret.jpg"
+              }
+            ]
+          },
+          {
+            "type": "vocab_drill",
+            "title": "3. Vocabulaire : Mesure, Comparaison & Solitude",
+            "words": [
+              "Petit",
+              "Plein",
+              "Pareil",
+              "Seul"
+            ],
+            "details": [
+              {
+                "word": "Petit",
+                "type": "adj. m.",
+                "def": "De dimension modeste, peu volumineux (fém. petite).",
+                "example": "Ce petit chaton curieux tient facilement dans une tasse.",
+                "imageUrl": "assets/vocab/petit.jpg"
+              },
+              {
+                "word": "Plein",
+                "type": "adj. m.",
+                "def": "Rempli jusqu'au bord, totalement occupé (fém. pleine).",
+                "example": "Ce verre transparent est bien plein d'eau fraîche avec des glaçons.",
+                "imageUrl": "assets/vocab/plein.jpg"
+              },
+              {
+                "word": "Pareil",
+                "type": "adj. m.",
+                "def": "Identique, semblable, de même nature ou apparence (fém. pareille).",
+                "example": "Ces deux jolies tasses en céramique sont tout à fait pareilles.",
+                "imageUrl": "assets/vocab/pareil.jpg"
+              },
+              {
+                "word": "Seul",
+                "type": "adj. m.",
+                "def": "Sans compagnie, unique ou isolé (fém. seule).",
+                "example": "Elle apprécie de lire tranquillement toute seule sur le banc du parc.",
+                "imageUrl": "assets/vocab/seul.jpg"
+              }
+            ]
+          },
+          {
+            "type": "vocab_drill",
+            "title": "4. Vocabulaire : Vitalité, Couleur & Totalité",
+            "words": [
+              "Tout",
+              "Vert",
+              "Vivant",
+              "Quoi"
+            ],
+            "details": [
+              {
+                "word": "Tout",
+                "type": "adj. m.",
+                "def": "Entier, dans son intégralité (fém. toute, pl. tous).",
+                "example": "Nous avons partagé toute la tarte en famille.",
+                "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+              },
+              {
+                "word": "Vert",
+                "type": "adj. m.",
+                "def": "De la couleur des feuilles fraîches et de l'herbe (fém. verte).",
+                "example": "Le panneau du parc est d'un vert éclatant.",
+                "imageUrl": "assets/vocab/vert.svg",
+                "color": "rgb(22, 163, 74)"
+              },
+              {
+                "word": "Vivant",
+                "type": "adj. m.",
+                "def": "Qui a de la vie, animé, actif et dynamique (fém. vivante).",
+                "example": "Cette belle plante verte est très vivante et pleine d'énergie.",
+                "imageUrl": "assets/vocab/vivant.jpg"
+              },
+              {
+                "word": "Quoi",
+                "type": "adj. m.",
+                "def": "Mot interrogatif ou formule expressive (ex. un je-ne-sais-quoi de charme).",
+                "example": "Elle s'interroge avec un grand sourire : mais quoi donc ?",
+                "imageUrl": "assets/vocab/quoi.jpg"
+              }
+            ]
+          },
+          {
+            "type": "quiz_drill",
+            "title": "5. Grammaire : Nouveauté et Place des Adjectifs",
+            "question": "Complétez la phrase : « Lucas a acheté un ______ vélo et une ______ valise pour son voyage. »",
+            "options": [
+              "nouveau / nouvelle",
+              "nouvel / nouveau",
+              "nouvelle / nouveau",
+              "nouveau / nouveau"
+            ],
+            "correctIndex": 0,
+            "explanation": "« Vélo » est masculin (un nouveau vélo) et « valise » est féminin (une nouvelle valise)."
+          },
+          {
+            "type": "quiz_drill",
+            "title": "6. Grammaire : L'adjectif « tout / toute »",
+            "question": "Choisissez la bonne forme : « Nous avons attendu pendant ______ la matinée au café. »",
+            "options": [
+              "toute",
+              "tout",
+              "tous",
+              "toutes"
+            ],
+            "correctIndex": 0,
+            "explanation": "« Matinée » est féminin singulier : on accorde avec « toute la matinée »."
+          },
+          {
+            "type": "dialogue_view",
+            "title": "7. Dialogue Modèle : À la terrasse d'un café",
+            "context": "Julien et Sarah sont assis à la terrasse d'un café avant leur cours.",
+            "lines": [
+              {
+                "speaker": "Julien",
+                "text": "Tu prends un café aussi ?"
+              },
+              {
+                "speaker": "Sarah",
+                "text": "Oui, pareil pour moi, avec un peu de lait s'il te plaît."
+              },
+              {
+                "speaker": "Julien",
+                "text": "Ça marche. Tu as fini tes exercices pour le cours ?"
+              },
+              {
+                "speaker": "Sarah",
+                "text": "Oui, j'ai tout terminé hier soir. Et toi, tu es prêt ?"
+              },
+              {
+                "speaker": "Julien",
+                "text": "Presque ! J'ai juste un petit doute sur le premier exercice."
+              },
+              {
+                "speaker": "Sarah",
+                "text": "Montre-moi, on a encore dix minutes avant le prochain cours."
+              }
+            ]
+          },
+          {
+            "type": "matching_drill",
+            "title": "8. Mémorisation Multilingue : Les adjectifs de disponibilité et d'état",
+            "instructions": "Associez chaque adjectif français à son équivalent multilingue.",
+            "pairs": [
+              {
+                "id": "a1_ch2_mod4_nouveau",
+                "fr": "Nouveau",
+                "en": "New",
+                "jp": "新しい (atarashii)",
+                "cn": "新的 (xīn de)"
+              },
+              {
+                "id": "a1_ch2_mod4_petit",
+                "fr": "Petit",
+                "en": "Small / Little",
+                "jp": "小さい (chiisai)",
+                "cn": "小的 (xiǎo de)"
+              },
+              {
+                "id": "a1_ch2_mod4_plein",
+                "fr": "Plein",
+                "en": "Full",
+                "jp": "いっぱいの (ippai no)",
+                "cn": "满的 (mǎn de)"
+              },
+              {
+                "id": "a1_ch2_mod4_pret",
+                "fr": "Prêt",
+                "en": "Ready",
+                "jp": "準備ができた (junbi ga dekita)",
+                "cn": "准备好的 (zhǔnbèi hǎo de)"
+              },
+              {
+                "id": "a1_ch2_mod4_vert",
+                "fr": "Vert",
+                "en": "Green",
+                "jp": "緑の (midori no)",
+                "cn": "绿色的 (lǜsè de)"
+              },
+              {
+                "id": "a1_ch2_mod4_vivant",
+                "fr": "Vivant",
+                "en": "Alive / Lively",
+                "jp": "生きている / 活気のある (ikiteiru / kakki no aru)",
+                "cn": "活着的 / 充满活力的 (huózhe de)"
+              }
+            ]
+          }
+        ]
       }
     ],
     "grammarLessonId": "a1-adjectifs-qualificatifs"

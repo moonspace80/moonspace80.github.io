@@ -17,3 +17,5 @@ deploy.bat
 deploy2.bat
 reset_history.bat
 start.bat
+
+audio/*.m4a

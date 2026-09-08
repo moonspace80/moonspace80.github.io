@@ -28620,5 +28620,2878 @@ window.vocab_B2_Dataset = [
                 jp: "サッカーのワールドカップは、世界中の何十億もの熱狂的な視聴者を画面の前に集結させます。"
             }
         ]
+    },
+    {
+        id: 14745,
+        word: "Contre-intuitive",
+        phonetic: "/kɔ̃.tʁə.ɛ̃.tɥi.tiv/",
+        type: "adjectif féminin • sciences & logique",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Qui s'oppose à ce que le sens commun, la perception immédiate ou l'intuition première laissaient supposer, mais qui se révèle pourtant scientifiquement exact.",
+        examples: [
+            {
+                fr: "L'idée que la biodiversité n'est pas une simple collection d'espèces est contre-intuitive mais scientifiquement solide.",
+                en: "The idea that biodiversity is not a mere collection of species is counterintuitive yet scientifically solid.",
+                cn: "生物多样性并非物种的简单集合，这一观点看似违背直觉，但在科学上却无可辩驳。",
+                jp: "生物多様性は単なる種の集合体ではないという考えは、直感に反しますが科学的には極めて堅固です。"
+            }
+        ]
+    },
+    {
+        id: 14746,
+        word: "Scientifiquement solide",
+        phonetic: "/sjɑ̃.ti.fik.mɑ̃ sɔ.lid/",
+        type: "locution adjectivale • registre soutenu",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Établi avec rigueur méthodologique, vérifié empiriquement et appuyé sur des données probantes et réplicables dans la communauté scientifique.",
+        examples: [
+            {
+                fr: "Cette thèse repose sur un modèle écologique scientifiquement solide et largement vérifié.",
+                en: "This thesis relies on a scientifically robust and thoroughly verified ecological model.",
+                cn: "该论点建立在经受充分验证、在科学上坚实可靠的生态学模型之上。",
+                jp: "この論説は、科学的に強固で十分に検証された生態系モデルに基づいています。"
+            }
+        ]
+    },
+    {
+        id: 14747,
+        word: "Effondrement",
+        phonetic: "/e.fɔ̃.dʁə.mɑ̃/",
+        type: "nom masculin • écologie & société",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Perte brutale de stabilité, chute massive ou écroulement soudain de populations vivantes ou d'un écosystème entier sous la pression des perturbations.",
+        examples: [
+            {
+                fr: "L'effondrement silencieux de la biodiversité se produit sans bruit dans nos campagnes.",
+                en: "The silent collapse of biodiversity is occurring quietly across our countrysides.",
+                cn: "生物多样性的无声崩溃正在我们身边的乡村悄然发生。",
+                jp: "生物多様性の静かなる崩壊は、私たちの田園地帯で音もなく進行しています。"
+            }
+        ]
+    },
+    {
+        id: 14748,
+        word: "Silencieux",
+        phonetic: "/si.lɑ̃.sjø/",
+        type: "adjectif masculin • courant & métaphorique",
+        theme: "Sciences & Écologie",
+        level: "B1",
+        definition: "Qui ne produit aucun bruit, discret ; utilisé au sens figuré pour désigner un phénomène dévastateur qui progresse sans susciter d'alerte immédiate dans l'opinion.",
+        examples: [
+            {
+                fr: "Contrairement aux tempêtes visibles, l'érosion du vivant est un drame silencieux.",
+                en: "Unlike visible storms, the erosion of living systems is a silent drama.",
+                cn: "与肉眼可见的风暴不同，生物圈的退化是一出无声的悲剧。",
+                jp: "目に見える嵐とは異なり、生命の衰退は音のないドラマです。"
+            }
+        ]
+    },
+    {
+        id: 14749,
+        word: "Biologiste",
+        phonetic: "/bjɔ.lɔ.ʒist/",
+        type: "nom épicène (masculin ou féminin) • métiers",
+        theme: "Sciences & Métiers",
+        level: "B1",
+        definition: "Scientifique spécialiste de la biologie, étudiant la structure, le fonctionnement, la génétique et l'évolution des organismes vivants.",
+        examples: [
+            {
+                fr: "La biologiste Tatiana Giraud analyse les dynamiques d'extinction et d'adaptation des espèces.",
+                en: "Biologist Tatiana Giraud analyzes the dynamics of species extinction and adaptation.",
+                cn: "生物学家塔蒂亚娜·吉罗深入分析物种的灭绝与适应机制。",
+                jp: "生物学者のタチアナ・ジローは、種の絶滅と適応の動態を分析しています。"
+            }
+        ]
+    },
+    {
+        id: 14750,
+        word: "CNRS",
+        phonetic: "/se.ɛn.ɛʁ.ɛs/",
+        type: "sigle / nom masculin institutionnel",
+        theme: "Institutions & Sciences",
+        level: "B2",
+        definition: "Centre National de la Recherche Scientifique : principale institution publique française de recherche fondamentale pluridisciplinaire. <a href=\"html/cnrs.html\" target=\"_blank\">Consulter la fiche détaillée</a>.",
+        examples: [
+            {
+                fr: "Le CNRS pilote des équipes de recherche de renommée mondiale sur la biodiversité et le climat.",
+                en: "The CNRS leads world-renowned research teams on biodiversity and climate.",
+                cn: "法国国家科学研究中心在生物多样性与气候领域引领着世界顶尖的科研团队。",
+                jp: "フランス国立科学研究センター（CNRS）は、生物多様性と気候に関する世界的な研究チームを率いています。"
+            }
+        ]
+    },
+    {
+        id: 14751,
+        word: "Collection",
+        phonetic: "/kɔ.lɛk.sjɔ̃/",
+        type: "nom féminin • courant",
+        theme: "Culture & Société",
+        level: "A2",
+        definition: "Réunion organisée d'objets ou d'entités de même nature (ex. collection de timbres) ; critiquée ici comme une vue morcelée et inadaptée de la biodiversité.",
+        examples: [
+            {
+                fr: "La biodiversité ne doit pas être conçue comme une collection statique d'espèces isolées.",
+                en: "Biodiversity must not be conceived as a static collection of isolated species.",
+                cn: "生物多样性绝不应被视为孤立物种的静态集合。",
+                jp: "生物多様性を孤立した種の静的なコレクションとして捉えてはなりません。"
+            }
+        ]
+    },
+    {
+        id: 14752,
+        word: "Baleine",
+        phonetic: "/ba.lɛn/",
+        type: "nom féminin • faune",
+        theme: "Animaux & Nature",
+        level: "A2",
+        definition: "Grand mammifère marin cétacé doté de fanons ou de dents, emblématique des grandes campagnes de préservation de la faune marine.",
+        examples: [
+            {
+                fr: "Les baleines fascinent le grand public, mais les micro-organismes marins sont tout aussi capitaux.",
+                en: "Whales fascinate the general public, but marine micro-organisms are just as crucial.",
+                cn: "鲸鱼虽然深受公众喜爱，但海洋微生物对生态系统同样至关重要。",
+                jp: "クジラは人々の心を捉えますが、海洋微生物も同様に極めて重要です。"
+            }
+        ]
+    },
+    {
+        id: 14753,
+        word: "Mammifère",
+        phonetic: "/ma.mi.fɛʁ/",
+        type: "nom masculin • zoologie",
+        theme: "Sciences & Zoologie",
+        level: "B1",
+        definition: "Classe d'animaux vertébrés à sang chaud caractérisés par la présence de glandes mammaires produisant du lait pour nourrir leurs petits.",
+        examples: [
+            {
+                fr: "Les mammifères sauvages ne constituent plus qu'une infime proportion de la biomasse totale.",
+                en: "Wild mammals now make up only a tiny fraction of total biomass.",
+                cn: "野生哺乳动物目前仅占地球总生物量极微小的一部分。",
+                jp: "野生の哺乳類は現在、総バイオマスのごくわずかな割合を占めるに過ぎません。"
+            }
+        ]
+    },
+    {
+        id: 14754,
+        word: "Élégant",
+        phonetic: "/e.le.ɡɑ̃/",
+        type: "adjectif masculin • descriptif",
+        theme: "Esthétique & Style",
+        level: "A2",
+        definition: "Qui a de la grâce, de la distinction et une harmonie esthétique dans ses formes ou ses mouvements.",
+        examples: [
+            {
+                fr: "L'image d'un félin élégant suscite plus d'empathie que celle d'un ver de terre sous terre.",
+                en: "The image of an elegant big cat evokes more empathy than that of an earthworm underground.",
+                cn: "优雅大型猫科动物的形象往往比地底的蚯蚓更能引起公众的同情共鸣。",
+                jp: "優雅な大型ネコ科動物の姿は、地中のミミズよりも強い共感を呼び起こします。"
+            }
+        ]
+    },
+    {
+        id: 14755,
+        word: "Photogénique",
+        phonetic: "/fɔ.tɔ.ʒe.nik/",
+        type: "adjectif • médias & esthétique",
+        theme: "Arts & Médias",
+        level: "B1",
+        definition: "Qui rend particulièrement bien à la photographie ou à l'écran grâce à son allure ou son expressivité visuelle.",
+        examples: [
+            {
+                fr: "Les espèces photogéniques comme le panda monopolisent souvent les dons caritatifs.",
+                en: "Photogenic species such as the panda often monopolize charitable donations.",
+                cn: "像大熊猫这样极具镜头感的物种常常吸引了大部分慈善募捐。",
+                jp: "パンダのような写真映えする種は、慈善寄付を独占しがちです。"
+            }
+        ]
+    },
+    {
+        id: 14756,
+        word: "En voie de disparition",
+        phonetic: "/ɑ̃ vwa də di.spa.ʁi.sjɔ̃/",
+        type: "locution prépositive / adjectivale • écologie",
+        theme: "Sciences & Écologie",
+        level: "B1",
+        definition: "Se dit d'une espèce vivante menacée d'extinction totale si aucune mesure de protection stricte n'est appliquée à son habitat.",
+        examples: [
+            {
+                fr: "Le rhinocéros noir fait partie des animaux en voie de disparition les plus surveillés.",
+                en: "The black rhinoceros is among the most closely monitored endangered animals.",
+                cn: "黑犀牛属于受到最严密监测的濒危绝种动物之一。",
+                jp: "クロサイは最も厳重に監視されている絶滅危惧種のひとつです。"
+            }
+        ]
+    },
+    {
+        id: 14757,
+        word: "Le vivant",
+        phonetic: "/lə vi.vɑ̃/",
+        type: "nom masculin singulier collectif • philosophie & biologie",
+        theme: "Sciences & Philosophie",
+        level: "B2",
+        definition: "L'ensemble des êtres animés, plantes, animaux et micro-organismes partageant les propriétés fondamentales de la vie (métabolisme, reproduction, évolution).",
+        examples: [
+            {
+                fr: "Comprendre le vivant exige d'étudier les liens d'interdépendance plutôt que les organismes isolés.",
+                en: "Understanding the living world requires studying interdependent relationships rather than isolated organisms.",
+                cn: "理解生命世界要求我们研究相互依存的生态网络，而非孤立的生命个体。",
+                jp: "生命の世界を理解するには、孤立した個体ではなく相互依存の関係性を探求する必要があります。"
+            }
+        ]
+    },
+    {
+        id: 14758,
+        word: "Probablement",
+        phonetic: "/pʁɔ.ba.blə.mɑ̃/",
+        type: "adverbe • modalisation",
+        theme: "Logique & Discours",
+        level: "B1",
+        definition: "Selon toute vraisemblance ; indique une probabilité très forte sans pour autant atteindre la certitude absolue.",
+        examples: [
+            {
+                fr: "Il reste probablement des millions d'espèces microbiennes à inventorier dans les sols.",
+                en: "There are probably millions of microbial species left to catalog in the soil.",
+                cn: "土壤中很可能还有数以百万计的微生物物种尚待人类编目发现。",
+                jp: "土壌中には、まだカタログ化されていない数百万種もの微生物がおそらく存在しています。"
+            }
+        ]
+    },
+    {
+        id: 14759,
+        word: "Biomasse",
+        phonetic: "/bjɔ.mas/",
+        type: "nom féminin • écologie scientifique",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Masse totale de matière vivante organique présente à un moment donné sur une surface ou dans un volume d'environnement déterminé.",
+        examples: [
+            {
+                fr: "Les végétaux représentent à eux seuls 80 % de la biomasse terrestre mondiale.",
+                en: "Plants alone account for 80% of the world's terrestrial biomass.",
+                cn: "仅植物就占据了全球陆地生物总量的80%。",
+                jp: "植物だけで世界の陸上バイオマスの80%を占めています。"
+            }
+        ]
+    },
+    {
+        id: 14760,
+        word: "Micro-organismes",
+        phonetic: "/mi.kʁɔ.ɔʁ.ɡa.nism/",
+        type: "nom masculin pluriel • biologie",
+        theme: "Sciences & Microbiologie",
+        level: "B2",
+        definition: "Organismes microscopiques invisibles à l'œil nu (bactéries, virus, levures, champignons unicellulaires) jouant un rôle vital dans les cycles biogéochimiques.",
+        examples: [
+            {
+                fr: "Les micro-organismes du sol décomposent la matière organique et garantissent la fertilité agricole.",
+                en: "Soil microorganisms break down organic matter and ensure agricultural fertility.",
+                cn: "土壤微生物分解有机质，切实保障着农田的土壤肥力。",
+                jp: "土壌微生物は有機物を分解し、農業における土壌肥沃度を維持します。"
+            }
+        ]
+    },
+    {
+        id: 14761,
+        word: "Invertébrés",
+        phonetic: "/ɛ̃.vɛʁ.te.bʁe/",
+        type: "nom masculin pluriel • zoologie",
+        theme: "Sciences & Zoologie",
+        level: "B2",
+        definition: "Animaux dépourvus de colonne vertébrale et de squelette osseux interne (insectes, arachnides, crustacés, vers, mollusques), formant 95 % du règne animal.",
+        examples: [
+            {
+                fr: "Soixante-dix pour cent des espèces animales connues sont des invertébrés.",
+                en: "Seventy percent of known animal species are invertebrates.",
+                cn: "已知动物物种中，有百分之七十属于无脊椎动物。",
+                jp: "既知の動物種の70%は無脊椎動物です。"
+            }
+        ]
+    },
+    {
+        id: 14762,
+        word: "Interactions",
+        phonetic: "/ɛ̃.tɛ.ʁak.sjɔ̃/",
+        type: "nom féminin pluriel • écologie des systèmes",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Actions et influences réciproques s'exerçant entre deux ou plusieurs organismes ou composantes d'un écosystème (symbiose, prédation, pollinisation).",
+        examples: [
+            {
+                fr: "La stabilité d'un écosystème dépend de la richesse des interactions entre ses espèces.",
+                en: "The stability of an ecosystem depends on the richness of interactions among its species.",
+                cn: "生态系统的稳定性取决于物种之间相互作用关系的丰富程度。",
+                jp: "生態系の安定性は、種間の相互作用の豊かさに依存しています。"
+            }
+        ]
+    },
+    {
+        id: 14763,
+        word: "Fragiles",
+        phonetic: "/fʁa.ʒil/",
+        type: "adjectif pluriel • état",
+        theme: "État & Propriété",
+        level: "A2",
+        definition: "Faciles à briser, à détériorer ou à déstabiliser ; sensibles aux moindres perturbations environnementales.",
+        examples: [
+            {
+                fr: "Les équilibres écologiques sont fragiles et peuvent basculer après la disparition d'une seule espèce clé.",
+                en: "Ecological balances are fragile and can collapse after the loss of a single keystone species.",
+                cn: "生态平衡十分脆弱，单一关键物种的消亡就可能引发整体崩塌。",
+                jp: "生態学的バランスは脆弱であり、たった1つのキーストーン種が消失しただけでも崩壊することがあります。"
+            }
+        ]
+    },
+    {
+        id: 14764,
+        word: "Précieux",
+        phonetic: "/pʁe.sjø/",
+        type: "adjectif masculin • valeur",
+        theme: "Valeur & Évaluation",
+        level: "B1",
+        definition: "Qui a une grande valeur, une utilité inestimable et qu'il convient de préserver avec le plus grand soin.",
+        examples: [
+            {
+                fr: "Les zones humides fournissent un réservoir d'eau précieux durant les canicules estivales.",
+                en: "Wetlands provide a precious water reservoir during summer heatwaves.",
+                cn: "湿地在夏季热浪期间提供了极其宝贵的水资源储备。",
+                jp: "湿地帯は、夏の熱波において極めて貴重な貯水池としての役割を果たします。"
+            }
+        ]
+    },
+    {
+        id: 14765,
+        word: "Survie",
+        phonetic: "/syʁ.vi/",
+        type: "nom féminin • biologie & condition",
+        theme: "Sciences & Vie",
+        level: "B1",
+        definition: "Fait de continuer à vivre, de se maintenir en vie malgré des conditions hostiles ou des menaces graves d'extinction.",
+        examples: [
+            {
+                fr: "La survie de l'humanité dépend directement du bon état écologique des forêts et des océans.",
+                en: "The survival of humanity depends directly on the sound ecological health of forests and oceans.",
+                cn: "人类的生存直接依托于森林和海洋良好的生态健康状况。",
+                jp: "人類の生存は、森林と海洋の良好な生態学的健全性に直結しています。"
+            }
+        ]
+    },
+    {
+        id: 14766,
+        word: "Sans même qu'",
+        phonetic: "/sɑ̃ mɛm kə/",
+        type: "locution conjonctive (+ subjonctif)",
+        theme: "Connecteurs & Syntaxe",
+        level: "B2",
+        definition: "Équivalent de « sans même que » ; introduit une subordonnée au subjonctif exprimant une circonstance dont les sujets n'ont pas la moindre perception ou intention.",
+        examples: [
+            {
+                fr: "Les insectes pollinisent nos cultures sans même qu'on en ait conscience au quotidien.",
+                en: "Insects pollinate our crops without us even being conscious of it on a daily basis.",
+                cn: "昆虫为我们的农作物授粉，而我们日常甚至对此毫无察觉。",
+                jp: "私たちが日頃意識することすらなく、昆虫は農作物の受粉を行っています。"
+            }
+        ]
+    },
+    {
+        id: 14767,
+        word: "Conscience",
+        phonetic: "/kɔ̃.sjɑ̃s/",
+        type: "nom féminin • psychologie & cognition",
+        theme: "Pensée & Connaissance",
+        level: "B1",
+        definition: "Faculté mentale de percevoir, de connaître sa propre existence et de comprendre la portée des réalités du monde extérieur (ex. « prendre conscience de »).",
+        examples: [
+            {
+                fr: "Il faut éveiller la conscience citoyenne sur la gravité de l'effondrement des insectes.",
+                en: "We must awaken civic awareness to the gravity of insect collapse.",
+                cn: "必须唤醒公众对昆虫数量锐减危机严重性的公民意识。",
+                jp: "昆虫の個体数崩壊という深刻な事態に対し、市民の意識を呼び起こさなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14768,
+        word: "Ait",
+        phonetic: "/ɛ/",
+        type: "forme verbale • subjonctif présent (avoir)",
+        theme: "Grammaire & Conjugaison",
+        level: "B2",
+        definition: "Troisième personne du singulier du subjonctif présent du verbe « avoir » (qu'il/on ait), requis après des locutions comme « sans que », « bien que », « pourvu que ».",
+        examples: [
+            {
+                fr: "Il est anormal qu'on ait ignoré les alertes répétées des scientifiques pendant des décennies.",
+                en: "It is unacceptable that we have ignored repeated scientists' warnings for decades.",
+                cn: "令人费解的是，数十年来人们竟对科学家反复发出的警告视而不见。",
+                jp: "科学者が何十年にもわたり繰り返し発してきた警告を無視してきたことは異常です。"
+            }
+        ]
+    },
+    {
+        id: 14769,
+        word: "Sauvages",
+        phonetic: "/so.vaʒ/",
+        type: "adjectif pluriel • nature",
+        theme: "Animaux & Nature",
+        level: "A2",
+        definition: "Qui vit en liberté dans la nature sans être apprivoisé, domestiqué ou sous contrôle direct de l'être humain.",
+        examples: [
+            {
+                fr: "Les populations de vertébrés sauvages ont chuté de 73 % au cours du dernier demi-siècle.",
+                en: "Wild vertebrate populations have plummeted by 73% over the last half century.",
+                cn: "野生脊椎动物种群在过去半个世纪中锐减了73%。",
+                jp: "野生の脊椎動物の個体数は、過去半世紀で73%も激減しました。"
+            }
+        ]
+    },
+    {
+        id: 14770,
+        word: "Bêtes",
+        phonetic: "/bɛt/",
+        type: "nom féminin pluriel • élevage & zoologie",
+        theme: "Animaux & Agriculture",
+        level: "A2",
+        definition: "Terme familier ou technique désignant les animaux, particulièrement les bêtes d'élevage (bovins, porcins, ovins).",
+        examples: [
+            {
+                fr: "L'écrasante majorité des mammifères sur Terre est constituée de nous et de nos bêtes d'élevage.",
+                en: "The overwhelming majority of mammals on Earth consists of humans and livestock beasts.",
+                cn: "地球上绝大多数哺乳动物正是由我们人类及其饲养的牲畜所组成。",
+                jp: "地球上の哺乳類の圧倒的多数は、人間と私たちが飼育する家畜によって占められています。"
+            }
+        ]
+    },
+    {
+        id: 14771,
+        word: "Internationale",
+        phonetic: "/ɛ̃.tɛʁ.na.sjɔ.nal/",
+        type: "adjectif féminin • politique & monde",
+        theme: "Monde & Relations",
+        level: "B1",
+        definition: "Qui concerne plusieurs nations souveraines ou qui s'établit entre elles (ex. la Journée internationale de la biodiversité célébrée le 22 mai).",
+        examples: [
+            {
+                fr: "Une coopération internationale est requise pour protéger les couloirs de migration des oiseaux.",
+                en: "International cooperation is required to protect bird migration flyways.",
+                cn: "保护候鸟迁徙通道需要跨越国界的国际合作。",
+                jp: "渡り鳥の移動ルートを保護するには、国際的な協力が不可欠です。"
+            }
+        ]
+    },
+    {
+        id: 14772,
+        word: "Crise",
+        phonetic: "/kʁiz/",
+        type: "nom féminin • politique & écologie",
+        theme: "Société & Problèmes",
+        level: "B1",
+        definition: "Situation critique, rupture brutale d'équilibre ou période difficile exigeant une réorganisation urgente.",
+        examples: [
+            {
+                fr: "La crise de la biodiversité est tout aussi grave pour l'humanité que la crise climatique.",
+                en: "The biodiversity crisis is just as severe for humanity as the climate crisis.",
+                cn: "对人类而言，生物多样性危机的严峻程度绝不亚于气候危机。",
+                jp: "生物多様性の危機は、気候危機と同等に人類にとって深刻な問題です。"
+            }
+        ]
+    },
+    {
+        id: 14773,
+        word: "Silence",
+        phonetic: "/si.lɑ̃s/",
+        type: "nom masculin • sonore & métaphore",
+        theme: "Communication & Nature",
+        level: "A2",
+        definition: "Absence totale de bruit ; au sens figuré, manque d'attention médiatique ou désintérêt coupable des pouvoirs publics.",
+        examples: [
+            {
+                fr: "La disparition des insectes des prairies s'opère dans un silence assourdissant.",
+                en: "The disappearance of meadow insects takes place in deafening silence.",
+                cn: "草甸昆虫的绝迹正在令人窒息的无声寂静中发生。",
+                jp: "草地の昆虫の消失は、耳を塞ぎたくなるような静寂の中で起きています。"
+            }
+        ]
+    },
+    {
+        id: 14774,
+        word: "Presque parfait",
+        phonetic: "/pʁɛsk paʁ.fɛ/",
+        type: "locution adjectivale • nuance d'intensité",
+        theme: "Degré & Évaluation",
+        level: "B1",
+        definition: "Qui approche d'une manière quasi totale l'état absolu visé, sans imperfection perceptible (ici : dans une indifférence et un silence quasi totaux).",
+        examples: [
+            {
+                fr: "L'érosion des populations d'oiseaux s'est déroulée dans un silence presque parfait.",
+                en: "The erosion of bird populations took place in near-perfect silence.",
+                cn: "鸟类种群的衰减几乎在无声无息的状态下悄然完成。",
+                jp: "鳥類の個体数減少は、ほぼ完全な静寂の中で進行しました。"
+            }
+        ]
+    },
+    {
+        id: 14775,
+        word: "Insectes",
+        phonetic: "/ɛ̃.sɛkt/",
+        type: "nom masculin pluriel • entomologie",
+        theme: "Sciences & Zoologie",
+        level: "A2",
+        definition: "Petits animaux invertébrés articulés pourvus de six pattes, formant la classe la plus diverse et nombreuse du règne animal sur Terre.",
+        examples: [
+            {
+                fr: "Les insectes assurent la pollinisation essentielle de la majorité des plantes à fleurs.",
+                en: "Insects ensure the vital pollination of the majority of flowering plants.",
+                cn: "昆虫承担着大部分开花植物不可或缺的传粉任务。",
+                jp: "昆虫は、顕花植物の大部分にとって不可欠な受粉を担っています。"
+            }
+        ]
+    },
+    {
+        id: 14776,
+        word: "Constellaient",
+        phonetic: "/kɔ̃.stɛ.lɛ/",
+        type: "verbe à l'imparfait • registre littéraire & descriptif",
+        theme: "Style & Narration",
+        level: "B2",
+        definition: "Verbe « consteller » (parsemer comme des étoiles) ; parsemer une surface d'une multitude de points ou taches denses.",
+        examples: [
+            {
+                fr: "Dans notre enfance, les papillons et moustiques constellaient les pare-brises après chaque long trajet.",
+                en: "In our childhood, butterflies and gnats studded car windshields after every long drive.",
+                cn: "在我们的童年时代，每次长途驾车后，密密麻麻的蝴蝶和小飞虫都会布满汽车挡风玻璃。",
+                jp: "子供の頃は、長距離ドライブの後に蝶や小虫がフロントガラス一面に星のように散らばっていました。"
+            }
+        ]
+    },
+    {
+        id: 14777,
+        word: "Pare-brises",
+        phonetic: "/paʁ.bʁiz/",
+        type: "nom masculin pluriel (pare-brise)",
+        theme: "Transports & Automobile",
+        level: "A2",
+        definition: "Vitre transparente située à l'avant d'un véhicule automobile pour protéger les passagers du vent, de la pluie et des projections.",
+        examples: [
+            {
+                fr: "Le « phénomène du pare-brise propre » illustre de façon flagrante le déclin massif des insectes.",
+                en: "The 'clean windshield phenomenon' strikingly illustrates the massive decline of insects.",
+                cn: "“洁净挡风玻璃现象”极其直观地揭示了昆虫数量的断崖式暴跌。",
+                jp: "「きれいなフロントガラス現象」は、昆虫の大量減少を如実に物語っています。"
+            }
+        ]
+    },
+    {
+        id: 14778,
+        word: "Même plus",
+        phonetic: "/mɛm ply/",
+        type: "locution adverbiale de négation renforcée",
+        theme: "Grammaire & Discours",
+        level: "B1",
+        definition: "Forme d'insistance marquant la cessation complète et étonnante d'une situation passée habituelle (ne... même plus).",
+        examples: [
+            {
+                fr: "Les gens ne s'aperçoivent même plus de la disparition des passereaux en ville.",
+                en: "People no longer even notice the disappearance of songbirds in cities.",
+                cn: "人们甚至都不再留意城市中麻雀等鸣禽的悄然消失。",
+                jp: "人々は都市部から小鳥たちが姿を消したことにさえ、もはや気づいていません。"
+            }
+        ]
+    },
+    {
+        id: 14779,
+        word: "Pourtant",
+        phonetic: "/puʁ.tɑ̃/",
+        type: "adverbe de concession / connecteur",
+        theme: "Connecteurs & Logique",
+        level: "B1",
+        definition: "Cependant, néanmoins ; introduit une opposition ou une objection forte face à ce qui vient d'être énoncé.",
+        examples: [
+            {
+                fr: "On parle peu de la biodiversité, pourtant un million d'espèces sont menacées d'extinction.",
+                en: "Biodiversity is rarely discussed, yet one million species face extinction.",
+                cn: "生物多样性鲜少被提及，然而却有上百万个物种正面临灭绝危机。",
+                jp: "生物多様性についてはあまり語られませんが、それでもなお100万種が絶滅の危機に瀕しています。"
+            }
+        ]
+    },
+    {
+        id: 14780,
+        word: "Extinction",
+        phonetic: "/ɛk.stɛ̃k.sjɔ̃/",
+        type: "nom féminin • biologie & évolution",
+        theme: "Sciences & Évolution",
+        level: "B2",
+        definition: "Disparition totale et définitive d'une espèce vivante sur Terre, sans qu'aucun individu survivant ne subsiste pour assurer sa reproduction.",
+        examples: [
+            {
+                fr: "Le rythme actuel des extinctions dépasse de loin les moyennes enregistrées dans les archives fossiles.",
+                en: "The current rate of extinctions far outpaces averages recorded in fossil records.",
+                cn: "目前的物种灭绝速度已远远超过了化石记录中所载的历史平均水平。",
+                jp: "現在の絶滅速度は、化石記録に刻まれた歴史的平均をはるかに上回っています。"
+            }
+        ]
+    },
+    {
+        id: 14781,
+        word: "Menacées",
+        phonetic: "/mə.na.se/",
+        type: "adjectif féminin pluriel (menacé)",
+        theme: "Risques & État",
+        level: "B1",
+        definition: "Exposées à un danger imminent de destruction, d'extinction ou de régression irrémédiable.",
+        examples: [
+            {
+                fr: "Plus de 28 % des espèces évaluées par l'UICN sont aujourd'hui officiellement menacées.",
+                en: "Over 28% of species assessed by the IUCN are currently officially threatened.",
+                cn: "世界自然保护联盟评估的物种中，有超过28%已被正式列为濒危受威胁物种。",
+                jp: "IUCNによって評価された種の28%以上が、現在公式に絶滅の危機に瀕しています。"
+            }
+        ]
+    },
+    {
+        id: 14782,
+        word: "Vertébrés",
+        phonetic: "/vɛʁ.te.bʁe/",
+        type: "nom masculin pluriel • zoologie",
+        theme: "Sciences & Zoologie",
+        level: "B2",
+        definition: "Sous-embranchement d'animaux pourvus d'un squelette interne cartilagineux ou osseux et d'une colonne vertébrale (poissons, amphibiens, reptiles, oiseaux, mammifères).",
+        examples: [
+            {
+                fr: "L'indice Planète Vivante révèle un déclin de 73 % chez les vertébrés sauvages en 50 ans.",
+                en: "The Living Planet Index reveals a 73% decline in wild vertebrates over 50 years.",
+                cn: "《地球生命力指数》揭示了野生脊椎动物种群在过去50年间惊人地萎缩了73%。",
+                jp: "生きている地球指数は、野生の脊椎動物が過去50年間で73%減少したことを明らかにしています。"
+            }
+        ]
+    },
+    {
+        id: 14783,
+        word: "Réapprendre",
+        phonetic: "/ʁe.a.pʁɑ̃dʁ/",
+        type: "verbe transitif (3e groupe)",
+        theme: "Apprentissage & Pédagogie",
+        level: "B1",
+        definition: "Apprendre à nouveau ce qui avait été oublié ou réviser ses connaissances pour adopter une perspective renouvelée et plus lucide.",
+        examples: [
+            {
+                fr: "Nous devons réapprendre à observer la nature ordinaire qui entoure nos villes.",
+                en: "We must relearn to observe the ordinary nature that surrounds our cities.",
+                cn: "我们必须重新学会观察和体会环绕在城市周围平凡却珍贵的大自然。",
+                jp: "私たちは、都市を取り巻く身近な自然を観察することを再び学び直さなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14784,
+        word: "IPBES",
+        phonetic: "/i.pe.be.ɛs/",
+        type: "sigle / nom féminin institutionnel",
+        theme: "Institutions & Écologie",
+        level: "C1",
+        definition: "Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques (surnommée le « GIEC de la biodiversité »). <a href=\"html/ipbes.html\" target=\"_blank\">Consulter la fiche détaillée</a>.",
+        examples: [
+            {
+                fr: "Les synthèses de l'IPBES fournissent aux décideurs mondiaux des données incontournables sur la santé des écosystèmes.",
+                en: "IPBES assessments provide global decision-makers with indispensable data on ecosystem health.",
+                cn: "生物多样性和生态系统服务政府间科学政策平台的评估报告为全球决策者提供了至关重要的生态数据。",
+                jp: "IPBES（生物多様性及び生態系サービスに関する政府間科学政策プラットフォーム）の総合評価は、生態系の健全性に関する不可欠なデータを世界の政策決定者に提供します。"
+            }
+        ]
+    },
+    {
+        id: 14785,
+        word: "Infographies",
+        phonetic: "/ɛ̃.fɔ.ɡʁa.fi/",
+        type: "nom féminin pluriel • médias & vulgarisation",
+        theme: "Médias & Communication",
+        level: "B2",
+        definition: "Représentations visuelles schématiques et graphiques synthétisant des données complexes, des statistiques ou des processus pour les rendre intelligibles au plus grand nombre.",
+        examples: [
+            {
+                fr: "Le livre propose des infographies percutantes pour comprendre les ordres de grandeur de la biomasse.",
+                en: "The book features striking infographics to grasp biomass scales and magnitudes.",
+                cn: "该书通过极富冲击力的信息图表，帮助读者快速把握生物量等宏观层面的数量级概念。",
+                jp: "この書籍は、バイオマスの規模を理解するために非常にわかりやすいインフォグラフィックスを提示しています。"
+            }
+        ]
+    },
+    {
+        id: 14786,
+        word: "Urgence",
+        phonetic: "/yʁ.ʒɑ̃s/",
+        type: "nom féminin • état de nécessité",
+        theme: "Société & Priorités",
+        level: "B1",
+        definition: "Caractère de ce qui ne supporte aucun délai, qui nécessite une réaction immédiate et vigoureuse.",
+        examples: [
+            {
+                fr: "Face à l'érosion des écosystèmes, les scientifiques proclament l'état d'urgence écologique.",
+                en: "Faced with the erosion of ecosystems, scientists declare an ecological state of emergency.",
+                cn: "面对生态系统的加速退化，科学家们大声疾呼进入生态紧急状态。",
+                jp: "生態系の荒廃に直面し、科学者たちは生態学的緊急事態を宣言しています。"
+            }
+        ]
+    },
+    {
+        id: 14787,
+        word: "Préface",
+        phonetic: "/pʁe.fas/",
+        type: "nom féminin • littérature & édition",
+        theme: "Livres & Édition",
+        level: "B1",
+        definition: "Texte préliminaire placé en tête d'un livre pour le présenter au lecteur, préciser ses objectifs ou en cautionner l'importance intellectuelle.",
+        examples: [
+            {
+                fr: "La préface rédigée par la climatologue Valérie Masson-Delmotte souligne l'interconnexion entre climat et biodiversité.",
+                en: "The preface penned by climatologist Valérie Masson-Delmotte highlights the interconnectedness between climate and biodiversity.",
+                cn: "由气候学家瓦莱丽·马松-德尔莫特执笔的序言，深刻阐明了气候与生物圈之间的内在紧密联系。",
+                jp: "気候学者のヴァレリー・マッソン＝デルモットによる序文は、気候と生物多様性の相互連関を強調しています。"
+            }
+        ]
+    },
+    {
+        id: 14788,
+        word: "Climatologue",
+        phonetic: "/kli.ma.tɔ.lɔɡ/",
+        type: "nom épicène • sciences",
+        theme: "Sciences & Climat",
+        level: "B2",
+        definition: "Scientifique spécialisé dans l'étude des climats de la Terre, de leurs évolutions passées et de leurs modélisations futures.",
+        examples: [
+            {
+                fr: "Les climatologues alertent sur l'augmentation sans précédent des canicules continentales.",
+                en: "Climatologists warn of an unprecedented surge in continental heatwaves.",
+                cn: "气候学家们对内陆极端热浪史无前例的频发趋势发出严厉预警。",
+                jp: "気候学者たちは、大陸性熱波の前例のない増加について警鐘を鳴らしています。"
+            }
+        ]
+    },
+    {
+        id: 14789,
+        word: "Une voix qui ... porte",
+        phonetic: "/yn vwa ki pɔʁt/",
+        type: "expression idiomatique / métaphore",
+        theme: "Médias & Communication",
+        level: "B2",
+        definition: "Expression métaphorique signifiant avoir une grande autorité, être largement écouté, respecté et influent auprès du public ou des institutions.",
+        examples: [
+            {
+                fr: "Valérie Masson-Delmotte a une voix qui porte dans le débat public sur l'environnement.",
+                en: "Valérie Masson-Delmotte has a voice that carries weight in the public environmental debate.",
+                cn: "瓦莱丽·马松-德尔莫特在有关环境的公众大辩论中具有举足轻重的话语权和影响力。",
+                jp: "ヴァレリー・マッソン＝デルモットは、環境に関する公開討論において非常に影響力のある発言権を持っています。"
+            }
+        ]
+    },
+    {
+        id: 14790,
+        word: "Sont en train de",
+        phonetic: "/sɔ̃.t‿ɑ̃ tʁɛ̃ də/",
+        type: "forme de la périphrase aspectuelle « être en train de »",
+        theme: "Grammaire & Aspect",
+        level: "A2",
+        definition: "Périphrase verbale marquant l'aspect progressif : indique qu'une action est en cours de déroulement au moment où l'on s'exprime.",
+        examples: [
+            {
+                fr: "Les températures sont en train de battre tous les records historiques pour un mois de mai.",
+                en: "Temperatures are in the middle of shattering all historical records for a month of May.",
+                cn: "当前的气温正在打破五月份有气象记录以来的所有历史极值。",
+                jp: "気温は現在、5月としてのすべての歴史的記録を塗り替えつつあります。"
+            }
+        ]
+    },
+    {
+        id: 14791,
+        word: "Inhabituelle",
+        phonetic: "/i.na.bi.tɥɛl/",
+        type: "adjectif féminin • régularité",
+        theme: "Fréquence & Caractère",
+        level: "B1",
+        definition: "Qui n'est pas conforme aux habitudes, aux normes statistiques ou à la saisonnalité ordinaire.",
+        examples: [
+            {
+                fr: "Une canicule aussi inhabituelle en mai fragilise la nidification des oiseaux de plaine.",
+                en: "Such an unusual heatwave in May jeopardizes the nesting of lowland birds.",
+                cn: "五月份如此反常的高温热浪严重威胁着平原鸟类的筑巢与繁育。",
+                jp: "5月にしては異例のこの熱波は、平野部の鳥類の営巣を危機に晒しています。"
+            }
+        ]
+    },
+    {
+        id: 14792,
+        word: "Marqueur",
+        phonetic: "/maʁ.kœʁ/",
+        type: "nom masculin • sciences & analyse",
+        theme: "Sciences & Méthodologie",
+        level: "B2",
+        definition: "Élément tangible, indicateur ou signal mesurable permettant de caractériser avec certitude un phénomène ou une tendance de fond.",
+        examples: [
+            {
+                fr: "Les canicules printanières précoces constituent un marqueur indéniable du réchauffement planétaire.",
+                en: "Early spring heatwaves constitute an undeniable marker of global warming.",
+                cn: "早春异常提前的热浪正是全球变暖无可争议的标志性指标。",
+                jp: "春先の早期熱波は、地球温暖化の紛れもない指標となっています。"
+            }
+        ]
+    },
+    {
+        id: 14793,
+        word: "Sans équivoque",
+        phonetic: "/sɑ̃.z‿e.ki.vɔk/",
+        type: "locution adverbiale / adjectivale",
+        theme: "Certitude & Logique",
+        level: "B2",
+        definition: "Parfaitement clair, indiscutable, ne prêtant à aucune hésitation, doute ou interprétation contradictoire.",
+        examples: [
+            {
+                fr: "Le constat du GIEC est sans équivoque : l'influence humaine réchauffe l'atmosphère.",
+                en: "The IPCC finding is unequivocal: human influence warms the atmosphere.",
+                cn: "联合国政府间气候变化专门委员会的结论明确无误：人类活动导致了地球大气变暖。",
+                jp: "IPCCの結論は明白です。人間活動が地球の大気を温暖化させていることは疑いようがありません。"
+            }
+        ]
+    },
+    {
+        id: 14794,
+        word: "Vagues de chaleur",
+        phonetic: "/vaɡ də ʃa.lœʁ/",
+        type: "nom féminin pluriel • météorologie",
+        theme: "Météo & Climat",
+        level: "B1",
+        definition: "Périodes prolongées durant lesquelles les températures maximales et minimales dépassent très nettement les normales saisonnières d'un territoire.",
+        examples: [
+            {
+                fr: "Les vagues de chaleur successives dessèchent la végétation forestière et multiplient les départs de feux.",
+                en: "Successive heatwaves dry out forest vegetation and multiply wildfire outbreaks.",
+                cn: "接连不断的热浪烤焦了森林植被，使得火灾隐患急剧增加。",
+                jp: "相次ぐ熱波は森林植生を乾燥させ、山火事の発生を急増させています。"
+            }
+        ]
+    },
+    {
+        id: 14795,
+        word: "Sont appelées à",
+        phonetic: "/sɔ̃.t‿a.pə.le a/",
+        type: "forme de la locution verbale « être appelé à » (+ infinitif)",
+        theme: "Grammaire & Prospective",
+        level: "B2",
+        definition: "Signifie être destiné à, devoir inévitablement se produire ou avoir vocation à selon les prévisions scientifiques.",
+        examples: [
+            {
+                fr: "Ces périodes de canicule sont appelées à se multiplier et à devenir plus intenses dans les décennies futures.",
+                en: "These heatwave periods are bound to multiply and grow more intense in the coming decades.",
+                cn: "科学预测表明，这类极端高温期在未来数十年中注定会更加频繁和剧烈。",
+                jp: "これらの熱波は、今後数十年でさらに頻発し、激化することは避けられません。"
+            }
+        ]
+    },
+    {
+        id: 14796,
+        word: "S'intensifier",
+        phonetic: "/s‿ɛ̃.tɑ̃.si.fje/",
+        type: "verbe pronominal (1er groupe)",
+        theme: "Évolution & Degré",
+        level: "B2",
+        definition: "Devenir plus intense, redoubler de puissance, d'ampleur, de force ou de gravité.",
+        examples: [
+            {
+                fr: "Les sécheresses risquent de s'intensifier sur le pourtour méditerranéen.",
+                en: "Droughts are likely to intensify across the Mediterranean basin.",
+                cn: "地中海沿岸地区的干旱态势很可能会进一步加剧。",
+                jp: "地中海沿岸地域では干ばつが一層激しさを増す恐れがあります。"
+            }
+        ]
+    },
+    {
+        id: 14797,
+        word: "Conséquences",
+        phonetic: "/kɔ̃.se.kɑ̃s/",
+        type: "nom féminin pluriel • causalité",
+        theme: "Logique & Causalité",
+        level: "B1",
+        definition: "Suites logiques, répercussions globales ou effets différés résultant d'un événement, d'une cause ou d'une décision dans un cadre étendu.",
+        examples: [
+            {
+                fr: "L'assèchement des marais entraîne des conséquences funestes sur l'approvisionnement en eau potable.",
+                en: "The draining of marshes brings about dire consequences for drinking water supplies.",
+                cn: "排干沼泽湿地会对饮用水供给产生长远而灾难性的恶果。",
+                jp: "湿地の干拓は、飲料水の供給に極めて深刻な影響をもたらします。"
+            }
+        ]
+    },
+    {
+        id: 14798,
+        word: "Estimer",
+        phonetic: "/ɛs.ti.me/",
+        type: "verbe transitif (1er groupe)",
+        theme: "Pensée & Mesure",
+        level: "B1",
+        definition: "Évaluer approximativement une grandeur, calculer un ordre de grandeur ou formuler un avis chiffré fondé sur une analyse rigoureuse.",
+        examples: [
+            {
+                fr: "Les écologues estiment que la moitié des plantes alpines pourraient disparaître d'ici un siècle.",
+                en: "Ecologists estimate that half of alpine plants could disappear within a century.",
+                cn: "生态学家估计，近半数高山植物可能在不到一个世纪内消亡。",
+                jp: "生態学者たちは、高山植物の半数が1世紀以内に姿を消す可能性があると見積もっています。"
+            }
+        ]
+    },
+    {
+        id: 14799,
+        word: "La mortalité",
+        phonetic: "/la mɔʁ.ta.li.te/",
+        type: "nom féminin singulier • démographie & sciences",
+        theme: "Sciences & Démographie",
+        level: "B2",
+        definition: "Taux, proportion ou nombre de décès survenus au sein d'une population vivante donnée durant une période déterminée.",
+        examples: [
+            {
+                fr: "La mortalité des arbres en forêt française a connu une hausse alarmante de 80 % en deux ans.",
+                en: "Tree mortality in French forests experienced an alarming 80% jump in two years.",
+                cn: "法国森林中林木的死亡率在短短两年内惊人地上升了80%。",
+                jp: "フランスの森林における樹木の枯死率は、わずか2年間で80%という憂慮すべき急上昇を記録しました。"
+            }
+        ]
+    },
+    {
+        id: 14800,
+        word: "Absolument",
+        phonetic: "/ab.sɔ.ly.mɑ̃/",
+        type: "adverbe • renforcement",
+        theme: "Degré & Affirmation",
+        level: "B1",
+        definition: "D'une manière totale, complète, sans restriction ni réserve aucune.",
+        examples: [
+            {
+                fr: "Cette hausse thermique est un phénomène absolument exceptionnel pour le printemps.",
+                en: "This thermal increase is an absolutely exceptional phenomenon for springtime.",
+                cn: "这种急剧的升温现象对于春季而言绝对属于极端异常。",
+                jp: "この気温上昇は、春の気候として全くもって異例の現象です。"
+            }
+        ]
+    },
+    {
+        id: 14801,
+        word: "Exceptionnel",
+        phonetic: "/ɛk.sɛp.sjɔ.nɛl/",
+        type: "adjectif masculin • rareté",
+        theme: "Rareté & Évaluation",
+        level: "B1",
+        definition: "Qui sort de l'ordinaire, déroge à la règle commune ou se produit avec une rareté extrême (ex. un événement millénaire).",
+        examples: [
+            {
+                fr: "Un événement aussi exceptionnel ne devrait statistiquement survenir qu'une fois par millénaire.",
+                en: "Such an exceptional event should statistically happen only once in a millennium.",
+                cn: "如此极端的事件在统计学概率上本应每千年才可能发生一次。",
+                jp: "これほど異例の出来事は、統計的には1000年に1度しか起こり得ないはずです。"
+            }
+        ]
+    },
+    {
+        id: 14802,
+        word: "Bactéries",
+        phonetic: "/bak.te.ʁi/",
+        type: "nom féminin pluriel • microbiologie",
+        theme: "Sciences & Biologie",
+        level: "B1",
+        definition: "Micro-organismes unicellulaires procaryotes ubiquistes, moteurs clés du recyclage de l'azote et du carbone dans les sols.",
+        examples: [
+            {
+                fr: "Sans les bactéries nitrifiantes du sol, les plantes ne pourraient assimiler les nutriments vitaux.",
+                en: "Without nitrifying soil bacteria, plants could not absorb vital nutrients.",
+                cn: "缺少土壤中的硝化细菌，植物便无法吸收到维持生长的必需养分。",
+                jp: "土壌中の硝化細菌がなければ、植物は生命維持に必要な栄養分を吸収できません。"
+            }
+        ]
+    },
+    {
+        id: 14803,
+        word: "Reproduction",
+        phonetic: "/ʁə.pʁɔ.dyk.sjɔ̃/",
+        type: "nom féminin • biologie",
+        theme: "Sciences & Biologie",
+        level: "B1",
+        definition: "Ensemble des processus biologiques par lesquels les êtres vivants engendrent de nouveaux individus semblables à eux pour pérenniser l'espèce.",
+        examples: [
+            {
+                fr: "Une canicule précoce en mai frappe les animaux en pleine période de reproduction.",
+                en: "An early May heatwave strikes animals in the midst of their reproductive season.",
+                cn: "五月份的反常早热恰逢动物繁殖哺育的黄金高峰期，带来了重创。",
+                jp: "5月の早期熱波は、繁殖の真っ只中にある動物たちを直撃します。"
+            }
+        ]
+    },
+    {
+        id: 14804,
+        word: "Chercheurs",
+        phonetic: "/ʃɛʁ.ʃœʁ/",
+        type: "nom masculin pluriel • métiers de la recherche",
+        theme: "Sciences & Métiers",
+        level: "B1",
+        definition: "Professionnels voués à l'investigation scientifique, à la découverte de nouvelles lois naturelles et à la production de savoirs.",
+        examples: [
+            {
+                fr: "Des chercheurs grenoblois modélisent le recul altitudinal de la flore de montagne.",
+                en: "Grenoble researchers are modeling the altitudinal retreat of mountain flora.",
+                cn: "格勒诺布尔的科研人员正在模拟山区植被因变暖而向更高海拔退缩的模型。",
+                jp: "グルノーブルの研究者たちは、山岳植物の高山への後退をモデル化しています。"
+            }
+        ]
+    },
+    {
+        id: 14805,
+        word: "Territoires",
+        phonetic: "/tɛ.ʁi.twaʁ/",
+        type: "nom masculin pluriel • géographie & écologie",
+        theme: "Géographie & Société",
+        level: "B1",
+        definition: "Étendues géographiques bien délimitées caractérisées par leurs paysages, leurs écosystèmes et leurs communautés humaines et vivantes.",
+        examples: [
+            {
+                fr: "La chaleur record s'est abattue uniformément sur tous les territoires de l'Hexagone.",
+                en: "Record heat descended uniformly across all territories of mainland France.",
+                cn: "破纪录的高温均匀地笼罩了法国本土的所有地域。",
+                jp: "記録的な猛暑がフランス全土のあらゆる地域に一様に襲いかかりました。"
+            }
+        ]
+    },
+    {
+        id: 14806,
+        word: "En ce moment",
+        phonetic: "/ɑ̃ sə mɔ.mɑ̃/",
+        type: "locution adverbiale de temps",
+        theme: "Temps & Chronologie",
+        level: "A1",
+        definition: "Actuellement, à l'heure présente, au moment précis où se déroule l'échange ou l'événement.",
+        examples: [
+            {
+                fr: "Ce que nous ressentons en ce moment dans nos corps préfigure les étés caniculaires futurs.",
+                en: "What we are feeling right now in our bodies foreshadows future sweltering summers.",
+                cn: "我们此时此刻身体所真切感受到的酷热，预演了未来的严酷夏天。",
+                jp: "今私たちが体で感じている暑さは、将来の過酷な夏を予感させます。"
+            }
+        ]
+    },
+    {
+        id: 14807,
+        word: "Exceptionnelle",
+        phonetic: "/ɛk.sɛp.sjɔ.nɛl/",
+        type: "adjectif féminin • intensité",
+        theme: "Rareté & Degré",
+        level: "B1",
+        definition: "Forme féminine d'« exceptionnel » ; qui dépasse totalement l'ordinaire ou les moyennes historiques observées.",
+        examples: [
+            {
+                fr: "Cette anomalie thermique exceptionnelle perturbe le cycle végétatif des arbres fruitiers.",
+                en: "This exceptional thermal anomaly disrupts the growth cycle of fruit trees.",
+                cn: "这一极为罕见的异常温度扰乱了果树原有的生长休眠物候周期。",
+                jp: "この異例の気温異常は、果樹の生育サイクルを狂わせています。"
+            }
+        ]
+    },
+    {
+        id: 14808,
+        word: "Projections",
+        phonetic: "/pʁɔ.ʒɛk.sjɔ̃/",
+        type: "nom féminin pluriel • prospective",
+        theme: "Sciences & Avenir",
+        level: "B2",
+        definition: "Estimations chiffrées de l'état futur d'un système complexe (climat, biodiversité) obtenues par des modèles mathématiques et scientifiques.",
+        examples: [
+            {
+                fr: "Les projections climatiques annoncent des pointes régulières à plus de 45 °C en France d'ici 2050.",
+                en: "Climate projections forecast regular peaks above 45°C in France by 2050.",
+                cn: "气候预测模型显示，到2050年法国局部气温将经常攀升至45°C以上。",
+                jp: "気候予測によると、フランスでは2050年までに45℃を超えるピークが日常的になると予測されています。"
+            }
+        ]
+    },
+    {
+        id: 14809,
+        word: "Scientifique",
+        phonetic: "/sjɑ̃.ti.fik/",
+        type: "nom épicène (ici au sens de la personne exerçant la profession)",
+        theme: "Sciences & Métiers",
+        level: "B1",
+        definition: "Personne diplômée qui pratique les sciences, conduit des recherches selon une démarche rigoureuse et produit des connaissances validées.",
+        examples: [
+            {
+                fr: "En tant que scientifique, Tatiana Giraud fonde son discours sur des données vérifiables.",
+                en: "As a scientist, Tatiana Giraud bases her remarks on verifiable data.",
+                cn: "作为一名专业科研人员，塔蒂亚娜·吉罗的观点始终建立在经得起检验的数据之上。",
+                jp: "科学者として、タチアナ・ジローは自らの主張を検証可能なデータに基づかせています。"
+            }
+        ]
+    },
+    {
+        id: 14810,
+        word: "En tant que",
+        phonetic: "/ɑ̃ tɑ̃ kə/",
+        type: "locution prépositive • posture & rôle",
+        theme: "Discours & Rôle",
+        level: "B1",
+        definition: "En qualité de, à titre de ; introduit le rôle, le statut ou la perspective officielle sous laquelle s'exprime un locuteur.",
+        examples: [
+            {
+                fr: "Elle s'exprime à la fois en tant que chercheuse et en tant que citoyenne engagée.",
+                en: "She speaks both as a researcher and as an engaged citizen.",
+                cn: "她既以科研工作者的身份发声，亦以负责任公民的角色建言。",
+                jp: "彼女は研究者として、また関与する一市民としての両方の立場から発言しています。"
+            }
+        ]
+    },
+    {
+        id: 14811,
+        word: "Est affectée par",
+        phonetic: "/ɛ.t‿a.fɛk.te paʁ/",
+        type: "locution verbale passive (forme de « être affecté par »)",
+        theme: "Grammaire & Passif",
+        level: "B2",
+        definition: "Subir l'impact négatif, le trouble ou la modification néfaste provoquée par un facteur externe agressif.",
+        examples: [
+            {
+                fr: "La faune aquatique est lourdement affectée par la baisse d'oxygénation des cours d'eau en été.",
+                en: "Aquatic fauna is heavily affected by drops in oxygenation in waterways in summer.",
+                cn: "夏季河流含氧量的大幅下滑对水生动物种群造成了沉重打击。",
+                jp: "水生生物は、夏季における河川の酸素濃度低下によって甚大な影響を受けています。"
+            }
+        ]
+    },
+    {
+        id: 14812,
+        word: "À ce point-là",
+        phonetic: "/a sə pwɛ̃ la/",
+        type: "locution adverbiale d'intensité",
+        theme: "Degré & Comparaison",
+        level: "B1",
+        definition: "À un tel degré, avec une intensité ou une démesure aussi stupéfiante.",
+        examples: [
+            {
+                fr: "Personne n'imaginait que le dépérissement des forêts allait s'accélérer à ce point-là.",
+                en: "Nobody imagined that forest dieback was going to accelerate to such an extent.",
+                cn: "谁也没有料到森林的凋零枯死竟会加剧到如此惊人的地步。",
+                jp: "森林の立ち枯れがここまで急速に加速するとは、誰も想像していませんでした。"
+            }
+        ]
+    },
+    {
+        id: 14813,
+        word: "Quand même",
+        phonetic: "/kɑ̃ mɛm/",
+        type: "locution adverbiale • concession & insistance",
+        theme: "Concession & Discours",
+        level: "A2",
+        definition: "Malgré tout, en dépit des réserves ; employé aussi pour marquer l'évidence d'une nécessité qu'on ne saurait ignorer.",
+        examples: [
+            {
+                fr: "Il faut quand même prendre au sérieux les canicules records qui frappent notre pays dès le mois de mai.",
+                en: "We must all the same take seriously the record heatwaves striking our country as early as May.",
+                cn: "无论如何，我们都绝不能对早在五月便席卷全国的历史性热浪掉以轻心。",
+                jp: "それでもなお、5月の時点で我が国を襲っている記録的な熱波を真剣に受け止める必要があります。"
+            }
+        ]
+    },
+    {
+        id: 14814,
+        word: "À prendre ... au sérieux",
+        phonetic: "/a pʁɑ̃dʁ ... o se.ʁjø/",
+        type: "locution verbale idiomatique",
+        theme: "Jugement & Gravité",
+        level: "B1",
+        definition: "Considérer une situation avec toute la gravité, l'importance et la rigueur qu'elle réclame, sans légèreté ni moquerie.",
+        examples: [
+            {
+                fr: "Ces signaux précurseurs d'effondrement sont des alertes majeures à prendre très au sérieux.",
+                en: "These precursor signals of collapse are major warnings to take very seriously.",
+                cn: "这些生态崩溃的先兆信号正是必须极其严肃看待的重大警讯。",
+                jp: "崩壊の前兆となるこれらの兆候は、極めて真剣に受け止めねばならない重大な警告です。"
+            }
+        ]
+    },
+    {
+        id: 14815,
+        word: "En train de",
+        phonetic: "/ɑ̃ tʁɛ̃ də/",
+        type: "locution prépositive aspectuelle (+ infinitif)",
+        theme: "Grammaire & Temps",
+        level: "A2",
+        definition: "Indique qu'une action est en plein déroulement, en phase active d'accomplissement.",
+        examples: [
+            {
+                fr: "Nous sommes en train de tester dangereusement les limites de résistance du vivant.",
+                en: "We are currently testing the limits of living systems' endurance in a dangerous way.",
+                cn: "我们目前正危险地试探着整个生命世界承受力的终极极限。",
+                jp: "私たちは今、生命の耐久性の限界を危険な形で試してしまっています。"
+            }
+        ]
+    },
+    {
+        id: 14816,
+        word: "S'interroger",
+        phonetic: "/s‿ɛ̃.tɛ.ʁɔ.ʒe/",
+        type: "verbe pronominal (1er groupe)",
+        theme: "Pensée & Réflexion",
+        level: "B1",
+        definition: "Se poser des questions intimes ou citoyennes, analyser d'un œil critique une problématique ou ses choix de société.",
+        examples: [
+            {
+                fr: "Les citoyens commencent à s'interroger sur l'habitabilité de leurs villes en période estivale.",
+                en: "Citizens are beginning to question the habitability of their cities during summer periods.",
+                cn: "市民们开始深入反思城市在酷暑环境下的宜居性问题。",
+                jp: "市民たちは、夏季における都市の居住可能性について自問し始めています。"
+            }
+        ]
+    },
+    {
+        id: 14817,
+        word: "Prendre en compte",
+        phonetic: "/pʁɑ̃dʁ ɑ̃ kɔ̃t/",
+        type: "locution verbale",
+        theme: "Décision & Logique",
+        level: "B1",
+        definition: "Tenir compte de, intégrer obligatoirement un facteur déterminant ou un avis dans son raisonnement ou son action publique.",
+        examples: [
+            {
+                fr: "Les politiques publiques doivent prendre en compte les avis unanimes des scientifiques.",
+                en: "Public policies must take into account the unanimous opinions of scientists.",
+                cn: "公共政策必须切实考量并吸纳科学界一致提出的专业意见。",
+                jp: "公共政策は、科学者たちの全会一致の意見を考慮に入れなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14818,
+        word: "Prise en compte",
+        phonetic: "/pʁiz ɑ̃ kɔ̃t/",
+        type: "nom féminin composé",
+        theme: "Décision & Procédure",
+        level: "B2",
+        definition: "Action d'intégrer formellement un paramètre, une donnée ou une préoccupation dans un plan ou une législation.",
+        examples: [
+            {
+                fr: "Le manque de prise en compte de la biodiversité dans les lois agricoles suscite l'indignation des chercheurs.",
+                en: "The lack of consideration of biodiversity in agricultural bills sparks outrage among researchers.",
+                cn: "农业立法对生物多样性考量的缺失引起了科研人员的极大愤慨。",
+                jp: "農業法案において生物多様性が考慮されていないことは、研究者たちの怒りを買っています。"
+            }
+        ]
+    },
+    {
+        id: 14819,
+        word: "Justement",
+        phonetic: "/ʒys.tə.mɑ̃/",
+        type: "adverbe de liaison • reprise de discours",
+        theme: "Connecteurs & Dialogue",
+        level: "B1",
+        definition: "Précisément, à propos ; marque la confirmation opportune ou le lien étroit avec ce qui vient d'être mentionné.",
+        examples: [
+            {
+                fr: "C'est justement sur ce point précis que le nouveau rapport apporte un éclairage décisif.",
+                en: "It is precisely on this point that the new report provides decisive insight.",
+                cn: "正是在这一点上，最新的综合报告给出了决定性的深入剖析。",
+                jp: "まさにこの点において、最新の報告書は決定的な洞察を提供しています。"
+            }
+        ]
+    },
+    {
+        id: 14820,
+        word: "Incompréhensible",
+        phonetic: "/ɛ̃.kɔ̃.pʁe.ɑ̃.sibl/",
+        type: "adjectif • jugement critique",
+        theme: "Jugement & Clarté",
+        level: "B2",
+        definition: "Impossible à concevoir, dénué de logique saine ou choquant par son irrationalité face aux évidences.",
+        examples: [
+            {
+                fr: "L'inaction des dirigeants face à l'effondrement documenté du vivant paraît incompréhensible.",
+                en: "Leaders' inaction in the face of the documented collapse of living systems seems incomprehensible.",
+                cn: "在生态崩溃证据确凿的前提下，执政者的不作为显得令人无法理喻。",
+                jp: "生命の崩壊が明確に実証されているにもかかわらず、指導者たちが無為無策であることは理解に苦しみます。"
+            }
+        ]
+    },
+    {
+        id: 14821,
+        word: "C'est-à-dire",
+        phonetic: "/s‿ɛ.t‿a diʁ/",
+        type: "locution explicative / connecteur",
+        theme: "Connecteurs & Explication",
+        level: "A2",
+        definition: "Formule servant à expliciter, clarifier ou reformuler en détail une affirmation précédente.",
+        examples: [
+            {
+                fr: "La Terre subit un effondrement biologique, c'est-à-dire une diminution drastique des effectifs de chaque espèce.",
+                en: "The Earth is undergoing biological collapse, that is to say a drastic drop in numbers of each species.",
+                cn: "地球正经历生物学崩溃，也就是说各个物种的个体数量正在断崖式骤降。",
+                jp: "地球は生物学的崩壊、すなわち各生物種の個体数の劇的な減少を経験しています。"
+            }
+        ]
+    },
+    {
+        id: 14822,
+        word: "Prendre soin de",
+        phonetic: "/pʁɑ̃dʁ swɛ̃ də/",
+        type: "locution verbale • sollicitude & responsabilité",
+        theme: "Soin & Société",
+        level: "A2",
+        definition: "Veiller au bien-être, protéger, préserver attentivement quelqu'un ou quelque chose des dangers et dégradations.",
+        examples: [
+            {
+                fr: "Les gouvernants ont pour devoir fondamental de prendre soin de la santé de leurs concitoyens.",
+                en: "Governments have a fundamental duty to look after the health of their fellow citizens.",
+                cn: "执政者的首要根本职责便是悉心守护本国公民的生命健康与安全。",
+                jp: "政府の基本的義務は、市民の健康に配慮し保護することにあります。"
+            }
+        ]
+    },
+    {
+        id: 14823,
+        word: "Prendre soin du",
+        phonetic: "/pʁɑ̃dʁ swɛ̃ dy/",
+        type: "locution verbale contractée (de + le = du)",
+        theme: "Soin & Responsabilité",
+        level: "A2",
+        definition: "Variante contractée s'appliquant à un nom masculin singulier (ex. « prendre soin du bien commun »).",
+        examples: [
+            {
+                fr: "L'État a la responsabilité morale de prendre soin du patrimoine naturel pour les générations futures.",
+                en: "The State has a moral responsibility to look after natural heritage for future generations.",
+                cn: "国家负有为子孙后代悉心守护自然遗产的崇高道德责任。",
+                jp: "国家には、将来の世代のために自然遺産を保護し手入れをする道義的責任があります。"
+            }
+        ]
+    },
+    {
+        id: 14824,
+        word: "A l'impression qu'",
+        phonetic: "/a l‿ɛ̃.pʁɛ.sjɔ̃ kə/",
+        type: "forme élidée de la locution « avoir l'impression que »",
+        theme: "Perception & Sentiment",
+        level: "B1",
+        definition: "Avoir le sentiment subjectif ou l'impression intuitive qu'une situation se produit ainsi.",
+        examples: [
+            {
+                fr: "On a l'impression que les impératifs de la finance prennent le pas sur la survie du vivant.",
+                en: "We get the impression that financial dictates take precedence over the survival of living systems.",
+                cn: "人们总有一种强烈的直观感受：金融资本的指令凌驾在了生命繁衍之上。",
+                jp: "金融の論理が生命の存続よりも優先されているかのような印象を受けます。"
+            }
+        ]
+    },
+    {
+        id: 14825,
+        word: "Prennent ... en compte",
+        phonetic: "/pʁɛn ... ɑ̃ kɔ̃t/",
+        type: "forme verbale de « prendre en compte » (3e pers. pluriel indicatif présent)",
+        theme: "Grammaire & Décision",
+        level: "B1",
+        definition: "Conjugaison du verbe au pluriel avec insertion d'adverbes (ex. « prennent souvent plus en compte des intérêts financiers »).",
+        examples: [
+            {
+                fr: "Les décideurs prennent rarement en compte le temps long des équilibres biologiques.",
+                en: "Decision-makers seldom take into account the long timelines of biological balances.",
+                cn: "决策者们鲜少将生态平衡的长远演变周期纳入考量。",
+                jp: "政策決定者たちは、生物学的バランスの長期的な時間軸をほとんど考慮しません。"
+            }
+        ]
+    },
+    {
+        id: 14826,
+        word: "Intérêts",
+        phonetic: "/ɛ̃.te.ʁɛ/",
+        type: "nom masculin pluriel • économie & politique",
+        theme: "Économie & Pouvoir",
+        level: "B1",
+        definition: "Avantages, profits financiers, corporatistes ou politiques qu'un individu, un groupe ou un lobby cherche à préserver ou maximiser.",
+        examples: [
+            {
+                fr: "L'intérêt public général s'oppose souvent aux intérêts financiers à court terme des multinationales.",
+                en: "The general public interest often clashes with the short-term financial interests of multinationals.",
+                cn: "公共整体利益往往与跨国企业的短期金融利益产生尖锐对立。",
+                jp: "全般的な公共の利益は、多国籍企業の短期的な金融利害としばしば衝突します。"
+            }
+        ]
+    },
+    {
+        id: 14827,
+        word: "Le bien commun",
+        phonetic: "/lə bjɛ̃ kɔ.mœ̃/",
+        type: "nom masculin singulier • éthique & philosophie politique",
+        theme: "Philosophie & Société",
+        level: "B2",
+        definition: "Ensemble des conditions et des ressources collectives (eau pure, air respirable, biodiversité, climat stable) dont bénéficient tous les membres d'une communauté et dont la préservation incombe à tous.",
+        examples: [
+            {
+                fr: "La biodiversité ne peut être privatisée, elle constitue l'essence même du bien commun.",
+                en: "Biodiversity cannot be privatized; it constitutes the very essence of the common good.",
+                cn: "生物多样性绝不能被私有化，它是人类共有公共财富的核心精髓。",
+                jp: "生物多様性を私有化することはできません。それはまさに共通善（公共財）の本質を構成しています。"
+            }
+        ]
+    },
+    {
+        id: 14828,
+        word: "Habitable",
+        phonetic: "/a.bi.tabl/",
+        type: "adjectif • conditions d'existence",
+        theme: "Sciences & Environnement",
+        level: "B1",
+        definition: "Qui offre les conditions physiologiques et écologiques indispensables à la survie et au logement durable d'une population vivante.",
+        examples: [
+            {
+                fr: "Si les températures dépassent 50 °C chaque été, plusieurs plaines françaises ne seront plus habitables sans climatisation permanente.",
+                en: "If temperatures exceed 50°C each summer, several French plains will no longer be habitable without continuous air conditioning.",
+                cn: "若年年夏季气温攀升破50°C，倘若脱离持续制冷，法国多处平原恐将不再适合人类定居。",
+                jp: "もし毎年夏に気温が50℃を超えれば、フランスのいくつかの平野部は常時空調なしでは居住不能になるでしょう。"
+            }
+        ]
+    },
+    {
+        id: 14829,
+        word: "Voire",
+        phonetic: "/vwaʁ/",
+        type: "adverbe de surenchère • registre soutenu",
+        theme: "Connecteurs & Intensité",
+        level: "B2",
+        definition: "Et même, et qui plus est ; sert à introduire une affirmation encore plus forte ou plus extrême que la précédente.",
+        examples: [
+            {
+                fr: "Ces changements écologiques surviendront d'ici trente ans, voire beaucoup plus tôt.",
+                en: "These ecological shifts will occur within thirty years, or even much sooner.",
+                cn: "这些生态剧变将在三十年内发生，甚至可能来得快得多。",
+                jp: "こうした生態学的変化は30年以内、あるいはそれよりもはるかに早く起こるでしょう。"
+            }
+        ]
+    },
+    {
+        id: 14830,
+        word: "Puisque",
+        phonetic: "/pɥisk/",
+        type: "conjonction de subordination de cause",
+        theme: "Connecteurs & Logique",
+        level: "B1",
+        definition: "Étant donné que, vu que ; introduit une cause connue, évidente ou admise par les interlocuteurs.",
+        examples: [
+            {
+                fr: "Puisque les zones humides filtrent l'eau gratuitement, préservons-les sans délai.",
+                en: "Since wetlands filter water for free, let us preserve them without delay.",
+                cn: "既然湿地能够免费为我们过滤净水，我们便应当刻不容缓地加以保护。",
+                jp: "湿地が無料で水を浄化してくれる以上、直ちにそれらを保護すべきです。"
+            }
+        ]
+    },
+    {
+        id: 14831,
+        word: "Médias",
+        phonetic: "/me.dja/",
+        type: "nom masculin pluriel • communication",
+        theme: "Médias & Société",
+        level: "A2",
+        definition: "Ensemble des canaux et entreprises de diffusion massive de l'information (télévision, radio, presse écrite, plateformes en ligne).",
+        examples: [
+            {
+                fr: "Les grands médias consacrent encore trop peu de temps d'antenne à l'effondrement de la biodiversité.",
+                en: "Major media outlets still devote too little airtime to the collapse of biodiversity.",
+                cn: "主流大众媒体对生物多样性危机的报道时长依旧少得可怜。",
+                jp: "主要メディアは、生物多様性の崩壊に対して未だに極めてわずかな放送時間しか割いていません。"
+            }
+        ]
+    },
+    {
+        id: 14832,
+        word: "Parce qu'",
+        phonetic: "/paʁs kə/",
+        type: "forme élidée de « parce que »",
+        theme: "Connecteurs & Causalité",
+        level: "A1",
+        definition: "Conjonction introduisant l'explication causale directe d'un fait.",
+        examples: [
+            {
+                fr: "La biodiversité s'effondre parce qu'on détruit ses habitats naturels et qu'on y répand des pesticides.",
+                en: "Biodiversity is collapsing because we are destroying its natural habitats and spreading pesticides.",
+                cn: "生物多样性走向崩溃，正是因为人类摧毁了自然栖息地并在其中肆意倾倒农药。",
+                jp: "生物多様性が崩壊しているのは、私たちが自然生息地を破壊し農薬を撒き散らしているからです。"
+            }
+        ]
+    },
+    {
+        id: 14833,
+        word: "On ne se rend pas compte",
+        phonetic: "/ɔ̃ nə sə ʁɑ̃ pa kɔ̃t/",
+        type: "expression idiomatique (ne pas se rendre compte de)",
+        theme: "Conscience & Perception",
+        level: "B1",
+        definition: "Ne pas avoir conscience de la réalité, ignorer l'importance d'un phénomène ou ne pas en mesurer la portée exacte.",
+        examples: [
+            {
+                fr: "On ne se rend pas compte à quel point notre confort dépend des pollinisateurs et des champignons.",
+                en: "We do not realize the extent to which our comfort depends on pollinators and fungi.",
+                cn: "我们根本没有意识到，人类的日常福祉在多大程度上深切依托于授粉昆虫与真菌。",
+                jp: "私たちの生活の快適さが受粉媒介者や菌類にどれほど依存しているか、私たちは実感できていません。"
+            }
+        ]
+    },
+    {
+        id: 14834,
+        word: "Fréquentes",
+        phonetic: "/fʁe.kɑ̃t/",
+        type: "adjectif féminin pluriel • récurrence",
+        theme: "Temps & Fréquence",
+        level: "B1",
+        definition: "Qui se répètent à intervalles rapprochés, qui surviennent souvent.",
+        examples: [
+            {
+                fr: "Les inondations destructrices deviennent de plus en plus fréquentes dans les vallées déboisées.",
+                en: "Destructive floods are becoming increasingly frequent in deforested valleys.",
+                cn: "在失去森林植被保护的河谷地带，破坏性洪水正变得愈加频繁。",
+                jp: "森林伐採された渓谷では、壊滅的な洪水がますます頻繁に発生しています。"
+            }
+        ]
+    },
+    {
+        id: 14835,
+        word: "En partie",
+        phonetic: "/ɑ̃ paʁ.ti/",
+        type: "locution adverbiale de restriction",
+        theme: "Degré & Logique",
+        level: "B1",
+        definition: "Pour une part, non totalement ; indique une causalité partielle conjuguée à d'autres facteurs.",
+        examples: [
+            {
+                fr: "L'intensification des inondations est en partie causée par l'assèchement des marais.",
+                en: "The intensification of floods is partly caused by the draining of marshes.",
+                cn: "洪涝灾害的加剧，在一定程度上正是由于沼泽湿地被大肆排干所致。",
+                jp: "洪水の激化は、湿地の排水が一因となっています。"
+            }
+        ]
+    },
+    {
+        id: 14836,
+        word: "Faisaient tampon",
+        phonetic: "/fə.zɛ tɑ̃.pɔ̃/",
+        type: "forme à l'imparfait de la locution « faire tampon »",
+        theme: "Sciences & Mécanisme",
+        level: "B2",
+        definition: "Amortir les chocs, absorber les excès pour tempérer un déséquilibre (ici : absorber l'eau lors des crues et la restituer en cas de sécheresse).",
+        examples: [
+            {
+                fr: "Avant leur destruction, les zones humides faisaient tampon lors des intempéries violentes.",
+                en: "Before their destruction, wetlands acted as a buffer during violent storms.",
+                cn: "在遭到人类破坏前，湿地曾在狂风暴雨中发挥着至关重要的蓄洪缓冲功能。",
+                jp: "破壊される前、湿地帯は激しい悪天候の際に緩衝装置（バッファー）としての役割を果たしていました。"
+            }
+        ]
+    },
+    {
+        id: 14837,
+        word: "Stockaient",
+        phonetic: "/stɔ.kɛ/",
+        type: "verbe à l'imparfait (stocker)",
+        theme: "Énergie & Ressources",
+        level: "B1",
+        definition: "Accumuler et conserver en réserve une quantité de matière pour une utilisation ultérieure.",
+        examples: [
+            {
+                fr: "Les marais stockaient d'immenses volumes d'eau douce durant l'hiver.",
+                en: "Marshes used to store massive volumes of freshwater during winter.",
+                cn: "在冬季，沼泽能将数以亿计立方米的宝贵淡水稳妥储蓄起来。",
+                jp: "湿地は冬の間に膨大な量の淡水を貯留していました。"
+            }
+        ]
+    },
+    {
+        id: 14838,
+        word: "Relarguaient",
+        phonetic: "/ʁə.laʁ.ɡɛ/",
+        type: "verbe à l'imparfait • chimie & écologie (relarguer)",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Libérer, relâcher progressivement dans le milieu environnant une substance préalablement retenue ou stockée.",
+        examples: [
+            {
+                fr: "En période estivale, les zones humides relarguaient lentement de l'eau pure dans les rivières.",
+                en: "During summer periods, wetlands slowly released pure water into rivers.",
+                cn: "夏季旱季来临时，湿地又将清澈净水缓缓释放回河道干流之中。",
+                jp: "夏の時期、湿地帯は河川に清らかな水をゆっくりと再放出していました。"
+            }
+        ]
+    },
+    {
+        id: 14839,
+        word: "Énormément",
+        phonetic: "/e.nɔʁ.me.mɑ̃/",
+        type: "adverbe de quantité",
+        theme: "Quantité & Degré",
+        level: "A2",
+        definition: "En quantité gigantesque, considérablement, beaucoup.",
+        examples: [
+            {
+                fr: "Ces milieux marécageux abritent énormément d'amphibiens et d'oiseaux migrateurs.",
+                en: "These marshlands harbor a tremendous number of amphibians and migratory birds.",
+                cn: "这些沼泽生态环境栖息庇护着难以计数的两栖动物与候鸟。",
+                jp: "これらの湿地環境には、非常に多くの両生類や渡り鳥が生息しています。"
+            }
+        ]
+    },
+    {
+        id: 14840,
+        word: "Abritent",
+        phonetic: "/a.bʁit/",
+        type: "verbe transitif (abriter • 3e personne pluriel)",
+        theme: "Habitat & Protection",
+        level: "B1",
+        definition: "Servir d'habitat, de refuge ou de lieu de vie protecteur pour des espèces.",
+        examples: [
+            {
+                fr: "Les forêts anciennes abritent des espèces rares qui ne peuvent survivre dans des monocultures industrielles.",
+                en: "Ancient forests shelter rare species that cannot survive in industrial monocultures.",
+                cn: "原始古老森林孕育庇护着在工业单一林中绝无法存活的珍稀物种。",
+                jp: "原生林は、産業的単一植林地帯では生き残れない希少種を保護しています。"
+            }
+        ]
+    },
+    {
+        id: 14841,
+        word: "Les effets",
+        phonetic: "/le.z‿e.fɛ/",
+        type: "nom masculin pluriel • causalité",
+        theme: "Sciences & Causalité",
+        level: "B1",
+        definition: "Résultats directs, immédiats et souvent mécaniques produits par une cause déterminée.\n\n*Note pédagogique clé :* La cause produit un effet, et cet effet entraîne à son tour des conséquences. Autrement dit, l'effet est le résultat direct, immédiat et souvent mécanique d'une cause, tandis que la conséquence représente la suite logique, globale ou différée qui en découle dans un contexte plus large.",
+        examples: [
+            {
+                fr: "La déforestation produit un effet immédiat d'érosion des sols, dont les conséquences à long terme sont l'envasement des rivières et la ruine des cultures.",
+                en: "Deforestation produces an immediate effect of soil erosion, whose long-term consequences are river siltation and crop failure.",
+                cn: "滥伐森林直接导致水土流失（效应），其后续引发的深远后果（结果）则是河床淤塞与农田荒废。",
+                jp: "森林伐採は土壌侵食という直接的効果をもたらし、その長期的な帰結として河川の沈泥化と農作物の荒廃を引き起こします。"
+            }
+        ]
+    },
+    {
+        id: 14842,
+        word: "Un essai",
+        phonetic: "/œ̃.n‿e.sɛ/",
+        type: "nom masculin • littérature & édition (ici l'ouvrage)",
+        theme: "Livres & Édition",
+        level: "B2",
+        definition: "Ouvrage littéraire ou scientifique en prose dans lequel un auteur expose et défend une thèse ou une réflexion personnelle argumentée sur un sujet de société.",
+        examples: [
+            {
+                fr: "Plutôt qu'un essai théorique abstrait, les auteurs ont préféré une synthèse en infographies accessibles.",
+                en: "Rather than an abstract theoretical essay, the authors favored a synthesis through accessible infographics.",
+                cn: "作者们并未选择撰写一部晦涩抽象的理论随笔专著，而是青睐于一目了然的信息图表集。",
+                jp: "抽象的な理論的エッセイ（評論）よりも、著者らはわかりやすいインフォグラフィックスによる要約を選びました。"
+            }
+        ]
+    },
+    {
+        id: 14843,
+        word: "Impact",
+        phonetic: "/ɛ̃.pakt/",
+        type: "nom masculin • répercussion",
+        theme: "Causalité & Degré",
+        level: "B1",
+        definition: "Effet marquant, influence forte ou répercussion puissante d'un phénomène sur un environnement ou une société.",
+        examples: [
+            {
+                fr: "L'impact des pollutions chimiques se fait sentir sur plusieurs maillons de la chaîne trophique.",
+                en: "The impact of chemical pollution is felt across several links of the food chain.",
+                cn: "化学污染产生的恶劣冲击波及了食物链的数个关键层级。",
+                jp: "化学汚染の影響は、食物連鎖の複数の環にわたって及んでいます。"
+            }
+        ]
+    },
+    {
+        id: 14844,
+        word: "Variable",
+        phonetic: "/va.ʁjabl/",
+        type: "nom féminin • mathématiques & sciences",
+        theme: "Sciences & Méthodologie",
+        level: "B2",
+        definition: "Grandeur mesurable susceptible de prendre différentes valeurs au cours du temps ou selon les conditions d'une expérience.",
+        examples: [
+            {
+                fr: "Pour le climat, la température globale est une variable synthétique commode mais réductrice.",
+                en: "For climate, global temperature is a convenient but reductive synthetic variable.",
+                cn: "在气候学中，全球平均气温是一个高度提炼便利但难免具有局限性的变量指标。",
+                jp: "気候に関して、地球全体の平均気温は便利ですが単純化された総合的変数です。"
+            }
+        ]
+    },
+    {
+        id: 14845,
+        word: "Taux d'émission",
+        phonetic: "/to d‿e.mi.sjɔ̃/",
+        type: "nom masculin • environnement & physique",
+        theme: "Sciences & Climat",
+        level: "B2",
+        definition: "Quantité de gaz, de particules ou de polluants rejetée dans l'atmosphère par unité de temps ou par unité d'activité de production.",
+        examples: [
+            {
+                fr: "La réduction du taux d'émission de gaz carbonique est obligatoire pour respecter l'accord de Paris.",
+                en: "Reducing the carbon dioxide emission rate is mandatory to comply with the Paris Agreement.",
+                cn: "大幅削减二氧化碳的排放速率是履行《巴黎协定》的刚性要求。",
+                jp: "二酸化炭素の排出率の削減は、パリ協定を遵守するために義務付けられています。"
+            }
+        ]
+    },
+    {
+        id: 14846,
+        word: "Gaz à effet de serre",
+        phonetic: "/ɡɑ.z‿a ɛ.fɛ d(ə) sɛʁ/",
+        type: "nom masculin composé • climatologie",
+        theme: "Sciences & Écologie",
+        level: "B1",
+        definition: "Gaz présents dans l'atmosphère (CO₂, méthane, vapeur d'eau) piégeant la chaleur rayonnée par la Terre. <a href=\"html/gaz-a-effet-de-serre.html\" target=\"_blank\">Consulter la fiche détaillée</a>.",
+        examples: [
+            {
+                fr: "L'élevage intensif de bovins génère des quantités considérables de gaz à effet de serre, notamment du méthane.",
+                en: "Intensive cattle farming generates substantial quantities of greenhouse gases, notably methane.",
+                cn: "密集的工厂化养牛产生数量惊人的温室气体，特别是强效甲烷。",
+                jp: "集約的牛飼育は、特にメタンをはじめとする大量の温室効果ガスを排出します。"
+            }
+        ]
+    },
+    {
+        id: 14847,
+        word: "CO2",
+        phonetic: "/se.o.dø/",
+        type: "formule chimique / nom masculin (dioxyde de carbone)",
+        theme: "Sciences & Chimie",
+        level: "A2",
+        definition: "Dioxyde de carbone ou gaz carbonique : gaz incolore produit par la respiration des êtres vivants et massivement rejeté par la combustion des énergies fossiles.",
+        examples: [
+            {
+                fr: "La réduction de la consommation de viande permettrait d'abaisser significativement les rejets de CO2.",
+                en: "Reducing meat consumption would significantly lower CO2 emissions.",
+                cn: "减少肉类消费能够显著削减二氧化碳的碳排放总量。",
+                jp: "肉の消費量を減らすことで、CO2排出量を大幅に削減することができます。"
+            }
+        ]
+    },
+    {
+        id: 14848,
+        word: "En interaction",
+        phonetic: "/ɑ̃.n‿ɛ̃.tɛ.ʁak.sjɔ̃/",
+        type: "locution adjectivale ou adverbiale",
+        theme: "Systèmes & Écologie",
+        level: "B2",
+        definition: "En relation dynamique d'influence et d'action réciproque les uns avec les autres.",
+        examples: [
+            {
+                fr: "Dans une forêt équilibrée, des milliers d'espèces vivent en interaction perpétuelle.",
+                en: "In a balanced forest, thousands of species live in perpetual interaction.",
+                cn: "在一座生态平衡的森林中，数千种生物处于生生不息的相互联系与互动之中。",
+                jp: "バランスの取れた森林では、何千もの種が絶え間ない相互作用の中で生きています。"
+            }
+        ]
+    },
+    {
+        id: 14849,
+        word: "Effets en cascade",
+        phonetic: "/e.fɛ ɑ̃ kas.kad/",
+        type: "nom masculin pluriel • dynamique des systèmes",
+        theme: "Sciences & Systèmes",
+        level: "B2",
+        definition: "Chaîne de conséquences successives où chaque effet devient à son tour la cause d'une nouvelle perturbation à travers tout le réseau.",
+        examples: [
+            {
+                fr: "La disparition du loup dans le parc de Yellowstone a provoqué des effets en cascade désastreux sur la végétation.",
+                en: "The disappearance of wolves in Yellowstone National Park triggered disastrous cascading effects on vegetation.",
+                cn: "黄石公园狼群的消亡引发了对全园植被的一连串灾难性连锁级联反应。",
+                jp: "イエローストーン公園におけるオオカミの消失は、植生に対して壊滅的な波及効果（ドミノ倒し的連鎖）を引き起こしました。"
+            }
+        ]
+    },
+    {
+        id: 14850,
+        word: "Tellement",
+        phonetic: "/tɛl.mɑ̃/",
+        type: "adverbe d'intensité",
+        theme: "Degré & Intensité",
+        level: "A2",
+        definition: "À un tel degré, à un point si élevé.",
+        examples: [
+            {
+                fr: "Le réseau du vivant est tellement complexe qu'il défie les modélisations trop simplistes.",
+                en: "The network of living systems is so complex that it defies oversimplified models.",
+                cn: "生命世界相互勾连的网络是如此繁复深奥，令任何简单粗暴的模型无所适从。",
+                jp: "生命のネットワークはあまりに複雑であるため、過度に単純化されたモデル化を許しません。"
+            }
+        ]
+    },
+    {
+        id: 14851,
+        word: "Complexe",
+        phonetic: "/kɔ̃.plɛks/",
+        type: "adjectif • structure",
+        theme: "Structure & Pensée",
+        level: "B1",
+        definition: "Constitué d'un grand nombre d'éléments intriqués dont les multiples liaisons rendent l'analyse difficile à isoler.",
+        examples: [
+            {
+                fr: "La biodiversité est un système infiniment complexe où chaque maillon joue un rôle déterminant.",
+                en: "Biodiversity is an infinitely complex system where each link plays a defining role.",
+                cn: "生物多样性是一个无比庞杂精微的巨型系统，每个微小链环都在其中起着决定性作用。",
+                jp: "生物多様性は無限に複雑なシステムであり、各輪が決定的な役割を果たしています。"
+            }
+        ]
+    },
+    {
+        id: 14852,
+        word: "À se représenter",
+        phonetic: "/a sə ʁə.pʁe.zɑ̃.te/",
+        type: "locution verbale passive/réfléchie",
+        theme: "Pensée & Imagination",
+        level: "B2",
+        definition: "Difficile ou nécessaire à conceptualiser, à visualiser mentalement avec netteté.",
+        examples: [
+            {
+                fr: "Des millions d'espèces invisibles sont très difficiles à se représenter sans illustrations graphiques.",
+                en: "Millions of invisible species are very difficult to conceptualize without graphic illustrations.",
+                cn: "若缺少直观图示，脑海中很难构想出数以百万计肉眼不可见的微生物全景。",
+                jp: "何百万もの目に見えない種は、図解なしには心に思い描くことが非常に困難です。"
+            }
+        ]
+    },
+    {
+        id: 14853,
+        word: "Indispensable",
+        phonetic: "/ɛ̃.dis.pɑ̃.sabl/",
+        type: "adjectif • nécessité",
+        theme: "Nécessité & Règle",
+        level: "B1",
+        definition: "Dont on ne peut absolument pas se passer, essentiel, vital.",
+        examples: [
+            {
+                fr: "Les vers de terre sont indispensables à l'aération et à la bonne santé biologique des sols agricoles.",
+                en: "Earthworms are indispensable to the aeration and biological health of agricultural soils.",
+                cn: "蚯蚓对于农田土壤的通气松土与健康微生态环境而言必不可少。",
+                jp: "ミミズは、農地土壌の通気性と生物学的な健康にとって不可欠な存在です。"
+            }
+        ]
+    },
+    {
+        id: 14854,
+        word: "La vision qu'on a de",
+        phonetic: "/la vi.zjɔ̃ k‿ɔ̃.n‿a də/",
+        type: "locution nominale • point de vue",
+        theme: "Perception & Conception",
+        level: "B2",
+        definition: "Manière générale, souvent subjective ou biaisée, dont une collectivité perçoit ou conceptualise une réalité.",
+        examples: [
+            {
+                fr: "La vision qu'on a de la faune est trop souvent focalisée sur les animaux photogéniques.",
+                en: "The vision we have of wildlife is all too often focused on photogenic animals.",
+                cn: "公众对于野生动物的认知观念，往往过分聚焦于外表上镜的明星物种。",
+                jp: "私たちが野生動物に対して抱くイメージは、あまりにも写真映えする動物に偏りがちです。"
+            }
+        ]
+    },
+    {
+        id: 14855,
+        word: "Un peu comme",
+        phonetic: "/œ̃ pø kɔm/",
+        type: "locution comparative familière",
+        theme: "Comparaison & Style",
+        level: "A2",
+        definition: "À la manière de, comparable approximativement à.",
+        examples: [
+            {
+                fr: "On pense aux espèces un peu comme à des timbres qu'on rangerait séparément dans un album.",
+                en: "We think of species a bit like stamps that we would store separately in an album.",
+                cn: "人们对物种的理解，某种程度上就像把一枚枚集邮邮票孤立地排在画册里。",
+                jp: "私たちは種について、アルバムに別々に並べられた切手のように考えてしまいがちです。"
+            }
+        ]
+    },
+    {
+        id: 14856,
+        word: "Champignons",
+        phonetic: "/ʃɑ̃.pi.ɲɔ̃/",
+        type: "nom masculin pluriel • mycologie",
+        theme: "Sciences & Nature",
+        level: "A2",
+        definition: "Organismes eucaryotes formant le règne des Fungi (ni plantes ni animaux), décomposeurs clés de la biosphère et partenaires mycorhiziens des arbres.",
+        examples: [
+            {
+                fr: "Sans les champignons mycorhiziens, trois quarts des arbres en forêt ne pourraient pousser.",
+                en: "Without mycorrhizal fungi, three quarters of forest trees could not grow.",
+                cn: "没有菌根真菌的共生协同，森林中四分之三的树木甚至根本无法正常生根发育。",
+                jp: "菌根菌がなければ、森林の樹木の4分の3は生育することすらできません。"
+            }
+        ]
+    },
+    {
+        id: 14857,
+        word: "Surtout",
+        phonetic: "/syʁ.tu/",
+        type: "adverbe de focalisation",
+        theme: "Connecteurs & Emphase",
+        level: "A2",
+        definition: "Principalement, par-dessus tout, avant toute autre considération.",
+        examples: [
+            {
+                fr: "Il faut surtout comprendre que les espèces évoluent en réseau permanent.",
+                en: "One must above all understand that species evolve within an ongoing network.",
+                cn: "尤其需要深刻理解的是，各个物种始终是在动态交织的网络中共同演化的。",
+                jp: "とりわけ理解すべきは、種が常にネットワークの中で進化しているという点です。"
+            }
+        ]
+    },
+    {
+        id: 14858,
+        word: "Se représenter",
+        phonetic: "/sə ʁə.pʁe.zɑ̃.te/",
+        type: "verbe pronominal (1er groupe)",
+        theme: "Pensée & Conception",
+        level: "B2",
+        definition: "Concevoir mentalement, s'imaginer ou visualiser une notion abstraite.",
+        examples: [
+            {
+                fr: "L'analogie des rivets d'avion permet de se représenter facilement la fragilité des chaînes trophiques.",
+                en: "The airplane rivets analogy allows one to easily visualize the fragility of food webs.",
+                cn: "飞机铆钉的比喻能够让我们在脑海中极为生动地具象化食物网的脆弱本质。",
+                jp: "飛行機のリベットの比喩は、食物連鎖の脆弱性を容易に心に思い描くことを可能にします。"
+            }
+        ]
+    },
+    {
+        id: 14859,
+        word: "Entre",
+        phonetic: "/ɑ̃tʁ/",
+        type: "préposition spatiale et relationnelle",
+        theme: "Espace & Relations",
+        level: "A1",
+        definition: "Marque la réciprocité, l'intervalle ou le lien liant deux ou plusieurs termes.",
+        examples: [
+            {
+                fr: "Les liens invisibles entre les arbres et les champignons mycorhiziens nourrissent la forêt.",
+                en: "The invisible links between trees and mycorrhizal fungi nourish the forest.",
+                cn: "树木与共生真菌之间看不见的纽带滋养着整片广袤森林。",
+                jp: "樹木と菌根菌の間の目に見えない絆が、森林を育んでいます。"
+            }
+        ]
+    },
+    {
+        id: 14860,
+        word: "Juxtaposées",
+        phonetic: "/ʒyk.sta.po.ze/",
+        type: "adjectif féminin pluriel • disposition",
+        theme: "Structure & Espace",
+        level: "B2",
+        definition: "Placées les unes à côté des autres sans lien direct, sans échange mutuel ni continuité organique.",
+        examples: [
+            {
+                fr: "Les espèces vivantes ne sont pas de simples entités juxtaposées, mais des systèmes interdépendants.",
+                en: "Living species are not mere juxtaposed entities, but interdependent systems.",
+                cn: "生命物种并非毫无关联并列排布的客体，而是休戚与共的互赖系统。",
+                jp: "生物種は単に並置された存在ではなく、相互に依存し合うシステムです。"
+            }
+        ]
+    },
+    {
+        id: 14861,
+        word: "Imaginer",
+        phonetic: "/i.ma.ʒi.ne/",
+        type: "verbe transitif (1er groupe)",
+        theme: "Pensée & Créativité",
+        level: "A2",
+        definition: "Concevoir en esprit, élaborer une solution mentale ou envisager des hypothèses.",
+        examples: [
+            {
+                fr: "Si on ignore les interactions écologiques, on risque d'imaginer des solutions inefficaces.",
+                en: "If we ignore ecological interactions, we risk devising ineffective solutions.",
+                cn: "倘若无视生态系统的复杂互动，我们构想出的保护方案很可能是南辕北辙的。",
+                jp: "生態学的相互作用を無視すると、効果のない解決策を思い描いてしまう恐れがあります。"
+            }
+        ]
+    },
+    {
+        id: 14862,
+        word: "Solutions",
+        phonetic: "/sɔ.ly.sjɔ̃/",
+        type: "nom féminin pluriel • résolution de problèmes",
+        theme: "Méthode & Décision",
+        level: "A2",
+        definition: "Moyens, politiques ou actions permettant de résoudre une difficulté, une crise ou un déséquilibre.",
+        examples: [
+            {
+                fr: "Les vraies solutions écologiques reposent sur la réduction drastique des pesticides et la renaturation.",
+                en: "True ecological solutions rely on drastically cutting pesticides and rewilding.",
+                cn: "真正行之有效的生态良策，在于大刀阔斧削减农药投入与开展自然再野化恢复。",
+                jp: "真の生態学的解決策は、農薬の劇的な削減と自然再生（再野生化）にかかっています。"
+            }
+        ]
+    },
+    {
+        id: 14863,
+        word: "Mauvaises",
+        phonetic: "/mɔ.vɛz/",
+        type: "adjectif féminin pluriel",
+        theme: "Évaluation & Qualité",
+        level: "A1",
+        definition: "Inappropriées, inefficaces, contre-productives ou néfastes.",
+        examples: [
+            {
+                fr: "Recourir aux OGM tolérants aux herbicides fait partie des mauvaises réponses à la crise du vivant.",
+                en: "Relying on herbicide-tolerant GMOs is among the wrong responses to the crisis of life.",
+                cn: "盲目依赖抗除草剂转基因作物，正是应对物种危机开出的一剂彻头彻尾的错误药方。",
+                jp: "除草剤耐性遺伝子組み換え作物に頼ることは、生命の危機に対する誤った対応策のひとつです。"
+            }
+        ]
+    },
+    {
+        id: 14864,
+        word: "Conserver",
+        phonetic: "/kɔ̃.sɛʁ.ve/",
+        type: "verbe transitif (1er groupe)",
+        theme: "Protection & Durabilité",
+        level: "B1",
+        definition: "Maintenir en bon état, protéger durablement contre la disparition ou la dégradation.",
+        examples: [
+            {
+                fr: "La règle d'or d'un écologue est de conserver toutes les pièces de la machine écologique.",
+                en: "The golden rule of an ecologist is to keep every cog and wheel of the ecological machine.",
+                cn: "生态学家的黄金守则是：悉心保留下大自然这台精密机器的所有零部件。",
+                jp: "生態学者の黄金律は、生態系という機械のすべての部品を保存することです。"
+            }
+        ]
+    },
+    {
+        id: 14865,
+        word: "Rivets",
+        phonetic: "/ʁi.vɛ/",
+        type: "nom masculin pluriel • mécanique & métaphore",
+        theme: "Mécanique & Métaphore",
+        level: "B2",
+        definition: "Tiges métalliques déformées aux extrémités pour assembler solidement des tôles d'avion ; métaphore célèbre d'Anne et Paul Ehrlich pour illustrer la perte d'espèces.",
+        examples: [
+            {
+                fr: "Les espèces sont comme les rivets d'un avion : si on en retire trop, toute la carlingue s'effondre d'un coup.",
+                en: "Species are like the rivets of an airplane: if too many are popped out, the whole airframe collapses at once.",
+                cn: "物种就像飞机上的固定铆钉：一旦脱落拔除过多，整架机身便会在刹那间彻底解体。",
+                jp: "種は飛行機のリベットのようなものです。あまりに多くを取り去ると、機体全体が突如として崩壊します。"
+            }
+        ]
+    },
+    {
+        id: 14866,
+        word: "Tôles",
+        phonetic: "/tol/",
+        type: "nom féminin pluriel • industrie & métaphore",
+        theme: "Matériaux & Industrie",
+        level: "B1",
+        definition: "Feuilles ou plaques métalliques minces formant le fuselage ou la structure extérieure d'un appareil ou d'un bâtiment.",
+        examples: [
+            {
+                fr: "Les rivets maintiennent les tôles de l'avion solidaires face aux turbulences en vol.",
+                en: "Rivets hold the airplane's metal sheets together against in-flight turbulence.",
+                cn: "铆钉在飞行颠簸狂风中紧紧固定着机身的金属蒙皮蒙板。",
+                jp: "リベットは飛行中の乱気流に耐えられるよう、航空機の金属板をしっかりと結合させています。"
+            }
+        ]
+    },
+    {
+        id: 14867,
+        word: "Quelques-uns",
+        phonetic: "/kɛl.kə.z‿œ̃/",
+        type: "pronom indéfini pluriel",
+        theme: "Quantité & Grammaire",
+        level: "B1",
+        definition: "Un petit nombre d'éléments parmi un groupe déterminé.",
+        examples: [
+            {
+                fr: "Quelques-uns de ces mécanismes sont bien compris, mais la majorité reste encore inexplorée.",
+                en: "A few of these mechanisms are well understood, but the majority remains unexplored.",
+                cn: "其中一部分机制已被科研掌握，但绝大多数仍是一片未知的荒原。",
+                jp: "これらのメカニズムのうちのいくつかはよく理解されていますが、大部分は未だ未解明のままです。"
+            }
+        ]
+    },
+    {
+        id: 14868,
+        word: "Jusqu'au moment où",
+        phonetic: "/ʒys.ko mɔ.mɑ̃ u/",
+        type: "locution conjonctive temporelle",
+        theme: "Temps & Bascule",
+        level: "B1",
+        definition: "Jusqu'à l'instant précis où intervient une rupture ou un changement d'état décisif.",
+        examples: [
+            {
+                fr: "L'écosystème paraît résister aux dégradations, jusqu'au moment où le point de bascule est franchi.",
+                en: "The ecosystem appears to withstand damage, right up to the moment when the tipping point is crossed.",
+                cn: "生态系统表面看似承受住了外界创伤，直到突破临界突变点的那一刻轰然坍塌。",
+                jp: "生態系は被害に耐えているように見えますが、臨界点（ティッピングポイント）を超えた瞬間に崩壊します。"
+            }
+        ]
+    },
+    {
+        id: 14869,
+        word: "Collapse",
+        phonetic: "/kɔ.laps/",
+        type: "verbe intransitif (emprunt / registre scientifique)",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "S'effondre brutalement, subit une rupture de cohésion menant à l'anéantissement d'une structure organisée.",
+        examples: [
+            {
+                fr: "Lorsque l'espèce régulatrice disparaît, tout le réseau alimentaire collapse sous nos yeux.",
+                en: "When the regulating species disappears, the entire food web collapses before our eyes.",
+                cn: "当关键调节物种消失时，整张食物网在我们眼前彻底崩盘瓦解。",
+                jp: "調整役となる種が消失すると、食物網全体が私たちの目の前で崩壊（コラプス）します。"
+            }
+        ]
+    },
+    {
+        id: 14870,
+        word: "À un moment donné",
+        phonetic: "/a œ̃ mɔ.mɑ̃ dɔ.ne/",
+        type: "locution temporelle indéfinie",
+        theme: "Temps & Prospective",
+        level: "B1",
+        definition: "À un instant précis dans le temps, sans qu'on puisse nécessairement le dater à l'avance.",
+        examples: [
+            {
+                fr: "À un moment donné de l'exploitation humaine, les réserves hydriques finissent par s'épuiser.",
+                en: "At a certain point in human exploitation, water reserves inevitably run out.",
+                cn: "在人类无节制索取的某一时刻，水资源储备终究会消耗殆尽。",
+                jp: "人間による開発のある一定の段階で、水資源は必然的に枯渇します。"
+            }
+        ]
+    },
+    {
+        id: 14871,
+        word: "Sauvage",
+        phonetic: "/so.vaʒ/",
+        type: "nom masculin singulier ou adjectif",
+        theme: "Nature & Faune",
+        level: "A2",
+        definition: "L'ensemble de la faune et de la flore libres, non domestiquées et non façonnées par l'élevage humain.",
+        examples: [
+            {
+                fr: "L'élevage intensif a fini par écraser presque totalement le monde sauvage en termes de biomasse.",
+                en: "Intensive animal farming has ended up almost totally crushing wildlife in terms of biomass.",
+                cn: "在生物量的天平上，集约化家畜养殖最终几乎将整个野生生命世界碾压殆尽。",
+                jp: "集約的畜産は、バイオマスの観点から野生の世界をほぼ完全に圧倒してしまいました。"
+            }
+        ]
+    },
+    {
+        id: 14872,
+        word: "Domestiqués",
+        phonetic: "/dɔ.mɛs.ti.ke/",
+        type: "adjectif / participe passé masculin pluriel",
+        theme: "Agriculture & Animaux",
+        level: "B1",
+        definition: "Animaux ou plantes adaptés par sélection artificielle et élevés sous la dépendance et au service de l'être humain.",
+        examples: [
+            {
+                fr: "Les mammifères domestiqués pèsent aujourd'hui dix fois plus lourd que les mammifères sauvages.",
+                en: "Domesticated mammals now weigh ten times as much as wild mammals.",
+                cn: "如今家养驯化哺乳动物的总重量已达到野生哺乳动物的十倍之多。",
+                jp: "家畜化された哺乳類は現在、野生哺乳類の10倍もの重量を占めています。"
+            }
+        ]
+    },
+    {
+        id: 14873,
+        word: "Cochon",
+        phonetic: "/kɔ.ʃɔ̃/",
+        type: "nom masculin • zoologie & élevage",
+        theme: "Animaux & Élevage",
+        level: "A1",
+        definition: "Mammifère ongulé domestique omnivore (porc), élevé à grande échelle pour la consommation de viande.",
+        examples: [
+            {
+                fr: "Le cochon et la vache constituent les piliers massifs de la biomasse d'élevage mondial.",
+                en: "The pig and the cow constitute massive pillars of global livestock biomass.",
+                cn: "猪和牛构成了全球家畜生物量的庞大基石。",
+                jp: "豚と牛は、世界の家畜バイオマスの圧倒的な支柱となっています。"
+            }
+        ]
+    },
+    {
+        id: 14874,
+        word: "Vache",
+        phonetic: "/vaʃ/",
+        type: "nom féminin • zoologie & élevage",
+        theme: "Animaux & Élevage",
+        level: "A1",
+        definition: "Femelle du taureau chez les bovins domestiques, ruminant élevé pour le lait et la viande.",
+        examples: [
+            {
+                fr: "L'élevage de millions de vaches nécessite des superficies agricoles considérables pour le fourrage.",
+                en: "Rearing millions of cows requires substantial agricultural land for fodder.",
+                cn: "饲养数以亿计的奶牛和肉牛，需要占用难以估量的农田土地来生产饲料。",
+                jp: "何百万頭もの牛の飼育には、飼料用の広大な農地が必要です。"
+            }
+        ]
+    },
+    {
+        id: 14875,
+        word: "Etc",
+        phonetic: "/ɛt.se.te.ʁa/",
+        type: "abréviation (et cætera)",
+        theme: "Ponctuation & Discours",
+        level: "A1",
+        definition: "Abréviation signifiant « et le reste », « et ainsi de suite », employée pour clore une énumération non exhaustive.",
+        examples: [
+            {
+                fr: "Les animaux de rente regroupent les bovins, porcins, volailles, ovins, etc.",
+                en: "Farm animals include cattle, pigs, poultry, sheep, etc.",
+                cn: "经济家畜涵盖了牛、猪、禽类、绵羊等众多物种。",
+                jp: "産業動物には、牛、豚、家禽、羊などが含まれます。"
+            }
+        ]
+    },
+    {
+        id: 14876,
+        word: "Préoccupant",
+        phonetic: "/pʁe.ɔ.ky.pɑ̃/",
+        type: "adjectif masculin • inquiétude",
+        theme: "Jugement & Alerte",
+        level: "B2",
+        definition: "Qui suscite une vive inquiétude, impose une vigilance critique et mérite une intervention urgente.",
+        examples: [
+            {
+                fr: "L'effondrement des populations d'amphibiens est un signal écologique extrêmement préoccupant.",
+                en: "The collapse of amphibian populations is an extremely worrying ecological signal.",
+                cn: "两栖动物种群的锐减是一个极其令人忧心忡忡的生态警讯。",
+                jp: "両生類の個体数崩壊は、極めて憂慮すべき生態学的シグナルです。"
+            }
+        ]
+    },
+    {
+        id: 14877,
+        word: "Pour revenir sur",
+        phonetic: "/puʁ ʁə.və.niʁ syʁ/",
+        type: "locution de transition orale",
+        theme: "Discours & Structure",
+        level: "B1",
+        definition: "Formule servant à reprendre ou approfondir un point déjà abordé dans une argumentation.",
+        examples: [
+            {
+                fr: "Pour revenir sur la question de l'élevage, il faut souligner les risques sanitaires majeurs qu'il engendre.",
+                en: "To come back to the livestock question, one must emphasize the major health risks it generates.",
+                cn: "回到家畜养殖这一问题上，必须重点指出其诱发的巨大公共卫生隐患。",
+                jp: "畜産の問題に話を戻すと、それがもたらす重大な健康リスクを強調しなければなりません。"
+            }
+        ]
+    },
+    {
+        id: 14878,
+        word: "Bétail",
+        phonetic: "/be.taj/",
+        type: "nom masculin singulier collectif • élevage",
+        theme: "Agriculture & Animaux",
+        level: "B1",
+        definition: "Ensemble des animaux domestiques d'élevage d'une exploitation ou d'une région (bovins, équins, ovins).",
+        examples: [
+            {
+                fr: "Nourrir le bétail mondial accapare un tiers des terres cultivées de la planète.",
+                en: "Feeding global livestock monopolizes one third of the planet's cropland.",
+                cn: "饲养全球的牲畜占据了地球三分之一的宝贵耕地。",
+                jp: "世界の家畜を養うために、地球の農地の3分の1が独占されています。"
+            }
+        ]
+    },
+    {
+        id: 14879,
+        word: "Volailles",
+        phonetic: "/vɔ.laj/",
+        type: "nom féminin pluriel • aviculture",
+        theme: "Agriculture & Alimentation",
+        level: "A2",
+        definition: "Ensemble des oiseaux domestiques élevés pour leur chair ou leurs œufs (poulets, dindes, canards, oies).",
+        examples: [
+            {
+                fr: "La concentration extrême de volailles dans des hangars favorise les épizooties aviaires.",
+                en: "The extreme concentration of poultry in sheds facilitates avian epidemics.",
+                cn: "集约化养禽大棚内家禽的过度高度集中，极易助长禽流感等动物疫情爆发。",
+                jp: "鶏舎における家禽の過密飼育は、鳥インフルエンザなどの流行を促進します。"
+            }
+        ]
+    },
+    {
+        id: 14880,
+        word: "Ça pose ... des problèmes",
+        phonetic: "/sa poz ... de pʁɔ.blɛm/",
+        type: "locution verbale courante",
+        theme: "Problèmes & Société",
+        level: "A2",
+        definition: "Engendrer des difficultés, soulever des dilemmes ou créer des complications notables.",
+        examples: [
+            {
+                fr: "L'élevage ultra-concentré, ça pose d'immenses problèmes en matière d'émergence de nouveaux virus.",
+                en: "Ultra-concentrated farming poses huge problems regarding the emergence of new viruses.",
+                cn: "超密度的工厂化养殖，在新型病毒的孕育催生方面引发了极大隐患与难题。",
+                jp: "超過密な畜産は、新しいウイルスの出現に関して極めて大きな問題を引き起こします。"
+            }
+        ]
+    },
+    {
+        id: 14881,
+        word: "Majeurs",
+        phonetic: "/ma.ʒœʁ/",
+        type: "adjectif masculin pluriel (majeur)",
+        theme: "Importance & Degré",
+        level: "B1",
+        definition: "D'une importance considérable, primordiale, qui surpasse les autres éléments en gravité ou en influence.",
+        examples: [
+            {
+                fr: "La préservation des sols vivants est l'un des défis écologiques majeurs du XXIe siècle.",
+                en: "Preserving living soils is one of the major ecological challenges of the 21st century.",
+                cn: "保护富含生机的健康土壤是二十一世纪人类面临的核心重大生态挑战之一。",
+                jp: "生きた土壌の保全は、21世紀における主要な生態学的課題のひとつです。"
+            }
+        ]
+    },
+    {
+        id: 14882,
+        word: "En termes de",
+        phonetic: "/ɑ̃ tɛʁm də/",
+        type: "locution prépositive de cadrage",
+        theme: "Cadrage & Logique",
+        level: "B2",
+        definition: "Sous le rapport de, du point de vue précis de, quant à (ex. « en termes de biomasse »).",
+        examples: [
+            {
+                fr: "En termes de biomasse, les mammifères sauvages ne pèsent presque plus rien face au bétail.",
+                en: "In terms of biomass, wild mammals weigh almost nothing compared to livestock.",
+                cn: "就生物量而言，野生哺乳动物在庞大家畜群面前几乎微不足道。",
+                jp: "バイオマスの観点から見ると、野生哺乳類は家畜と比べてほとんど重さを持ちません。"
+            }
+        ]
+    },
+    {
+        id: 14883,
+        word: "Denses",
+        phonetic: "/dɑ̃s/",
+        type: "adjectif pluriel • concentration",
+        theme: "Espace & Mesure",
+        level: "B1",
+        definition: "Qui concentre un très grand nombre d'individus ou d'éléments sur une surface restreinte.",
+        examples: [
+            {
+                fr: "Dans les élevages industriels trop denses, le risque de contagion épidémique explose.",
+                en: "In overcrowded industrial farms, the risk of epidemic contagion skyrockets.",
+                cn: "在过于密集拥挤的工业化养殖场中，疫情交叉感染的风险呈爆发式倍增。",
+                jp: "過密な工業的農場では、伝染病の感染リスクが爆発的に高まります。"
+            }
+        ]
+    },
+    {
+        id: 14884,
+        word: "Rapprochées",
+        phonetic: "/ʁa.pʁɔ.ʃe/",
+        type: "adjectif / participe passé féminin pluriel",
+        theme: "Espace & Proximité",
+        level: "B1",
+        definition: "Disposées à une distance très faible les unes des autres, sans espace protecteur suffisant.",
+        examples: [
+            {
+                fr: "Des bêtes trop rapprochées et confinées dans un espace clos s'échangent les pathogènes en permanence.",
+                en: "Animals crammed together and confined in closed spaces constantly swap pathogens.",
+                cn: "距离过近、圈养在狭小密闭空间的牲畜会毫无阻隔地持续互换病原体。",
+                jp: "狭い空間で過度に密着して飼育された家畜は、常に病原体を交換し合ってしまいます。"
+            }
+        ]
+    },
+    {
+        id: 14885,
+        word: "Nombreuses",
+        phonetic: "/nɔ̃.bʁøz/",
+        type: "adjectif féminin pluriel (nombreux)",
+        theme: "Quantité",
+        level: "A2",
+        definition: "Qui forment un effectif élevé, une multitude d'entités.",
+        examples: [
+            {
+                fr: "Les espèces végétales sont nombreuses mais subissent la dégradation de leurs habitats.",
+                en: "Plant species are numerous but suffer from the degradation of their habitats.",
+                cn: "植物物种固然种类繁多，却深陷生境持续恶化的泥潭。",
+                jp: "植物種は数多く存在しますが、生息地の劣化に苦しんでいます。"
+            }
+        ]
+    },
+    {
+        id: 14886,
+        word: "Se propagent",
+        phonetic: "/sə pʁɔ.paʒ/",
+        type: "verbe pronominal (1er groupe)",
+        theme: "Diffusion & Santé",
+        level: "B1",
+        definition: "Se diffuser rapidement et largement d'un hôte ou d'un lieu à un autre (ex. des maladies qui se propagent).",
+        examples: [
+            {
+                fr: "Les virus respiratoires se propagent avec une vitesse foudroyante dans les élevages surpeuplés.",
+                en: "Respiratory viruses spread at lightning speed in overcrowded livestock facilities.",
+                cn: "呼吸道病毒在极度拥挤的禽畜养殖栏舍中以迅雷不及掩耳之势迅速扩散。",
+                jp: "呼吸器系ウイルスは、過密な畜産施設において電光石火の速さで拡散します。"
+            }
+        ]
+    },
+    {
+        id: 14887,
+        word: "Émergentes",
+        phonetic: "/e.mɛʁ.ʒɑ̃t/",
+        type: "adjectif féminin pluriel • santé & sciences",
+        theme: "Sciences & Santé",
+        level: "B2",
+        definition: "Qui apparaissent nouvellement au sein d'une population ou dont l'incidence augmente brutalement (ex. maladies infectieuses émergentes).",
+        examples: [
+            {
+                fr: "Soixante-dix pour cent des maladies émergentes chez l'humain sont d'origine animale (zoonoses).",
+                en: "Seventy percent of emerging diseases in humans are of animal origin (zoonoses).",
+                cn: "人类新兴传染病中有70%来源于动物宿主传播（人畜共患病）。",
+                jp: "人間の新興感染症の70%は動物由来（人獣共通感染症）です。"
+            }
+        ]
+    },
+    {
+        id: 14888,
+        word: "Virus",
+        phonetic: "/vi.ʁys/",
+        type: "nom masculin singulier ou pluriel • virologie",
+        theme: "Sciences & Médecine",
+        level: "A2",
+        definition: "Agent infectieux microscopique incapable de se multiplier hors d'une cellule hôte vivante qu'il parasite.",
+        examples: [
+            {
+                fr: "La déforestation met en contact l'Homme avec des réservoirs sauvages de virus inconnus.",
+                en: "Deforestation brings humans into contact with wild reservoirs of unknown viruses.",
+                cn: "滥砍滥伐破坏森林使得人类直接暴露于未知的野生动物天然病毒库面前。",
+                jp: "森林伐採は、人間を未知のウイルスの野生自然宿主と直接接触させます。"
+            }
+        ]
+    },
+    {
+        id: 14889,
+        word: "Pandémies",
+        phonetic: "/pɑ̃.de.mi/",
+        type: "nom féminin pluriel • épidémiologie",
+        theme: "Sciences & Santé",
+        level: "B2",
+        definition: "Épidémies d'une maladie infectieuse qui se propagent à l'échelle d'un continent entier ou de la planète entière.",
+        examples: [
+            {
+                fr: "Les scientifiques alertent : nous sommes entrés de plain-pied dans l'ère des pandémies.",
+                en: "Scientists warn: we have squarely entered the era of pandemics.",
+                cn: "科学家们发出严正警告：人类社会已全方位踏入全球大流行病的新时代。",
+                jp: "科学者たちは警告しています。私たちはパンデミックの時代に完全に突入したのです。"
+            }
+        ]
+    },
+    {
+        id: 14890,
+        word: "Oui tout à fait",
+        phonetic: "/wi tu.t‿a fɛ/",
+        type: "locution d'acquiescement catégorique",
+        theme: "Discours & Affirmation",
+        level: "A2",
+        definition: "Formule d'approbation totale, confirmant pleinement l'affirmation ou l'analyse formulée par l'interlocuteur.",
+        examples: [
+            {
+                fr: "— Vous confirmez ce lien direct ? — Oui, tout à fait, les études épidémiologiques le prouvent sans doute.",
+                en: "— Do you confirm this direct link? — Yes, absolutely, epidemiological studies prove it beyond doubt.",
+                cn: "——您确认二者存在直接因果吗？——是的，完全正确，流行病学研究已无可置疑地证实了这一点。",
+                jp: "— この直接的な関連性を肯定されますか？ — はい、全くその通りです。疫学研究が疑いなく証明しています。"
+            }
+        ]
+    },
+    {
+        id: 14891,
+        word: "Technologie",
+        phonetic: "/tɛk.nɔ.lɔ.ʒi/",
+        type: "nom féminin • technique & société",
+        theme: "Sciences & Technologies",
+        level: "B1",
+        definition: "Ensemble des outils, procédés et innovations techniques appliqués à l'industrie et à la transformation de la nature.",
+        examples: [
+            {
+                fr: "La technologie ne peut à elle seule réparer des processus vivants forgés par des millions d'années d'évolution.",
+                en: "Technology alone cannot mend living processes forged through millions of years of evolution.",
+                cn: "单凭技术工程本身，绝不可能轻易修复经由数百万年演化锤炼而成的繁复生命过程。",
+                jp: "テクノロジー単体では、何百万年もの進化によって形作られた生命のプロセスを修復することはできません。"
+            }
+        ]
+    },
+    {
+        id: 14892,
+        word: "Prairie",
+        phonetic: "/pʁɛ.ʁi/",
+        type: "nom féminin • biogéographie & milieu",
+        theme: "Nature & Écologie",
+        level: "B1",
+        definition: "Formation végétale herbacée dense dominée par les graminées, milieu naturel ou semi-naturel riche en pollinisateurs.",
+        examples: [
+            {
+                fr: "Les prairies permanentes non traitées stockent du carbone et préservent la biodiversité entomologique.",
+                en: "Untreated permanent meadows store carbon and preserve insect biodiversity.",
+                cn: "未遭受化学污染的天然永久草地既能有效固碳，又能呵护极为丰富的昆虫生物多样性。",
+                jp: "手つかずの永久草地は炭素を貯留し、昆虫の生物多様性を保全します。"
+            }
+        ]
+    },
+    {
+        id: 14893,
+        word: "Prédateur",
+        phonetic: "/pʁe.da.tœʁ/",
+        type: "nom masculin • écologie trophique",
+        theme: "Sciences & Zoologie",
+        level: "B1",
+        definition: "Organisme animal qui chasse, capture et consomme d'autres êtres vivants (ses proies) pour subvenir à sa nutrition.",
+        examples: [
+            {
+                fr: "En tant que super-prédateur, le loup régule naturellement les populations de grands herbivores.",
+                en: "As an apex predator, the wolf naturally regulates populations of large herbivores.",
+                cn: "作为顶级掠食者，狼群在自然界中以天然平衡方式调控着大型食草动物的数量规模。",
+                jp: "頂点捕食者として、オオカミは大型草食動物の個体数を自然に調整します。"
+            }
+        ]
+    },
+    {
+        id: 14894,
+        word: "Mycorhizien",
+        phonetic: "/mi.kɔ.ʁi.zjɛ̃/",
+        type: "adjectif masculin • biologie végétale & mycologie",
+        theme: "Sciences & Botanique",
+        level: "C1",
+        definition: "Relatif à la mycorhize, association symbiotique vitale et mutuellement bénéfique entre les filaments d'un champignon du sol et les racines d'une plante.",
+        examples: [
+            {
+                fr: "Le réseau mycorhizien connecte les racines des arbres et leur apporte minéraux et eau contre des sucres.",
+                en: "The mycorrhizal network connects tree roots, delivering minerals and water in exchange for sugars.",
+                cn: "菌根共生网络将树木根系紧密相连，以光合糖分互换地下矿物与水分营养。",
+                jp: "菌根菌ネットワークは樹木の根を連結し、糖分と引き換えにミネラルや水を供給します。"
+            }
+        ]
+    },
+    {
+        id: 14895,
+        word: "Extinction de masse",
+        phonetic: "/ɛk.stɛ̃k.sjɔ̃ də mas/",
+        type: "nom féminin composé • paléontologie & macro-évolution",
+        theme: "Sciences & Évolution",
+        level: "B2",
+        definition: "Événement géologique et biologique catastrophique au cours duquel une proportion écrasante (au moins 75 %) des espèces terrestres et marines disparaît sur une période géologiquement brève.",
+        examples: [
+            {
+                fr: "La Terre a connu cinq grandes extinctions de masse, et les activités humaines amorcent la sixième.",
+                en: "The Earth has experienced five major mass extinctions, and human activities are triggering the sixth.",
+                cn: "地球历史上曾经历过五次生物大灭绝，而人类活动正将地球推向第六次大灭绝的边缘。",
+                jp: "地球は過去に5大大量絶滅を経験しましたが、人間活動は第6の絶滅を引き起こしつつあります。"
+            }
+        ]
+    },
+    {
+        id: 14896,
+        word: "Crétacé",
+        phonetic: "/kʁe.ta.se/",
+        type: "nom propre masculin • ère géologique",
+        theme: "Histoire de la Terre & Géologie",
+        level: "C1",
+        definition: "Dernière période de l'ère Mésozoïque (-145 à -66 millions d'années), conclue par la grande extinction des dinosaures non-aviens. <a href=\"html/cretace.html\" target=\"_blank\">Consulter la fiche détaillée</a>.",
+        examples: [
+            {
+                fr: "À la fin du Crétacé, l'impact d'un astéroïde géant a anéanti 75 % des espèces vivantes de la planète.",
+                en: "At the end of the Cretaceous, the impact of a giant asteroid wiped out 75% of the planet's living species.",
+                cn: "在白垩纪末期，一颗巨型小行星的撞击灾难性地毁灭了地球上75%的生命物种。",
+                jp: "白亜紀末期、巨大小惑星の衝突により地球上の生物種の75%が壊滅しました。"
+            }
+        ]
+    },
+    {
+        id: 14897,
+        word: "Amphibiens",
+        phonetic: "/ɑ̃.fi.bjɛ̃/",
+        type: "nom masculin pluriel • zoologie",
+        theme: "Sciences & Zoologie",
+        level: "B2",
+        definition: "Classe de vertébrés tétrapodes à sang froid passant par une phase larvaire aquatique avant une métamorphose adulte (grenouilles, crapauds, tritons, salamandres).",
+        examples: [
+            {
+                fr: "Les amphibiens subissent les taux d'extinction les plus rapides du règne animal.",
+                en: "Amphibians suffer the fastest extinction rates in the animal kingdom.",
+                cn: "两栖动物是目前整个动物界中灭绝速度最快、生存受威胁最惨烈的类群。",
+                jp: "両生類は、動物界の中で最も急速な絶滅速度に見舞われています。"
+            }
+        ]
+    },
+    {
+        id: 14898,
+        word: "Batraciens",
+        phonetic: "/ba.tʁa.sjɛ̃/",
+        type: "nom masculin pluriel • zoologie (synonyme courant d'amphibiens)",
+        theme: "Sciences & Zoologie",
+        level: "B2",
+        definition: "Désignation usuelle et historique des amphibiens, en particulier les anoures (grenouilles et crapauds).",
+        examples: [
+            {
+                fr: "La destruction des mares et l'usage des pesticides déciment les batraciens dans nos campagnes.",
+                en: "The destruction of ponds and pesticide use decimate amphibians across our countryside.",
+                cn: "水塘沼泽的消亡与农药的滥用使乡村间的两栖蛙类遭遇灭顶之灾。",
+                jp: "池の埋め立てと農薬の使用は、田園地帯の両生類（カエル類）を激減させています。"
+            }
+        ]
+    },
+    {
+        id: 14899,
+        word: "Abondance",
+        phonetic: "/a.bɔ̃.dɑ̃s/",
+        type: "nom féminin • écologie des populations",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Nombre total d'individus d'une espèce donnée présents dans un biotope ou une communauté biologique.",
+        examples: [
+            {
+                fr: "L'abondance moyenne des populations d'oiseaux des champs a chuté de plus de 40 % en Europe.",
+                en: "The average abundance of farmland bird populations has dropped by over 40% in Europe.",
+                cn: "欧洲农田常见鸟类种群的平均丰度在过去几十年间骤降了40%以上。",
+                jp: "ヨーロッパにおける農地性鳥類個体群の平均豊富度（個体数）は40%以上も減少しました。"
+            }
+        ]
+    },
+    {
+        id: 14900,
+        word: "De façon vertigineuse",
+        phonetic: "/də fa.sɔ̃ vɛʁ.ti.ʒi.nøz/",
+        type: "locution adverbiale d'intensité",
+        theme: "Degré & Mouvement",
+        level: "B2",
+        definition: "À une vitesse ou dans des proportions si impressionnantes que cela donne le vertige ou dépasse l'entendement.",
+        examples: [
+            {
+                fr: "Les populations de vertébrés ont diminué de façon vertigineuse en l'espace d'une seule génération.",
+                en: "Vertebrate populations have dwindled at a dizzying pace in the span of a single generation.",
+                cn: "脊椎动物种群在短短一代人的时间内以令人眩晕的骇人速度暴跌。",
+                jp: "脊椎動物の個体数は、わずか一世代の間に目も眩むような速度で減少しました。"
+            }
+        ]
+    },
+    {
+        id: 14901,
+        word: "Vortex d'extinction",
+        phonetic: "/vɔʁ.tɛks d‿ɛk.stɛ̃k.sjɔ̃/",
+        type: "nom masculin composé • génétique et écologie des populations",
+        theme: "Sciences & Écologie",
+        level: "C1",
+        definition: "Spirale descendante inexorable dans laquelle une population devenue trop restreinte subit la consanguinité et la dérive génétique, accélérant sa disparition définitive même si des individus subsistent.",
+        examples: [
+            {
+                fr: "Quand les effectifs tombent sous un seuil critique, l'espèce est happée dans un vortex d'extinction irréversible.",
+                en: "When numbers fall below a critical threshold, the species is pulled into an irreversible extinction vortex.",
+                cn: "当个体种群数量跌破安全临界阈值时，物种便会被卷入不可逆转的灭绝漩涡之中。",
+                jp: "個体数が臨界閾値を下回ると、その種は後戻りできない絶滅の渦（ヴォルテックス）へと飲み込まれます。"
+            }
+        ]
+    },
+    {
+        id: 14902,
+        word: "Limites",
+        phonetic: "/li.mit/",
+        type: "nom féminin pluriel • frontières de durabilité",
+        theme: "Sciences & Environnement",
+        level: "B1",
+        definition: "Seuils biophysiques et planétaires au-delà desquels la stabilité des équilibres naturels est gravement compromise (les « limites planétaires »).",
+        examples: [
+            {
+                fr: "Notre modèle productiviste teste dangereusement les limites de régénération du vivant.",
+                en: "Our productivist model is dangerously testing the regenerative limits of the living world.",
+                cn: "我们的增长至上生产模式正在极度危险地测试着生命自愈再生的极限底线。",
+                jp: "私たちの生産至上主義モデルは、生命の再生の限界を危険なまでに試してしまっています。"
+            }
+        ]
+    },
+    {
+        id: 14903,
+        word: "Point de bascule",
+        phonetic: "/pwɛ̃ də bas.kyl/",
+        type: "nom masculin composé • sciences des systèmes complexes",
+        theme: "Sciences & Complexité",
+        level: "B2",
+        definition: "Seuil critique au-delà duquel une infime perturbation supplémentaire déclenche une transition brutale, irréversible et auto-amplifiée vers un nouvel état d'équilibre dégradé (tipping point).",
+        examples: [
+            {
+                fr: "Franchir le point de bascule forestier transformerait l'Amazonie en savane aride.",
+                en: "Crossing the forest tipping point would transform the Amazon into an arid savannah.",
+                cn: "一旦跨过森林生态临界点，亚马逊雨林将无可逆转地退化为干旱热带稀树草原。",
+                jp: "森林の臨界点（ティッピングポイント）を超えてしまえば、アマゾンは乾燥したサバンナへと変貌してしまうでしょう。"
+            }
+        ]
+    },
+    {
+        id: 14904,
+        word: "S'emballe",
+        phonetic: "/s‿ɑ̃.bal/",
+        type: "verbe pronominal (1er groupe)",
+        theme: "Dynamique & Changement",
+        level: "B2",
+        definition: "S'accélérer de manière incontrôlable sous l'effet de rétroactions positives et échapper à toute régulation humaine ou naturelle.",
+        examples: [
+            {
+                fr: "Lorsque le climat s'emballe, les puits de carbone naturels se transforment en émetteurs nets de CO2.",
+                en: "When the climate spirals out of control, natural carbon sinks turn into net CO2 emitters.",
+                cn: "当气候系统彻底失控失衡，原有的天然碳汇反而会逆转为二氧化碳的净排放源。",
+                jp: "気候システムが暴走すると、自然の炭素吸収源は一転してCO2の排出源へと変貌してしまいます。"
+            }
+        ]
+    },
+    {
+        id: 14905,
+        word: "Écologue",
+        phonetic: "/e.kɔ.lɔɡ/",
+        type: "nom épicène • sciences",
+        theme: "Sciences & Métiers",
+        level: "B2",
+        definition: "Scientifique qui étudie l'écologie (les interactions entre les êtres vivants et leur milieu naturel), à distinguer de l'écologiste (militant politique).",
+        examples: [
+            {
+                fr: "L'écologue étudie empiriquement la dynamique des réseaux trophiques sur le terrain.",
+                en: "The ecologist empirically studies food web dynamics in the field.",
+                cn: "生态学家通过野外严谨实证，专注于研究食物网系统的动态变化规律。",
+                jp: "生態学者は、野外において食物網の動態を実証的に研究します。"
+            }
+        ]
+    },
+    {
+        id: 14906,
+        word: "Bricoleur",
+        phonetic: "/bʁi.kɔ.lœʁ/",
+        type: "nom masculin • allégorie",
+        theme: "Métaphore & Pratique",
+        level: "B1",
+        definition: "Personne habile qui répare ou assemble des objets ; utilisé par Aldo Leopold pour rappeler que le bricoleur intelligent ne jette jamais la moindre pièce d'un mécanisme inconnu.",
+        examples: [
+            {
+                fr: "La première règle du bricoleur intelligent est de conserver soigneusement chaque pièce du vivant.",
+                en: "The first rule of intelligent tinkering is to carefully keep every cog of the living world.",
+                cn: "聪明修理工的第一条黄金戒律，就是小心翼翼保留好生命机器的每一个零件。",
+                jp: "賢明な修理屋の第一のルールは、生命のあらゆる部品を大切に保管しておくことです。"
+            }
+        ]
+    },
+    {
+        id: 14907,
+        word: "Loup",
+        phonetic: "/lu/",
+        type: "nom masculin • zoologie & écologie",
+        theme: "Animaux & Nature",
+        level: "A1",
+        definition: "Mammifère carnivore de la famille des canidés, grand prédateur et espèce clé de voûte dans les écosystèmes tempérés.",
+        examples: [
+            {
+                fr: "Le retour du loup a transformé en profondeur les paysages et les rivières du parc américain.",
+                en: "The return of the wolf profoundly transformed the landscapes and rivers of the American park.",
+                cn: "灰狼的重返从根本上深刻重塑了美国国家公园的地貌水系与植被格局。",
+                jp: "オオカミの復活は、米国の国立公園の景観と河川を根底から劇的に変容させました。"
+            }
+        ]
+    },
+    {
+        id: 14908,
+        word: "Yellowstone",
+        phonetic: "/jɛ.lu.stɔn/",
+        type: "nom propre géographique",
+        theme: "Parcs & Biodiversité",
+        level: "B1",
+        definition: "Plus ancien parc national du monde (États-Unis), célèbre exemple écologique de cascade trophique régénérée après la réintroduction du loup en 1995.",
+        examples: [
+            {
+                fr: "L'expérience de réensauvagement à Yellowstone a prouvé l'efficacité de la réintroduction des prédateurs.",
+                en: "The rewilding experiment in Yellowstone proved the effectiveness of apex predator reintroduction.",
+                cn: "黄石公园的再野化实践用无可辩驳的事实验证了重新引入顶级掠食者的巨大生态威力。",
+                jp: "イエローストーンにおける再野生化の実験は、頂点捕食者再導入の有効性を証明しました。"
+            }
+        ]
+    },
+    {
+        id: 14909,
+        word: "Castors",
+        phonetic: "/kas.tɔʁ/",
+        type: "nom masculin pluriel • zoologie & ingénieurs écologiques",
+        theme: "Animaux & Écologie",
+        level: "A2",
+        definition: "Grands rongeurs semi-aquatiques bâtisseurs de barrages sur les cours d'eau, créant des zones humides indispensables à la biodiversité.",
+        examples: [
+            {
+                fr: "Grâce aux retenues d'eau des castors, de nombreuses espèces d'amphibiens et d'oiseaux ont pu prospérer.",
+                en: "Thanks to beaver dams, numerous species of amphibians and birds were able to thrive.",
+                cn: "多亏海狸筑起的天然水坝湿地，种类繁多的两栖动物与鸟类才得以生息繁衍。",
+                jp: "ビーバーのダムによる貯水のおかげで、多くの両生類や鳥類が繁栄することができました。"
+            }
+        ]
+    },
+    {
+        id: 14910,
+        word: "Pullulation",
+        phonetic: "/py.ly.la.sjɔ̃/",
+        type: "nom féminin • démographie biologique",
+        theme: "Sciences & Écologie",
+        level: "B2",
+        definition: "Multiplication rapide, incontrôlée et excessive d'individus d'une espèce en l'absence de régulation par un prédateur naturel.",
+        examples: [
+            {
+                fr: "L'absence de prédateurs entraîne la pullulation des cervidés, qui détruisent les jeunes pousses d'arbres.",
+                en: "The absence of predators leads to a population explosion of deer, which destroy young saplings.",
+                cn: "天敌掠食者的缺位导致鹿群过度泛滥成灾，将林中的初生幼苗啃食殆尽。",
+                jp: "捕食者の不在はシカ類の異常繁殖を招き、若い若木の芽を食い荒らしてしまいます。"
+            }
+        ]
+    },
+    {
+        id: 14911,
+        word: "Réintroduction",
+        phonetic: "/ʁe.ɛ̃.tʁɔ.dyk.sjɔ̃/",
+        type: "nom féminin • gestion écologique",
+        theme: "Protection & Écologie",
+        level: "B2",
+        definition: "Action délibérée de relâcher dans son milieu d'origine une espèce animale ou végétale qui y avait disparu sous l'effet de la chasse ou de l'artificialisation.",
+        examples: [
+            {
+                fr: "La réintroduction du loup a permis aux saules et aux peupliers de repousser le long des berges.",
+                en: "The reintroduction of wolves allowed willows and poplars to grow back along riverbanks.",
+                cn: "狼群的重新引回归位，使得柳树和杨树得以在河岸两旁再度蓬勃生根抽芽。",
+                jp: "オオカミの再導入により、ヤナギやポプラが川岸に沿って再び生い茂ることが可能になりました。"
+            }
+        ]
+    },
+    {
+        id: 14912,
+        word: "Attentifs",
+        phonetic: "/a.tɑ̃.tif/",
+        type: "adjectif masculin pluriel (attentif)",
+        theme: "Esprit & Attention",
+        level: "B1",
+        definition: "Qui prêtent une grande attention, qui observent avec vigilance et lucidité ce qui les entoure.",
+        examples: [
+            {
+                fr: "Les citoyens doivent devenir plus attentifs aux métamorphoses silencieuses de leur environnement immédiat.",
+                en: "Citizens must become more attentive to the silent transformations of their immediate surroundings.",
+                cn: "广大公民理应更加敏锐关注身边周边自然环境发生的无声嬗变。",
+                jp: "市民は、自らの身近な環境で起きている静かな変容に対してより注意を払うべきです。"
+            }
+        ]
+    },
+    {
+        id: 14913,
+        word: "Limpide",
+        phonetic: "/lɛ̃.pid/",
+        type: "adjectif • clarté & style",
+        theme: "Clarté & Style",
+        level: "B2",
+        definition: "Parfaitement clair, transparent ; au sens figuré, se dit d'une explication ou d'une démonstration d'une pureté intellectuelle immédiatement compréhensible.",
+        examples: [
+            {
+                fr: "Tatiana Giraud livre un exposé limpide sur les rouages cachés de l'effondrement écologique.",
+                en: "Tatiana Giraud delivers a crystal-clear presentation on the hidden gears of ecological collapse.",
+                cn: "塔蒂亚娜·吉罗对生态崩溃背后的隐秘运转机制给出了一场条理清晰透彻的精辟阐述。",
+                jp: "タチアナ・ジローは、生態系崩壊の隠れたメカニズムについて極めて明快（リンピッド）な講述を行っています。"
+            }
+        ]
     }
 ];

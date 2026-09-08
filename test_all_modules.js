@@ -1158,7 +1158,7 @@ assertEqual(window.listeningDataset[11].id, 'rfi-ep-12', "12th episode ID is rfi
 assertEqual(window.listeningDataset[11].audioUrl, 'audio/rfi_ep_12.mp3', "12th episode audioUrl is audio/rfi_ep_12.mp3");
 assert(window.listeningDataset[11].questions.length === 5, "12th episode has 5 pedagogical quiz questions");
 assertEqual(window.listeningDataset[12].id, 'franceinter-terre-au-carre-1', "13th episode is France Inter Terre au carré");
-assertEqual(window.listeningDataset[12].audioUrl, 'audio/franceinter_terre_au_carre_20260525.m4a', "13th episode audio is local audio file");
+assertEqual(window.listeningDataset[12].audioUrl, 'audio/franceinter_terre_au_carre_20260525.mp3', "13th episode audio is local audio file");
 assert(window.listeningDataset[12].questions.length === 5, "13th episode has 5 pedagogical quiz questions");
 assert(window.listeningDataset[5].questions.length === 4, "RFI Episode 6 has exactly 4 questions (lq6-5 removed)");
 assertEqual(window.journeyDataset[0].quests[0].steps[2].title, "3. Formules de Salutation & Accueil", "Chapter 1 Step 3 title is '3. Formules de Salutation & Accueil'");

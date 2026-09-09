@@ -983,16 +983,15 @@ class JourneyModule {
       // [t] -> t
       // [n] -> n
 
-      // Si le texte contient des parenthèses, on ne lit PAS ce qui est entre parenthèses
-      // Ex: "[u] (ou, où, oû)" -> on ne garde que "[u]"
-      // Ex: "[ə] (e (sans accent))" -> on ne garde que "[ə]"
-      // Ex: "[e] (é, -er, -ez, -et)" -> on ne garde que "[e]"
+      // 1. Suppression de tout ce qui est entre parenthèses
+      // Ex: "[u] (ou, où, oû)" -> "[u]"
+      // Ex: "[ə] (e (sans accent))" -> "[ə]"
+      // Ex: "[e] (é, -er, -ez, -et)" -> "[e]"
+      // Ex: "[œ] (eu, œu (ouvert))" -> "[œ]"
       if (t.includes('(')) {
-        t = t.replace(/\s*\([^)]*\)/g, '').replace(/\s*\([^)]*$/g, '').trim();
+        t = t.replace(/\s*\(.*$/g, '').trim();
       }
 
-      // Si le texte contient un phonème entre crochets, extraire le phonème
-      // Ex: "[u]" -> "ou", "[y]" -> "u", "[ø]" -> "eux", "[œ]" -> "eu", etc.
       const phonemeMap = {
         '[u]': 'ou',
         '[y]': 'u',
@@ -1052,8 +1051,13 @@ class JourneyModule {
         "CaReFuL": "Careful"
       };
 
+      // Si le texte correspond directement ou contient un phonème entre crochets isolé
+      const bracketMatch = t.match(/\[([^\]]+)\]/);
       if (directMap[t]) {
         textToSpeak = directMap[t];
+      } else if (bracketMatch && directMap[bracketMatch[0]]) {
+        // Si le texte est un libellé ou contient un phonème comme "[e]" ou "[œ]"
+        textToSpeak = directMap[bracketMatch[0]];
       } else {
         // Remplacements des phonèmes entre crochets dans les chaînes résiduelles
         textToSpeak = t
@@ -1080,6 +1084,14 @@ class JourneyModule {
           .replace(/\[w\]/g, 'ou')
           .replace(/\[ɥ\]/g, 'u');
       }
+    }
+
+    // Protection supplémentaire pour Kokoro TTS / Web Speech :
+    // Lorsqu'on doit prononcer un "é" isolé, certains moteurs de synthèse vocale (comme Web Speech ou SAPI)
+    // épellent "e accent aigu" au lieu de prononcer le son [e].
+    // En phonétique française, le mot "et" ou la graphie "eh" force la prononciation du son pur [e] sans épeler le nom de la lettre.
+    if (textToSpeak === 'é') {
+      textToSpeak = 'et';
     }
 
     if (window.aiTTS) {

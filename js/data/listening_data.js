@@ -1,8 +1,29 @@
 /* ==========================================================================
-   LISTENING DATASET (9 ÉPISODES RFI - MP3 LOCAUX, TRANSCRIPTS & QUIZ FACTUELS)
+   LISTENING DATASET (AGGRÉGATION MODULAIRE DES 15 ÉPISODES)
+   Découpage modulaire : listening_data_ep1.js à listening_data_ep15.js
    ========================================================================== */
 
 window.listeningDataset = [
+  ...(window.listening_ep_1_Data ? [window.listening_ep_1_Data] : []),
+  ...(window.listening_ep_2_Data ? [window.listening_ep_2_Data] : []),
+  ...(window.listening_ep_3_Data ? [window.listening_ep_3_Data] : []),
+  ...(window.listening_ep_4_Data ? [window.listening_ep_4_Data] : []),
+  ...(window.listening_ep_5_Data ? [window.listening_ep_5_Data] : []),
+  ...(window.listening_ep_6_Data ? [window.listening_ep_6_Data] : []),
+  ...(window.listening_ep_7_Data ? [window.listening_ep_7_Data] : []),
+  ...(window.listening_ep_8_Data ? [window.listening_ep_8_Data] : []),
+  ...(window.listening_ep_9_Data ? [window.listening_ep_9_Data] : []),
+  ...(window.listening_ep_10_Data ? [window.listening_ep_10_Data] : []),
+  ...(window.listening_ep_11_Data ? [window.listening_ep_11_Data] : []),
+  ...(window.listening_ep_12_Data ? [window.listening_ep_12_Data] : []),
+  ...(window.listening_ep_13_Data ? [window.listening_ep_13_Data] : []),
+  ...(window.listening_ep_14_Data ? [window.listening_ep_14_Data] : []),
+  ...(window.listening_ep_15_Data ? [window.listening_ep_15_Data] : [])
+];
+
+// Fallback de sécurité si les fichiers individuels ne sont pas chargés au préalable
+if (!window.listeningDataset || window.listeningDataset.length === 0) {
+  window.listeningDataset = [
   {
     "id": "rfi-ep-1",
     "title": "Tour de France: Tadej Pogacar s'impose à l'Alpe d'Huez / Inde: Narendra Modi sort du silence / Les incendies en Europe...",
@@ -1133,3 +1154,4 @@ window.listeningDataset = [
     ]
   }
 ];
+}

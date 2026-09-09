@@ -31493,5 +31493,107 @@ window.vocab_B2_Dataset = [
                 jp: "タチアナ・ジローは、生態系崩壊の隠れたメカニズムについて極めて明快（リンピッド）な講述を行っています。"
             }
         ]
+    },
+    {
+      "id": 14914,
+      "word": "Saute aux yeux",
+      "phonetic": "/so.t‿o zjø/",
+      "type": "expression idiomatique • perception",
+      "theme": "Culture & Esthétique",
+      "level": "B2",
+      "definition": "Être d'une évidence éclatante, frapper immédiatement le regard ou l'esprit sans qu'aucun effort d'analyse ne soit requis.",
+      "examples": [
+        {
+          "fr": "Dès qu'on franchit le seuil du corps de ferme, l'intensité du bleu saute immédiatement aux yeux.",
+          "en": "As soon as you cross the threshold of the farmhouse, the intensity of the blue immediately catches your eye.",
+          "cn": "一踏进这座古农舍的门槛，那抹摄人心魄的群青之蓝便立刻跃入眼帘、先声夺人。",
+          "jp": "農場の納屋の敷居を一歩またぐやいなや、その鮮烈な青の色彩が瞬時に目に飛び込んできます。"
+        }
+      ]
+    },
+    {
+      "id": 14915,
+      "word": "Éclectique",
+      "phonetic": "/e.klɛk.tik/",
+      "type": "adjectif • style & culture",
+      "theme": "Arts & Culture",
+      "level": "B2",
+      "definition": "Qui emprunte à des styles, des horizons, des disciplines ou des sensibilités multiples sans s'enfermer dans un dogme unique.",
+      "examples": [
+        {
+          "fr": "Le domaine présente une sélection éclectique d'artistes allant de la sculpture végétale aux installations sonores en quartz.",
+          "en": "The estate presents an eclectic selection of artists ranging from plant-based sculpture to quartz sound installations.",
+          "cn": "该庄园汇聚了兼容并包的多样艺术名家作品，涵盖了从植物雕塑到石英声音装置艺术等多个跨界领域。",
+          "jp": "そのドメーヌ（敷地）では、植物彫刻から水晶を用いた音響インスタレーションまで、多岐にわたる折衷的・多元的なアーティスト作品が公開されています。"
+        }
+      ]
+    },
+    {
+      "id": 14916,
+      "word": "Néophyte",
+      "phonetic": "/ne.ɔ.fit/",
+      "type": "nom masculin/féminin • apprentissage",
+      "theme": "Arts & Société",
+      "level": "B2",
+      "definition": "Personne profane, débutante ou novice qui aborde un domaine intellectuel, technique ou artistique sans formation préalable.",
+      "examples": [
+        {
+          "fr": "Grâce aux panneaux didactiques clairs, l'art contemporain devient limpide et accessible même pour le parfait néophyte.",
+          "en": "Thanks to clear educational panels, contemporary art becomes crystal clear and accessible even for the complete novice.",
+          "cn": "得益于园区随处可见的通俗易懂讲解牌，即便对于初涉现代艺术的纯门外汉，深奥的概念也变得通透易懂。",
+          "jp": "明快で分かりやすい解説パネルのおかげで、現代アートは予備知識のない初心者（ネオフィット）にとっても親しみやすく身近なものとなります。"
+        }
+      ]
+    },
+    {
+      "id": 14917,
+      "word": "Attenter à",
+      "phonetic": "/a.tɑ̃.te a/",
+      "type": "verbe intransitif (avec préposition) • droit & respect",
+      "theme": "Patrimoine & Registre soutenu",
+      "level": "C1",
+      "definition": "Porter atteinte à, nuire gravement, altérer ou commettre une violence symbolique ou physique contre un principe moral, une loi ou l'âme d'un lieu historique.",
+      "examples": [
+        {
+          "fr": "Dans un monument chargé d'histoire, installer des œuvres contemporaines sans discernement reviendrait à attenter à l'esprit du lieu.",
+          "en": "In a monument steeped in history, installing contemporary works without discernment would amount to violating the spirit of the place.",
+          "cn": "在一座承载着厚重岁月历史的古堡古迹中，若不加斟酌地唐突安置先锋艺术品，无异于亵渎并损害了这里的历史场所之魂。",
+          "jp": "歴史の息吹が宿る歴史的建造物において、無分別に現代アート作品を設置することは、その場所の魂を侵害・冒涜することになりかねません。"
+        }
+      ]
+    },
+    {
+      "id": 14918,
+      "word": "Ancré",
+      "phonetic": "/ɑ̃.kʁe/",
+      "type": "adjectif / participe passé • philosophie & art",
+      "theme": "Arts & Philosophie",
+      "level": "B2",
+      "definition": "Solidement fixé, enraciné en profondeur dans un sol, une tradition, ou un socle conceptuel inébranlable.",
+      "examples": [
+        {
+          "fr": "Les totems de chêne de Christian Lapie sont profondément ancrés dans la terre tout en s'élançant vers le ciel.",
+          "en": "Christian Lapie's oak totems are deeply anchored in the earth while reaching up toward the sky.",
+          "cn": "克里斯蒂安·拉皮以炭化橡木构筑的雕塑图腾深深扎根于泥土之中，同时又昂首挺拔地直插云霄。",
+          "jp": "クリスチャン・ラピの黒いオーク材の彫刻トーテムは、大地に深く根を下ろしながら（定着しながら）、空に向かって真っ直ぐにそびえ立っています。"
+        }
+      ]
+    },
+    {
+      "id": 14919,
+      "word": "Land Art",
+      "phonetic": "/land aʁt/",
+      "type": "nom masculin • mouvement artistique",
+      "theme": "Arts Plastiques & Environnement",
+      "level": "B2",
+      "definition": "Courant d'art contemporain né à la fin des années 1960 utilisant le cadre et les matériaux de la nature (terre, pierres, roches, bois, feuilles) pour concevoir des œuvres en symbiose ou en tension avec le paysage.",
+      "examples": [
+        {
+          "fr": "L'œuvre d'Andy Goldsworthy est l'un des plus illustres chefs-d'œuvre de Land Art intégrés au patrimoine paysager français.",
+          "en": "Andy Goldsworthy's work is one of the most renowned masterpieces of Land Art integrated into French landscape heritage.",
+          "cn": "安迪·戈兹沃西的作品是融入法国国家风景名胜遗址中最为享誉国际的“大地艺术”传世杰作之一。",
+          "jp": "アンディ・ゴールズワージーの作品は、フランスの歴史ある景観遺産に有機的に融合したランド・アート（自然環境芸術）の最高峰のひとつです。"
+        }
+      ]
     }
 ];

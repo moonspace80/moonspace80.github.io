@@ -1159,7 +1159,7 @@ if (statGrammar) {
 
 // Verify improvements (Ameliorations)
 suiteHeader("6. Verifications for Ameliorations.md");
-assertEqual(window.listeningDataset.length, 13, "listeningDataset has exactly 13 episodes");
+assertEqual(window.listeningDataset.length, 14, "listeningDataset has exactly 14 episodes");
 assertEqual(window.listeningDataset[6].id, 'rfi-ep-7', "7th episode ID is rfi-ep-7");
 assertEqual(window.listeningDataset[7].id, 'rfi-ep-8', "8th episode ID is rfi-ep-8");
 assertEqual(window.listeningDataset[8].id, 'rfi-ep-9', "9th episode ID is rfi-ep-9");
@@ -1170,6 +1170,9 @@ assert(window.listeningDataset[11].questions.length === 5, "12th episode has 5 p
 assertEqual(window.listeningDataset[12].id, 'franceinter-terre-au-carre-1', "13th episode is France Inter Terre au carré");
 assertEqual(window.listeningDataset[12].audioUrl, 'audio/franceinter_terre_au_carre_20260525.mp3', "13th episode audio is local audio file");
 assert(window.listeningDataset[12].questions.length === 5, "13th episode has 5 pedagogical quiz questions");
+assertEqual(window.listeningDataset[13].id, 'franceinter-festivals-chaumont-1', "14th episode is France Inter Chaumont-sur-Loire");
+assertEqual(window.listeningDataset[13].audioUrl, 'audio/franceinter_chaumont_20260716.mp3', "14th episode audio is local audio file");
+assert(window.listeningDataset[13].questions.length === 5, "14th episode has 5 pedagogical quiz questions");
 assert(window.listeningDataset[5].questions.length === 4, "RFI Episode 6 has exactly 4 questions (lq6-5 removed)");
 assertEqual(window.journeyDataset[0].quests[0].steps[2].title, "3. Formules de Salutation & Accueil", "Chapter 1 Step 3 title is '3. Formules de Salutation & Accueil'");
 assertEqual(window.journeyDataset[5].quests[0].steps[2].title, "3. Demander son Chemin", "Chapter 6 Step 3 title is '3. Demander son Chemin'");

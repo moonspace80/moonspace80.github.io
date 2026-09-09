@@ -31595,5 +31595,107 @@ window.vocab_B2_Dataset = [
           "jp": "アンディ・ゴールズワージーの作品は、フランスの歴史ある景観遺産に有機的に融合したランド・アート（自然環境芸術）の最高峰のひとつです。"
         }
       ]
+    },
+    {
+      "id": 14920,
+      "word": "Avoir la cote",
+      "phonetic": "/a.vwaʁ la kɔt/",
+      "type": "locution verbale • registre familier & société",
+      "theme": "Société & Tendances",
+      "level": "B2",
+      "definition": "Bénéficier d'une grande popularité, être très prisé, recherché ou à la mode auprès du public.",
+      "examples": [
+        {
+          "fr": "La Bretagne et la Normandie ont particulièrement la cote cet été auprès des citadins en quête de fraîcheur.",
+          "en": "Brittany and Normandy are particularly popular this summer with city dwellers seeking cooler weather.",
+          "cn": "今年夏天，布列塔尼与诺曼底在渴望避暑纳凉的都市人群中格外受欢迎、大受青睐。",
+          "jp": "今年の夏、涼しさを求める都市住民の間で、ブルターニュやノルマンディーが非常に高い人気を集めています（持て囃されています）。"
+        }
+      ]
+    },
+    {
+      "id": 14921,
+      "word": "Se régénérer",
+      "phonetic": "/sə ʁe.ʒe.ne.ʁe/",
+      "type": "verbe pronominal • santé & bien-être",
+      "theme": "Santé & Mode de vie",
+      "level": "B2",
+      "definition": "Retrouver des forces, de l'énergie physique ou mentale ; renouveler en profondeur les tissus organiques ou l'équilibre psychologique.",
+      "examples": [
+        {
+          "fr": "Les premiers curistes du XVIIIe siècle se rendaient sur la côte normande pour se régénérer au contact de l'air iodé.",
+          "en": "The first 18th-century spa visitors traveled to the Normandy coast to revitalize themselves in contact with the iodized air.",
+          "cn": "18世纪初的初代疗养客专程前往诺曼底海岸，借助富含碘质的海风与海水使身心获得全面调养与焕活新生。",
+          "jp": "18世紀の初期の湯治客（保養客）たちは、ヨウ素をたっぷり含んだ海風に触れて心身を再生・リフレッシュさせるためにノルマンディー海岸を訪れました。"
+        }
+      ]
+    },
+    {
+      "id": 14922,
+      "word": "Bain à la lame",
+      "phonetic": "/bɛ̃ a la lam/",
+      "type": "locution nominale • histoire & thermalisme",
+      "theme": "Histoire & Patrimoine Balnéaire",
+      "level": "C1",
+      "definition": "Pratique médicale historique des débuts du thermalisme balnéaire consistant à plonger vigoureusement le patient dans la crête écumante d'une vague (la « lame ») pour provoquer un effet thérapeutique tonifiant.",
+      "examples": [
+        {
+          "fr": "À Dieppe, le bain à la lame était administré par des baigneurs expérimentés qui immergeaient les patients dans le ressac.",
+          "en": "In Dieppe, the wave-break bath was administered by experienced bathers who immersed patients into the surf.",
+          "cn": "在迪耶普，“破浪浴”（浪头冷水浸浴）由身强力壮的专业导浴员执行，他们将求医者直接猛掷入汹涌的碎浪之中以刺激神经。",
+          "jp": "ディエップでは、「波打ち浴（砕波入浴法）」が熟練の遊泳補助員によって施され、患者を白波（砕波）の中に直接浸して治療効果を促しました。"
+        }
+      ]
+    },
+    {
+      "id": 14923,
+      "word": "Accoler",
+      "phonetic": "/a.kɔ.le/",
+      "type": "verbe transitif • architecture & urbanisme",
+      "theme": "Architecture & Société",
+      "level": "B2",
+      "definition": "Placer ou construire côte à côte, joindre directement un bâtiment, une pièce ou une fonction à une structure préexistante.",
+      "examples": [
+        {
+          "fr": "Aux thermes marins de Dieppe, on est venu accoler des salons de lecture, des cercles de jeux et des casinos mondains.",
+          "en": "To the marine thermal baths of Dieppe, reading lounges, social clubs, and fashionable casinos were gradually adjoined.",
+          "cn": "在迪耶普海滨浴疗馆旁，人们陆续依附增建了阅览沙龙、台球棋牌馆以及名流穿梭的高级赌场。",
+          "jp": "ディエップの海洋温泉療養所には、読書サロンや社交ビリヤード場、そして華やかなカジノが次々と隣接して増築（併設）されました。"
+        }
+      ]
+    },
+    {
+      "id": 14924,
+      "word": "Avènement",
+      "phonetic": "/a.vɛn.mɑ̃/",
+      "type": "nom masculin • histoire & société",
+      "theme": "Histoire & Économie",
+      "level": "B2",
+      "definition": "Arrivée, émergence historique ou consécration d'une ère nouvelle, d'un souverain, d'une innovation technique ou d'un ordre social déterminant.",
+      "examples": [
+        {
+          "fr": "L'avènement du chemin de fer a démocratisé les voyages vers les stations balnéaires de la Manche au XIXe siècle.",
+          "en": "The advent of the railway democratized travel to the seaside resorts of the English Channel in the 19th century.",
+          "cn": "铁路交通时代的降临与全线贯通，在19世纪极大推动了前往英吉利海峡沿线海滨度假胜地的平民化旅游浪潮。",
+          "jp": "19世紀における鉄道の登場（到来・普及）は、イギリス海峡沿岸の海浜保養地への大衆旅行の扉を一気に押し開きました。"
+        }
+      ]
+    },
+    {
+      "id": 14925,
+      "word": "Côte d'Albâtre",
+      "phonetic": "/kot d‿al.batʁ/",
+      "type": "nom propre géographique • géographie normande",
+      "theme": "Géographie & Nature",
+      "level": "B2",
+      "definition": "Partie du littoral normand de la Manche (en Seine-Maritime) s'étendant sur 130 km, réputée pour ses falaises monumentales de craie blanche immaculée semblables à l'albâtre.",
+      "examples": [
+        {
+          "fr": "Les falaises blanches de la Côte d'Albâtre surplombent la mer et abritent le pittoresque sentier du littoral reliant Dieppe à Étretat.",
+          "en": "The white cliffs of the Alabaster Coast overlook the sea and house the picturesque coastal trail connecting Dieppe to Étretat.",
+          "cn": "雪花石膏海岸巍峨洁白的白垩断崖俯瞰万顷碧波，蜿蜒其上的滨海悬崖步道串联起了迪耶普与埃特勒塔两座风光胜地。",
+          "jp": "雪花石膏（アラバスター）海岸の白亜の断崖絶壁は大海原を見下ろし、ディエップとエトルタを結ぶ風光明媚な海岸遊歩道（海浜小道）が続いています。"
+        }
+      ]
     }
 ];

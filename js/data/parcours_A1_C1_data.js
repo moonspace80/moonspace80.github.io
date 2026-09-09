@@ -739,7 +739,7 @@ window.parcours_A1_C1_Dataset = {
       "title": "Phonétique 1/3 : Le Système des Voyelles Orales & Nasales",
       "level": "A1",
       "icon": "graphic_eq",
-      "xp": 50,
+      "xp": 75,
       "description": "Maîtriser la totalité des voyelles orales et nasales du français avec symboles de l'Alphabet Phonétique International (API).",
       "steps": [
         {
@@ -747,6 +747,336 @@ window.parcours_A1_C1_Dataset = {
           "title": "Toutes les Voyelles du Français : Orales et Nasales",
           "audioText": "La prononciation du français repose sur une grande richesse de voyelles. On compte onze voyelles orales et quatre voyelles nasales majeures. Les voyelles orales sortent par la bouche seule, tandis que pour les voyelles nasales, l'air passe simultanément par la bouche et par le nez. Il est capital de bien distinguer le son U du son OU, ainsi que les quatre timbres nasaux.",
           "content": "Le français possède un système vocalique d'une grande précision. Contrairement à beaucoup de langues, chaque nuance de timbre modifie le sens du mot !\n*フランス語は極めて精密な母音体系を持っています。多くの言語と異なり、母音のわずかな音色の違いが単語の意味そのものを変化させます！*\n\n---\n\n### 1. Les 11 Voyelles Orales Fondamentales\n*11の基本口腔母音（口からのみ息が出る母音）：*\n\n| Son (API) | Graphies usuelles | Exemples audio | Particularité & Articulation |\n| :--- | :--- | :--- | :--- |\n| **[a]** | a, à, â | *Paris, table, là* | Bouche bien ouverte, langue plate.<br><em>口を大きく開き、舌を平らにして発音する澄んだ「ア」。</em> |\n| **[i]** | i, y, î | *Midi, livre, stylo* | Lèvres étirées en sourire, langue en avant.<br><em>口角を横にしっかり引き、笑顔の形で発音する「イ」。</em> |\n| **[u]** | ou, où, oû | *Bonjour, vous, où* | Son « OU ». Lèvres projetées très en avant et arrondies.<br><em>「ウ」の音。唇を前に強く突き出して丸めて発音。</em> |\n| **[y]** | u, û | *Tu, salut, musique, une* | **Son « U » typique**. Position de la langue sur [i], mais lèvres arrondies comme pour siffler. Ne pas confondre avec [u] (*tu* ≠ *tout*) !<br><em>フランス語特有の「ユ」。舌の位置は「イ」のまま、唇だけを口笛のように丸めます（tu と tout の違いに注意！）。</em> |\n| **[e]** | é, -er, -ez, -et | *Café, parler, chez, et* | **E fermé**. Lèvres très étirées en sourire.<br><em>狭い「エ」。口角を横に強く引いて発音します。</em> |\n| **[ɛ]** | è, ê, ai, ei | *Mère, fête, lait, reine* | **E ouvert**. Bouche plus ouverte que [e].<br><em>広い「エ」。[e] よりも口を縦に広く開けて発音します。</em> |\n| **[o]** | o, au, eau, ô | *Hôtel, beau, chaud, métro* | **O fermé**. Lèvres très arrondies en avant.<br><em>狭い「オ」。唇を前に小さく丸めて発音します。</em> |\n| **[ɔ]** | o, au (ouvert) | *Porte, soleil, robe* | **O ouvert**. Mâchoire légèrement descendue.<br><em>広い「オ」。下あごを少し下げて開いた「オ」を発音します。</em> |\n| **[ø]** | eu, œu (fermé) | *Deux, bleu, nœud, jeu* | Lèvres très en avant et arrondies, bouche peu ouverte.<br><em>狭い「ウ／エ」。唇を強く突き出して丸め、口の開きは小さめ。</em> |\n| **[œ]** | eu, œu (ouvert) | *Sœur, cœur, fleur, jeune* | Lèvres arrondies, bouche plus ouverte.<br><em>広い「ウ／エ」。唇を丸めたまま、口を大きめに開いて発音。</em> |\n| **[ə]** | e (caduc / muet) | *Le, premier, demain* | E central neutre et instable, souvent omis en parole fluide (*samedi* -> « samdi »).<br><em>曖昧母音（脱落しやすい e）。脱力した中央の母音で、日常会話ではしばしば省略されます。</em> |\n\n---\n\n### 2. Les 4 Voyelles Nasales (L'air passe par le nez et la bouche)\n*4つの鼻母音（息が口と鼻腔の両方を同時に通る母音）：*\n\nEn français, une voyelle suivie de **N** ou **M** forme une seule voyelle nasale :\n*フランス語では、母音に N または M が続くと1つの「鼻母音」になります：*\n\n1. **[ɑ̃] (AN / EN)** : *France, enfant, temps, chambre, dans*.\n   - Bouche bien ouverte, timbre grave.\n   *口を大きく縦に開けて発音する、低音で深みのある鼻母音「アン」。*\n2. **[ɔ̃] (ON / OM)** : *Bonjour, nom, maison, monde, ombre*.\n   - Lèvres très arrondies et serrées en avant, son profond.\n   *唇を前に強くすぼめて丸く突き出す深い鼻母音「オン」。*\n3. **[ɛ̃] (IN / IM / AIN / EIN)** : *Matin, simple, pain, train, plein, vin*.\n   - Bouche étirée en demi-sourire, son plus aigu et clair.\n   *口角を横に引いて微笑む形で発音する、明るく澄んだ鼻母音「アン／イン」。*\n4. **[œ̃] (UN / UM)** : *Un, lundi, parfum*.\n   - Proche de [ɛ̃] dans le français moderne parisien, lèvres plus arrondies.\n   *現代のパリ方言では [ɛ̃] に近くなっていますが、より唇を丸めて発音される鼻母音「アン／ウン」。*"
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [a] : Son [a]",
+          "words": [
+            "[a]",
+            "Paris"
+          ],
+          "details": [
+            {
+              "word": "[a] (a, à, â)",
+              "type": "Voyelle [a]",
+              "def": "Voyelle orale ouverte : bouche bien ouverte, langue plate en bas.<br><em>口を大きく開き、舌を平らにして発音する澄んだ「ア」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>a, à, â</strong></small>",
+              "example": "Paris, la table, là-bas — (Paris（パリ）, table（テーブル）, là（そこ）)"
+            },
+            {
+              "word": "Paris",
+              "type": "Mot modèle [pa.ʁi]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[a]</strong>.<br><em>Paris (Paris（パリ）)</em>",
+              "example": "En français : « Paris »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [i] : Son [i]",
+          "words": [
+            "[i]",
+            "Midi"
+          ],
+          "details": [
+            {
+              "word": "[i] (i, y, î)",
+              "type": "Voyelle [i]",
+              "def": "Voyelle orale fermée antérieure : lèvres étirées en sourire, langue très en avant.<br><em>口角を横にしっかり引き、笑顔の形で発音する澄んだ「イ」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>i, y, î</strong></small>",
+              "example": "Midi, le livre, le stylo — (Midi（正午）, livre（本）, stylo（ペン）)"
+            },
+            {
+              "word": "Midi",
+              "type": "Mot modèle [mi.di]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[i]</strong>.<br><em>Midi (Midi（正午）)</em>",
+              "example": "En français : « Midi »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [u] : Son [u] (OU)",
+          "words": [
+            "[u]",
+            "Bonjour"
+          ],
+          "details": [
+            {
+              "word": "[u] (ou, où, oû)",
+              "type": "Voyelle [u]",
+              "def": "Voyelle orale postérieure : son « OU ». Lèvres projetées très en avant et bien arrondies.<br><em>「ウ」の音。唇を前に強く突き出して丸めて発音します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>ou, où, oû</strong></small>",
+              "example": "Bonjour, vous, où — (Bonjour（こんにちは）, vous（あなた）, où（どこ）)"
+            },
+            {
+              "word": "Bonjour",
+              "type": "Mot modèle [bɔ̃.ʒuʁ]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[u]</strong>.<br><em>Bonjour (Bonjour（こんにちは）)</em>",
+              "example": "En français : « Bonjour »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [y] : Son [y] (U typique)",
+          "words": [
+            "[y]",
+            "Musique"
+          ],
+          "details": [
+            {
+              "word": "[y] (u, û)",
+              "type": "Voyelle [y]",
+              "def": "Voyelle orale antérieure arrondie : langue sur [i], lèvres arrondies en sifflet. Opposé à [u] !<br><em>フランス語特有の「ユ」。舌の位置は「イ」のまま、唇だけを口笛のように丸めて発音（tu ≠ tout）。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>u, û</strong></small>",
+              "example": "La musique, la rue, la lune — (Musique（音楽）, rue（通り）, lune（月）)"
+            },
+            {
+              "word": "Musique",
+              "type": "Mot modèle [my.zik]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[y]</strong>.<br><em>Musique (Musique（音楽）)</em>",
+              "example": "En français : « Musique »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [e] : Son [e] (E fermé)",
+          "words": [
+            "[e]",
+            "Café"
+          ],
+          "details": [
+            {
+              "word": "[e] (é, -er, -ez, -et)",
+              "type": "Voyelle [e]",
+              "def": "E fermé : lèvres très étirées en sourire, bouche peu ouverte.<br><em>狭い「エ」。口角を横に強く引いて発音します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>é, -er, -ez, -et</strong></small>",
+              "example": "Le café, parler, chez vous — (Café（コーヒー）, parler（話す）, chez（〜の家で）)"
+            },
+            {
+              "word": "Café",
+              "type": "Mot modèle [ka.fe]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[e]</strong>.<br><em>Café (Café（コーヒー）)</em>",
+              "example": "En français : « Café »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɛ] : Son [ɛ] (E ouvert)",
+          "words": [
+            "[ɛ]",
+            "Mère"
+          ],
+          "details": [
+            {
+              "word": "[ɛ] (è, ê, ai, ei)",
+              "type": "Voyelle [ɛ]",
+              "def": "E ouvert : bouche plus ouverte verticalement que pour [e].<br><em>広い「エ」。[e] よりも口を縦に大きく開けて発音します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>è, ê, ai, ei</strong></small>",
+              "example": "La mère, la fête, le lait — (Mère（母）, fête（祭り・パーティー）, lait（牛乳）)"
+            },
+            {
+              "word": "Mère",
+              "type": "Mot modèle [mɛʁ]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ɛ]</strong>.<br><em>Mère (Mère（母）)</em>",
+              "example": "En français : « Mère »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [o] : Son [o] (O fermé)",
+          "words": [
+            "[o]",
+            "Hôtel"
+          ],
+          "details": [
+            {
+              "word": "[o] (o, au, eau, ô)",
+              "type": "Voyelle [o]",
+              "def": "O fermé : lèvres très arrondies et avancées, ouverture étroite.<br><em>狭い「オ」。唇を前に小さく丸めて突き出して発音します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>o, au, eau, ô</strong></small>",
+              "example": "L'hôtel, le métro, l'eau — (Hôtel（ホテル）, métro（地下鉄）, eau（水）)"
+            },
+            {
+              "word": "Hôtel",
+              "type": "Mot modèle [o.tɛl]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[o]</strong>.<br><em>Hôtel (Hôtel（ホテル）)</em>",
+              "example": "En français : « Hôtel »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɔ] : Son [ɔ] (O ouvert)",
+          "words": [
+            "[ɔ]",
+            "Soleil"
+          ],
+          "details": [
+            {
+              "word": "[ɔ] (o, au)",
+              "type": "Voyelle [ɔ]",
+              "def": "O ouvert : mâchoire légèrement descendue, bouche plus ouverte.<br><em>広い「オ」。下あごを少し下げて開いた「オ」を発音します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>o, au</strong></small>",
+              "example": "Le soleil, la porte, la robe — (Soleil（太陽）, porte（ドア）, robe（ドレス）)"
+            },
+            {
+              "word": "Soleil",
+              "type": "Mot modèle [sɔ.lɛj]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ɔ]</strong>.<br><em>Soleil (Soleil（太陽）)</em>",
+              "example": "En français : « Soleil »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ø] : Son [ø] (EU fermé)",
+          "words": [
+            "[ø]",
+            "Deux"
+          ],
+          "details": [
+            {
+              "word": "[ø] (eu, œu (fermé))",
+              "type": "Voyelle [ø]",
+              "def": "EU fermé : lèvres très en avant et arrondies, bouche peu ouverte.<br><em>狭い「ウ／エ」。唇を強く突き出して丸め、口の開きは小さめ。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>eu, œu (fermé)</strong></small>",
+              "example": "Deux, bleu, le jeu — (Deux（2）, bleu（青）, jeu（ゲーム）)"
+            },
+            {
+              "word": "Deux",
+              "type": "Mot modèle [dø]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ø]</strong>.<br><em>Deux (Deux（2）)</em>",
+              "example": "En français : « Deux »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [œ] : Son [œ] (EU ouvert)",
+          "words": [
+            "[œ]",
+            "Fleur"
+          ],
+          "details": [
+            {
+              "word": "[œ] (eu, œu (ouvert))",
+              "type": "Voyelle [œ]",
+              "def": "EU ouvert : lèvres arrondies, bouche plus ouverte verticalement.<br><em>広い「ウ／エ」。唇を丸めたまま、口を大きめに開いて発音。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>eu, œu (ouvert)</strong></small>",
+              "example": "La fleur, la sœur, le cœur — (Fleur（花）, sœur（姉・妹）, cœur（心・心臓）)"
+            },
+            {
+              "word": "Fleur",
+              "type": "Mot modèle [flœʁ]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[œ]</strong>.<br><em>Fleur (Fleur（花）)</em>",
+              "example": "En français : « Fleur »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ə] : Son [ə] (E caduc)",
+          "words": [
+            "[ə]",
+            "Melon"
+          ],
+          "details": [
+            {
+              "word": "[ə] (e (sans accent))",
+              "type": "Voyelle [ə]",
+              "def": "E central neutre et instable (souvent omis en conversation rapide : « sam'di »).<br><em>曖昧母音（脱落しやすい e）。脱力した中央の母音で、素早い会話ではしばしば省略されます。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>e (sans accent)</strong></small>",
+              "example": "Le melon, le regard, demain — (Melon（メロン）, regard（眼差し）, demain（明日）)"
+            },
+            {
+              "word": "Melon",
+              "type": "Mot modèle [mə.lɔ̃]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ə]</strong>.<br><em>Melon (Melon（メロン）)</em>",
+              "example": "En français : « Melon »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɑ̃] : Son [ɑ̃] (Nasale AN/EN)",
+          "words": [
+            "[ɑ̃]",
+            "France"
+          ],
+          "details": [
+            {
+              "word": "[ɑ̃] (an, am, en, em)",
+              "type": "Voyelle [ɑ̃]",
+              "def": "Voyelle nasale ouverte postérieure : bouche bien ouverte, résonance nasale grave.<br><em>口を大きく縦に開けて発音する、低音で深みのある鼻母音「アン」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>an, am, en, em</strong></small>",
+              "example": "La France, l'enfant [ɑ̃.fɑ̃], le temps — (France（フランス）, enfant（子ども）, temps（時間・天気）)"
+            },
+            {
+              "word": "France",
+              "type": "Mot modèle [fʁɑ̃s]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ɑ̃]</strong>.<br><em>France (France（フランス）)</em>",
+              "example": "En français : « France »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɔ̃] : Son [ɔ̃] (Nasale ON/OM)",
+          "words": [
+            "[ɔ̃]",
+            "Maison"
+          ],
+          "details": [
+            {
+              "word": "[ɔ̃] (on, om)",
+              "type": "Voyelle [ɔ̃]",
+              "def": "Voyelle nasale arrondie fermée : lèvres très arrondies en avant, son profond.<br><em>唇を前に強くすぼめて丸く突き出す深い鼻母音「オン」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>on, om</strong></small>",
+              "example": "La maison, le monde, le pont — (Maison（家）, monde（世界）, pont（橋）)"
+            },
+            {
+              "word": "Maison",
+              "type": "Mot modèle [mɛ.zɔ̃]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ɔ̃]</strong>.<br><em>Maison (Maison（家）)</em>",
+              "example": "En français : « Maison »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɛ̃] : Son [ɛ̃] (Nasale IN/AIN)",
+          "words": [
+            "[ɛ̃]",
+            "Matin"
+          ],
+          "details": [
+            {
+              "word": "[ɛ̃] (in, im, ain, ein)",
+              "type": "Voyelle [ɛ̃]",
+              "def": "Voyelle nasale étirée : bouche en demi-sourire, son plus clair et aigu.<br><em>口角を横に引いて微笑む形で発音する、明るく澄んだ鼻母音「アン／イン」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>in, im, ain, ein</strong></small>",
+              "example": "Le matin, le train, le pain — (Matin（朝）, train（電車）, pain（パン）)"
+            },
+            {
+              "word": "Matin",
+              "type": "Mot modèle [ma.tɛ̃]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[ɛ̃]</strong>.<br><em>Matin (Matin（朝）)</em>",
+              "example": "En français : « Matin »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [œ̃] : Son [œ̃] (Nasale UN/UM)",
+          "words": [
+            "[œ̃]",
+            "Lundi"
+          ],
+          "details": [
+            {
+              "word": "[œ̃] (un, um)",
+              "type": "Voyelle [œ̃]",
+              "def": "Voyelle nasale arrondie : lèvres plus avancées et arrondies.<br><em>唇をより丸めて突き出して発音される鼻母音「アン／ウン」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>un, um</strong></small>",
+              "example": "Un [œ̃], lundi, le parfum — (Un（1・ひとつの）, lundi（月曜日）, parfum（香水）)"
+            },
+            {
+              "word": "Lundi",
+              "type": "Mot modèle [lœ̃.di]",
+              "def": "Exemple audio illustrant parfaitement le phonème <strong>[œ̃]</strong>.<br><em>Lundi (Un（1・ひとつの）)</em>",
+              "example": "En français : « Lundi »"
+            }
+          ]
         },
         {
           "type": "quiz_drill",
@@ -803,7 +1133,7 @@ window.parcours_A1_C1_Dataset = {
       "title": "Phonétique 2/3 : Consonnes, Semi-voyelles & Lettres Muettes",
       "level": "A1",
       "icon": "record_voice_over",
-      "xp": 50,
+      "xp": 65,
       "description": "Explorer le R grasseyé, le son CH, le J, les semi-voyelles [j], [w], [ɥ], et les règles majeures des consonnes muettes finales.",
       "steps": [
         {
@@ -811,6 +1141,182 @@ window.parcours_A1_C1_Dataset = {
           "title": "Consonnes Françaises, Semi-Voyelles & Piège des Lettres Muettes",
           "audioText": "Les consonnes françaises possèdent des caractéristiques bien précises. Le R français se prononce au fond de la gorge avec la luette. La lettre C et la lettre G changent de son selon la voyelle qui suit. La lettre S entre deux voyelles se prononce Z. Enfin, la grande particularité de l'orthographe française réside dans les consonnes finales : la plupart des consonnes écrites à la fin des mots ne se prononcent pas, sauf dans le mot mnémotechnique CARExFUL.",
           "content": "Le système consonantique français se caractérise par des oppositions claires et une règle capitale d'élision des lettres finales.\n*フランス語の子音体系は、明確な音の対立と、語尾文字を読まない（無音化する）極めて重要な規則によって特徴づけられます。*\n\n---\n\n### 1. Les Consonnes Remarquables\n*注目の重要子音：*\n\n- **Le « R » français [ʁ]** : se produit par vibration du voile du palais et de la luette au fond de la gorge (*Paris, rouge, merci*).\n  *フランス語の「R」[ʁ] ： 舌先ではなく、喉の奥（口蓋垂・のどちんこ）を震わせて息を摩擦させる特徴的な音です。*\n- **Le « CH » [ʃ]** : son continu doux comme dans *chocolat, chat, cher*.\n  *「CH」[ʃ] ： 静かにさせる「シー」のような柔らかい摩擦音（chocolat, chat）。*\n- **Le « J » et « G doux » [ʒ]** : son vibrant voisé comme dans *jour, jambon, voyage, genou*.\n  *「J」および「柔らかいG」[ʒ] ： 声帯を震わせる有声摩擦音（日本語の「ジ／ジュ」に近いが破裂させない音）。*\n- **La lettre « S »** :\n  *文字「S」の発音変化：*\n  - Entre deux voyelles : se prononce **[z]** voisé (*maison, poison, rose*).\n    *母音と母音の間にあるとき ： 濁った「ズ」の音 [z] になります（maison, poison, rose）。*\n  - En début de mot ou en double « ss » : se prononce **[s]** (*soleil, poisson, tasse*). Notez la différence vitale entre *poison* [z] (toxique) et *poisson* [s] (animal aquatique) !\n    *語頭や「ss」のとき ： 濁らない澄んだ「ス」の音 [s] になります。poison（毒）[z] と poisson（魚）[s] の決定的な違いに注意！*\n- **La lettre « C »** :\n  *文字「C」の発音規則：*\n  - Devant **E, I, Y** : se prononce **[s]** (*centre, cinéma, cycle*).\n    *E, I, Y の前 ： 柔らかい [s]（サ行音）になります。*\n  - Devant **A, O, U** : se prononce **[k]** (*café, cours, cuisine*).\n    *A, O, U の前 ： 硬い [k]（カ行音）になります。*\n- **La lettre « G »** :\n  *文字「G」の発音規則：*\n  - Devant **E, I, Y** : se prononce **[ʒ]** (*génial, girafe*).\n    *E, I, Y の前 ： 柔らかい [ʒ]（ジャ行音）になります。*\n  - Devant **A, O, U** : se prononce **[g]** dur (*gare, goût, guide*).\n    *A, O, U の前 ： 硬い [g]（ガ行音）になります。*\n\n---\n\n### 2. Les 3 Semi-Voyelles (Semi-Consonnes / Glides)\n*3つの半母音（半子音・渡り音）：*\n\n1. **[j] (Yod)** : son « y » comme dans *soleil, travail, payer, fille, bien*.\n   *「ヤ・ユ・ヨ」のような素早い渡り音（soleil, travail, bien）。*\n2. **[w]** : son « oué » comme dans *oui, ouest*, et surtout dans la combinaison **OI = [wa]** (*moi, toi, bonsoir, trois*).\n   *「ワ」のような音。特にフランス語の重要綴り「OI」は常に [wa]（ウワ）と発音されます。*\n3. **[ɥ]** : son spécifique français issu de « u », comme dans *huit, nuit, aujourd'hui, pluie*.\n   *フランス語特有の「ユ」の口の構えから素早く次の母音へ移行する音（huit, nuit）。*\n\n---\n\n### 3. La Règle d'Or des Consonnes Finales Muettes !\n*語尾の無音子音に関する黄金律！*\n\nEn règle générale, **les consonnes situées à la fin d'un mot français sont MUETTES** :\n*原則として、フランス語の単語の最後に置かれた子音文字は「発音しません（無音）」：*\n- Exemples : *grand* (le D ne s'entend pas), *petit* (le T ne s'entend pas), *temps* (P et S muets), *deux* (X muet), *parler* (R muet à l'infinitif en -er).\n  *例：grand（Dは読まない）、petit（Tは読まない）、temps（PとSは読まない）、deux（Xは読まない）。*\n\n✨ **L'exception mnémotechnique magique : « CaReFuL » (C, R, F, L)**\n*例外を覚える魔法の合言葉「CaReFuL（ケアフル）」（C, R, F, L）：*\nLa majorité des mots qui se terminent par **C, R, F, ou L** se prononcent à la fin :\n*語尾が C, R, F, L のいずれかで終わる単語の多くは、語尾の子音を発音します：*\n- **C** : *sac, avec, parc* （サック、アヴェック、パルク）\n- **R** : *mer, hiver, bonjour, pour* (sauf terminaison en `-er`) （メール、イヴェール、ボンジュール）\n- **F** : *neuf, chef, soif* （ヌフ、シェフ、ソワフ）\n- **L** : *hôtel, ciel, fil, journal* （オテル、シエル、フィル、ジュルナル）"
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ʁ] : Le « R » français grasseyé",
+          "words": [
+            "[ʁ]",
+            "Paris"
+          ],
+          "details": [
+            {
+              "word": "[ʁ] (r, rr)",
+              "type": "Phonème [ʁ]",
+              "def": "Fricative uvulaire voisée : vibration de la luette au fond de la gorge, sans rouler la langue.<br><em>舌先を巻かず、喉の奥（口蓋垂）を息で振動させて摩擦させるフランス語独特の「R」。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>r, rr</strong></small>",
+              "example": "Paris, rouge, la mer — (Paris（パリ）, rouge（赤）, mer（海）)"
+            },
+            {
+              "word": "Paris",
+              "type": "Mot modèle [pa.ʁi]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[ʁ]</strong>.<br><em>Paris</em>",
+              "example": "En français : « Paris »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ʃ] : Le son « CH »",
+          "words": [
+            "[ʃ]",
+            "Chocolat"
+          ],
+          "details": [
+            {
+              "word": "[ʃ] (ch, sh)",
+              "type": "Phonème [ʃ]",
+              "def": "Fricative post-alvéolaire sourde : son continu doux comme pour faire chuter quelqu'un.<br><em>「静かに！」と促すような柔らかい「シー」の無声摩擦音。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>ch, sh</strong></small>",
+              "example": "Le chocolat, le chat, cher — (Chocolat（チョコレート）, chat（猫）, cher（親愛なる・高い）)"
+            },
+            {
+              "word": "Chocolat",
+              "type": "Mot modèle [ʃɔ.kɔ.la]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[ʃ]</strong>.<br><em>Chocolat</em>",
+              "example": "En français : « Chocolat »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ʒ] : Le son « J » & « G doux »",
+          "words": [
+            "[ʒ]",
+            "Girafe"
+          ],
+          "details": [
+            {
+              "word": "[ʒ] (j, g (devant e, i, y), ge)",
+              "type": "Phonème [ʒ]",
+              "def": "Fricative post-alvéolaire voisée : son continu vibrant avec voix (jardin, voyage, genou).<br><em>声帯を振動させる有声摩擦音（破裂させない柔らかい「ジ／ジュ」）。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>j, g (devant e, i, y), ge</strong></small>",
+              "example": "La girafe, le jour, le voyage — (Girafe（キリン）, jour（日）, voyage（旅行）)"
+            },
+            {
+              "word": "Girafe",
+              "type": "Mot modèle [ʒi.ʁaf]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[ʒ]</strong>.<br><em>Girafe</em>",
+              "example": "En français : « Girafe »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [s] vs [z] : La lettre S : [s] sourd vs [z] voisé",
+          "words": [
+            "[s] vs [z]",
+            "Poisson"
+          ],
+          "details": [
+            {
+              "word": "[s] vs [z] (s, ss, c, ç (pour [s]) / s entre voyelles, z (pour [z]))",
+              "type": "Phonème [s] vs [z]",
+              "def": "Attention à l'opposition vitale : « poisson » [s] (poisson) ≠ « poison » [z] (toxique) !<br><em>「poisson（魚）」[s] と「poison（毒）」[z] の決定的な対立（母音の間の単独Sは濁って[z]に変化）。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>s, ss, c, ç (pour [s]) / s entre voyelles, z (pour [z])</strong></small>",
+              "example": "Un poisson [s] vs Le poison [z] — (Poisson（魚 [s]） vs Poison（毒 [z]）)"
+            },
+            {
+              "word": "Poisson",
+              "type": "Mot modèle [pwa.sɔ̃]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[s] vs [z]</strong>.<br><em>Poisson</em>",
+              "example": "En français : « Poisson »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [j] : Semi-voyelle [j] (Yod)",
+          "words": [
+            "[j]",
+            "Soleil"
+          ],
+          "details": [
+            {
+              "word": "[j] (y, ill, il, i + voyelle)",
+              "type": "Phonème [j]",
+              "def": "Glide palatal : passage ultra-rapide comme le « y » dans travail, fille, yeux.<br><em>「ヤ・ユ・ヨ」のような素早い渡り音（半母音）。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>y, ill, il, i + voyelle</strong></small>",
+              "example": "Le soleil, le travail, la fille — (Soleil（太陽）, travail（仕事）, fille（女の子）)"
+            },
+            {
+              "word": "Soleil",
+              "type": "Mot modèle [sɔ.lɛj]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[j]</strong>.<br><em>Soleil</em>",
+              "example": "En français : « Soleil »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [w] : Semi-voyelle [w] (Digramme OI = [wa])",
+          "words": [
+            "[w]",
+            "Trois"
+          ],
+          "details": [
+            {
+              "word": "[w] (oi, ou + voyelle, w)",
+              "type": "Phonème [w]",
+              "def": "Glide labio-vélaire : lèvres arrondies projetées. En français, la combinaison OI se lit toujours [wa] !<br><em>「ワ」のような半母音。フランス語の重要綴り「OI」は例外なく常に [wa] と発音されます。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>oi, ou + voyelle, w</strong></small>",
+              "example": "Trois [tʁwa], moi [mwa], oui [wi] — (Trois（3）, moi（私）, oui（はい）)"
+            },
+            {
+              "word": "Trois",
+              "type": "Mot modèle [tʁwa]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[w]</strong>.<br><em>Trois</em>",
+              "example": "En français : « Trois »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique [ɥ] : Semi-voyelle [ɥ]",
+          "words": [
+            "[ɥ]",
+            "Nuit"
+          ],
+          "details": [
+            {
+              "word": "[ɥ] (u + voyelle)",
+              "type": "Phonème [ɥ]",
+              "def": "Glide labio-palatal exclusif au français : transition ultra-rapide depuis la position [y].<br><em>フランス語特有の半母音。「ユ」の唇の構えから素早く次の母音へ移行する音。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>u + voyelle</strong></small>",
+              "example": "La nuit, huit [ɥit], aujourd'hui — (Nuit（夜）, huit（8）, aujourd'hui（今日）)"
+            },
+            {
+              "word": "Nuit",
+              "type": "Mot modèle [nɥi]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>[ɥ]</strong>.<br><em>Nuit</em>",
+              "example": "En français : « Nuit »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique CaReFuL : Règle CaReFuL (Consonnes prononcées)",
+          "words": [
+            "CaReFuL",
+            "Sac"
+          ],
+          "details": [
+            {
+              "word": "CaReFuL (C, R, F, L)",
+              "type": "Phonème CaReFuL",
+              "def": "Alors que les consonnes finales sont muettes (lit, chat, lit), les mots finissant par C, R, F, L se prononcent !<br><em>語尾の子音は原則無音ですが、C, R, F, L で終わる単語の多くは語尾を発音します（CaReFuL規則）。</em><br><small style=\"color:var(--md-sys-color-primary);\">Graphies usuelles : <strong>C, R, F, L</strong></small>",
+              "example": "Le sac [k], la mer [ʁ], neuf [f], l'hôtel [l] — (Sac（カバン [k]）, mer（海 [ʁ]）, neuf（9 [f]）, hôtel（ホテル [l]）)"
+            },
+            {
+              "word": "Sac",
+              "type": "Mot modèle [sak]",
+              "def": "Exemple audio illustrant le phénomène consonantique <strong>CaReFuL</strong>.<br><em>Sac</em>",
+              "example": "En français : « Sac »"
+            }
+          ]
         },
         {
           "type": "quiz_drill",
@@ -845,7 +1351,7 @@ window.parcours_A1_C1_Dataset = {
       "title": "Phonétique 3/3 : La Liaison, l'Élision, l'Enchaînement & l'Intonation",
       "level": "A1",
       "icon": "sync_alt",
-      "xp": 50,
+      "xp": 60,
       "description": "Comprendre les liaisons obligatoires et interdites, le phénomène de l'élision avec l'apostrophe et le rythme syllabique musical du français.",
       "steps": [
         {
@@ -853,6 +1359,116 @@ window.parcours_A1_C1_Dataset = {
           "title": "Le Rythme Musical du Français : Liaison, Élision & Mélodie",
           "audioText": "Le français est une langue liée et fluide où les mots s'enchaînent harmonieusement sans coupure d'air. C'est le phénomène de la liaison et de l'enchaînement vocalique. Quand un mot se termine par une consonne muette et que le mot suivant commence par une voyelle ou un h muet, on prononce souvent la consonne finale pour créer un pont sonore. De même, l'élision supprime la voyelle finale de certains petits mots pour faciliter la prononciation.",
           "content": "Le français possède une fluidité acoustique unique au monde. Pour éviter les chocs entre deux voyelles consécutives (le hiatus), la langue utilise deux mécanismes clés : **la liaison** et **l'élision**.\n*フランス語は世界でも類を見ない流麗な音響の連続性を持っています。母音が連続して衝突すること（ヒアトゥス）を避けるため、言語は2つの鍵となる仕組み「リエゾン（連音）」と「エリジオン（母音省略）」を用います。*\n\n---\n\n### 1. La Liaison : Le pont sonore entre deux mots\n*リエゾン（連音）：2つの単語をつなぐ音の架け橋*\n\nLa liaison consiste à prononcer la consonne finale habituellement muette d'un mot lorsqu'elle est suivie d'un mot commençant par une **voyelle** ou un **H muet**.\n*リエゾンとは、通常は発音されない語尾の無音子音を、直後に「母音」または「無音のH」で始まる単語が続く場合に発音する現象です。*\n\n#### 🔗 Changement de son lors de la liaison :\n*リエゾンによる音の変化：*\n- Le **-S** ou **-X** se prononce **[z]** :\n  - *Les amis* -> prononcé `[le-za-mi]` （レ・ザミ）\n  - *Deux enfants* -> prononcé `[dø-zɑ̃-fɑ̃]` （ドゥ・ザンファン）\n- Le **-D** se prononce **[t]** :\n  - *Un grand homme* -> prononcé `[œ̃-gʁɑ̃-tɔm]` （アン・グラン・トム）\n- Le **-N** conserve la nasalité tout en ajoutant la consonne `[n]` :\n  - *Un ami* -> prononcé `[œ̃-na-mi]` （アン・ナミ）\n\n#### ⛔ Liaisons Obligatoires vs Liaisons Interdites\n*必須のリエゾン vs 禁止のリエゾン：*\n1. **Liaisons obligatoires** :\n   *絶対にリエゾンしなければならない場合：*\n   - Déterminant + Nom : *les‿élèves, un‿arbre, mon‿ami*. （限定詞 ＋ 名詞）\n   - Pronom + Verbe : *ils‿arrivent, on‿écoute, vous‿avez*. （代名詞 ＋ 動詞）\n   - Adjectif + Nom : *un petit‿appartement, de grands‿arbres*. （前置形容詞 ＋ 名詞）\n2. **Liaisons formellement interdites** :\n   *絶対にリエゾンしてはならない場合（禁止）：*\n   - **Après le mot « et »** : on ne fait JAMAIS la liaison après *et* (*un père et [pause] une mère*).\n     *接続詞「et（そして）」の後 ： 決してリエゾンしてはいけません！*\n   - Devant un **H aspiré** : *les / héros* (pas de liaison !), *les / haricots*.\n     *有気音のHの前 ： リエゾン禁止（les héros, les haricots）。*\n   - Entre le sujet nominal et le verbe : *Le train / arrive* (pas de liaison).\n     *名詞主語と動詞の間 ： リエゾン禁止。*\n\n---\n\n### 2. L'Élision : L'apostrophe salvatrice\n*エリジオン（母音省略）：アポストロフィによる短縮*\n\nLorsque certains petits mots d'une syllabe se terminant par **e** ou **a** (*le, la, de, je, me, te, se, ce, ne, que*) sont suivis d'une voyelle ou d'un H muet, la voyelle disparaît et se remplace par une apostrophe :\n*1音節の短い単語が母音または無音のHで始まる単語の前に来るとき、語尾の母音が脱落してアポストロフィ（'）に置き換わります：*\n- *L'étudiant* (au lieu de *Le étudiant*) （男子学生）\n- *J'habite* (au lieu de *Je habite*) （私は住んでいる）\n- *C'est* (au lieu de *Ce est*) （それは〜です）\n- *D'accord* (au lieu de *De accord*) （了解・同意）\n\n---\n\n### 3. L'Intonation & le Rythme Syllabique\n*イントネーションと音節リズム：*\nEn français, chaque syllabe a une durée égale (rythme isosyllabique). Il n'y a pas d'accent tonique lexical imprévisible : **l'accent tonique tombe toujours sur la dernière syllabe du groupe de mots** !\n*フランス語では、各音節が等しい長さで発音されます。強勢アクセントは単語ごとに位置が決まっているのではなく、常に句や文の「最後の音節」に置かれます！*\n- **Question totale** (Est-ce que... ?) : la voix monte à la fin ↗.\n  *全体疑問文（はい／いいえで答える質問）：語尾の音調が上がります ↗。*\n- **Phrase affirmative ou ordre** : la voix descend à la fin ↘.\n  *肯定文や命令文：語尾の音調が下がります ↘。*"
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique : Liaison en [z] (-s / -x)",
+          "words": [
+            "[z]",
+            "Les amis"
+          ],
+          "details": [
+            {
+              "word": "Liaison en [z] (-s / -x)",
+              "type": "Règle sonore [z]",
+              "def": "La consonne finale -s ou -x habituellement muette se lie avec le son [z] devant une voyelle.<br><em>本来無音の -s や -x が、母音で始まる語の前で [z]（ズ）の音で連結します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Cas d'application : <strong>-s, -x devant voyelle</strong></small>",
+              "example": "Les amis [le-za-mi], deux enfants [dø-zɑ̃-fɑ̃] — (Les amis（友達たち）, deux enfants（2人の子ども）)"
+            },
+            {
+              "word": "Les amis",
+              "type": "Exemple modèle [le.za.mi]",
+              "def": "Exemple audio illustrant la liaison ou mélodie <strong>[z]</strong>.<br><em>Les amis</em>",
+              "example": "En français : « Les amis »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique : Liaison en [t] (-d / -t)",
+          "words": [
+            "[t]",
+            "Grand homme"
+          ],
+          "details": [
+            {
+              "word": "Liaison en [t] (-d / -t)",
+              "type": "Règle sonore [t]",
+              "def": "La consonne finale -d s'assourdit en [t] lors de la liaison devant voyelle.<br><em>語尾の -d は母音の前で [t]（ト／テ）の音に無声化して連結します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Cas d'application : <strong>-d, -t devant voyelle</strong></small>",
+              "example": "Un grand homme [œ̃-gʁɑ̃-tɔm], c'est un ami — (Grand homme（偉大な人物）, c'est un ami（友達です）)"
+            },
+            {
+              "word": "Grand homme",
+              "type": "Exemple modèle [gʁɑ̃.tɔm]",
+              "def": "Exemple audio illustrant la liaison ou mélodie <strong>[t]</strong>.<br><em>Grand homme</em>",
+              "example": "En français : « Grand homme »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique : Liaison en [n] (-n)",
+          "words": [
+            "[n]",
+            "Un ami"
+          ],
+          "details": [
+            {
+              "word": "Liaison en [n] (-n)",
+              "type": "Règle sonore [n]",
+              "def": "La voyelle nasale conserve son timbre tout en articulant la consonne [n] de liaison.<br><em>鼻母音の音色を保ちつつ、子音 [n] を次の母音と滑らかに連結します。</em><br><small style=\"color:var(--md-sys-color-primary);\">Cas d'application : <strong>-n (un, mon, ton, son, en, bien, rien)</strong></small>",
+              "example": "Un ami [œ̃-na-mi], mon ami [mɔ̃-na-mi] — (Un ami（一人の友人）, mon ami（私の友人）)"
+            },
+            {
+              "word": "Un ami",
+              "type": "Exemple modèle [œ̃.na.mi]",
+              "def": "Exemple audio illustrant la liaison ou mélodie <strong>[n]</strong>.<br><em>Un ami</em>",
+              "example": "En français : « Un ami »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique : L'Élision avec apostrophe ( ' )",
+          "words": [
+            "L'Élision",
+            "L'étudiant"
+          ],
+          "details": [
+            {
+              "word": "L'Élision avec apostrophe ( ' )",
+              "type": "Règle sonore L'Élision",
+              "def": "Suppression de la voyelle finale (e ou a) devant voyelle ou H muet pour éviter le choc vocalique.<br><em>母音の衝突を防ぐため、母音または無音のHの前で末尾母音が脱落してアポストロフィになる現象。</em><br><small style=\"color:var(--md-sys-color-primary);\">Cas d'application : <strong>j', l', c', d', n', s', m', t', qu'</strong></small>",
+              "example": "L'étudiant, j'habite, c'est facile — (L'étudiant（学生）, j'habite（住んでいる）, c'est（〜です）)"
+            },
+            {
+              "word": "L'étudiant",
+              "type": "Exemple modèle [le.ty.djɑ̃]",
+              "def": "Exemple audio illustrant la liaison ou mélodie <strong>L'Élision</strong>.<br><em>L'étudiant</em>",
+              "example": "En français : « L'étudiant »"
+            }
+          ]
+        },
+        {
+          "type": "vocab_drill",
+          "title": "Phonétique : Intonation & Rythme Syllabique",
+          "words": [
+            "↗ ↘",
+            "Comment tu t'appelles ?"
+          ],
+          "details": [
+            {
+              "word": "Intonation & Rythme Syllabique",
+              "type": "Règle sonore ↗ ↘",
+              "def": "Rythme isosyllabique régulier. Intonation montante ↗ pour la question, descendante ↘ pour l'affirmation.<br><em>各音節が等しい長さで進行。疑問文では語尾が上がり↗、平叙文では語尾が下がります↘。</em><br><small style=\"color:var(--md-sys-color-primary);\">Cas d'application : <strong>Mélodie de phrase</strong></small>",
+              "example": "Tu es prêt ? ↗ / Oui, je suis prêt. ↘ — (準備はいい？ ↗ ／ はい、準備できました。 ↘)"
+            },
+            {
+              "word": "Comment tu t'appelles ?",
+              "type": "Exemple modèle [kɔ.mɑ̃.ty.ta.pɛl]",
+              "def": "Exemple audio illustrant la liaison ou mélodie <strong>↗ ↘</strong>.<br><em>Comment tu t'appelles ?</em>",
+              "example": "En français : « Comment tu t'appelles ? »"
+            }
+          ]
         },
         {
           "type": "quiz_drill",

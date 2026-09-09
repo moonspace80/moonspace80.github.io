@@ -31697,5 +31697,1450 @@ window.vocab_B2_Dataset = [
           "jp": "雪花石膏（アラバスター）海岸の白亜の断崖絶壁は大海原を見下ろし、ディエップとエトルタを結ぶ風光明媚な海岸遊歩道（海浜小道）が続いています。"
         }
       ]
+    },
+    {
+      "word": "Ça ne sert à rien",
+      "phonetic": "/sa nə sɛʁ a ʁjɛ̃/",
+      "type": "expression idiomatique • registre courant",
+      "theme": "Communication & Bon sens",
+      "level": "B2",
+      "definition": "Être totalement inutile, vain ou superflu ; ne produire aucun résultat bénéfique ou nécessaire.",
+      "examples": [
+        {
+          "fr": "Comme quoi ça ne sert à rien d'aller trop loin quand on a des merveilles à portée de train.",
+          "en": "Proof that there is no point in traveling too far when you have wonders within train reach.",
+          "cn": "事实证明，当近在咫尺的火车车程内就藏着绝美胜景时，舍近求远、长途跋涉根本毫无必要。",
+          "jp": "電車ですぐに行ける距離に素晴らしい名所があるのだから、わざわざ遠くまで行く必要は全くありません（無駄なことです）。"
+        }
+      ],
+      "id": 14926
+    },
+    {
+      "word": "Une fois de plus",
+      "phonetic": "/yn fwa də plys/",
+      "type": "locution adverbiale • répétition & confirmation",
+      "theme": "Argumentation & Logique",
+      "level": "B2",
+      "definition": "Encore une fois, à nouveau ; formule servant à confirmer une observation récurrente ou une vérité établie.",
+      "examples": [
+        {
+          "fr": "Cette découverte nous montre une fois de plus la richesse insoupçonnée du patrimoine littoral français.",
+          "en": "This discovery shows us once again the unsuspected richness of French coastal heritage.",
+          "cn": "这一发现再次向世人确凿印证了法国滨海自然与历史文化遗产超乎想象的深厚底蕴。",
+          "jp": "この発見は、フランスの海岸遺産の知られざる豊かさを今一度（再び）私たちに示してくれています。"
+        }
+      ],
+      "id": 14927
+    },
+    {
+      "word": "On a tout ce qu'il nous faut",
+      "phonetic": "/ɔ̃.n‿a tu s‿kil nu fo/",
+      "type": "tournure idiomatique • autosuffisance & plénitude",
+      "theme": "Mode de vie & Tourisme",
+      "level": "B2",
+      "definition": "Constat de complétude et de satisfaction : disposer de toutes les ressources, commodités ou attraits nécessaires sans avoir à chercher ailleurs.",
+      "examples": [
+        {
+          "fr": "Entre mer, falaises et patrimoine architectural, on a tout ce qu'il nous faut sur place pour passer des vacances idéales.",
+          "en": "Between the sea, cliffs, and architectural heritage, we have everything we need right here for an ideal vacation.",
+          "cn": "集大海、峭壁与百年建筑胜迹于一身，我们在此拥有度过完美假日所需的一切要素，何须他求。",
+          "jp": "海、断崖絶壁、そして歴史的建造物が揃っており、理想的な休暇を過ごすために必要なものはすべてここに揃っています。"
+        }
+      ],
+      "id": 14928
+    },
+    {
+      "word": "Recommande",
+      "phonetic": "/ʁə.kɔ.mɑ̃d/",
+      "type": "verbe transitif (présent indicatif) • conseil",
+      "theme": "Communication & Partage",
+      "level": "B1",
+      "definition": "Forme conjuguée du verbe recommander : conseiller vivement à quelqu'un en faisant l'éloge de ses qualités.",
+      "examples": [
+        {
+          "fr": "Le sentier du littoral sur la Côte d'Albâtre et Dieppe en particulier, je vous le recommande vivement.",
+          "en": "The coastal trail on the Alabaster Coast and Dieppe in particular, I highly recommend it to you.",
+          "cn": "雪花石膏海岸上的悬崖滨海步道，尤其是迪耶普段，我向大家由衷强烈推荐。",
+          "jp": "白亜の断崖が続く海岸遊歩道、とりわけディエップの散策コースは、ぜひ皆様に心からおすすめします。"
+        }
+      ],
+      "id": 14929
+    },
+    {
+      "word": "Dieppe",
+      "phonetic": "/djɛp/",
+      "type": "nom propre de ville • géographie normande",
+      "theme": "Histoire & Patrimoine Balnéaire",
+      "level": "B2",
+      "definition": "Ville portuaire et station balnéaire historique de Normandie (département de la Seine-Maritime), berceau des premiers bains de mer en France au XVIIIe siècle et premier port coquillier du pays.",
+      "examples": [
+        {
+          "fr": "Dieppe est célèbre pour ses quatre ports, sa grande plage dominée par un château médiéval et son riche passé maritime.",
+          "en": "Dieppe is famous for its four harbors, its large beach dominated by a medieval castle, and its rich maritime past.",
+          "cn": "迪耶普以其四大城市内港、由中世纪城堡俯瞰的开阔海滩以及辉煌的海洋航海历史而享誉欧洲。",
+          "jp": "ディエップは4つの港、中世の城が見下ろす広大なビーチ、そして輝かしい海洋の歴史で広く知られています。"
+        }
+      ],
+      "id": 14930
+    },
+    {
+      "word": "Le sentier du littoral",
+      "phonetic": "/lə sɑ̃.tje dy li.tɔ.ʁal/",
+      "type": "locution nominale • randonnée & environnement",
+      "theme": "Randonnée & Nature",
+      "level": "B2",
+      "definition": "Chemin piétonnier aménagé le long des côtes (souvent l'ancien sentier des douaniers ou GR), permettant de parcourir le bord de mer au plus près des falaises ou des grèves.",
+      "examples": [
+        {
+          "fr": "Parcourir le sentier du littoral sur la Côte d'Albâtre offre des panoramas vertigineux sur les vagues de la Manche.",
+          "en": "Walking the coastal path along the Alabaster Coast offers dizzying views of the English Channel waves.",
+          "cn": "沿着雪花石膏海岸的悬崖步道徒步健行，可将英吉利海峡波涛汹涌的万顷碧波与壮美全景尽收眼底。",
+          "jp": "白亜海岸の沿岸遊歩道（海岸小道）を歩くと、イギリス海峡の白波を見下ろす目も眩むような大パノラマが広がります。"
+        }
+      ],
+      "id": 14931
+    },
+    {
+      "word": "Fabuleux",
+      "phonetic": "/fa.by.lø/",
+      "type": "adjectif • appréciation & enthousiasme",
+      "theme": "Appréciation & Esthétique",
+      "level": "B2",
+      "definition": "Qui dépasse l'ordinaire par sa beauté, sa grandeur ou son éclat ; extraordinaire, merveilleux.",
+      "examples": [
+        {
+          "fr": "Le coucher de soleil sur les falaises de craie blanche est un spectacle tout simplement fabuleux.",
+          "en": "The sunset over the white chalk cliffs is a simply fabulous sight.",
+          "cn": "落日余晖洒在雪白纯净的白垩峭壁之上，构成了一幅令人叹为观止、美妙绝伦的壮丽画卷。",
+          "jp": "純白の石灰岩の断崖に沈む夕日は、まさに息をのむほど素晴らしい（ファビュラスな）絶景です。"
+        }
+      ],
+      "id": 14932
+    },
+    {
+      "word": "En particulier",
+      "phonetic": "/ɑ̃ paʁ.ti.ky.lje/",
+      "type": "locution adverbiale • précision & focalisation",
+      "theme": "Argumentation & Logique",
+      "level": "B2",
+      "definition": "Plus particulièrement, spécialement, notamment ; met l'accent sur un élément singulier au sein d'un ensemble.",
+      "examples": [
+        {
+          "fr": "Il admire la côte normande, et les falaises entourant la ville de Dieppe en particulier.",
+          "en": "He admires the Normandy coast, and the cliffs surrounding the town of Dieppe in particular.",
+          "cn": "他深爱诺曼底海岸的自然风光，尤其是环绕迪耶普市区的壮丽悬崖断壁。",
+          "jp": "彼はノルマンディー海岸を深く愛しており、とりわけディエップの町を取り囲む断崖絶壁に魅了されています。"
+        }
+      ],
+      "id": 14933
+    },
+    {
+      "word": "Vaches",
+      "phonetic": "/vaʃ/",
+      "type": "nom féminin pluriel • faune & élevage",
+      "theme": "Nature & Terroir",
+      "level": "A2",
+      "definition": "Femelles reproductrices des bovins, symboles emblématiques des paysages bocagers et de la tradition laitière de Normandie.",
+      "examples": [
+        {
+          "fr": "En randonnant le long de la falaise, on longe des prairies verdoyantes où paissent paisiblement des vaches normandes.",
+          "en": "While hiking along the cliff, you walk alongside lush green pastures where Norman cows graze peacefully.",
+          "cn": "沿着海滨悬崖徒步漫游，身旁便是一片片翠绿草场，温顺的诺曼底奶牛在其中悠闲吃草。",
+          "jp": "断崖沿いをハイキングしていると、ノルマンディー種の牛たちがのんびりと草を食む青々とした牧草地の横を通り抜けます。"
+        }
+      ],
+      "id": 14934
+    },
+    {
+      "word": "Champs",
+      "phonetic": "/ʃɑ̃/",
+      "type": "nom masculin pluriel • agriculture & paysage",
+      "theme": "Campagne & Environnement",
+      "level": "A2",
+      "definition": "Étendues de terre labourable destinées aux cultures agricoles ou à la pâture.",
+      "examples": [
+        {
+          "fr": "Le sentier traverse des champs dorés de blé et de lin qui s'étendent à perte de vue jusqu'au bord de la falaise.",
+          "en": "The path crosses golden fields of wheat and flax stretching as far as the eye can see up to the edge of the cliff.",
+          "cn": "小道穿行于金黄的麦田与亚麻花田之间，一望无际地延伸直至海滨峭壁的边缘。",
+          "jp": "小道は、断崖の際まで見渡す限り広がる小麦や亜麻の黄金色の畑を通り抜けていきます。"
+        }
+      ],
+      "id": 14935
+    },
+    {
+      "word": "Méditerranée",
+      "phonetic": "/me.di.tɛ.ʁa.ne/",
+      "type": "nom propre géographique • mer fermée",
+      "theme": "Géographie & Tourisme",
+      "level": "B1",
+      "definition": "Mer intercontinentale presque entièrement fermée, située entre l'Europe du Sud, l'Afrique du Nord et l'Asie de l'Ouest, célèbre pour son ensoleillement et son sentier littoral.",
+      "examples": [
+        {
+          "fr": "Bien que la Méditerranée soit réputée pour ses criques ensoleillées, les falaises normandes offrent un dépaysement tout aussi saisissant.",
+          "en": "Although the Mediterranean is famous for its sunny coves, the Norman cliffs offer an equally striking change of scenery.",
+          "cn": "尽管地中海以其阳光明媚的峡湾海湾闻名遐迩，但诺曼底的苍茫峭壁同样能带来极具震撼力与冲击感的心灵洗涤。",
+          "jp": "地中海は陽光あふれる入り江で有名ですが、ノルマンディーの白亜の断崖もそれに劣らず強烈で魅力的な旅情を与えてくれます。"
+        }
+      ],
+      "id": 14936
+    },
+    {
+      "word": "Balades",
+      "phonetic": "/ba.lad/",
+      "type": "nom féminin pluriel • loisir & détente",
+      "theme": "Loisirs & Tourisme",
+      "level": "A2",
+      "definition": "Promenades tranquilles et récréatives effectuées à pied, à vélo ou à cheval pour le plaisir de flâner et d'observer.",
+      "examples": [
+        {
+          "fr": "Les hauteurs de Dieppe permettent de superbes balades familiales au grand air marin.",
+          "en": "The heights of Dieppe allow wonderful family strolls in the open sea air.",
+          "cn": "迪耶普的悬崖高地极为适合全家老少在清新海风中悠然漫步、强身健体。",
+          "jp": "ディエップの高台は、澄んだ潮風の中で家族と一緒に楽しむ素晴らしい散策（お散歩）に最適です。"
+        }
+      ],
+      "id": 14937
+    },
+    {
+      "word": "Magnifiques",
+      "phonetic": "/ma.ɲi.fik/",
+      "type": "adjectif qualificatif pluriel • beauté",
+      "theme": "Description & Esthétique",
+      "level": "B1",
+      "definition": "D'une beauté éclatante, grandiose et remarquable ; qui suscite une vive admiration esthétique.",
+      "examples": [
+        {
+          "fr": "Les visiteurs contemplent de magnifiques panoramas maritimes depuis le haut des falaises de craie.",
+          "en": "Visitors admire magnificent maritime vistas from the top of the chalk cliffs.",
+          "cn": "游人站在白垩悬崖之巅，由衷赞叹极目所见的壮丽辽阔海景。",
+          "jp": "訪れた人々は、石灰岩の断崖の上から広がる壮麗で息をのむような（マニフィックな）海の絶景に見とれています。"
+        }
+      ],
+      "id": 14938
+    },
+    {
+      "word": "Ça",
+      "phonetic": "/sa/",
+      "type": "pronom démonstratif • usage familier ou oral",
+      "theme": "Grammaire & Registre oral",
+      "level": "A1",
+      "definition": "Forme contractée courante de « cela » ; pronom neutre désignant une idée, un fait, une chose ou une situation globale.",
+      "examples": [
+        {
+          "fr": "Ça consistait en un gros costaud qui vous prenait et vous jetait à l'eau.",
+          "en": "That consisted of a big strapping fellow who picked you up and threw you in the water.",
+          "cn": "这在当年具体就是指由一个身材健硕魁梧的大汉抱着你，猛地把你扔进海浪水里。",
+          "jp": "それは、屈強な大男があなたを抱え上げて海の中に勢いよく投げ込むというものでした。"
+        }
+      ],
+      "id": 14939
+    },
+    {
+      "word": "Exceptionnelles",
+      "phonetic": "/ɛk.sɛp.sjɔ.nɛl/",
+      "type": "adjectif qualificatif féminin pluriel • rareté",
+      "theme": "Qualité & Rareté",
+      "level": "B2",
+      "definition": "Qui sort de l'ordinaire, qui est hors du commun par son excellence, son intensité ou sa singularité remarquable.",
+      "examples": [
+        {
+          "fr": "Les randonnées sur le sentier du littoral offrent des échappées visuelles exceptionnelles sur la mer.",
+          "en": "Hikes along the coastal path offer exceptional visual views over the sea.",
+          "cn": "沿着滨海悬崖步道徒步远足，可获得领略浩瀚沧海风光的无与伦比的非凡视觉体验。",
+          "jp": "海岸小道のトレッキングでは、大海原を見渡す並外れて素晴らしい（例外的なほど見事な）視界が開けます。"
+        }
+      ],
+      "id": 14940
+    },
+    {
+      "word": "Ville basse",
+      "phonetic": "/vil bas/",
+      "type": "locution nominale • urbanisme & géomorphologie",
+      "theme": "Architecture & Géographie",
+      "level": "B2",
+      "definition": "Partie d'une agglomération construite au niveau de la plaine, de la rive ou du rivage, par opposition à la ville haute juchée sur le promontoire ou la falaise.",
+      "examples": [
+        {
+          "fr": "Depuis la falaise du château, on embrasse du regard toute la ville basse de Dieppe et ses bassins portuaires.",
+          "en": "From the castle cliff, you take in the entire lower town of Dieppe and its harbor basins.",
+          "cn": "伫立在古堡悬崖俯瞰，整座迪耶普下城区及其星罗棋布的港池码头尽收眼底。",
+          "jp": "城の建つ断崖の上からは、ディエップの平坦な低地市街地（下町）と港湾ドックの全貌を一望できます。"
+        }
+      ],
+      "id": 14941
+    },
+    {
+      "word": "Plate",
+      "phonetic": "/plat/",
+      "type": "adjectif qualificatif féminin • topographie",
+      "theme": "Topographie & Relief",
+      "level": "A2",
+      "definition": "Qui ne présente aucune dénivellation, aucune éminence ni aspérité marquée ; de relief horizontal uni.",
+      "examples": [
+        {
+          "fr": "La partie urbaine de Dieppe est construite sur une plaine alluviale toute plate enserrée entre deux hautes falaises.",
+          "en": "The urban part of Dieppe is built on a completely flat alluvial plain nestled between two high cliffs.",
+          "cn": "迪耶普市区依地势坐落在一片地势平坦开阔的冲积平原上，被两座巍峨挺拔的峭壁紧紧环抱。",
+          "jp": "ディエップの市街地部分は、2つの高い断崖に挟まれた完全に平坦な沖積平野の上に築かれています。"
+        }
+      ],
+      "id": 14942
+    },
+    {
+      "word": "Falaises",
+      "phonetic": "/fa.lɛz/",
+      "type": "nom féminin pluriel • géomorphologie côtière",
+      "theme": "Nature & Littoral",
+      "level": "B1",
+      "definition": "Escarpements rocheux abrupts et verticaux modelés par l'érosion marine en bordure de mer.",
+      "examples": [
+        {
+          "fr": "Les falaises de craie de la Côte d'Albâtre dressent de vertigineuses murailles blanches au-dessus des vagues.",
+          "en": "The chalk cliffs of the Alabaster Coast erect dizzying white walls above the waves.",
+          "cn": "雪花石膏海岸上的白垩峭壁犹如一道道耸入云霄的雪白巨墙，傲然挺立于翻腾的浪涛之上。",
+          "jp": "白亜海岸の石灰断崖（ファレーズ）は、激しい白波の上に目が眩むほど真っ白な天然の城壁のようにそそり立っています。"
+        }
+      ],
+      "id": 14943
+    },
+    {
+      "word": "À proximité de",
+      "phonetic": "/a pʁɔk.si.mi.te də/",
+      "type": "locution prépositive • espace & situation",
+      "theme": "Localisation & Espace",
+      "level": "B1",
+      "definition": "Tout près de, dans les environs immédiats de ; à une très faible distance géographique.",
+      "examples": [
+        {
+          "fr": "Les points de vue les plus saisissants sont situés sur les sentiers à proximité immédiate de la ville.",
+          "en": "The most striking viewpoints are located on the trails in the immediate vicinity of the city.",
+          "cn": "最引人入胜的绝美全景观赏点就分布在紧邻市区周边的健行小道之上。",
+          "jp": "最も息をのむような展望スポットは、市街地のすぐ近く（至近距離）にある散策路沿いに位置しています。"
+        }
+      ],
+      "id": 14944
+    },
+    {
+      "word": "Points de vue",
+      "phonetic": "/pwɛ̃ də vy/",
+      "type": "nom masculin pluriel • paysage & panorama",
+      "theme": "Tourisme & Paysage",
+      "level": "B1",
+      "definition": "Endroits surélevés ou stratégiquement situés d'où l'on bénéficie d'un panorama étendu sur le paysage environnant.",
+      "examples": [
+        {
+          "fr": "Les belvédères aménagés sur les falaises offrent des points de vue spectaculaires sur la Manche.",
+          "en": "The lookouts installed on the cliffs provide spectacular viewpoints over the English Channel.",
+          "cn": "修建在峭壁之巅的观景露台为游客提供了俯瞰英吉利海峡波澜壮阔景象的绝佳观赏视角。",
+          "jp": "断崖の上に整備された展望デッキからは、イギリス海峡を見渡す壮観な展望（ビュースポット）が得られます。"
+        }
+      ],
+      "id": 14945
+    },
+    {
+      "word": "Remarquables",
+      "phonetic": "/ʁə.maʁ.kabl/",
+      "type": "adjectif qualificatif pluriel • distinction",
+      "theme": "Qualité & Distinction",
+      "level": "B2",
+      "definition": "Dignes d'être remarqués en raison de leur intérêt, de leur qualité esthétique ou de leur valeur historique exceptionnelle.",
+      "examples": [
+        {
+          "fr": "Les falaises dieppoises abritent des belvédères remarquables classés au patrimoine environnemental.",
+          "en": "The Dieppe cliffs house remarkable lookouts classified as environmental heritage.",
+          "cn": "迪耶普的海滨悬崖拥有诸多名列生态与景观遗产名录的卓越观景制高点。",
+          "jp": "ディエップの断崖には、環境保護遺産に指定されている極めて注目すべき（特筆に値する）展望所があります。"
+        }
+      ],
+      "id": 14946
+    },
+    {
+      "word": "Tout de même",
+      "phonetic": "/tu d‿mɛm/",
+      "type": "locution adverbiale • concession & nuance",
+      "theme": "Connecteurs & Argumentation",
+      "level": "B2",
+      "definition": "Malgré tout, néanmoins, quand même ; permet d'introduire une nuance concessive après avoir concédé un point.",
+      "examples": [
+        {
+          "fr": "Les falaises limitent la largeur de la plage, mais elles constituent tout de même un rempart naturel somptueux.",
+          "en": "The cliffs limit the beach width, but they still represent a magnificent natural rampart all the same.",
+          "cn": "尽管悬崖限制了海滩的向外延伸空间，但它们终究仍是一道气势恢宏、鬼斧神工的天然壮丽屏障。",
+          "jp": "断崖は砂浜の幅を制限してしまいますが、それでもやはり（とはいえ）見事な天然の防壁となっています。"
+        }
+      ],
+      "id": 14947
+    },
+    {
+      "word": "Nord",
+      "phonetic": "/nɔʁ/",
+      "type": "nom masculin • point cardinal",
+      "theme": "Orientation & Géographie",
+      "level": "A1",
+      "definition": "Point cardinal situé dans la direction du pôle Nord géographique ; s'oppose au sud.",
+      "examples": [
+        {
+          "fr": "La ville de Dieppe est enserrée par des falaises imposantes au nord comme au sud.",
+          "en": "The city of Dieppe is enclosed by imposing cliffs both to the north and south.",
+          "cn": "迪耶普市区无论朝北还是向南，均被两座拔地而起的雄伟白垩悬崖牢牢拱卫环抱。",
+          "jp": "ディエップの町は、北側も南側もそびえ立つ堂々とした断崖によって挟まれています。"
+        }
+      ],
+      "id": 14948
+    },
+    {
+      "word": "Sud",
+      "phonetic": "/syd/",
+      "type": "nom masculin • point cardinal",
+      "theme": "Orientation & Géographie",
+      "level": "A1",
+      "definition": "Point cardinal situé dans la direction du pôle Sud géographique ; s'oppose au nord.",
+      "examples": [
+        {
+          "fr": "En longeant la plage vers le sud, on atteint les falaises verdoyantes de Pourville-sur-Mer.",
+          "en": "Following the beach southward, you reach the verdant cliffs of Pourville-sur-Mer.",
+          "cn": "沿着沙滩向南漫步前行，便可抵达绿意盎然的普尔维尔海滨悬崖。",
+          "jp": "砂浜沿いに南へ向かって進むと、緑に覆われたプールヴィル・シュル・メールの断崖にたどり着きます。"
+        }
+      ],
+      "id": 14949
+    },
+    {
+      "word": "Marée",
+      "phonetic": "/ma.ʁe/",
+      "type": "nom féminin • phénomène océanographique",
+      "theme": "Océanographie & Littoral",
+      "level": "B1",
+      "definition": "Mouvement oscillatoire périodique des eaux de la mer causé par l'attraction gravitationnelle combinée de la Lune et du Soleil.",
+      "examples": [
+        {
+          "fr": "À marée basse, le retrait des eaux dévoile une immense étendue de sable fin au pied des falaises.",
+          "en": "At low tide, the receding waters reveal an immense expanse of fine sand at the foot of the cliffs.",
+          "cn": "每当退潮落潮时分，海水退去，便在巍峨悬崖脚下露出一片平坦辽阔无垠的细腻金沙滩。",
+          "jp": "引き潮（干潮）になると海水が遠くまで引き、断崖の足元にきめ細かな広大な砂浜が現れます。"
+        }
+      ],
+      "id": 14950
+    },
+    {
+      "word": "Parasol",
+      "phonetic": "/pa.ʁa.sɔl/",
+      "type": "nom masculin • équipement balnéaire",
+      "theme": "Plage & Loisirs d'été",
+      "level": "A2",
+      "definition": "Grand abri portatif en toile tendue sur armature destiné à protéger du rayonnement direct du soleil sur la plage.",
+      "examples": [
+        {
+          "fr": "Sur la vaste plage découverte à marée basse, les estivants ont largement la place de planter leur parasol.",
+          "en": "On the vast beach exposed at low tide, vacationers have plenty of room to set up their beach umbrella.",
+          "cn": "退潮后露出的辽阔海滩上空间极为充裕，夏日度假客们完全可以随心所欲地支起自己的遮阳伞。",
+          "jp": "干潮時に姿を現す広大な砂浜では、夏の行楽客たちがパラソルを立てる十分なスペースがあります。"
+        }
+      ],
+      "id": 14951
+    },
+    {
+      "word": "Largement",
+      "phonetic": "/laʁ.ʒə.mɑ̃/",
+      "type": "adverbe de quantité & modalité",
+      "theme": "Degré & Abondance",
+      "level": "B1",
+      "definition": "De manière amplement suffisante, généreuse et sans la moindre restriction ; bien au-delà du strict nécessaire.",
+      "examples": [
+        {
+          "fr": "La plage est immense à marée basse, on a donc largement de quoi installer ses serviettes sans gêner personne.",
+          "en": "The beach is huge at low tide, so there is more than enough room to lay out your towels without bothering anyone.",
+          "cn": "落潮时的海滩开阔空旷，游人完全有足够宽裕的空间铺设浴巾安坐，绝无拥挤之虞。",
+          "jp": "干潮時のビーチは広大であるため、誰の邪魔にもならず十分に（余裕を持って）シートを広げることができます。"
+        }
+      ],
+      "id": 14952
+    },
+    {
+      "word": "Galets",
+      "phonetic": "/ɡa.lɛ/",
+      "type": "nom masculin pluriel • géologie littorale",
+      "theme": "Géologie & Littoral normand",
+      "level": "B1",
+      "definition": "Pierres polies et arrondies par le frottement continu et le va-et-vient des vagues sur les rivages de silex normands.",
+      "examples": [
+        {
+          "fr": "Le cordon supérieur de galets protège la digue de Dieppe contre la force d'assaut des tempêtes hivernales.",
+          "en": "The upper shingle ridge of pebbles protects the Dieppe sea wall against the assaulting force of winter storms.",
+          "cn": "高高堆叠在海滩上层的圆润鹅卵石堤坝，构成了抵御冬季滔天风暴巨浪冲击防护大堤的天然坚固防线。",
+          "jp": "丸く磨かれた小石（ガレ／丸石）の堆積帯は、冬の激しい嵐の波の衝撃からディエップの防波堤を守る役目を果たしています。"
+        }
+      ],
+      "id": 14953
+    },
+    {
+      "word": "Le contraire",
+      "phonetic": "/lə kɔ̃.tʁɛʁ/",
+      "type": "nom masculin • antithèse & discours",
+      "theme": "Communication & Argumentation",
+      "level": "B1",
+      "definition": "Ce qui est rigoureusement inverse ou opposé ; formule fréquente : « ne me dira pas le contraire » (confirmera mes dires).",
+      "examples": [
+        {
+          "fr": "Ma consœur qui connaît très bien la Normandie ne me dira pas le contraire : la baignade à Dieppe est très vivifiante.",
+          "en": "My colleague who knows Normandy very well won't disagree: swimming in Dieppe is truly invigorating.",
+          "cn": "我那位对诺曼底了如指掌的同行同事绝不会唱反调：在迪耶普下海畅游的确让人精神抖擞、倍感焕活。",
+          "jp": "ノルマンディーを熟知している私の同僚も反対のことは言わない（私の意見に同意してくれる）でしょう。ディエップでの海水浴は本当に爽快です。"
+        }
+      ],
+      "id": 14954
+    },
+    {
+      "word": "C'est ... pas mal",
+      "phonetic": "/s‿ɛ ... pa mal/",
+      "type": "tournure familière / litote • appréciation positive",
+      "theme": "Expression orale & Nuance",
+      "level": "B1",
+      "definition": "Litote courante signifiant « c'est plutôt bon, agréable, tout à fait recommandable » sans faire preuve d'enthousiasme excessif.",
+      "examples": [
+        {
+          "fr": "Se baigner à Dieppe en plein été, écoutez, c'est franchement pas mal du tout !",
+          "en": "Swimming in Dieppe in the middle of summer, listen, it's actually pretty good!",
+          "cn": "盛夏时节在迪耶普下海游个泳，听我说，那感觉着实相当不错、非常惬意！",
+          "jp": "真夏にディエップで海に入るのは、いやはや、実際なかなか悪くない（かなり快適な）ものですよ！"
+        }
+      ],
+      "id": 14955
+    },
+    {
+      "word": "Qu'est-ce que ça vaut",
+      "phonetic": "/kɛs kə sa vo/",
+      "type": "formule interrogative familière • évaluation",
+      "theme": "Jugement & Évaluation",
+      "level": "B2",
+      "definition": "Quelle est la valeur, la qualité réelle ou l'intérêt pratique d'une chose ou d'une expérience ?",
+      "examples": [
+        {
+          "fr": "Et aujourd'hui, qu'est-ce que ça vaut réellement de se baigner à Dieppe comparé aux plages du Sud ?",
+          "en": "And today, how good is it really to swim in Dieppe compared to southern beaches?",
+          "cn": "那么在今天，相比于阳光灿烂的南部地中海沙滩，去迪耶普下海游泳的真实体验与含金量究竟如何呢？",
+          "jp": "そして現在、南部のビーチと比べて、ディエップで海に入ることの実際の価値（魅力度）はどれほどのものなのでしょうか？"
+        }
+      ],
+      "id": 14956
+    },
+    {
+      "word": "Côte normande",
+      "phonetic": "/kot nɔʁ.mɑ̃d/",
+      "type": "nom propre géographique • littoral français",
+      "theme": "Géographie & Tourisme",
+      "level": "B1",
+      "definition": "Façade littorale de la région Normandie bordée par la Manche, s'étendant du Tréport au Mont-Saint-Michel, célèbre pour ses stations élégantes et ses falaises.",
+      "examples": [
+        {
+          "fr": "La côte normande a inspiré les plus grands maîtres de la peinture impressionniste comme Claude Monet.",
+          "en": "The Normandy coast inspired the greatest masters of Impressionist painting such as Claude Monet.",
+          "cn": "诺曼底海岸变化莫测的潮汐与水光，曾深深启发了包括莫奈在内的诸多世界级印象派绘画巨匠。",
+          "jp": "ノルマンディー海岸は、クロード・モネをはじめとする印象派絵画の偉大な巨匠たちに多大なインスピレーションを与えました。"
+        }
+      ],
+      "id": 14957
+    },
+    {
+      "word": "Deauville",
+      "phonetic": "/do.vil/",
+      "type": "nom propre de ville • station balnéaire de prestige",
+      "theme": "Tourisme & Prestige",
+      "level": "B2",
+      "definition": "Célèbre station balnéaire du Calvados créée dans les années 1860 par le duc de Morny, symbole mondial du luxe, avec ses planches mythiques, son festival du film américain et ses courses hippiques.",
+      "examples": [
+        {
+          "fr": "Deauville est réputée pour ses palaces Belle Époque, ses célèbres planches en front de mer et son casino.",
+          "en": "Deauville is renowned for its Belle Époque luxury hotels, its famous seafront boardwalk, and its casino.",
+          "cn": "多维尔以其华丽典雅的“美好年代”宫殿式酒店、标志性的海滨木栈道以及奢华赌场而享誉全球名流圈。",
+          "jp": "ドーヴィルは、ベル・エポック調の高級ホテル、海辺に続く伝説的な木製遊歩道（プランシュ）、そしてカジノで名高い高級保養地です。"
+        }
+      ],
+      "id": 14958
+    },
+    {
+      "word": "Honfleur",
+      "phonetic": "/ɔ̃.flœʁ/",
+      "type": "nom propre de ville • port historique normand",
+      "theme": "Arts & Patrimoine Maritime",
+      "level": "B2",
+      "definition": "Cité maritime historique du Calvados située sur l'estuaire de la Seine, renommée pour son Vieux Bassin aux maisons étroites recouvertes d'ardoise et son église Sainte-Catherine entièrement en bois.",
+      "examples": [
+        {
+          "fr": "Honfleur a vu naître l'école pré-impressionniste grâce aux peintres réunis autour d'Eugène Boudin à l'auberge Saint-Siméon.",
+          "en": "Honfleur gave birth to the pre-Impressionist school thanks to painters gathered around Eugène Boudin at the Saint-Siméon inn.",
+          "cn": "翁弗勒尔因当年聚集在圣西梅翁客栈、以欧仁·布丹为核心的先锋画家群落，成为印象派艺术的重要孕育摇篮。",
+          "jp": "オンフルールは、ウジェーヌ・ブーダンを中心に画家たちが集ったことで、印象派前夜の芸術運動の発祥地となりました。"
+        }
+      ],
+      "id": 14959
+    },
+    {
+      "word": "Étretat",
+      "phonetic": "/e.tʁə.ta/",
+      "type": "nom propre de ville • site naturel mondial",
+      "theme": "Nature & Sites Remarquables",
+      "level": "B2",
+      "definition": "Commune du littoral normand mondialement connue pour ses arches naturelles monumentales taillées dans la craie blanche (l'Arche, la Manneporte) et sa célèbre Aiguille immortalisée par Maurice Leblanc (Arsène Lupin).",
+      "examples": [
+        {
+          "fr": "Les spectaculaires arches de craie d'Étretat attirent des voyageurs et des artistes du monde entier.",
+          "en": "The spectacular chalk arches of Étretat attract travelers and artists from all over the world.",
+          "cn": "埃特勒塔鬼斧神工的巨大白垩象鼻海蚀拱桥，长年吸引着来自全球各地的文学艺术家与自然朝圣者。",
+          "jp": "エトルタの壮麗な白亜の天然アーチ（象の鼻のような海食洞）は、世界中から旅人や芸術家を惹きつけてやみません。"
+        }
+      ],
+      "id": 14960
+    },
+    {
+      "word": "Joyaux",
+      "phonetic": "/ʒwa.jo/",
+      "type": "nom masculin pluriel • métaphore & richesse",
+      "theme": "Culture & Préciosité",
+      "level": "B2",
+      "definition": "Objets de parure précieux en pierres fines ; au sens figuré, les plus beaux trésors ou fleurons d'un territoire.",
+      "examples": [
+        {
+          "fr": "Deauville, Honfleur et Étretat sont considérés comme les joyaux incontestés du littoral normand.",
+          "en": "Deauville, Honfleur, and Étretat are regarded as the undisputed jewels of the Normandy coastline.",
+          "cn": "多维尔、翁弗勒尔与埃特勒塔被公认为诺曼底绵延海岸线上无可争议的璀璨历史明珠。",
+          "jp": "ドーヴィル、オンフルール、エトルタは、ノルマンディー海岸線における至宝（宝石のような珠玉の町）と称えられています。"
+        }
+      ],
+      "id": 14961
+    },
+    {
+      "word": "Chemin de fer",
+      "phonetic": "/ʃə.mɛ̃ də fɛʁ/",
+      "type": "nom masculin • transport & révolution industrielle",
+      "theme": "Transports & Révolution industrielle",
+      "level": "B1",
+      "definition": "Voie de communication ferrée guidant des convois tractés par des locomotives ; vecteur décisif de la révolution industrielle au XIXe siècle.",
+      "examples": [
+        {
+          "fr": "L'arrivée du chemin de fer au milieu du XIXe siècle a permis aux Parisiens de rejoindre la mer en quelques heures.",
+          "en": "The arrival of the railway in the mid-19th century allowed Parisians to reach the sea in a matter of hours.",
+          "cn": "19世纪中叶铁路的全面通车运营，使巴黎市民在短短几小时内即可抵达浩瀚海滨。",
+          "jp": "19世紀半ばの鉄道の開通により、パリジャンたちはわずか数時間で海辺に到達できるようになりました。"
+        }
+      ],
+      "id": 14962
+    },
+    {
+      "word": "Proximité",
+      "phonetic": "/pʁɔk.si.mi.te/",
+      "type": "nom féminin • géographie & distance",
+      "theme": "Espace & Géographie",
+      "level": "B2",
+      "definition": "Faible distance dans l'espace qui sépare deux lieux ou deux personnes ; voisinage immédiat.",
+      "examples": [
+        {
+          "fr": "Dieppe tire un avantage économique décisif de sa proximité historique avec l'Angleterre et Paris.",
+          "en": "Dieppe derives a decisive economic advantage from its historical proximity to England and Paris.",
+          "cn": "迪耶普因其在地理和历史上与英格兰海峡彼岸及法国首都巴黎的双重近邻优势，获得了决定性的旅游繁荣。",
+          "jp": "ディエップは、イギリスおよびパリとの地理的・歴史的な近接性（アクセスの良さ）から決定的な発展の恩恵を受けました。"
+        }
+      ],
+      "id": 14963
+    },
+    {
+      "word": "Stations balnéaires",
+      "phonetic": "/sta.sjɔ̃ bal.ne.ɛʁ/",
+      "type": "nom féminin pluriel • tourisme côtier",
+      "theme": "Tourisme & Urbanisme littoral",
+      "level": "B2",
+      "definition": "Villes ou localités situées en bord de mer dont les équipements urbains, hôteliers et de loisirs sont spécialement aménagés pour les vacanciers et la baignade.",
+      "examples": [
+        {
+          "fr": "Au XIXe siècle, les stations balnéaires de la Manche ont rivalisé d'audace architecturale avec leurs casinos et leurs villas.",
+          "en": "In the 19th century, seaside resorts along the Channel competed in architectural boldness with their casinos and villas.",
+          "cn": "在19世纪，英吉利海峡沿岸的海滨度假名胜凭借拔地而起的豪华赌场与造型前卫的私家别墅争奇斗艳。",
+          "jp": "19世紀、イギリス海峡沿いの海浜保養都市（ステーション・バルネエール）は、カジノや別荘建築の華麗さを競い合いました。"
+        }
+      ],
+      "id": 14964
+    },
+    {
+      "word": "XIXe siècle",
+      "phonetic": "/diz.nœv.jɛm sjɛkl/",
+      "type": "nom propre temporel • période historique",
+      "theme": "Histoire & Société",
+      "level": "B2",
+      "definition": "Siècle courant de 1801 à 1900, théâtre de la révolution industrielle, de l'essor du capitalisme, de la création des chemins de fer et de la naissance du tourisme de masse (voir <a href=\"html/xixe-siecle.html\" target=\"_blank\">fiche historique détaillée du XIXe siècle</a>).",
+      "examples": [
+        {
+          "fr": "C'est au cours du XIXe siècle que Dieppe s'impose comme le rendez-vous incontournable des aristocrates et des artistes.",
+          "en": "It was during the 19th century that Dieppe established itself as the essential gathering place for aristocrats and artists.",
+          "cn": "正是贯穿整个19世纪的发展浪潮，让迪耶普牢固确立了作为欧洲王公贵族与顶尖艺术巨擘不容错过的度假社交圣地地位。",
+          "jp": "ディエップが貴族や芸術家たちの必須の社交場・リゾート地として不動の地位を築いたのは、まさに19世紀のことでした。"
+        }
+      ],
+      "id": 14965
+    },
+    {
+      "word": "Se soigne",
+      "phonetic": "/sə swan/",
+      "type": "verbe pronominal (présent indicatif) • médecine & santé",
+      "theme": "Santé & Médecine",
+      "level": "B1",
+      "definition": "Prendre soin de son organisme, suivre un traitement médical ou curatif pour guérir d'une affection ou préserver sa vitalité.",
+      "examples": [
+        {
+          "fr": "Au XIXe siècle dans les thermes dieppois, on se soigne à l'eau de mer chauffée pour apaiser les rhumatismes.",
+          "en": "In the 19th century in Dieppe's thermal baths, people were treated with heated seawater to soothe rheumatism.",
+          "cn": "在19世纪的迪耶普温泉理疗馆中，人们通过浸泡在加热的海水中疗养身心，以舒缓风湿关节顽疾。",
+          "jp": "19世紀のディエップの温泉療養施設では、リウマチなどの痛みを和らげるために温めた海水を用いて治療（保養）を行っていました。"
+        }
+      ],
+      "id": 14966
+    },
+    {
+      "word": "Cette fois",
+      "phonetic": "/sɛt fwa/",
+      "type": "locution adverbiale • repérage temporel & contraste",
+      "theme": "Temps & Narration",
+      "level": "A2",
+      "definition": "À cette occasion précise, par opposition à ce qui s'est produit auparavant ; marque un changement d'état ou de méthode.",
+      "examples": [
+        {
+          "fr": "On utilise toujours l'eau de mer, mais cette fois dans un établissement couvert et chauffé.",
+          "en": "Seawater is still used, but this time inside a covered and heated facility.",
+          "cn": "人们依然采用天然海水疗疾，但这一次（相比过去）却是在一座有室内遮蔽且配备加温设施的现代化专用大厦中进行。",
+          "jp": "依然として海水を用いますが、今回は（以前と違って）屋内の温水設備を備えた独立した建物の中で利用されます。"
+        }
+      ],
+      "id": 14967
+    },
+    {
+      "word": "Chauffée",
+      "phonetic": "/ʃo.fe/",
+      "type": "participe passé / adjectif féminin • thermique",
+      "theme": "Technique & Confort",
+      "level": "A2",
+      "definition": "Dont la température a été élevée par un apport artificiel de chaleur.",
+      "examples": [
+        {
+          "fr": "L'eau de mer pompée dans la Manche était chauffée pour permettre des bains délassants en toute saison.",
+          "en": "Seawater pumped from the English Channel was heated to enable relaxing baths in all seasons.",
+          "cn": "从英吉利海峡抽取的天然海水经过加温加热处理，使疗养客在一年四季均能享受舒爽温润的药浴。",
+          "jp": "イギリス海峡から汲み上げられた海水は加熱され、一年中いつでも快適なリラックス入浴が可能になりました。"
+        }
+      ],
+      "id": 14968
+    },
+    {
+      "word": "Utilisée",
+      "phonetic": "/y.ti.li.ze/",
+      "type": "participe passé / adjectif féminin • usage",
+      "theme": "Action & Emploi",
+      "level": "A2",
+      "definition": "Employée à une fin pratique déterminée, mise en œuvre pour remplir une fonction.",
+      "examples": [
+        {
+          "fr": "L'eau de mer était utilisée pour ses vertus tonifiantes et minéralisantes sur l'organisme.",
+          "en": "Seawater was used for its toning and mineralizing properties on the body.",
+          "cn": "海水被充分利用于激发人体细胞活力、强健体魄与补充矿物微量元素。",
+          "jp": "海水は、身体への滋養強壮とミネラル補給という優れた効能のために利用されました。"
+        }
+      ],
+      "id": 14969
+    },
+    {
+      "word": "Distinct",
+      "phonetic": "/dis.tɛ̃/",
+      "type": "adjectif masculin • séparation & autonomie",
+      "theme": "Logique & Architecture",
+      "level": "B2",
+      "definition": "Séparé matériellement ou conceptuellement d'autre chose ; qui ne se confond pas avec un autre élément.",
+      "examples": [
+        {
+          "fr": "L'établissement thermal occupait un bâtiment distinct du bord de mer pour préserver l'intimité des curistes.",
+          "en": "The thermal establishment occupied a building distinct from the seashore to preserve the privacy of spa guests.",
+          "cn": "疗养馆坐落在与狂风海浪完全分离隔开的独立建筑中，以切实保障名流贵客的静谧私密。",
+          "jp": "温泉療養施設は、保養客のプライバシーを守るために海岸とは明確に区別された（離れた）独立棟に置かれていました。"
+        }
+      ],
+      "id": 14970
+    },
+    {
+      "word": "Salons de lecture",
+      "phonetic": "/sa.lɔ̃ də lɛk.tyʁ/",
+      "type": "nom masculin pluriel • vie mondaine & culture",
+      "theme": "Loisirs & Vie mondaine",
+      "level": "B2",
+      "definition": "Pièces confortables et silencieuses aménagées dans les casinos et thermes du XIXe siècle pour feuilleter la presse quotidienne et les romans récents.",
+      "examples": [
+        {
+          "fr": "Les élégants fréquentaient les salons de lecture pour s'informer de la vie politique parisienne entre deux bains de mer.",
+          "en": "Fashionable people frequented reading lounges to keep abreast of Parisian political life between two sea baths.",
+          "cn": "城中名流雅士习惯在两次下海浸浴之余漫步于阅览沙龙，细细翻阅来自巴黎的新鲜政要报刊与流行小说。",
+          "jp": "当時の洒落た人々（上流階級）は、海水浴の合間に読書サロンに集まり、パリの最新の政治動向や新聞を閲覧していました。"
+        }
+      ],
+      "id": 14971
+    },
+    {
+      "word": "Billard",
+      "phonetic": "/bi.jaʁ/",
+      "type": "nom masculin • jeu d'adresse",
+      "theme": "Jeux & Loisirs mondains",
+      "level": "B1",
+      "definition": "Jeu d'adresse pratiqué avec des billes d'ivoire poussées à l'aide d'une queue sur une grande table recouverte d'un drap vert.",
+      "examples": [
+        {
+          "fr": "Une partie de billard permettait aux messieurs de prolonger leurs conversations d'affaires après le dîner.",
+          "en": "A game of billiards allowed gentlemen to extend their business conversations after dinner.",
+          "cn": "晚餐过后打上一局优雅的台球，让绅士商贾们得以在觥筹交错间继续商洽大宗商务合作。",
+          "jp": "ディナーの後のビリヤードのひと時は、紳士たちがビジネスの歓談を続ける格好の社交場となっていました。"
+        }
+      ],
+      "id": 14972
+    },
+    {
+      "word": "Casinos",
+      "phonetic": "/ka.zi.no/",
+      "type": "nom masculin pluriel • loisirs balnéaires & jeux",
+      "theme": "Loisirs & Économie balnéaire",
+      "level": "B1",
+      "definition": "Établissements de divertissement public comportant des salles de jeux d'argent (roulette, baccara), des salons de bal, de concerts et de réception.",
+      "examples": [
+        {
+          "fr": "Les casinos de la côte normande sont devenus l'épicentre du divertissement et des fêtes mondaines au XIXe siècle.",
+          "en": "Casinos along the Normandy coast became the epicenter of entertainment and fashionable parties in the 19th century.",
+          "cn": "在19世纪，分布于诺曼底海岸的一座座金碧辉煌的赌场成为了全欧洲狂欢娱乐与上流名媛社交的核心舞台。",
+          "jp": "ノルマンディー海岸のカジノは、19世紀において娯楽と華麗な社交界パーティーの中心地（エピセンター）となりました。"
+        }
+      ],
+      "id": 14973
+    },
+    {
+      "word": "Morsures",
+      "phonetic": "/mɔʁ.syʁ/",
+      "type": "nom féminin pluriel • médecine & blessures",
+      "theme": "Santé & Médecine historique",
+      "level": "B2",
+      "definition": "Plaies ou blessures causées par les dents ou les crocs d'un animal (chiens enragés, vipères).",
+      "examples": [
+        {
+          "fr": "Autrefois, on immergeait d'urgence dans l'eau de mer les personnes souffrant de morsures d'animaux pour prévenir la rage.",
+          "en": "In the past, people suffering from animal bites were urgently immersed in seawater to prevent rabies.",
+          "cn": "在旧时代，人们会把遭受疯狗等动物撕咬撕裂伤的伤者紧急浸入高盐度海水中，试图以此法杀菌辟毒、防治狂犬病。",
+          "jp": "昔は、狂犬病などを防ぐ民間療法として、動物に噛まれた傷（咬傷）を負った者を緊急に海水に浸す処置が行われていました。"
+        }
+      ],
+      "id": 14974
+    },
+    {
+      "word": "Quelque temps",
+      "phonetic": "/kɛl.kə tɑ̃/",
+      "type": "locution adverbiale temporelle • durée indéfinie",
+      "theme": "Temps & Durée",
+      "level": "B1",
+      "definition": "Une certaine durée, un laps de temps plus ou moins long mais indéterminé.",
+      "examples": [
+        {
+          "fr": "Cela faisait déjà quelque temps que les médecins dieppois vantaient les vertus de l'immersion marine.",
+          "en": "Dieppe doctors had already been praising the benefits of marine immersion for quite some time.",
+          "cn": "迪耶普当地的医学家们其实早在相当长的一段时间以前，就已开始极力称颂海水浸浴的非凡养生功效。",
+          "jp": "ディエップの医師たちが海水浴（海中浸漬）の効能を熱心に説くようになってから、すでにかなりの時が流れていました。"
+        }
+      ],
+      "id": 14975
+    },
+    {
+      "word": "Notamment",
+      "phonetic": "/nɔ.ta.mɑ̃/",
+      "type": "adverbe • illustration & précision",
+      "theme": "Argumentation & Logique",
+      "level": "B2",
+      "definition": "En particulier, spécialement ; sert à détacher un cas particulièrement saillant à titre d'exemple.",
+      "examples": [
+        {
+          "fr": "On soignait notamment les affections nerveuses et les plaies rebelles par des immersions répétées.",
+          "en": "Nervous ailments and stubborn wounds in particular were treated with repeated immersions.",
+          "cn": "人们尤其通过反复的海水浸泡疗法来医治神经衰弱疾患以及久治不愈的顽固创口。",
+          "jp": "度重なる海水への浸漬によって、とりわけ神経性の疾患や治りにくい傷口の治療が行われました。"
+        }
+      ],
+      "id": 14976
+    },
+    {
+      "word": "De cette façon-là",
+      "phonetic": "/də sɛt fa.sɔ̃ la/",
+      "type": "locution adverbiale de manière",
+      "theme": "Manière & Procédé",
+      "level": "B1",
+      "definition": "De cette manière précise, par ce procédé ou cette méthode désignée.",
+      "examples": [
+        {
+          "fr": "En procédant de cette façon-là, le patient recevait un choc vivifiant sans avoir le temps d'hésiter.",
+          "en": "By proceeding that way, the patient received an invigorating shock without having time to hesitate.",
+          "cn": "采取这种当头棒喝式的直接抛掷手法，求医者在猝不及防间就获得了刺激全身神经的焕活冷水冷震。",
+          "jp": "そのやり方（方法）をとることで、患者は躊躇する暇もなく全身を活性化させる強烈な刺激を受けました。"
+        }
+      ],
+      "id": 14977
+    },
+    {
+      "word": "En tout cas",
+      "phonetic": "/ɑ̃ tu ka/",
+      "type": "locution adverbiale • certitude & transition",
+      "theme": "Connecteurs & Discours",
+      "level": "B1",
+      "definition": "De toute façon, quoi qu'il en soit ; recentre le propos sur un fait certain et incontestable.",
+      "examples": [
+        {
+          "fr": "Légende ou réalité, en tout cas Dieppe possédait dès 1778 une structure organisée pour les bains de mer.",
+          "en": "Legend or reality, in any case Dieppe had an organized facility for sea bathing as early as 1778.",
+          "cn": "无论是传说还是史实，无论如何有一点是确凿无疑的：早在1778年，迪耶普就已建立起了官方规范的海水浴疗机构。",
+          "jp": "伝説であれ現実であれ、いずれにせよ（何にしても）ディエップには1778年の時点で海水浴のための組織化された施設が存在していました。"
+        }
+      ],
+      "id": 14978
+    },
+    {
+      "word": "Consistait",
+      "phonetic": "/kɔ̃.sis.tɛ/",
+      "type": "verbe intransitif (imparfait) • définition",
+      "theme": "Description & Explication",
+      "level": "B1",
+      "definition": "Forme conjuguée du verbe consister (à / en) : avoir pour contenu fondamental, pour éléments constitutifs ou pour méthode.",
+      "examples": [
+        {
+          "fr": "Le traitement consistait en une immersion brutale dans la vague sous le contrôle d'un baigneur.",
+          "en": "The treatment consisted of a sudden immersion into the wave under the supervision of a bather.",
+          "cn": "这一疗法的核心内容就在于：在强壮导浴员的严格把控下，将患者瞬间猛然沉入涌起的海浪之中。",
+          "jp": "その治療法は、遊泳指導員の監視・手助けのもとで波の中に一気に身体を沈めることにありました。"
+        }
+      ],
+      "id": 14979
+    },
+    {
+      "word": "Costaud",
+      "phonetic": "/kɔs.to/",
+      "type": "adjectif ou nom masculin • registre familier",
+      "theme": "Physique & Registre familier",
+      "level": "B1",
+      "definition": "D'une forte constitution physique, musclé, vigoureux et résistant à l'effort.",
+      "examples": [
+        {
+          "fr": "Il fallait un baigneur bien costaud pour porter les curistes et braver les puissantes déferlantes normandes.",
+          "en": "It took a very burly bather to carry the patients and brave the powerful Norman breaking waves.",
+          "cn": "必须由力大无比、体格极其魁梧健硕的资深渔夫导浴员，才能抱稳体弱病患并勇敢迎击诺曼底汹涌的海浪狂涛。",
+          "jp": "患者を抱えてノルマンディーの荒々しい砕波に立ち向かうには、非常にたくましい（屈強な）遊泳補助員が必要でした。"
+        }
+      ],
+      "id": 14980
+    },
+    {
+      "word": "Immédiate",
+      "phonetic": "/i.me.djat/",
+      "type": "adjectif qualificatif féminin • instantanéité",
+      "theme": "Temps & Vitesse",
+      "level": "B1",
+      "definition": "Qui s'opère sans délai, sans intermédiaire ni intervalle temporel ; instantané.",
+      "examples": [
+        {
+          "fr": "La réaction corporelle au choc thermique marin était d'une efficacité immédiate sur le tonus.",
+          "en": "The bodily reaction to the marine thermal shock had an immediate effect on vitality.",
+          "cn": "人体对冰冷海水巨大温差所产生的应激反应，对其神经兴奋与活力提振具有立竿见影、立见奇效的作用。",
+          "jp": "海洋の熱衝撃に対する身体の反応は、活力の回復に対して即座の（瞬時の）効果をもたらしました。"
+        }
+      ],
+      "id": 14981
+    },
+    {
+      "word": "Thalassothérapie",
+      "phonetic": "/ta.la.sɔ.te.ʁa.pi/",
+      "type": "nom féminin • médecine thermale",
+      "theme": "Santé & Médecine marine",
+      "level": "B2",
+      "definition": "Utilisation combinée, sous surveillance médicale et dans un but préventif ou curatif, des bienfaits du climat marin, de l'eau de mer, des boues marines et des algues.",
+      "examples": [
+        {
+          "fr": "C'est à Dieppe qu'est né historiquement en France le concept moderne de centre de thalassothérapie.",
+          "en": "It is in Dieppe that the modern concept of a thalassotherapy center was historically born in France.",
+          "cn": "现代“海水浴疗法”（海洋疗法中心）的先锋理念，在法国历史上正是肇始于海滨名城迪耶普。",
+          "jp": "フランスにおいて現代的なタラソテラピー（海洋療法）センターの概念が歴史的に誕生した地こそ、ディエップなのです。"
+        }
+      ],
+      "id": 14982
+    },
+    {
+      "word": "C'est avéré",
+      "phonetic": "/s‿ɛ.t‿a.ve.ʁe/",
+      "type": "locution verbale • certitude & vérité historique",
+      "theme": "Vérité & Preuve",
+      "level": "B2",
+      "definition": "Il est scientifiquement ou historiquement établi, prouvé par des documents authentiques irréfutables.",
+      "examples": [
+        {
+          "fr": "S'il existe des doutes sur Henri III, en revanche il est avéré que Dieppe possédait un centre médical marin dès 1778.",
+          "en": "While doubts exist regarding Henry III, it is proven that Dieppe had a marine medical center as early as 1778.",
+          "cn": "尽管亨利三世的受洗传说尚存疑点，但不可辩驳的历史铁证确凿证实：迪耶普早在1778年便设立了专业海洋医疗站。",
+          "jp": "アンリ3世に関する話には不確かな点があるものの、ディエップが1778年にはすでに海洋医療施設を有していたことは紛れもない事実（証明済みのこと）です。"
+        }
+      ],
+      "id": 14983
+    },
+    {
+      "word": "Se baigner",
+      "phonetic": "/sə bɛ.ɲe/",
+      "type": "verbe pronominal • immersion aquatique",
+      "theme": "Loisirs nautiques & Baignade",
+      "level": "A1",
+      "definition": "S'immerger volontairement dans l'eau (mer, lac, rivière, piscine) pour se détendre, se rafraîchir ou se soigner.",
+      "examples": [
+        {
+          "fr": "Autrefois, se baigner dans l'océan était un acte exceptionnel réservé au rétablissement des malades.",
+          "en": "In the past, bathing in the ocean was an exceptional act reserved for the recovery of the sick.",
+          "cn": "在古时候，前往汹涌汪洋下海沐浴乃是一桩非同寻常之举，唯独用于病弱体虚者的康复调理。",
+          "jp": "かつて大海原に入浴する（水浴びをする）ことは、病人の体力回復にのみ許された特別な行為でした。"
+        }
+      ],
+      "id": 14984
+    },
+    {
+      "word": "Henri III",
+      "phonetic": "/ɑ̃.ʁi tʁwa/",
+      "type": "nom propre historique • monarchie française",
+      "theme": "Histoire de France",
+      "level": "B2",
+      "definition": "Roi de France (1551–1589), dernier souverain de la dynastie des Valois, auquel la tradition populaire attribue le premier bain de mer royal documenté à Dieppe en 1578 (voir <a href=\"html/henri-iii.html\" target=\"_blank\">biographie et règne d'Henri III</a>).",
+      "examples": [
+        {
+          "fr": "Selon la légende dieppoise, le roi Henri III vint se baigner dans la Manche en 1578 sur recommandation médicale.",
+          "en": "According to Dieppe legend, King Henry III came to bathe in the English Channel in 1578 on medical advice.",
+          "cn": "根据迪耶普民间历史相传，法国国王亨利三世于1578年遵医嘱御驾亲临英吉利海峡下海沐浴疗养皮肤。",
+          "jp": "ディエップの伝承によれば、フランス国王アンリ3世は医師の助言を受け、1578年に英仏海峡で海水浴を行ったとされています。"
+        }
+      ],
+      "id": 14985
+    },
+    {
+      "word": "XVIIIe siècle",
+      "phonetic": "/diz.ɥi.tjɛm sjɛkl/",
+      "type": "nom propre temporel • siècle des Lumières",
+      "theme": "Histoire & Sciences",
+      "level": "B2",
+      "definition": "Période historique s'étendant de 1701 à 1800, marquée par les philosophes des Lumières et l'invention des premiers protocoles de santé par l'eau de mer (voir <a href=\"html/xviiie-siecle.html\" target=\"_blank\">fiche historique détaillée du XVIIIe siècle</a>).",
+      "examples": [
+        {
+          "fr": "C'est à la fin du XVIIIe siècle que les médecins commencent à rationaliser l'usage thérapeutique des bains marins.",
+          "en": "It was at the end of the 18th century that physicians began to rationalize the therapeutic use of sea baths.",
+          "cn": "正是在18世纪末叶，欧洲医学界开始系统性确立起海水浸浴这一理疗手段的科学化应用规范。",
+          "jp": "海水浴の治療的利用が医学的に体系化され始めたのは、18世紀末のことでした。"
+        }
+      ],
+      "id": 14986
+    },
+    {
+      "word": "Ça date de",
+      "phonetic": "/sa dat də/",
+      "type": "locution verbale • datation historique",
+      "theme": "Temps & Histoire",
+      "level": "B1",
+      "definition": "Avoir son origine, son commencement ou sa création à une époque temporelle donnée.",
+      "examples": [
+        {
+          "fr": "L'engouement pour les cures thermales dieppoises, ça date de plus de deux siècles.",
+          "en": "The craze for Dieppe thermal cures dates back more than two centuries.",
+          "cn": "世人对于迪耶普海滨温泉矿泉理疗的热衷追捧，其渊源足可追溯到两百多年前。",
+          "jp": "ディエップの温泉・海洋保養への熱狂は、実に2世紀以上前（200年以上前）にまでさかのぼります。"
+        }
+      ],
+      "id": 14987
+    },
+    {
+      "word": "Légende",
+      "phonetic": "/le.ʒɑ̃d/",
+      "type": "nom féminin • tradition orale & mythe",
+      "theme": "Culture & Mythe",
+      "level": "B1",
+      "definition": "Récit transmis par la tradition orale ou littéraire, mêlant faits réels et éléments merveilleux ou invérifiables.",
+      "examples": [
+        {
+          "fr": "La légende royale d'Henri III plongeant dans les flots dieppois a contribué au prestige mythique de la station.",
+          "en": "The royal legend of Henry III plunging into Dieppe waves contributed to the legendary prestige of the resort.",
+          "cn": "法国君主亨利三世跃入迪耶普浩瀚碧波的历史传奇美谈，为这座度假胜地增添了历久弥新的浪漫传奇光环。",
+          "jp": "アンリ3世がディエップの波間に飛び込んだという王室の伝説は、この保養地の神話的な名声を高めるのに大きく寄与しました。"
+        }
+      ],
+      "id": 14988
+    },
+    {
+      "word": "Loisir",
+      "phonetic": "/lwa.ziʁ/",
+      "type": "nom masculin • temps libre & récréation",
+      "theme": "Société & Vacances",
+      "level": "A2",
+      "definition": "Temps libre dont on dispose en dehors du travail et des obligations courantes, consacré au repos et à l'amusement.",
+      "examples": [
+        {
+          "fr": "Le bain de mer n'est devenu un véritable loisir populaire qu'à partir de l'avènement des congés payés.",
+          "en": "Sea bathing only became a genuine popular leisure activity with the advent of paid leave.",
+          "cn": "下海游泳戏水真正演变为一门全民热衷的日常休闲娱乐，乃是伴随法国带薪年假制度的确立才真正成型的。",
+          "jp": "海水浴が真の大衆的レジャー（余暇の娯楽）となったのは、有給休暇制度の導入以降のことでした。"
+        }
+      ],
+      "id": 14989
+    },
+    {
+      "word": "Médicale",
+      "phonetic": "/me.di.kal/",
+      "type": "adjectif qualificatif féminin • médecine",
+      "theme": "Santé & Soins",
+      "level": "A2",
+      "definition": "Qui a rapport à la médecine, aux soins corporels et au traitement scientifique des maladies.",
+      "examples": [
+        {
+          "fr": "À ses débuts, l'immersion en mer était une prescription médicale délivrée sur ordonnance.",
+          "en": "In its infancy, immersion in the sea was a medical prescription issued on doctor's orders.",
+          "cn": "在初期阶段，前往大海浸水受洗是一项必须由注册执业医师出具严肃处方的严格医疗医嘱。",
+          "jp": "黎明期において、海に浸かることは医師の処方箋に基づいて行われる純粋な医療処置（メディカルな行為）でした。"
+        }
+      ],
+      "id": 14990
+    },
+    {
+      "word": "Pensée pour",
+      "phonetic": "/pɑ̃.se puʁ/",
+      "type": "locution participiale • finalité & conception",
+      "theme": "Conception & Objectif",
+      "level": "B2",
+      "definition": "Conçue, imaginée ou élaborée spécifiquement en vue d'atteindre un objectif précis.",
+      "examples": [
+        {
+          "fr": "Cette cure saline était expressément pensée pour stimuler la circulation sanguine et fortifier le système nerveux.",
+          "en": "This saline cure was expressly designed to stimulate blood circulation and strengthen the nervous system.",
+          "cn": "这种高盐度海水疗法在设计之初，就是专门为了强力促进血液循环并全面增强中枢神经系统的抵抗力。",
+          "jp": "この海水治療法は、血液循環を刺激し神経系を強化することを明確な目的として設計・考案されたものでした。"
+        }
+      ],
+      "id": 14991
+    },
+    {
+      "word": "À l'époque",
+      "phonetic": "/a l‿e.pɔk/",
+      "type": "locution adverbiale temporelle • passé historique",
+      "theme": "Temps & Histoire",
+      "level": "B1",
+      "definition": "À cette période déterminée du passé dont on relate les faits ; jadis.",
+      "examples": [
+        {
+          "fr": "À l'époque, se jeter dans l'eau glacée de la Manche exigeait un courage héroïque de la part des malades.",
+          "en": "At the time, plunging into the freezing waters of the English Channel required heroic courage on the part of patients.",
+          "cn": "在那个遥远的年代，毅然跃入刺骨冰冷的英吉利海峡狂浪之中，对于体弱病患而言不啻为一种近乎英雄般的壮烈考验。",
+          "jp": "当時の患者たちにとって、凍てつくようなイギリス海峡の海に身を投じることは、並々ならぬ勇気を必要としました。"
+        }
+      ],
+      "id": 14992
+    },
+    {
+      "word": "Seine-Maritime",
+      "phonetic": "/sɛn ma.ʁi.tim/",
+      "type": "nom propre de département • Normandie",
+      "theme": "Géographie administrative",
+      "level": "B2",
+      "definition": "Département français de la région Normandie (code 76), comprenant les villes historiques de Rouen, Le Havre, Dieppe et Étretat (voir <a href=\"html/seine-maritime.html\" target=\"_blank\">fiche complète de la Seine-Maritime</a>).",
+      "examples": [
+        {
+          "fr": "La Seine-Maritime possède un littoral somptueux alternant hautes falaises de craie et ports historiques de pêche.",
+          "en": "Seine-Maritime has a sumptuous coastline alternating between high chalk cliffs and historic fishing ports.",
+          "cn": "滨海塞纳省拥有一道壮丽秀美的海岸线，千仞白垩断崖与历史悠久的渔港名城在沿岸交相辉映。",
+          "jp": "セーヌ＝マリティーム県は、そびえ立つ石灰岩の断崖と歴史ある漁港が交互に連なる壮麗な海岸線を誇っています。"
+        }
+      ],
+      "id": 14993
+    },
+    {
+      "word": "Ça a la cote",
+      "phonetic": "/sa a la kɔt/",
+      "type": "locution verbale familière • mode & popularité",
+      "theme": "Tendances & Société",
+      "level": "B2",
+      "definition": "Rencontrer un immense succès auprès du public, être très en vogue ou très recherché.",
+      "examples": [
+        {
+          "fr": "Ça a la cote en ce moment, les vacances sur les côtes fraîches de Normandie et de Bretagne !",
+          "en": "Holidays on the cool shores of Normandy and Brittany are really popular right now!",
+          "cn": "眼下这段时间，前往凉爽清风拂面的诺曼底与布列塔尼海岸度假真可谓是人气爆棚、大受追捧！",
+          "jp": "現在、ノルマンディーやブルターニュの涼しい海岸での休暇は非常に高い人気を博しています（ウケています）。"
+        }
+      ],
+      "id": 14994
+    },
+    {
+      "word": "Bretagne",
+      "phonetic": "/bʁə.taɲ/",
+      "type": "nom propre régional • ouest de la France",
+      "theme": "Géographie & Culture",
+      "level": "B1",
+      "definition": "Région historique et péninsule du nord-ouest de la France bordée par l'Atlantique et la Manche, réputée pour ses côtes sauvages, sa culture celte et son climat océanique tempéré (voir <a href=\"html/bretagne.html\" target=\"_blank\">fiche de présentation de la Bretagne</a>).",
+      "examples": [
+        {
+          "fr": "Cette année au bureau, nombreux sont ceux qui choisissent la Bretagne pour échapper aux chaleurs étouffantes du continent.",
+          "en": "This year at the office, many are choosing Brittany to escape the stifling heat of the interior.",
+          "cn": "今年办公室里的同事们纷纷相约前往布列塔尼，以逃离内陆大陆性气候令人窒息的滚滚热浪。",
+          "jp": "今年、オフィスでは内陸部の息苦しい猛暑を避けるためにブルターニュを行き先に選ぶ人が大勢います。"
+        }
+      ],
+      "id": 14995
+    },
+    {
+      "word": "Le Touquet",
+      "phonetic": "/lə tu.kɛ/",
+      "type": "nom propre de ville • station balnéaire du Pas-de-Calais",
+      "theme": "Tourisme & Côte d'Opale",
+      "level": "B2",
+      "definition": "Le Touquet-Paris-Plage, célèbre station balnéaire huppée de la Côte d'Opale dans le Pas-de-Calais, connue pour sa forêt de pins, ses villas anglo-normandes et son élégance sportive.",
+      "examples": [
+        {
+          "fr": "Le Touquet est une station balnéaire réputée où les Parisiens aiment se ressourcer le week-end.",
+          "en": "Le Touquet is a famous seaside resort where Parisians love to recharge on weekends.",
+          "cn": "勒图凯是法国北部加来海峡省著名的海滨度假名邑，巴黎市民每逢周末极为钟爱驱车前来洗去身心疲惫。",
+          "jp": "ル・トゥケは、パリジャンたちが週末に心身をリフレッシュするためにこよなく愛する名門の海浜リゾートです。"
+        }
+      ],
+      "id": 14996
+    },
+    {
+      "word": "Il fait frisquet",
+      "phonetic": "/il fɛ fʁis.kɛ/",
+      "type": "expression familière météorologique • température",
+      "theme": "Météo & Sensations",
+      "level": "B1",
+      "definition": "L'air est frais, un peu froid de manière piquante sans pour autant être glacial ; s'utilise souvent avec humour.",
+      "examples": [
+        {
+          "fr": "Quoique sur la plage du Touquet le matin, il fait parfois frisquet avec le vent du nord !",
+          "en": "Although on Le Touquet beach in the morning, it is sometimes chilly with the north wind!",
+          "cn": "不过清晨走在勒图凯海滩上，北风阵阵吹来，身上还真隐隐透着几分料峭凉意呢！",
+          "jp": "とはいえ、朝のル・トゥケのビーチでは、北風が吹くと肌寒い（フリスケな）ことがあります！"
+        }
+      ],
+      "id": 14997
+    },
+    {
+      "word": "Grand bien vous fasse !",
+      "phonetic": "/ɡʁɑ̃ bjɛ̃ vu fas/",
+      "type": "locution interjective / formule d'ironie polie",
+      "theme": "Communication & Ironie",
+      "level": "B2",
+      "definition": "Formule idiomatique employée (parfois avec un soupçon d'ironie détachée) pour souhaiter qu'un choix dont on ne partage pas forcément l'attrait apporte satisfaction à autrui (« Tant mieux pour vous si cela vous plaît ! »).",
+      "examples": [
+        {
+          "fr": "Vous préférez vous baigner sous la pluie dans le Nord ? Grand bien vous fasse !",
+          "en": "You prefer swimming in the rain up North? Good for you!",
+          "cn": "您偏要在阴雨霏霏的北方下海游泳？那您就尽情享受去吧，祝您开心如意！",
+          "jp": "雨降る北部の海で泳ぐのがお好みですか？それならそれで結構、存分に楽しんでください！（ご自由にどうぞ！）"
+        }
+      ],
+      "id": 14998
+    },
+    {
+      "id": 14914,
+      "word": "Saute aux yeux",
+      "phonetic": "/so.t‿o zjø/",
+      "type": "expression idiomatique • perception",
+      "theme": "Culture & Esthétique",
+      "level": "B2",
+      "definition": "Être d'une évidence éclatante, frapper immédiatement le regard ou l'esprit sans qu'aucun effort d'analyse ne soit requis.",
+      "examples": [
+        {
+          "fr": "Dès qu'on franchit le seuil du corps de ferme, l'intensité du bleu saute immédiatement aux yeux.",
+          "en": "As soon as you cross the threshold of the farmhouse, the intensity of the blue immediately catches your eye.",
+          "cn": "一踏进这座古农舍的门槛，那抹摄人心魄的群青之蓝便立刻跃入眼帘、先声夺人。",
+          "jp": "農場の納屋の敷居を一歩またぐやいなや、その鮮烈な青の色彩が瞬時に目に飛び込んできます。"
+        }
+      ]
+    },
+    {
+      "id": 14915,
+      "word": "Éclectique",
+      "phonetic": "/e.klɛk.tik/",
+      "type": "adjectif • style & culture",
+      "theme": "Arts & Culture",
+      "level": "B2",
+      "definition": "Qui emprunte à des styles, des horizons, des disciplines ou des sensibilités multiples sans s'enfermer dans un dogme unique.",
+      "examples": [
+        {
+          "fr": "Le domaine présente une sélection éclectique d'artistes allant de la sculpture végétale aux installations sonores en quartz.",
+          "en": "The estate presents an eclectic selection of artists ranging from plant-based sculpture to quartz sound installations.",
+          "cn": "该庄园汇聚了兼容并包的多样艺术名家作品，涵盖了从植物雕塑到石英声音装置艺术等多个跨界领域。",
+          "jp": "そのドメーヌ（敷地）では、植物彫刻から水晶を用いた音響インスタレーションまで、多岐にわたる折衷的・多元的なアーティスト作品が公開されています。"
+        }
+      ]
+    },
+    {
+      "id": 14916,
+      "word": "Néophyte",
+      "phonetic": "/ne.ɔ.fit/",
+      "type": "nom masculin/féminin • apprentissage",
+      "theme": "Arts & Société",
+      "level": "B2",
+      "definition": "Personne profane, débutante ou novice qui aborde un domaine intellectuel, technique ou artistique sans formation préalable.",
+      "examples": [
+        {
+          "fr": "Grâce aux panneaux didactiques clairs, l'art contemporain devient limpide et accessible même pour le parfait néophyte.",
+          "en": "Thanks to clear educational panels, contemporary art becomes crystal clear and accessible even for the complete novice.",
+          "cn": "得益于园区随处可见的通俗易懂讲解牌，即便对于初涉现代艺术的纯门外汉，深奥的概念也变得通透易懂。",
+          "jp": "明快で分かりやすい解説パネルのおかげで、現代アートは予備知識のない初心者（ネオフィット）にとっても親しみやすく身近なものとなります。"
+        }
+      ]
+    },
+    {
+      "id": 14917,
+      "word": "Attenter à",
+      "phonetic": "/a.tɑ̃.te a/",
+      "type": "verbe intransitif (avec préposition) • droit & respect",
+      "theme": "Patrimoine & Registre soutenu",
+      "level": "C1",
+      "definition": "Porter atteinte à, nuire gravement, altérer ou commettre une violence symbolique ou physique contre un principe moral, une loi ou l'âme d'un lieu historique.",
+      "examples": [
+        {
+          "fr": "Dans un monument chargé d'histoire, installer des œuvres contemporaines sans discernement reviendrait à attenter à l'esprit du lieu.",
+          "en": "In a monument steeped in history, installing contemporary works without discernment would amount to violating the spirit of the place.",
+          "cn": "在一座承载着厚重岁月历史的古堡古迹中，若不加斟酌地唐突安置先锋艺术品，无异于亵渎并损害了这里的历史场所之魂。",
+          "jp": "歴史の息吹が宿る歴史的建造物において、無分別に現代アート作品を設置することは、その場所の魂を侵害・冒涜することになりかねません。"
+        }
+      ]
+    },
+    {
+      "id": 14918,
+      "word": "Ancré",
+      "phonetic": "/ɑ̃.kʁe/",
+      "type": "adjectif / participe passé • philosophie & art",
+      "theme": "Arts & Philosophie",
+      "level": "B2",
+      "definition": "Solidement fixé, enraciné en profondeur dans un sol, une tradition, ou un socle conceptuel inébranlable.",
+      "examples": [
+        {
+          "fr": "Les totems de chêne de Christian Lapie sont profondément ancrés dans la terre tout en s'élançant vers le ciel.",
+          "en": "Christian Lapie's oak totems are deeply anchored in the earth while reaching up toward the sky.",
+          "cn": "克里斯蒂安·拉皮以炭化橡木构筑的雕塑图腾深深扎根于泥土之中，同时又昂首挺拔地直插云霄。",
+          "jp": "クリスチャン・ラピの黒いオーク材の彫刻トーテムは、大地に深く根を下ろしながら（定着しながら）、空に向かって真っ直ぐにそびえ立っています。"
+        }
+      ]
+    },
+    {
+      "id": 14919,
+      "word": "Land Art",
+      "phonetic": "/land aʁt/",
+      "type": "nom masculin • mouvement artistique",
+      "theme": "Arts Plastiques & Environnement",
+      "level": "B2",
+      "definition": "Courant d'art contemporain né à la fin des années 1960 utilisant le cadre et les matériaux de la nature (terre, pierres, roches, bois, feuilles) pour concevoir des œuvres en symbiose ou en tension avec le paysage.",
+      "examples": [
+        {
+          "fr": "L'œuvre d'Andy Goldsworthy est l'un des plus illustres chefs-d'œuvre de Land Art intégrés au patrimoine paysager français.",
+          "en": "Andy Goldsworthy's work is one of the most renowned masterpieces of Land Art integrated into French landscape heritage.",
+          "cn": "安迪·戈兹沃西的作品是融入法国国家风景名胜遗址中最为享誉国际的“大地艺术”传世杰作之一。",
+          "jp": "アンディ・ゴールズワージーの作品は、フランスの歴史ある景観遺産に有機的に融合したランド・アート（自然環境芸術）の最高峰のひとつです。"
+        }
+      ]
+    },
+    {
+      "id": 14920,
+      "word": "Avoir la cote",
+      "phonetic": "/a.vwaʁ la kɔt/",
+      "type": "locution verbale • registre familier & société",
+      "theme": "Société & Tendances",
+      "level": "B2",
+      "definition": "Bénéficier d'une grande popularité, être très prisé, recherché ou à la mode auprès du public.",
+      "examples": [
+        {
+          "fr": "La Bretagne et la Normandie ont particulièrement la cote cet été auprès des citadins en quête de fraîcheur.",
+          "en": "Brittany and Normandy are particularly popular this summer with city dwellers seeking cooler weather.",
+          "cn": "今年夏天，布列塔尼与诺曼底在渴望避暑纳凉的都市人群中格外受欢迎、大受青睐。",
+          "jp": "今年の夏、涼しさを求める都市住民の間で、ブルターニュやノルマンディーが非常に高い人気を集めています（持て囃されています）。"
+        }
+      ]
+    },
+    {
+      "id": 14921,
+      "word": "Se régénérer",
+      "phonetic": "/sə ʁe.ʒe.ne.ʁe/",
+      "type": "verbe pronominal • santé & bien-être",
+      "theme": "Santé & Mode de vie",
+      "level": "B2",
+      "definition": "Retrouver des forces, de l'énergie physique ou mentale ; renouveler en profondeur les tissus organiques ou l'équilibre psychologique.",
+      "examples": [
+        {
+          "fr": "Les premiers curistes du XVIIIe siècle se rendaient sur la côte normande pour se régénérer au contact de l'air iodé.",
+          "en": "The first 18th-century spa visitors traveled to the Normandy coast to revitalize themselves in contact with the iodized air.",
+          "cn": "18世纪初的初代疗养客专程前往诺曼底海岸，借助富含碘质的海风与海水使身心获得全面调养与焕活新生。",
+          "jp": "18世紀の初期の湯治客（保養客）たちは、ヨウ素をたっぷり含んだ海風に触れて心身を再生・リフレッシュさせるためにノルマンディー海岸を訪れました。"
+        }
+      ]
+    },
+    {
+      "id": 14922,
+      "word": "Bain à la lame",
+      "phonetic": "/bɛ̃ a la lam/",
+      "type": "locution nominale • histoire & thermalisme",
+      "theme": "Histoire & Patrimoine Balnéaire",
+      "level": "C1",
+      "definition": "Pratique médicale historique des débuts du thermalisme balnéaire consistant à plonger vigoureusement le patient dans la crête écumante d'une vague (la « lame ») pour provoquer un effet thérapeutique tonifiant.",
+      "examples": [
+        {
+          "fr": "À Dieppe, le bain à la lame était administré par des baigneurs expérimentés qui immergeaient les patients dans le ressac.",
+          "en": "In Dieppe, the wave-break bath was administered by experienced bathers who immersed patients into the surf.",
+          "cn": "在迪耶普，“破浪浴”（浪头冷水浸浴）由身强力壮的专业导浴员执行，他们将求医者直接猛掷入汹涌的碎浪之中以刺激神经。",
+          "jp": "ディエップでは、「波打ち浴（砕波入浴法）」が熟練の遊泳補助員によって施され、患者を白波（砕波）の中に直接浸して治療効果を促しました。"
+        }
+      ]
+    },
+    {
+      "id": 14923,
+      "word": "Accoler",
+      "phonetic": "/a.kɔ.le/",
+      "type": "verbe transitif • architecture & urbanisme",
+      "theme": "Architecture & Société",
+      "level": "B2",
+      "definition": "Placer ou construire côte à côte, joindre directement un bâtiment, une pièce ou une fonction à une structure préexistante.",
+      "examples": [
+        {
+          "fr": "Aux thermes marins de Dieppe, on est venu accoler des salons de lecture, des cercles de jeux et des casinos mondains.",
+          "en": "To the marine thermal baths of Dieppe, reading lounges, social clubs, and fashionable casinos were gradually adjoined.",
+          "cn": "在迪耶普海滨浴疗馆旁，人们陆续依附增建了阅览沙龙、台球棋牌馆以及名流穿梭的高级赌场。",
+          "jp": "ディエップの海洋温泉療養所には、読書サロンや社交ビリヤード場、そして華やかなカジノが次々と隣接して増築（併設）されました。"
+        }
+      ]
+    },
+    {
+      "id": 14924,
+      "word": "Avènement",
+      "phonetic": "/a.vɛn.mɑ̃/",
+      "type": "nom masculin • histoire & société",
+      "theme": "Histoire & Économie",
+      "level": "B2",
+      "definition": "Arrivée, émergence historique ou consécration d'une ère nouvelle, d'un souverain, d'une innovation technique ou d'un ordre social déterminant.",
+      "examples": [
+        {
+          "fr": "L'avènement du chemin de fer a démocratisé les voyages vers les stations balnéaires de la Manche au XIXe siècle.",
+          "en": "The advent of the railway democratized travel to the seaside resorts of the English Channel in the 19th century.",
+          "cn": "铁路交通时代的降临与全线贯通，在19世纪极大推动了前往英吉利海峡沿线海滨度假胜地的平民化旅游浪潮。",
+          "jp": "19世紀における鉄道の登場（到来・普及）は、イギリス海峡沿岸の海浜保養地への大衆旅行の扉を一気に押し開きました。"
+        }
+      ]
+    },
+    {
+      "id": 14925,
+      "word": "Côte d'Albâtre",
+      "phonetic": "/kot d‿al.batʁ/",
+      "type": "nom propre géographique • géographie normande",
+      "theme": "Géographie & Nature",
+      "level": "B2",
+      "definition": "Partie du littoral normand de la Manche (en Seine-Maritime) s'étendant sur 130 km, réputée pour ses falaises monumentales de craie blanche immaculée semblables à l'albâtre.",
+      "examples": [
+        {
+          "fr": "Les falaises blanches de la Côte d'Albâtre surplombent la mer et abritent le pittoresque sentier du littoral reliant Dieppe à Étretat.",
+          "en": "The white cliffs of the Alabaster Coast overlook the sea and house the picturesque coastal trail connecting Dieppe to Étretat.",
+          "cn": "雪花石膏海岸巍峨洁白的白垩断崖俯瞰万顷碧波，蜿蜒其上的滨海悬崖步道串联起了迪耶普与埃特勒塔两座风光胜地。",
+          "jp": "雪花石膏（アラバスター）海岸の白亜の断崖絶壁は大海原を見下ろし、ディエップとエトルタを結ぶ風光明媚な海岸遊歩道（海浜小道）が続いています。"
+        }
+      ]
     }
 ];

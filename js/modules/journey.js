@@ -983,31 +983,28 @@ class JourneyModule {
       // [t] -> t
       // [n] -> n
 
-      // Remplacements spécifiques demandés :
-      // [u] = "ou", û = "u", [e] / ez = "é", [ɛ] = "è", [ø] = "œu"
-      // am, en, em = "an"; om = "on"; in, im, ein = "ain"
-      const directMap = {
+      // Si le texte contient des parenthèses, on ne lit PAS ce qui est entre parenthèses
+      // Ex: "[u] (ou, où, oû)" -> on ne garde que "[u]"
+      // Ex: "[ə] (e (sans accent))" -> on ne garde que "[ə]"
+      // Ex: "[e] (é, -er, -ez, -et)" -> on ne garde que "[e]"
+      if (t.includes('(')) {
+        t = t.replace(/\s*\([^)]*\)/g, '').replace(/\s*\([^)]*$/g, '').trim();
+      }
+
+      // Si le texte contient un phonème entre crochets, extraire le phonème
+      // Ex: "[u]" -> "ou", "[y]" -> "u", "[ø]" -> "eux", "[œ]" -> "eu", etc.
+      const phonemeMap = {
         '[u]': 'ou',
         '[y]': 'u',
-        'û': 'u',
         '[e]': 'é',
-        'ez': 'é',
-        '-ez': 'é',
         '[ɛ]': 'è',
-        '[ø]': 'œu',
-        '[œ]': 'œu',
+        '[ø]': 'eux',
+        '[œ]': 'eu',
         '[ə]': 'e',
-        'am': 'an',
-        'en': 'an',
-        'em': 'an',
-        'om': 'on',
-        'in': 'ain',
-        'im': 'ain',
-        'ein': 'ain',
         '[ɑ̃]': 'an',
         '[ɔ̃]': 'on',
         '[ɛ̃]': 'ain',
-        '[œ̃]': 'ain',
+        '[œ̃]': 'un',
         '[a]': 'a',
         '[i]': 'i',
         '[o]': 'o',
@@ -1015,44 +1012,73 @@ class JourneyModule {
         '[ʁ]': 'r',
         '[ʃ]': 'ch',
         '[ʒ]': 'j',
+        '[s]': 's',
+        '[z]': 'z',
         '[j]': 'y',
         '[w]': 'ou',
         '[ɥ]': 'u',
-        '[s]': 's',
-        '[z]': 'z',
         '[t]': 't',
         '[n]': 'n',
-        'Liaison en [z] (-s / -x)': 'Liaison en z',
-        'Liaison en [t] (-d / -t)': 'Liaison en t',
-        'Liaison en [n] (-n)': 'Liaison en n',
-        "L'Élision avec apostrophe ( ' )": "L'élision",
+        '[s] vs [z]': 's ou z'
+      };
+
+      const directMap = {
+        ...phonemeMap,
+        'û': 'u',
+        'ez': 'é',
+        '-ez': 'é',
+        'ei': 'è',
+        'eu': 'eux',
+        'oeu': 'eux',
+        'œu': 'eux',
+        'am': 'an',
+        'en': 'an',
+        'em': 'an',
+        'om': 'on',
+        'in': 'ain',
+        'im': 'ain',
+        'ein': 'ain',
+        'um': 'un',
+        'un': 'un',
+        'y': 'i',
+        ' y': 'i',
+        'Liaison en [z]': 'Liaison en z',
+        'Liaison en [t]': 'Liaison en t',
+        'Liaison en [n]': 'Liaison en n',
+        "L'Élision": "L'élision",
+        "L'Élision avec apostrophe": "L'élision",
         "↗ ↘": 'Intonation montante et descendante',
         "Intonation & Rythme Syllabique": "Intonation et rythme syllabique",
-        "[s] vs [z]": "s ou z",
         "CaReFuL": "Careful"
       };
 
       if (directMap[t]) {
         textToSpeak = directMap[t];
       } else {
-        // Remplacements ciblés au sein d'une expression phonétique
-        textToSpeak = textToSpeak
+        // Remplacements des phonèmes entre crochets dans les chaînes résiduelles
+        textToSpeak = t
           .replace(/\[u\]/g, 'ou')
           .replace(/\[y\]/g, 'u')
           .replace(/û/g, 'u')
           .replace(/\[e\]/g, 'é')
           .replace(/\[ɛ\]/g, 'è')
-          .replace(/\[ø\]/g, 'œu')
-          .replace(/\[œ\]/g, 'œu')
+          .replace(/\[ø\]/g, 'eux')
+          .replace(/\[œ\]/g, 'eu')
           .replace(/\[ə\]/g, 'e')
           .replace(/\[ɑ̃\]/g, 'an')
           .replace(/\[ɔ̃\]/g, 'on')
           .replace(/\[ɛ̃\]/g, 'ain')
-          .replace(/\[œ̃\]/g, 'ain')
-          .replace(/\b(?:am|en|em)\b/g, 'an')
-          .replace(/\bom\b/g, 'on')
-          .replace(/\b(?:in|im|ein)\b/g, 'ain')
-          .replace(/\bez\b/g, 'é');
+          .replace(/\[œ̃\]/g, 'un')
+          .replace(/\[a\]/g, 'a')
+          .replace(/\[i\]/g, 'i')
+          .replace(/\[o\]/g, 'o')
+          .replace(/\[ɔ\]/g, 'o')
+          .replace(/\[ʁ\]/g, 'r')
+          .replace(/\[ʃ\]/g, 'ch')
+          .replace(/\[ʒ\]/g, 'j')
+          .replace(/\[j\]/g, 'y')
+          .replace(/\[w\]/g, 'ou')
+          .replace(/\[ɥ\]/g, 'u');
       }
     }
 

@@ -943,8 +943,121 @@ class JourneyModule {
   }
 
   speak(text) {
+    if (!text) return;
+    let textToSpeak = text;
+
+    // Adaptation phonétique vocale Kokoro TTS UNIQUEMENT pour les 3 modules de prononciation :
+    // Chapitre 1 Module 3 (Phonétique 1/3), Module 4 (Phonétique 2/3) et Module 5 (Phonétique 3/3)
+    const isPronunciationQuest = this.currentQuest && (
+      ['quest_ch1_phonetique_1', 'quest_ch1_phonetique_2', 'quest_ch1_phonetique_3'].includes(this.currentQuest.id) ||
+      /^Phon[ée]tique\s+[123]\/3/i.test(this.currentQuest.title || '')
+    );
+
+    if (isPronunciationQuest && typeof textToSpeak === 'string') {
+      let t = textToSpeak.trim();
+
+      // Table de correspondance exacte ou sous-chaînes pour les cartes phonétiques
+      // [u] -> ou
+      // [y] -> u
+      // [e] -> é
+      // [ɛ] -> è
+      // [ø] -> œu
+      // [o] -> o
+      // [ɔ] -> o
+      // [a] -> a
+      // [i] -> i
+      // [œ] -> œu
+      // [ə] -> e
+      // [ɑ̃] -> an
+      // [ɔ̃] -> on
+      // [ɛ̃] -> ain
+      // [œ̃] -> un
+      // [ʁ] -> r
+      // [ʃ] -> ch
+      // [ʒ] -> j
+      // [s] -> s
+      // [z] -> z
+      // [j] -> y
+      // [w] -> ou
+      // [ɥ] -> u
+      // [t] -> t
+      // [n] -> n
+
+      // Remplacements spécifiques demandés :
+      // [u] = "ou", û = "u", [e] / ez = "é", [ɛ] = "è", [ø] = "œu"
+      // am, en, em = "an"; om = "on"; in, im, ein = "ain"
+      const directMap = {
+        '[u]': 'ou',
+        '[y]': 'u',
+        'û': 'u',
+        '[e]': 'é',
+        'ez': 'é',
+        '-ez': 'é',
+        '[ɛ]': 'è',
+        '[ø]': 'œu',
+        '[œ]': 'œu',
+        '[ə]': 'e',
+        'am': 'an',
+        'en': 'an',
+        'em': 'an',
+        'om': 'on',
+        'in': 'ain',
+        'im': 'ain',
+        'ein': 'ain',
+        '[ɑ̃]': 'an',
+        '[ɔ̃]': 'on',
+        '[ɛ̃]': 'ain',
+        '[œ̃]': 'ain',
+        '[a]': 'a',
+        '[i]': 'i',
+        '[o]': 'o',
+        '[ɔ]': 'o',
+        '[ʁ]': 'r',
+        '[ʃ]': 'ch',
+        '[ʒ]': 'j',
+        '[j]': 'y',
+        '[w]': 'ou',
+        '[ɥ]': 'u',
+        '[s]': 's',
+        '[z]': 'z',
+        '[t]': 't',
+        '[n]': 'n',
+        'Liaison en [z] (-s / -x)': 'Liaison en z',
+        'Liaison en [t] (-d / -t)': 'Liaison en t',
+        'Liaison en [n] (-n)': 'Liaison en n',
+        "L'Élision avec apostrophe ( ' )": "L'élision",
+        "↗ ↘": 'Intonation montante et descendante',
+        "Intonation & Rythme Syllabique": "Intonation et rythme syllabique",
+        "[s] vs [z]": "s ou z",
+        "CaReFuL": "Careful"
+      };
+
+      if (directMap[t]) {
+        textToSpeak = directMap[t];
+      } else {
+        // Remplacements ciblés au sein d'une expression phonétique
+        textToSpeak = textToSpeak
+          .replace(/\[u\]/g, 'ou')
+          .replace(/\[y\]/g, 'u')
+          .replace(/û/g, 'u')
+          .replace(/\[e\]/g, 'é')
+          .replace(/\[ɛ\]/g, 'è')
+          .replace(/\[ø\]/g, 'œu')
+          .replace(/\[œ\]/g, 'œu')
+          .replace(/\[ə\]/g, 'e')
+          .replace(/\[ɑ̃\]/g, 'an')
+          .replace(/\[ɔ̃\]/g, 'on')
+          .replace(/\[ɛ̃\]/g, 'ain')
+          .replace(/\[œ̃\]/g, 'ain')
+          .replace(/\b(?:am|en|em)\b/g, 'an')
+          .replace(/\bom\b/g, 'on')
+          .replace(/\b(?:in|im|ein)\b/g, 'ain')
+          .replace(/\bez\b/g, 'é');
+      }
+    }
+
     if (window.aiTTS) {
-      window.aiTTS.speak(text, { rate: 1.0 });
+      window.aiTTS.speak(textToSpeak, { rate: 1.0 });
     }
   }
 

@@ -84,6 +84,22 @@ class JourneyModule {
       this.closeModalBtn.addEventListener('click', () => this.closeQuestModal());
     }
 
+    // Delegated click listener for contextual verb lookups in journey quest dialogues and lessons
+    if (this.modalEl) {
+      this.modalEl.addEventListener('click', (e) => {
+        const linkBtn = e.target.closest('.conj-inline-link, .verb-lookup, [data-verb]');
+        if (linkBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          const verb = linkBtn.getAttribute('data-verb');
+          if (verb && window.ConjugaisonManager && typeof window.ConjugaisonManager.open === 'function') {
+            window.ConjugaisonManager.open(verb);
+            // Quest runner modal and active quest state (this.currentQuest, this.currentStepIdx) remain intact
+          }
+        }
+      });
+    }
+
     // Check streak
     const today = new Date().toISOString().slice(0, 10);
     if (this.state.lastDate !== today) {
@@ -529,7 +545,7 @@ class JourneyModule {
           max-height: 55vh;
           overflow-y: auto;
         ">
-          <p>${htmlContent}</p>
+          <p>${this.enhanceContentWithVerbs(htmlContent)}</p>
         </div>
       `;
 
@@ -603,8 +619,8 @@ class JourneyModule {
           <div style="display:flex; flex-direction:column; gap:4px; align-self:${idx % 2 === 0 ? 'flex-start' : 'flex-end'}; max-width:82%;">
             <span style="font-size:0.75rem; font-weight:700; color:var(--md-sys-color-primary); padding-left:6px;">${l.speaker}</span>
             <div style="display:flex; align-items:center; gap:8px; background:${idx % 2 === 0 ? 'var(--md-sys-color-surface-variant)' : 'var(--md-sys-color-primary-container)'}; color:${idx % 2 === 0 ? 'var(--md-sys-color-on-surface)' : 'var(--md-sys-color-on-primary-container)'}; padding:10px 14px; border-radius:14px; font-size:0.95rem; line-height:1.4;">
-              <span>${l.text}</span>
-              <button class="md-icon-button" style="width:28px; height:28px; min-width:28px; flex-shrink:0;" onclick="window.journeyModule.speak('${l.text.replace(/'/g, "\\'")}')" title="Écouter">
+              <span>${this.enhanceContentWithVerbs(l.text)}</span>
+              <button class="md-icon-button" style="width:28px; height:28px; min-width:28px; flex-shrink:0;" onclick="window.journeyModule.speak('${l.text.replace(/'/g, "\\'")}', { speaker: '${l.speaker || ''}', gender: '${l.gender || ''}' })" title="Écouter (${l.speaker})">
                 <span class="material-icons-round" style="font-size:16px;">volume_up</span>
               </button>
             </div>
@@ -617,6 +633,31 @@ class JourneyModule {
       this.nextStepBtn.innerHTML = `Étape Suivante <span class="material-icons-round">navigate_next</span>`;
       this.nextStepBtn.onclick = () => this.goToNextStep();
     }
+  }
+
+  /**
+   * Opens Bescherelle drawer for contextual verb lookup without altering quest runner state.
+   */
+  openVerbLookup(verb) {
+    if (verb && window.ConjugaisonManager && typeof window.ConjugaisonManager.open === 'function') {
+      window.ConjugaisonManager.open(verb);
+    }
+  }
+
+  /**
+   * Enhances text with interactive verb lookup links for parenthesized infinitives and key verbs.
+   */
+  enhanceContentWithVerbs(text) {
+    if (!text || typeof text !== 'string') return '';
+    if (window.grammarModule && typeof window.grammarModule.enhanceRuleContent === 'function') {
+      return window.grammarModule.enhanceRuleContent(text);
+    }
+    // Fallback: transform parenthesized verbs like (prendre) or (aller)
+    return text.replace(/\(([a-zA-ZàâäéèêëîïôöùûüçœæÀÂÄÉÈÊËÎÏÔÖÙÛÜÇŒÆ\s'-]+)\)([,.;:!?]*)/g, (m, v, punct) => {
+      const clean = v.toLowerCase().trim();
+      const p = punct || '';
+      return `<button class="conj-inline-link" data-verb="${clean}" title="Consulter la conjugaison" type="button">(${v})</button>${p}`;
+    });
   }
 
   renderSynthesisPrompt(step) {
@@ -771,9 +812,24 @@ class JourneyModule {
                         data-side="right"
                         ${isMatched ? 'disabled' : ''}
                         onclick="window.journeyModule.handleMatchingClick('right', '${item.id}')">
-                  <div style="display:flex; flex-direction:column; gap:2px; font-size:0.9rem; line-height:1.35;">
-                    <div><strong style="color:var(--md-sys-color-primary); font-size:0.95rem;">${item.jp || item.text}</strong></div>
-                    ${item.en ? `<div style="font-size:0.78rem; color:var(--md-sys-color-on-surface-variant); opacity:0.85;">${item.en} ${item.cn ? `• ${item.cn}` : ''}</div>` : ''}
+                  <div style="display:flex; flex-direction:column; gap:4px; font-size:0.9rem; line-height:1.35; flex:1; text-align:left;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; gap:6px;">
+                      <strong style="color:var(--md-sys-color-primary); font-size:0.95rem;">${item.jp || item.text}</strong>
+                    </div>
+                    ${item.en || item.cn ? `
+                      <div style="display:flex; align-items:center; gap:8px; font-size:0.78rem; color:var(--md-sys-color-on-surface-variant); flex-wrap:wrap;">
+                        ${item.en ? `
+                          <span style="display:inline-flex; align-items:center; gap:2px; cursor:pointer;" onclick="event.stopPropagation(); window.journeyModule.speak('${item.en.replace(/'/g, "\\'")}', { lang: 'en', voice: 'bf_isabella' })" title="Écouter en anglais (Isabella)">
+                            🇬🇧 ${item.en} <span class="material-icons-round" style="font-size:13px; color:var(--md-sys-color-primary);">volume_up</span>
+                          </span>
+                        ` : ''}
+                        ${item.cn ? `
+                          <span style="display:inline-flex; align-items:center; gap:2px; cursor:pointer;" onclick="event.stopPropagation(); window.journeyModule.speak('${(item.cn.split('(')[0] || item.cn).replace(/'/g, "\\'").trim()}', { lang: 'zh', voice: 'zf_xiaobei' })" title="Écouter en chinois (Xiaobei)">
+                            🇨🇳 ${item.cn} <span class="material-icons-round" style="font-size:13px; color:var(--md-sys-color-primary);">volume_up</span>
+                          </span>
+                        ` : ''}
+                      </div>
+                    ` : ''}
                   </div>
                   <span class="material-icons-round" style="font-size:18px; color: ${isMatched ? '#1B4336' : 'var(--md-sys-color-outline)'};">
                     ${isMatched ? 'check_circle' : 'swap_horiz'}
@@ -809,9 +865,15 @@ class JourneyModule {
 
     if (side === 'left') {
       state.selectedLeft = state.selectedLeft === id ? null : id;
-      this.speak(state.leftItems.find(it => it.id === id)?.fr || '');
+      this.speak(state.leftItems.find(it => it.id === id)?.fr || '', { lang: 'fr', voice: 'ff_siwis' });
     } else {
       state.selectedRight = state.selectedRight === id ? null : id;
+      const rItem = state.rightItems.find(it => it.id === id);
+      if (rItem) {
+        // Clean Japanese text for speech (strip furigana/parentheses)
+        const cleanJp = (rItem.jp || rItem.text || '').replace(/（[^）]*）|\([^)]*\)/g, '').trim();
+        this.speak(cleanJp, { lang: 'ja', voice: 'jf_gongitsune' });
+      }
     }
 
     if (state.selectedLeft && state.selectedRight) {
@@ -942,7 +1004,7 @@ class JourneyModule {
     }
   }
 
-  speak(text) {
+  speak(text, options = {}) {
     if (!text) return;
     let textToSpeak = text;
 
@@ -1095,7 +1157,7 @@ class JourneyModule {
     }
 
     if (window.aiTTS) {
-      window.aiTTS.speak(textToSpeak, { rate: 1.0 });
+      window.aiTTS.speak(textToSpeak, { rate: 1.0, ...options });
     }
   }
 

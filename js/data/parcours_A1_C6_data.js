@@ -155,28 +155,28 @@ window.parcours_A1_C6_Dataset = {
               "id": "a1_ch8_toutdroit",
               "fr": "Tout droit",
               "en": "Straight ahead",
-              "jp": "まっすぐ (massugu)",
+              "jp": "まっすぐ",
               "cn": "一直走 / 笔直 (yīzhí zǒu)"
             },
             {
               "id": "a1_ch8_gauche",
               "fr": "À gauche",
               "en": "On the left",
-              "jp": "左へ / 左側に (hidari e)",
+              "jp": "左へ / 左側に (ひだりへ / ひだりがわに)",
               "cn": "向左 / 左边 (xiàng zuǒ)"
             },
             {
               "id": "a1_ch8_droite",
               "fr": "À droite",
               "en": "On the right",
-              "jp": "右へ / 右側に (migi e)",
+              "jp": "右へ / 右側に (みぎへ / みぎがわに)",
               "cn": "向右 / 右边 (xiàng yòu)"
             },
             {
               "id": "a1_ch8_gare",
               "fr": "La gare",
               "en": "Station / Train station",
-              "jp": "駅 (eki)",
+              "jp": "駅 (えき)",
               "cn": "火车站 (huǒchēzhàn)"
             }
           ]

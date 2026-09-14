@@ -388,42 +388,42 @@ window.parcours_A1_C2_Dataset = {
               "id": "a1_ch2_bleu",
               "fr": "Bleu",
               "en": "Blue",
-              "jp": "青い (aoi)",
+              "jp": "青い (あおい)",
               "cn": "蓝色的 (lánsè de)"
             },
             {
               "id": "a1_ch2_rouge",
               "fr": "Rouge",
               "en": "Red",
-              "jp": "赤い (akai)",
+              "jp": "赤い (あかい)",
               "cn": "红色的 (hóngsè de)"
             },
             {
               "id": "a1_ch2_facile",
               "fr": "Facile",
               "en": "Easy",
-              "jp": "簡単な (kantan na)",
+              "jp": "簡単な (かんたんな)",
               "cn": "容易的 (róngyì de)"
             },
             {
               "id": "a1_ch2_difficile",
               "fr": "Difficile",
               "en": "Difficult / Hard",
-              "jp": "難しい (muzukashii)",
+              "jp": "難しい (むずかしい)",
               "cn": "困难的 (kùnnan de)"
             },
             {
               "id": "a1_ch2_propre",
               "fr": "Propre",
               "en": "Clean",
-              "jp": "清潔な (seiketsu na)",
+              "jp": "清潔な (せいけつな)",
               "cn": "干净的 (gānjìng de)"
             },
             {
               "id": "a1_ch2_tranquille",
               "fr": "Tranquille",
               "en": "Quiet / Peaceful",
-              "jp": "静かな / 穏やかな (shizuka na)",
+              "jp": "静かな / 穏やかな (しずかな)",
               "cn": "安静的 (ānjìng de)"
             }
           ]
@@ -834,42 +834,42 @@ window.parcours_A1_C2_Dataset = {
               "id": "a1_ch3_grand",
               "fr": "Grand",
               "en": "Big / Tall",
-              "jp": "大きい / 背が高い (ōkii)",
+              "jp": "大きい / 背が高い (おおきい)",
               "cn": "大的 / 高的 (dà de / gāo de)"
             },
             {
               "id": "a1_ch3_beau",
               "fr": "Beau",
               "en": "Beautiful / Handsome",
-              "jp": "美しい / かっこいい (utsukushii)",
+              "jp": "美しい / かっこいい (うつくしい)",
               "cn": "美丽的 / 帅气的 (měilì de)"
             },
             {
               "id": "a1_ch3_chaud",
               "fr": "Chaud",
               "en": "Hot / Warm",
-              "jp": "温かい / 暑い (atatakai / atsui)",
+              "jp": "温かい / 暑い (あたたかい / あつい)",
               "cn": "热的 / 温暖的 (rè de / wēnnuǎn de)"
             },
             {
               "id": "a1_ch3_froid",
               "fr": "Froid",
               "en": "Cold",
-              "jp": "冷たい / 寒い (tsumetai / samui)",
+              "jp": "冷たい / 寒い (つめたい / さむい)",
               "cn": "冷的 (lěng de)"
             },
             {
               "id": "a1_ch3_heureux",
               "fr": "Heureux",
               "en": "Happy",
-              "jp": "幸せな (shiawase na)",
+              "jp": "幸せな (しあわせな)",
               "cn": "幸福的 / 快乐的 (xìngfú de)"
             },
             {
               "id": "a1_ch3_vieux",
               "fr": "Vieux",
               "en": "Old",
-              "jp": "古い / 年老いた (furui / toshioita)",
+              "jp": "古い / 年老いた (ふるい / としおいた)",
               "cn": "老的 / 古老的 (lǎo de / gǔlǎo de)"
             }
           ]
@@ -1262,42 +1262,42 @@ window.parcours_A1_C2_Dataset = {
               "id": "a1_ch5_nouveau",
               "fr": "Nouveau",
               "en": "New",
-              "jp": "新しい (atarashii)",
+              "jp": "新しい (あたらしい)",
               "cn": "新的 (xīn de)"
             },
             {
               "id": "a1_ch5_petit",
               "fr": "Petit",
               "en": "Small / Little",
-              "jp": "小さい (chiisai)",
+              "jp": "小さい (ちいさい)",
               "cn": "小的 (xiǎo de)"
             },
             {
               "id": "a1_ch5_livre",
               "fr": "Le livre",
               "en": "Book",
-              "jp": "本 (hon)",
+              "jp": "本 (ほん)",
               "cn": "书 / 书籍 (shū)"
             },
             {
               "id": "a1_ch5_professeur",
               "fr": "Le professeur",
               "en": "Teacher / Professor",
-              "jp": "先生 / 教授 (sensei)",
+              "jp": "先生 / 教授 (せんせい / きょうじゅ)",
               "cn": "老师 / 教授 (lǎoshī)"
             },
             {
               "id": "a1_ch5_enfant",
               "fr": "L'enfant",
               "en": "Child",
-              "jp": "子ども (kodomo)",
+              "jp": "子ども (こども)",
               "cn": "孩子 / 儿童 (háizi)"
             },
             {
               "id": "a1_ch5_merci",
               "fr": "Merci",
               "en": "Thank you",
-              "jp": "ありがとう (arigatō)",
+              "jp": "ありがとう",
               "cn": "谢谢 (xièxie)"
             }
           ]
@@ -1518,42 +1518,42 @@ window.parcours_A1_C2_Dataset = {
               "id": "a1_ch2_mod4_nouveau",
               "fr": "Nouveau",
               "en": "New",
-              "jp": "新しい (atarashii)",
+              "jp": "新しい (あたらしい)",
               "cn": "新的 (xīn de)"
             },
             {
               "id": "a1_ch2_mod4_petit",
               "fr": "Petit",
               "en": "Small / Little",
-              "jp": "小さい (chiisai)",
+              "jp": "小さい (ちいさい)",
               "cn": "小的 (xiǎo de)"
             },
             {
               "id": "a1_ch2_mod4_plein",
               "fr": "Plein",
               "en": "Full",
-              "jp": "いっぱいの (ippai no)",
+              "jp": "いっぱいの",
               "cn": "满的 (mǎn de)"
             },
             {
               "id": "a1_ch2_mod4_pret",
               "fr": "Prêt",
               "en": "Ready",
-              "jp": "準備ができた (junbi ga dekita)",
+              "jp": "準備ができた (じゅんびができた)",
               "cn": "准备好的 (zhǔnbèi hǎo de)"
             },
             {
               "id": "a1_ch2_mod4_vert",
               "fr": "Vert",
               "en": "Green",
-              "jp": "緑の (midori no)",
+              "jp": "緑の (みどりの)",
               "cn": "绿色的 (lǜsè de)"
             },
             {
               "id": "a1_ch2_mod4_vivant",
               "fr": "Vivant",
               "en": "Alive / Lively",
-              "jp": "生きている / 活気のある (ikiteiru / kakki no aru)",
+              "jp": "生きている / 活気のある (いきてる / かっきのある)",
               "cn": "活着的 / 充满活力的 (huózhe de)"
             }
           ]

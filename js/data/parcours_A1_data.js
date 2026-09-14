@@ -1800,28 +1800,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch1_bonjour",
                 "fr": "Bonjour",
                 "en": "Hello / Good morning",
-                "jp": "こんにちは (konnichiwa)",
+                "jp": "こんにちは",
                 "cn": "你好 (nǐ hǎo)"
               },
               {
                 "id": "a1_ch1_enchante",
                 "fr": "Enchanté(e)",
                 "en": "Nice to meet you",
-                "jp": "はじめまして (hajimemashite)",
+                "jp": "はじめまして",
                 "cn": "很高兴认识你 (hěn gāoxìng rènshi nǐ)"
               },
               {
                 "id": "a1_ch1_aurevoir",
                 "fr": "Au revoir",
                 "en": "Goodbye",
-                "jp": "さようなら (sayōnara)",
+                "jp": "さようなら",
                 "cn": "再见 (zàijiàn)"
               },
               {
                 "id": "a1_ch1_merci",
                 "fr": "Merci",
                 "en": "Thank you",
-                "jp": "ありがとう (arigatō)",
+                "jp": "ありがとう",
                 "cn": "谢谢 (xièxie)"
               }
             ]
@@ -2221,42 +2221,42 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch2_bleu",
                 "fr": "Bleu",
                 "en": "Blue",
-                "jp": "青い (aoi)",
+                "jp": "青い (あおい)",
                 "cn": "蓝色的 (lánsè de)"
               },
               {
                 "id": "a1_ch2_rouge",
                 "fr": "Rouge",
                 "en": "Red",
-                "jp": "赤い (akai)",
+                "jp": "赤い (あかい)",
                 "cn": "红色的 (hóngsè de)"
               },
               {
                 "id": "a1_ch2_facile",
                 "fr": "Facile",
                 "en": "Easy",
-                "jp": "簡単な (kantan na)",
+                "jp": "簡単な (かんたんな)",
                 "cn": "容易的 (róngyì de)"
               },
               {
                 "id": "a1_ch2_difficile",
                 "fr": "Difficile",
                 "en": "Difficult / Hard",
-                "jp": "難しい (muzukashii)",
+                "jp": "難しい (むずかしい)",
                 "cn": "困难的 (kùnnan de)"
               },
               {
                 "id": "a1_ch2_propre",
                 "fr": "Propre",
                 "en": "Clean",
-                "jp": "清潔な (seiketsu na)",
+                "jp": "清潔な (せいけつな)",
                 "cn": "干净的 (gānjìng de)"
               },
               {
                 "id": "a1_ch2_tranquille",
                 "fr": "Tranquille",
                 "en": "Quiet / Peaceful",
-                "jp": "静かな / 穏やかな (shizuka na)",
+                "jp": "静かな / 穏やかな (しずかな)",
                 "cn": "安静的 (ānjìng de)"
               }
             ]
@@ -2667,42 +2667,42 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch3_grand",
                 "fr": "Grand",
                 "en": "Big / Tall",
-                "jp": "大きい / 背が高い (ōkii)",
+                "jp": "大きい / 背が高い (おおきい)",
                 "cn": "大的 / 高的 (dà de / gāo de)"
               },
               {
                 "id": "a1_ch3_beau",
                 "fr": "Beau",
                 "en": "Beautiful / Handsome",
-                "jp": "美しい / かっこいい (utsukushii)",
+                "jp": "美しい / かっこいい (うつくしい)",
                 "cn": "美丽的 / 帅气的 (měilì de)"
               },
               {
                 "id": "a1_ch3_chaud",
                 "fr": "Chaud",
                 "en": "Hot / Warm",
-                "jp": "温かい / 暑い (atatakai / atsui)",
+                "jp": "温かい / 暑い (あたたかい / あつい)",
                 "cn": "热的 / 温暖的 (rè de / wēnnuǎn de)"
               },
               {
                 "id": "a1_ch3_froid",
                 "fr": "Froid",
                 "en": "Cold",
-                "jp": "冷たい / 寒い (tsumetai / samui)",
+                "jp": "冷たい / 寒い (つめたい / さむい)",
                 "cn": "冷的 (lěng de)"
               },
               {
                 "id": "a1_ch3_heureux",
                 "fr": "Heureux",
                 "en": "Happy",
-                "jp": "幸せな (shiawase na)",
+                "jp": "幸せな (しあわせな)",
                 "cn": "幸福的 / 快乐的 (xìngfú de)"
               },
               {
                 "id": "a1_ch3_vieux",
                 "fr": "Vieux",
                 "en": "Old",
-                "jp": "古い / 年老いた (furui / toshioita)",
+                "jp": "古い / 年老いた (ふるい / としおいた)",
                 "cn": "老的 / 古老的 (lǎo de / gǔlǎo de)"
               }
             ]
@@ -2869,7 +2869,7 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. f.",
                 "def": "Titre de politesse adressé à une femme adulte.",
                 "example": "Bonjour madame, comment vous portez-vous ?",
-                "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/tante.jpg"
               },
               {
                 "word": "Enfant",
@@ -2897,7 +2897,7 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. m. / f.",
                 "def": "Personne chargée de surveiller ou protéger un lieu.",
                 "example": "Le garde du parc ouvre les grandes grilles à huit heures.",
-                "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/mere.jpg"
               }
             ]
           },
@@ -3095,42 +3095,42 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch5_nouveau",
                 "fr": "Nouveau",
                 "en": "New",
-                "jp": "新しい (atarashii)",
+                "jp": "新しい (あたらしい)",
                 "cn": "新的 (xīn de)"
               },
               {
                 "id": "a1_ch5_petit",
                 "fr": "Petit",
                 "en": "Small / Little",
-                "jp": "小さい (chiisai)",
+                "jp": "小さい (ちいさい)",
                 "cn": "小的 (xiǎo de)"
               },
               {
                 "id": "a1_ch5_livre",
                 "fr": "Le livre",
                 "en": "Book",
-                "jp": "本 (hon)",
+                "jp": "本 (ほん)",
                 "cn": "书 / 书籍 (shū)"
               },
               {
                 "id": "a1_ch5_professeur",
                 "fr": "Le professeur",
                 "en": "Teacher / Professor",
-                "jp": "先生 / 教授 (sensei)",
+                "jp": "先生 / 教授 (せんせい / きょうじゅ)",
                 "cn": "老师 / 教授 (lǎoshī)"
               },
               {
                 "id": "a1_ch5_enfant",
                 "fr": "L'enfant",
                 "en": "Child",
-                "jp": "子ども (kodomo)",
+                "jp": "子ども (こども)",
                 "cn": "孩子 / 儿童 (háizi)"
               },
               {
                 "id": "a1_ch5_merci",
                 "fr": "Merci",
                 "en": "Thank you",
-                "jp": "ありがとう (arigatō)",
+                "jp": "ありがとう",
                 "cn": "谢谢 (xièxie)"
               }
             ]
@@ -3351,42 +3351,42 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch2_mod4_nouveau",
                 "fr": "Nouveau",
                 "en": "New",
-                "jp": "新しい (atarashii)",
+                "jp": "新しい (あたらしい)",
                 "cn": "新的 (xīn de)"
               },
               {
                 "id": "a1_ch2_mod4_petit",
                 "fr": "Petit",
                 "en": "Small / Little",
-                "jp": "小さい (chiisai)",
+                "jp": "小さい (ちいさい)",
                 "cn": "小的 (xiǎo de)"
               },
               {
                 "id": "a1_ch2_mod4_plein",
                 "fr": "Plein",
                 "en": "Full",
-                "jp": "いっぱいの (ippai no)",
+                "jp": "いっぱいの",
                 "cn": "满的 (mǎn de)"
               },
               {
                 "id": "a1_ch2_mod4_pret",
                 "fr": "Prêt",
                 "en": "Ready",
-                "jp": "準備ができた (junbi ga dekita)",
+                "jp": "準備ができた (じゅんびができた)",
                 "cn": "准备好的 (zhǔnbèi hǎo de)"
               },
               {
                 "id": "a1_ch2_mod4_vert",
                 "fr": "Vert",
                 "en": "Green",
-                "jp": "緑の (midori no)",
+                "jp": "緑の (みどりの)",
                 "cn": "绿色的 (lǜsè de)"
               },
               {
                 "id": "a1_ch2_mod4_vivant",
                 "fr": "Vivant",
                 "en": "Alive / Lively",
-                "jp": "生きている / 活気のある (ikiteiru / kakki no aru)",
+                "jp": "生きている / 活気のある (いきてる / かっきのある)",
                 "cn": "活着的 / 充满活力的 (huózhe de)"
               }
             ]
@@ -3553,28 +3553,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch4_pere",
                 "fr": "Le père",
                 "en": "Father",
-                "jp": "父 / お父さん (chichi / otōsan)",
+                "jp": "父 / お父さん (ちち / おとうさん)",
                 "cn": "父亲 / 爸爸 (fùqīn / bàba)"
               },
               {
                 "id": "a1_ch4_mere",
                 "fr": "La mère",
                 "en": "Mother",
-                "jp": "母 / お母さん (haha / okāsan)",
+                "jp": "母 / お母さん (はは / おかあさん)",
                 "cn": "母亲 / 妈妈 (mǔqīn / māma)"
               },
               {
                 "id": "a1_ch4_frere",
                 "fr": "Le frère",
                 "en": "Brother",
-                "jp": "兄弟 / 兄 / 弟 (kyōdai)",
+                "jp": "兄弟 / 兄 / 弟 (きょうだい)",
                 "cn": "兄弟 / 哥哥 / 弟弟 (xiōngdì)"
               },
               {
                 "id": "a1_ch4_soeur",
                 "fr": "La sœur",
                 "en": "Sister",
-                "jp": "姉妹 / 姉 / 妹 (shimai)",
+                "jp": "姉妹 / 姉 / 妹 (しまい)",
                 "cn": "姐妹 / 姐姐 / 妹妹 (jiěmèi)"
               }
             ]
@@ -3583,7 +3583,7 @@ if (window.parcours_A1_Dataset.length === 0) {
       },
       {
         "id": "quest_ch_3_2",
-        "title": "Module 2 : L'Arbre Généalogique & les Liens de Famille",
+        "title": "Vocabulaire : La famille",
         "level": "A1",
         "icon": "account_tree",
         "xp": 70,
@@ -3592,7 +3592,7 @@ if (window.parcours_A1_Dataset.length === 0) {
           {
             "type": "lesson",
             "title": "L'Arbre Généalogique de Lucas",
-            "content": "**L'Arbre Généalogique de la Famille**\n\nBienvenue dans la famille de Lucas ! Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique.\n\n![Réunion de famille chaleureuse](https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80)\n\n### 👴 👵 Génération 1 : Les Grands-Parents\nAu sommet de l'arbre se trouvent les grands-parents. Ce sont les parents de nos parents :\n- **Le grand-père :** le père de mon père ou de ma mère. En famille, on l'appelle affectueusement **papi** (ou pépé).\n- **La grand-mère :** la mère de mon père ou de ma mère. En famille, on l'appelle affectueusement **mamie** (ou mémé).\n- Ensemble, ils forment **les grands-parents**.\n\n### 👨 👩 Génération 2 : Les Parents, Oncles et Tantes\nLa deuxième génération réunit les adultes qui élèvent les enfants :\n- **Le père (papa)** et **la mère (maman) :** ce sont **les parents**. Unis par le mariage, ils sont **le mari** (l'époux) et **la femme** (l'épouse).\n- **L'oncle (le tonton) :** le frère du père ou de la mère, ou le mari de la tante.\n- **La tante (la tata) :** la sœur du père ou de la mère, ou la femme de l'oncle.\n\n### 👦 👧 Génération 3 : La Fratrie, Neveux et Nièces\nLa troisième génération représente les enfants et petits-enfants :\n- **Le grand frère :** le frère plus âgé que moi (mon aîné).\n- **Le petit frère :** le frère plus jeune que moi (mon cadet).\n- **La grande sœur :** la sœur plus âgée que moi (mon aînée).\n- **La petite sœur :** la sœur plus jeune que moi (ma cadette).\n- **Le neveu :** le fils de mon frère ou de ma sœur.\n- **La nièce :** la fille de mon frère ou de ma sœur.\n- Par rapport aux grands-parents, les garçons sont **les petits-fils** et les filles sont **les petites-filles** (ensemble : **les petits-enfants**).\n\n### 📋 Schéma Récapitulatif des Liens de Parenté\n- Mon père + Ma mère = Mes parents\n- Le père de mon père = Mon papi (grand-père)\n- La mère de mon père = Ma mamie (grand-mère)\n- Le frère de mon père = Mon oncle (tonton)\n- La sœur de mon père = Ma tante (tata)\n- Le fils de ma sœur = Mon neveu\n- La fille de ma sœur = Ma nièce\n- Les enfants de mes enfants = Mes petits-enfants",
+            "content": "**L'Arbre Généalogique de la Famille**\n\nBienvenue dans la famille de Lucas ! Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique.\n\n![Réunion de famille chaleureuse](assets/scenes/reunion_famille_pastel.jpg)\n\n### 👴 👵 Génération 1 : Les Grands-Parents\nAu sommet de l'arbre se trouvent les grands-parents. Ce sont les parents de nos parents :\n- **Le grand-père :** le père de mon père ou de ma mère. En famille, on l'appelle affectueusement **papi** (ou pépé).\n- **La grand-mère :** la mère de mon père ou de ma mère. En famille, on l'appelle affectueusement **mamie** (ou mémé).\n- Ensemble, ils forment **les grands-parents**.\n\n### 👨 👩 Génération 2 : Les Parents, Oncles et Tantes\nLa deuxième génération réunit les adultes qui élèvent les enfants :\n- **Le père (papa)** et **la mère (maman) :** ce sont **les parents**. Unis par le mariage, ils sont **le mari** (l'époux) et **la femme** (l'épouse).\n- **L'oncle (le tonton) :** le frère du père ou de la mère, ou le mari de la tante.\n- **La tante (la tata) :** la sœur du père ou de la mère, ou la femme de l'oncle.\n\n### 👦 👧 Génération 3 : La Fratrie, Neveux et Nièces\nLa troisième génération représente les enfants et petits-enfants :\n- **Le grand frère :** le frère plus âgé que moi (mon aîné).\n- **Le petit frère :** le frère plus jeune que moi (mon cadet).\n- **La grande sœur :** la sœur plus âgée que moi (mon aînée).\n- **La petite sœur :** la sœur plus jeune que moi (ma cadette).\n- **Le neveu :** le fils de mon frère ou de ma sœur.\n- **La nièce :** la fille de mon frère ou de ma sœur.\n- Par rapport aux grands-parents, les garçons sont **les petits-fils** et les filles sont **les petites-filles** (ensemble : **les petits-enfants**).\n\n### 📋 Schéma Récapitulatif des Liens de Parenté\n- Mon père + Ma mère = Mes parents\n- Le père de mon père = Mon papi (grand-père)\n- La mère de mon père = Ma mamie (grand-mère)\n- Le frère de mon père = Mon oncle (tonton)\n- La sœur de mon père = Ma tante (tata)\n- Le fils de ma sœur = Mon neveu\n- La fille de ma sœur = Ma nièce\n- Les enfants de mes enfants = Mes petits-enfants",
             "audioText": "Bienvenue dans la famille de Lucas. Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique. En haut de l'arbre se trouvent les grands-parents : le grand-père, que l'on appelle souvent papi, et la grand-mère, que l'on appelle mamie. La deuxième génération réunit les parents, les oncles et les tantes : le père, que l'on appelle papa, et la mère, que l'on appelle maman. Ce sont les parents, le mari et la femme. Le frère de papa ou de maman est l'oncle, ou le tonton. La sœur de papa ou de maman est la tante, ou la tata. Enfin, la troisième génération comprend la fratrie : le grand frère, le petit frère, la grande sœur et la petite sœur. Les enfants de mon frère ou de ma sœur sont mon neveu et ma nièce. Pour les grands-parents, nous sommes leurs petits-enfants, petits-fils et petites-filles."
           },
           {
@@ -3610,28 +3610,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. m.",
                 "def": "Homme qui a un ou plusieurs enfants. Mot affectueux : papa.",
                 "example": "Mon père s'appelle Thomas, et je l'appelle souvent papa.",
-                "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/pere.jpg"
               },
               {
                 "word": "La mère (maman)",
                 "type": "n. f.",
                 "def": "Femme qui a donné naissance ou élève un enfant. Mot affectueux : maman.",
                 "example": "Ma mère prépare le dîner avec maman et toute la famille.",
-                "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/mere.jpg"
               },
               {
                 "word": "Les parents",
                 "type": "n. m. pl.",
                 "def": "Le père et la mère réunis au sein de la famille.",
                 "example": "Mes parents travaillent tous les deux dans le centre de Lyon.",
-                "imageUrl": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/parents.jpg"
               },
               {
                 "word": "Le mari et la femme",
                 "type": "loc. nom.",
                 "def": "Deux personnes unies par le mariage (les époux).",
                 "example": "Marc est le mari de Sophie, et Sophie est sa femme.",
-                "imageUrl": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/mari_femme.jpg"
               }
             ]
           },
@@ -3650,28 +3650,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. m.",
                 "def": "Le père du père ou de la mère. Nom affectueux courant : papi.",
                 "example": "Mon grand-père a 72 ans ; mon papi adore jardiner.",
-                "imageUrl": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/grand_pere.jpg"
               },
               {
                 "word": "La grand-mère (mamie)",
                 "type": "n. f.",
                 "def": "La mère du père ou de la mère. Nom affectueux courant : mamie.",
                 "example": "Ma grand-mère prépare d'excellents gâteaux ; merci mamie !",
-                "imageUrl": "https://images.unsplash.com/photo-1567057419565-4349c49d8a04?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/grand_mere.jpg"
               },
               {
                 "word": "Les grands-parents",
                 "type": "n. m. pl.",
                 "def": "Le grand-père et la grand-mère ensemble.",
                 "example": "Nous rendons visite à nos grands-parents chaque dimanche.",
-                "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/grands_parents.jpg"
               },
               {
                 "word": "Les petits-enfants",
                 "type": "n. m. pl.",
                 "def": "Les enfants des enfants (le petit-fils et la petite-fille).",
                 "example": "Papi et mamie ont quatre petits-enfants adorables.",
-                "imageUrl": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/petits_enfants.jpg"
               }
             ]
           },
@@ -3690,28 +3690,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. m.",
                 "def": "Le frère du père ou de la mère. En famille, on dit souvent tonton.",
                 "example": "Mon oncle Marc m'emmène au zoo ; c'est mon tonton préféré.",
-                "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/oncle.jpg"
               },
               {
                 "word": "La tante (tata)",
                 "type": "n. f.",
                 "def": "La sœur du père ou de la mère. En famille, on dit souvent tata.",
                 "example": "Ma tante Sophie habite à Nantes ; ma tata m'envoie des lettres.",
-                "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/tante.jpg"
               },
               {
                 "word": "Le neveu",
                 "type": "n. m.",
                 "def": "Le fils de son frère ou de sa sœur.",
                 "example": "Mon neveu Arthur a cinq ans et commence l'école.",
-                "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/neveu.jpg"
               },
               {
                 "word": "La nièce",
                 "type": "n. f.",
                 "def": "La fille de son frère ou de sa sœur.",
                 "example": "Ma nièce Chloé adore dessiner avec ses feutres de couleur.",
-                "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/niece.jpg"
               }
             ]
           },
@@ -3730,21 +3730,21 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. m.",
                 "def": "Garçon ou homme né des mêmes parents.",
                 "example": "J'ai un frère qui s'appelle Julien.",
-                "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/frere.jpg"
               },
               {
                 "word": "Le grand frère",
                 "type": "loc. nom. m.",
                 "def": "Frère plus âgé (le frère aîné).",
                 "example": "Mon grand frère a 22 ans et étudie à l'université.",
-                "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/grand_frere.jpg"
               },
               {
                 "word": "Le petit frère",
                 "type": "loc. nom. m.",
                 "def": "Frère plus jeune (le frère cadet).",
                 "example": "Mon petit frère a huit ans et joue au football au parc.",
-                "imageUrl": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?auto=format&fit=crop&w=600&q=80"
+                "imageUrl": "assets/vocab/petit_frere.jpg"
               },
               {
                 "word": "Les enfants",
@@ -3770,28 +3770,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "type": "n. f.",
                 "def": "Fille ou femme née des mêmes parents.",
                 "example": "Ma sœur joue très bien du piano.",
-                "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/soeur.jpg"
               },
               {
                 "word": "La grande sœur",
                 "type": "loc. nom. f.",
                 "def": "Sœur plus âgée (la sœur aînée).",
                 "example": "Ma grande sœur travaille comme infirmière à l'hôpital.",
-                "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/grande_soeur.jpg"
               },
               {
                 "word": "La petite sœur",
                 "type": "loc. nom. f.",
                 "def": "Sœur plus jeune (la sœur cadette).",
                 "example": "Ma petite sœur regarde des dessins animés le samedi matin.",
-                "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/vocab/petite_soeur.jpg"
               },
               {
                 "word": "La famille",
                 "type": "n. f.",
                 "def": "Ensemble des personnes unies par des liens de parenté ou d'alliance.",
                 "example": "Nous formons une famille très unie et chaleureuse.",
-                "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=400&q=80"
+                "imageUrl": "assets/scenes/reunion_famille_pastel.jpg"
               }
             ]
           },
@@ -3891,35 +3891,35 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch3_pere_papa",
                 "fr": "Le père (papa)",
                 "en": "Father (Dad)",
-                "jp": "父 / お父さん (chichi / otōsan)",
+                "jp": "父 / お父さん (ちち / おとうさん)",
                 "cn": "父亲 / 爸爸 (fùqīn / bàba)"
               },
               {
                 "id": "a1_ch3_mere_maman",
                 "fr": "La mère (maman)",
                 "en": "Mother (Mom)",
-                "jp": "母 / お母さん (haha / okāsan)",
+                "jp": "母 / お母さん (はは / おかあさん)",
                 "cn": "母亲 / 妈妈 (mǔqīn / māma)"
               },
               {
                 "id": "a1_ch3_parents",
                 "fr": "Les parents",
                 "en": "Parents",
-                "jp": "両親 (ryōshin)",
+                "jp": "両親 (りょうしん)",
                 "cn": "父母 / 家长 (fùmǔ)"
               },
               {
                 "id": "a1_ch3_grand_pere_papi",
                 "fr": "Le grand-père (papi)",
                 "en": "Grandfather (Grandpa)",
-                "jp": "祖父 / おじいちゃん (sofu / ojīchan)",
+                "jp": "祖父 / おじいちゃん (そふ / おじいちゃん)",
                 "cn": "祖父 / 爷爷 / 外公 (zǔfù / yéye)"
               },
               {
                 "id": "a1_ch3_grand_mere_mamie",
                 "fr": "La grand-mère (mamie)",
                 "en": "Grandmother (Grandma)",
-                "jp": "祖母 / おばあちゃん (sobo / obāchan)",
+                "jp": "祖母 / おばあちゃん (そぼ / おばあちゃん)",
                 "cn": "祖母 / 奶奶 / 外婆 (zǔmǔ / nǎinai)"
               }
             ]
@@ -3933,35 +3933,35 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch3_oncle_tonton",
                 "fr": "L'oncle (tonton)",
                 "en": "Uncle",
-                "jp": "叔父 / おじさん (oji / ojisan)",
+                "jp": "叔父 / おじさん (おじ / おじさん)",
                 "cn": "叔叔 / 舅舅 / 伯伯 (shūshu / jiùjiu)"
               },
               {
                 "id": "a1_ch3_tante_tata",
                 "fr": "La tante (tata)",
                 "en": "Aunt",
-                "jp": "叔母 / おばさん (oba / obasan)",
+                "jp": "叔母 / おばさん (おば / おばさん)",
                 "cn": "姑姑 / 阿姨 / 婶婶 (gūgu / āyí)"
               },
               {
                 "id": "a1_ch3_mari",
                 "fr": "Le mari (l'époux)",
                 "en": "Husband",
-                "jp": "夫 / 夫君 (otto / danna)",
+                "jp": "夫 / 夫君 (おっと / だんな)",
                 "cn": "丈夫 / 先生 (zhàngfu / xiānsheng)"
               },
               {
                 "id": "a1_ch3_femme",
                 "fr": "La femme (l'épouse)",
                 "en": "Wife",
-                "jp": "妻 / 奥さん (tsuma / okusan)",
+                "jp": "妻 / 奥さん (つま / おくさん)",
                 "cn": "妻子 / 太太 (qīzi / tàitai)"
               },
               {
                 "id": "a1_ch3_grands_parents",
                 "fr": "Les grands-parents",
                 "en": "Grandparents",
-                "jp": "祖父母 (sofubo)",
+                "jp": "祖父母 (そふぼ)",
                 "cn": "祖父母 (zǔfùmǔ)"
               }
             ]
@@ -3975,35 +3975,35 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch3_grand_frere",
                 "fr": "Le grand frère",
                 "en": "Older brother",
-                "jp": "兄 / お兄さん (ani / onīsan)",
+                "jp": "兄 / お兄さん (あに / おにいさん)",
                 "cn": "哥哥 (gēge)"
               },
               {
                 "id": "a1_ch3_petit_frere",
                 "fr": "Le petit frère",
                 "en": "Younger brother",
-                "jp": "弟 (otōto)",
+                "jp": "弟 (おとうと)",
                 "cn": "弟弟 (dìdi)"
               },
               {
                 "id": "a1_ch3_grande_soeur",
                 "fr": "La grande sœur",
                 "en": "Older sister",
-                "jp": "姉 / お姉さん (ane / onēsan)",
+                "jp": "姉 / お姉さん (あね / おねえさん)",
                 "cn": "姐姐 (jiějie)"
               },
               {
                 "id": "a1_ch3_petite_soeur",
                 "fr": "La petite sœur",
                 "en": "Younger sister",
-                "jp": "妹 (imōto)",
+                "jp": "妹 (いもうと)",
                 "cn": "妹妹 (mèimei)"
               },
               {
                 "id": "a1_ch3_famille",
                 "fr": "La famille",
                 "en": "Family",
-                "jp": "家族 (kazoku)",
+                "jp": "家族 (かぞく)",
                 "cn": "家庭 / 家人 (jiātíng)"
               }
             ]
@@ -4017,35 +4017,35 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch3_neveu",
                 "fr": "Le neveu",
                 "en": "Nephew",
-                "jp": "甥 (oi)",
+                "jp": "甥 (おい)",
                 "cn": "侄子 / 外甥 (zhízi / wàishēng)"
               },
               {
                 "id": "a1_ch3_niece",
                 "fr": "La nièce",
                 "en": "Niece",
-                "jp": "姪 (mei)",
+                "jp": "姪 (めい)",
                 "cn": "侄女 / 外甥女 (zhínǚ / wàishēngnǚ)"
               },
               {
                 "id": "a1_ch3_petit_fils",
                 "fr": "Le petit-fils",
                 "en": "Grandson",
-                "jp": "孫息子 / 孫 (mago-musuko)",
+                "jp": "孫息子 / 孫 (まごむすこ)",
                 "cn": "孙子 / 外孙 (sūnzi / wàisūn)"
               },
               {
                 "id": "a1_ch3_petite_fille",
                 "fr": "La petite-fille",
                 "en": "Granddaughter",
-                "jp": "孫娘 (mago-musume)",
+                "jp": "孫娘 (まごむすめ)",
                 "cn": "孙女 / 外孙女 (sūnnǚ / wàisūnnǚ)"
               },
               {
                 "id": "a1_ch3_enfants",
                 "fr": "Les enfants",
                 "en": "Children",
-                "jp": "子供たち (kodomo-tachi)",
+                "jp": "子供たち (こどもたち)",
                 "cn": "孩子们 (háizimen)"
               }
             ]
@@ -4212,28 +4212,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch6_matin",
                 "fr": "Le matin",
                 "en": "Morning",
-                "jp": "朝 / 午前 (asa / gozen)",
+                "jp": "朝 / 午前 (あさ / ごぜん)",
                 "cn": "早晨 / 上午 (zǎochen / shàngwǔ)"
               },
               {
                 "id": "a1_ch6_midi",
                 "fr": "Le midi",
                 "en": "Noon / Midday",
-                "jp": "正午 / お昼 (shōgo / ohiru)",
+                "jp": "正午 / お昼 (しょうご / おひる)",
                 "cn": "中午 (zhōngwǔ)"
               },
               {
                 "id": "a1_ch6_soir",
                 "fr": "Le soir",
                 "en": "Evening",
-                "jp": "夕方 / 晩 (yūgata / ban)",
+                "jp": "夕方 / 晩 (ゆうがた / ばん)",
                 "cn": "晚上 / 傍晚 (wǎnshang / bàngwǎn)"
               },
               {
                 "id": "a1_ch6_nuit",
                 "fr": "La nuit",
                 "en": "Night",
-                "jp": "夜 (yoru)",
+                "jp": "夜 (よる)",
                 "cn": "夜晚 (yèwǎn)"
               }
             ]
@@ -4400,28 +4400,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch7_salon",
                 "fr": "Le salon",
                 "en": "Living room",
-                "jp": "居間 / リビング (ima / ribingu)",
+                "jp": "居間 / リビング (いま / りびんぐ)",
                 "cn": "客厅 / 起居室 (kètīng)"
               },
               {
                 "id": "a1_ch7_cuisine",
                 "fr": "La cuisine",
                 "en": "Kitchen",
-                "jp": "台所 / キッチン (daidokoro / kitchin)",
+                "jp": "台所 / キッチン (だいどころ / きっちん)",
                 "cn": "厨房 (chúfáng)"
               },
               {
                 "id": "a1_ch7_chambre",
                 "fr": "La chambre",
                 "en": "Bedroom",
-                "jp": "寝室 / 部屋 (shinshitsu / heya)",
+                "jp": "寝室 / 部屋 (しんしつ / へや)",
                 "cn": "卧室 / 房间 (wòshì)"
               },
               {
                 "id": "a1_ch7_immeuble",
                 "fr": "L immeuble",
                 "en": "Building / Apartment block",
-                "jp": "建物 / マンション (tatemono / manshon)",
+                "jp": "建物 / マンション (たてもの / まんしょん)",
                 "cn": "大楼 / 公寓楼 (dàlóu)"
               }
             ]
@@ -4588,28 +4588,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_ch8_toutdroit",
                 "fr": "Tout droit",
                 "en": "Straight ahead",
-                "jp": "まっすぐ (massugu)",
+                "jp": "まっすぐ",
                 "cn": "一直走 / 笔直 (yīzhí zǒu)"
               },
               {
                 "id": "a1_ch8_gauche",
                 "fr": "À gauche",
                 "en": "On the left",
-                "jp": "左へ / 左側に (hidari e)",
+                "jp": "左へ / 左側に (ひだりへ / ひだりがわに)",
                 "cn": "向左 / 左边 (xiàng zuǒ)"
               },
               {
                 "id": "a1_ch8_droite",
                 "fr": "À droite",
                 "en": "On the right",
-                "jp": "右へ / 右側に (migi e)",
+                "jp": "右へ / 右側に (みぎへ / みぎがわに)",
                 "cn": "向右 / 右边 (xiàng yòu)"
               },
               {
                 "id": "a1_ch8_gare",
                 "fr": "La gare",
                 "en": "Station / Train station",
-                "jp": "駅 (eki)",
+                "jp": "駅 (えき)",
                 "cn": "火车站 (huǒchēzhàn)"
               }
             ]
@@ -4779,28 +4779,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_professeur",
                 "fr": "Le professeur",
                 "en": "Teacher / Professor",
-                "jp": "教師 / 教授 (kyoushi / kyouju)",
+                "jp": "教師 / 教授 (きょうし / きょうじゅ)",
                 "cn": "教师 / 教授 (jiàoshī / jiàoshòu)"
               },
               {
                 "id": "a1_c7_medecin",
                 "fr": "Le médecin",
                 "en": "Doctor / Physician",
-                "jp": "医師 / 医者 (ishi / isha)",
+                "jp": "医師 / 医者 (いし / いしゃ)",
                 "cn": "医生 (yīshēng)"
               },
               {
                 "id": "a1_c7_pharmacien",
                 "fr": "Le pharmacien",
                 "en": "Pharmacist",
-                "jp": "薬剤師 (yakuzaishi)",
+                "jp": "薬剤師 (やくざいし)",
                 "cn": "药剂师 (yàojìshī)"
               },
               {
                 "id": "a1_c7_instituteur",
                 "fr": "L instituteur",
                 "en": "Primary school teacher",
-                "jp": "小学校教諭 (shougakkou kyouyu)",
+                "jp": "小学校教諭 (しょうがっこうきょうゆ)",
                 "cn": "小学教师 (xiǎoxué jiàoshī)"
               }
             ]
@@ -5003,28 +5003,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_chirurgien",
                 "fr": "Le chirurgien",
                 "en": "Surgeon",
-                "jp": "外科医 (gekai)",
+                "jp": "外科医 (げかい)",
                 "cn": "外科医生 (wàikē yīshēng)"
               },
               {
                 "id": "a1_c7_dentiste",
                 "fr": "Le dentiste",
                 "en": "Dentist",
-                "jp": "歯科医 (shikai)",
+                "jp": "歯科医 (しかい)",
                 "cn": "牙医 (yáyī)"
               },
               {
                 "id": "a1_c7_osteo",
                 "fr": "L ostéopathe",
                 "en": "Osteopath",
-                "jp": "オステオパシー施術師 (osuteopashii)",
+                "jp": "オステオパシー施術師 (おすておぱしーせじゅつし)",
                 "cn": "整骨师 / 骨科理疗师 (zhěnggǔshī)"
               },
               {
                 "id": "a1_c7_ambulancier",
                 "fr": "L ambulancier",
                 "en": "Ambulance driver / Paramedic",
-                "jp": "救急隊員 (kyuukyuu tai-in)",
+                "jp": "救急隊員 (きゅうきゅうたいいん)",
                 "cn": "急救员 / 救护车司机 (jíjiùyuán)"
               }
             ]
@@ -5190,28 +5190,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_ingenieur",
                 "fr": "L ingénieur",
                 "en": "Engineer",
-                "jp": "エンジニア / 技師 (enjinia / gishi)",
+                "jp": "エンジニア / 技師 (えんじにあ / ぎし)",
                 "cn": "工程师 (gōngchéngshī)"
               },
               {
                 "id": "a1_c7_architecte",
                 "fr": "L architecte",
                 "en": "Architect",
-                "jp": "建築家 (kenchikuka)",
+                "jp": "建築家 (けんちくか)",
                 "cn": "建筑师 (jiànzhùshī)"
               },
               {
                 "id": "a1_c7_chercheur",
                 "fr": "Le chercheur",
                 "en": "Researcher",
-                "jp": "研究者 (kenkyuusha)",
+                "jp": "研究者 (けんきゅうしゃ)",
                 "cn": "研究员 (yánjiūyuán)"
               },
               {
                 "id": "a1_c7_scientifique",
                 "fr": "Le scientifique",
                 "en": "Scientist",
-                "jp": "科学者 (kagakusha)",
+                "jp": "科学者 (かがくしゃ)",
                 "cn": "科学家 (kēxuéjiā)"
               }
             ]
@@ -5377,28 +5377,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_comptable",
                 "fr": "Le comptable",
                 "en": "Accountant",
-                "jp": "会計士 (kaikeishi)",
+                "jp": "会計士 (かいけいし)",
                 "cn": "会计师 (kuàijìshī)"
               },
               {
                 "id": "a1_c7_avocat",
                 "fr": "L avocat",
                 "en": "Lawyer / Attorney",
-                "jp": "弁護士 (bengoshi)",
+                "jp": "弁護士 (べんごし)",
                 "cn": "律师 (lǜshī)"
               },
               {
                 "id": "a1_c7_notaire",
                 "fr": "Le notaire",
                 "en": "Notary",
-                "jp": "公証人 (koushounin)",
+                "jp": "公証人 (こうしょうにん)",
                 "cn": "公证人 (gōngzhèngrén)"
               },
               {
                 "id": "a1_c7_employe",
                 "fr": "L employé",
                 "en": "Employee / Office worker",
-                "jp": "会社員 / 従業員 (kaishain / juugyouin)",
+                "jp": "会社員 / 従業員 (かいしゃいん / じゅうぎょういん)",
                 "cn": "职员 / 员工 (zhíyuán / yuángōng)"
               }
             ]
@@ -5564,28 +5564,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_vendeur",
                 "fr": "Le vendeur",
                 "en": "Salesperson / Shop assistant",
-                "jp": "店員 / 販売員 (ten-in / hanbai-in)",
+                "jp": "店員 / 販売員 (てんいん / はんばいいん)",
                 "cn": "售货员 / 销售员 (shòuhuòyuán)"
               },
               {
                 "id": "a1_c7_commercial",
                 "fr": "Le commercial",
                 "en": "Sales representative",
-                "jp": "営業担当者 (eigyou tantousha)",
+                "jp": "営業担当者 (えいぎょうたんとうしゃ)",
                 "cn": "业务员 / 销售代表 (yèwùyuán)"
               },
               {
                 "id": "a1_c7_epicier",
                 "fr": "L épicier",
                 "en": "Grocer",
-                "jp": "食料品店主 (shokuryouhin-tenshu)",
+                "jp": "食料品店主 (しょくりょうひんてんしゅ)",
                 "cn": "杂货店主 (záhuòdiàn zhǔ)"
               },
               {
                 "id": "a1_c7_maraicher",
                 "fr": "Le maraîcher",
                 "en": "Market gardener",
-                "jp": "野菜農家 / 青果商 (yasai nouka)",
+                "jp": "野菜農家 / 青果商 (やさいのうか / せいかしょう)",
                 "cn": "菜农 (càinóng)"
               }
             ]
@@ -5751,28 +5751,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_boulanger",
                 "fr": "Le boulanger",
                 "en": "Baker",
-                "jp": "パン職人 / パン屋 (pan-shokunin)",
+                "jp": "パン職人 / パン屋 (ぱんしょくにん / ぱんや)",
                 "cn": "面包师 (miànbāoshī)"
               },
               {
                 "id": "a1_c7_patissier",
                 "fr": "Le pâtissier",
                 "en": "Pastry chef",
-                "jp": "パティシエ / 菓子職人 (patishie)",
+                "jp": "パティシエ / 菓子職人 (ぱてぃしえ / かししょくにん)",
                 "cn": "西点师 / 糕点师 (gāodiǎnshī)"
               },
               {
                 "id": "a1_c7_charcutier",
                 "fr": "Le charcutier",
                 "en": "Pork butcher / Delicatessen maker",
-                "jp": "シャルキュトリー職人 (sharukyutorii)",
+                "jp": "シャルキュトリー職人 (しゃるきゅとりーしょくにん)",
                 "cn": "熟食肉贩 (shúshí ròufàn)"
               },
               {
                 "id": "a1_c7_cuisinier",
                 "fr": "Le cuisinier",
                 "en": "Cook / Chef",
-                "jp": "料理人 / コック (ryourinin)",
+                "jp": "料理人 / コック (りょうりにん / こっく)",
                 "cn": "厨师 (chúshī)"
               }
             ]
@@ -5929,28 +5929,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_electricien",
                 "fr": "L électricien",
                 "en": "Electrician",
-                "jp": "電気技師 (denki gishi)",
+                "jp": "電気技師 (でんきぎし)",
                 "cn": "电工 (diàngōng)"
               },
               {
                 "id": "a1_c7_plombier",
                 "fr": "Le plombier",
                 "en": "Plumber",
-                "jp": "配管工 (haikankou)",
+                "jp": "配管工 (はいかんこう)",
                 "cn": "水暖工 / 水管工 (shuǐguǎngōng)"
               },
               {
                 "id": "a1_c7_chauffagiste",
                 "fr": "Le chauffagiste",
                 "en": "Heating engineer",
-                "jp": "暖房技術者 (danbou gijutsusha)",
+                "jp": "暖房技術者 (だんぼうぎじゅつしゃ)",
                 "cn": "暖通工程师 (nuǎntōng gōngchéngshī)"
               },
               {
                 "id": "a1_c7_serrurier",
                 "fr": "Le serrurier",
                 "en": "Locksmith",
-                "jp": "錠前屋 (joumaeya)",
+                "jp": "錠前屋 (じょうまえや)",
                 "cn": "锁匠 (suǒjiàng)"
               }
             ]
@@ -6124,28 +6124,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_sculpteur",
                 "fr": "Le sculpteur",
                 "en": "Sculptor",
-                "jp": "彫刻家 (choukoku-ka)",
+                "jp": "彫刻家 (ちょうこくか)",
                 "cn": "雕塑家 (diāosùjiā)"
               },
               {
                 "id": "a1_c7_chanteur",
                 "fr": "Le chanteur",
                 "en": "Singer",
-                "jp": "歌手 (kashu)",
+                "jp": "歌手 (かしゅ)",
                 "cn": "歌手 (gēshǒu)"
               },
               {
                 "id": "a1_c7_musicien",
                 "fr": "Le musicien",
                 "en": "Musician",
-                "jp": "音楽家 / ミュージシャン (ongakuka)",
+                "jp": "音楽家 / ミュージシャン (おんがくか / みゅーじしゃん)",
                 "cn": "音乐家 (yīnyuèjiā)"
               },
               {
                 "id": "a1_c7_decorateur",
                 "fr": "Le décorateur",
                 "en": "Decorator / Interior designer",
-                "jp": "装飾家 / インテリアデザイナー (soushoku-ka)",
+                "jp": "装飾家 / インテリアデザイナー (そうしょくか / いんてりあでざいなー)",
                 "cn": "装饰设计师 (zhuāngshì shèjìshī)"
               }
             ]
@@ -6318,28 +6318,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_pompier",
                 "fr": "Le pompier",
                 "en": "Firefighter",
-                "jp": "消防士 (shouboushi)",
+                "jp": "消防士 (しょうぼうし)",
                 "cn": "消防员 (xiāofángyuán)"
               },
               {
                 "id": "a1_c7_gendarme",
                 "fr": "Le gendarme",
                 "en": "Gendarme / Police officer",
-                "jp": "国家憲兵 (kokka kenpei)",
+                "jp": "国家憲兵 (こっかけんぺい)",
                 "cn": "宪兵 (xiànbīng)"
               },
               {
                 "id": "a1_c7_postier",
                 "fr": "Le postier",
                 "en": "Mail carrier / Postal worker",
-                "jp": "郵便配達員 (yuubin haitetsuin)",
+                "jp": "郵便配達員 (ゆうびんはいたついん)",
                 "cn": "邮递员 (yóudìyuán)"
               },
               {
                 "id": "a1_c7_jardinier",
                 "fr": "Le jardinier",
                 "en": "Gardener",
-                "jp": "庭師 / 園芸家 (niwashi)",
+                "jp": "庭師 / 園芸家 (にわし / えんげいか)",
                 "cn": "园丁 (yuándīng)"
               }
             ]
@@ -6473,28 +6473,28 @@ if (window.parcours_A1_Dataset.length === 0) {
                 "id": "a1_c7_travailler",
                 "fr": "Travailler",
                 "en": "To work",
-                "jp": "働く (hataraku)",
+                "jp": "働く (はたらく)",
                 "cn": "工作 (gōngzuò)"
               },
               {
                 "id": "a1_c7_bureau",
                 "fr": "Le bureau",
                 "en": "Office / Desk",
-                "jp": "オフィス / 机 (ofisu / tsukue)",
+                "jp": "オフィス / 机 (おふぃす / つくえ)",
                 "cn": "办公室 / 办公桌 (bàngōngshì)"
               },
               {
                 "id": "a1_c7_collegue",
                 "fr": "Le collègue",
                 "en": "Colleague / Coworker",
-                "jp": "同僚 (douryou)",
+                "jp": "同僚 (どうりょう)",
                 "cn": "同事 (tóngshì)"
               },
               {
                 "id": "a1_c7_horaires",
                 "fr": "Les horaires",
                 "en": "Working hours / Schedule",
-                "jp": "勤務時間 (kinmu jikan)",
+                "jp": "勤務時間 (きんむじかん)",
                 "cn": "工作时间 (gōngzuò shíjiān)"
               }
             ]
@@ -6506,63 +6506,216 @@ if (window.parcours_A1_Dataset.length === 0) {
   {
     "chapterId": "chap_8",
     "chapterNumber": 8,
-    "chapterTitle": "untitled",
-    "chapterSubtitle": "untitled",
+    "chapterTitle": "Chapitre 8 : Alimentation et commerces",
+    "chapterSubtitle": "食事と買い物 — 饮食与购物",
     "level": "A1",
     "year": 1,
-    "icon": "help_outline",
+    "icon": "restaurant",
     "color": "#2E7D32",
+    "grammarLessonId": "a1-articles",
     "quests": [
       {
         "id": "quest_ch_8",
-        "title": "untitled",
+        "title": "Module 1 : Faire les courses au marché & Commander au restaurant",
         "level": "A1",
-        "icon": "help_outline",
-        "xp": 0,
-        "description": "",
-        "steps": []
+        "icon": "shopping_cart",
+        "xp": 80,
+        "description": "Apprendre à nommer les aliments du quotidien, commander chez les commerçants et exprimer les quantités en français.",
+        "steps": [
+          {
+            "type": "vocab_drill",
+            "title": "1. Vocabulaire Fondamental : Les Aliments et Commerces",
+            "words": [
+              "Le pain",
+              "La baguette",
+              "Le fromage",
+              "La pomme"
+            ],
+            "details": [
+              {
+                "word": "Le pain",
+                "type": "n. m.",
+                "def": "Aliment de base fait de farine, d'eau et de levure cuit au four.",
+                "example": "Le matin, j'achète du pain frais pour le petit-déjeuner."
+              },
+              {
+                "word": "La baguette",
+                "type": "n. f.",
+                "def": "Pain français traditionnel long et mince à croûte croustillante.",
+                "example": "Une baguette bien cuite, s'il vous plaît !"
+              },
+              {
+                "word": "Le fromage",
+                "type": "n. m.",
+                "def": "Aliment produit à partir de lait caillé (camembert, comté, chèvre).",
+                "example": "En France, on mange souvent du fromage avant le dessert."
+              },
+              {
+                "word": "La pomme",
+                "type": "n. f.",
+                "def": "Fruit rond à peau verte, jaune ou rouge et à chair croquante.",
+                "example": "Je voudrais un kilo de pommes rouges, s'il vous plaît."
+              }
+            ]
+          },
+          {
+            "type": "quiz_drill",
+            "title": "2. Défi de Communication : Chez le commerçant",
+            "question": "Chez le primeur, comment demandez-vous poliment une quantité précise de fruits ?",
+            "options": [
+              "« Bonjour, je voudrais un kilo de tomates et une livre de fraises, s'il vous plaît. »",
+              "« Donne-moi des tomates tout de suite. »",
+              "« Je veux un kilo des tomates et de les fraises. »",
+              "« Moi vouloir acheter beaucoup tomate aujourd'hui. »"
+            ],
+            "correctIndex": 0,
+            "explanation": "Pour commander poliment en français : formule de salutation (« Bonjour ») + conditionnel de politesse (« je voudrais ») + quantité avec « de » (« un kilo de tomates ») + formule de politesse (« s'il vous plaît »)."
+          }
+        ]
       }
     ]
   },
   {
     "chapterId": "chap_9",
     "chapterNumber": 9,
-    "chapterTitle": "untitled",
-    "chapterSubtitle": "untitled",
+    "chapterTitle": "Chapitre 9 : Loisirs, sports et météo",
+    "chapterSubtitle": "余暇・スポーツ・天気 — 休闲、运动与天气",
     "level": "A1",
     "year": 1,
-    "icon": "help_outline",
+    "icon": "sports_soccer",
     "color": "#2E7D32",
+    "grammarLessonId": "a1-present-indicatif",
     "quests": [
       {
         "id": "quest_ch_9",
-        "title": "untitled",
+        "title": "Module 1 : Parler de ses passions & Décrire le temps qu'il fait",
         "level": "A1",
-        "icon": "help_outline",
-        "xp": 0,
-        "description": "",
-        "steps": []
+        "icon": "sports_tennis",
+        "xp": 80,
+        "description": "Apprendre à exprimer ses loisirs favoris, parler des activités sportives avec faire et jouer, et faire un point météo simple.",
+        "steps": [
+          {
+            "type": "vocab_drill",
+            "title": "1. Vocabulaire Fondamental : Loisirs et Sports",
+            "words": [
+              "Le football",
+              "La natation",
+              "La musique",
+              "Le soleil"
+            ],
+            "details": [
+              {
+                "word": "Le football",
+                "type": "n. m.",
+                "def": "Sport collectif opposant deux équipes de onze joueurs autour d'un ballon rond.",
+                "example": "Le samedi après-midi, je joue au football avec mes amis."
+              },
+              {
+                "word": "La natation",
+                "type": "n. f.",
+                "def": "Activité sportive consistente à nager dans l'eau.",
+                "example": "Elle fait de la natation à la piscine municipale deux fois par semaine."
+              },
+              {
+                "word": "La musique",
+                "type": "n. f.",
+                "def": "Art de combiner les sons de manière harmonieuse ; morceaux musicaux.",
+                "example": "J'aime écouter de la musique française dans les transports."
+              },
+              {
+                "word": "Le soleil",
+                "type": "n. m.",
+                "def": "Astre lumineux dispensant lumière et chaleur ; temps ensoleillé.",
+                "example": "Aujourd'hui, il y a du soleil et il fait très doux."
+              }
+            ]
+          },
+          {
+            "type": "quiz_drill",
+            "title": "2. Défi de Communication : Parler de ses activités du week-end",
+            "question": "Comment décrivez-vous correctement vos activités du samedi matin ?",
+            "options": [
+              "« Le samedi matin, quand il fait beau, je fais du vélo dans le parc. »",
+              "« Le samedi matin, quand il a beau, je joue le vélo avec le parc. »",
+              "« Le samedi matin, je suis faisant le vélo car temps bon. »",
+              "« Le samedi matin, il est pleuvant donc je faire pas de vélo. »"
+            ],
+            "correctIndex": 0,
+            "explanation": "« Quand il fait beau » (tournure impersonnelle correcte) + « je fais du vélo » (faire du + nom masculin de sport) est la phrase grammaticalement et communicativement exacte au niveau A1."
+          }
+        ]
       }
     ]
   },
   {
     "chapterId": "chap_10",
     "chapterNumber": 10,
-    "chapterTitle": "untitled",
-    "chapterSubtitle": "untitled",
+    "chapterTitle": "Chapitre 10 : Vacances, voyages et bilan A1",
+    "chapterSubtitle": "休暇・旅行・A1総まとめ — 假期、旅行与A1总结",
     "level": "A1",
     "year": 1,
-    "icon": "help_outline",
+    "icon": "flight_takeoff",
     "color": "#2E7D32",
+    "grammarLessonId": "a1-passe-compose",
     "quests": [
       {
         "id": "quest_ch_10",
-        "title": "untitled",
+        "title": "Module 1 : Raconter ses vacances & Préparer son séjour",
         "level": "A1",
-        "icon": "help_outline",
-        "xp": 0,
-        "description": "",
-        "steps": []
+        "icon": "beach_access",
+        "xp": 90,
+        "description": "Mobiliser les acquis du niveau A1 pour raconter un séjour passé au passé composé, réserver un billet et clore le premier palier.",
+        "steps": [
+          {
+            "type": "vocab_drill",
+            "title": "1. Vocabulaire Fondamental : Vacances et Voyages",
+            "words": [
+              "La plage",
+              "La valise",
+              "Le train",
+              "L'hôtel"
+            ],
+            "details": [
+              {
+                "word": "La plage",
+                "type": "n. f.",
+                "def": "Étendue de sable ou de galets en bord de mer où l'on se baigne.",
+                "example": "L'été, nous passons nos après-midis à la plage sous le parasol."
+              },
+              {
+                "word": "La valise",
+                "type": "n. f.",
+                "def": "Grand bagage rigide ou souple servant à transporter ses effets en voyage.",
+                "example": "J'ai préparé ma valise hier soir avant de prendre le train."
+              },
+              {
+                "word": "Le train",
+                "type": "n. m.",
+                "def": "Moyen de transport ferroviaire rapide reliant les villes.",
+                "example": "Nous prenons le TGV pour aller de Paris à Marseille."
+              },
+              {
+                "word": "L'hôtel",
+                "type": "n. m.",
+                "def": "Établissement commercial proposant des chambres meublées aux voyageurs.",
+                "example": "Nous avons réservé deux nuits dans un hôtel près du port."
+              }
+            ]
+          },
+          {
+            "type": "quiz_drill",
+            "title": "2. Défi de Communication : Témoignage de vacances",
+            "question": "Quelle phrase permet de raconter vos dernières vacances de manière fluide et correcte au niveau A1 ?",
+            "options": [
+              "« L'année dernière, je suis allé en Bretagne, j'ai mangé des crêpes et j'ai adoré les paysages. »",
+              "« L'année dernière, j'ai allé en Bretagne et je mangeais des crêpes hier. »",
+              "« L'année dernière, je suis été en Bretagne et j'ai fait aimer la région. »",
+              "« L'année dernière, moi partir Bretagne et trouver bon la plage. »"
+            ],
+            "correctIndex": 0,
+            "explanation": "« Je suis allé » (aller avec l'auxiliaire être) + « j'ai mangé » (manger avec avoir) + « j'ai adoré » (adorer avec avoir) forme une narration au passé composée parfaite pour l'évaluation A1."
+          }
+        ]
       }
     ]
   }

@@ -155,28 +155,28 @@ window.parcours_A1_C5_Dataset = {
               "id": "a1_ch7_salon",
               "fr": "Le salon",
               "en": "Living room",
-              "jp": "居間 / リビング (ima / ribingu)",
+              "jp": "居間 / リビング (いま / りびんぐ)",
               "cn": "客厅 / 起居室 (kètīng)"
             },
             {
               "id": "a1_ch7_cuisine",
               "fr": "La cuisine",
               "en": "Kitchen",
-              "jp": "台所 / キッチン (daidokoro / kitchin)",
+              "jp": "台所 / キッチン (だいどころ / きっちん)",
               "cn": "厨房 (chúfáng)"
             },
             {
               "id": "a1_ch7_chambre",
               "fr": "La chambre",
               "en": "Bedroom",
-              "jp": "寝室 / 部屋 (shinshitsu / heya)",
+              "jp": "寝室 / 部屋 (しんしつ / へや)",
               "cn": "卧室 / 房间 (wòshì)"
             },
             {
               "id": "a1_ch7_immeuble",
               "fr": "L immeuble",
               "en": "Building / Apartment block",
-              "jp": "建物 / マンション (tatemono / manshon)",
+              "jp": "建物 / マンション (たてもの / まんしょん)",
               "cn": "大楼 / 公寓楼 (dàlóu)"
             }
           ]

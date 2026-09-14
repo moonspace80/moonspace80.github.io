@@ -29,27 +29,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Postulat",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pensée critique et épistémologie » au niveau C1.",
-                "example": "Dans l'analyse de « Pensée critique et épistémologie », la notion de « postulat » est centrale."
+                "type": "n. m.",
+                "def": "Proposition indémontrable posée comme base indispensable d'une théorie ou démonstration.",
+                "example": "Toute sa démonstration s'effondre si l'on réfute son postulat de départ sur la neutralité des algorithmes."
               },
               {
                 "word": "Paradigme",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pensée critique et épistémologie » au niveau C1.",
-                "example": "Dans l'analyse de « Pensée critique et épistémologie », la notion de « paradigme » est centrale."
+                "type": "n. m.",
+                "def": "Cadre conceptuel dominant ou modèle de pensée régissant une discipline scientifique.",
+                "example": "Le passage à l'économie circulaire impose un véritable changement de paradigme industriel."
               },
               {
                 "word": "Biais",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pensée critique et épistémologie » au niveau C1.",
-                "example": "Dans l'analyse de « Pensée critique et épistémologie », la notion de « biais » est centrale."
+                "type": "n. m.",
+                "def": "Distorsion systématique du jugement affectant la collecte ou l'analyse des données.",
+                "example": "Les chercheurs ont identifié un biais de confirmation majeur dans les conclusions de l'enquête."
               },
               {
                 "word": "Hypothèse",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pensée critique et épistémologie » au niveau C1.",
-                "example": "Dans l'analyse de « Pensée critique et épistémologie », la notion de « hypothèse » est centrale."
+                "type": "n. f.",
+                "def": "Proposition admise provisoirement et destinée à être soumise à une vérification empirique.",
+                "example": "L'hypothèse d'une corrélation directe entre précarité et décrochage scolaire a été confirmée."
               }
             ]
           },
@@ -82,7 +82,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q5"
+    "grammarLessonId": "c1-inversion-stylistique-structures"
   },
   {
     "chapterId": "chap_68",
@@ -114,27 +114,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Institution",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Institutions et action publique » au niveau C1.",
-                "example": "Dans l'analyse de « Institutions et action publique », la notion de « institution » est centrale."
+                "type": "n. f.",
+                "def": "Structure sociale ou juridique établie par la loi pour régir la vie collective et garantir l'intérêt général.",
+                "example": "La solidité d'une démocratie se mesure à l'indépendance de ses institutions judiciaires."
               },
               {
                 "word": "Gouvernance",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Institutions et action publique » au niveau C1.",
-                "example": "Dans l'analyse de « Institutions et action publique », la notion de « gouvernance » est centrale."
+                "type": "n. f.",
+                "def": "Système de pilotage articulant règles, concertation et responsabilités entre acteurs publics et privés.",
+                "example": "La crise sanitaire a mis en relief la nécessité d'une gouvernance sanitaire plus réactive."
               },
               {
                 "word": "Législation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Institutions et action publique » au niveau C1.",
-                "example": "Dans l'analyse de « Institutions et action publique », la notion de « législation » est centrale."
+                "type": "n. f.",
+                "def": "Ensemble des textes de lois et réglementations applicables au sein d'un ordre juridique donné.",
+                "example": "La législation relative à la bioéthique a été révisée pour intégrer les innovations génomiques."
               },
               {
                 "word": "Service public",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Institutions et action publique » au niveau C1.",
-                "example": "Dans l'analyse de « Institutions et action publique », la notion de « service public » est centrale."
+                "type": "n. m.",
+                "def": "Activité d'intérêt général organisée ou contrôlée par l'autorité publique pour répondre aux besoins collectifs.",
+                "example": "La continuité et l'accessibilité du service public sont des principes républicains cardinaux."
               }
             ]
           },
@@ -167,7 +167,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q6"
+    "grammarLessonId": "c1-ne-expletif"
   },
   {
     "chapterId": "chap_69",
@@ -199,27 +199,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Redistribution",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie, inégalités et travail » au niveau C1.",
-                "example": "Dans l'analyse de « Économie, inégalités et travail », la notion de « redistribution » est centrale."
+                "type": "n. f.",
+                "def": "Mécanisme fiscal et social opérant des transferts monétaires pour atténuer les disparités de revenus.",
+                "example": "Le modèle social français accorde une place centrale à la redistribution horizontale et verticale."
               },
               {
                 "word": "Croissance",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie, inégalités et travail » au niveau C1.",
-                "example": "Dans l'analyse de « Économie, inégalités et travail », la notion de « croissance » est centrale."
+                "type": "n. f.",
+                "def": "Augmentation durable de la production globale de biens et de services au sein d'une économie.",
+                "example": "Les indicateurs de bien-être tentent d'évaluer le développement humain au-delà de la seule croissance marchande."
               },
               {
                 "word": "Inflation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie, inégalités et travail » au niveau C1.",
-                "example": "Dans l'analyse de « Économie, inégalités et travail », la notion de « inflation » est centrale."
+                "type": "n. f.",
+                "def": "Hausse continue et auto-entretenue du niveau général des prix amputant le pouvoir d'achat.",
+                "example": "La hausse des cours des matières premières a alimenté une poussée d'inflation importée."
               },
               {
                 "word": "Chômage",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie, inégalités et travail » au niveau C1.",
-                "example": "Dans l'analyse de « Économie, inégalités et travail », la notion de « chômage » est centrale."
+                "type": "n. m.",
+                "def": "Inactivité forcée d'une fraction de la population active disponible et désireuse de travailler.",
+                "example": "La transition écologique appelle des politiques actives de reconversion contre le chômage sectoriel."
               }
             ]
           },
@@ -252,7 +252,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-demonstratifs-possessifs"
+    "grammarLessonId": "c1-nominalisation-journalistique"
   },
   {
     "chapterId": "chap_70",
@@ -314,7 +314,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-8-q1"
+    "grammarLessonId": "c1-subtilites-prepositions-transitivite"
   },
   {
     "chapterId": "chap_71",
@@ -399,7 +399,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-8-q2"
+    "grammarLessonId": "c1-emplois-stylistiques-temps-narratifs"
   },
   {
     "chapterId": "chap_72",
@@ -431,27 +431,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Résilience",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Écologie systémique » au niveau C1.",
-                "example": "Dans l'analyse de « Écologie systémique », la notion de « résilience » est centrale."
+                "type": "n. f.",
+                "def": "Capacité d'un écosystème ou d'un système socio-économique à absorber un choc et à recouvrer son équilibre.",
+                "example": "La diversification des cultures renforce la résilience des exploitations face aux épisodes de sécheresse."
               },
               {
                 "word": "Adaptation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Écologie systémique » au niveau C1.",
-                "example": "Dans l'analyse de « Écologie systémique », la notion de « adaptation » est centrale."
+                "type": "n. f.",
+                "def": "Ajustement structurel d'une société ou d'un milieu naturel en réponse aux dérèglements climatiques effectifs.",
+                "example": "Les métropoles côtières élaborent des plans ambitieux d'adaptation face à la montée du niveau marin."
               },
               {
                 "word": "Atténuation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Écologie systémique » au niveau C1.",
-                "example": "Dans l'analyse de « Écologie systémique », la notion de « atténuation » est centrale."
+                "type": "n. f.",
+                "def": "Ensemble des mesures visant à réduire à la source les émissions de gaz à effet de serre.",
+                "example": "L'atténuation des rejets industriels de carbone conditionne le respect des objectifs de l'Accord de Paris."
               },
               {
                 "word": "Externalité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Écologie systémique » au niveau C1.",
-                "example": "Dans l'analyse de « Écologie systémique », la notion de « externalité » est centrale."
+                "type": "n. f.",
+                "def": "Conséquence involontaire de l'activité économique d'un agent sur le bien-être d'autrui sans compensation monétaire.",
+                "example": "Le principe pollueur-payeur vise à internaliser les externalités environnementales négatives."
               }
             ]
           },
@@ -484,7 +484,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q6"
+    "grammarLessonId": "c1-subjonctif-imparfait-plus-que-parfait"
   },
   {
     "chapterId": "chap_73",
@@ -516,27 +516,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Éditorial",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médias, récit et opinion publique » au niveau C1.",
-                "example": "Dans l'analyse de « Médias, récit et opinion publique », la notion de « éditorial » est centrale."
+                "type": "n. m.",
+                "def": "Article de presse émanant de la rédaction en chef qui expose la ligne politique ou philosophique d'un journal.",
+                "example": "L'éditorial du Monde déconstruit avec rigueur les dérives populistes contemporaines."
               },
               {
                 "word": "Cadrage",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médias, récit et opinion publique » au niveau C1.",
-                "example": "Dans l'analyse de « Médias, récit et opinion publique », la notion de « cadrage » est centrale."
+                "type": "n. m.",
+                "def": "Angle journalistique ou médiatique sélectionné pour présenter une information, orientant l'interprétation du public.",
+                "example": "Le cadrage de ce reportage braque les projecteurs sur la précarité étudiante."
               },
               {
                 "word": "Narratif",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médias, récit et opinion publique » au niveau C1.",
-                "example": "Dans l'analyse de « Médias, récit et opinion publique », la notion de « narratif » est centrale."
+                "type": "n. m.",
+                "def": "Structure de récit politique ou sociétal construite pour donner du sens à des faits et mobiliser l'adhésion collective.",
+                "example": "Les communicants élaborent un contre-narratif puissant pour endiguer la désinformation."
               },
               {
                 "word": "Réception",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médias, récit et opinion publique » au niveau C1.",
-                "example": "Dans l'analyse de « Médias, récit et opinion publique », la notion de « réception » est centrale."
+                "type": "n. f.",
+                "def": "Manière dont un message médiatique ou une œuvre est perçu, décodé et réapproprié par le public selon son horizon d'attente.",
+                "example": "La réception critique de ce documentaire a suscité d'intenses controverses sociologiques."
               }
             ]
           },
@@ -569,7 +569,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-prepositions-lieu"
+    "grammarLessonId": "c1-passe-anterieur-temps-surcomposes"
   },
   {
     "chapterId": "chap_74",
@@ -654,7 +654,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q1"
+    "grammarLessonId": "c1-typographie-regles-espaces"
   },
   {
     "chapterId": "chap_75",
@@ -739,7 +739,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q2"
+    "grammarLessonId": "c1-majuscules-institutions-nationalites"
   },
   {
     "chapterId": "chap_76",
@@ -771,27 +771,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Ségrégation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Ville, logement et cohésion sociale » au niveau C1.",
-                "example": "Dans l'analyse de « Ville, logement et cohésion sociale », la notion de « ségrégation » est centrale."
+                "type": "n. f.",
+                "def": "Séparation spatiale et sociale de populations selon l'origine ethnique, le niveau de revenu ou la classe sociale.",
+                "example": "La ségrégation spatiale dans les banlieues aggrave les fractures républicaines."
               },
               {
                 "word": "Mixité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Ville, logement et cohésion sociale » au niveau C1.",
-                "example": "Dans l'analyse de « Ville, logement et cohésion sociale », la notion de « mixité » est centrale."
+                "type": "n. f.",
+                "def": "Cohabitation harmonieuse de groupes sociaux, générationnels ou culturels hétérogènes au sein d'un même quartier.",
+                "example": "Les politiques d'urbanisme promeuvent la mixité sociale via les quotas de logements conventionnés."
               },
               {
                 "word": "Densification",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Ville, logement et cohésion sociale » au niveau C1.",
-                "example": "Dans l'analyse de « Ville, logement et cohésion sociale », la notion de « densification » est centrale."
+                "type": "n. f.",
+                "def": "Augmentation concertée du nombre d'habitants ou de logements par unité de surface pour freiner l'étalement urbain.",
+                "example": "La densification des centres-villes favorise la mobilité douce et préserve les terres arables."
               },
               {
                 "word": "Spéculation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Ville, logement et cohésion sociale » au niveau C1.",
-                "example": "Dans l'analyse de « Ville, logement et cohésion sociale », la notion de « spéculation » est centrale."
+                "type": "n. f.",
+                "def": "Opération financière consistant à acheter des biens fonciers dans l'attente d'une plus-value rapide, au détriment de l'accessibilité au logement.",
+                "example": "La spéculation immobilière débridée entraîne une gentrification galopante des quartiers populaires."
               }
             ]
           },
@@ -824,7 +824,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q3"
+    "grammarLessonId": "c1-accords-participe-passe-extremes"
   },
   {
     "chapterId": "chap_77",
@@ -856,27 +856,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Gouvernance",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Entreprise, stratégie et conduite du changement » au niveau C1.",
-                "example": "Dans l'analyse de « Entreprise, stratégie et conduite du changement », la notion de « gouvernance » est centrale."
+                "type": "n. f.",
+                "def": "Ensemble des processus, règles et organes de décision qui orientent et contrôlent la gestion d'une organisation.",
+                "example": "Une gouvernance collégiale et transparente renforce l'engagement des parties prenantes."
               },
               {
                 "word": "Stratégie",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Entreprise, stratégie et conduite du changement » au niveau C1.",
-                "example": "Dans l'analyse de « Entreprise, stratégie et conduite du changement », la notion de « stratégie » est centrale."
+                "type": "n. f.",
+                "def": "Art de coordonner l'ensemble des forces et ressources économiques pour atteindre des objectifs majeurs à long terme.",
+                "example": "La direction a réorienté sa stratégie industrielle vers la décarbonation totale de ses usines."
               },
               {
                 "word": "Indicateur",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Entreprise, stratégie et conduite du changement » au niveau C1.",
-                "example": "Dans l'analyse de « Entreprise, stratégie et conduite du changement », la notion de « indicateur » est centrale."
+                "type": "n. m.",
+                "def": "Donnée quantitative ou qualitative mesurable permettant d'évaluer l'atteinte d'un résultat et le pilotage d'un projet.",
+                "example": "Les indicateurs clés de performance révèlent une progression tangible de la responsabilité sociétale."
               },
               {
                 "word": "Transformation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Entreprise, stratégie et conduite du changement » au niveau C1.",
-                "example": "Dans l'analyse de « Entreprise, stratégie et conduite du changement », la notion de « transformation » est centrale."
+                "type": "n. f.",
+                "def": "Mutation structurelle et culturelle profonde d'une entreprise pour s'adapter aux ruptures technologiques et sociétales.",
+                "example": "La transformation numérique exige un accompagnement soutenu du personnel pour prévenir l'obsolescence des compétences."
               }
             ]
           },
@@ -909,7 +909,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q4"
+    "grammarLessonId": "c1-ecriture-nombres-ponctuation-stylistique"
   },
   {
     "chapterId": "chap_78",
@@ -941,27 +941,27 @@ window.parcours_C1_Dataset = [
             "details": [
               {
                 "word": "Transmission",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éducation, culture et transmission » au niveau C1.",
-                "example": "Dans l'analyse de « Éducation, culture et transmission », la notion de « transmission » est centrale."
+                "type": "n. f.",
+                "def": "Action de léguer des savoirs, des valeurs, des compétences et une culture d'une génération à la suivante.",
+                "example": "L'école républicaine fait de la transmission du savoir critique le socle de la citoyenneté."
               },
               {
                 "word": "Émancipation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éducation, culture et transmission » au niveau C1.",
-                "example": "Dans l'analyse de « Éducation, culture et transmission », la notion de « émancipation » est centrale."
+                "type": "n. f.",
+                "def": "Processus de libération d'une tutelle, d'un assujettissement ou d'une aliénation intellectuelle et sociale.",
+                "example": "L'instruction publique demeure le plus puissant vecteur d'émancipation humaine."
               },
               {
                 "word": "Curriculum",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éducation, culture et transmission » au niveau C1.",
-                "example": "Dans l'analyse de « Éducation, culture et transmission », la notion de « curriculum » est centrale."
+                "type": "n. m.",
+                "def": "Plan d'études structuré définissant les objectifs d'apprentissage, les contenus pédagogiques et les modes d'évaluation.",
+                "example": "La refonte du curriculum intègre désormais l'éducation aux médias et à l'esprit critique."
               },
               {
                 "word": "Médiation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éducation, culture et transmission » au niveau C1.",
-                "example": "Dans l'analyse de « Éducation, culture et transmission », la notion de « médiation » est centrale."
+                "type": "n. f.",
+                "def": "Dispositif d'accompagnement et d'interprétation visant à rendre le patrimoine artistique et culturel accessible à tous.",
+                "example": "La médiation culturelle tisse des passerelles fécondes entre les musées et les publics éloignés."
               }
             ]
           },
@@ -994,7 +994,7 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q5"
+    "grammarLessonId": "c1-passe-simple"
   },
   {
     "chapterId": "chap_79",
@@ -1079,6 +1079,6 @@ window.parcours_C1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-7-q6"
+    "grammarLessonId": "c1-verbes-defectifs-constructions-passives"
   }
 ];

@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/writing.css?v=bcb3ca1921c3">
   <link rel="stylesheet" href="css/journey.css?v=7710b9af3e6a">
   <link rel="stylesheet" href="css/grammar.css?v=fb499fc9f709">
+  <link rel="stylesheet" href="css/conjugaison.css">
 </head>
 <body>
   <!-- Top App Bar -->
@@ -149,7 +150,7 @@
           </div>
           <div class="md-card access-card" onclick="app.switchTab('grammar')">
             <span class="material-icons-round card-icon">quiz</span>
-            <h3>Grammaire & Conjugaison</h3>
+            <h3>Grammaire</h3>
             <p>Règles progressives du A1 au C2 accompagnées d'exercices d'application avec explications immédiates.</p>
             <span class="md-button md-button--text">S'entraîner →</span>
           </div>
@@ -809,12 +810,13 @@
             <div class="select-wrapper">
               <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-primary);">bar_chart</span>
               <select id="grammar-level-select">
-                <option value="ALL">Tous les niveaux (A1 - C1+)</option>
+                <option value="ALL">Tous les niveaux (A1 - C2)</option>
                 <option value="A1">🟢 Niveau A1 (Découverte)</option>
                 <option value="A2">🟡 Niveau A2 (Survie)</option>
                 <option value="B1">🟠 Niveau B1 (Seuil)</option>
                 <option value="B2">🔴 Niveau B2 (Avancé)</option>
                 <option value="C1">🟣 Niveau C1/C1+ (Expert)</option>
+                <option value="C2">⚫ Niveau C2 (Maîtrise)</option>
               </select>
             </div>
 
@@ -861,6 +863,9 @@
               </div>
               <button class="md-button md-button--filled grammar-tts-rule-btn" id="grammar-tts-rule-btn" onclick="window.grammarModule.speakCurrentRule()" title="Écouter l'explication de la règle avec Kokoro TTS" type="button" style="display:inline-flex; align-items:center; gap:6px;">
                 <span class="material-icons-round">volume_up</span> Écouter la règle
+              </button>
+              <button class="md-button md-button--outlined grammar-conj-btn conj-lookup-btn" id="grammar-conj-lookup-btn" title="Consulter la conjugaison" aria-label="Consulter la conjugaison" type="button" style="display:inline-flex; align-items:center; gap:6px;">
+                <span class="material-icons-round">auto_stories</span> Conjugaison
               </button>
             </div>
             <div id="grammar-rule-content">
@@ -1034,6 +1039,36 @@
     </div>
   </div>
 
+  <!-- Bescherelle Conjugaison Backdrop Overlay -->
+  <div id="conj-backdrop" class="conj-backdrop"></div>
+
+  <!-- Bescherelle Conjugaison Lateral Drawer -->
+  <aside id="conjugaison-drawer" class="conj-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="conj-verb-title">
+    <div class="conj-drawer-header">
+      <div class="conj-header-top">
+        <div class="conj-brand-title">
+          <span class="material-icons-round">auto_stories</span>
+          <span>Bescherelle Conjugaison</span>
+        </div>
+        <button type="button" id="conj-close-btn" class="conj-close-btn" aria-label="Fermer le tiroir">&times;</button>
+      </div>
+
+      <div class="conj-search-box">
+        <input type="text" id="conj-search-input" placeholder="Rechercher un verbe (ex: écrire, aimer, être)..." autocomplete="off">
+        <div id="conj-search-results" class="conj-search-results"></div>
+      </div>
+
+      <div id="conj-history-breadcrumb" class="conj-history-breadcrumb"></div>
+    </div>
+
+    <div class="conj-hero-header">
+      <h2 id="conj-verb-title" class="conj-verb-title"></h2>
+      <div id="conj-verb-meta" class="conj-verb-meta"></div>
+    </div>
+
+    <div id="conj-drawer-content" class="conj-drawer-content"></div>
+  </aside>
+
   <!-- Footer -->
   <footer class="app-footer">
     <div class="footer-content">
@@ -1105,7 +1140,7 @@
   </div>
 
   <!-- Scripts -->
-  <script type="module" src="js/kokoro_tts.js"></script>
+  <script type="module" src="js/kokoro_tts.js?v=mu02clean"></script>
   <!-- Data scripts in required order -->
   <script src="js/data/grammar_data.js?v=930402ebab2c"></script>
   <!-- Modules spécifiques de conjugaison -->
@@ -1121,6 +1156,7 @@
   <script src="js/data/conjugaison/conditionnel_passe.js?v=bed419cccaf2"></script>
   <script src="js/data/conjugaison/participe_present_gerondif.js?v=894cb65b133f"></script>
   <script src="js/data/conjugaison/plus_que_parfait.js?v=b8b57d45525a"></script>
+  <script src="js/data/conjugaison_verbs_data.js"></script>
   <script src="js/data/vocab_A1_data.js?v=696fccdc5137"></script>
   <script src="js/data/vocab_A2_data.js?v=0739f95e638c"></script>
   <script src="js/data/vocab_B1_data.js?v=16d23ff95e8e"></script>
@@ -1176,6 +1212,7 @@
   <script src="js/modules/exam_simulator.js?v=350c15319a73"></script>
   <script src="js/modules/sessions.js?v=55ab8763efbc"></script>
   <script src="js/modules/journey.js?v=ph0n3t1k2026e"></script>
+  <script src="js/modules/conjugaison.js"></script>
 
   <!-- Application Main Controller -->
   <script src="js/app.js?v=ff4efd2fc0d3"></script>

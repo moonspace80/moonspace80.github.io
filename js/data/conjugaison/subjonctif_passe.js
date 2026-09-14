@@ -7,13 +7,15 @@ window.conjugaisonDataset = window.conjugaisonDataset || {};
 window.conjugaisonDataset['subjonctif_passe'] = {
   "id": "conjugaison-subjonctif-passe",
   "title": "Le Subjonctif Passé",
-  "level": "B2",
+  "level": "🔴 Niveau B2 (Avancé)",
+  "levelCode": "B2",
   "category": "conjugaison",
   "ruleTitle": "Antériorité dans le mode subjonctif et appréciation rétrospective",
   "ruleContent": "\n      <h3>1. Morphologie du subjonctif passé</h3>\n      <p>Auxiliaire <strong>ÊTRE ou AVOIR au Subjonctif Présent</strong> + <strong>Participe Passé</strong>.</p>\n      <ul>\n        <li><i>Avoir :</i> que j'aie compris, que tu aies lu, qu'il ait fait, que nous ayons obtenu, que vous ayez validé, qu'ils aient dit.</li>\n        <li><i>Être :</i> que je sois venu(e), qu'elle soit partie, que nous soyons intervenu(e)s, qu'ils se soient concertés.</li>\n      </ul>\n      <h3>2. Valeur et emploi d'antériorité</h3>\n      <p>Le subjonctif passé s'impose chaque fois que la subordonnée soumise au subjonctif décrit une <strong>action accomplie ou antérieure</strong> par rapport au verbe de la proposition principale :</p>\n      <ul>\n        <li><i>Je regrette vivement que vous n'<strong>ayez pas assisté</strong> au colloque hier.</i></li>\n        <li><i>Il est surprenant que les négociateurs <strong>soient parvenus</strong> à un accord si rapidement.</i></li>\n        <li><i>Bien que les électeurs <strong>aient massivement voté</strong>, la contestation demeure vive.</i></li>\n      </ul>\n    ",
   "questions": [
     {
       "id": "conj-spass-q1",
+      "question": "Le président s'étonne que les rapports d'inspection ne lui (être transmis) _____ qu'après la divulgation médiatique.",
       "prompt": "Le président s'étonne que les rapports d'inspection ne lui (être transmis) _____ qu'après la divulgation médiatique.",
       "options": [
         "aient été transmis",
@@ -26,6 +28,7 @@ window.conjugaisonDataset['subjonctif_passe'] = {
     },
     {
       "id": "conj-spass-q2",
+      "question": "Je suis profondément soulagé que vous (arriver) _____ à bon port en dépit de la tempête de neige.",
       "prompt": "Je suis profondément soulagé que vous (arriver) _____ à bon port en dépit de la tempête de neige.",
       "options": [
         "soyez arrivés",
@@ -38,6 +41,7 @@ window.conjugaisonDataset['subjonctif_passe'] = {
     },
     {
       "id": "conj-spass-q3",
+      "question": "Bien que les experts (avertir) _____ les autorités dès l'automne, aucune digue n'a été surélevée.",
       "prompt": "Bien que les experts (avertir) _____ les autorités dès l'automne, aucune digue n'a été surélevée.",
       "options": [
         "aient averti",
@@ -47,6 +51,26 @@ window.conjugaisonDataset['subjonctif_passe'] = {
       ],
       "correct": 0,
       "explanation": "Concession 'bien que' portant sur un avertissement antérieur à l'inondation ➔ subjonctif passé : 'aient averti'."
+    },
+    {
+      "id": "conj-spass-q4",
+      "question": "Il est scandaleux que cette entreprise (dissimuler) _____ ses profits dans des paradis fiscaux pendant des années.",
+      "prompt": "Il est scandaleux que cette entreprise (dissimuler) _____ ses profits dans des paradis fiscaux pendant des années.",
+      "options": [
+        "ait dissimulé",
+        "a dissimulé",
+        "aurait dissimulé",
+        "avait dissimulé"
+      ],
+      "correct": 0,
+      "explanation": "Jugement de valeur impersonnel sur une action passée accomplie ➔ subjonctif passé avec auxiliaire avoir : 'ait dissimulé'."
     }
   ]
 };
+
+if (typeof window !== 'undefined') {
+  window.grammarDataset = window.grammarDataset || [];
+  if (!window.grammarDataset.some(function(l) { return l.id === window.conjugaisonDataset['subjonctif_passe'].id; })) {
+    window.grammarDataset.push(window.conjugaisonDataset['subjonctif_passe']);
+  }
+}

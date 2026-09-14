@@ -155,28 +155,28 @@ window.parcours_A1_C3_Dataset = {
               "id": "a1_ch4_pere",
               "fr": "Le père",
               "en": "Father",
-              "jp": "父 / お父さん (chichi / otōsan)",
+              "jp": "父 / お父さん (ちち / おとうさん)",
               "cn": "父亲 / 爸爸 (fùqīn / bàba)"
             },
             {
               "id": "a1_ch4_mere",
               "fr": "La mère",
               "en": "Mother",
-              "jp": "母 / お母さん (haha / okāsan)",
+              "jp": "母 / お母さん (はは / おかあさん)",
               "cn": "母亲 / 妈妈 (mǔqīn / māma)"
             },
             {
               "id": "a1_ch4_frere",
               "fr": "Le frère",
               "en": "Brother",
-              "jp": "兄弟 / 兄 / 弟 (kyōdai)",
+              "jp": "兄弟 / 兄 / 弟 (きょうだい)",
               "cn": "兄弟 / 哥哥 / 弟弟 (xiōngdì)"
             },
             {
               "id": "a1_ch4_soeur",
               "fr": "La sœur",
               "en": "Sister",
-              "jp": "姉妹 / 姉 / 妹 (shimai)",
+              "jp": "姉妹 / 姉 / 妹 (しまい)",
               "cn": "姐妹 / 姐姐 / 妹妹 (jiěmèi)"
             }
           ]
@@ -185,7 +185,7 @@ window.parcours_A1_C3_Dataset = {
     },
     {
       "id": "quest_ch_3_2",
-      "title": "Module 2 : L'Arbre Généalogique & les Liens de Famille",
+      "title": "Vocabulaire : La famille",
       "level": "A1",
       "icon": "account_tree",
       "xp": 70,
@@ -194,7 +194,7 @@ window.parcours_A1_C3_Dataset = {
         {
           "type": "lesson",
           "title": "L'Arbre Généalogique de Lucas",
-          "content": "**L'Arbre Généalogique de la Famille**\n\nBienvenue dans la famille de Lucas ! Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique.\n\n![Réunion de famille chaleureuse](https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=80)\n\n### 👴 👵 Génération 1 : Les Grands-Parents\nAu sommet de l'arbre se trouvent les grands-parents. Ce sont les parents de nos parents :\n- **Le grand-père :** le père de mon père ou de ma mère. En famille, on l'appelle affectueusement **papi** (ou pépé).\n- **La grand-mère :** la mère de mon père ou de ma mère. En famille, on l'appelle affectueusement **mamie** (ou mémé).\n- Ensemble, ils forment **les grands-parents**.\n\n### 👨 👩 Génération 2 : Les Parents, Oncles et Tantes\nLa deuxième génération réunit les adultes qui élèvent les enfants :\n- **Le père (papa)** et **la mère (maman) :** ce sont **les parents**. Unis par le mariage, ils sont **le mari** (l'époux) et **la femme** (l'épouse).\n- **L'oncle (le tonton) :** le frère du père ou de la mère, ou le mari de la tante.\n- **La tante (la tata) :** la sœur du père ou de la mère, ou la femme de l'oncle.\n\n### 👦 👧 Génération 3 : La Fratrie, Neveux et Nièces\nLa troisième génération représente les enfants et petits-enfants :\n- **Le grand frère :** le frère plus âgé que moi (mon aîné).\n- **Le petit frère :** le frère plus jeune que moi (mon cadet).\n- **La grande sœur :** la sœur plus âgée que moi (mon aînée).\n- **La petite sœur :** la sœur plus jeune que moi (ma cadette).\n- **Le neveu :** le fils de mon frère ou de ma sœur.\n- **La nièce :** la fille de mon frère ou de ma sœur.\n- Par rapport aux grands-parents, les garçons sont **les petits-fils** et les filles sont **les petites-filles** (ensemble : **les petits-enfants**).\n\n### 📋 Schéma Récapitulatif des Liens de Parenté\n- Mon père + Ma mère = Mes parents\n- Le père de mon père = Mon papi (grand-père)\n- La mère de mon père = Ma mamie (grand-mère)\n- Le frère de mon père = Mon oncle (tonton)\n- La sœur de mon père = Ma tante (tata)\n- Le fils de ma sœur = Mon neveu\n- La fille de ma sœur = Ma nièce\n- Les enfants de mes enfants = Mes petits-enfants",
+          "content": "**L'Arbre Généalogique de la Famille**\n\nBienvenue dans la famille de Lucas ! Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique.\n\n![Réunion de famille chaleureuse](assets/scenes/reunion_famille_pastel.jpg)\n\n### 👴 👵 Génération 1 : Les Grands-Parents\nAu sommet de l'arbre se trouvent les grands-parents. Ce sont les parents de nos parents :\n- **Le grand-père :** le père de mon père ou de ma mère. En famille, on l'appelle affectueusement **papi** (ou pépé).\n- **La grand-mère :** la mère de mon père ou de ma mère. En famille, on l'appelle affectueusement **mamie** (ou mémé).\n- Ensemble, ils forment **les grands-parents**.\n\n### 👨 👩 Génération 2 : Les Parents, Oncles et Tantes\nLa deuxième génération réunit les adultes qui élèvent les enfants :\n- **Le père (papa)** et **la mère (maman) :** ce sont **les parents**. Unis par le mariage, ils sont **le mari** (l'époux) et **la femme** (l'épouse).\n- **L'oncle (le tonton) :** le frère du père ou de la mère, ou le mari de la tante.\n- **La tante (la tata) :** la sœur du père ou de la mère, ou la femme de l'oncle.\n\n### 👦 👧 Génération 3 : La Fratrie, Neveux et Nièces\nLa troisième génération représente les enfants et petits-enfants :\n- **Le grand frère :** le frère plus âgé que moi (mon aîné).\n- **Le petit frère :** le frère plus jeune que moi (mon cadet).\n- **La grande sœur :** la sœur plus âgée que moi (mon aînée).\n- **La petite sœur :** la sœur plus jeune que moi (ma cadette).\n- **Le neveu :** le fils de mon frère ou de ma sœur.\n- **La nièce :** la fille de mon frère ou de ma sœur.\n- Par rapport aux grands-parents, les garçons sont **les petits-fils** et les filles sont **les petites-filles** (ensemble : **les petits-enfants**).\n\n### 📋 Schéma Récapitulatif des Liens de Parenté\n- Mon père + Ma mère = Mes parents\n- Le père de mon père = Mon papi (grand-père)\n- La mère de mon père = Ma mamie (grand-mère)\n- Le frère de mon père = Mon oncle (tonton)\n- La sœur de mon père = Ma tante (tata)\n- Le fils de ma sœur = Mon neveu\n- La fille de ma sœur = Ma nièce\n- Les enfants de mes enfants = Mes petits-enfants",
           "audioText": "Bienvenue dans la famille de Lucas. Pour bien comprendre les relations familiales, observons les trois générations qui composent son arbre généalogique. En haut de l'arbre se trouvent les grands-parents : le grand-père, que l'on appelle souvent papi, et la grand-mère, que l'on appelle mamie. La deuxième génération réunit les parents, les oncles et les tantes : le père, que l'on appelle papa, et la mère, que l'on appelle maman. Ce sont les parents, le mari et la femme. Le frère de papa ou de maman est l'oncle, ou le tonton. La sœur de papa ou de maman est la tante, ou la tata. Enfin, la troisième génération comprend la fratrie : le grand frère, le petit frère, la grande sœur et la petite sœur. Les enfants de mon frère ou de ma sœur sont mon neveu et ma nièce. Pour les grands-parents, nous sommes leurs petits-enfants, petits-fils et petites-filles."
         },
         {
@@ -212,28 +212,28 @@ window.parcours_A1_C3_Dataset = {
               "type": "n. m.",
               "def": "Homme qui a un ou plusieurs enfants. Mot affectueux : papa.",
               "example": "Mon père s'appelle Thomas, et je l'appelle souvent papa.",
-              "imageUrl": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/pere.jpg"
             },
             {
               "word": "La mère (maman)",
               "type": "n. f.",
               "def": "Femme qui a donné naissance ou élève un enfant. Mot affectueux : maman.",
               "example": "Ma mère prépare le dîner avec maman et toute la famille.",
-              "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/mere.jpg"
             },
             {
               "word": "Les parents",
               "type": "n. m. pl.",
               "def": "Le père et la mère réunis au sein de la famille.",
               "example": "Mes parents travaillent tous les deux dans le centre de Lyon.",
-              "imageUrl": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/parents.jpg"
             },
             {
               "word": "Le mari et la femme",
               "type": "loc. nom.",
               "def": "Deux personnes unies par le mariage (les époux).",
               "example": "Marc est le mari de Sophie, et Sophie est sa femme.",
-              "imageUrl": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/mari_femme.jpg"
             }
           ]
         },
@@ -252,28 +252,28 @@ window.parcours_A1_C3_Dataset = {
               "type": "n. m.",
               "def": "Le père du père ou de la mère. Nom affectueux courant : papi.",
               "example": "Mon grand-père a 72 ans ; mon papi adore jardiner.",
-              "imageUrl": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/grand_pere.jpg"
             },
             {
               "word": "La grand-mère (mamie)",
               "type": "n. f.",
               "def": "La mère du père ou de la mère. Nom affectueux courant : mamie.",
               "example": "Ma grand-mère prépare d'excellents gâteaux ; merci mamie !",
-              "imageUrl": "https://images.unsplash.com/photo-1567057419565-4349c49d8a04?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/grand_mere.jpg"
             },
             {
               "word": "Les grands-parents",
               "type": "n. m. pl.",
               "def": "Le grand-père et la grand-mère ensemble.",
               "example": "Nous rendons visite à nos grands-parents chaque dimanche.",
-              "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/grands_parents.jpg"
             },
             {
               "word": "Les petits-enfants",
               "type": "n. m. pl.",
               "def": "Les enfants des enfants (le petit-fils et la petite-fille).",
               "example": "Papi et mamie ont quatre petits-enfants adorables.",
-              "imageUrl": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/petits_enfants.jpg"
             }
           ]
         },
@@ -292,28 +292,28 @@ window.parcours_A1_C3_Dataset = {
               "type": "n. m.",
               "def": "Le frère du père ou de la mère. En famille, on dit souvent tonton.",
               "example": "Mon oncle Marc m'emmène au zoo ; c'est mon tonton préféré.",
-              "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/oncle.jpg"
             },
             {
               "word": "La tante (tata)",
               "type": "n. f.",
               "def": "La sœur du père ou de la mère. En famille, on dit souvent tata.",
               "example": "Ma tante Sophie habite à Nantes ; ma tata m'envoie des lettres.",
-              "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/tante.jpg"
             },
             {
               "word": "Le neveu",
               "type": "n. m.",
               "def": "Le fils de son frère ou de sa sœur.",
               "example": "Mon neveu Arthur a cinq ans et commence l'école.",
-              "imageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/neveu.jpg"
             },
             {
               "word": "La nièce",
               "type": "n. f.",
               "def": "La fille de son frère ou de sa sœur.",
               "example": "Ma nièce Chloé adore dessiner avec ses feutres de couleur.",
-              "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/niece.jpg"
             }
           ]
         },
@@ -332,21 +332,21 @@ window.parcours_A1_C3_Dataset = {
               "type": "n. m.",
               "def": "Garçon ou homme né des mêmes parents.",
               "example": "J'ai un frère qui s'appelle Julien.",
-              "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/frere.jpg"
             },
             {
               "word": "Le grand frère",
               "type": "loc. nom. m.",
               "def": "Frère plus âgé (le frère aîné).",
               "example": "Mon grand frère a 22 ans et étudie à l'université.",
-              "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/grand_frere.jpg"
             },
             {
               "word": "Le petit frère",
               "type": "loc. nom. m.",
               "def": "Frère plus jeune (le frère cadet).",
               "example": "Mon petit frère a huit ans et joue au football au parc.",
-              "imageUrl": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?auto=format&fit=crop&w=600&q=80"
+              "imageUrl": "assets/vocab/petit_frere.jpg"
             },
             {
               "word": "Les enfants",
@@ -372,34 +372,34 @@ window.parcours_A1_C3_Dataset = {
               "type": "n. f.",
               "def": "Fille ou femme née des mêmes parents.",
               "example": "Ma sœur joue très bien du piano.",
-              "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/soeur.jpg"
             },
             {
               "word": "La grande sœur",
               "type": "loc. nom. f.",
               "def": "Sœur plus âgée (la sœur aînée).",
               "example": "Ma grande sœur travaille comme infirmière à l'hôpital.",
-              "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/grande_soeur.jpg"
             },
             {
               "word": "La petite sœur",
               "type": "loc. nom. f.",
               "def": "Sœur plus jeune (la sœur cadette).",
               "example": "Ma petite sœur regarde des dessins animés le samedi matin.",
-              "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/vocab/petite_soeur.jpg"
             },
             {
               "word": "La famille",
               "type": "n. f.",
               "def": "Ensemble des personnes unies par des liens de parenté ou d'alliance.",
               "example": "Nous formons une famille très unie et chaleureuse.",
-              "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=400&q=80"
+              "imageUrl": "assets/scenes/reunion_famille_pastel.jpg"
             }
           ]
         },
         {
           "type": "quiz_drill",
-          "title": "Compréhension : L'oncle et le tonton",
+          "title": "Compréhension : Les liens de parenté (1)",
           "question": "D'après l'arbre généalogique, qui est « l'oncle » d'une personne ?",
           "options": [
             "Le père de ma mère.",
@@ -412,7 +412,7 @@ window.parcours_A1_C3_Dataset = {
         },
         {
           "type": "quiz_drill",
-          "title": "Compréhension : Papi et mamie",
+          "title": "Compréhension : Les noms affectueux",
           "question": "Comment appelle-t-on les parents de nos parents en français familier et affectueux ?",
           "options": [
             "Mon cousin et ma cousine.",
@@ -425,7 +425,7 @@ window.parcours_A1_C3_Dataset = {
         },
         {
           "type": "quiz_drill",
-          "title": "Compréhension : Le neveu et la nièce",
+          "title": "Compréhension : Les enfants de la fratrie",
           "question": "Si ma sœur a un fils et une fille, qui sont-ils pour moi ?",
           "options": [
             "Le fils est mon neveu et la fille est ma nièce.",
@@ -493,35 +493,35 @@ window.parcours_A1_C3_Dataset = {
               "id": "a1_ch3_pere_papa",
               "fr": "Le père (papa)",
               "en": "Father (Dad)",
-              "jp": "父 / お父さん (chichi / otōsan)",
+              "jp": "父 / お父さん (ちち / おとうさん)",
               "cn": "父亲 / 爸爸 (fùqīn / bàba)"
             },
             {
               "id": "a1_ch3_mere_maman",
               "fr": "La mère (maman)",
               "en": "Mother (Mom)",
-              "jp": "母 / お母さん (haha / okāsan)",
+              "jp": "母 / お母さん (はは / おかあさん)",
               "cn": "母亲 / 妈妈 (mǔqīn / māma)"
             },
             {
               "id": "a1_ch3_parents",
               "fr": "Les parents",
               "en": "Parents",
-              "jp": "両親 (ryōshin)",
+              "jp": "両親 (りょうしん)",
               "cn": "父母 / 家长 (fùmǔ)"
             },
             {
               "id": "a1_ch3_grand_pere_papi",
               "fr": "Le grand-père (papi)",
               "en": "Grandfather (Grandpa)",
-              "jp": "祖父 / おじいちゃん (sofu / ojīchan)",
+              "jp": "祖父 / おじいちゃん (そふ / おじいちゃん)",
               "cn": "祖父 / 爷爷 / 外公 (zǔfù / yéye)"
             },
             {
               "id": "a1_ch3_grand_mere_mamie",
               "fr": "La grand-mère (mamie)",
               "en": "Grandmother (Grandma)",
-              "jp": "祖母 / おばあちゃん (sobo / obāchan)",
+              "jp": "祖母 / おばあちゃん (そぼ / おばあちゃん)",
               "cn": "祖母 / 奶奶 / 外婆 (zǔmǔ / nǎinai)"
             }
           ]
@@ -535,35 +535,35 @@ window.parcours_A1_C3_Dataset = {
               "id": "a1_ch3_oncle_tonton",
               "fr": "L'oncle (tonton)",
               "en": "Uncle",
-              "jp": "叔父 / おじさん (oji / ojisan)",
+              "jp": "叔父 / おじさん (おじ / おじさん)",
               "cn": "叔叔 / 舅舅 / 伯伯 (shūshu / jiùjiu)"
             },
             {
               "id": "a1_ch3_tante_tata",
               "fr": "La tante (tata)",
               "en": "Aunt",
-              "jp": "叔母 / おばさん (oba / obasan)",
+              "jp": "叔母 / おばさん (おば / おばさん)",
               "cn": "姑姑 / 阿姨 / 婶婶 (gūgu / āyí)"
             },
             {
               "id": "a1_ch3_mari",
               "fr": "Le mari (l'époux)",
               "en": "Husband",
-              "jp": "夫 / 夫君 (otto / danna)",
+              "jp": "夫 / 夫君 (おっと / だんな)",
               "cn": "丈夫 / 先生 (zhàngfu / xiānsheng)"
             },
             {
               "id": "a1_ch3_femme",
               "fr": "La femme (l'épouse)",
               "en": "Wife",
-              "jp": "妻 / 奥さん (tsuma / okusan)",
+              "jp": "妻 / 奥さん (つま / おくさん)",
               "cn": "妻子 / 太太 (qīzi / tàitai)"
             },
             {
               "id": "a1_ch3_grands_parents",
               "fr": "Les grands-parents",
               "en": "Grandparents",
-              "jp": "祖父母 (sofubo)",
+              "jp": "祖父母 (そふぼ)",
               "cn": "祖父母 (zǔfùmǔ)"
             }
           ]
@@ -577,35 +577,35 @@ window.parcours_A1_C3_Dataset = {
               "id": "a1_ch3_grand_frere",
               "fr": "Le grand frère",
               "en": "Older brother",
-              "jp": "兄 / お兄さん (ani / onīsan)",
+              "jp": "兄 / お兄さん (あに / おにいさん)",
               "cn": "哥哥 (gēge)"
             },
             {
               "id": "a1_ch3_petit_frere",
               "fr": "Le petit frère",
               "en": "Younger brother",
-              "jp": "弟 (otōto)",
+              "jp": "弟 (おとうと)",
               "cn": "弟弟 (dìdi)"
             },
             {
               "id": "a1_ch3_grande_soeur",
               "fr": "La grande sœur",
               "en": "Older sister",
-              "jp": "姉 / お姉さん (ane / onēsan)",
+              "jp": "姉 / お姉さん (あね / おねえさん)",
               "cn": "姐姐 (jiějie)"
             },
             {
               "id": "a1_ch3_petite_soeur",
               "fr": "La petite sœur",
               "en": "Younger sister",
-              "jp": "妹 (imōto)",
+              "jp": "妹 (いもうと)",
               "cn": "妹妹 (mèimei)"
             },
             {
               "id": "a1_ch3_famille",
               "fr": "La famille",
               "en": "Family",
-              "jp": "家族 (kazoku)",
+              "jp": "家族 (かぞく)",
               "cn": "家庭 / 家人 (jiātíng)"
             }
           ]
@@ -619,35 +619,35 @@ window.parcours_A1_C3_Dataset = {
               "id": "a1_ch3_neveu",
               "fr": "Le neveu",
               "en": "Nephew",
-              "jp": "甥 (oi)",
+              "jp": "甥 (おい)",
               "cn": "侄子 / 外甥 (zhízi / wàishēng)"
             },
             {
               "id": "a1_ch3_niece",
               "fr": "La nièce",
               "en": "Niece",
-              "jp": "姪 (mei)",
+              "jp": "姪 (めい)",
               "cn": "侄女 / 外甥女 (zhínǚ / wàishēngnǚ)"
             },
             {
               "id": "a1_ch3_petit_fils",
               "fr": "Le petit-fils",
               "en": "Grandson",
-              "jp": "孫息子 / 孫 (mago-musuko)",
+              "jp": "孫息子 / 孫 (まごむすこ)",
               "cn": "孙子 / 外孙 (sūnzi / wàisūn)"
             },
             {
               "id": "a1_ch3_petite_fille",
               "fr": "La petite-fille",
               "en": "Granddaughter",
-              "jp": "孫娘 (mago-musume)",
+              "jp": "孫娘 (まごむすめ)",
               "cn": "孙女 / 外孙女 (sūnnǚ / wàisūnnǚ)"
             },
             {
               "id": "a1_ch3_enfants",
               "fr": "Les enfants",
               "en": "Children",
-              "jp": "子供たち (kodomo-tachi)",
+              "jp": "子供たち (こどもたち)",
               "cn": "孩子们 (háizimen)"
             }
           ]

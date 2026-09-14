@@ -826,7 +826,7 @@ window.grammarDataset = [
     ruleContent: `
       <p><strong>Passé récent (action accomplie juste avant) :</strong> Venir (conjugué au présent) + <strong>de</strong> + Infinitif. Ex: <i>Je viens de terminer mon café.</i></p>
       <p><strong>Futur proche (action imminente ou projet certain) :</strong> Aller (conjugué au présent) + Infinitif. Ex: <i>Nous allons partir en voyage.</i></p>
-      <p><strong>Impératif présent (conseil ou ordre) :</strong> Seulement 3 personnes (<i>tu, nous, vous</i>). Les verbes en <i>-er</i> perdent le <i>-s</i> à la 2e personne du singulier (ex: <i>Parle ! Écoute !</i> mais <i>Finis ! Prends !</i>).</p>
+      <p><strong>Impératif présent (conseil ou ordre) :</strong> Seulement 3 personnes (<i>tu, nous, vous</i>). Les verbes en <i>-er</i> sont sans s (pas de s) à la 2e personne du singulier : <i>tu mange ➔ Mange ! Écoute ! Regarde !</i> (mais <i>Finis ! Prends !</i>). Attention au verbe aller : <strong>Va !</strong> sans s, mais <strong>Vas-y !</strong> avec s euphonique devant 'y'.</p>
     `,
     questions: [
       {
@@ -989,6 +989,119 @@ window.grammarDataset = [
         ],
         correct: 0,
         explanation: "Les mots 'père', 'frère' et la préposition 'près' s'écrivent tous avec un accent grave (è)."
+      }
+    ]
+  },
+  {
+    id: "a1-passe-compose",
+    title: "A1.12 Le Passé Composé avec Avoir et Être",
+    level: "🟢 Niveau A1",
+    levelCode: "A1",
+    category: "conjugaison",
+    ruleTitle: "Formation du Passé Composé : Auxiliaires Avoir / Être & Participes Fréquents",
+    ruleContent: `
+      <p>Le <strong>passé composé</strong> sert à raconter des événements passés, ponctuels et terminés. Il est formé de deux éléments :</p>
+      <p style="text-align:center; font-weight:bold; font-size:1.05rem; margin:10px 0; color:var(--md-sys-color-primary, #6750A4);">
+        Auxiliaire (AVOIR ou ÊTRE au présent) + Participe Passé
+      </p>
+      <ul>
+        <li><strong>1. Avec l'auxiliaire AVOIR (la grande majorité des verbes) :</strong><br>
+        Au niveau A1, le participe passé ne s'accorde jamais avec le sujet.<br>
+        Exemples : <i>J'ai mangé une crêpe ; Tu as regardé la télévision ; Nous avons fini nos devoirs ; Ils ont attendu le bus.</i></li>
+        <li><strong>2. Avec l'auxiliaire ÊTRE (les verbes de mouvement et de changement d'état) :</strong><br>
+        Employé avec les verbes de la « maison d'être » : <i>aller, venir, arriver, partir, monter, descendre, entrer, sortir, naître (né), mourir (mort), retourner, rester, tomber, passer</i>, ainsi que tous les verbes pronominaux.<br>
+        <strong>RÈGLE D'OR :</strong> Avec <i>être</i>, le participe passé <strong>s'accorde toujours en genre et en nombre avec le sujet</strong> :<br>
+        - Masculin singulier : <i>Julien est parti.</i><br>
+        - Féminin singulier (+e) : <i>Marie est partie.</i><br>
+        - Masculin pluriel (+s) : <i>Paul et Julien sont partis.</i><br>
+        - Féminin pluriel (+es) : <i>Marie et Claire sont parties.</i></li>
+        <li><strong>3. Formation des participes passés réguliers :</strong><br>
+        - Verbes en <i>-er</i> ➔ <strong>-é</strong> (<i>parler ➔ parlé, aimer ➔ aimé, aller ➔ allé</i>).<br>
+        - Verbes en <i>-ir</i> du 2e groupe ➔ <strong>-i</strong> (<i>finir ➔ fini, choisir ➔ choisi, grandir ➔ grandi</i>).</li>
+        <li><strong>4. Les participes passés irréguliers incontournables (courts et fréquents) au niveau A1 :</strong><br>
+        <i>avoir ➔ <strong>eu</strong></i> ; <i>être ➔ <strong>été</strong></i> ; <i>faire ➔ <strong>fait</strong></i> ; <i>prendre ➔ <strong>pris</strong></i> ; <i>voir ➔ <strong>vu</strong></i> ; <i>boire ➔ <strong>bu</strong></i> ; <i>savoir ➔ <strong>su</strong></i> ; <i>mettre ➔ <strong>mis</strong></i> ; <i>dire ➔ <strong>dit</strong></i> ; <i>écrire ➔ <strong>écrit</strong></i> ; <i>pouvoir ➔ <strong>pu</strong></i> ; <i>vouloir ➔ <strong>voulu</strong></i>.</li>
+        <li><strong>5. Place de la négation au passé composé :</strong><br>
+        La négation encadre l'auxiliaire conjugué (ne + aux + pas + participe) : <i>ne / n'</i> + auxiliaire + <i>pas</i> + participe passé (ex: <i>Je n'ai pas mangé de viande ; Il n'est pas venu à l'école ; Nous ne sommes pas partis</i>).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "a1-12-q1",
+        question: "Hier soir, Thomas et Sarah (manger) _____ un délicieux dîner au restaurant.",
+        prompt: "Hier soir, Thomas et Sarah (manger) _____ un délicieux dîner au restaurant.",
+        options: [
+          "ont mangé",
+          "ont mangés",
+          "sont mangé",
+          "avons mangé"
+        ],
+        correct: 0,
+        explanation: "Le verbe 'manger' se conjugue avec l'auxiliaire 'avoir' (ils ont). Au niveau A1 avec l'auxiliaire avoir, le participe passé ne s'accorde pas avec le sujet : 'ont mangé'."
+      },
+      {
+        id: "a1-12-q2",
+        question: "Sophie est arrivée en retard parce qu'elle (prendre) _____ le mauvais train.",
+        prompt: "Sophie est arrivée en retard parce qu'elle (prendre) _____ le mauvais train.",
+        options: [
+          "a pris",
+          "est prise",
+          "a prenne",
+          "a prendu"
+        ],
+        correct: 0,
+        explanation: "'Prendre' a pour participe passé irrégulier 'pris' et se conjugue avec l'auxiliaire 'avoir' : elle a pris."
+      },
+      {
+        id: "a1-12-q3",
+        question: "Après leur longue randonnée en forêt, mes deux sœurs (rentrer) _____ très fatiguées.",
+        prompt: "Après leur longue randonnée en forêt, mes deux sœurs (rentrer) _____ très fatiguées.",
+        options: [
+          "sont rentrées",
+          "ont rentré",
+          "sont rentrés",
+          "sont rentrée"
+        ],
+        correct: 0,
+        explanation: "'Rentrer' est un verbe de déplacement qui se conjugue avec 'être'. Le sujet 'mes deux sœurs' étant féminin pluriel, on accorde le participe passé avec -es : 'sont rentrées'."
+      },
+      {
+        id: "a1-12-q4",
+        question: "Est-ce que vous (visiter) _____ le musée du Louvre pendant votre séjour à Paris ?",
+        prompt: "Est-ce que vous (visiter) _____ le musée du Louvre pendant votre séjour à Paris ?",
+        options: [
+          "avez visité",
+          "êtes visité",
+          "avez visiter",
+          "avez visités"
+        ],
+        correct: 0,
+        explanation: "'Visiter' se conjugue avec l'auxiliaire avoir (vous avez) suivi du participe passé régulier en -é : 'avez visité'."
+      },
+      {
+        id: "a1-12-q5",
+        question: "Ce matin, Julien (venir) _____ à l'heure à son premier cours de français.",
+        prompt: "Ce matin, Julien (venir) _____ à l'heure à son premier cours de français.",
+        options: [
+          "est venu",
+          "a venu",
+          "est veni",
+          "a venue"
+        ],
+        correct: 0,
+        explanation: "'Venir' se conjugue toujours avec l'auxiliaire 'être'. Au masculin singulier, on écrit : 'est venu'."
+      },
+      {
+        id: "a1-12-q6",
+        question: "Nous avons voulu acheter des billets pour le spectacle, mais nous n'avons pas (pouvoir) _____ .",
+        prompt: "Nous avons voulu acheter des billets pour le spectacle, mais nous n'avons pas (pouvoir) _____ .",
+        options: [
+          "pu",
+          "pouvu",
+          "pû",
+          "pouvoiré"
+        ],
+        correct: 0,
+        explanation: "Le participe passé du verbe très fréquent 'pouvoir' est 'pu' : nous n'avons pas pu."
       }
     ]
   },
@@ -1562,7 +1675,10 @@ window.grammarDataset = [
     ruleContent: `
       <p>Dans un récit au passé, la distinction entre passé composé et imparfait est fondamentale :</p>
       <ul>
-        <li><strong>L'Imparfait :</strong> Décor, cadre, description physique ou psychologique, météo, action en cours non délimitée dans le temps, habitude passée. Ex: <i>Il faisait beau, les oiseaux chantaient et je lisais tranquillement.</i></li>
+        <li><strong>Formation de l'Imparfait :</strong> Radical de la 1re personne du pluriel (<i>nous</i>) au présent de l'indicatif + terminaisons régulières : <code>-ais, -ais, -ait, -ions, -iez, -aient</code> (ex: <i>nous finissons ➔ je finissais, nous prenons ➔ nous prenions</i>).</li>
+        <li><strong>Seule exception de radical :</strong> Le verbe <i>être</i> a pour radical unique <strong>ét-</strong> (<i>j'étais, tu étais, il était, nous étions, vous étiez, ils étaient</i>).</li>
+        <li><strong>Verbes en -ier :</strong> Prennent un double <i>i</i> (<i>ii</i>) aux personnes <i>nous</i> et <i>vous</i> de l'imparfait (ex: <i>étudier ➔ nous étudiions, vous étudiiez ; crier ➔ nous criions, vous criiez</i>).</li>
+        <li><strong>L'Imparfait dans le récit :</strong> Décor, cadre, description physique ou psychologique, météo, action en cours non délimitée dans le temps, habitude passée. Ex: <i>Il faisait beau, les oiseaux chantaient et je lisais tranquillement.</i></li>
         <li><strong>Le Passé Composé :</strong> Événement soudain, action ponctuelle qui fait avancer l'histoire, action délimitée avec début et fin précis. Ex: <i>Soudain, le téléphone a sonné et je me suis levé.</i></li>
       </ul>
       <p><strong>Accord du participe passé :</strong> Avec <i>Être</i>, accord obligatoire avec le sujet (<i>Elle est partie</i>). Avec <i>Avoir</i>, pas d'accord avec le sujet (<i>Elle a mangé</i>).</p>
@@ -1656,8 +1772,9 @@ window.grammarDataset = [
       <ul>
         <li><i>Être → ser-</i> | <i>Avoir → aur-</i> | <i>Aller → ir-</i> | <i>Faire → fer-</i></li>
         <li><i>Pouvoir → pourr-</i> | <i>Vouloir → voudr-</i> | <i>Devoir → devr-</i> | <i>Savoir → saur-</i></li>
+        <li><i>Radicaux en double r : voir → verr- | envoyer → enverr- | courir → courr- | mourir → mourr-</i></li>
       </ul>
-      <p><strong>Conditionnel de politesse :</strong> <i>Je voudrais un renseignement ; Pourriez-vous m'aider ?</i></p>
+      <p><strong>Conditionnel de politesse :</strong> Formules usuelles pour adoucir une requête ou exprimer un souhait : <i>Je voudrais un renseignement ; J'aimerais réserver une table ; Pourriez-vous m'aider ?</i></p>
     `,
     questions: [
       {
@@ -1911,6 +2028,111 @@ window.grammarDataset = [
         ],
         correct: 0,
         explanation: "'A expliqué' est l'auxiliaire avoir (avait expliqué) et 'à tous' est la préposition introduisant le COI."
+      }
+    ]
+  },
+  {
+    id: "a2-imparfait-formation-valeurs",
+    title: "A2.11 Formation et Valeurs de l'Imparfait",
+    level: "🟡 Niveau A2",
+    levelCode: "A2",
+    category: "conjugaison",
+    ruleTitle: "Radical de 'Nous' au Présent, Terminaisons Invariables & Description",
+    ruleContent: `
+      <p>L'<strong>imparfait de l'indicatif</strong> est le temps par excellence de la description, du décor, des habitudes et des circonstances dans le passé :</p>
+      <ul>
+        <li><strong>1. Règle de formation universelle (Bescherelle §148) :</strong><br>
+        On prend le <strong>radical de la 1re personne du pluriel (<i>nous</i>) au présent de l'indicatif</strong>, et on ajoute les terminaisons invariables pour tous les verbes :<br>
+        <span style="font-weight:bold; color:var(--md-sys-color-primary, #6750A4);">-ais, -ais, -ait, -ions, -iez, -aient</span><br>
+        Exemples :<br>
+        - <i>Parler</i> ➔ Présent : <i>nous parlons</i> (radical <i>parl-</i>) ➔ <i>je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient</i>.<br>
+        - <i>Finir</i> ➔ Présent : <i>nous finissons</i> (radical <i>finiss-</i>) ➔ <i>je finissais, nous finissions, ils finissaient</i>.<br>
+        - <i>Prendre</i> ➔ Présent : <i>nous prenons</i> (radical <i>pren-</i>) ➔ <i>je prenais, nous prenions, ils prenaient</i>.</li>
+        <li><strong>2. L'unique exception morphologique : le verbe ÊTRE :</strong><br>
+        <i>Être</i> est le seul verbe de toute la langue française qui ne prend pas le radical de <i>nous</i>. Son radical d'imparfait est <strong>ét-</strong> :<br>
+        <i>j'étais, tu étais, il était, nous étions, vous étiez, ils étaient</i>.</li>
+        <li><strong>3. Particularités orthographiques :</strong><br>
+        - Verbes en <i>-cer</i> : prennent une cédille devant <i>a</i> (<i>je commençais</i>, mais <i>nous commencions</i> sans cédille devant <i>i</i>).<br>
+        - Verbes en <i>-ger</i> : conservent un <i>e</i> muet devant <i>a</i> (<i>je mangeais</i>, mais <i>nous mangions</i> sans <i>e</i> devant <i>i</i>).<br>
+        - Verbes en <i>-ier</i> : doublent le <i>i</i> à <i>nous</i> et <i>vous</i> (<i>nous étudiions, vous criiez</i>).</li>
+        <li><strong>4. Valeurs de l'imparfait :</strong><br>
+        - <strong>Description / Décor :</strong> <i>Il faisait froid et le vent soufflait doucement.</i><br>
+        - <strong>Habitude / Répétition :</strong> <i>Tous les soirs, grand-mère nous racontait une histoire.</i><br>
+        - <strong>Action continue en cours :</strong> <i>Pendant que je lisais, le téléphone a sonné.</i></li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "a2-11-q1",
+        prompt: "Quand nous habitions à Nantes, nous (prendre) _____ souvent le tramway pour aller au lycée.",
+        options: [
+          "prenions",
+          "prenons",
+          "prenaient",
+          "prendions"
+        ],
+        correct: 0,
+        explanation: "Au présent, on dit 'nous prenons'. Le radical est 'pren-'. À l'imparfait avec 'nous', la terminaison est '-ions' ➔ 'nous prenions'."
+      },
+      {
+        id: "a2-11-q2",
+        prompt: "Pendant les vacances d'été, mon cousin et moi (nager) _____ tous les matins dans l'océan.",
+        options: [
+          "nagions",
+          "nageions",
+          "nageaient",
+          "nagiez"
+        ],
+        correct: 0,
+        explanation: "Pour les verbes en -ger, le 'e' muet disparaît devant la voyelle 'i' aux personnes 'nous' et 'vous' : 'nous nagions' (sans e muet, car le g devant i se prononce déjà [ʒ])."
+      },
+      {
+        id: "a2-11-q3",
+        prompt: "En 2018, vous (être) _____ encore étudiante à l'université de Strasbourg.",
+        options: [
+          "étiez",
+          "faisiez",
+          "étéz",
+          "étiez-vous"
+        ],
+        correct: 0,
+        explanation: "Le verbe 'être' a pour radical d'imparfait 'ét-'. Avec le pronom 'vous', la terminaison est '-iez' : 'vous étiez'."
+      },
+      {
+        id: "a2-11-q4",
+        prompt: "À cette époque-là, je (commencer) _____ mon service à sept heures précises chaque matin.",
+        options: [
+          "commençais",
+          "commencais",
+          "commençait",
+          "commenciez"
+        ],
+        correct: 0,
+        explanation: "Pour conserver le son [s] devant la voyelle 'a' des terminaisons de l'imparfait, les verbes en -cer prennent une cédille : 'je commençais'."
+      },
+      {
+        id: "a2-11-q5",
+        prompt: "Les élèves (étudier) _____ silencieusement dans la bibliothèque avant l'examen final.",
+        options: [
+          "étudiaient",
+          "étudaient",
+          "étudyaient",
+          "étudirent"
+        ],
+        correct: 0,
+        explanation: "Le radical du verbe étudier est 'étudi-'. À la 3e personne du pluriel, on ajoute la terminaison '-aient' : 'ils étudiaient'."
+      },
+      {
+        id: "a2-11-q6",
+        prompt: "Dans mon souvenir d'enfance, il (pleuvoir) _____ continuellement pendant nos séjours en Normandie.",
+        options: [
+          "pleuvait",
+          "pluvait",
+          "pleuvait-il",
+          "pleuvaient"
+        ],
+        correct: 0,
+        explanation: "Le verbe météorologique impersonnel 'pleuvoir' se conjugue à l'imparfait avec le pronom 'il' : 'il pleuvait'."
       }
     ]
   },
@@ -2306,6 +2528,7 @@ window.grammarDataset = [
     ruleTitle: "Être + Participe Passé (+ par/de)",
     ruleContent: `
       <p>La voix passive permet de mettre en valeur l'objet de l'action plutôt que son agent :</p>
+      <p><strong>Condition impérative :</strong> Seuls les verbes <strong>transitifs directs</strong> (qui se construisent avec un <strong>COD</strong>) peuvent se transformer à la voix passive. Les verbes intransitifs ne peuvent pas se mettre au passif.</p>
       <p><strong>Structure :</strong> Sujet patient + Verbe <strong>ÊTRE (au temps de la voix active)</strong> + <strong>Participe Passé (accordé avec le sujet)</strong> + <strong>par / de + Complément d'agent</strong>.</p>
       <p>Exemples de concordance temporelle :</p>
       <ul>
@@ -2401,7 +2624,7 @@ window.grammarDataset = [
       <p>Le gérondif est une forme verbale invariable qui associe la préposition <strong>EN</strong> au participe présent (radical de 'nous' au présent + <i>-ant</i>) :</p>
       <p>Ex: <i>Nous parlons ➔ en parlant | Nous finissons ➔ en finissant | Nous prenons ➔ en prenant</i>.</p>
       <p><strong>Trois irréguliers majeurs :</strong> <i>Être ➔ en étant | Avoir ➔ en ayant | Savoir ➔ en sachant</i>.</p>
-      <p><strong>Règle d'or de syntaxe :</strong> Le sujet du gérondif DOIT ÊTRE OBLIGATOIREMENT le même que le sujet du verbe principal !</p>
+      <p><strong>Règle d'or de syntaxe (même sujet) :</strong> Le sujet du gérondif DOIT ÊTRE OBLIGATOIREMENT le même sujet (sujet identique) que le sujet du verbe principal !</p>
       <p><strong>Valeurs du gérondif :</strong></p>
       <ul>
         <li><strong>Simultanéité temporelle :</strong> <i>Il écoute la radio en cuisinant.</i> (en même temps).</li>
@@ -2853,6 +3076,103 @@ window.grammarDataset = [
         ],
         correct: 0,
         explanation: "Le pronom personnel COD 'les' (remplaçant 'ces poires', fém. plur.) est placé devant l'auxiliaire avoir ➔ accord : 'achetées'."
+      }
+    ]
+  },
+  {
+    id: "b1-futur-anterieur",
+    title: "B1.11 Le Futur Antérieur & L'Antériorité Temporelle",
+    level: "🟠 Niveau B1",
+    levelCode: "B1",
+    category: "conjugaison",
+    ruleTitle: "Formation du Futur Antérieur & Conjonctions Temporelles (Dès que, Quand, Lorsque)",
+    ruleContent: `
+      <p>Le <strong>futur antérieur</strong> exprime un fait accompli dans l'avenir avant qu'une autre action future ne se produise :</p>
+      <ul>
+        <li><strong>1. Formation (Bescherelle §150) :</strong><br>
+        <span style="font-weight:bold; color:var(--md-sys-color-primary, #6750A4);">Auxiliaire AVOIR ou ÊTRE au futur simple + Participe Passé</span><br>
+        - Avec avoir : <i>j'aurai fini, tu auras parlé, il aura compris, nous aurons réussi, vous aurez écrit, ils auront appris</i>.<br>
+        - Avec être : <i>je serai parti(e), elle sera arrivée, nous serons rentré(e)s, ils seront venus</i>.</li>
+        <li><strong>2. Valeur première : L'antériorité dans le futur :</strong><br>
+        Dans une proposition subordonnée temporelle introduite par <i>quand, lorsque, dès que, aussitôt que</i>, le futur antérieur marque que l'action est terminée avant l'action de la principale (au futur simple) :<br>
+        Exemple : <i>Dès que nous <strong>aurons validé</strong> les résultats, nous vous <strong>enverrons</strong> le compte rendu.</i></li>
+        <li><strong>3. Valeur de probabilité ou supposition dans le passé :</strong><br>
+        Il peut aussi servir à expliquer un événement passé avec une nuance de conjecture ou probabilité :<br>
+        Exemple : <i>Il n'est pas venu à la réunion ; il <strong>aura manqué</strong> son train.</i></li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "b1-11-q1",
+        prompt: "Dès que les auditeurs (terminer) _____ leur rapport, la direction prendra une décision.",
+        options: [
+          "auront terminé",
+          "termineront",
+          "ont terminé",
+          "auraient terminé"
+        ],
+        correct: 0,
+        explanation: "Après la conjonction temporelle 'dès que', on emploie le futur antérieur pour exprimer l'antériorité par rapport au futur simple de la principale ('prendra') : 'auront terminé'."
+      },
+      {
+        id: "b1-11-q2",
+        prompt: "Quand ma collègue (rentrer) _____ de son voyage d'affaires à Genève, nous organiserons le bilan.",
+        options: [
+          "sera rentrée",
+          "aura rentré",
+          "serait rentrée",
+          "est rentrée"
+        ],
+        correct: 0,
+        explanation: "'Rentrer' est un verbe de déplacement qui se conjugue avec 'être'. Le sujet 'ma collègue' est féminin singulier ➔ accord avec -e : 'sera rentrée'."
+      },
+      {
+        id: "b1-11-q3",
+        prompt: "Aussitôt que vous (recevoir) _____ les identifiants de connexion, veuillez activer votre compte.",
+        options: [
+          "aurez reçu",
+          "recevrez",
+          "avez reçu",
+          "auriez reçu"
+        ],
+        correct: 0,
+        explanation: "Le participe passé de 'recevoir' est 'reçu'. Avec l'auxiliaire 'avoir' au futur simple (vous aurez), on obtient : 'aurez reçu'."
+      },
+      {
+        id: "b1-11-q4",
+        prompt: "Pourquoi Thomas ne répond-il pas au téléphone ? — Il (oublier) _____ son chargeur au bureau.",
+        options: [
+          "aura oublié",
+          "a oublié",
+          "aurait oublié",
+          "oubliera"
+        ],
+        correct: 0,
+        explanation: "Le futur antérieur s'utilise couramment pour exprimer une supposition probable portant sur un événement passé : 'Il aura oublié son chargeur'."
+      },
+      {
+        id: "b1-11-q5",
+        prompt: "Lorsque nous (examiner) _____ l'ensemble des candidatures, nous contacterons les personnes retenues.",
+        options: [
+          "aurons examiné",
+          "examinerons",
+          "avons examiné",
+          "aurons examinées"
+        ],
+        correct: 0,
+        explanation: "L'action d'examiner précède le contact futur ➔ futur antérieur avec l'auxiliaire avoir sans accord du participe (COD placé après) : 'aurons examiné'."
+      },
+      {
+        id: "b1-11-q6",
+        prompt: "Dans deux ans, les travaux du grand stade (être) _____ entièrement achevés.",
+        options: [
+          "auront été",
+          "seront été",
+          "avaient été",
+          "seront"
+        ],
+        correct: 0,
+        explanation: "Le verbe 'être' se conjugue avec l'auxiliaire 'avoir' au futur antérieur : 'les travaux auront été achevés'."
       }
     ]
   },
@@ -3703,7 +4023,7 @@ window.grammarDataset = [
       </ul>
       <p><strong>Différences orthographiques fréquentes :</strong></p>
       <ul>
-        <li>Participe présent en <i>-ant</i> vs Adjectif verbal en <i>-ent</i> : <i>différant / différent, émergeant / émergent, excellant / excellent, négligeant / négligent, précédant / précédent</i>.</li>
+        <li>Participe présent en <i>-ant</i> vs Adjectif verbal en <i>-ent</i> : <i>adhérant / adhérent, différant / différent, émergeant / émergent, excellant / excellent, négligeant / négligent, précédant / précédent</i>.</li>
         <li>Participe en <i>-quant / -guant</i> vs Adjectif en <i>-cant / -gant</i> : <i>communiquant / communicatif (ou communicant), convainquant / convaincant, naviguant / navigant, fatiguant / fatigant</i>.</li>
       </ul>
     `,
@@ -4044,6 +4364,324 @@ window.grammarDataset = [
         ],
         correct: 0,
         explanation: "'Sourire' est un verbe transitif indirect (sourire à quelqu'un). Le pronom 'se' est COI, le participe passé est donc toujours invariable : 'souri'."
+      }
+    ]
+  },
+  {
+    id: "b2-indicatif-ou-subjonctif",
+    title: "B2.11 Indicatif ou Subjonctif (Nuances, Opinion & Conjonctions)",
+    level: "🔴 Niveau B2",
+    levelCode: "B2",
+    category: "grammaire",
+    ruleTitle: "L'Alternance Indicatif / Subjonctif selon le Degré de Certitude",
+    ruleContent: `
+      <p>Le choix entre l'<strong>indicatif</strong> (monde réel, certitude, constat) et le <strong>subjonctif</strong> (monde pensé, doute, sentiment, possibilité) est l'un des piliers de la maîtrise B2 :</p>
+      <ul>
+        <li><strong>1. Verbes d'opinion et de pensée (penser, croire, trouver, estimer) :</strong><br>
+        - À la forme affirmative ➔ <strong>Indicatif</strong> (certitude du locuteur) : <i>Je pense qu'il <strong>viendra</strong> ; Nous croyons qu'elle <strong>a réussi</strong>.</i><br>
+        - À la forme négative ou interrogative avec inversion ➔ <strong>Subjonctif</strong> (doute, remise en cause) : <i>Je ne pense pas qu'il <strong>vienne</strong> ; Croyez-vous qu'elle <strong>ait réussi</strong> ?</i></li>
+        <li><strong>2. Certitude vs Doute / Possibilité :</strong><br>
+        - Certitude ➔ Indicatif : <i>Il est certain / évident / clair / probable que vous <strong>avez</strong> raison.</i><br>
+        - Incertitude / Doute ➔ Subjonctif : <i>Il est douteux / possible / peu probable que vous <strong>ayez</strong> raison.</i></li>
+        <li><strong>3. Conjonctions temporelles — La règle classique du Bescherelle :</strong><br>
+        - <strong>Après que + INDICATIF :</strong> L'action s'est déjà produite ou est tenue pour certaine au moment considéré ➔ Indicatif obligatoire : <i>Après qu'il <strong>a parlé</strong>, la séance a été levée ; Après que nous <strong>serons arrivés</strong>, nous vous appellerons.</i> (L'usage abusif du subjonctif après 'après que' est une faute classique condamnée par le Bescherelle et l'Académie française).<br>
+        - <strong>Avant que + SUBJONCTIF :</strong> L'action n'est pas encore accomplie, elle est simplement envisagée ➔ Subjonctif obligatoire (souvent avec 'ne' explétif facultatif) : <i>Avant qu'il <strong>ne parte</strong>, remettez-lui ce dossier.</i></li>
+        <li><strong>4. Autres conjonctions d'opposition et de condition :</strong><br>
+        - Subjonctif : <i>bien que, quoique, pourvu que, à moins que (+ ne), à condition que</i>.<br>
+        - Indicatif : <i>alors que, tandis que, puisque, parce que, même si</i>.</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "b2-11-q1",
+        question: "Choisissez la forme correcte selon la règle classique du Bescherelle : 'Après que le conseil municipal _____ sa décision, le maire a clôturé les débats.'",
+        prompt: "Choisissez la forme correcte selon la règle classique du Bescherelle : 'Après que le conseil municipal _____ sa décision, le maire a clôturé les débats.'",
+        options: [
+          "a rendu",
+          "ait rendu",
+          "rende",
+          "eût rendu"
+        ],
+        correct: 0,
+        explanation: "Selon la norme académique et le Bescherelle, 'après que' introduit un fait accompli et exige rigoureusement l'indicatif ('a rendu')."
+      },
+      {
+        id: "b2-11-q2",
+        question: "Veuillez vérifier les issues de secours avant que le public _____ dans la salle de spectacle.",
+        prompt: "Veuillez vérifier les issues de secours avant que le public _____ dans la salle de spectacle.",
+        options: [
+          "n'entre",
+          "entre",
+          "entrera",
+          "est entré"
+        ],
+        correct: 0,
+        explanation: "'Avant que' exprime une action non accomplie et commande le subjonctif ('n'entre', avec ou sans 'ne' explétif)."
+      },
+      {
+        id: "b2-11-q3",
+        question: "Je ne crois pas que cette argumentation _____ suffisante pour emporter l'adhésion du jury.",
+        prompt: "Je ne crois pas que cette argumentation _____ suffisante pour emporter l'adhésion du jury.",
+        options: [
+          "soit",
+          "est",
+          "sera",
+          "serait"
+        ],
+        correct: 0,
+        explanation: "Le verbe 'croire' à la forme négative instille le doute et déclenche obligatoirement le subjonctif : 'qu'elle soit'."
+      },
+      {
+        id: "b2-11-q4",
+        question: "Pensez-vous qu'il _____ opportun de différer la date butoir de ce projet ?",
+        prompt: "Pensez-vous qu'il _____ opportun de différer la date butoir de ce projet ?",
+        options: [
+          "soit",
+          "est",
+          "sera",
+          "serait"
+        ],
+        correct: 0,
+        explanation: "L'inversion interrogative sur un verbe d'opinion ('Pensez-vous que...') introduit une nuance d'incertitude exigeant le subjonctif : 'soit'."
+      },
+      {
+        id: "b2-11-q5",
+        question: "Bien qu'il _____ froid, les manifestants sont restés rassemblés sur la place publique.",
+        prompt: "Bien qu'il _____ froid, les manifestants sont restés rassemblés sur la place publique.",
+        options: [
+          "fasse",
+          "fait",
+          "faisait",
+          "fera"
+        ],
+        correct: 0,
+        explanation: "'Bien que' exprime la concession et commande toujours le subjonctif : 'qu'il fasse'."
+      },
+      {
+        id: "b2-11-q6",
+        question: "Il est indéniable que la recherche scientifique _____ des investissements massifs.",
+        prompt: "Il est indéniable que la recherche scientifique _____ des investissements massifs.",
+        options: [
+          "exige",
+          "exigeât",
+          "exigeât",
+          "ait exigé"
+        ],
+        correct: 0,
+        explanation: "'Il est indéniable que' exprime une certitude absolue et régit donc l'indicatif : 'exige'."
+      }
+    ]
+  },
+  {
+    id: "b2-conditionnel-passe",
+    title: "B2.12 Le Conditionnel Passé (Regret, Reproche, Information Journalistique & Système Hypothétique)",
+    level: "🔴 Niveau B2",
+    levelCode: "B2",
+    category: "conjugaison",
+    ruleTitle: "Morphologie, Irréel du Passé et Prudence Énonciative",
+    ruleContent: `
+      <p>Le <strong>conditionnel passé</strong> est le temps composé du mode conditionnel. Il joue un rôle central dans l'expression des nuances au niveau B2 :</p>
+      <ul>
+        <li><strong>1. Formation morphologique :</strong><br>
+        Auxiliaire <strong>AVOIR ou ÊTRE au conditionnel présent</strong> (<i>j'aurais, tu aurais, il aurait, nous aurions, vous auriez, ils auraient / je serais, tu serais, il serait, nous serions, vous seriez, ils seraient</i>) + <strong>Participe Passé</strong>.<br>
+        Ex: <i>J'aurais aimé, nous serions partis, elles se seraient exprimées.</i></li>
+        <li><strong>2. L'Irréel du passé (Hypothèse non réalisée) :</strong><br>
+        Dans le système hypothétique au passé : <code>Si + Plus-que-parfait ➔ Conditionnel Passé</code>.<br>
+        Ex: <i>Si nous <strong>avions su</strong> que la réunion était avancée, nous <strong>serions arrivés</strong> plus tôt.</i> (Mais nous ne l'avons pas su, donc nous ne sommes pas arrivés plus tôt).</li>
+        <li><strong>3. Le Regret et le Reproche :</strong><br>
+        - Regret personnel : <i>J'<strong>aurais voulu</strong> vous accompagner à cette conférence.</i><br>
+        - Reproche à autrui : <i>Vous <strong>auriez pu</strong> nous prévenir de ce contretemps ! Tu <strong>aurais dû</strong> relire ton texte.</i></li>
+        <li><strong>4. La Prudence journalistique (Information non confirmée) :</strong><br>
+        Très courant dans la presse pour rapporter un fait sous réserve de confirmation officielle : <i>L'incendie <strong>aurait été provoqué</strong> par un court-circuit. Le ministre <strong>aurait présenté</strong> sa démission cette nuit.</i></li>
+        <li><strong>5. Deuxième forme du conditionnel passé (Langue littéraire) :</strong><br>
+        Morphologiquement identique au subjonctif plus-que-parfait (auxiliaire au subjonctif imparfait + participe passé : <i>il eût aimé, nous eussions souhaité</i>). Ex: <i>Même sans aide, il <strong>eût réussi</strong> son entreprise.</i></li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "b2-12-q1",
+        question: "Si l'ambassade avait délivré les visas à temps, notre délégation (pouvoir) _____ assister à l'ouverture du sommet.",
+        prompt: "Si l'ambassade avait délivré les visas à temps, notre délégation (pouvoir) _____ assister à l'ouverture du sommet.",
+        options: [
+          "aurait pu",
+          "avait pu",
+          "pourrait",
+          "eut pu"
+        ],
+        correct: 0,
+        explanation: "La structure hypothétique de l'irréel du passé avec 'si + plus-que-parfait' impose le conditionnel passé : 'aurait pu'."
+      },
+      {
+        id: "b2-12-q2",
+        question: "Selon des sources concordantes au sein du parquet, un accord financier (être conclu) _____ entre les deux parties.",
+        prompt: "Selon des sources concordantes au sein du parquet, un accord financier (être conclu) _____ entre les deux parties.",
+        options: [
+          "aurait été conclu",
+          "avait été conclu",
+          "a été conclu",
+          "soit conclu"
+        ],
+        correct: 0,
+        explanation: "L'information journalistique non encore confirmée officiellement s'exprime au conditionnel passé : 'aurait été conclu'."
+      },
+      {
+        id: "b2-12-q3",
+        question: "Vous (devoir) _____ vérifier la validité de ces chiffres avant de les publier dans la presse !",
+        prompt: "Vous (devoir) _____ vérifier la validité de ces chiffres avant de les publier dans la presse !",
+        options: [
+          "auriez dû",
+          "aviez dû",
+          "devriez",
+          "eussiez dû"
+        ],
+        correct: 0,
+        explanation: "Le reproche rétrospectif s'exprime par 'auriez dû + infinitif'."
+      },
+      {
+        id: "b2-12-q4",
+        question: "J' (aimer) _____ tant que nous puissions collaborer sur ce dossier innovant.",
+        prompt: "J' (aimer) _____ tant que nous puissions collaborer sur ce dossier innovant.",
+        options: [
+          "aurais aimé",
+          "avais aimé",
+          "aimerais",
+          "ai aimé"
+        ],
+        correct: 0,
+        explanation: "L'expression d'un regret face à une occasion manquée s'effectue au conditionnel passé : 'j'aurais aimé'."
+      },
+      {
+        id: "b2-12-q5",
+        question: "Sans le dévouement exceptionnel des soignants, l'hôpital (connaître) _____ une saturation dramatique.",
+        prompt: "Sans le dévouement exceptionnel des soignants, l'hôpital (connaître) _____ une saturation dramatique.",
+        options: [
+          "aurait connu",
+          "avait connu",
+          "connaîtrait",
+          "eût connaître"
+        ],
+        correct: 0,
+        explanation: "L'irréel du passé après la préposition 'sans' s'exprime au conditionnel passé : 'aurait connu'."
+      },
+      {
+        id: "b2-12-q6",
+        question: "Identifiez la phrase employant la deuxième forme du conditionnel passé :",
+        prompt: "Identifiez la phrase employant la deuxième forme du conditionnel passé :",
+        options: [
+          "Il eût péri sans l'intervention courageuse des sauveteurs en montagne.",
+          "Il aurait péri sans l'intervention courageuse des sauveteurs en montagne.",
+          "Il avait péri sans l'intervention courageuse des sauveteurs en montagne.",
+          "Il fût péri sans l'intervention courageuse des sauveteurs en montagne."
+        ],
+        correct: 0,
+        explanation: "'Il eût péri' est la 2e forme littéraire du conditionnel passé, construite avec l'auxiliaire au subjonctif imparfait."
+      }
+    ]
+  },
+  {
+    id: "b2-subjonctif-passe",
+    title: "B2.13 Le Subjonctif Passé (Formation, Antériorité & Déclencheurs)",
+    level: "🔴 Niveau B2",
+    levelCode: "B2",
+    category: "conjugaison",
+    ruleTitle: "Antériorité dans la Subordonnée et Accord du Participe",
+    ruleContent: `
+      <p>Le <strong>subjonctif passé</strong> exprime une action accomplie, achevée ou antérieure par rapport au moment exprimé par le verbe de la proposition principale régissant le subjonctif :</p>
+      <ul>
+        <li><strong>1. Formation morphologique :</strong><br>
+        Auxiliaire <strong>AVOIR ou ÊTRE au subjonctif présent</strong> + <strong>Participe Passé</strong> :<br>
+        - Avoir : <i>que j'aie fait, que tu aies lu, qu'il ait vu, que nous ayons compris, que vous ayez validé, qu'ils aient dit</i>.<br>
+        - Être : <i>que je sois venu(e), qu'elle soit partie, que nous soyons intervenu(e)s, qu'ils se soient réconciliés</i>.</li>
+        <li><strong>2. Notion fondamentale d'antériorité :</strong><br>
+        Comparez l'action simultanée (subjonctif présent) et l'action antérieure (subjonctif passé) :<br>
+        - Simultanéité / Futur : <i>Je suis ravi que vous <strong>soyez</strong> ici aujourd'hui.</i><br>
+        - Antériorité : <i>Je suis ravi que vous <strong>soyez venus</strong> à notre conférence hier.</i></li>
+        <li><strong>3. Déclencheurs fréquents au niveau B2 :</strong><br>
+        - Sentiments rétrospectifs : <i>regretter que, déplorer que, se réjouir que, être soulagé que, avoir honte que</i>.<br>
+        - Jugements et appréciations : <i>il est surprenant que, il est inadmissible que, il est heureux que</i>.<br>
+        - Conjonctions d'antériorité et de concession : <i>bien que, quoique, sans que, encore que</i>.</li>
+        <li><strong>4. Règles d'accord du participe passé :</strong><br>
+        Les règles sont strictement identiques à celles du passé composé : accord avec le sujet si auxiliaire être (<i>qu'elles soient arrivées</i>), accord avec le COD antéposé si auxiliaire avoir (<i>la décision que nous ayons prise</i>).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "b2-13-q1",
+        question: "Le doyen se réjouit vivement que tous les étudiants de la promotion (réussir) _____ leur mémoire de recherche.",
+        prompt: "Le doyen se réjouit vivement que tous les étudiants de la promotion (réussir) _____ leur mémoire de recherche.",
+        options: [
+          "aient réussi",
+          "ont réussi",
+          "auraient réussi",
+          "avaient réussi"
+        ],
+        correct: 0,
+        explanation: "Le verbe de sentiment au présent ('se réjouit que') portant sur une action accomplie dans le passé exige le subjonctif passé : 'aient réussi'."
+      },
+      {
+        id: "b2-13-q2",
+        question: "Bien que l'équipe municipale (consulter) _____ les riverains au préalable, le projet suscite des polémiques.",
+        prompt: "Bien que l'équipe municipale (consulter) _____ les riverains au préalable, le projet suscite des polémiques.",
+        options: [
+          "ait consulté",
+          "a consulté",
+          "aurait consulté",
+          "avait consulté"
+        ],
+        correct: 0,
+        explanation: "'Bien que' + action antérieure achevée dans le passé = subjonctif passé ('ait consulté')."
+      },
+      {
+        id: "b2-13-q3",
+        question: "Il est regrettable que les autorités sanitaires (ne pas / intervenir) _____ plus tôt dans cette crise.",
+        prompt: "Il est regrettable que les autorités sanitaires (ne pas / intervenir) _____ plus tôt dans cette crise.",
+        options: [
+          "ne soient pas intervenues",
+          "ne sont pas intervenues",
+          "ne soient pas intervenus",
+          "n'auraient pas intervenu"
+        ],
+        correct: 0,
+        explanation: "'Il est regrettable que' exige le subjonctif passé avec auxiliaire être et accord au féminin pluriel : 'ne soient pas intervenues'."
+      },
+      {
+        id: "b2-13-q4",
+        question: "Je doute fort que cette loi (avoir) _____ un impact mesurable avant la fin de l'exercice budgétaire.",
+        prompt: "Je doute fort que cette loi (avoir) _____ un impact mesurable avant la fin de l'exercice budgétaire.",
+        options: [
+          "ait eu",
+          "a eu",
+          "avait eu",
+          "eût eu"
+        ],
+        correct: 0,
+        explanation: "L'incertitude sur un bilan passé achevé ('doute fort que') commande le subjonctif passé : 'ait eu'."
+      },
+      {
+        id: "b2-13-q5",
+        question: "Les propositions de réforme que le groupe de travail (soumettre) _____ ont été examinées ce matin.",
+        prompt: "Les propositions de réforme que le groupe de travail (soumettre) _____ ont été examinées ce matin.",
+        options: [
+          "a soumises",
+          "ait soumises",
+          "a soumis",
+          "ait soumis"
+        ],
+        correct: 0,
+        explanation: "Dans cette proposition relative constatative factuelle, l'indicatif passé composé s'impose avec accord du COD antéposé 'que' : 'a soumises'."
+      },
+      {
+        id: "b2-13-q6",
+        question: "Nous sommes soulagés que vous (arriver) _____ à bon port sans encombre hier soir.",
+        prompt: "Nous sommes soulagés que vous (arriver) _____ à bon port sans encombre hier soir.",
+        options: [
+          "soyez arrivés",
+          "êtes arrivés",
+          "seriez arrivés",
+          "soyez arrivé"
+        ],
+        correct: 0,
+        explanation: "Sentiment au présent sur une action accomplie dans le passé ➔ subjonctif passé : 'soyez arrivés'."
       }
     ]
   },
@@ -4528,10 +5166,13 @@ window.grammarDataset = [
       <ul>
         <li><strong>Subjonctif Imparfait (action simultanée dans le passé) :</strong><br>
         Formé sur le passé simple (3e personne) + terminaisons <i>-sse, -sses, -^t, -ssions, -ssiez, -ssent</i>.<br>
+        À la 3e personne du singulier, l'accent circonflexe sur la voyelle est obligatoire : <i>qu'il chantât, qu'il finît, qu'il vînt, qu'il fût, qu'il eût</i>.<br>
         Ex: <i>Il fallait qu'il <strong>partît</strong> à l'aube ; Je ne pensais pas que vous <strong>fussiez</strong> si nombreux.</i></li>
         <li><strong>Subjonctif Plus-que-parfait (action antérieure dans le passé) :</strong><br>
         Auxiliaire au Subjonctif Imparfait + Participe Passé.<br>
         Ex: <i>Bien qu'il <strong>eût terminé</strong> son discours, nul n'applaudit.</i></li>
+        <li><strong>Conditionnel passé 2e forme (deuxième forme) :</strong><br>
+        Morphologiquement identique au subjonctif plus-que-parfait, le conditionnel passé deuxième forme (2e forme) s'emploie dans un registre très soutenu : <i>Si j'eusse su, j'eusse agi autrement</i> (équivalent de <i>Si j'avais su, j'aurais agi</i>).</li>
       </ul>
     `,
     questions: [
@@ -5068,5 +5709,825 @@ window.grammarDataset = [
         explanation: "Le tiret cadratin (—) est le signe noble de la typographie littéraire française pour les dialogues et incises."
       }
     ]
+  },
+  {
+    id: "c1-passe-simple",
+    title: "C1.12 Le Passé Simple : Les Quatre Séries de Terminaisons",
+    level: "🟣 Niveau C1",
+    levelCode: "C1",
+    category: "conjugaison",
+    ruleTitle: "Morphologie et Valeurs du Passé Simple dans le Récit",
+    ruleContent: `
+      <p>Le passé simple est le temps du récit par excellence dans la langue écrite soignée. Il exprime des actions délimitées dans le temps, ponctuelles ou successives, constituant la trame événementielle de premier plan.</p>
+      <p>Il se caractérise par <strong>quatre séries morphologiques de terminaisons</strong> :</p>
+      <ul>
+        <li><strong>1. Série en -a (1er groupe en -er et verbe aller) :</strong><br>
+        Terminaisons : <i>-ai, -as, -a, -âmes, -âtes, -èrent</i>.<br>
+        Ex: <i>je chantai, tu chantas, il chanta, nous chantâmes, vous chantâtes, ils chantèrent</i> ; <i>il alla</i>.</li>
+        <li><strong>2. Série en -i (2e groupe et nombreux verbes du 3e groupe) :</strong><br>
+        Terminaisons : <i>-is, -is, -it, -îmes, -îtes, -irent</i>.<br>
+        Ex: <i>je finis, nous finîmes, ils finirent</i> ; <i>je partis, il prit, nous fîmes, vous dîtes, ils écrivirent</i>.</li>
+        <li><strong>3. Série en -u (verbes du 3e groupe : être, avoir, savoir, pouvoir, vouloir, devoir, lire...) :</strong><br>
+        Terminaisons : <i>-us, -us, -ut, -ûmes, -ûtes, -urent</i>.<br>
+        Ex: <i>il eut, nous eûmes, ils eurent</i> ; <i>il fut, nous fûmes, ils furent</i> ; <i>je sus, il put, nous voulûmes, ils lurent</i>.</li>
+        <li><strong>4. Série en -in (verbes tenir, venir et leurs dérivés : retenir, prévenir, convenir...) :</strong><br>
+        Terminaisons : <i>-ins, -ins, -int, -înmes, -întes, -inrent</i>.<br>
+        Ex: <i>je tins, il tint, nous tînmes, vous tîntes, ils tinrent</i> ; <i>je vins, il vint, nous vînmes, ils vinrent</i>.</li>
+      </ul>
+      <p><strong>Règle essentielle de l'accent circonflexe :</strong> Aux 1re et 2e personnes du pluriel (nous et vous), la voyelle caractéristique prend systématiquement un accent circonflexe (<i>-âmes/-âtes, -îmes/-îtes, -ûmes/-ûtes, -înmes/-întes</i>).</p>
+    `,
+    questions: [
+      {
+        id: "c1-12-q1",
+        prompt: "Quelle est la forme exacte du verbe 'résoudre' à la 3e personne du singulier au passé simple ?",
+        question: "Quelle est la forme exacte du verbe 'résoudre' à la 3e personne du singulier au passé simple ?",
+        options: [
+          "Il résolut",
+          "Il résolva",
+          "Il résoudit",
+          "Il résolutit"
+        ],
+        correct: 0,
+        explanation: "Le verbe 'résoudre' appartient à la série en -u au passé simple : il résolut, nous résolûmes, ils résolurent."
+      },
+      {
+        id: "c1-12-q2",
+        prompt: "Identifiez la forme correcte à la 1re personne du pluriel pour le verbe 'prendre' au passé simple :",
+        question: "Identifiez la forme correcte à la 1re personne du pluriel pour le verbe 'prendre' au passé simple :",
+        options: [
+          "Nous prîmes",
+          "Nous primes",
+          "Nous prenâmes",
+          "Nous prendîmes"
+        ],
+        correct: 0,
+        explanation: "Aux 1re et 2e personnes du pluriel, l'accent circonflexe est obligatoire sur la voyelle : 'nous prîmes', 'vous prîtes'."
+      },
+      {
+        id: "c1-12-q3",
+        prompt: "Conjuguez le verbe 'retenir' à la 3e personne du pluriel au passé simple :",
+        question: "Conjuguez le verbe 'retenir' à la 3e personne du pluriel au passé simple :",
+        options: [
+          "Ils retinrent",
+          "Ils retenirent",
+          "Ils retenèrent",
+          "Ils retînrent"
+        ],
+        correct: 0,
+        explanation: "'Retenir' suit la série en -in : ils retinrent (sans accent circonflexe à la 3e personne du pluriel)."
+      },
+      {
+        id: "c1-12-q4",
+        prompt: "Quelle phrase comporte une forme de passé simple erronée ?",
+        question: "Quelle phrase comporte une forme de passé simple erronée ?",
+        options: [
+          "Dès qu'ils le virent, ils s'écrièrent et coururent vers lui.",
+          "Nous chantâmes un hymne puis nous partîmes.",
+          "À ces mots, elle pâlit et mourut sur le coup.",
+          "Ils peindrent la façade avant l'arrivée du cortège."
+        ],
+        correct: 3,
+        explanation: "Le passé simple de 'peindre' est 'ils peignirent' (série en -i) et non 'ils peindrent'."
+      },
+      {
+        id: "c1-12-q5",
+        prompt: "Complétez : 'À peine furent-ils installés qu'un violent orage _____ .' (éclater)",
+        question: "Complétez : 'À peine furent-ils installés qu'un violent orage _____ .' (éclater)",
+        options: [
+          "éclata",
+          "éclatai",
+          "éclatât",
+          "éclaterait"
+        ],
+        correct: 0,
+        explanation: "'Éclater' est un verbe du 1er groupe : au passé simple 3e personne du singulier, la terminaison est en -a : 'éclata'."
+      },
+      {
+        id: "c1-12-q6",
+        prompt: "Quelle est la forme au passé simple du verbe 'conclure' à la 3e personne du singulier ?",
+        question: "Quelle est la forme au passé simple du verbe 'conclure' à la 3e personne du singulier ?",
+        options: [
+          "Il conclut",
+          "Il conclua",
+          "Il conclit",
+          "Il conclût"
+        ],
+        correct: 0,
+        explanation: "'Conclure' fait 'il conclut' (sans accent circonflexe, réservé au subjonctif imparfait 'qu'il conclût')."
+      }
+    ]
+  },
+  {
+    id: "c1-verbes-defectifs-constructions-passives",
+    title: "C1.13 Verbes Défectifs & Constructions Passives Impersonnelles",
+    level: "🟣 Niveau C1",
+    levelCode: "C1",
+    category: "conjugaison",
+    ruleTitle: "Morphologie des Verbes Incomplets et Passif Impersonnel",
+    ruleContent: `
+      <p><strong>1. Les Verbes Défectifs :</strong> Ce sont des verbes dont la conjugaison est incomplète, car ils sont dépourvus de certains temps, modes ou personnes :</p>
+      <ul>
+        <li><strong>Impersonnels stricts :</strong> <i>falloir</i> (ne s'emploie qu'à la 3e personne du singulier : <i>il faut, il fallait, il fallut, il faudra, qu'il faille</i>) et <i>pleuvoir</i> (<i>il pleut, il plut, il pleuvra</i>).</li>
+        <li><strong>Gésir :</strong> N'a que l'indicatif présent (<i>je gis, tu gis, il gît, nous gisons, vous gisez, ils gisent</i>), l'imparfait (<i>il gisait, ils gisaient</i>) et le participe présent (<i>gisant</i>). Il ne possède ni futur simple ni passé simple. Formule célèbre : <i>Ci-gît</i>.</li>
+        <li><strong>Clore :</strong> Se conjugue au présent (<i>je clos, tu clos, il clôt, ils closent</i>), au futur (<i>je clorai</i>), au conditionnel (<i>je clorais</i>) et aux temps composés (<i>j'ai clos</i>). Il est dépourvu d'imparfait et de passé simple.</li>
+        <li><strong>Dissoudre :</strong> Présent (<i>je dissous, ils dissolvent</i>), imparfait (<i>je dissolvais</i>), mais pas de passé simple ni de subjonctif imparfait. Participe passé : <i>dissous / dissoute</i>.</li>
+        <li><strong>Autres verbes défectifs notables :</strong> <i>choir</i> (pas d'imparfait), <i>ouïr</i> (conservé dans <i>ouï-dire</i>, <i>j'ouïs</i>), <i>traire</i> (pas de passé simple).</li>
+      </ul>
+      <p><strong>2. Le Passif Impersonnel et la Distanciation :</strong></p>
+      <p>Dans les textes officiels, scientifiques et journalistiques de niveau C1/C2, le passif impersonnel neutralise le sujet agent pour conférer une valeur objective, universelle ou solennelle :</p>
+      <ul>
+        <li><i>Il a été décidé que la séance serait ajournée.</i></li>
+        <li><i>Il s'est avéré que les estimations initiales étaient sous-évaluées.</i></li>
+        <li><i>Il appert des pièces du dossier que la clause est réputée non écrite.</i></li>
+        <li><i>Il fut convenu d'un commun accord de surseoir aux poursuites.</i></li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c1-13-q1",
+        prompt: "Quel temps ou mode N'EXISTE PAS dans la conjugaison du verbe défectif 'gésir' ?",
+        question: "Quel temps ou mode N'EXISTE PAS dans la conjugaison du verbe défectif 'gésir' ?",
+        options: [
+          "Le passé simple",
+          "L'imparfait de l'indicatif",
+          "Le présent de l'indicatif",
+          "Le participe présent"
+        ],
+        correct: 0,
+        explanation: "'Gésir' ne possède ni passé simple ni futur simple. On utilise seulement le présent (il gît), l'imparfait (il gisait) et le participe présent (gisant)."
+      },
+      {
+        id: "c1-13-q2",
+        prompt: "Quelle est la particularité morphologique fondamentale du verbe 'falloir' ?",
+        question: "Quelle est la particularité morphologique fondamentale du verbe 'falloir' ?",
+        options: [
+          "Il ne se conjugue qu'à la 3e personne du singulier avec le pronom impersonnel 'il'.",
+          "Il ne possède pas de temps composés avec l'auxiliaire avoir.",
+          "Il est régulier comme un verbe du 1er groupe.",
+          "Il possède un impératif à la 2e personne du pluriel."
+        ],
+        correct: 0,
+        explanation: "'Falloir' est un verbe strictement impersonnel qui ne se conjugue qu'à la 3e personne du singulier : il faut, il fallait, il fallut, il faudra."
+      },
+      {
+        id: "c1-13-q3",
+        prompt: "Choisissez la phrase employant un passif impersonnel de registre juridique soigné :",
+        question: "Choisissez la phrase employant un passif impersonnel de registre juridique soigné :",
+        options: [
+          "Il a été expressément stipulé que toute infraction donnerait lieu à résiliation.",
+          "On a expressément dit que l'infraction entraînerait une rupture.",
+          "Toute infraction donnera lieu à une résiliation prochaine.",
+          "Ils ont décidé ensemble de rompre le contrat unilatéralement."
+        ],
+        correct: 0,
+        explanation: "'Il a été expressément stipulé que...' est une construction passive impersonnelle typique du registre juridique formel."
+      },
+      {
+        id: "c1-13-q4",
+        prompt: "Quel verbe défectif ne possède ni passé simple ni subjonctif imparfait ?",
+        question: "Quel verbe défectif ne possède ni passé simple ni subjonctif imparfait ?",
+        options: [
+          "Dissoudre",
+          "Prendre",
+          "Écrire",
+          "Finir"
+        ],
+        correct: 0,
+        explanation: "'Dissoudre' (et 'résoudre' excepté) n'a pas de passé simple en français moderne : on ne dit pas 'il dissout' au passé simple."
+      },
+      {
+        id: "c1-13-q5",
+        prompt: "Complétez la formule d'épitaphe classique : 'Ci-_____ un homme intègre et dévoué aux siens.'",
+        question: "Complétez la formule d'épitaphe classique : 'Ci-_____ un homme intègre et dévoué aux siens.'",
+        options: [
+          "gît",
+          "gise",
+          "gis",
+          "gisé"
+        ],
+        correct: 0,
+        explanation: "La formule traditionnelle d'épitaphe est 'Ci-gît' (du verbe gésir, 3e personne du singulier au présent de l'indicatif avec accent circonflexe sur le i)."
+      },
+      {
+        id: "c1-13-q6",
+        prompt: "Quelle tournure illustre un verbe impersonnel exprimant l'évidence dans la langue soutenue ?",
+        question: "Quelle tournure illustre un verbe impersonnel exprimant l'évidence dans la langue soutenue ?",
+        options: [
+          "Il appert des auditions que le suspect était présent sur les lieux.",
+          "Il mangeait tranquillement pendant l'interrogatoire.",
+          "On voit bien que le suspect était coupable.",
+          "Il est venu hier soir à l'audience solennelle."
+        ],
+        correct: 0,
+        explanation: "'Il appert' (du verbe défectif apparoir) est une locution impersonnelle juridique signifiant 'il apparaît avec évidence'."
+      }
+    ]
+  },
+  {
+    id: "c2-virtuosite-dialectique-periodes",
+    title: "C2.1 L'Architecture de la Période Oratoire & l'Hypotaxe Complexe",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "syntaxe",
+    ruleTitle: "Période Oratoire, Cadence Majeure et Enchâssement Subordonné",
+    ruleContent: `
+      <p>La période oratoire représente le sommet de la composition rhétorique et syntaxique française (Bossuet, Chateaubriand, De Gaulle). Elle organise la pensée en une vaste phrase rythmée, équilibrée et continue :</p>
+      <ul>
+        <li><strong>Protase :</strong> Le mouvement ascendant de la phrase, où la tension dramatique ou intellectuelle monte grâce à une succession de propositions subordonnées, participiales ou incises.</li>
+        <li><strong>Acmé :</strong> Le point culminant de la tension rythmique et logique, où la pensée suspend son élan.</li>
+        <li><strong>Apodose :</strong> Le mouvement descendant, où la tension se résout dans la proposition principale ou la conclusion rhétorique.</li>
+        <li><strong>Cadence majeure :</strong> Principe harmonique où les membres successifs de la phrase s'allongent progressivement (rythme croissant : 4 syllabes, puis 8, puis 12), conférant ampleur et gravité à la chute.</li>
+        <li><strong>Hypotaxe complexe :</strong> Réseau d'enchâssements logiques et syntaxiques stricts, par opposition à la parataxe (simple juxtaposition).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-1-q1",
+        prompt: "Dans l'architecture de la période oratoire classique, comment nomme-t-on le mouvement ascendant de tension rythmique ?",
+        question: "Dans l'architecture de la période oratoire classique, comment nomme-t-on le mouvement ascendant de tension rythmique ?",
+        options: [
+          "La protase",
+          "L'apodose",
+          "L'anaphore",
+          "L'épitrope"
+        ],
+        correct: 0,
+        explanation: "La protase est le membre ascendant de la période qui élève la voix et crée l'attente intellectuelle avant la résolution de l'apodose."
+      },
+      {
+        id: "c2-1-q2",
+        prompt: "Qu'est-ce qui caractérise la 'cadence majeure' d'une phrase oratoire ?",
+        question: "Qu'est-ce qui caractérise la 'cadence majeure' d'une phrase oratoire ?",
+        options: [
+          "Les propositions ou membres de phrase s'allongent progressivement jusqu'à la clausule.",
+          "Les propositions deviennent de plus en plus brèves pour hâter la conclusion.",
+          "La phrase commence systématiquement par une interjection majestueuse.",
+          "Toutes les propositions comptent exactement le même nombre de syllabes."
+        ],
+        correct: 0,
+        explanation: "La cadence majeure consiste en un allongement graduel des segments syntaxiques, créant un effet d'ampleur solennelle."
+      },
+      {
+        id: "c2-1-q3",
+        prompt: "Quelle figure ou démarche syntaxique s'oppose directement à l'hypotaxe ?",
+        question: "Quelle figure ou démarche syntaxique s'oppose directement à l'hypotaxe ?",
+        options: [
+          "La parataxe (juxtaposition sans lien subordonnant explicite)",
+          "L'hyperbate (rajout d'un syntagme après la clôture théorique)",
+          "La redondance pléonastique",
+          "L'anacoluthe rythmique"
+        ],
+        correct: 0,
+        explanation: "L'hypotaxe lie les propositions par de multiples subordonnants hiérarchisés, tandis que la parataxe les juxtapose sans subordination."
+      },
+      {
+        id: "c2-1-q4",
+        prompt: "Identifiez la phrase construite selon une structure de période oratoire à cadence majeure :",
+        question: "Identifiez la phrase construite selon une structure de période oratoire à cadence majeure :",
+        options: [
+          "Quoique l'ennemi fût aux portes, que les ressources vinssent à manquer et que tout semblât perdu, la cité tint bon avec une vaillance qui força l'admiration de la postérité.",
+          "Il est venu. Il a vu. Il a vaincu.",
+          "Nous partons ce soir ; préparez vos affaires ; ne tardez pas.",
+          "La ville était déserte, silencieuse, froide, abandonnée."
+        ],
+        correct: 0,
+        explanation: "Cette phrase développe une vaste protase subordonnée en trois membres croissants avant de culminer sur l'apodose résolutive 'la cité tint bon...'."
+      },
+      {
+        id: "c2-1-q5",
+        prompt: "Quel est l'effet stylistique principal de l'hypotaxe rigoureuse dans un essai critique ?",
+        question: "Quel est l'effet stylistique principal de l'hypotaxe rigoureuse dans un essai critique ?",
+        options: [
+          "Expliciter avec une précision chirurgicale les articulations logiques et causales de la réflexion.",
+          "Donner une impression de spontanéité orale et de légèreté narrative.",
+          "Accélérer artificiellement le rythme de lecture en sautant les conjonctions.",
+          "Masquer l'absence d'arguments par une brièveté télégraphique."
+        ],
+        correct: 0,
+        explanation: "L'hypotaxe permet de hiérarchiser minutieusement les causes, concessions et conséquences au sein d'une pensée dialectique mature."
+      },
+      {
+        id: "c2-1-q6",
+        prompt: "Comment nomme-t-on le segment terminal qui clôt harmonieusement une grande période oratoire ?",
+        question: "Comment nomme-t-on le segment terminal qui clôt harmonieusement une grande période oratoire ?",
+        options: [
+          "La clausule",
+          "La césure",
+          "L'hémistiche",
+          "Le refrain"
+        ],
+        correct: 0,
+        explanation: "En rhétorique classique, la clausule est le dessin rythmique final qui termine une période oratoire avec harmonie."
+      }
+    ]
+  },
+  {
+    id: "c2-accords-haute-volee-exceptions",
+    title: "C2.2 Accords de Haute Volée : Participes Rares, Couleurs & Syllepses",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "orthographe",
+    ruleTitle: "Subtilités et Exceptions Notables de la Morphosyntaxe Française",
+    ruleContent: `
+      <p>Au niveau DALF C2, la maîtrise des exceptions orthotypographiques les plus complexes est requise :</p>
+      <ul>
+        <li><strong>Adjectifs de couleur composés :</strong> Sont STRICTEMENT INVARIABLES (<i>des yeux bleu marine, des rubans vert pomme, des reflets gris-souris, des robes jaune pâle</i>).</li>
+        <li><strong>Noms employés comme adjectifs de couleur :</strong> Sont invariables (<i>des foulards marron, des tentures orange, des vestes cerise</i>).<br>
+        <i>Exceptions consacrées qui s'accordent comme de vrais adjectifs :</i> <strong>rose, mauve, pourpre, fauve, incarnat, écarlate</strong> (ex: <i>des joues roses, des robes pourpres</i>).</li>
+        <li><strong>Accord sylleptique (syllepse de genre ou de nombre) :</strong> L'accord se fait selon le sens mental et non selon la règle formelle (ex: <i>« Tout le monde est parti ? — Non, ils sont encore quelques-uns dans la salle » ; « Votre Altesse est bien bon [ou bonne selon le sexe de la personne désignée] »</i>).</li>
+        <li><strong>Participes passés employés comme prépositions :</strong> Placés devant le nom ou sans déterminant, <i>ci-joint, ci-inclus, attendu, excepté, passé, vu, y compris</i> sont INVARIABLES (ex: <i>Vous trouverez ci-joint copie du contrat</i> vs <i>La lettre ci-jointe</i>).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-2-q1",
+        prompt: "Choisissez la proposition dont les adjectifs de couleur sont rigoureusement orthographiés :",
+        question: "Choisissez la proposition dont les adjectifs de couleur sont rigoureusement orthographiés :",
+        options: [
+          "Elle portait des gants marron et des jupes bleu marine ornées de rubans roses.",
+          "Elle portait des gants marrons et des jupes bleues marines ornées de rubans rose.",
+          "Elle portait des gants marron et des jupes bleues marine ornées de rubans roses.",
+          "Elle portait des gants marrons et des jupes bleu marine ornées de rubans roses."
+        ],
+        correct: 0,
+        explanation: "'Marron' (nom) est invariable ; 'bleu marine' (couleur composée) est invariable ; 'rose' est l'une des exceptions lexicalisées qui s'accorde."
+      },
+      {
+        id: "c2-2-q2",
+        prompt: "Dans quelle phrase la formule 'ci-joint' doit-elle obligatoirement s'accorder ?",
+        question: "Dans quelle phrase la formule 'ci-joint' doit-elle obligatoirement s'accorder ?",
+        options: [
+          "Veuillez consulter la note ci-jointe pour de plus amples détails.",
+          "Vous trouverez ci-joint la copie du jugement rendu hier.",
+          "Ci-joint les pièces justificatives demandées par le tribunal.",
+          "Je vous adresse ci-joint quittance de la somme reçue."
+        ],
+        correct: 0,
+        explanation: "Placé après le nom avec déterminant ('la note ci-jointe'), 'ci-joint' a valeur d'adjectif qualificatif épithète et s'accorde en genre et en nombre."
+      },
+      {
+        id: "c2-2-q3",
+        prompt: "Quel nom de fruit ou de minéral devenu couleur FAIT EXCEPTION et prend la marque du pluriel ?",
+        question: "Quel nom de fruit ou de minéral devenu couleur FAIT EXCEPTION et prend la marque du pluriel ?",
+        options: [
+          "Pourpre",
+          "Cerise",
+          "Turquoise",
+          "Abricot"
+        ],
+        correct: 0,
+        explanation: "'Pourpre', ainsi que 'rose', 'mauve', 'fauve', 'écarlate' et 'incarnat', s'accorde en nombre : 'des soies pourpres'."
+      },
+      {
+        id: "c2-2-q4",
+        prompt: "Qu'appelle-t-on une 'syllepse d'accord' en syntaxe littéraire ?",
+        question: "Qu'appelle-t-on une 'syllepse d'accord' en syntaxe littéraire ?",
+        options: [
+          "Un accord réalisé selon le sens sémantique plutôt que selon la stricte grammaire formelle.",
+          "Une faute d'orthographe involontaire due à une prononciation régionale.",
+          "L'accord systématique de l'adjectif avec le complément du nom le plus éloigné.",
+          "Une répétition volontaire du participe passé pour insister sur la durée."
+        ],
+        correct: 0,
+        explanation: "La syllepse est une figure qui accorde les mots selon le sens visé dans l'esprit plutôt que selon les contraintes grammaticales formelles."
+      },
+      {
+        id: "c2-2-q5",
+        prompt: "Identifiez l'accord exact : 'Ces trois heures _____, plus personne ne fut admis dans l'hémicycle.'",
+        question: "Identifiez l'accord exact : 'Ces trois heures _____, plus personne ne fut admis dans l'hémicycle.'",
+        options: [
+          "passées",
+          "passé",
+          "passés",
+          "passer"
+        ],
+        correct: 0,
+        explanation: "Placé après le groupe nominal 'ces trois heures', le participe 'passées' s'accorde au féminin pluriel (contrairement à l'antéposition invariable : 'Passé trois heures')."
+      },
+      {
+        id: "c2-2-q6",
+        prompt: "Quelle proposition contient une invariabilité justifiée de l'adjectif de couleur ?",
+        question: "Quelle proposition contient une invariabilité justifiée de l'adjectif de couleur ?",
+        options: [
+          "Des yeux vert émeraude",
+          "Des yeux verts émeraudes",
+          "Des yeux verts émeraude",
+          "Des yeux vert émeraudes"
+        ],
+        correct: 0,
+        explanation: "Toute désignation de couleur formée de plusieurs termes ('vert émeraude') est totalement invariable."
+      }
+    ]
+  },
+  {
+    id: "c2-locutions-conjonctives-nuances-modales",
+    title: "C2.3 Locutions Conjonctives Rares & Nuances Modales",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "grammaire",
+    ruleTitle: "Sélection Modale Subtile : Indicatif vs Subjonctif dans les Subordonnées Circonstancielles",
+    ruleContent: `
+      <p>Au niveau C2, le choix entre indicatif (mode du réel et du constat) et subjonctif (mode du virtuel, de l'éventuel et de l'appréciation) dépend de locutions conjonctives hautement nuancées :</p>
+      <ul>
+        <li><strong>Concession et restriction exigeant le subjonctif :</strong><br>
+        <i>Nonobstant que, bien que, encore que, si tant est que, soit que... soit que, loin que</i>.<br>
+        Ex: <i>Si tant est que cette hypothèse <strong>puisse</strong> être confirmée ; Nonobstant qu'il <strong>eût</strong> été prévenu.</i></li>
+        <li><strong>La règle classique du temps après les locutions temporelles :</strong><br>
+        - <i>Avant que</i> (+ subjonctif, souvent accompagné d'un <i>ne</i> explétif) : <i>Avant qu'il ne <strong>vienne</strong></i>.<br>
+        - <i>Après que</i> (+ indicatif en norme académique classique, car l'action est accomplie et réelle) : <i>Après qu'il <strong>fut parti</strong></i> (et non *après qu'il soit parti).</li>
+        <li><strong>Locutions d'alternative ou de corrélation modale :</strong><br>
+        - <i>Selon que... ou que...</i> (+ indicatif) : <i>Selon qu'il <strong>pleut</strong> ou qu'il <strong>fait</strong> beau.</i><br>
+        - <i>Sans que</i> (+ subjonctif) : <i>Sans qu'on s'en <strong>aperçoive</strong>.</i></li>
+        <li><strong>Subordonnées relatives à nuance modale :</strong><br>
+        Le subjonctif s'emploie dans la relative après un superlatif relatif ou des expressions comme <i>le seul, l'unique, le premier</i> quand l'affirmation est soumise à caution : <i>C'est le seul témoin qui <strong>ait</strong> assisté à la scène</i>.</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-3-q1",
+        prompt: "Selon l'Académie française et la grammaire normative classique, quel mode doit régir la locution 'après que' ?",
+        question: "Selon l'Académie française et la grammaire normative classique, quel mode doit régir la locution 'après que' ?",
+        options: [
+          "L'indicatif (action accomplie, certaine et passée)",
+          "Le subjonctif présent exclusivement",
+          "Le subjonctif imparfait systématiquement",
+          "Le conditionnel passé de déférence"
+        ],
+        correct: 0,
+        explanation: "En français classique et soutenu, 'après que' régit l'indicatif car le fait s'est réalisé (antériorité accomplie) : 'Après qu'il a dîné' / 'Après qu'il eut parlé'."
+      },
+      {
+        id: "c2-3-q2",
+        prompt: "Complétez : '_____ qu'il ait formulé des réserves, le traité a été ratifié par le Parlement.'",
+        question: "Complétez : '_____ qu'il ait formulé des réserves, le traité a été ratifié par le Parlement.'",
+        options: [
+          "Encore",
+          "Puisque",
+          "Tandis",
+          "Attendu"
+        ],
+        correct: 0,
+        explanation: "'Encore que' régit le subjonctif ('ait formulé') avec le sens concessif de 'bien que' ou 'quoique'."
+      },
+      {
+        id: "c2-3-q3",
+        prompt: "Quelle phrase illustre l'emploi du subjonctif dicté par un superlatif relatif ?",
+        question: "Quelle phrase illustre l'emploi du subjonctif dicté par un superlatif relatif ?",
+        options: [
+          "C'est la plus belle partition que cet orchestre ait jamais interprétée.",
+          "C'est la partition que cet orchestre a interprétée hier soir.",
+          "Cet orchestre interprète remarquablement bien cette partition classique.",
+          "La partition la plus complexe a été jouée par le soliste invité."
+        ],
+        correct: 0,
+        explanation: "Après un superlatif ('la plus belle...'), la relative prend le subjonctif pour exprimer une appréciation subjective ou restrictive."
+      },
+      {
+        id: "c2-3-q4",
+        prompt: "Identifiez le bon mode : 'Si tant est que cette mesure _____ réalisable, elle demandera du temps.'",
+        question: "Identifiez le bon mode : 'Si tant est que cette mesure _____ réalisable, elle demandera du temps.'",
+        options: [
+          "soit",
+          "est",
+          "sera",
+          "serait"
+        ],
+        correct: 0,
+        explanation: "La locution restrictive 'si tant est que' exige formellement le subjonctif : 'si tant est que cette mesure soit réalisable'."
+      },
+      {
+        id: "c2-3-q5",
+        prompt: "Complétez selon la norme stricte : 'Les députés ont quitté l'hémicycle après que la séance _____ levée.'",
+        question: "Complétez selon la norme stricte : 'Les députés ont quitté l'hémicycle après que la séance _____ levée.'",
+        options: [
+          "eut été",
+          "ait été",
+          "soit",
+          "fût"
+        ],
+        correct: 0,
+        explanation: "Après un temps du passé, 'après que' exige l'indicatif (passé antérieur : 'eut été levée', et non le subjonctif 'ait été')."
+      },
+      {
+        id: "c2-3-q6",
+        prompt: "Quelle proposition exige l'indicatif et non le subjonctif ?",
+        question: "Quelle proposition exige l'indicatif et non le subjonctif ?",
+        options: [
+          "Suivant qu'il fait beau ou qu'il pleut",
+          "Nonobstant qu'il fasse froid",
+          "Pourvu qu'il vienne à l'heure",
+          "À moins qu'il ne parte tôt"
+        ],
+        correct: 0,
+        explanation: "'Suivant que' et 'selon que' introduisent une alternative réelle et se construisent avec l'indicatif."
+      }
+    ]
+  },
+  {
+    id: "c2-figures-style-rhetorique",
+    title: "C2.4 Rhétorique Avancée & Figures de Style Syntaxiques",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "stylistique",
+    ruleTitle: "Hypallage, Chiasme, Anacoluthe, Prétérition & Zeugme",
+    ruleContent: `
+      <p>Au niveau DALF C2, la maîtrise stylistique suppose d'analyser et de mobiliser des figures de construction et de rhétorique complexes :</p>
+      <ul>
+        <li><strong>Hypallage :</strong> Figure par laquelle on attribue à certains mots d'une phrase ce qui convient à d'autres mots de la même phrase (ex: <i>« Un vieillard en habits noirs et une canne silencieuse » ; « Il enfonça son chapeau d'un geste furieux dans la foule »</i>).</li>
+        <li><strong>Chiasme :</strong> Disposition symétrique et croisée d'éléments syntaxiques ou sémantiques selon le schéma AB / B'A' (ex: <i>« Il faut manger pour vivre et non pas vivre pour manger » ; « Des cadavres dessous et dessus des fantômes »</i> [Hugo]).</li>
+        <li><strong>Anacoluthe :</strong> Rupture volontaire de la construction syntaxique attendue, créant un effet de saisissement ou de trouble psychologique (ex: <i>« Le nez de Cléopâtre, s'il eût été plus court, toute la face de la terre aurait changé »</i> [Pascal]).</li>
+        <li><strong>Prétérition :</strong> Figure consistant à déclarer qu'on ne va pas parler d'une chose au moment même où on la mentionne expressément (ex: <i>« Je ne rappellerai pas ici les manquements répétés de notre adversaire... »</i>).</li>
+        <li><strong>Zeugme (ou attelage syntaxique) :</strong> Coordination de deux termes hétérogènes dont l'un est concret et l'autre abstrait sous la dépendance d'un seul verbe (ex: <i>« Il prit du ventre et de l'importance » ; « Elle est sortie en larmes et en imperméable »</i>).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-4-q1",
+        prompt: "Quelle figure de style est à l'œuvre dans la phrase : 'Les marchands comptaient leur or avec une balance avare' ?",
+        question: "Quelle figure de style est à l'œuvre dans la phrase : 'Les marchands comptaient leur or avec une balance avare' ?",
+        options: [
+          "Une hypallage (l'avarice est transférée du marchand à la balance)",
+          "Une anacoluthe",
+          "Une litote",
+          "Une tautologie"
+        ],
+        correct: 0,
+        explanation: "L'hypallage transfère le qualificatif 'avare' (propre au marchand) sur l'instrument inanimé 'la balance'."
+      },
+      {
+        id: "c2-4-q2",
+        prompt: "Identifiez le procédé rhétorique : 'Je ne m'attarderai pas sur les innombrables scandales qui ont entaché son mandat...'",
+        question: "Identifiez le procédé rhétorique : 'Je ne m'attarderai pas sur les innombrables scandales qui ont entaché son mandat...'",
+        options: [
+          "Une prétérition",
+          "Une antanaclase",
+          "Un chiasme",
+          "Une épanorthose"
+        ],
+        correct: 0,
+        explanation: "La prétérition consiste à prétendre taire un sujet afin de l'évoquer avec encore plus de force et de perfidie."
+      },
+      {
+        id: "c2-4-q3",
+        prompt: "Quelle phrase illustre un 'zeugme' (ou attelage syntaxique) remarquable ?",
+        question: "Quelle phrase illustre un 'zeugme' (ou attelage syntaxique) remarquable ?",
+        options: [
+          "Il a posé sa démission et son chapeau sur la table.",
+          "Il marchait lentement, sûrement, posément vers la tribune.",
+          "La liberté ou la mort, tel était le choix imposé.",
+          "Le ciel bleu contrastait avec l'océan turquoise."
+        ],
+        correct: 0,
+        explanation: "Le verbe 'poser' régit à la fois un élément abstrait ('sa démission') et un objet concret ('son chapeau'), créant un zeugme."
+      },
+      {
+        id: "c2-4-q4",
+        prompt: "Dans la célèbre maxime de Pascal : 'Le nez de Cléopâtre, s'il eût été plus court, toute la face de la terre aurait changé', quelle est la figure syntaxique ?",
+        question: "Dans la célèbre maxime de Pascal : 'Le nez de Cléopâtre, s'il eût été plus court, toute la face de la terre aurait changé', quelle est la figure syntaxique ?",
+        options: [
+          "Une anacoluthe (rupture de construction entre le sujet initial et la principale)",
+          "Un chiasme sémantique",
+          "Une redondance stylistique",
+          "Une prosopopée"
+        ],
+        correct: 0,
+        explanation: "'Le nez de Cléopâtre' est posé en tête sans recevoir de verbe dans la proposition qui suit, créant une anacoluthe célèbre."
+      },
+      {
+        id: "c2-4-q5",
+        prompt: "Quelle proposition présente une structure en chiasme parfaite (AB / BA) ?",
+        question: "Quelle proposition présente une structure en chiasme parfaite (AB / BA) ?",
+        options: [
+          "Ayant le feu pour père et pour mère la cendre.",
+          "Le soleil brillait et la mer scintillait sous ses rayons.",
+          "Il est venu, il s'est assis et il a commencé à parler.",
+          "Toujours aimer, toujours souffrir, toujours mourir."
+        ],
+        correct: 0,
+        explanation: "On observe le croisement : 'le feu' (A) / 'pour père' (B) // 'pour mère' (B') / 'la cendre' (A')."
+      },
+      {
+        id: "c2-4-q6",
+        prompt: "Quel est le but argumentatif d'une prétérition dans un discours de plaidoyer ?",
+        question: "Quel est le but argumentatif d'une prétérition dans un discours de plaidoyer ?",
+        options: [
+          "Piquer la curiosité de l'auditoire tout en paraissant noblement impartial.",
+          "Avouer son ignorance sur les faits reprochés.",
+          "Céder la parole à la défense adverse.",
+          "Raccourcir la durée légale du procès."
+        ],
+        correct: 0,
+        explanation: "La prétérition feint la modération tout en imprimant l'accusation dans l'esprit des juges ou du public."
+      }
+    ]
+  },
+  {
+    id: "c2-verbes-defectifs-rares-litteraires",
+    title: "C2.5 Verbes Défectifs Rares, Archaïsmes & Formes Littéraires",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "conjugaison",
+    ruleTitle: "Conjugaison Littéraire Rare : Poindre, Férir, Bayer, Bruire, Gésir",
+    ruleContent: `
+      <p>La littérature classique et les épreuves de haut vol du DALF C2 mobilisent un lexique verbal rare dont la morphologie défective ou archaïque défie les régularités usuelles :</p>
+      <ul>
+        <li><strong>Poindre :</strong> Ne s'emploie qu'à l'infinitif et aux 3es personnes du singulier et du pluriel du présent et du futur (<i>le jour point, l'herbe point, l'aube poindra</i>). Participe présent : <i>poignant</i> (devenu adjectif).</li>
+        <li><strong>Férir :</strong> Infinitif survivant dans l'expression figée <i>« sans coup férir »</i> (sans livrer combat, sans difficulté). Participe passé : <i>féru</i> (passionné de quelque chose).</li>
+        <li><strong>Bayer :</strong> Verbe régulier mais d'usage presque exclusivement figé dans la locution <i>« bayer aux corneilles »</i> (perdre son temps à regarder en l'air la bouche ouverte). À ne pas confondre avec <i>bâiller</i> (ouvrir la bouche par fatigue) ni <i>béer</i> (être grand ouvert, <i>bouche bée</i>).</li>
+        <li><strong>Bruire :</strong> S'emploie au présent (<i>le vent bruit, les feuilles bruissent</i>), à l'imparfait (<i>bruissait</i> ou <i>bruyait</i>) et au participe présent (<i>bruissant</i>).</li>
+        <li><strong>Gésir :</strong> Verbe défectif sans futur ni passé simple (<i>il gît, ils gisent, il gisait, gisant</i>).</li>
+        <li><strong>Braire :</strong> Ne s'emploie qu'à l'infinitif et aux 3es personnes : <i>l'âne brait, ils braient, il braira</i>.</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-5-q1",
+        prompt: "Que signifie exactement la locution historique 'sans coup férir' ?",
+        question: "Que signifie exactement la locution historique 'sans coup férir' ?",
+        options: [
+          "Sans avoir à livrer combat ni essuyer de résistance.",
+          "Sans se blesser avec une arme blanche.",
+          "En frappant de toutes ses forces sans avertissement.",
+          "Sans prononcer un seul mot pendant la bataille."
+        ],
+        correct: 0,
+        explanation: "'Sans coup férir' vient de l'ancien français férir (frapper) et signifie remporter un succès sans avoir à frapper aucun coup ni rencontrer d'obstacle."
+      },
+      {
+        id: "c2-5-q2",
+        prompt: "Choisissez la graphie exacte pour désigner l'action de rêvasser distraitement :",
+        question: "Choisissez la graphie exacte pour désigner l'action de rêvasser distraitement :",
+        options: [
+          "Bayer aux corneilles",
+          "Bâiller aux corneilles",
+          "Béer aux corneilles",
+          "Bailler aux corneilles"
+        ],
+        correct: 0,
+        explanation: "L'expression exacte s'écrit 'bayer aux corneilles' (du verbe bayer signifiant rester la bouche ouverte d'étonnement ou d'inaction)."
+      },
+      {
+        id: "c2-5-q3",
+        prompt: "Quelle forme conjuguée du verbe 'poindre' est morphologiquement correcte au présent de l'indicatif ?",
+        question: "Quelle forme conjuguée du verbe 'poindre' est morphologiquement correcte au présent de l'indicatif ?",
+        options: [
+          "L'aube point à l'horizon oriental.",
+          "L'aube poigne à l'horizon oriental.",
+          "L'aube poind à l'horizon oriental.",
+          "L'aube pointe à l'horizon oriental."
+        ],
+        correct: 0,
+        explanation: "Le verbe poindre fait 'il/elle point' à la 3e personne du singulier de l'indicatif présent."
+      },
+      {
+        id: "c2-5-q4",
+        prompt: "De quel verbe ancien dérive le participe passé 'féru' (passionné) ?",
+        question: "De quel verbe ancien dérive le participe passé 'féru' (passionné) ?",
+        options: [
+          "Férir (frapper, toucher au vif)",
+          "Férer",
+          "Féririser",
+          "Fermenter"
+        ],
+        correct: 0,
+        explanation: "'Féru' est le participe passé de l'ancien verbe férir : être féru de quelque chose signifiait à l'origine en avoir été frappé au cœur."
+      },
+      {
+        id: "c2-5-q5",
+        prompt: "Quelle forme conjuguée du verbe 'bruire' s'emploie à la 3e personne du singulier au présent ?",
+        question: "Quelle forme conjuguée du verbe 'bruire' s'emploie à la 3e personne du singulier au présent ?",
+        options: [
+          "La cascade bruit au loin dans la vallée.",
+          "La cascade bruie au loin dans la vallée.",
+          "La cascade bruite au loin dans la vallée.",
+          "La cascade bruisseau au loin dans la vallée."
+        ],
+        correct: 0,
+        explanation: "Au présent de l'indicatif, on dit : 'le vent bruit' (3e personne du singulier) et 'les feuilles bruissent' (3e personne du pluriel)."
+      },
+      {
+        id: "c2-5-q6",
+        prompt: "Parmi ces verbes, lequel est défectif et ne s'emploie qu'à l'infinitif et aux troisièmes personnes ?",
+        question: "Parmi ces verbes, lequel est défectif et ne s'emploie qu'à l'infinitif et aux troisièmes personnes ?",
+        options: [
+          "Braire",
+          "Boire",
+          "Bâtir",
+          "Broyer"
+        ],
+        correct: 0,
+        explanation: "'Braire' est un verbe défectif ne s'employant qu'aux troisièmes personnes : 'l'âne brait', 'ils braient', 'il braira'."
+      }
+    ]
+  },
+  {
+    id: "c2-polyphonie-discours-indirect-libre",
+    title: "C2.6 Polyphonie Énonciative & Discours Indirect Libre",
+    level: "⚫ Niveau C2",
+    levelCode: "C2",
+    category: "stylistique",
+    ruleTitle: "Le Discours Indirect Libre, la Modalisation Polyphonique et la Distanciation Ironique",
+    ruleContent: `
+      <p>L'analyse discursive au niveau DALF C2 exige de décoder les strates de voix et les points de vue au sein d'un énoncé apparemment unifié :</p>
+      <ul>
+        <li><strong>Le Discours Indirect Libre (DIL) :</strong> Caractéristique du grand roman moderne (Flaubert, Zola, Proust), il fusionne la voix du narrateur et les pensées intérieures du personnage :<br>
+        - Absence de verbe de parole introducteur et de mot subordonnant.<br>
+        - Maintien des temps du récit au passé (imparfait, conditionnel) et des pronoms de 3e personne.<br>
+        - Conservation des marques de l'oralité : exclamations, interrogations, déictiques temporels (<i>demain, hier</i>), modalisateurs affectifs.<br>
+        <i>Ex: « Elle regarda la lettre. Devait-elle lui répondre tout de suite ? Jamais elle n'aurait cru cela possible ! »</i></li>
+        <li><strong>La Polyphonie énonciative (théorie d'Oswald Ducrot) :</strong> Distinction entre le <i>locuteur</i> (l'instance physique qui prononce l'énoncé) et les <i>énonciateurs</i> (les voix ou perspectives idéologiques dont le locuteur se distancie ou qu'il cautionne).</li>
+        <li><strong>Modalisation critique et conditionnel épistémique :</strong> Emploi du conditionnel pour rapporter une information sans la valider (<i>« Le dirigeant aurait fui à l'étranger »</i>) ou d'adverbes de modalisation de second degré (<i>prétendument, à en croire X, selon toute vraisemblance</i>).</li>
+      </ul>
+    `,
+    questions: [
+      {
+        id: "c2-6-q1",
+        prompt: "Quelle caractéristique distingue formellement le discours indirect libre du discours indirect classique ?",
+        question: "Quelle caractéristique distingue formellement le discours indirect libre du discours indirect classique ?",
+        options: [
+          "L'absence de verbe introducteur de parole et de conjonction de subordination 'que'.",
+          "Le retour systématique aux pronoms de 1re personne 'je' et 'nous'.",
+          "L'emploi exclusif du présent de narration sans aucun temps du passé.",
+          "La présence obligatoire de guillemets français d'ouverture et de fermeture."
+        ],
+        correct: 0,
+        explanation: "Le discours indirect libre se passe de verbe régissant et de subordonnant tout en maintenant les pronoms de 3e personne et les temps du passé."
+      },
+      {
+        id: "c2-6-q2",
+        prompt: "Identifiez le passage rédigé au discours indirect libre :",
+        question: "Identifiez le passage rédigé au discours indirect libre :",
+        options: [
+          "Il arpenta la pièce avec anxiété. Que faire maintenant ? Était-il vraiment responsable de cette faillite ? Non, il ne céderait pas !",
+          "Il arpenta la pièce en disant : « Que dois-je faire maintenant ? Je ne céderai pas ! »",
+          "Il arpenta la pièce et se demanda ce qu'il devait faire et affirma qu'il ne céderait pas.",
+          "Il arpenta la pièce, silencieux et pensif, observant les tableaux accrochés aux murs."
+        ],
+        correct: 0,
+        explanation: "Les questions directes et exclamations conservées à la 3e personne avec imparfait/conditionnel sans verbe déclaratif caractérisent le discours indirect libre."
+      },
+      {
+        id: "c2-6-q3",
+        prompt: "En théorie pragmatique de l'énonciation (O. Ducrot), quelle est la fonction du 'conditionnel journalistique' ?",
+        question: "En théorie pragmatique de l'énonciation (O. Ducrot), quelle est la fonction du 'conditionnel journalistique' ?",
+        options: [
+          "Instaurer une dissociation polyphonique en refusant d'endosser la véracité de l'information rapportée.",
+          "Exprimer une politesse solennelle envers les protagonistes du scandale.",
+          "Traduire un regret personnel du journaliste quant aux événements relatés.",
+          "Conjuguer au futur un fait scientifique indéniable."
+        ],
+        correct: 0,
+        explanation: "Le conditionnel journalistique est un marqueur polyphonique de mise à distance : le locuteur cite une voix tierce sans prendre à sa charge la vérité du propos."
+      },
+      {
+        id: "c2-6-q4",
+        prompt: "Quel auteur du XIXe siècle a érigé le discours indirect libre en instrument magistral d'ironie romanesque ?",
+        question: "Quel auteur du XIXe siècle a érigé le discours indirect libre en instrument magistral d'ironie romanesque ?",
+        options: [
+          "Gustave Flaubert (notamment dans Madame Bovary et L'Éducation sentimentale)",
+          "Honoré de Balzac dans Le Père Goriot",
+          "Victor Hugo dans Les Misérables",
+          "Stendhal dans Le Rouge et le Noir"
+        ],
+        correct: 0,
+        explanation: "Gustave Flaubert est reconnu par la critique littéraire pour son maniement virtuose et subversif du discours indirect libre."
+      },
+      {
+        id: "c2-6-q5",
+        prompt: "Quel mot ou locution joue le rôle de modalisateur d'ironie polyphonique dans un article d'opinion ?",
+        question: "Quel mot ou locution joue le rôle de modalisateur d'ironie polyphonique dans un article d'opinion ?",
+        options: [
+          "Soi-disant",
+          "Assurément",
+          "Incontestablement",
+          "Scientifiquement"
+        ],
+        correct: 0,
+        explanation: "'Soi-disant' signale explicitement que le locuteur ne valide pas la prétention de l'énonciateur d'origine."
+      },
+      {
+        id: "c2-6-q6",
+        prompt: "Dans un commentaire littéraire de niveau C2, comment analyse-t-on l'effet d'un glissement du récit vers le discours indirect libre ?",
+        question: "Dans un commentaire littéraire de niveau C2, comment analyse-t-on l'effet d'un glissement du récit vers le discours indirect libre ?",
+        options: [
+          "Une plongée empathique et intime dans la conscience du personnage, souvent teintée d'ironie narrative.",
+          "Une rupture technique due à une maladresse de composition de l'écrivain.",
+          "Une obligation imposée par la censure d'époque pour masquer l'identité du narrateur.",
+          "Une simple technique d'économie d'espace pour raccourcir le manuscrit."
+        ],
+        correct: 0,
+        explanation: "Le DIL permet au lecteur de fusionner avec la conscience du personnage tout en maintenant le recul critique ou ironique du narrateur."
+      }
+    ]
   }
 ];
+
+if (typeof window !== 'undefined' && window.conjugaisonDataset) {
+  Object.keys(window.conjugaisonDataset).forEach(function(tenseKey) {
+    var lesson = window.conjugaisonDataset[tenseKey];
+    if (lesson && !window.grammarDataset.some(function(l) { return l.id === lesson.id; })) {
+      window.grammarDataset.push(lesson);
+    }
+  });
+}
+

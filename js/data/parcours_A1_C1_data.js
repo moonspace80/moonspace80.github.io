@@ -1779,28 +1779,28 @@ window.parcours_A1_C1_Dataset = {
               "id": "a1_ch1_bonjour",
               "fr": "Bonjour",
               "en": "Hello / Good morning",
-              "jp": "こんにちは (konnichiwa)",
+              "jp": "こんにちは",
               "cn": "你好 (nǐ hǎo)"
             },
             {
               "id": "a1_ch1_enchante",
               "fr": "Enchanté(e)",
               "en": "Nice to meet you",
-              "jp": "はじめまして (hajimemashite)",
+              "jp": "はじめまして",
               "cn": "很高兴认识你 (hěn gāoxìng rènshi nǐ)"
             },
             {
               "id": "a1_ch1_aurevoir",
               "fr": "Au revoir",
               "en": "Goodbye",
-              "jp": "さようなら (sayōnara)",
+              "jp": "さようなら",
               "cn": "再见 (zàijiàn)"
             },
             {
               "id": "a1_ch1_merci",
               "fr": "Merci",
               "en": "Thank you",
-              "jp": "ありがとう (arigatō)",
+              "jp": "ありがとう",
               "cn": "谢谢 (xièxie)"
             }
           ]

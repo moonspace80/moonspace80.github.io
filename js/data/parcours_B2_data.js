@@ -181,7 +181,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q2"
+    "grammarLessonId": "b2-articulateurs-complexes"
   },
   {
     "chapterId": "chap_49",
@@ -297,28 +297,28 @@ window.parcours_B2_Dataset = [
                 "id": "s1",
                 "fr": "Il est impératif que",
                 "en": "It is imperative that",
-                "jp": "〜することが不可欠である (suru koto ga fukaketsu de aru)",
+                "jp": "〜することが不可欠である (〜することがふかけつである)",
                 "cn": "势在必行 (shìzàibìxíng)"
               },
               {
                 "id": "s2",
                 "fr": "Bien qu'il sache",
                 "en": "Although he knows",
-                "jp": "知っているにもかかわらず (shitte iru ni mo kakawarazu)",
+                "jp": "知っているにもかかわらず (しっているにもかかわらず)",
                 "cn": "尽管他知晓 (jǐnguǎn tā zhīxiǎo)"
               },
               {
                 "id": "s3",
                 "fr": "Je doute qu'elle vienne",
                 "en": "I doubt she will come",
-                "jp": "彼女が来るとは思えない (kanojo ga kuru to wa omoenai)",
+                "jp": "彼女が来るとは思えない (かのじょがくるとはおもえない)",
                 "cn": "我怀疑她是否会来 (wǒ huáiyí tā shìfǒu huì lái)"
               },
               {
                 "id": "s4",
                 "fr": "Pourvu que nous soyons",
                 "en": "Provided that we are",
-                "jp": "私たちが〜でありさえすれば (watashitachi ga deari sae sureba)",
+                "jp": "私たちが〜でありさえすれば (わたしたちが〜でありさえすれば)",
                 "cn": "只要我们 (zhǐyào wǒmen)"
               }
             ]
@@ -510,7 +510,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q3"
+    "grammarLessonId": "b2-discours-indirect-passe"
   },
   {
     "chapterId": "chap_51",
@@ -695,7 +695,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q4"
+    "grammarLessonId": "b2-hypothese-passe-regret"
   },
   {
     "chapterId": "chap_52",
@@ -766,7 +766,7 @@ window.parcours_B2_Dataset = [
           {
             "type": "quiz_drill",
             "title": "Étape 4 : Système hypothétique complexe dans le passé",
-            "question": "Complétez l'argumentation : « Si les pouvoirs publics [...] à temps cette crise immobilière, les ménages ne [...] pas de telles difficultés de logement. »",
+            "question": "Complétez l'argumentation : « Si les pouvoirs publics [...] à temps cette crise immobilière, les ménages n' [...] pas de telles difficultés de logement. »",
             "options": [
               "avaient régulé / n'auraient pas subi",
               "auraient régulé / n'avaient pas subi",
@@ -811,28 +811,28 @@ window.parcours_B2_Dataset = [
                 "id": "c1",
                 "fr": "Il conviendrait de",
                 "en": "It would be advisable to",
-                "jp": "〜することが望ましい (suru koto ga nozomashii)",
+                "jp": "〜することが望ましい (〜することがのぞましい)",
                 "cn": "理应 (lǐyīng)"
               },
               {
                 "id": "c2",
                 "fr": "Nous aurions souhaité",
                 "en": "We would have wished",
-                "jp": "私たちは望んでいたのだが (watashitachi wa nozonde ita no da ga)",
+                "jp": "私たちは望んでいたのだが (わたしたちはのぞんでいたのだが)",
                 "cn": "我们本希望 (wǒmen běn xīwàng)"
               },
               {
                 "id": "c3",
                 "fr": "Selon toute vraisemblance",
                 "en": "In all likelihood",
-                "jp": "十中文中 (jūchūhakku)",
+                "jp": "十中八九 (じっちゅうはっく)",
                 "cn": "十之八九 (shízhībājiǔ)"
               },
               {
                 "id": "c4",
                 "fr": "Vous auriez pu nous dire",
                 "en": "You could have told us",
-                "jp": "教えてくれてもよかったのに (oshiete kurete mo yokatta no ni)",
+                "jp": "教えてくれてもよかったのに (おしえてくれてもよかったのに)",
                 "cn": "你本可以告诉我们 (nǐ běn kěyǐ gàosù wǒmen)"
               }
             ]
@@ -1023,7 +1023,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q5"
+    "grammarLessonId": "b2-restriction-mise-en-relief"
   },
   {
     "chapterId": "chap_54",
@@ -1234,7 +1234,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-5-q3"
+    "grammarLessonId": "b2-participe-present-adjectif-verbal"
   },
   {
     "chapterId": "chap_55",
@@ -1350,28 +1350,28 @@ window.parcours_B2_Dataset = [
                 "id": "f1",
                 "fr": "Aussitôt que nous aurons fini",
                 "en": "As soon as we have finished",
-                "jp": "私たちが終え次第 (watashitachi ga oe shidai)",
+                "jp": "私たちが終え次第 (わたしたちがおえしだい)",
                 "cn": "一旦我们完成 (yídàn wǒmen wánchéng)"
               },
               {
                 "id": "f2",
                 "fr": "D'ici la fin du mois",
                 "en": "By the end of the month",
-                "jp": "今月末までに (kongetsumatsu made ni)",
+                "jp": "今月末までに (こんげつまつまでに)",
                 "cn": "到本月底 (dào běnyuè dǐ)"
               },
               {
                 "id": "f3",
                 "fr": "Il aura sans doute oublié",
                 "en": "He probably forgot",
-                "jp": "彼は忘れてしまったのだろう (kare wa wasurete shimatta no darō)",
+                "jp": "彼は忘れてしまったのだろう (かれはわすれてしまったのだろう)",
                 "cn": "他大概忘记了 (tā dàgài wàngjì le)"
               },
               {
                 "id": "f4",
                 "fr": "Lorsque tout sera prêt",
                 "en": "When everything is ready",
-                "jp": "すべてが整ったときに (subete ga totonotta toki ni)",
+                "jp": "すべてが整ったときに (すべてがととのったときに)",
                 "cn": "当一切准备就绪时 (dāng yíqiè zhǔnbèi jiùxù shí)"
               }
             ]
@@ -1627,7 +1627,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-5-q4"
+    "grammarLessonId": "b2-subjonctif-passe"
   },
   {
     "chapterId": "chap_57",
@@ -1838,7 +1838,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-5-q5"
+    "grammarLessonId": "b2-conditionnel-passe"
   },
   {
     "chapterId": "chap_58",
@@ -2246,49 +2246,49 @@ window.parcours_B2_Dataset = [
                 "id": "patrimoine",
                 "fr": "Patrimoine",
                 "en": "Heritage / cultural legacy",
-                "jp": "文化遺産・遺産 (bunkaisan)",
+                "jp": "文化遺産・遺産 (ぶんかいさん・いさん)",
                 "cn": "文化遗产 / 遗产 (yíchǎn)"
               },
               {
                 "id": "preservation",
                 "fr": "Préservation",
                 "en": "Preservation / conservation",
-                "jp": "保存・保護 (hozon / hogo)",
+                "jp": "保存・保護 (ほぞん / ほご)",
                 "cn": "保护 / 保存 (bǎohù)"
               },
               {
                 "id": "transmission",
                 "fr": "Transmission",
                 "en": "Transmission / passing on",
-                "jp": "継承・伝承 (keishō / denshō)",
+                "jp": "継承・伝承 (けいしょう / でんしょう)",
                 "cn": "传承 / 传授 (chuánchéng)"
               },
               {
                 "id": "mecenat",
                 "fr": "Mécénat",
                 "en": "Patronage / cultural sponsorship",
-                "jp": "文化支援・メセナ (mesena)",
+                "jp": "文化支援・メセナ (ぶんかしえん・めせな)",
                 "cn": "赞助 / 资助 (zànzhù)"
               },
               {
                 "id": "restauration",
                 "fr": "Restauration",
                 "en": "Restoration of artworks",
-                "jp": "修復・復元 (shūfuku / fukugen)",
+                "jp": "修復・復元 (しゅうふく / ふくげん)",
                 "cn": "修复 / 还原 (xiūfù)"
               },
               {
                 "id": "museographie",
                 "fr": "Muséographie",
                 "en": "Museography / exhibit design",
-                "jp": "博物館学・展示法 (tenjihō)",
+                "jp": "博物館学・展示法 (はくぶつかんがく・てんじほう)",
                 "cn": "博物馆学 / 展陈设计 (zhǎnchén)"
               },
               {
                 "id": "inalienable",
                 "fr": "Inaliénable",
                 "en": "Inalienable / non-transferable",
-                "jp": "譲渡不能の・不可分な (jōtofuhō)",
+                "jp": "譲渡不能の・不可分な (じょうとふのうの・ふかぶんな)",
                 "cn": "不可剥夺的 / 不可转让的 (bùkě zhuǎnràng)"
               },
               {
@@ -2302,14 +2302,14 @@ window.parcours_B2_Dataset = [
                 "id": "vestige",
                 "fr": "Vestige",
                 "en": "Remains / relic of the past",
-                "jp": "遺跡・名残・遺構 (iseki / nagori)",
+                "jp": "遺跡・名残・遺構 (いせき・なごり・いこう)",
                 "cn": "遗迹 / 残留 (yíjī)"
               },
               {
                 "id": "venerable",
                 "fr": "Vénérable",
                 "en": "Venerable / time-honored",
-                "jp": "由緒ある・尊ぶべき (yūshoaru)",
+                "jp": "由緒ある・尊ぶべき (ゆいしょある・とうとぶべき)",
                 "cn": "崇高的 / 历史悠久的 (yōujiǔ)"
               }
             ]
@@ -2317,7 +2317,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-5-q6"
+    "grammarLessonId": "b2-indicatif-ou-subjonctif"
   },
   {
     "chapterId": "chap_59",
@@ -2691,21 +2691,21 @@ window.parcours_B2_Dataset = [
                 "id": "alchimie",
                 "fr": "Alchimie",
                 "en": "Alchemy / magical fusion",
-                "jp": "錬金術・奇跡の調和 (renkinjutsu)",
+                "jp": "錬金術・奇跡の調和 (れんきんじゅつ・きせきのちょうわ)",
                 "cn": "炼金术 / 奇妙融合 (liànjīnshù)"
               },
               {
                 "id": "chute",
                 "fr": "Chute (de tissu)",
                 "en": "Fabric scrap / offcut",
-                "jp": "端切れ・余り布 (hagire / amarigire)",
+                "jp": "端切れ・余り布 (はぎれ・あまりぎれ)",
                 "cn": "碎布 / 边角料 (suìbù)"
               },
               {
                 "id": "etoffe",
                 "fr": "Étoffe",
                 "en": "Fabric / material / cloth",
-                "jp": "織物・布地 (orimono / nunoji)",
+                "jp": "織物・布地 (おりもの・ぬのじ)",
                 "cn": "织物 / 布料 (zhīwù / bùliào)"
               },
               {
@@ -2719,7 +2719,7 @@ window.parcours_B2_Dataset = [
                 "id": "gabarit",
                 "fr": "Gabarit",
                 "en": "Template / stencil pattern",
-                "jp": "型紙・テンプレート (katagami)",
+                "jp": "型紙・テンプレート (かたがみ・てんぷれーと)",
                 "cn": "样板 / 纸样 (yàngbǎn)"
               },
               {
@@ -2740,14 +2740,14 @@ window.parcours_B2_Dataset = [
                 "id": "molleton",
                 "fr": "Molleton",
                 "en": "Batting / fleece padding",
-                "jp": "キルト芯・中綿 (kirutoshin)",
+                "jp": "キルト芯・中綿 (きるとしん・なかわた)",
                 "cn": "衬棉 / 铺棉 (pūmián)"
               },
               {
                 "id": "surpiqure",
                 "fr": "Surpiqûre",
                 "en": "Topstitching / decorative stitch",
-                "jp": "ステッチ・飾り縫い (sutetchi)",
+                "jp": "ステッチ・飾り縫い (すてっち・かざりぬい)",
                 "cn": "明线 / 饰缝 (míngxiàn)"
               },
               {
@@ -2849,28 +2849,28 @@ window.parcours_B2_Dataset = [
                 "id": "rp1",
                 "fr": "Se sont succédé",
                 "en": "Succeeded each other",
-                "jp": "相次いだ (aitsuida)",
+                "jp": "相次いだ (あいついだ)",
                 "cn": "相继 (xiāngjì)"
               },
               {
                 "id": "rp2",
                 "fr": "Après'avoir statué",
                 "en": "After having ruled",
-                "jp": "裁定を下した後に (saitei o kudashita nochi ni)",
+                "jp": "裁定を下した後に (さいていをくだしたのちに)",
                 "cn": "在作出裁决之后 (zài zuòchū cáijué zhīhòu)"
               },
               {
                 "id": "rp3",
                 "fr": "Était déjà survenu",
                 "en": "Had already occurred",
-                "jp": "すでに起きていた (sude ni okite ita)",
+                "jp": "すでに起きていた (すでにおきていた)",
                 "cn": "此前已经发生 (cǐqián yǐjīng fāshēng)"
               },
               {
                 "id": "rp4",
                 "fr": "À ce moment précis",
                 "en": "At that precise moment",
-                "jp": "まさにその瞬間に (masa ni sono shunkan ni)",
+                "jp": "まさにその瞬間に (まさにそのしゅんかんに)",
                 "cn": "就在那一刻 (jiù zài nà yí kè)"
               }
             ]
@@ -2962,7 +2962,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-negation-simple"
+    "grammarLessonId": "b2-restriction-mise-en-relief"
   },
   {
     "chapterId": "chap_62",
@@ -3047,7 +3047,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q1"
+    "grammarLessonId": "b2-orthographe-accords-pronominaux-couleurs"
   },
   {
     "chapterId": "chap_63",
@@ -3109,7 +3109,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q2"
+    "grammarLessonId": "b2-articulateurs-complexes"
   },
   {
     "chapterId": "chap_64",
@@ -3194,7 +3194,7 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q3"
+    "grammarLessonId": "b2-discours-indirect-passe"
   },
   {
     "chapterId": "chap_65",
@@ -3281,28 +3281,28 @@ window.parcours_B2_Dataset = [
                 "id": "rg1",
                 "fr": "Tout en reconnaissant",
                 "en": "While acknowledging",
-                "jp": "認めつつも (mitometsutsu mo)",
+                "jp": "認めつつも (みとめつつも)",
                 "cn": "在承认的同时 (zài chéngrèn de tóngshí)"
               },
               {
                 "id": "rg2",
                 "fr": "Arguments convaincants",
                 "en": "Convincing arguments",
-                "jp": "説得力のある議論 (settokuryoku no aru giron)",
+                "jp": "説得力のある議論 (せっとくりょくのあるぎろん)",
                 "cn": "有说服力的论据 (yǒu shuōfúlì de lùnjù)"
               },
               {
                 "id": "rg3",
                 "fr": "Négligeant ses devoirs",
                 "en": "Neglecting his duties",
-                "jp": "義務を怠りながら (gimu o okotarinagara)",
+                "jp": "義務を怠りながら (ぎむをおこたりながら)",
                 "cn": "忽视其职责 (hūshì qí zhízé)"
               },
               {
                 "id": "rg4",
                 "fr": "En s'abstenant",
                 "en": "By abstaining",
-                "jp": "棄権することによって (kiken suru koto ni yotte)",
+                "jp": "棄権することによって (きけんすることによって)",
                 "cn": "通过弃权 (tōngguò qìquán)"
               }
             ]
@@ -3371,6 +3371,6 @@ window.parcours_B2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-6-q4"
+    "grammarLessonId": "b2-hypothese-passe-regret"
   }
 ];

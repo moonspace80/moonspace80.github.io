@@ -29,27 +29,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Médiation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médiation de savoirs complexes » au niveau C2.",
-                "example": "Dans l'analyse de « Médiation de savoirs complexes », la notion de « médiation » est centrale."
+                "type": "n. f.",
+                "def": "Activité consistant à articuler et rendre intelligibles des concepts théoriques ardus sans en dénaturer la rigueur épistémique.",
+                "example": "La médiation scientifique exige une fidélité absolue aux faits couplée à une clarté pédagogique limpide."
               },
               {
                 "word": "Vulgarisation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médiation de savoirs complexes » au niveau C2.",
-                "example": "Dans l'analyse de « Médiation de savoirs complexes », la notion de « vulgarisation » est centrale."
+                "type": "n. f.",
+                "def": "Transposition didactique d'un savoir ésotérique ou hautement technique à destination du grand public cultivé.",
+                "example": "Loin de tout simplisme réducteur, la haute vulgarisation éclaire les arcanes de la recherche contemporaine."
               },
               {
                 "word": "Transfert",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médiation de savoirs complexes » au niveau C2.",
-                "example": "Dans l'analyse de « Médiation de savoirs complexes », la notion de « transfert » est centrale."
+                "type": "n. m.",
+                "def": "Passage opérationnel des découvertes fondamentales vers les applications technologiques, sociales ou culturelles.",
+                "example": "Le transfert de technologies vers les pays émergents constitue un levier déterminant d'émancipation partagée."
               },
               {
                 "word": "Destinataire",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Médiation de savoirs complexes » au niveau C2.",
-                "example": "Dans l'analyse de « Médiation de savoirs complexes », la notion de « destinataire » est centrale."
+                "type": "n. m.",
+                "def": "Interlocuteur ou public cible dont l'horizon d'attente commande l'adaptation stylistique et conceptuelle du discours.",
+                "example": "L'orateur avisé calibre le niveau d'abstraction de sa thèse en fonction de son destinataire."
               }
             ]
           },
@@ -82,7 +82,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-articles"
+    "grammarLessonId": "c2-virtuosite-dialectique-periodes"
   },
   {
     "chapterId": "chap_81",
@@ -114,27 +114,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Dilemme",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éthique des sociétés contemporaines » au niveau C2.",
-                "example": "Dans l'analyse de « Éthique des sociétés contemporaines », la notion de « dilemme » est centrale."
+                "type": "n. m.",
+                "def": "Situation aporétique contraignant à choisir entre deux options éthiques également impératives mais contradictoires.",
+                "example": "Le dilemme cornélien entre secret médical et devoir d'alerte taraude la conscience du clinicien."
               },
               {
                 "word": "Équité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éthique des sociétés contemporaines » au niveau C2.",
-                "example": "Dans l'analyse de « Éthique des sociétés contemporaines », la notion de « équité » est centrale."
+                "type": "n. f.",
+                "def": "Principe de justice distributive qui adapte l'application de la règle générale aux singularités et vulnérabilités de chaque situation.",
+                "example": "L'équité commande que l'on traite différemment des situations fondamentalement inégales."
               },
               {
                 "word": "Normativité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éthique des sociétés contemporaines » au niveau C2.",
-                "example": "Dans l'analyse de « Éthique des sociétés contemporaines », la notion de « normativité » est centrale."
+                "type": "n. f.",
+                "def": "Caractère de ce qui édicte des règles de conduite et prescrit des valeurs au sein d'un ordre juridique ou moral.",
+                "example": "La normativité des chartes déontologiques supplée souvent la carence des législations nationales."
               },
               {
                 "word": "Justice",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Éthique des sociétés contemporaines » au niveau C2.",
-                "example": "Dans l'analyse de « Éthique des sociétés contemporaines », la notion de « justice » est centrale."
+                "type": "n. f.",
+                "def": "Idéal philosophique et institutionnel attribuant à chaque citoyen ce qui lui revient de droit dans le respect de la dignité humaine.",
+                "example": "Une société démocratique ne saurait confondre légalité formelle et idéal supérieur de justice."
               }
             ]
           },
@@ -167,7 +167,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q1"
+    "grammarLessonId": "c2-locutions-conjonctives-nuances-modales"
   },
   {
     "chapterId": "chap_82",
@@ -199,27 +199,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Chaîne de valeur",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie politique et mondialisation » au niveau C2.",
-                "example": "Dans l'analyse de « Économie politique et mondialisation », la notion de « chaîne de valeur » est centrale."
+                "type": "loc. nom. f.",
+                "def": "Fragmentation internationale et succession articulée des activités productives concourant à la genèse d'un bien manufacturé.",
+                "example": "La reconfiguration des chaînes de valeur mondiales répond à un impératif stratégique de souveraineté industrielle."
               },
               {
                 "word": "Souveraineté",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie politique et mondialisation » au niveau C2.",
-                "example": "Dans l'analyse de « Économie politique et mondialisation », la notion de « souveraineté » est centrale."
+                "type": "n. f.",
+                "def": "Capacité d'un État ou d'une communauté politique à décider librement de son destin économique et géopolitique sans assujettissement extérieur.",
+                "example": "La souveraineté monétaire demeure la pierre angulaire de toute politique de relance macroéconomique."
               },
               {
                 "word": "Interdépendance",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie politique et mondialisation » au niveau C2.",
-                "example": "Dans l'analyse de « Économie politique et mondialisation », la notion de « interdépendance » est centrale."
+                "type": "n. f.",
+                "def": "Réciprocité des sujétions économiques et financières qui lie les nations au sein du système productif mondialisé.",
+                "example": "L'interdépendance énergétique contraint les diplomaties à composer avec des régimes autoritaires."
               },
               {
                 "word": "Redistribution",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Économie politique et mondialisation » au niveau C2.",
-                "example": "Dans l'analyse de « Économie politique et mondialisation », la notion de « redistribution » est centrale."
+                "type": "n. f.",
+                "def": "Mécanisme fiscal et social visant à corriger les disparités de revenus générées par le libre jeu des marchés.",
+                "example": "Une redistribution progressive de la rente fiscale prévient l'effilochement du tissu civique."
               }
             ]
           },
@@ -252,7 +252,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q2"
+    "grammarLessonId": "c2-virtuosite-dialectique-periodes"
   },
   {
     "chapterId": "chap_83",
@@ -284,27 +284,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Objectivité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Connaissance, vérité et incertitude » au niveau C2.",
-                "example": "Dans l'analyse de « Connaissance, vérité et incertitude », la notion de « objectivité » est centrale."
+                "type": "n. f.",
+                "def": "Disposition épistémique visant à observer le réel indépendamment des préjugés, émotions ou biais cognitifs du sujet connaissant.",
+                "example": "L'objectivité scientifique n'est pas neutralité passive, mais conquête méthodique contre ses propres certitudes."
               },
               {
                 "word": "Preuve",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Connaissance, vérité et incertitude » au niveau C2.",
-                "example": "Dans l'analyse de « Connaissance, vérité et incertitude », la notion de « preuve » est centrale."
+                "type": "n. f.",
+                "def": "Démonstration irréfutable ou faisceau convergent d'indices matériels établissant la véracité incontestable d'un fait.",
+                "example": "La charge de la preuve incombe à celui qui postule une rupture radicale avec le consensus établi."
               },
               {
                 "word": "Incertitude",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Connaissance, vérité et incertitude » au niveau C2.",
-                "example": "Dans l'analyse de « Connaissance, vérité et incertitude », la notion de « incertitude » est centrale."
+                "type": "n. f.",
+                "def": "État d'incomplétude cognitive où la multiplicité des variables aléatoires interdit toute prédiction déterministe.",
+                "example": "Gouverner sous le sceau de l'incertitude requiert une éthique de la prudence et une humilité intellectuelle."
               },
               {
                 "word": "Interprétation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Connaissance, vérité et incertitude » au niveau C2.",
-                "example": "Dans l'analyse de « Connaissance, vérité et incertitude », la notion de « interprétation » est centrale."
+                "type": "n. f.",
+                "def": "Opération herméneutique consistant à attribuer une signification intelligible et contextuelle à un texte, un phénomène ou un signe.",
+                "example": "L'interprétation historienne réinsère l'événement singulier dans la longue durée des mentalités."
               }
             ]
           },
@@ -337,7 +337,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q3"
+    "grammarLessonId": "c2-accords-haute-volee-exceptions"
   },
   {
     "chapterId": "chap_84",
@@ -369,27 +369,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Automatisation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Technologies, données et humanité » au niveau C2.",
-                "example": "Dans l'analyse de « Technologies, données et humanité », la notion de « automatisation » est centrale."
+                "type": "n. f.",
+                "def": "Substitution d'algorithmes et de dispositifs cybernétiques aux processus décisionnels et opératoires accomplis par l'humain.",
+                "example": "L'automatisation outrancière des tâches cognitives risque d'atrophier le jugement réflexif des praticiens."
               },
               {
                 "word": "Traçabilité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Technologies, données et humanité » au niveau C2.",
-                "example": "Dans l'analyse de « Technologies, données et humanité », la notion de « traçabilité » est centrale."
+                "type": "n. f.",
+                "def": "Possibilité technique de reconstituer l'historique complet, l'utilisation ou la localisation d'une donnée tout au long de son cycle de vie.",
+                "example": "La traçabilité algorithmique garantit l'auditabilité des décisions automatisées de justice prédictive."
               },
               {
                 "word": "Surveillance",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Technologies, données et humanité » au niveau C2.",
-                "example": "Dans l'analyse de « Technologies, données et humanité », la notion de « surveillance » est centrale."
+                "type": "n. f.",
+                "def": "Dispositif panoptique de captation et d'analyse permanente des comportements individuels et collectifs à des fins de contrôle social.",
+                "example": "Le capitalisme de surveillance mercantilise l'intimité humaine pour modeler les désirs électoraux et consuméristes."
               },
               {
                 "word": "Identité numérique",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Technologies, données et humanité » au niveau C2.",
-                "example": "Dans l'analyse de « Technologies, données et humanité », la notion de « identité numérique » est centrale."
+                "type": "loc. nom. f.",
+                "def": "Agrégat composite des données biométriques, empreintes électroniques et métadonnées configurant l'être-au-monde virtuel d'un individu.",
+                "example": "La protection souveraine de l'identité numérique prémunit le citoyen contre l'usurpation d'État et le profilage abusif."
               }
             ]
           },
@@ -422,7 +422,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q4"
+    "grammarLessonId": "c2-locutions-conjonctives-nuances-modales"
   },
   {
     "chapterId": "chap_85",
@@ -454,27 +454,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Anthropocène",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Climat, vivant et générations futures » au niveau C2.",
-                "example": "Dans l'analyse de « Climat, vivant et générations futures », la notion de « anthropocène » est centrale."
+                "type": "n. m.",
+                "def": "Époque géologique contemporaine caractérisée par l'empreinte prépondérante et délétère des activités humaines sur la biosphère.",
+                "example": "L'entrée dans l'Anthropocène enjoint l'humanité de repenser ses catégories juridiques à l'aune du système Terre."
               },
               {
                 "word": "Irréversibilité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Climat, vivant et générations futures » au niveau C2.",
-                "example": "Dans l'analyse de « Climat, vivant et générations futures », la notion de « irréversibilité » est centrale."
+                "type": "n. f.",
+                "def": "Propriété d'un bouleversement écologique dont l'amplitude interdit tout retour à l'état d'équilibre antérieur.",
+                "example": "L'extinction massive des pollinisateurs constitue une tragédie d'une irréversibilité consommée."
               },
               {
                 "word": "Régénération",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Climat, vivant et générations futures » au niveau C2.",
-                "example": "Dans l'analyse de « Climat, vivant et générations futures », la notion de « régénération » est centrale."
+                "type": "n. f.",
+                "def": "Capacité intrinsèque d'un écosystème à restaurer ses fonctionnalités vitales et sa biodiversité lorsqu'il est soustrait à la prédation.",
+                "example": "La régénération naturelle des forêts primaires surpasse en résilience tous les reboisements artificiels."
               },
               {
                 "word": "Seuil",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Climat, vivant et générations futures » au niveau C2.",
-                "example": "Dans l'analyse de « Climat, vivant et générations futures », la notion de « seuil » est centrale."
+                "type": "n. m.",
+                "def": "Point de bascule critique au-delà duquel des rétroactions positives accélèrent l'effondrement systémique sans préavis.",
+                "example": "Le franchissement des seuils d'emballement thermique précipiterait le dégel irrépressible du pergélisol."
               }
             ]
           },
@@ -507,7 +507,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q5"
+    "grammarLessonId": "c2-figures-style-rhetorique"
   },
   {
     "chapterId": "chap_86",
@@ -539,27 +539,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Contre-pouvoir",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pouvoir, institutions et contre-pouvoirs » au niveau C2.",
-                "example": "Dans l'analyse de « Pouvoir, institutions et contre-pouvoirs », la notion de « contre-pouvoir » est centrale."
+                "type": "n. m.",
+                "def": "Instance autonome de veille, de contestation ou de régulation capable de borner les prérogatives de l'exécutif étatique.",
+                "example": "Une presse indépendante et des corps intermédiaires vivaces incarnent les contre-pouvoirs indispensables à la démocratie."
               },
               {
                 "word": "Légitimité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pouvoir, institutions et contre-pouvoirs » au niveau C2.",
-                "example": "Dans l'analyse de « Pouvoir, institutions et contre-pouvoirs », la notion de « légitimité » est centrale."
+                "type": "n. f.",
+                "def": "Reconnaissance éthique et civique du bien-fondé d'une autorité, distincte de sa seule légalité formelle.",
+                "example": "La perte d'adhésion populaire érode inexorablement la légitimité des décisions technocratiques."
               },
               {
                 "word": "Représentation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pouvoir, institutions et contre-pouvoirs » au niveau C2.",
-                "example": "Dans l'analyse de « Pouvoir, institutions et contre-pouvoirs », la notion de « représentation » est centrale."
+                "type": "n. f.",
+                "def": "Délégation de souveraineté par laquelle des élus mandatés agissent et délibèrent au nom du corps politique dans son ensemble.",
+                "example": "La crise de la représentation parlementaire nourrit l'exigence d'une démocratie délibérative directe."
               },
               {
                 "word": "Juridiction",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Pouvoir, institutions et contre-pouvoirs » au niveau C2.",
-                "example": "Dans l'analyse de « Pouvoir, institutions et contre-pouvoirs », la notion de « juridiction » est centrale."
+                "type": "n. f.",
+                "def": "Organe judiciaire investi du pouvoir régalien de dire le droit et de trancher les litiges en toute indépendance.",
+                "example": "La juridiction constitutionnelle veille à ce que la volonté parlementaire ne bafoue point les libertés fondamentales."
               }
             ]
           },
@@ -592,7 +592,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-1-q6"
+    "grammarLessonId": "c2-verbes-defectifs-rares-litteraires"
   },
   {
     "chapterId": "chap_87",
@@ -624,27 +624,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Mémoire collective",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Mémoire, histoire et représentations » au niveau C2.",
-                "example": "Dans l'analyse de « Mémoire, histoire et représentations », la notion de « mémoire collective » est centrale."
+                "type": "loc. nom. f.",
+                "def": "Ensemble des représentations partagées du passé qu'une communauté élabore, sanctifie ou occulte pour consolider son identité.",
+                "example": "La mémoire collective est un champ de bataille symbolique traversé par des injonctions mémorielles concurrentes."
               },
               {
                 "word": "Témoignage",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Mémoire, histoire et représentations » au niveau C2.",
-                "example": "Dans l'analyse de « Mémoire, histoire et représentations », la notion de « témoignage » est centrale."
+                "type": "n. m.",
+                "def": "Récit subjectif de première main par lequel un témoin oculaire certifie la réalité vécue d'un événement traumatique ou historique.",
+                "example": "Le témoignage des rescapés transmet une charge émotionnelle et éthique irréductible aux synthèses historiographiques."
               },
               {
                 "word": "Archive",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Mémoire, histoire et représentations » au niveau C2.",
-                "example": "Dans l'analyse de « Mémoire, histoire et représentations », la notion de « archive » est centrale."
+                "type": "n. f.",
+                "def": "Ensemble des documents originaux préservés par les institutions, constituant le substrat empirique incontournable de la discipline historique.",
+                "example": "Le dépouillement minutieux des archives préfectorales dissipe les mythes héroïsants forgés après coup."
               },
               {
                 "word": "Commémoration",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Mémoire, histoire et représentations » au niveau C2.",
-                "example": "Dans l'analyse de « Mémoire, histoire et représentations », la notion de « commémoration » est centrale."
+                "type": "n. f.",
+                "def": "Cérémonie publique et rituelle destinée à raviver le souvenir d'un sacrifice ou d'une rupture fondatrice de l'ordre républicain.",
+                "example": "La commémoration officielle tente de réconcilier les mémoires fracturées autour d'un idéal civique universel."
               }
             ]
           },
@@ -677,7 +677,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-genre-nombre"
+    "grammarLessonId": "c2-polyphonie-discours-indirect-libre"
   },
   {
     "chapterId": "chap_88",
@@ -709,27 +709,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Singularité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Esthétique, création et jugement » au niveau C2.",
-                "example": "Dans l'analyse de « Esthétique, création et jugement », la notion de « singularité » est centrale."
+                "type": "n. f.",
+                "def": "Caractère irréductible et inimitable d'une proposition artistique ou intellectuelle qui défie toute typologie convenue.",
+                "example": "La singulière beauté de cette fresque procède d'une alchimie inédite entre rigueur géométrique et lyrisme sauvage."
               },
               {
                 "word": "Réception",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Esthétique, création et jugement » au niveau C2.",
-                "example": "Dans l'analyse de « Esthétique, création et jugement », la notion de « réception » est centrale."
+                "type": "n. f.",
+                "def": "Activité critique et herméneutique par laquelle les publics décodent, s'approprient ou rejettent une œuvre selon leur culture.",
+                "example": "La réception polémique de cette tragédie révèle les tabous inavoués de la société du Grand Siècle."
               },
               {
                 "word": "Dispositif",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Esthétique, création et jugement » au niveau C2.",
-                "example": "Dans l'analyse de « Esthétique, création et jugement », la notion de « dispositif » est centrale."
+                "type": "n. m.",
+                "def": "Agencement spatial, matériel ou conceptuel orchestrant l'expérience esthétique et conditionnant le regard du spectateur.",
+                "example": "Le dispositif scénographique immerge le spectateur dans un clair-obscur propice au vertige métaphysique."
               },
               {
                 "word": "Performativité",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Esthétique, création et jugement » au niveau C2.",
-                "example": "Dans l'analyse de « Esthétique, création et jugement », la notion de « performativité » est centrale."
+                "type": "n. f.",
+                "def": "Capacité d'un acte esthétique ou énonciatif à instituer une réalité nouvelle plutôt qu'à simplement la constater.",
+                "example": "La performativité du manifeste d'avant-garde réside dans sa force disruptive qui bouleverse la hiérarchie des genres."
               }
             ]
           },
@@ -762,7 +762,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-2-q1"
+    "grammarLessonId": "c2-figures-style-rhetorique"
   },
   {
     "chapterId": "chap_89",
@@ -794,27 +794,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Plurilinguisme",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Langues, cultures et traduction » au niveau C2.",
-                "example": "Dans l'analyse de « Langues, cultures et traduction », la notion de « plurilinguisme » est centrale."
+                "type": "n. m.",
+                "def": "Faculté d'un individu ou d'une société à mobiliser plusieurs langues comme des prismes complémentaires de perception du réel.",
+                "example": "Le plurilinguisme européen refuse l'hégémonie niveleuse d'un idiome unique au profit d'un dialogue polyphonique."
               },
               {
                 "word": "Traduction",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Langues, cultures et traduction » au niveau C2.",
-                "example": "Dans l'analyse de « Langues, cultures et traduction », la notion de « traduction » est centrale."
+                "type": "n. f.",
+                "def": "Épreuve d'hospitalité langagière visant à recréer l'esprit et la chair d'un texte d'origine dans la musique d'une langue tierce.",
+                "example": "Traduire les poèmes de Paul Celan relève d'une ascèse où chaque silence exige une inventivité stylistique infinie."
               },
               {
                 "word": "Intraduisible",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Langues, cultures et traduction » au niveau C2.",
-                "example": "Dans l'analyse de « Langues, cultures et traduction », la notion de « intraduisible » est centrale."
+                "type": "n. m.",
+                "def": "Mot ou expression dont le réseau d'affects et d'échos culturels défie tout calque littéral et requiert une périphrase féconde.",
+                "example": "La 'saudade' portugaise ou le 'sehnsucht' allemand figurent parmi les plus illustres intraduisibles de la littérature mondiale."
               },
               {
                 "word": "Connotation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Langues, cultures et traduction » au niveau C2.",
-                "example": "Dans l'analyse de « Langues, cultures et traduction », la notion de « connotation » est centrale."
+                "type": "n. f.",
+                "def": "Nuance affective, symbolique ou idéologique implicite greffée sur le sens littéral et partagée par une communauté d'initiés.",
+                "example": "L'emploi calculé de ce terme désuet véhicule des connotations aristocratiques d'une remarquable subtilité."
               }
             ]
           },
@@ -847,7 +847,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-2-q2"
+    "grammarLessonId": "c2-polyphonie-discours-indirect-libre"
   },
   {
     "chapterId": "chap_90",
@@ -879,27 +879,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Prospective",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Prospective, risques et décision » au niveau C2.",
-                "example": "Dans l'analyse de « Prospective, risques et décision », la notion de « prospective » est centrale."
+                "type": "n. f.",
+                "def": "Démarche intellectuelle d'exploration et d'anticipation des futurs possibles pour éclairer l'action stratégique présente.",
+                "example": "La prospective stratégique ne prédit pas l'avenir, elle forge des outils décisionnels pour conjurer les périls émergents."
               },
               {
                 "word": "Scénario",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Prospective, risques et décision » au niveau C2.",
-                "example": "Dans l'analyse de « Prospective, risques et décision », la notion de « scénario » est centrale."
+                "type": "n. m.",
+                "def": "Simulation narrative et probabiliste articulant une chaîne d'hypothèses causales sur l'évolution globale d'un système complexe.",
+                "example": "Le scénario de rupture géopolitique contraint les décideurs à élaborer des plans d'urgence sans délai."
               },
               {
                 "word": "Bifurcation",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Prospective, risques et décision » au niveau C2.",
-                "example": "Dans l'analyse de « Prospective, risques et décision », la notion de « bifurcation » est centrale."
+                "type": "n. f.",
+                "def": "Point de bascule critique où un système socio-économique doit obligatoirement infléchir sa trajectoire sous peine de déliquescence.",
+                "example": "Nous avons atteint l'heure de la bifurcation écologique où tout compromis tiède équivaut à un renoncement suicidaire."
               },
               {
                 "word": "Aléa",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Prospective, risques et décision » au niveau C2.",
-                "example": "Dans l'analyse de « Prospective, risques et décision », la notion de « aléa » est centrale."
+                "type": "n. m.",
+                "def": "Événement imprévisible résultant du hasard, dont la probabilité d'occurrence défie les modélisations actuarielles classiques.",
+                "example": "La survenue d'un aléa volcanique majeur paralysa l'ensemble du trafic aérien continental pendant des semaines."
               }
             ]
           },
@@ -932,7 +932,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-2-q3"
+    "grammarLessonId": "c2-accords-haute-volee-exceptions"
   },
   {
     "chapterId": "chap_91",
@@ -964,27 +964,27 @@ window.parcours_C2_Dataset = [
             "details": [
               {
                 "word": "Corpus",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Recherche, expertise et transmission » au niveau C2.",
-                "example": "Dans l'analyse de « Recherche, expertise et transmission », la notion de « corpus » est centrale."
+                "type": "n. m.",
+                "def": "Recueil raisonné, homogène et exhaustif de documents textuels ou empiriques servant de substrat à l'analyse savante.",
+                "example": "L'investigation s'appuie sur un corpus épistolaire inédit embrassant trois siècles de correspondances diplomatiques."
               },
               {
                 "word": "Hypothèse",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Recherche, expertise et transmission » au niveau C2.",
-                "example": "Dans l'analyse de « Recherche, expertise et transmission », la notion de « hypothèse » est centrale."
+                "type": "n. f.",
+                "def": "Proposition conjecturale formulée à titre d'essai pour expliquer un phénomène, soumise à la vérification expérimentale.",
+                "example": "L'hypothèse d'une corrélation causale entre désindustrialisation et vote contestataire a été validée par la modélisation économétrique."
               },
               {
                 "word": "Problématique",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Recherche, expertise et transmission » au niveau C2.",
-                "example": "Dans l'analyse de « Recherche, expertise et transmission », la notion de « problématique » est centrale."
+                "type": "n. f.",
+                "def": "Questionnement fondateur articulant les contradictions inhérentes à un sujet pour en guider la démonstration rigoureuse.",
+                "example": "Formuler une problématique incisive constitue l'étape la plus féconde de toute dissertation doctorale."
               },
               {
                 "word": "Méthodologie",
-                "type": "concept clé",
-                "def": "Terme essentiel pour appréhender la thématique « Recherche, expertise et transmission » au niveau C2.",
-                "example": "Dans l'analyse de « Recherche, expertise et transmission », la notion de « méthodologie » est centrale."
+                "type": "n. f.",
+                "def": "Système formalisé de principes, de règles et d'outils heuristiques garantissant la validité scientifique d'une recherche.",
+                "example": "La rigueur de la méthodologie quantitative prémunit le sociologue contre les pièges de l'intuition impressionniste."
               }
             ]
           },
@@ -1017,7 +1017,7 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-2-q4"
+    "grammarLessonId": "c2-verbes-defectifs-rares-litteraires"
   },
   {
     "chapterId": "chap_92",
@@ -1138,6 +1138,6 @@ window.parcours_C2_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "a1-2-q5"
+    "grammarLessonId": "c2-virtuosite-dialectique-periodes"
   }
 ];

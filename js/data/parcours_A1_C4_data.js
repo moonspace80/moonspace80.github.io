@@ -155,28 +155,28 @@ window.parcours_A1_C4_Dataset = {
               "id": "a1_ch6_matin",
               "fr": "Le matin",
               "en": "Morning",
-              "jp": "朝 / 午前 (asa / gozen)",
+              "jp": "朝 / 午前 (あさ / ごぜん)",
               "cn": "早晨 / 上午 (zǎochen / shàngwǔ)"
             },
             {
               "id": "a1_ch6_midi",
               "fr": "Le midi",
               "en": "Noon / Midday",
-              "jp": "正午 / お昼 (shōgo / ohiru)",
+              "jp": "正午 / お昼 (しょうご / おひる)",
               "cn": "中午 (zhōngwǔ)"
             },
             {
               "id": "a1_ch6_soir",
               "fr": "Le soir",
               "en": "Evening",
-              "jp": "夕方 / 晩 (yūgata / ban)",
+              "jp": "夕方 / 晩 (ゆうがた / ばん)",
               "cn": "晚上 / 傍晚 (wǎnshang / bàngwǎn)"
             },
             {
               "id": "a1_ch6_nuit",
               "fr": "La nuit",
               "en": "Night",
-              "jp": "夜 (yoru)",
+              "jp": "夜 (よる)",
               "cn": "夜晚 (yèwǎn)"
             }
           ]

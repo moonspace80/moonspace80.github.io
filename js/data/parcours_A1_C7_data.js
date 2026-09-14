@@ -158,28 +158,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_professeur",
               "fr": "Le professeur",
               "en": "Teacher / Professor",
-              "jp": "教師 / 教授 (kyoushi / kyouju)",
+              "jp": "教師 / 教授 (きょうし / きょうじゅ)",
               "cn": "教师 / 教授 (jiàoshī / jiàoshòu)"
             },
             {
               "id": "a1_c7_medecin",
               "fr": "Le médecin",
               "en": "Doctor / Physician",
-              "jp": "医師 / 医者 (ishi / isha)",
+              "jp": "医師 / 医者 (いし / いしゃ)",
               "cn": "医生 (yīshēng)"
             },
             {
               "id": "a1_c7_pharmacien",
               "fr": "Le pharmacien",
               "en": "Pharmacist",
-              "jp": "薬剤師 (yakuzaishi)",
+              "jp": "薬剤師 (やくざいし)",
               "cn": "药剂师 (yàojìshī)"
             },
             {
               "id": "a1_c7_instituteur",
               "fr": "L instituteur",
               "en": "Primary school teacher",
-              "jp": "小学校教諭 (shougakkou kyouyu)",
+              "jp": "小学校教諭 (しょうがっこうきょうゆ)",
               "cn": "小学教师 (xiǎoxué jiàoshī)"
             }
           ]
@@ -382,28 +382,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_chirurgien",
               "fr": "Le chirurgien",
               "en": "Surgeon",
-              "jp": "外科医 (gekai)",
+              "jp": "外科医 (げかい)",
               "cn": "外科医生 (wàikē yīshēng)"
             },
             {
               "id": "a1_c7_dentiste",
               "fr": "Le dentiste",
               "en": "Dentist",
-              "jp": "歯科医 (shikai)",
+              "jp": "歯科医 (しかい)",
               "cn": "牙医 (yáyī)"
             },
             {
               "id": "a1_c7_osteo",
               "fr": "L ostéopathe",
               "en": "Osteopath",
-              "jp": "オステオパシー施術師 (osuteopashii)",
+              "jp": "オステオパシー施術師 (おすておぱしーせじゅつし)",
               "cn": "整骨师 / 骨科理疗师 (zhěnggǔshī)"
             },
             {
               "id": "a1_c7_ambulancier",
               "fr": "L ambulancier",
               "en": "Ambulance driver / Paramedic",
-              "jp": "救急隊員 (kyuukyuu tai-in)",
+              "jp": "救急隊員 (きゅうきゅうたいいん)",
               "cn": "急救员 / 救护车司机 (jíjiùyuán)"
             }
           ]
@@ -569,28 +569,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_ingenieur",
               "fr": "L ingénieur",
               "en": "Engineer",
-              "jp": "エンジニア / 技師 (enjinia / gishi)",
+              "jp": "エンジニア / 技師 (えんじにあ / ぎし)",
               "cn": "工程师 (gōngchéngshī)"
             },
             {
               "id": "a1_c7_architecte",
               "fr": "L architecte",
               "en": "Architect",
-              "jp": "建築家 (kenchikuka)",
+              "jp": "建築家 (けんちくか)",
               "cn": "建筑师 (jiànzhùshī)"
             },
             {
               "id": "a1_c7_chercheur",
               "fr": "Le chercheur",
               "en": "Researcher",
-              "jp": "研究者 (kenkyuusha)",
+              "jp": "研究者 (けんきゅうしゃ)",
               "cn": "研究员 (yánjiūyuán)"
             },
             {
               "id": "a1_c7_scientifique",
               "fr": "Le scientifique",
               "en": "Scientist",
-              "jp": "科学者 (kagakusha)",
+              "jp": "科学者 (かがくしゃ)",
               "cn": "科学家 (kēxuéjiā)"
             }
           ]
@@ -756,28 +756,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_comptable",
               "fr": "Le comptable",
               "en": "Accountant",
-              "jp": "会計士 (kaikeishi)",
+              "jp": "会計士 (かいけいし)",
               "cn": "会计师 (kuàijìshī)"
             },
             {
               "id": "a1_c7_avocat",
               "fr": "L avocat",
               "en": "Lawyer / Attorney",
-              "jp": "弁護士 (bengoshi)",
+              "jp": "弁護士 (べんごし)",
               "cn": "律师 (lǜshī)"
             },
             {
               "id": "a1_c7_notaire",
               "fr": "Le notaire",
               "en": "Notary",
-              "jp": "公証人 (koushounin)",
+              "jp": "公証人 (こうしょうにん)",
               "cn": "公证人 (gōngzhèngrén)"
             },
             {
               "id": "a1_c7_employe",
               "fr": "L employé",
               "en": "Employee / Office worker",
-              "jp": "会社員 / 従業員 (kaishain / juugyouin)",
+              "jp": "会社員 / 従業員 (かいしゃいん / じゅうぎょういん)",
               "cn": "职员 / 员工 (zhíyuán / yuángōng)"
             }
           ]
@@ -943,28 +943,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_vendeur",
               "fr": "Le vendeur",
               "en": "Salesperson / Shop assistant",
-              "jp": "店員 / 販売員 (ten-in / hanbai-in)",
+              "jp": "店員 / 販売員 (てんいん / はんばいいん)",
               "cn": "售货员 / 销售员 (shòuhuòyuán)"
             },
             {
               "id": "a1_c7_commercial",
               "fr": "Le commercial",
               "en": "Sales representative",
-              "jp": "営業担当者 (eigyou tantousha)",
+              "jp": "営業担当者 (えいぎょうたんとうしゃ)",
               "cn": "业务员 / 销售代表 (yèwùyuán)"
             },
             {
               "id": "a1_c7_epicier",
               "fr": "L épicier",
               "en": "Grocer",
-              "jp": "食料品店主 (shokuryouhin-tenshu)",
+              "jp": "食料品店主 (しょくりょうひんてんしゅ)",
               "cn": "杂货店主 (záhuòdiàn zhǔ)"
             },
             {
               "id": "a1_c7_maraicher",
               "fr": "Le maraîcher",
               "en": "Market gardener",
-              "jp": "野菜農家 / 青果商 (yasai nouka)",
+              "jp": "野菜農家 / 青果商 (やさいのうか / せいかしょう)",
               "cn": "菜农 (càinóng)"
             }
           ]
@@ -1130,28 +1130,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_boulanger",
               "fr": "Le boulanger",
               "en": "Baker",
-              "jp": "パン職人 / パン屋 (pan-shokunin)",
+              "jp": "パン職人 / パン屋 (ぱんしょくにん / ぱんや)",
               "cn": "面包师 (miànbāoshī)"
             },
             {
               "id": "a1_c7_patissier",
               "fr": "Le pâtissier",
               "en": "Pastry chef",
-              "jp": "パティシエ / 菓子職人 (patishie)",
+              "jp": "パティシエ / 菓子職人 (ぱてぃしえ / かししょくにん)",
               "cn": "西点师 / 糕点师 (gāodiǎnshī)"
             },
             {
               "id": "a1_c7_charcutier",
               "fr": "Le charcutier",
               "en": "Pork butcher / Delicatessen maker",
-              "jp": "シャルキュトリー職人 (sharukyutorii)",
+              "jp": "シャルキュトリー職人 (しゃるきゅとりーしょくにん)",
               "cn": "熟食肉贩 (shúshí ròufàn)"
             },
             {
               "id": "a1_c7_cuisinier",
               "fr": "Le cuisinier",
               "en": "Cook / Chef",
-              "jp": "料理人 / コック (ryourinin)",
+              "jp": "料理人 / コック (りょうりにん / こっく)",
               "cn": "厨师 (chúshī)"
             }
           ]
@@ -1308,28 +1308,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_electricien",
               "fr": "L électricien",
               "en": "Electrician",
-              "jp": "電気技師 (denki gishi)",
+              "jp": "電気技師 (でんきぎし)",
               "cn": "电工 (diàngōng)"
             },
             {
               "id": "a1_c7_plombier",
               "fr": "Le plombier",
               "en": "Plumber",
-              "jp": "配管工 (haikankou)",
+              "jp": "配管工 (はいかんこう)",
               "cn": "水暖工 / 水管工 (shuǐguǎngōng)"
             },
             {
               "id": "a1_c7_chauffagiste",
               "fr": "Le chauffagiste",
               "en": "Heating engineer",
-              "jp": "暖房技術者 (danbou gijutsusha)",
+              "jp": "暖房技術者 (だんぼうぎじゅつしゃ)",
               "cn": "暖通工程师 (nuǎntōng gōngchéngshī)"
             },
             {
               "id": "a1_c7_serrurier",
               "fr": "Le serrurier",
               "en": "Locksmith",
-              "jp": "錠前屋 (joumaeya)",
+              "jp": "錠前屋 (じょうまえや)",
               "cn": "锁匠 (suǒjiàng)"
             }
           ]
@@ -1503,28 +1503,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_sculpteur",
               "fr": "Le sculpteur",
               "en": "Sculptor",
-              "jp": "彫刻家 (choukoku-ka)",
+              "jp": "彫刻家 (ちょうこくか)",
               "cn": "雕塑家 (diāosùjiā)"
             },
             {
               "id": "a1_c7_chanteur",
               "fr": "Le chanteur",
               "en": "Singer",
-              "jp": "歌手 (kashu)",
+              "jp": "歌手 (かしゅ)",
               "cn": "歌手 (gēshǒu)"
             },
             {
               "id": "a1_c7_musicien",
               "fr": "Le musicien",
               "en": "Musician",
-              "jp": "音楽家 / ミュージシャン (ongakuka)",
+              "jp": "音楽家 / ミュージシャン (おんがくか / みゅーじしゃん)",
               "cn": "音乐家 (yīnyuèjiā)"
             },
             {
               "id": "a1_c7_decorateur",
               "fr": "Le décorateur",
               "en": "Decorator / Interior designer",
-              "jp": "装飾家 / インテリアデザイナー (soushoku-ka)",
+              "jp": "装飾家 / インテリアデザイナー (そうしょくか / いんてりあでざいなー)",
               "cn": "装饰设计师 (zhuāngshì shèjìshī)"
             }
           ]
@@ -1697,28 +1697,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_pompier",
               "fr": "Le pompier",
               "en": "Firefighter",
-              "jp": "消防士 (shouboushi)",
+              "jp": "消防士 (しょうぼうし)",
               "cn": "消防员 (xiāofángyuán)"
             },
             {
               "id": "a1_c7_gendarme",
               "fr": "Le gendarme",
               "en": "Gendarme / Police officer",
-              "jp": "国家憲兵 (kokka kenpei)",
+              "jp": "国家憲兵 (こっかけんぺい)",
               "cn": "宪兵 (xiànbīng)"
             },
             {
               "id": "a1_c7_postier",
               "fr": "Le postier",
               "en": "Mail carrier / Postal worker",
-              "jp": "郵便配達員 (yuubin haitetsuin)",
+              "jp": "郵便配達員 (ゆうびんはいたついん)",
               "cn": "邮递员 (yóudìyuán)"
             },
             {
               "id": "a1_c7_jardinier",
               "fr": "Le jardinier",
               "en": "Gardener",
-              "jp": "庭師 / 園芸家 (niwashi)",
+              "jp": "庭師 / 園芸家 (にわし / えんげいか)",
               "cn": "园丁 (yuándīng)"
             }
           ]
@@ -1852,28 +1852,28 @@ window.parcours_A1_C7_Dataset = {
               "id": "a1_c7_travailler",
               "fr": "Travailler",
               "en": "To work",
-              "jp": "働く (hataraku)",
+              "jp": "働く (はたらく)",
               "cn": "工作 (gōngzuò)"
             },
             {
               "id": "a1_c7_bureau",
               "fr": "Le bureau",
               "en": "Office / Desk",
-              "jp": "オフィス / 机 (ofisu / tsukue)",
+              "jp": "オフィス / 机 (おふぃす / つくえ)",
               "cn": "办公室 / 办公桌 (bàngōngshì)"
             },
             {
               "id": "a1_c7_collegue",
               "fr": "Le collègue",
               "en": "Colleague / Coworker",
-              "jp": "同僚 (douryou)",
+              "jp": "同僚 (どうりょう)",
               "cn": "同事 (tóngshì)"
             },
             {
               "id": "a1_c7_horaires",
               "fr": "Les horaires",
               "en": "Working hours / Schedule",
-              "jp": "勤務時間 (kinmu jikan)",
+              "jp": "勤務時間 (きんむじかん)",
               "cn": "工作时间 (gōngzuò shíjiān)"
             }
           ]

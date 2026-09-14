@@ -108,7 +108,7 @@ class GrammarModule {
   getInitialLevel() {
     const userLevel = localStorage.getItem('delf_user_level');
     if (userLevel && ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'ALL'].includes(userLevel)) {
-      return (userLevel === 'C2') ? 'C1' : userLevel;
+      return userLevel;
     }
     return 'B2';
   }
@@ -156,8 +156,7 @@ class GrammarModule {
     this.scoreDisplay = document.getElementById('grammar-score-display');
 
     if (this.levelSelect) {
-      const normalizedLevel = (this.selectedLevel === 'C2') ? 'C1' : this.selectedLevel;
-      this.levelSelect.value = normalizedLevel;
+      this.levelSelect.value = this.selectedLevel;
       this.levelSelect.addEventListener('change', (e) => {
         this.selectedLevel = e.target.value;
         this.applyFilters();
@@ -193,6 +192,22 @@ class GrammarModule {
     if (nextBtn) {
       nextBtn.onclick = () => this.nextTopic();
     }
+
+    // Ensure header quick lookup button
+    this.ensureHeaderLookupButton();
+
+    // Delegated click listener for contextual conjugaison links (.conj-inline-link)
+    document.addEventListener('click', (e) => {
+      const linkBtn = e.target.closest('.conj-inline-link, .verb-lookup');
+      if (linkBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        const verb = linkBtn.getAttribute('data-verb') || linkBtn.dataset.verb || linkBtn.textContent.trim();
+        if (verb && window.ConjugaisonManager && typeof window.ConjugaisonManager.open === 'function') {
+          window.ConjugaisonManager.open(verb);
+        }
+      }
+    });
 
     // Navigation Clavier Accessible & Fluide
     document.addEventListener('keydown', (e) => {
@@ -240,13 +255,15 @@ class GrammarModule {
      FILTRAGE ET SYNCHRONISATION
      ------------------------------------------------------------------------ */
   applyFilters(isSearching = false) {
-    const targetLevel = (this.selectedLevel === 'C2') ? 'C1' : this.selectedLevel;
+    const targetLevel = this.selectedLevel;
     const normalizeStr = s => (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
     const normalizedQuery = normalizeStr(this.searchQuery);
 
     this.filteredDataset = this.dataset.filter(item => {
       const matchLevel = targetLevel === 'ALL' || item.levelCode === targetLevel;
-      const matchCategory = this.selectedCategory === 'ALL' || item.category === this.selectedCategory;
+      const matchCategory = this.selectedCategory === 'ALL' || 
+                            item.category === this.selectedCategory ||
+                            (this.selectedCategory === 'grammaire' && (item.category === 'syntaxe' || item.category === 'stylistique'));
       
       let matchSearch = true;
       if (normalizedQuery) {
@@ -277,8 +294,7 @@ class GrammarModule {
 
   render() {
     if (this.levelSelect && this.selectedLevel) {
-      const normalizedLevel = (this.selectedLevel === 'C2') ? 'C1' : this.selectedLevel;
-      this.levelSelect.value = normalizedLevel;
+      this.levelSelect.value = this.selectedLevel;
     }
     this.applyFilters();
   }
@@ -384,7 +400,11 @@ class GrammarModule {
       const isActive = idx === this.currentTopicIndex;
       
       const catBadge = item.category === 'grammaire' ? '📖 Grammaire' : 
-                       item.category === 'conjugaison' ? '⚙️ Conjugaison' : '✍️ Orthographe';
+                       item.category === 'conjugaison' ? '⚙️ Conjugaison' : 
+                       item.category === 'orthographe' ? '✍️ Orthographe' :
+                       item.category === 'syntaxe' ? '🏛️ Syntaxe' :
+                       item.category === 'stylistique' ? '🎭 Stylistique' :
+                       '📖 ' + (item.category || 'Grammaire');
 
       const statusIcon = isCompleted ? 'check_circle' : (isActive ? 'radio_button_checked' : 'radio_button_unchecked');
 
@@ -517,7 +537,166 @@ class GrammarModule {
       `;
     });
 
+    // 5. Contextual Verb Linkification (Bescherelle Integration):
+    // Transforms parenthesized verb infinitives (ex: (prendre), (aller), écrire,)
+    // into interactive buttons: <button class="conj-inline-link" data-verb="<verb>" title="Consulter la conjugaison"><text></button>
+    // Strictly prevents double-wrapping: does NOT nest <button> inside <button> or <a>
+    // Extracts the clean infinitive for data-verb: removes parentheses, removes trailing commas/periods, and converts to lowercase via .toLowerCase()
+    // Excludes common non-verb function words (le, la, les, un, une, des, dans, pour, avec, sans, sous, sur, par, etc.)
+    enhanced = this.linkifyVerbs(enhanced);
+
     return enhanced;
+  }
+
+  /**
+   * Scans text for verbs and parenthesized verb infinitives, transforming them into
+   * interactive buttons: <button class="conj-inline-link" data-verb="<verb>" title="Consulter la conjugaison"><text></button>
+   * Cleanly extracts the infinitive without parentheses, trailing commas or periods, and normalizes to lowercase.
+   * Prevents double-wrapping: does NOT nest <button> inside <button> or <a>.
+   */
+  linkifyVerbs(html) {
+    if (!html || typeof html !== 'string') return '';
+
+    // Split HTML by tags, buttons, and anchors so we never modify attributes or content inside buttons/anchors
+    // This strictly prevents double-wrapping: does NOT nest <button> inside <button> or <a>
+    const tokens = html.split(/(<button[\s\S]*?<\/button>|<a[\s\S]*?<\/a>|<[^>]+>)/gi);
+
+    const pass1Tokens = tokens.map(token => {
+      if (!token || token.startsWith('<')) {
+        return token;
+      }
+
+      // 1. Pass 1: Parenthesized verb infinitives (ex: (prendre), (aller), (Aller), (se souvenir), (écrire))
+      return token.replace(/\(([a-zA-ZàâäéèêëîïôöùûüçœæÀÂÄÉÈÊËÎÏÔÖÙÛÜÇŒÆ\s'-]+)\)([,.;:!?]*)/g, (fullMatch, inner, trailingPunct) => {
+        // Strip parentheses, remove trailing punctuation, and convert to lowercase via toLowerCase()
+        const cleanVerb = inner.replace(/[()]/g, '').replace(/[,.;:!?]+$/g, '').toLowerCase().trim();
+
+        // Exclude common non-verb function words from linking (le, la, dans, pour, avec, etc.)
+        if (GrammarModule.isStopWord(cleanVerb)) {
+          return fullMatch;
+        }
+
+        // Verify that the token is a recognized verb or valid French verb infinitive
+        if (GrammarModule.isVerb(cleanVerb)) {
+          const punct = trailingPunct || '';
+          return `<button class="conj-inline-link" data-verb="${cleanVerb}" title="Consulter la conjugaison">(${inner})</button>${punct}`;
+        }
+        return fullMatch;
+      });
+    });
+
+    const intermediateHtml = pass1Tokens.join('');
+
+    // Re-split before Pass 2 to ensure newly injected <button> elements are protected from re-processing
+    const pass2Tokens = intermediateHtml.split(/(<button[\s\S]*?<\/button>|<a[\s\S]*?<\/a>|<[^>]+>)/gi);
+
+    const finalTokens = pass2Tokens.map(token => {
+      if (!token || token.startsWith('<')) {
+        return token;
+      }
+
+      // 2. Pass 2: Standalone registered verbs with optional trailing punctuation (ex: "écrire,", "finir.", "prendre")
+      return token.replace(/\b([a-zA-ZàâäéèêëîïôöùûüçœæÀÂÄÉÈÊËÎÏÔÖÙÛÜÇŒÆ'-]+)([,.;:!?]*)/g, (fullMatch, word, trailingPunct) => {
+        // Strip parentheses, remove trailing commas/periods, and convert to lowercase via toLowerCase()
+        const cleanVerb = word.replace(/[()]/g, '').replace(/[,.;:!?]+$/g, '').toLowerCase().trim();
+
+        // Exclude common non-verb function words from linking
+        if (GrammarModule.isStopWord(cleanVerb)) {
+          return fullMatch;
+        }
+
+        // Only registered verbs should be transformed into conjugation links
+        if (GrammarModule.isRegisteredVerb(cleanVerb)) {
+          const punct = trailingPunct || '';
+          return `<button class="conj-inline-link" data-verb="${cleanVerb}" title="Consulter la conjugaison">${word}</button>${punct}`;
+        }
+        return fullMatch;
+      });
+    });
+
+    return finalTokens.join('');
+  }
+
+  /**
+   * Injects or binds the quick-action conjugation lookup button in the grammar lesson rule header.
+   * Button displays educational book icon (auto_stories), accessible title, and stopPropagation handler.
+   */
+  ensureHeaderLookupButton() {
+    let btn = document.getElementById('grammar-conj-lookup-btn');
+    const header = document.querySelector('.rule-summary-card__header') ||
+                   (this.ruleContentEl && this.ruleContentEl.parentElement ? this.ruleContentEl.parentElement.querySelector('.rule-summary-card__header') : null);
+
+    if (!btn && header) {
+      btn = document.createElement('button');
+      btn.id = 'grammar-conj-lookup-btn';
+      btn.className = 'md-button md-button--outlined grammar-conj-btn conj-lookup-btn';
+      btn.type = 'button';
+      btn.title = 'Consulter la conjugaison';
+      btn.setAttribute('aria-label', 'Consulter la conjugaison');
+      btn.innerHTML = `<span class="material-icons-round">auto_stories</span> Conjugaison`;
+      btn.style.display = 'inline-flex';
+      btn.style.alignItems = 'center';
+      btn.style.gap = '6px';
+      btn.style.marginLeft = '8px';
+      header.appendChild(btn);
+    }
+
+    if (btn) {
+      btn.title = 'Consulter la conjugaison';
+      btn.onclick = (e) => {
+        // e.stopPropagation() prevents toggling accordion or other parent handlers
+        e.preventDefault();
+        e.stopPropagation();
+
+        const topic = this.currentTopic;
+        let topicVerb = null;
+        if (topic) {
+          if (topic.verb && typeof topic.verb === 'string') {
+            topicVerb = topic.verb;
+          } else if (topic.infinitive && typeof topic.infinitive === 'string') {
+            topicVerb = topic.infinitive;
+          } else if (topic.title && typeof topic.title === 'string') {
+            topicVerb = topic.title;
+          }
+        }
+
+        if (window.ConjugaisonManager && typeof window.ConjugaisonManager.open === 'function') {
+          if (topicVerb && typeof topicVerb === 'string' && topicVerb.trim()) {
+            window.ConjugaisonManager.open(topic.verb || topic.title);
+          } else {
+            window.ConjugaisonManager.open(); // Defaults to opening search focus cleanly
+          }
+        } else if (window.ConjugaisonManager && typeof window.ConjugaisonManager.toggle === 'function') {
+          window.ConjugaisonManager.toggle();
+        }
+      };
+    }
+  }
+
+  /**
+   * Question prompt renderer: passes question prompt through enhanceRuleContent
+   * so parenthesized infinitive clues (e.g. (aller)) become interactive .conj-inline-link buttons.
+   */
+  renderQuestion(currentQ, answerInfo) {
+    if (!currentQ || !currentQ.prompt) return '';
+    const isAnswered = (answerInfo !== undefined);
+    let formattedPrompt = currentQ.prompt;
+
+    if (isAnswered) {
+      const correctOptText = currentQ.options[currentQ.correct] || '';
+      const parts = correctOptText.split(/\s*\/\s*/);
+      let partIdx = 0;
+      formattedPrompt = formattedPrompt.replace(/_{2,}/g, () => {
+        const seg = parts[partIdx++] || '___';
+        const fillClass = answerInfo.isCorrect ? 'filled' : 'filled incorrect';
+        return `<span class="blank-slot ${fillClass}">${seg}</span>`;
+      });
+    } else {
+      formattedPrompt = formattedPrompt.replace(/_{2,}/g, '<span class="blank-slot">___</span>');
+    }
+
+    // Linkify parenthesized verbs (e.g. (aller)) and contextual verbs in question prompt
+    return this.enhanceRuleContent(formattedPrompt);
   }
 
   /* ------------------------------------------------------------------------
@@ -555,6 +734,7 @@ class GrammarModule {
     const breadcrumbTitle = document.getElementById('grammar-breadcrumb-title');
     if (breadcrumbTitle) breadcrumbTitle.textContent = topic.title;
 
+    this.ensureHeaderLookupButton();
     this.renderDrill();
   }
 
@@ -618,19 +798,7 @@ class GrammarModule {
     const answerInfo = this.currentLessonAnswers[this.currentQuestionIdx];
     const isAnswered = (answerInfo !== undefined);
 
-    let formattedPrompt = currentQ.prompt;
-    if (isAnswered) {
-      const correctOptText = currentQ.options[currentQ.correct] || '';
-      const parts = correctOptText.split(/\s*\/\s*/);
-      let partIdx = 0;
-      formattedPrompt = formattedPrompt.replace(/_{2,}/g, () => {
-        const seg = parts[partIdx++] || '___';
-        const fillClass = answerInfo.isCorrect ? 'filled' : 'filled incorrect';
-        return `<span class="blank-slot ${fillClass}">${seg}</span>`;
-      });
-    } else {
-      formattedPrompt = formattedPrompt.replace(/_{2,}/g, '<span class="blank-slot">___</span>');
-    }
+    let formattedPrompt = this.renderQuestion(currentQ, answerInfo);
 
     const letters = ['A', 'B', 'C', 'D', 'E'];
 
@@ -1030,6 +1198,138 @@ class GrammarModule {
     this.renderDrill();
   }
 }
+
+// --------------------------------------------------------------------------
+// Grammatical Static Helpers & Morphological Lexicon for Contextual Linking
+// --------------------------------------------------------------------------
+GrammarModule.STOP_WORDS = new Set([
+  'le', 'la', 'les', 'un', 'une', 'des', 'dans', 'pour', 'avec', 'sans', 'sous', 'sur', 'par', 'chez',
+  'mais', 'ou', 'et', 'donc', 'or', 'ni', 'car', 'que', 'qui', 'quoi', 'dont', 'où', 'ce', 'cet', 'cette', 'ces',
+  'du', 'de', 'd', "d'", 'l', "l'", 'qu', "qu'", 'se', 's', "s'",
+  'ceux', 'celles', 'celui', 'celle', 'mon', 'ma', 'mes', 'ton', 'ta', 'tes', 'son', 'sa', 'ses',
+  'notre', 'nos', 'votre', 'vos', 'leur', 'leurs',
+  'je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles',
+  'me', 'te', 'lui', 'en', 'y', 'moi', 'toi', 'soi',
+  'ne', 'pas', 'plus', 'jamais', 'rien', 'personne', 'aucun', 'aucune',
+  'tout', 'tous', 'toute', 'toutes', 'très', 'trop', 'bien', 'mal', 'mieux',
+  'ici', 'là', 'alors', 'puis', 'après', 'avant', 'pendant', 'comme', 'si',
+  'aussi', 'tant', 'autant', 'quel', 'quelle', 'quels', 'quelles', 'quelque', 'quelques'
+]);
+
+GrammarModule.CORE_VERBS = new Set([
+  'être', 'etre', 'avoir', 'aller', 'faire', 'dire', 'pouvoir', 'voir', 'savoir', 'vouloir',
+  'venir', 'falloir', 'devoir', 'croire', 'trouver', 'donner', 'prendre', 'parler', 'aimer',
+  'passer', 'mettre', 'demander', 'tenir', 'sembler', 'laisser', 'rester', 'penser', 'entendre',
+  'regarder', 'répondre', 'repondre', 'rendre', 'attendre', 'perdre', 'vendre', 'descendre',
+  'connaître', 'connaitre', 'paraître', 'paraitre', 'apparaître', 'apparaitre', 'disparaître',
+  'disparaitre', 'reconnaître', 'reconnaitre', 'arriver', 'sentir', 'vivre', 'sortir',
+  'comprendre', 'écrire', 'ecrire', 'lire', 'courir', 'choisir', 'finir', 'agir', 'réussir',
+  'reussir', 'ouvrir', 'dormir', 'offrir', 'servir', 'partir', 'mourir', 'naître', 'naitre',
+  'plaire', 'rire', 'sourire', 'suivre', 'valoir', 'boire', 'peindre', 'joindre', 'craindre',
+  'détruire', 'detruire', 'conduire', 'traduire', 'produire', 'construire', 'suffire', 'vaincre',
+  'convaincre', 'asseoir', 'coudre', 'moudre', 'rompre', 'interrompre', 'corrompre', 'distraire',
+  'absoudre', 'battre', 'clore', 'éclore', 'eclore', 'gésir', 'gesir', 'choir', 'pleuvoir',
+  'commencer', 'avancer', 'placer', 'prononcer', 'menacer', 'effacer', 'balancer', 'forcer',
+  'agacer', 'percer', 'remplacer', 'relancer', 'devancer', 'renoncer', 'manger', 'voyager',
+  'changer', 'partager', 'ranger', 'nager', 'bouger', 'juger', 'obliger', 'plonger', 'songer',
+  'corriger', 'diriger', 'exiger', 'loger', 'rédiger', 'rediger', 'soigner', 'travailler',
+  'acheter', 'jeter', 'appeler', 'payer', 'envoyer', 'espérer', 'esperer', 'céder', 'ceder',
+  'lever', 'mener', 'peser', 'semer', 'préférer', 'preferer', 'répéter', 'repeter', 'acquérir',
+  'acquerir', 'conquérir', 'conquerir', 'cueillir', 'accueillir', 'recueillir', 'tressaillir',
+  'assaillir', 'bouillir', 'fuir', "s'enfuir", 'senfuir', 'vêtir', 'vetir', 'recevoir',
+  'apercevoir', 'concevoir', 'décevoir', 'decevoir', 'percevoir', 'émouvoir', 'emouvoir',
+  'promouvoir', 'mouvoir', 'faillir', 'déchoir', 'dechoir', 'échoir', 'echoir', 'seoir',
+  'messeoir', 'surseoir', 'traire', 'extraire', 'soustraire', 'abstraire', 'déplaire',
+  'deplaire', 'complaire', 'taire', 'prévaloir', 'prevaloir', 'équivaloir', 'equivaloir',
+  'oser', 'lancer', 'plaindre', 'teindre', 'restreindre', 'astreindre', 'contraindre'
+]);
+
+GrammarModule._knownVerbsCache = null;
+
+GrammarModule._ensureVerbsCache = function() {
+  if (GrammarModule._knownVerbsCache && GrammarModule._knownVerbsCache.size > 0) {
+    return;
+  }
+  GrammarModule._knownVerbsCache = new Set();
+
+  let dataset = null;
+  if (typeof window !== 'undefined' && window.conjugaisonVerbsDataset) {
+    dataset = window.conjugaisonVerbsDataset;
+  } else if (typeof global !== 'undefined' && global.conjugaisonVerbsDataset) {
+    dataset = global.conjugaisonVerbsDataset;
+  } else if (typeof require !== 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const candidates = [
+        path.resolve(__dirname, '../../data/conjugaison_verbs.json'),
+        path.resolve(process.cwd(), 'data/conjugaison_verbs.json'),
+        'c:/FrenchDELFB2C1/data/conjugaison_verbs.json'
+      ];
+      for (let i = 0; i < candidates.length; i++) {
+        if (fs.existsSync(candidates[i])) {
+          dataset = JSON.parse(fs.readFileSync(candidates[i], 'utf8'));
+          break;
+        }
+      }
+    } catch (e) {}
+  }
+
+  if (dataset) {
+    if (Array.isArray(dataset.index)) {
+      dataset.index.forEach(item => {
+        if (item.verb) GrammarModule._knownVerbsCache.add(item.verb.toLowerCase());
+        if (item.id) GrammarModule._knownVerbsCache.add(item.id.toLowerCase());
+        if (item.infinitive) GrammarModule._knownVerbsCache.add(item.infinitive.toLowerCase());
+      });
+    }
+    if (dataset.verbs) {
+      Object.keys(dataset.verbs).forEach(k => {
+        GrammarModule._knownVerbsCache.add(k.toLowerCase());
+        const v = dataset.verbs[k];
+        if (v && v.verb) GrammarModule._knownVerbsCache.add(v.verb.toLowerCase());
+      });
+    }
+  }
+};
+
+GrammarModule.isStopWord = function(word) {
+  if (!word || typeof word !== 'string') return true;
+  const clean = word.toLowerCase().trim();
+  return GrammarModule.STOP_WORDS.has(clean);
+};
+
+GrammarModule.isVerb = function(word) {
+  if (!word || typeof word !== 'string') return false;
+  const clean = word.replace(/[()]/g, '').replace(/[,.;:!?]+$/g, '').toLowerCase().trim();
+  if (!clean || clean.length < 2) return false;
+  if (GrammarModule.isStopWord(clean)) return false;
+
+  const nonPronominal = clean.replace(/^(?:se\s+|s['’])/, '');
+  if (GrammarModule.isRegisteredVerb(clean) || GrammarModule.isRegisteredVerb(nonPronominal)) {
+    return true;
+  }
+
+  if (clean.endsWith('er') || clean.endsWith('ir') || clean.endsWith('re') || clean.endsWith('oir')) {
+    return true;
+  }
+
+  return false;
+};
+
+GrammarModule.isRegisteredVerb = function(word) {
+  if (!word || typeof word !== 'string') return false;
+  const clean = word.replace(/[()]/g, '').replace(/[,.;:!?]+$/g, '').toLowerCase().trim();
+  if (!clean || clean.length < 2) return false;
+  if (GrammarModule.isStopWord(clean)) return false;
+
+  GrammarModule._ensureVerbsCache();
+  if (GrammarModule._knownVerbsCache && GrammarModule._knownVerbsCache.has(clean)) {
+    return true;
+  }
+
+  return GrammarModule.CORE_VERBS.has(clean);
+};
 
 // Exposer la classe au scope global
 if (typeof window !== 'undefined') {

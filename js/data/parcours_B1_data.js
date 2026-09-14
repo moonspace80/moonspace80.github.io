@@ -234,28 +234,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch17_souvenir",
                 "fr": "Le souvenir",
                 "en": "Memory / Recollection",
-                "jp": "思い出・記憶 (omoide)",
+                "jp": "思い出・記憶 (おもいで・きおく)",
                 "cn": "回忆 / 记忆 (huíyì)"
               },
               {
                 "id": "b1_ch17_parcours",
                 "fr": "Le parcours",
                 "en": "Career path / Journey",
-                "jp": "経歴・道のり (keireki)",
+                "jp": "経歴・道のり (けいれき・みちのり)",
                 "cn": "经历 / 历程 (jīnglì)"
               },
               {
                 "id": "b1_ch17_tournant",
                 "fr": "Le tournant",
                 "en": "Turning point",
-                "jp": "転換期・転機 (tenkanki)",
+                "jp": "転換期・転機 (てんかんき・てんき)",
                 "cn": "转折点 (zhuǎnzhédiǎn)"
               },
               {
                 "id": "b1_ch17_bifurquer",
                 "fr": "Bifurquer",
                 "en": "To branch off / Change direction",
-                "jp": "進路を変える (shinro o kaeru)",
+                "jp": "進路を変える (しんろをかえる)",
                 "cn": "改变方向 (gǎibiàn fāngxiàng)"
               }
             ]
@@ -269,28 +269,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch17_autrefois",
                 "fr": "Autrefois",
                 "en": "In the past / Formerly",
-                "jp": "昔・かつて (mukashi)",
+                "jp": "昔・かつて (むかし・かつて)",
                 "cn": "从前 / 过去 (cóngqián)"
               },
               {
                 "id": "b1_ch17_desormais",
                 "fr": "Désormais",
                 "en": "From now on / Henceforth",
-                "jp": "今後は・これからは (kongo wa)",
+                "jp": "今後は・これからは (こんごは・これからは)",
                 "cn": "从此 / 今后 (cóngcǐ)"
               },
               {
                 "id": "b1_ch17_soudain",
                 "fr": "Soudain",
                 "en": "Suddenly",
-                "jp": "突然・不意に (totsuzen)",
+                "jp": "突然・不意に (とつぜん・ふいに)",
                 "cn": "突然 (tūrán)"
               },
               {
                 "id": "b1_ch17_parlasuite",
                 "fr": "Par la suite",
                 "en": "Afterwards / Subsequently",
-                "jp": "その後 (sono ato)",
+                "jp": "その後 (そのあと)",
                 "cn": "随后 / 后来 (suíhòu)"
               }
             ]
@@ -672,56 +672,56 @@ window.parcours_B1_Dataset = [
                 "id": "recit_1",
                 "fr": "Péripétie",
                 "en": "Twist / Incident",
-                "jp": "波乱・予期せぬ出来事 (haran)",
+                "jp": "波乱・予期せぬ出来事 (はらん・よきせぬできごと)",
                 "cn": "意想不到的波折 (bōzhé)"
               },
               {
                 "id": "recit_2",
                 "fr": "Réminiscence",
                 "en": "Reminiscence / Vague memory",
-                "jp": "追憶・かすかな記憶 (tsuioku)",
+                "jp": "追憶・かすかな記憶 (ついおく・かすかなきおく)",
                 "cn": "追忆 / 模糊的回忆 (zhuīyì)"
               },
               {
                 "id": "recit_3",
                 "fr": "Sidération",
                 "en": "Stunned amazement / Stupefaction",
-                "jp": "呆然自失・激しいショック (bōzen jishitsu)",
+                "jp": "呆然自失・激しいショック (ぼうぜんじしつ・はげしいしょっく)",
                 "cn": "震惊 / 目瞪口呆 (zhènjīng)"
               },
               {
                 "id": "recit_4",
                 "fr": "Onirique",
                 "en": "Dreamlike / Oneiric",
-                "jp": "夢のような・夢幻的な (mugen-teki na)",
+                "jp": "夢のような・夢幻的な (ゆめのような・むげんてきな)",
                 "cn": "如梦般的 / 梦幻的 (mènghuàn de)"
               },
               {
                 "id": "recit_5",
                 "fr": "Inopiné",
                 "en": "Unexpected / Unforeseen",
-                "jp": "不慮の・予期せぬ (yoki senu)",
+                "jp": "不慮の・予期せぬ (ふりょの・よきせぬ)",
                 "cn": "出乎意料的 (chū hū yì liào de)"
               },
               {
                 "id": "recit_6",
                 "fr": "Dénouement",
                 "en": "Outcome / Resolution",
-                "jp": "結末・大団円 (ketsumatsu)",
+                "jp": "結末・大団円 (けつまつ・だいだんえん)",
                 "cn": "结局 / 终局 (jiéjú)"
               },
               {
                 "id": "recit_7",
                 "fr": "Éphémère",
                 "en": "Ephemeral / Fleeting",
-                "jp": "儚い・つかの間の (hakanai)",
+                "jp": "儚い・つかの間の (はかない・つかのまの)",
                 "cn": "短暂的 / 转瞬即逝的 (duǎnzàn de)"
               },
               {
                 "id": "recit_8",
                 "fr": "Simultanément",
                 "en": "Simultaneously / At the same time",
-                "jp": "同時に (dōji ni)",
+                "jp": "同時に (どうじに)",
                 "cn": "同时地 (tóngshí de)"
               }
             ]
@@ -729,7 +729,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-recit-passe-compose-imparfait"
+    "grammarLessonId": "b1-plus-que-parfait"
   },
   {
     "chapterId": "chap_21",
@@ -966,28 +966,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch19_formation",
                 "fr": "La formation",
                 "en": "Training / Education",
-                "jp": "研修・養成 (kenshū)",
+                "jp": "研修・養成 (けんしゅう・ようせい)",
                 "cn": "培训 / 进修 (péixùn)"
               },
               {
                 "id": "b1_ch19_diplome",
                 "fr": "Le diplôme",
                 "en": "Degree / Diploma",
-                "jp": "学位・免状 (gakui)",
+                "jp": "学位・免状 (がくい・めんじょう)",
                 "cn": "文凭 / 学位证书 (wénpíng)"
               },
               {
                 "id": "b1_ch19_candidature",
                 "fr": "La candidature",
                 "en": "Application",
-                "jp": "応募・志望 (ōbo)",
+                "jp": "応募・志望 (おうぼ・しぼう)",
                 "cn": "申请 / 应聘 (yìngpìn)"
               },
               {
                 "id": "b1_ch19_competences",
                 "fr": "Les compétences",
                 "en": "Skills / Expertise",
-                "jp": "能力・技能 (nōryoku)",
+                "jp": "能力・技能 (のうりょく・ぎのう)",
                 "cn": "技能 / 胜任力 (jìnéng)"
               }
             ]
@@ -1001,28 +1001,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch19_entretien",
                 "fr": "L entretien",
                 "en": "Interview",
-                "jp": "面接 (mensetsu)",
+                "jp": "面接 (めんせつ)",
                 "cn": "面试 (miànshì)"
               },
               {
                 "id": "b1_ch19_recruteur",
                 "fr": "Le recruteur",
                 "en": "Recruiter / Employer",
-                "jp": "採用担当者 (saiyō tantōsha)",
+                "jp": "採用担当者 (さいようたんとうしゃ)",
                 "cn": "招聘人员 (zhāopìn rényuán)"
               },
               {
                 "id": "b1_ch19_stage",
                 "fr": "Le stage",
                 "en": "Internship",
-                "jp": "実習・インターン (jisshū)",
+                "jp": "実習・インターン (じっしゅう・いんたーん)",
                 "cn": "实习 (shíxí)"
               },
               {
                 "id": "b1_ch19_embauche",
                 "fr": "L embauche",
                 "en": "Hiring / Employment",
-                "jp": "採用・雇用 (saiyō)",
+                "jp": "採用・雇用 (さいよう・こよう)",
                 "cn": "聘用 / 雇用 (pìnyòng)"
               }
             ]
@@ -1404,56 +1404,56 @@ window.parcours_B1_Dataset = [
                 "id": "proj_1",
                 "fr": "Aspiration",
                 "en": "Aspiration / Yearning",
-                "jp": "志向・抱負 (shikō / hōfu)",
+                "jp": "志向・抱負 (しこう / ほうふ)",
                 "cn": "抱负 / 志向 (bàofù)"
               },
               {
                 "id": "proj_2",
                 "fr": "Concrétiser",
                 "en": "To materialize / To realize",
-                "jp": "具体化する・実現する (gutaika suru)",
+                "jp": "具体化する・実現する (ぐたいかする・じつげんする)",
                 "cn": "具体化 / 实现 (shíxiàn)"
               },
               {
                 "id": "proj_3",
                 "fr": "Jalon",
                 "en": "Milestone",
-                "jp": "節目・マイルストーン (fushime)",
+                "jp": "節目・マイルストーン (ふしめ・まいるすとーん)",
                 "cn": "里程碑 / 关键阶段 (lǐchéngbēi)"
               },
               {
                 "id": "proj_4",
                 "fr": "Feuille de route",
                 "en": "Roadmap / Action plan",
-                "jp": "ロードマップ・工程表 (kōteihyō)",
+                "jp": "ロードマップ・工程表 (ろーどまっぷ・こうていひょう)",
                 "cn": "路线图 / 规划方案 (lùxiàntú)"
               },
               {
                 "id": "proj_5",
                 "fr": "Faisabilité",
                 "en": "Feasibility",
-                "jp": "実現可能性 (jitsugen kanōsei)",
+                "jp": "実現可能性 (じつげんかのうせい)",
                 "cn": "可行性 (kěxíngxìng)"
               },
               {
                 "id": "proj_6",
                 "fr": "Aboutissement",
                 "en": "Culmination / Successful outcome",
-                "jp": "結実・達成 (ketsujitsu)",
+                "jp": "結実・達成 (けつじつ・たっせい)",
                 "cn": "成果 / 最终实现 (chéngguǒ)"
               },
               {
                 "id": "proj_7",
                 "fr": "Tremplin",
                 "en": "Stepping stone / Springboard",
-                "jp": "跳躍台・足がかり (ashigakari)",
+                "jp": "跳躍台・足がかり (ちょうやくだい・あしがかり)",
                 "cn": "跳板 / 契机 (tiàobǎn)"
               },
               {
                 "id": "proj_8",
                 "fr": "Persévérer",
                 "en": "To persevere / To persist",
-                "jp": "粘り強くやり抜く (yarinuku)",
+                "jp": "粘り強くやり抜く (ねばりづよくやりぬく)",
                 "cn": "坚持不懈 (jiānchíbúxiè)"
               }
             ]
@@ -1461,7 +1461,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-expression-but-subjonctif"
+    "grammarLessonId": "b1-subjonctif-present"
   },
   {
     "chapterId": "chap_23",
@@ -1698,28 +1698,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch21_budget",
                 "fr": "Le budget",
                 "en": "Budget",
-                "jp": "予算・家計 (yosan)",
+                "jp": "予算・家計 (よさん・かけい)",
                 "cn": "预算 (yùsuàn)"
               },
               {
                 "id": "b1_ch21_facture",
                 "fr": "La facture",
                 "en": "Bill / Invoice",
-                "jp": "請求書 (seikyūsho)",
+                "jp": "請求書 (せいきゅうしょ)",
                 "cn": "账单 / 发票 (zhàngdān)"
               },
               {
                 "id": "b1_ch21_epargne",
                 "fr": "L épargne",
                 "en": "Savings",
-                "jp": "貯金・貯蓄 (chokin)",
+                "jp": "貯金・貯蓄 (ちょきん・ちょちく)",
                 "cn": "储蓄 / 存款 (chǔxù)"
               },
               {
                 "id": "b1_ch21_gaspillage",
                 "fr": "Le gaspillage",
                 "en": "Waste / Squandering",
-                "jp": "無駄遣い (mudazukai)",
+                "jp": "無駄遣い (むだづかい)",
                 "cn": "浪费 (làngfèi)"
               }
             ]
@@ -1733,28 +1733,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch21_occasion",
                 "fr": "D occasion",
                 "en": "Second-hand / Used",
-                "jp": "中古の (chūko no)",
+                "jp": "中古の (ちゅうこの)",
                 "cn": "二手 / 旧的 (èrshǒu)"
               },
               {
                 "id": "b1_ch21_durable",
                 "fr": "Durable",
                 "en": "Sustainable / Long-lasting",
-                "jp": "持続可能な (jizoku kanō na)",
+                "jp": "持続可能な (じぞくかのうな)",
                 "cn": "可持续的 / 耐用的 (kěchíxù de)"
               },
               {
                 "id": "b1_ch21_circuitcourt",
                 "fr": "Le circuit court",
                 "en": "Short supply chain",
-                "jp": "産直・直売 (sanchoku)",
+                "jp": "産直・直売 (さんちょく・ちょくばい)",
                 "cn": "产销直对接 (chǎnxiāo zhíjiē)"
               },
               {
                 "id": "b1_ch21_reemploi",
                 "fr": "Le réemploi",
                 "en": "Reuse",
-                "jp": "再利用・リユース (riyūsu)",
+                "jp": "再利用・リユース (さいりよう・りゆーす)",
                 "cn": "重新利用 (chóngxīn lìyòng)"
               }
             ]
@@ -1999,28 +1999,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch22_colocation",
                 "fr": "La colocation",
                 "en": "Flatshare / Room sharing",
-                "jp": "シェアハウス・共同生活 (sheahausu)",
+                "jp": "シェアハウス・共同生活 (しぇあはうす・きょうどうせいかつ)",
                 "cn": "合租 (hézū)"
               },
               {
                 "id": "b1_ch22_proprietaire",
                 "fr": "Le propriétaire",
                 "en": "Owner / Landlord",
-                "jp": "所有者・大家 (ōya)",
+                "jp": "所有者・大家 (しょゆうしゃ・おおや)",
                 "cn": "房东 / 房主 (fángdōng)"
               },
               {
                 "id": "b1_ch22_locataire",
                 "fr": "Le locataire",
                 "en": "Tenant / Renter",
-                "jp": "賃借人・入居者 (nyūkyosha)",
+                "jp": "賃借人・入居者 (ちんしゃくにん・にゅうきょしゃ)",
                 "cn": "房客 / 租客 (fángkè)"
               },
               {
                 "id": "b1_ch22_bail",
                 "fr": "Le bail",
                 "en": "Lease / Tenancy agreement",
-                "jp": "賃貸契約 (chintai keiyaku)",
+                "jp": "賃貸契約 (ちんたいけいやく)",
                 "cn": "租约 (zūyuē)"
               }
             ]
@@ -2034,28 +2034,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch22_ecoquartier",
                 "fr": "L écoquartier",
                 "en": "Eco-neighbourhood",
-                "jp": "環境配慮型街区 (kankyō machi)",
+                "jp": "環境配慮型街区 (かんきょうはいりがたまち)",
                 "cn": "生态街区 (shēngtài jiēqū)"
               },
               {
                 "id": "b1_ch22_amenagement",
                 "fr": "L aménagement",
                 "en": "Layout / Development",
-                "jp": "整備・レイアウト (seibi)",
+                "jp": "整備・レイアウト (せいび・れいあうと)",
                 "cn": "布置 / 规划 (bùzhì)"
               },
               {
                 "id": "b1_ch22_voisinage",
                 "fr": "Le voisinage",
                 "en": "Neighbourhood / Neighbors",
-                "jp": "近所・近隣 (kinjo)",
+                "jp": "近所・近隣 (きんじょ・きんりん)",
                 "cn": "邻里 / 街坊 (línlǐ)"
               },
               {
                 "id": "b1_ch22_copropriete",
                 "fr": "La copropriété",
                 "en": "Co-ownership / Condominium",
-                "jp": "共同所有 (kyōdō shoyū)",
+                "jp": "共同所有 (きょうどうしょゆう)",
                 "cn": "共同所有权 (gòngtóng)"
               }
             ]
@@ -2300,28 +2300,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch23_ecotourisme",
                 "fr": "L écotourisme",
                 "en": "Ecotourism",
-                "jp": "エコツーリズム (ekotsūrizumu)",
+                "jp": "エコツーリズム (えこつーりずむ)",
                 "cn": "生态旅游 (shēngtài lǚyóu)"
               },
               {
                 "id": "b1_ch23_mobilitedouce",
                 "fr": "La mobilité douce",
                 "en": "Soft mobility / Active travel",
-                "jp": "環境配慮型交通 (kankyō kōtsū)",
+                "jp": "環境配慮型交通 (かんきょうはいりがたこうつう)",
                 "cn": "慢行交通 / 绿色出行 (lǜsè chūxíng)"
               },
               {
                 "id": "b1_ch23_carbone",
                 "fr": "L empreinte carbone",
                 "en": "Carbon footprint",
-                "jp": "温室効果ガス排出量 (kaabon futtopurinto)",
+                "jp": "温室効果ガス排出量 (かーぼんふっとぷりんと)",
                 "cn": "碳足迹 (tànzújì)"
               },
               {
                 "id": "b1_ch23_veloroute",
                 "fr": "La véloroute",
                 "en": "Cycle route / Bikeway",
-                "jp": "サイクリングロード (saikuringu rōdo)",
+                "jp": "サイクリングロード (さいくりんぐろーど)",
                 "cn": "自行车骑行道 (qíxíngdào)"
               }
             ]
@@ -2335,28 +2335,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch23_itineraire",
                 "fr": "L itinéraire",
                 "en": "Itinerary / Route",
-                "jp": "日程・旅程 (ryotei)",
+                "jp": "日程・旅程 (にってい・りょてい)",
                 "cn": "行程 / 路线 (xíngchéng)"
               },
               {
                 "id": "b1_ch23_hebergement",
                 "fr": "L hébergement",
                 "en": "Accommodation / Lodging",
-                "jp": "宿泊施設 (shukuhaku shisetsu)",
+                "jp": "宿泊施設 (しゅくはくしせつ)",
                 "cn": "住宿 (zhùsù)"
               },
               {
                 "id": "b1_ch23_depaysement",
                 "fr": "Le dépaysement",
                 "en": "Change of scenery / Disorientation",
-                "jp": "非日常感・異国情緒 (hinichijōkan)",
+                "jp": "非日常感・異国情緒 (ひにちじょうかん・いこくじょうちょ)",
                 "cn": "换换环境 / 异国情调 (yìguó qíngdiào)"
               },
               {
                 "id": "b1_ch23_preservation",
                 "fr": "La préservation",
                 "en": "Preservation / Conservation",
-                "jp": "保護・保全 (hozen)",
+                "jp": "保護・保全 (ほご・ほぜん)",
                 "cn": "保护 / 保存 (bǎohù)"
               }
             ]
@@ -2364,7 +2364,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-condition-si-hypothese"
+    "grammarLessonId": "b1-hypothese-condition"
   },
   {
     "chapterId": "chap_26",
@@ -2738,56 +2738,56 @@ window.parcours_B1_Dataset = [
                 "id": "voyage_1",
                 "fr": "Itinéraire",
                 "en": "Itinerary / Route",
-                "jp": "旅程・ルート (ryotei)",
+                "jp": "旅程・ルート (りょてい・るーと)",
                 "cn": "行程 / 路线 (xíngchéng)"
               },
               {
                 "id": "voyage_2",
                 "fr": "Hébergement",
                 "en": "Accommodation / Lodging",
-                "jp": "宿泊施設 (shukuhaku shisetsu)",
+                "jp": "宿泊施設 (しゅくはくしせつ)",
                 "cn": "住宿 (zhùsù)"
               },
               {
                 "id": "voyage_3",
                 "fr": "Correspondance",
                 "en": "Connection / Transfer",
-                "jp": "乗り継ぎ (noritsugi)",
+                "jp": "乗り継ぎ (のりつぎ)",
                 "cn": "转乘 / 换乘 (zhuǎnchéng)"
               },
               {
                 "id": "voyage_4",
                 "fr": "Incontournable",
                 "en": "Must-see / Unmissable",
-                "jp": "見逃せない・必見の (hikken no)",
+                "jp": "見逃せない・必見の (みのがせない・ひっけんの)",
                 "cn": "不可错过的 / 必游的 (bìyóu de)"
               },
               {
                 "id": "voyage_5",
                 "fr": "Pittoresque",
                 "en": "Picturesque / Quaint",
-                "jp": "絵のように美しい (e no yō ni utsukushii)",
+                "jp": "絵のように美しい (えのようにうつくしい)",
                 "cn": "如画的 / 别致的 (rúhuà de)"
               },
               {
                 "id": "voyage_6",
                 "fr": "Dépaysant",
                 "en": "Exotic / Disorienting in a pleasant way",
-                "jp": "日常を忘れさせる・異国情緒ある (ikoku jōcho)",
+                "jp": "日常を忘れさせる・異国情緒ある (にちじょうをわすれさせる・いこくじょうちょある)",
                 "cn": "令人耳目一新的 (ěr mù yī xīn de)"
               },
               {
                 "id": "voyage_7",
                 "fr": "Compostage",
                 "en": "Ticket validation / Punching",
-                "jp": "改札・切符の刻印 (kizamiin)",
+                "jp": "改札・切符の刻印 (かいさつ・きっぷのこくいん)",
                 "cn": "检票 / 验票 (jiǎnpiào)"
               },
               {
                 "id": "voyage_8",
                 "fr": "Écotourisme",
                 "en": "Ecotourism / Sustainable tourism",
-                "jp": "エコツーリズム・環境配慮型観光 (ekotsūrizumu)",
+                "jp": "エコツーリズム・環境配慮型観光 (えこつーりずむ・かんきょうはいりがたかんこう)",
                 "cn": "生态旅游 (shēngtài lǚyóu)"
               }
             ]
@@ -2795,7 +2795,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-conditionnel-politesse-voyage"
+    "grammarLessonId": "b1-hypothese-condition"
   },
   {
     "chapterId": "chap_27",
@@ -3169,56 +3169,56 @@ window.parcours_B1_Dataset = [
                 "id": "imprevu_1",
                 "fr": "Dysfonctionnement",
                 "en": "Malfunction / Glitch",
-                "jp": "機能不全・不具合 (kinō fuzen)",
+                "jp": "機能不全・不具合 (きのうふぜん・ふぐあい)",
                 "cn": "故障 / 运转失常 (gùzhàng)"
               },
               {
                 "id": "imprevu_2",
                 "fr": "Dédommagement",
                 "en": "Compensation / Indemnity",
-                "jp": "補償・賠償 (hoshō)",
+                "jp": "補償・賠償 (ほしょう・ばいしょう)",
                 "cn": "赔偿 / 补偿 (péicháng)"
               },
               {
                 "id": "imprevu_3",
                 "fr": "Litige",
                 "en": "Dispute / Litigation",
-                "jp": "紛争・係争 (funsō)",
+                "jp": "紛争・係争 (ふんそう・けいそう)",
                 "cn": "争议 / 纠纷 (zhēngyì)"
               },
               {
                 "id": "imprevu_4",
                 "fr": "Résiliation",
                 "en": "Cancellation / Termination",
-                "jp": "解約・契約解除 (kaiyaku)",
+                "jp": "解約・契約解除 (かいやく・けいやくかいじょ)",
                 "cn": "解约 / 终止合同 (jiěyuē)"
               },
               {
                 "id": "imprevu_5",
                 "fr": "Sang-froid",
                 "en": "Composure / Presence of mind",
-                "jp": "冷静沈着・落ち着き (reisei chinchaku)",
+                "jp": "冷静沈着・落ち着き (れいせいちんちゃく・おちつき)",
                 "cn": "沉着 / 冷静 (chénzhuó)"
               },
               {
                 "id": "imprevu_6",
                 "fr": "Pallier",
                 "en": "To mitigate / To compensate for",
-                "jp": "一時的に補う・緩和する (oginau)",
+                "jp": "一時的に補う・緩和する (いちじてきにおぎなう・かんわする)",
                 "cn": "弥补 / 缓解 (míbǔ)"
               },
               {
                 "id": "imprevu_7",
                 "fr": "Compromis",
                 "en": "Compromise / Middle ground",
-                "jp": "妥協・歩み寄り (dakyō)",
+                "jp": "妥協・歩み寄り (だきょう・あゆみより)",
                 "cn": "妥协 / 折中方案 (tuǒxié)"
               },
               {
                 "id": "imprevu_8",
                 "fr": "Désemparé",
                 "en": "Helpless / At a loss",
-                "jp": "途方に暮れた・狼狽した (tohō ni kureta)",
+                "jp": "途方に暮れた・狼狽した (とほうにくれた・ろうばいした)",
                 "cn": "手足无措的 (shǒuzúwúcuò de)"
               }
             ]
@@ -3226,7 +3226,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-imprevus-cause-concession-indirect"
+    "grammarLessonId": "b1-cause-consequence-but"
   },
   {
     "chapterId": "chap_28",
@@ -3463,28 +3463,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch26_hygiene",
                 "fr": "L hygiène de vie",
                 "en": "Healthy lifestyle",
-                "jp": "生活習慣 (seikatsu shūkan)",
+                "jp": "生活習慣 (せいかつしゅうかん)",
                 "cn": "生活方式 / 健康习惯 (shēnghuó fāngshì)"
               },
               {
                 "id": "b1_ch26_prevention",
                 "fr": "La prévention",
                 "en": "Prevention",
-                "jp": "予防 (yobō)",
+                "jp": "予防 (よぼう)",
                 "cn": "预防 (yùfáng)"
               },
               {
                 "id": "b1_ch26_endurance",
                 "fr": "L endurance",
                 "en": "Endurance / Stamina",
-                "jp": "持久力・忍耐力 (jikyūryoku)",
+                "jp": "持久力・忍耐力 (じきゅうりょく・にんたいりょく)",
                 "cn": "耐力 (nàilì)"
               },
               {
                 "id": "b1_ch26_sedentarite",
                 "fr": "La sédentarité",
                 "en": "Sedentary lifestyle",
-                "jp": "運動不足・座りがちな生活 (undō busoku)",
+                "jp": "運動不足・座りがちな生活 (うんどうぶそく・すわりがちなせいかつ)",
                 "cn": "久坐不动 / 缺乏运动 (jiǔzuò bùdòng)"
               }
             ]
@@ -3498,28 +3498,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch26_etirement",
                 "fr": "L étirement",
                 "en": "Stretching",
-                "jp": "ストレッチ (sutoretchi)",
+                "jp": "ストレッチ (すとれっち)",
                 "cn": "拉伸 / 伸展 (lāshēn)"
               },
               {
                 "id": "b1_ch26_hydratation",
                 "fr": "L hydratation",
                 "en": "Hydration",
-                "jp": "水分補給 (suibun hokyū)",
+                "jp": "水分補給 (すいぶんほきゅう)",
                 "cn": "补水 / 水分补充 (bǔshuǐ)"
               },
               {
                 "id": "b1_ch26_regularite",
                 "fr": "La régularité",
                 "en": "Regularity / Consistency",
-                "jp": "規則正しさ・継続性 (kisoku tadashisa)",
+                "jp": "規則正しさ・継続性 (きそくただしさ・けいぞくせい)",
                 "cn": "规律性 / 坚持 (guīlǜxìng)"
               },
               {
                 "id": "b1_ch26_recuperation",
                 "fr": "La récupération",
                 "en": "Recovery",
-                "jp": "疲労回復・リカバリー (hirō kaifuku)",
+                "jp": "疲労回復・リカバリー (ひろうかいふく・りかばりー)",
                 "cn": "恢复 / 休整 (huīfù)"
               }
             ]
@@ -3901,70 +3901,70 @@ window.parcours_B1_Dataset = [
                 "id": "allerge_1",
                 "fr": "Allergène",
                 "en": "Allergen",
-                "jp": "アレルゲン・抗原 (arerugen)",
+                "jp": "アレルゲン・抗原 (あれるげん・こうげん)",
                 "cn": "过敏原 (guòmǐnyuán)"
               },
               {
                 "id": "allerge_2",
                 "fr": "Éternuement",
                 "en": "Sneezing / Sneeze",
-                "jp": "くしゃみ (kushami)",
+                "jp": "くしゃみ",
                 "cn": "打喷嚏 (dǎ pēntì)"
               },
               {
                 "id": "allerge_3",
                 "fr": "Démangeaison",
                 "en": "Itching / Itch",
-                "jp": "かゆみ・掻痒 (kayumi)",
+                "jp": "かゆみ・掻痒 (かゆみ・そうよう)",
                 "cn": "瘙痒 / 发痒 (sàoyǎng)"
               },
               {
                 "id": "allerge_4",
                 "fr": "Pollen",
                 "en": "Pollen",
-                "jp": "花粉 (kafun)",
+                "jp": "花粉 (かふん)",
                 "cn": "花粉 (huāfěn)"
               },
               {
                 "id": "allerge_5",
                 "fr": "Acariens",
                 "en": "Dust mites",
-                "jp": "ダニ・チリダニ (dani)",
+                "jp": "ダニ・チリダニ (だに・ちりだに)",
                 "cn": "螨虫 / 尘螨 (mǎnchóng)"
               },
               {
                 "id": "allerge_6",
                 "fr": "Moisissures",
                 "en": "Molds / Fungi",
-                "jp": "カビ・真菌 (kabi)",
+                "jp": "カビ・真菌 (かび・しんきん)",
                 "cn": "霉菌 (méijūn)"
               },
               {
                 "id": "allerge_7",
                 "fr": "Allergologue",
                 "en": "Allergist / Allergologist",
-                "jp": "アレルギー専門医 (arerugī senmon'i)",
+                "jp": "アレルギー専門医 (あれるぎーせんもんい)",
                 "cn": "过敏科医生 (guòmǐnkē yīshēng)"
               },
               {
                 "id": "allerge_8",
                 "fr": "Antihistaminique",
                 "en": "Antihistamine",
-                "jp": "抗ヒスタミン薬 (kō-hisutamin-yaku)",
+                "jp": "抗ヒスタミン薬 (こうひすたみんやく)",
                 "cn": "抗组胺药 (kàng zǔ'àn yào)"
               },
               {
                 "id": "allerge_9",
                 "fr": "Désensibilisation",
                 "en": "Desensitization / Immunotherapy",
-                "jp": "減感作療法・脱感作 (genkansa ryōhō)",
+                "jp": "減感作療法・脱感作 (げんかんさりょうほう・だつかんさ)",
                 "cn": "脱敏治疗 (tuōmǐn zhìliáo)"
               },
               {
                 "id": "allerge_10",
                 "fr": "Asthme",
                 "en": "Asthma",
-                "jp": "喘息・ぜんそく (zensoku)",
+                "jp": "喘息・ぜんそく (ぜんそく)",
                 "cn": "哮喘 (xiàochuǎn)"
               }
             ]
@@ -4205,14 +4205,14 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch28_source",
                 "fr": "La source",
                 "en": "Source / Reference",
-                "jp": "情報源 (jōhōgen)",
+                "jp": "情報源 (じょうほうげん)",
                 "cn": "消息来源 (xiāoxī láiyuán)"
               },
               {
                 "id": "b1_ch28_infox",
                 "fr": "L'infox",
                 "en": "Fake news / Disinformation",
-                "jp": "フェイクニュース (feiku nyūsu)",
+                "jp": "フェイクニュース (ふぇいくにゅーす)",
                 "cn": "假新闻 (jiǎ xīnwén)"
               },
               {
@@ -4226,7 +4226,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch28_enquete",
                 "fr": "L'enquête",
                 "en": "Investigation / Inquest",
-                "jp": "調査・報道 (chōsa)",
+                "jp": "調査・報道 (ちょうさ・ほうどう)",
                 "cn": "调查 / 深入报道 (diàochá)"
               }
             ]
@@ -4254,7 +4254,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch28_souligner",
                 "fr": "Souligner",
                 "en": "To emphasize / Stress",
-                "jp": "強調する (kyōchō suru)",
+                "jp": "強調する (きょうちょうする)",
                 "cn": "强调 (qiángdiào)"
               },
               {
@@ -4643,56 +4643,56 @@ window.parcours_B1_Dataset = [
                 "id": "presse_1",
                 "fr": "À la une",
                 "en": "On the front page / Headline",
-                "jp": "一面トップ・大見出し (ichimen toppu)",
+                "jp": "一面トップ・大見出し (いちめんとっぷ・おおみだし)",
                 "cn": "头版头条 (tóubǎn tóutiáo)"
               },
               {
                 "id": "presse_2",
                 "fr": "Chapeau",
                 "en": "Standfirst / Deck / Summary blurb",
-                "jp": "リード文・要約文 (rīdo bun)",
+                "jp": "リード文・要約文 (りーどぶん・ようやくぶん)",
                 "cn": "导语 / 文章提要 (dǎoyǔ)"
               },
               {
                 "id": "presse_3",
                 "fr": "Éditorial",
                 "en": "Editorial / Opinion piece",
-                "jp": "社説・論説 (shasetsu)",
+                "jp": "社説・論説 (しゃせつ・ろんせつ)",
                 "cn": "社论 / 评论 (shèlùn)"
               },
               {
                 "id": "presse_4",
                 "fr": "Démenti",
                 "en": "Denial / Official refutation",
-                "jp": "公式否定・否定声明 (kōshiki hitei)",
+                "jp": "公式否定・否定声明 (こうしきひてい・ひていせいめい)",
                 "cn": "正式澄清 / 辟谣 (pìyáo)"
               },
               {
                 "id": "presse_5",
                 "fr": "Recouper",
                 "en": "To cross-check / To corroborate",
-                "jp": "情報を突き合わせる・裏付けを取る (urazuke)",
+                "jp": "情報を突き合わせる・裏付けを取る (うらづけをとる)",
                 "cn": "核对 / 交叉比对 (héduì)"
               },
               {
                 "id": "presse_6",
                 "fr": "Controverse",
                 "en": "Controversy / Public dispute",
-                "jp": "論争・物議 (ronsō)",
+                "jp": "論争・物議 (ろんそう・ぶつぎ)",
                 "cn": "争议 / 论争 (zhēngyì)"
               },
               {
                 "id": "presse_7",
                 "fr": "Faits divers",
                 "en": "Local news items / Minor news",
-                "jp": "三面記事・社会面ニュース (sanmen kiji)",
+                "jp": "三面記事・社会面ニュース (さんめんきじ・しゃかいめんにゅーす)",
                 "cn": "社会琐事新闻 (shèhuì xīnsuǒ xīnwén)"
               },
               {
                 "id": "presse_8",
                 "fr": "Impartialité",
                 "en": "Impartiality / Fair neutrality",
-                "jp": "公平性・不偏不党 (kōheisei)",
+                "jp": "公平性・不偏不党 (こうへいせい・ふへんふとう)",
                 "cn": "客观公正 (kèguān gōngzhèng)"
               }
             ]
@@ -4700,7 +4700,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-presse-conditionnel-nominalisation"
+    "grammarLessonId": "b1-voix-passive"
   },
   {
     "chapterId": "chap_32",
@@ -5074,56 +5074,56 @@ window.parcours_B1_Dataset = [
                 "id": "tv_1",
                 "fr": "Présentateur",
                 "en": "News anchor / Presenter",
-                "jp": "ニュースキャスター・司会者 (nyūsu kyasutā)",
+                "jp": "ニュースキャスター・司会者 (にゅーすきゃすたー・しかいしゃ)",
                 "cn": "新闻主播 / 主持人 (zhǔbō)"
               },
               {
                 "id": "tv_2",
                 "fr": "Envoyé spécial",
                 "en": "Special correspondent / Field reporter",
-                "jp": "特派員・現地記者 (tokuhain)",
+                "jp": "特派員・現地記者 (とくはいん・げんちきしゃ)",
                 "cn": "特派记者 (tèpài jìzhě)"
               },
               {
                 "id": "tv_3",
                 "fr": "Duplex",
                 "en": "Live hookup / Live two-way link",
-                "jp": "中継・生中継 (nama chūkei)",
+                "jp": "中継・生中継 (ちゅうけい・なまちゅうけい)",
                 "cn": "现场直播连线 (xiànchǎng liánxiàn)"
               },
               {
                 "id": "tv_4",
                 "fr": "Lancement",
                 "en": "Lead-in / Story introduction",
-                "jp": "導入・ニュース振り (dōnyū)",
+                "jp": "導入・ニュース振り (どうにゅう・にゅーすふり)",
                 "cn": "新闻导语引入 (yǐnrù)"
               },
               {
                 "id": "tv_5",
                 "fr": "Micro-trottoir",
                 "en": "Man-on-the-street interview / Vox pop",
-                "jp": "街頭インタビュー (gaitō intabyū)",
+                "jp": "街頭インタビュー (がいとういんたびゅー)",
                 "cn": "街头采访 (jiētóu cǎifǎng)"
               },
               {
                 "id": "tv_6",
                 "fr": "Voix off",
                 "en": "Voice-over",
-                "jp": "ナレーション・声の出演 (narēshon)",
+                "jp": "ナレーション・声の出演 (なれーしょん・こえのしゅつえん)",
                 "cn": "画外音 / 配音解说 (huàwàiyīn)"
               },
               {
                 "id": "tv_7",
                 "fr": "Édition spéciale",
                 "en": "Special edition / Breaking news broadcast",
-                "jp": "報道特別番組・特番 (tokuban)",
+                "jp": "報道特別番組・特番 (ほうどうとくべつばんぐみ・とくばん)",
                 "cn": "特别报道节目 (tèbié bàodào)"
               },
               {
                 "id": "tv_8",
                 "fr": "Décryptage",
                 "en": "In-depth analysis / Breakdown",
-                "jp": "徹底解説・真相解明 (kaisetsu)",
+                "jp": "徹底解説・真相解明 (てっていかいせつ・しんそうかいめい)",
                 "cn": "深度解读 / 剖析 (jiědú)"
               }
             ]
@@ -5131,7 +5131,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-tv-voix-passive-indirect"
+    "grammarLessonId": "b1-voix-passive"
   },
   {
     "chapterId": "chap_33",
@@ -5505,70 +5505,70 @@ window.parcours_B1_Dataset = [
                 "id": "rad_1",
                 "fr": "Émission de radio",
                 "en": "Radio show / broadcast",
-                "jp": "ラジオ番組 (rajio bangumi)",
+                "jp": "ラジオ番組 (らじおばんぐみ)",
                 "cn": "广播节目 (guǎngbō jiémù)"
               },
               {
                 "id": "rad_2",
                 "fr": "Flash info",
                 "en": "News bulletin / Newsflash",
-                "jp": "ニュース速報・短いニュース (nyūsu sokuhō)",
+                "jp": "ニュース速報・短いニュース (にゅーすそくほう・みじかいにゅーす)",
                 "cn": "简明新闻 / 快讯 (jiǎnmíng xīnwén)"
               },
               {
                 "id": "rad_3",
                 "fr": "Auditeur",
                 "en": "Listener",
-                "jp": "聴取者・リスナー (chōshusha)",
+                "jp": "聴取者・リスナー (ちょうしゅしゃ・りすなー)",
                 "cn": "听众 (tīngzhòng)"
               },
               {
                 "id": "rad_4",
                 "fr": "Présentateur",
                 "en": "Radio host / News anchor",
-                "jp": "司会者・キャスター (shikaisha)",
+                "jp": "司会者・キャスター (しかいしゃ・きゃすたー)",
                 "cn": "节目主持人 (jiémù zhǔchí rén)"
               },
               {
                 "id": "rad_5",
                 "fr": "Micro-trottoir",
                 "en": "Street interview / Vox pop",
-                "jp": "街頭インタビュー (gaitō intabyū)",
+                "jp": "街頭インタビュー (がいとういんたびゅー)",
                 "cn": "街头采访 (jiētóu cǎifǎng)"
               },
               {
                 "id": "rad_6",
                 "fr": "En direct",
                 "en": "Live broadcast",
-                "jp": "生放送・ライブ (namahōsō)",
+                "jp": "生放送・ライブ (なまほうそう・らいぶ)",
                 "cn": "直播 (zhíbō)"
               },
               {
                 "id": "rad_7",
                 "fr": "Rediffusion",
                 "en": "Rebroadcast / Rerun",
-                "jp": "再放送 (saihōsō)",
+                "jp": "再放送 (さいほうそう)",
                 "cn": "重播 (chóngbō)"
               },
               {
                 "id": "rad_8",
                 "fr": "Chroniqueur",
                 "en": "Columnist / Commentator",
-                "jp": "コラムニスト・解説者 (koramunisuto)",
+                "jp": "コラムニスト・解説者 (こらむにすと・かいせつしゃ)",
                 "cn": "专栏特约评论员 (zhuānlán pínglùn yuán)"
               },
               {
                 "id": "rad_9",
                 "fr": "Fidélité de la source",
                 "en": "Source reliability",
-                "jp": "情報源の信頼性 (jōhōgen no shinraisei)",
+                "jp": "情報源の信頼性 (じょうほうげんのしんらいせい)",
                 "cn": "消息来源可靠性 (xiāoxi láiyuán kěkàoxìng)"
               },
               {
                 "id": "rad_10",
                 "fr": "Table de mixage",
                 "en": "Mixing console / audio board",
-                "jp": "ミキシングコンソール (mikishingu konsōru)",
+                "jp": "ミキシングコンソール (みきしんぐこんそーる)",
                 "cn": "调音台 (tiáoyīntái)"
               }
             ]
@@ -5576,7 +5576,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-radio-actualite"
+    "grammarLessonId": "b1-discours-indirect-present"
   },
   {
     "chapterId": "chap_34",
@@ -5809,28 +5809,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch32_metteur",
                 "fr": "Le metteur en scène",
                 "en": "Director (theater/film)",
-                "jp": "演出家 (enshuttsuka)",
+                "jp": "演出家 (えんしゅつか)",
                 "cn": "导演 (dǎoyǎn)"
               },
               {
                 "id": "b1_ch32_comedien",
                 "fr": "Le comédien",
                 "en": "Actor / Performer",
-                "jp": "俳優・役者 (haiyū)",
+                "jp": "俳優・役者 (はいゆう・やくしゃ)",
                 "cn": "话剧演员 (yǎnyuán)"
               },
               {
                 "id": "b1_ch32_sculpteur",
                 "fr": "Le sculpteur",
                 "en": "Sculptor",
-                "jp": "彫刻家 (chōkokuka)",
+                "jp": "彫刻家 (ちょうこくか)",
                 "cn": "雕塑家 (diāosùjiā)"
               },
               {
                 "id": "b1_ch32_critique",
                 "fr": "Le critique",
                 "en": "Critic / Reviewer",
-                "jp": "批評家・評論家 (hihyōka)",
+                "jp": "批評家・評論家 (ひひょうか・ひょうろんか)",
                 "cn": "评论家 (pínglùnjiā)"
               }
             ]
@@ -5851,21 +5851,21 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch32_coulisses",
                 "fr": "Les coulisses",
                 "en": "Backstage / Behind the scenes",
-                "jp": "舞台裏・楽屋 (butaiura)",
+                "jp": "舞台裏・楽屋 (ぶたいうら・がくや)",
                 "cn": "后台 / 幕后 (hòutái)"
               },
               {
                 "id": "b1_ch32_guichet",
                 "fr": "Le guichet",
                 "en": "Box office / Ticket counter",
-                "jp": "チケット窓口 (madoguchi)",
+                "jp": "チケット窓口 (ちけっとまどぐち)",
                 "cn": "售票窗口 (shòupiàochuāng)"
               },
               {
                 "id": "b1_ch32_oeuvre",
                 "fr": "L'œuvre d'art",
                 "en": "Artwork / Work of art",
-                "jp": "美術品・作品 (sakuhin)",
+                "jp": "美術品・作品 (びじゅつひん・さくひん)",
                 "cn": "艺术品 (yìshùpǐn)"
               }
             ]
@@ -6247,70 +6247,70 @@ window.parcours_B1_Dataset = [
                 "id": "sent_1",
                 "fr": "Soulagement",
                 "en": "Relief",
-                "jp": "安心・安堵 (ando / anshin)",
+                "jp": "安心・安堵 (あんしん・あんど)",
                 "cn": "宽慰 / 如释重负 (kuānwèi)"
               },
               {
                 "id": "sent_2",
                 "fr": "Enthousiasme",
                 "en": "Enthusiasm",
-                "jp": "熱狂・熱意 (netsui)",
+                "jp": "熱狂・熱意 (ねっきょう・ねつい)",
                 "cn": "热情 / 狂热 (rèqíng)"
               },
               {
                 "id": "sent_3",
                 "fr": "Appréhension",
                 "en": "Apprehension / Dread",
-                "jp": "不安・懸念 (fuan / kenen)",
+                "jp": "不安・懸念 (ふあん・けねん)",
                 "cn": "忧虑 / 惴惴不安 (yōulǜ)"
               },
               {
                 "id": "sent_4",
                 "fr": "Émerveillement",
                 "en": "Wonder / Amazement",
-                "jp": "驚嘆・感嘆 (kōtan)",
+                "jp": "驚嘆・感嘆 (きょうたん・かんたん)",
                 "cn": "惊叹 / 赞叹 (jīngtàn)"
               },
               {
                 "id": "sent_5",
                 "fr": "Nostalgie",
                 "en": "Nostalgia",
-                "jp": "郷愁・ノスタルジア (kyōshū)",
+                "jp": "郷愁・ノスタルジア (きょうしゅう・のすたるじあ)",
                 "cn": "怀旧 / 乡愁 (huáijiù)"
               },
               {
                 "id": "sent_6",
                 "fr": "Fierté",
                 "en": "Pride",
-                "jp": "誇り・プライド (hokori)",
+                "jp": "誇り・プライド (ほこり・ぷらいど)",
                 "cn": "自豪 / 骄傲 (zìháo)"
               },
               {
                 "id": "sent_7",
                 "fr": "Gratitude",
                 "en": "Gratitude",
-                "jp": "感謝の念 (kansha no nen)",
+                "jp": "感謝の念 (かんしゃのねん)",
                 "cn": "感激 / 感恩 (gǎnjī)"
               },
               {
                 "id": "sent_8",
                 "fr": "Sérénité",
                 "en": "Serenity / Peace of mind",
-                "jp": "心の平穏・静けさ (heion)",
+                "jp": "心の平穏・静けさ (こころのへいおん・しずけさ)",
                 "cn": "宁静 / 心平气和 (níngjìng)"
               },
               {
                 "id": "sent_9",
                 "fr": "Désarroi",
                 "en": "Distress / Helplessness",
-                "jp": "途方に暮れること・混乱 (dōwaku)",
+                "jp": "途方に暮れること・混乱 (とほうにくれること・こんらん)",
                 "cn": "彷徨 / 束手无策 (pánghuáng)"
               },
               {
                 "id": "sent_10",
                 "fr": "Amertume",
                 "en": "Bitterness",
-                "jp": "苦い思い・悔しさ (kiga)",
+                "jp": "苦い思い・悔しさ (にがいおもい・くやしさ)",
                 "cn": "辛酸 / 苦楚 (xīnsuān)"
               }
             ]
@@ -6318,7 +6318,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-exprimer-sentiments"
+    "grammarLessonId": "b1-subjonctif-present"
   },
   {
     "chapterId": "chap_36",
@@ -6692,70 +6692,70 @@ window.parcours_B1_Dataset = [
                 "id": "arg_1",
                 "fr": "Point de vue",
                 "en": "Point of view / Standpoint",
-                "jp": "視点・見解 (shiten / kenkai)",
+                "jp": "視点・見解 (してん・けんかい)",
                 "cn": "观点 / 视角 (guāndiǎn)"
               },
               {
                 "id": "arg_2",
                 "fr": "Argument convaincant",
                 "en": "Convincing argument",
-                "jp": "説得力のある論拠 (settokuryoku no aru ronkyo)",
+                "jp": "説得力のある論拠 (せっとくりょくのあるろんきょ)",
                 "cn": "有说服力的论据 (yǒu shuōfúlì de lùnjù)"
               },
               {
                 "id": "arg_3",
                 "fr": "Illustration concrète",
                 "en": "Concrete example / Illustration",
-                "jp": "具体例・例証 (gutairei)",
+                "jp": "具体例・例証 (ぐたいれい・れいしょう)",
                 "cn": "具体事例 (jùtǐ shìlì)"
               },
               {
                 "id": "arg_4",
                 "fr": "Pertinence",
                 "en": "Relevance / Appropriateness",
-                "jp": "妥当性・適切さ (datōsei)",
+                "jp": "妥当性・適切さ (だとうせい・てきせつさ)",
                 "cn": "针对性 / 贴切性 (zhēnduìxìng)"
               },
               {
                 "id": "arg_5",
                 "fr": "Avantage majeur",
                 "en": "Major advantage",
-                "jp": "主要な利点・長所 (shuyō na riten)",
+                "jp": "主要な利点・長所 (しゅようなりてん・ちょうしょ)",
                 "cn": "主要优势 (zhǔyào yōushì)"
               },
               {
                 "id": "arg_6",
                 "fr": "Inconvénient",
                 "en": "Drawback / Disadvantage",
-                "jp": "短所・不都合 (tansho / futsugō)",
+                "jp": "短所・不都合 (たんしょ・ふつごう)",
                 "cn": "缺点 / 劣势 (quēdiǎn)"
               },
               {
                 "id": "arg_7",
                 "fr": "Faisabilité",
                 "en": "Feasibility",
-                "jp": "実現可能性 (jitsugen kanōsei)",
+                "jp": "実現可能性 (じつげんかのうせい)",
                 "cn": "可行性 (kěxíngxìng)"
               },
               {
                 "id": "arg_8",
                 "fr": "Préconiser",
                 "en": "To advocate / To recommend",
-                "jp": "推奨する・提唱する (suishō suru)",
+                "jp": "推奨する・提唱する (すいしょうする・ていしょうする)",
                 "cn": "提倡 / 推荐 (tíchàng)"
               },
               {
                 "id": "arg_9",
                 "fr": "Réfuter une thèse",
                 "en": "To refute a thesis",
-                "jp": "主張を反駁する (shuchō o hanbaku suru)",
+                "jp": "主張を反駁する (しゅちょうをはんばくする)",
                 "cn": "驳斥论点 (bóchì lùndiǎn)"
               },
               {
                 "id": "arg_10",
                 "fr": "Fondement solide",
                 "en": "Solid basis / Grounding",
-                "jp": "確固たる根拠 (kakkotaru konkyo)",
+                "jp": "確固たる根拠 (かっこたるこんきょ)",
                 "cn": "坚实依据 (jiānshí yījù)"
               }
             ]
@@ -6763,7 +6763,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-donner-opinion-argumenter"
+    "grammarLessonId": "b1-cause-consequence-but"
   },
   {
     "chapterId": "chap_37",
@@ -7137,70 +7137,70 @@ window.parcours_B1_Dataset = [
                 "id": "acc_1",
                 "fr": "Partager un point de vue",
                 "en": "To share a viewpoint",
-                "jp": "見解を共有する・賛同する (kenkai o kyōyū suru)",
+                "jp": "見解を共有する・賛同する (けんかいをきょうゆうする・さんどうする)",
                 "cn": "赞同观点 (zàntóng guāndiǎn)"
               },
               {
                 "id": "acc_2",
                 "fr": "Émettre une objection",
                 "en": "To raise an objection",
-                "jp": "異議を申し立てる (igi o mōshitateru)",
+                "jp": "異議を申し立てる (いぎをもうしたてる)",
                 "cn": "提出异议 (tíchū yìyì)"
               },
               {
                 "id": "acc_3",
                 "fr": "Concéder un point",
                 "en": "To concede a point",
-                "jp": "一歩譲る・認める (ippo yuzuru)",
+                "jp": "一歩譲る・認める (いっぽゆずる・みとめる)",
                 "cn": "让步 / 承认一点 (ràngbù)"
               },
               {
                 "id": "acc_4",
                 "fr": "Consensus général",
                 "en": "General consensus",
-                "jp": "総意・一般的合意 (sōi / gōi)",
+                "jp": "総意・一般的合意 (そうい・いっぱんてきごうい)",
                 "cn": "普遍共识 (pǔbiàn gòngshí)"
               },
               {
                 "id": "acc_5",
                 "fr": "Divergence d'opinions",
                 "en": "Divergence of opinions",
-                "jp": "意見の相違・不一致 (iken no sōi)",
+                "jp": "意見の相違・不一致 (いけんのそうい・ふいっち)",
                 "cn": "意见分歧 (yìjiàn fēnqí)"
               },
               {
                 "id": "acc_6",
                 "fr": "Approbation unanime",
                 "en": "Unanimous approval",
-                "jp": "満場一致の承認 (manjō itchi no shōnin)",
+                "jp": "満場一致の承認 (まんじょういっちのしょうにん)",
                 "cn": "一致通过 / 赞成 (yīzhì tōngguò)"
               },
               {
                 "id": "acc_7",
                 "fr": "Réfuter des allégations",
                 "en": "To refute allegations",
-                "jp": "申し立てを論駁する (mōshitate o ronbaku suru)",
+                "jp": "申し立てを論駁する (もうしたてをろんばくする)",
                 "cn": "驳斥指控 (bóchì zhǐkòng)"
               },
               {
                 "id": "acc_8",
                 "fr": "S'inscrire en faux",
                 "en": "To deny strongly / To take issue with",
-                "jp": "真っ向から否定する (makkō kara hitei suru)",
+                "jp": "真っ向から否定する (まっこうからひていする)",
                 "cn": "断然否认 (duànrán fǒurèn)"
               },
               {
                 "id": "acc_9",
                 "fr": "Trouver un compromis",
                 "en": "To find a compromise",
-                "jp": "妥協点を見出す (dakyōten o miidasu)",
+                "jp": "妥協点を見出す (だきょうてんをみいだす)",
                 "cn": "达成妥协 (dáchéng tuǒxié)"
               },
               {
                 "id": "acc_10",
                 "fr": "Ajourner une décision",
                 "en": "To adjourn / To postpone a decision",
-                "jp": "決定を延期する (kettei o enki suru)",
+                "jp": "決定を延期する (けっていをえんきする)",
                 "cn": "延期决定 (yánqī juédìng)"
               }
             ]
@@ -7208,7 +7208,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-accord-desaccord"
+    "grammarLessonId": "b1-double-pronominalisation"
   },
   {
     "chapterId": "chap_38",
@@ -7441,28 +7441,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch36_compost",
                 "fr": "Le compostage",
                 "en": "Composting",
-                "jp": "堆肥化・コンポスト (taihi)",
+                "jp": "堆肥化・コンポスト (たいひか・こんぽすと)",
                 "cn": "堆肥处理 (duīfèi)"
               },
               {
                 "id": "b1_ch36_circuit",
                 "fr": "Le circuit court",
                 "en": "Short supply chain / Local food",
-                "jp": "産地直送・直売 (chokubai)",
+                "jp": "産地直送・直売 (さんちちょくそう・ちょくばい)",
                 "cn": "农产品短路直销 (zhíxiāo)"
               },
               {
                 "id": "b1_ch36_gaspillage",
                 "fr": "Le gaspillage",
                 "en": "Waste / Squandering",
-                "jp": "無駄・浪費 (muda)",
+                "jp": "無駄・浪費 (むだ・ろうひ)",
                 "cn": "浪费 (làngfèi)"
               },
               {
                 "id": "b1_ch36_dechetterie",
                 "fr": "La déchetterie",
                 "en": "Recycling centre / Waste dump",
-                "jp": "ゴミ処理施設 (gomi shorisetsu)",
+                "jp": "ゴミ処理施設 (ごみしょりしせつ)",
                 "cn": "大型垃圾回收站 (huíshōuzhàn)"
               }
             ]
@@ -7476,7 +7476,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch36_trier",
                 "fr": "Trier les déchets",
                 "en": "To sort waste / recycling",
-                "jp": "ゴミを分別する (bunbetsu suru)",
+                "jp": "ゴミを分別する (ごみをぶんべつする)",
                 "cn": "垃圾分类 (lājī fēnlèi)"
               },
               {
@@ -7490,14 +7490,14 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch36_economiser",
                 "fr": "Économiser l'énergie",
                 "en": "To save energy",
-                "jp": "省エネする (shōene)",
+                "jp": "省エネする (しょうえねする)",
                 "cn": "节约能源 (jiéyuē néngyuán)"
               },
               {
                 "id": "b1_ch36_reboiser",
                 "fr": "Reboiser",
                 "en": "To reforest / Replant",
-                "jp": "植林する (shokurin)",
+                "jp": "植林する (しょくりんする)",
                 "cn": "重新造林 / 植树 (zhíshù)"
               }
             ]
@@ -7738,28 +7738,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch37_benevole",
                 "fr": "Le bénévole",
                 "en": "Volunteer",
-                "jp": "ボランティア (borantia)",
+                "jp": "ボランティア (ぼらんてぃあ)",
                 "cn": "志愿者 / 义工 (zhìyuànzhě)"
               },
               {
                 "id": "b1_ch37_adhesion",
                 "fr": "L'adhésion",
                 "en": "Membership / Joining",
-                "jp": "入会・加盟 (nyūkai)",
+                "jp": "入会・加盟 (にゅうかい・かめい)",
                 "cn": "加入 / 会籍 (rùhuì)"
               },
               {
                 "id": "b1_ch37_collecte",
                 "fr": "La collecte de dons",
                 "en": "Fundraising / Collection",
-                "jp": "募金・寄付集め (bokin)",
+                "jp": "募金・寄付集め (ぼきん・きふあつめ)",
                 "cn": "募捐 / 收集 (mùjuān)"
               },
               {
                 "id": "b1_ch37_subvention",
                 "fr": "La subvention",
                 "en": "Grant / Public subsidy",
-                "jp": "助成金・補助金 (joseikin)",
+                "jp": "助成金・補助金 (じょせいきん・ほじょきん)",
                 "cn": "财政补贴 (bǔtiè)"
               }
             ]
@@ -7773,28 +7773,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch37_solidarite",
                 "fr": "La solidarité",
                 "en": "Solidarity / Mutual support",
-                "jp": "連帯・団結 (rentai)",
+                "jp": "連帯・団結 (れんたい・だんけつ)",
                 "cn": "团结 / 互助 (tuánjié)"
               },
               {
                 "id": "b1_ch37_entraide",
                 "fr": "L'entraide",
                 "en": "Mutual assistance",
-                "jp": "相互扶助 (sōgo fujo)",
+                "jp": "相互扶助 (そうごふじょ)",
                 "cn": "守望相助 (xiāngzhù)"
               },
               {
                 "id": "b1_ch37_precarite",
                 "fr": "La précarité",
                 "en": "Precarity / Insecurity",
-                "jp": "不安定さ・困窮 (konkyū)",
+                "jp": "不安定さ・困窮 (ふあんていさ・こんきゅう)",
                 "cn": "困境 / 不稳定 (kùnjìng)"
               },
               {
                 "id": "b1_ch37_dedicace",
                 "fr": "Le dévouement",
                 "en": "Devotion / Dedication",
-                "jp": "献身 (kenshin)",
+                "jp": "献身 (けんしん)",
                 "cn": "奉献精神 (fèngxiàn)"
               }
             ]
@@ -8176,70 +8176,70 @@ window.parcours_B1_Dataset = [
                 "id": "prop_1",
                 "fr": "Faire une suggestion",
                 "en": "To make a suggestion",
-                "jp": "提案をする (teian o suru)",
+                "jp": "提案をする (ていあんをする)",
                 "cn": "提出建议 (tíchū jiànyì)"
               },
               {
                 "id": "prop_2",
                 "fr": "Émettre une hypothèse",
                 "en": "To formulate a hypothesis",
-                "jp": "仮説を立てる (kasetsu o tateru)",
+                "jp": "仮説を立てる (かせつをたてる)",
                 "cn": "提出假设 (tíchū jiǎshè)"
               },
               {
                 "id": "prop_3",
                 "fr": "Donner un conseil avisé",
                 "en": "To give sound advice",
-                "jp": "適切な助言を与える (tekisetsu na jogen o ataeru)",
+                "jp": "適切な助言を与える (てきせつなじょげんをあたえる)",
                 "cn": "给予明智指导 (jǐyǔ míngzhì zhǐdǎo)"
               },
               {
                 "id": "prop_4",
                 "fr": "Dans l'éventualité où",
                 "en": "In the event that",
-                "jp": "万が一〜の場合には (man'ichi ~ no baai ni wa)",
+                "jp": "万が一〜の場合には (まんがいち〜のばあいには)",
                 "cn": "万一……的情况下 (wànyī ... de qíngkuàng xià)"
               },
               {
                 "id": "prop_5",
                 "fr": "Préconisation méthodologique",
                 "en": "Methodological recommendation",
-                "jp": "方法論上の推奨 (hōhōron-jō no suishō)",
+                "jp": "方法論上の推奨 (ほうほうろんじょうのすいしょう)",
                 "cn": "方法论建议 (fāngfǎlùn jiànyì)"
               },
               {
                 "id": "prop_6",
                 "fr": "Si j'étais à votre place",
                 "en": "If I were in your shoes",
-                "jp": "もし私があなたの立場なら (moshi watashi ga anata no tachiba nara)",
+                "jp": "もし私があなたの立場なら (もしわたしがあなたのたちばなら)",
                 "cn": "如果我处在您的位置 (rúguǒ wǒ chǔzài nín de wèizhì)"
               },
               {
                 "id": "prop_7",
                 "fr": "Pérenniser une activité",
                 "en": "To sustain a business long-term",
-                "jp": "事業を永続させる (jigyō o eizoku saseru)",
+                "jp": "事業を永続させる (じぎょうをえいぞくさせる)",
                 "cn": "使业务长久维系 (shǐ yèwù chángjiǔ wéixì)"
               },
               {
                 "id": "prop_8",
                 "fr": "Financement participatif",
                 "en": "Crowdfunding",
-                "jp": "クラウドファンディング (kuraudo fandingu)",
+                "jp": "クラウドファンディング (くらうどふぁんでぃんぐ)",
                 "cn": "众筹 (zhòngchóu)"
               },
               {
                 "id": "prop_9",
                 "fr": "Scénario prévisionnel",
                 "en": "Forecast scenario",
-                "jp": "予測シナリオ (yosoku shinario)",
+                "jp": "予測シナリオ (よそくしなりお)",
                 "cn": "预测方案 / 情景规划 (yùcè fāng'àn)"
               },
               {
                 "id": "prop_10",
                 "fr": "Subvention d'amorçage",
                 "en": "Seed grant / startup subsidy",
-                "jp": "創業助成金・初期助成金 (sōgyō joseikin)",
+                "jp": "創業助成金・初期助成金 (そうぎょうじょせいきん・しょきじょせいきん)",
                 "cn": "初创启动补助金 (chūchuàng bǔzhùjīn)"
               }
             ]
@@ -8247,7 +8247,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-propositions-hypotheses-conseils"
+    "grammarLessonId": "b1-hypothese-condition"
   },
   {
     "chapterId": "chap_41",
@@ -8621,70 +8621,70 @@ window.parcours_B1_Dataset = [
                 "id": "conv_1",
                 "fr": "Emporter l'adhésion",
                 "en": "To win support / To gain approval",
-                "jp": "支持・賛同を取り付ける (shiji o toritsukeru)",
+                "jp": "支持・賛同を取り付ける (しじ・さんどうをとりつける)",
                 "cn": "赢得支持与认同 (yíngdé zhīchí)"
               },
               {
                 "id": "conv_2",
                 "fr": "Argument décisif",
                 "en": "Decisive argument",
-                "jp": "決定的な論拠 (ketteiteki na ronkyo)",
+                "jp": "決定的な論拠 (けっていてきなろんきょ)",
                 "cn": "决定性论据 (juédìngxìng lùnjù)"
               },
               {
                 "id": "conv_3",
                 "fr": "Preuve tangible",
                 "en": "Tangible proof / evidence",
-                "jp": "明白な証拠・確証 (meihaku na shōko)",
+                "jp": "明白な証拠・確証 (めいはくなしょうこ・かくしょう)",
                 "cn": "确凿证据 (quèzáo zhèngjù)"
               },
               {
                 "id": "conv_4",
                 "fr": "Art de la persuasion",
                 "en": "Art of persuasion",
-                "jp": "説得の術 (settoku no jutsu)",
+                "jp": "説得の術 (せっとくのじゅつ)",
                 "cn": "说服的艺术 (shuōfú de yìshù)"
               },
               {
                 "id": "conv_5",
                 "fr": "Surmonter une réticence",
                 "en": "To overcome reluctance",
-                "jp": "難色・抵抗感を克服する (teikōkan o kokufuku suru)",
+                "jp": "難色・抵抗感を克服する (なんしょく・ていこうかんをこくふくする)",
                 "cn": "克服抵触心理 (kèfú dǐchù xīnlǐ)"
               },
               {
                 "id": "conv_6",
                 "fr": "Ralliement unanime",
                 "en": "Unanimous rally / support",
-                "jp": "満場一致の賛同・結集 (manjō itchi no sandō)",
+                "jp": "満場一致の賛同・結集 (まんじょういっちのさんどう・けっしゅう)",
                 "cn": "全员一致赞同 (quányuán yīzhì zàntóng)"
               },
               {
                 "id": "conv_7",
                 "fr": "Question rhétorique",
                 "en": "Rhetorical question",
-                "jp": "修辞的疑問 (shūjiteki gimon)",
+                "jp": "修辞的疑問 (しゅうじてきぎもん)",
                 "cn": "反问句 / 修辞反问 (fǎnwènjù)"
               },
               {
                 "id": "conv_8",
                 "fr": "Sensibiliser le public",
                 "en": "To raise public awareness",
-                "jp": "大衆の意識を高める (taishū no ishiki o takameru)",
+                "jp": "大衆の意識を高める (たいしゅうのいしきをたかめる)",
                 "cn": "提高公众意识 (tígāo gōngzhòng yìshí)"
               },
               {
                 "id": "conv_9",
                 "fr": "Plaidoirie vibrante",
                 "en": "Passionate plea / defense",
-                "jp": "熱烈な弁論 (netsuretsu na benron)",
+                "jp": "熱烈な弁論 (ねつれつなべんろん)",
                 "cn": "激情辩护演讲 (jīqíng biànhù yǎnjiǎng)"
               },
               {
                 "id": "conv_10",
                 "fr": "Îlot de chaleur urbain",
                 "en": "Urban heat island",
-                "jp": "ヒートアイランド現象 (hīto airando genshō)",
+                "jp": "ヒートアイランド現象 (ひーとあいらんどげんしょう)",
                 "cn": "城市热岛效应 (chéngshì rèdǎo xiàoyìng)"
               }
             ]
@@ -8692,7 +8692,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-convaincre-persuader"
+    "grammarLessonId": "b1-cause-consequence-but"
   },
   {
     "chapterId": "chap_42",
@@ -8925,7 +8925,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch40_teletravail",
                 "fr": "Le télétravail",
                 "en": "Teleworking / Remote work",
-                "jp": "在宅勤務・テレワーク (zaitaku)",
+                "jp": "在宅勤務・テレワーク (ざいたくきんむ・てれわーく)",
                 "cn": "远程办公 / 居家办公 (yuǎnchéng)"
               },
               {
@@ -8981,7 +8981,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch40_actualiser",
                 "fr": "Actualiser",
                 "en": "To refresh / Update",
-                "jp": "更新する (kōshin suru)",
+                "jp": "更新する (こうしんする)",
                 "cn": "刷新 / 更新 (gēngxīn)"
               }
             ]
@@ -9222,7 +9222,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch41_auparavant",
                 "fr": "Auparavant",
                 "en": "Previously / Before that",
-                "jp": "以前は・それまでは (izen wa)",
+                "jp": "以前は・それまでは (いぜんは・それまでは)",
                 "cn": "此前 / 过去 (cǐqián)"
               },
               {
@@ -9236,7 +9236,7 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch41_simultane",
                 "fr": "Simultanément",
                 "en": "Simultaneously / At the same time",
-                "jp": "同時に (dōji ni)",
+                "jp": "同時に (どうじに)",
                 "cn": "同时 (tóngshí)"
               },
               {
@@ -9264,21 +9264,21 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch41_rupture",
                 "fr": "La rupture",
                 "en": "Break / Turning point",
-                "jp": "決別・断絶 (danzetsu)",
+                "jp": "決別・断絶 (けつべつ・だんぜつ)",
                 "cn": "决裂 / 转折 (zhuǎnzhé)"
               },
               {
                 "id": "b1_ch41_imprevu",
                 "fr": "L'imprévu",
                 "en": "Unexpected event / Contingency",
-                "jp": "予期せぬ出来事 (yokisenu)",
+                "jp": "予期せぬ出来事 (よきせぬできごと)",
                 "cn": "意料之外的事 (yìliàozhīwài)"
               },
               {
                 "id": "b1_ch41_ecart",
                 "fr": "L'écart",
                 "en": "Gap / Discrepancy",
-                "jp": "隔たり・格差 (hedatari)",
+                "jp": "隔たり・格差 (へだたり・かくさ)",
                 "cn": "差距 / 差异 (chājù)"
               }
             ]
@@ -9660,70 +9660,70 @@ window.parcours_B1_Dataset = [
                 "id": "disc_1",
                 "fr": "En premier lieu",
                 "en": "In the first place / Firstly",
-                "jp": "まず第一に (mazu dai-ichi ni)",
+                "jp": "まず第一に (まずだいいちに)",
                 "cn": "首先 / 第一 (shǒuxiān)"
               },
               {
                 "id": "disc_2",
                 "fr": "Aborder un nouveau point",
                 "en": "To tackle a new point",
-                "jp": "新しい論点に入る (atarashii ronten ni hairu)",
+                "jp": "新しい論点に入る (あたらしいろんてんにはいる)",
                 "cn": "进入新论点 (jìnrù xīn lùndiǎn)"
               },
               {
                 "id": "disc_3",
                 "fr": "Faire une transition",
                 "en": "To make a transition",
-                "jp": "話題を転換する・つなぐ (wadai o tenkan suru)",
+                "jp": "話題を転換する・つなぐ (わだいをてんかんする・つなぐ)",
                 "cn": "进行过渡 (jìnxíng guòdù)"
               },
               {
                 "id": "disc_4",
                 "fr": "Récapituler les axes clés",
                 "en": "To summarize the key axes",
-                "jp": "主要な論点を要約する (shuyō na ronten o yōyaku suru)",
+                "jp": "主要な論点を要約する (しゅようなろんてんをようやくする)",
                 "cn": "总结核心要点 (zǒngjié héxīn yàodiǎn)"
               },
               {
                 "id": "disc_5",
                 "fr": "Péroraison / Conclusion",
                 "en": "Peroration / Concluding remarks",
-                "jp": "結びの辞・最終結論 (musubi no ji)",
+                "jp": "結びの辞・最終結論 (むすびのじ・さいしゅうけつろん)",
                 "cn": "结束语 / 结语 (jiéshùyǔ)"
               },
               {
                 "id": "disc_6",
                 "fr": "En outre / De surcroît",
                 "en": "Furthermore / Moreover",
-                "jp": "さらに・加えて (sarani / kuwaete)",
+                "jp": "さらに・加えて (さらに・くわえて)",
                 "cn": "此外 / 况且 (cǐwài)"
               },
               {
                 "id": "disc_7",
                 "fr": "En d'autres termes",
                 "en": "In other words",
-                "jp": "換言すれば・言い換えれば (iikaereba)",
+                "jp": "換言すれば・言い換えれば (かんげんすれば・いいかえれば)",
                 "cn": "换句话说 (huàn jù huà shuō)"
               },
               {
                 "id": "disc_8",
                 "fr": "Fil conducteur",
                 "en": "Guiding thread / common thread",
-                "jp": "一貫した筋道・導線 (ikkan shita sujimichi)",
+                "jp": "一貫した筋道・導線 (いっかんしたすじみち・どうせん)",
                 "cn": "主线 / 贯穿线索 (zhǔxiàn)"
               },
               {
                 "id": "disc_9",
                 "fr": "État des lieux",
                 "en": "Current status / Assessment",
-                "jp": "現状把握・実態調査 (genjō haaku)",
+                "jp": "現状把握・実態調査 (げんじょうはあく・じったいちょうさ)",
                 "cn": "现状评估 (xiànzhuàng pínggū)"
               },
               {
                 "id": "disc_10",
                 "fr": "Captation de l'auditoire",
                 "en": "Audience engagement",
-                "jp": "聴衆の関心を惹きつけること (chōshū no kanshin)",
+                "jp": "聴衆の関心を惹きつけること (ちょうしゅうのかんしんをひきつけること)",
                 "cn": "吸引听众注意 (xīyǐn tīngzhòng zhùyì)"
               }
             ]
@@ -9731,7 +9731,7 @@ window.parcours_B1_Dataset = [
         ]
       }
     ],
-    "grammarLessonId": "b1-organiser-discours-presentation"
+    "grammarLessonId": "b1-futur-anterieur"
   },
   {
     "chapterId": "chap_45",
@@ -9964,28 +9964,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch43_differend",
                 "fr": "Le différend",
                 "en": "Dispute / Disagreement",
-                "jp": "紛争・意見の相違 (funsō)",
+                "jp": "紛争・意見の相違 (ふんそう・いけんのそうい)",
                 "cn": "争端 / 分歧 (fēnqí)"
               },
               {
                 "id": "b1_ch43_compromis",
                 "fr": "Le compromis",
                 "en": "Compromise",
-                "jp": "妥協・歩み寄り (dakyō)",
+                "jp": "妥協・歩み寄り (だきょう・あゆみより)",
                 "cn": "妥协 / 折衷 (tuǒxié)"
               },
               {
                 "id": "b1_ch43_apaisement",
                 "fr": "L'apaisement",
                 "en": "Pacification / Calming down",
-                "jp": "鎮静化・和らぎ (chinsei)",
+                "jp": "鎮静化・和らぎ (ちんせいか・やすらぎ)",
                 "cn": "缓和 / 平息 (huǎnhé)"
               },
               {
                 "id": "b1_ch43_nuisance",
                 "fr": "La nuisance",
                 "en": "Nuisance / Disturbance",
-                "jp": "迷惑・公害 (meiwaku)",
+                "jp": "迷惑・公害 (めいわく・こうがい)",
                 "cn": "噪音 / 骚扰 (sāorǎo)"
               }
             ]
@@ -9999,28 +9999,28 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch43_bienveillance",
                 "fr": "La bienveillance",
                 "en": "Benevolence / Kindness",
-                "jp": "思いやり・親切 (omoiyari)",
+                "jp": "思いやり・親切 (おもいやり・しんせつ)",
                 "cn": "善意 / 宽厚 (shànyì)"
               },
               {
                 "id": "b1_ch43_ecoute",
                 "fr": "L'écoute active",
                 "en": "Active listening",
-                "jp": "傾聴 (keichō)",
+                "jp": "傾聴 (けいちょう)",
                 "cn": "积极倾听 (qīngtīng)"
               },
               {
                 "id": "b1_ch43_agacement",
                 "fr": "L'agacement",
                 "en": "Annoyance / Irritation",
-                "jp": "苛立ち (iradachi)",
+                "jp": "苛立ち (いらだち)",
                 "cn": "恼火 / 烦躁 (fánzào)"
               },
               {
                 "id": "b1_ch43_conciliation",
                 "fr": "La conciliation",
                 "en": "Conciliation / Settlement",
-                "jp": "和解・調停 (chōtei)",
+                "jp": "和解・調停 (わかい・ちょうてい)",
                 "cn": "调解 / 和解 (tiáojiě)"
               }
             ]
@@ -10558,21 +10558,21 @@ window.parcours_B1_Dataset = [
                 "id": "b1_ch45_aspiration",
                 "fr": "L'aspiration",
                 "en": "Aspiration / Yearning",
-                "jp": "向上心・願望 (ganbō)",
+                "jp": "向上心・願望 (こうじょうしん・がんぼう)",
                 "cn": "抱负 / 渴望 (bàofù)"
               },
               {
                 "id": "b1_ch45_perspective",
                 "fr": "La perspective",
                 "en": "Prospect / Outlook",
-                "jp": "見通し・展望 (tenbō)",
+                "jp": "見通し・展望 (みとおし・てんぼう)",
                 "cn": "前景 / 展望 (zhǎnwàng)"
               },
               {
                 "id": "b1_ch45_aboutissement",
                 "fr": "L'aboutissement",
                 "en": "Culmination / Successful outcome",
-                "jp": "結実・達成 (tassei)",
+                "jp": "結実・達成 (けつじつ・たっせい)",
                 "cn": "成果 / 最终实现 (chéngguǒ)"
               },
               {

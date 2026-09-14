@@ -135,7 +135,7 @@
    -------------------------------------------------------------------------- */
 .grammar-layout {
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 24px;
   align-items: start;
 }
@@ -150,7 +150,7 @@
    3. MENU LATÉRAL : FILTRES, RECHERCHE & LISTE DES LEÇONS
    -------------------------------------------------------------------------- */
 .grammar-menu {
-  padding: 20px;
+  padding: 18px 16px;
   border-radius: var(--md-shape-xl);
   background: var(--md-sys-color-surface);
   border: 1px solid var(--md-sys-color-outline-variant);
@@ -158,8 +158,9 @@
   flex-direction: column;
   gap: 14px;
   position: sticky;
-  top: 88px;
-  max-height: calc(100vh - 110px);
+  top: 84px;
+  max-height: calc(100vh - 100px);
+  box-sizing: border-box;
 }
 
 .grammar-menu-header {
@@ -183,10 +184,11 @@
 .grammar-menu-header .lessons-count-pill {
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 3px 8px;
+  padding: 3px 10px;
   border-radius: var(--md-shape-full);
   background: var(--md-sys-color-surface-variant);
   color: var(--md-sys-color-on-surface-variant);
+  font-variant-numeric: tabular-nums;
 }
 
 /* Champ de recherche dans la barre latérale */
@@ -197,7 +199,7 @@
   background: var(--md-sys-color-surface-variant);
   border: 1px solid var(--md-sys-color-outline-variant);
   border-radius: var(--md-shape-full);
-  padding: 6px 14px;
+  padding: 7px 14px;
   transition: all var(--md-transition-standard);
 }
 
@@ -243,6 +245,7 @@
   align-items: center;
   gap: 8px;
   transition: all var(--md-transition-standard);
+  position: relative;
 }
 
 .grammar-filter-controls .select-wrapper:hover,
@@ -253,9 +256,15 @@
 
 .grammar-filter-controls select {
   width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: inherit;
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  padding: 2px 0;
 }
 
 /* Liste défilante des leçons */
@@ -265,7 +274,8 @@
   gap: 10px;
   overflow-y: auto;
   padding-right: 6px;
-  max-height: 480px;
+  max-height: calc(100vh - 320px);
+  min-height: 380px;
   scrollbar-width: thin;
   scrollbar-color: var(--md-sys-color-outline) transparent;
 }
@@ -274,18 +284,26 @@
   width: 6px;
 }
 
+.grammar-topic-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .grammar-topic-list::-webkit-scrollbar-thumb {
   background: var(--md-sys-color-outline);
   border-radius: 4px;
 }
 
+.grammar-topic-list::-webkit-scrollbar-thumb:hover {
+  background: var(--md-sys-color-on-surface-variant);
+}
+
 /* Boutons / éléments de leçons */
 .grammar-topic-btn {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   padding: 12px 14px;
-  min-height: 58px;
+  min-height: auto;
   background: var(--md-sys-color-surface);
   border: 1.5px solid var(--md-sys-color-outline-variant);
   border-radius: 12px;
@@ -316,11 +334,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
   border-radius: var(--md-shape-full);
   background: var(--md-sys-color-surface-variant);
+  margin-top: 2px;
 }
 
 .grammar-topic-btn.active .topic-status-wrapper {
@@ -328,7 +347,7 @@
 }
 
 .grammar-topic-btn .topic-status-icon {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
   color: var(--md-sys-color-on-surface-variant);
 }
@@ -344,19 +363,21 @@
 .grammar-topic-btn .topic-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   flex: 1;
   min-width: 0;
+  overflow: hidden;
 }
 
 .grammar-topic-btn .topic-title {
   font-weight: 600;
   font-size: 0.875rem;
-  line-height: 1.35;
+  line-height: 1.4;
   color: var(--md-sys-color-on-surface);
-  word-break: normal;
-  overflow: visible;
+  word-break: break-word;
+  overflow-wrap: break-word;
   white-space: normal;
+  display: block;
 }
 
 .grammar-topic-btn.active .topic-title {
@@ -371,35 +392,45 @@
   gap: 6px;
   font-size: 0.75rem;
   color: var(--md-sys-color-on-surface-variant);
+  line-height: 1.25;
 }
 
 .grammar-topic-btn.active .topic-meta {
   color: var(--md-sys-color-on-primary-container);
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .grammar-topic-btn .meta-level-tag {
   font-weight: 700;
-  padding: 1px 6px;
+  padding: 2px 7px;
   border-radius: 4px;
   background: var(--md-sys-color-surface-variant);
   color: var(--md-sys-color-on-surface-variant);
   font-size: 0.7rem;
+  letter-spacing: 0.02em;
+}
+
+.grammar-topic-btn.active .meta-level-tag {
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--md-sys-color-on-primary-container);
 }
 
 .grammar-topic-btn .meta-cat-tag {
   font-size: 0.72rem;
-  opacity: 0.9;
+  opacity: 0.92;
+  display: inline-flex;
+  align-items: center;
 }
 
 .grammar-topic-btn .meta-score-tag {
   font-weight: 700;
   color: var(--md-sys-color-primary);
   background: var(--md-sys-color-surface);
-  padding: 1px 6px;
+  padding: 2px 8px;
   border-radius: 10px;
   font-size: 0.7rem;
   margin-left: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 /* --------------------------------------------------------------------------
@@ -1195,5 +1226,74 @@
   .drill-option-text {
     font-size: 0.82rem;
   }
+}
+
+/* ==========================================================================
+   INTERACTIVE CONJUGATION TRIGGERS & LOOKUP BUTTON (MILESTONE 4)
+   ========================================================================== */
+.conj-inline-link,
+button.conj-inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: rgba(184, 107, 53, 0.08);
+  color: #B86B35;
+  border: 1px solid rgba(184, 107, 53, 0.25);
+  border-radius: 6px;
+  padding: 2px 7px;
+  margin: 0 2px;
+  font-family: inherit;
+  font-size: 0.95em;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: baseline;
+  transition: all 0.15s ease;
+  line-height: inherit;
+}
+
+.conj-inline-link:hover,
+button.conj-inline-link:hover {
+  background: #B86B35;
+  color: #ffffff;
+  border-color: #B86B35;
+  box-shadow: 0 1px 4px rgba(184, 107, 53, 0.25);
+}
+
+.conj-inline-link:focus-visible,
+button.conj-inline-link:focus-visible {
+  outline: 2px solid #B86B35;
+  outline-offset: 2px;
+}
+
+/* Header quick-action lookup button */
+.grammar-conj-btn,
+#grammar-conj-lookup-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  min-height: 40px;
+  border-radius: var(--md-shape-full, 20px);
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #B86B35;
+  background: rgba(184, 107, 53, 0.08);
+  border: 1px solid rgba(184, 107, 53, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.grammar-conj-btn:hover,
+#grammar-conj-lookup-btn:hover {
+  background: #B86B35;
+  color: #FFFFFF;
+  border-color: #B86B35;
+}
+
+.grammar-conj-btn:focus-visible,
+#grammar-conj-lookup-btn:focus-visible {
+  outline: 2px solid #B86B35;
+  outline-offset: 2px;
 }
 

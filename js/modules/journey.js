@@ -387,7 +387,7 @@ class JourneyModule {
               ` : '')}
               <div class="drill-word-head">
                 <strong>${d.word}</strong>
-                <button class="md-icon-button" style="width:32px; height:32px;" onclick="window.journeyModule.speak('${d.word.replace(/'/g, "\\'")}')" title="Écouter">
+                <button class="md-icon-button" style="width:32px; height:32px;" onclick="window.journeyModule.speak('${(d.audioWord || d.word).replace(/'/g, "\\'")}')" title="Écouter">
                   <span class="material-icons-round" style="font-size:18px; color:var(--md-sys-color-primary);">volume_up</span>
                 </button>
               </div>
@@ -556,6 +556,8 @@ class JourneyModule {
       }
     } else if (step.type === 'matching_drill') {
       this.renderMatchingDrill(step);
+    } else if (step.type === 'matching_word_sound_drill') {
+      this.renderMatchingWordSoundDrill(step);
     } else if (step.type === 'image_scene') {
       this.renderImageScene(step);
     } else if (step.type === 'dialogue_view') {
@@ -956,6 +958,227 @@ class JourneyModule {
       allRight.forEach(btn => {
         if (!state.matchedIds.has(btn.dataset.id)) {
           btn.classList.toggle('selected', btn.dataset.id === state.selectedRight);
+        }
+      });
+    }
+  }
+
+  /**
+   * Renders a matching_word_sound_drill:
+   * Left column = sound icon tiles (click to hear the letter name in French).
+   * Right column = letter tiles (uppercase, no sound on click).
+   * User must associate each sound to its letter.
+   */
+  renderMatchingWordSoundDrill(step) {
+    if (!this.wordSoundMatchingState || this.wordSoundMatchingState.stepIdx !== this.currentStepIdx) {
+      const items = step.pairs || [];
+      const soundItems = items.map(p => ({ id: p.id, sound: p.sound, label: p.soundLabel || p.sound }));
+      const letterItems = items.map(p => ({ id: p.id, letter: p.letter })).sort(() => Math.random() - 0.5);
+
+      this.wordSoundMatchingState = {
+        stepIdx: this.currentStepIdx,
+        pairs: items,
+        soundItems,
+        letterItems,
+        selectedSound: null,
+        selectedLetter: null,
+        matchedIds: new Set(),
+        mistakes: 0
+      };
+    }
+
+    const state = this.wordSoundMatchingState;
+    const totalPairs = state.pairs.length;
+    const matchedCount = state.matchedIds.size;
+    const stepTitle = this.formatStepTitle(step.title);
+
+    this.modalBody.innerHTML = `
+      <h3 class="step-card-title">${stepTitle}</h3>
+      <p style="font-size:0.9rem; color:var(--md-sys-color-on-surface-variant); margin-bottom:12px;">
+        ${step.instructions || "Cliquez sur l'icône 🔊 pour entendre le son, puis associez-le à la lettre correspondante."}
+      </p>
+
+      <div class="matching-status-bar">
+        <span>Progression : <strong id="wsmatch-score">${matchedCount} / ${totalPairs}</strong> paires trouvées</span>
+        <span style="font-size:0.8rem; color:var(--md-sys-color-primary);">🎯 Son ↔ Lettre</span>
+      </div>
+
+      <div class="matching-drill-container" style="margin-top:14px;">
+        <div class="matching-pairs-grid">
+          <!-- Colonne Sons -->
+          <div class="matching-col">
+            <div class="matching-col-title">
+              <span class="material-icons-round" style="font-size:16px;">volume_up</span>
+              <span>Sons</span>
+            </div>
+            ${state.soundItems.map(item => {
+              const isMatched = state.matchedIds.has(item.id);
+              const isSelected = state.selectedSound === item.id;
+              return `
+                <button class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}"
+                        data-id="${item.id}"
+                        data-side="sound"
+                        ${isMatched ? 'disabled' : ''}
+                        onclick="window.journeyModule.handleWordSoundMatchingClick('sound', '${item.id}')">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:6px; flex:1;">
+                    <div style="
+                      width:56px; height:56px;
+                      background:${isMatched ? '#A7F3D0' : 'var(--md-sys-color-primary)'};
+                      border-radius:16px;
+                      display:flex; align-items:center; justify-content:center;
+                      box-shadow:0 3px 10px rgba(0,0,0,0.15);
+                      transition:background 0.3s;
+                    ">
+                      <span class="material-icons-round" style="font-size:30px; color:#fff;">${isMatched ? 'check' : 'volume_up'}</span>
+                    </div>
+                  </div>
+                  <span class="material-icons-round" style="font-size:18px; color:${isMatched ? '#1B4336' : 'var(--md-sys-color-primary)'};">
+                    ${isMatched ? 'check_circle' : 'radio_button_unchecked'}
+                  </span>
+                </button>
+              `;
+            }).join('')}
+          </div>
+
+          <!-- Colonne Lettres -->
+          <div class="matching-col">
+            <div class="matching-col-title">
+              <span class="material-icons-round" style="font-size:16px;">font_download</span>
+              <span>Lettres</span>
+            </div>
+            ${state.letterItems.map(item => {
+              const isMatched = state.matchedIds.has(item.id);
+              const isSelected = state.selectedLetter === item.id;
+              return `
+                <button class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}"
+                        data-id="${item.id}"
+                        data-side="letter"
+                        ${isMatched ? 'disabled' : ''}
+                        onclick="window.journeyModule.handleWordSoundMatchingClick('letter', '${item.id}')">
+                  <div style="display:flex; flex-direction:column; align-items:center; gap:2px; flex:1;">
+                    <span style="font-size:2.2rem; font-weight:800; line-height:1; color:${isMatched ? '#1B4336' : 'var(--md-sys-color-on-surface)'};">
+                      ${item.letter}
+                    </span>
+                  </div>
+                  <span class="material-icons-round" style="font-size:18px; color:${isMatched ? '#1B4336' : 'var(--md-sys-color-outline)'};">
+                    ${isMatched ? 'check_circle' : 'swap_horiz'}
+                  </span>
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      </div>
+      <div class="quest-feedback-box" id="quest-feedback-box"></div>
+    `;
+
+    if (this.nextStepBtn) {
+      if (matchedCount === totalPairs) {
+        this.nextStepBtn.disabled = false;
+        const isLastStep = this.currentStepIdx === this.currentQuest.steps.length - 1;
+        this.nextStepBtn.innerHTML = isLastStep
+          ? `Terminer la Quête <span class="material-icons-round">emoji_events</span>`
+          : `Étape Suivante <span class="material-icons-round">navigate_next</span>`;
+        this.nextStepBtn.onclick = () => this.goToNextStep();
+      } else {
+        this.nextStepBtn.disabled = true;
+        this.nextStepBtn.innerHTML = `Associez toutes les paires (${matchedCount}/${totalPairs})`;
+      }
+    }
+  }
+
+  handleWordSoundMatchingClick(side, id) {
+    if (!this.wordSoundMatchingState) return;
+    const state = this.wordSoundMatchingState;
+    if (state.matchedIds.has(id)) return;
+
+    if (side === 'sound') {
+      state.selectedSound = state.selectedSound === id ? null : id;
+      // Play the French letter name
+      const sItem = state.soundItems.find(it => it.id === id);
+      if (sItem) {
+        this.speak(sItem.sound, { lang: 'fr', voice: 'ff_siwis' });
+      }
+    } else {
+      // Letter side: do NOT speak anything
+      state.selectedLetter = state.selectedLetter === id ? null : id;
+    }
+
+    if (state.selectedSound && state.selectedLetter) {
+      const soundId = state.selectedSound;
+      const letterId = state.selectedLetter;
+      const isCorrect = soundId === letterId;
+
+      const soundBtn = this.modalBody.querySelector(`.matching-card[data-side="sound"][data-id="${soundId}"]`);
+      const letterBtn = this.modalBody.querySelector(`.matching-card[data-side="letter"][data-id="${letterId}"]`);
+      const feedbackBox = document.getElementById('quest-feedback-box');
+
+      if (isCorrect) {
+        state.matchedIds.add(soundId);
+        state.selectedSound = null;
+        state.selectedLetter = null;
+
+        if (soundBtn) { soundBtn.classList.remove('selected'); soundBtn.classList.add('matched'); soundBtn.disabled = true; }
+        if (letterBtn) { letterBtn.classList.remove('selected'); letterBtn.classList.add('matched'); letterBtn.disabled = true; }
+
+        const scoreEl = document.getElementById('wsmatch-score');
+        if (scoreEl) scoreEl.textContent = `${state.matchedIds.size} / ${state.pairs.length}`;
+
+        // Re-render sound icons (to update matched colour without full re-render)
+        if (soundBtn) soundBtn.querySelector('div > div').style.background = '#A7F3D0';
+
+        if (feedbackBox) {
+          feedbackBox.classList.add('show');
+          feedbackBox.style.background = '#E5F0EB';
+          feedbackBox.style.color = '#1B4336';
+          feedbackBox.innerHTML = `<strong>✨ Exact !</strong> Bonne association son ↔ lettre.`;
+        }
+
+        if (state.matchedIds.size === state.pairs.length) {
+          if (feedbackBox) {
+            feedbackBox.innerHTML = `<strong>🏆 Bravo !</strong> Toutes les lettres ont été associées à leur son !`;
+          }
+          if (this.nextStepBtn) {
+            this.nextStepBtn.disabled = false;
+            const isLastStep = this.currentStepIdx === this.currentQuest.steps.length - 1;
+            this.nextStepBtn.innerHTML = isLastStep
+              ? `Terminer la Quête <span class="material-icons-round">emoji_events</span>`
+              : `Étape Suivante <span class="material-icons-round">navigate_next</span>`;
+            this.nextStepBtn.onclick = () => this.goToNextStep();
+          }
+        }
+      } else {
+        state.mistakes += 1;
+        this.currentErrors += 1;
+        if (soundBtn) soundBtn.classList.add('wrong');
+        if (letterBtn) letterBtn.classList.add('wrong');
+
+        if (feedbackBox) {
+          feedbackBox.classList.add('show');
+          feedbackBox.style.background = '#FDF0F0';
+          feedbackBox.style.color = '#721C24';
+          feedbackBox.innerHTML = `<strong>🍃 Attention :</strong> Ce son ne correspond pas à cette lettre, réessayez.`;
+        }
+
+        setTimeout(() => {
+          if (soundBtn) soundBtn.classList.remove('wrong', 'selected');
+          if (letterBtn) letterBtn.classList.remove('wrong', 'selected');
+          state.selectedSound = null;
+          state.selectedLetter = null;
+        }, 600);
+      }
+    } else {
+      // Visual selection update only
+      const allSound = this.modalBody.querySelectorAll('.matching-card[data-side="sound"]');
+      allSound.forEach(btn => {
+        if (!state.matchedIds.has(btn.dataset.id)) {
+          btn.classList.toggle('selected', btn.dataset.id === state.selectedSound);
+        }
+      });
+      const allLetter = this.modalBody.querySelectorAll('.matching-card[data-side="letter"]');
+      allLetter.forEach(btn => {
+        if (!state.matchedIds.has(btn.dataset.id)) {
+          btn.classList.toggle('selected', btn.dataset.id === state.selectedLetter);
         }
       });
     }

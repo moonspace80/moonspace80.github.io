@@ -31,7 +31,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "A (a)",
+              "word": "A (a)", "audioWord": "A",
               "type": "Lettre de l'alphabet [a]",
               "def": "Nom de la lettre : <strong>A</strong> [a].<br><em>A [ア] ： Avion（飛行機）の A</em>",
               "example": "Avion : comme dans Avion"
@@ -53,7 +53,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "B (b)",
+              "word": "B (b)", "audioWord": "B",
               "type": "Lettre de l'alphabet [be]",
               "def": "Nom de la lettre : <strong>B</strong> [be].<br><em>B [ベ] ： Bateau（船）の B</em>",
               "example": "Bateau : comme dans Bateau"
@@ -75,7 +75,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "C (c)",
+              "word": "C (c)", "audioWord": "C",
               "type": "Lettre de l'alphabet [se]",
               "def": "Nom de la lettre : <strong>C</strong> [se].<br><em>C [セ] ： Cerise（さくらんぼ）の C。</em><br><small style=\"color:var(--md-sys-color-primary);\">💡 Remarque phonétique : devant E et I, C se prononce [s] comme dans <em>Cerise</em> [sə.ʁiz] ou <em>Citron</em> [si.tʁɔ̃]. Devant A, O, U, il se prononce [k] comme dans <em>Café</em> [ka.fe].</small>",
               "example": "Cerise : comme dans Cerise"
@@ -97,7 +97,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "D (d)",
+              "word": "D (d)", "audioWord": "D",
               "type": "Lettre de l'alphabet [de]",
               "def": "Nom de la lettre : <strong>D</strong> [de].<br><em>D [デ] ： Départ（出発）の D</em>",
               "example": "Départ : comme dans Départ"
@@ -119,7 +119,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "E (e)",
+              "word": "E (e)", "audioWord": "E",
               "type": "Lettre de l'alphabet [ə]",
               "def": "Nom de la lettre : <strong>E</strong> [ə].<br><em>E [ウ] ： 唇を軽く丸め、脱力して発音するフランス語の基本母音 [ə]（「Le」や「Melon」の e の音）。</em><br><small style=\"color:var(--md-sys-color-primary);\">💡 Précision phonétique : en français, la lettre E sans accent prend le son [ə] dans les petits mots comme <em>Le</em> [lə], <em>Je</em> [ʒə], ou dans <em>Melon</em> [mə.lɔ̃], <em>Demain</em> [də.mɛ̃]. Devant deux consonnes comme dans <em>escargot</em>, elle se prononce [ɛ] ouvert !</small>",
               "example": "Le mot « Le » [lə] ou « Melon » [mə.lɔ̃]"
@@ -141,7 +141,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "F (f)",
+              "word": "F (f)", "audioWord": "F",
               "type": "Lettre de l'alphabet [ɛf]",
               "def": "Nom de la lettre : <strong>F</strong> [ɛf].<br><em>F [エフ] ： France（フランス）の F</em>",
               "example": "France : comme dans France"
@@ -163,7 +163,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "G (g)",
+              "word": "G (g)", "audioWord": "G",
               "type": "Lettre de l'alphabet [ʒe]",
               "def": "Nom de la lettre : <strong>G</strong> [ʒe].<br><em>G [ジェ] ： Girafe（キリン）の G。</em><br><small style=\"color:var(--md-sys-color-primary);\">💡 Remarque phonétique : devant E et I, G se prononce [ʒ] comme dans <em>Girafe</em> [ʒi.ʁaf] ou <em>Genou</em>. Devant A, O, U, il se prononce [ɡ] comme dans <em>Gare</em> [ɡaʁ].</small>",
               "example": "Girafe : comme dans Girafe"
@@ -185,7 +185,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "H (h)",
+              "word": "H (h)", "audioWord": "H",
               "type": "Lettre de l'alphabet [aʃ]",
               "def": "Nom de la lettre : <strong>H</strong> [aʃ].<br><em>H [アッシュ] ： Hôtel（ホテル）の H（フランス語ではHを発音しません！）</em>",
               "example": "Hôtel : comme dans Hôtel (le H est toujours muet à l'oral en français !)"
@@ -207,7 +207,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "I (i)",
+              "word": "I (i)", "audioWord": "I",
               "type": "Lettre de l'alphabet [i]",
               "def": "Nom de la lettre : <strong>I</strong> [i].<br><em>I [イ] ： Image（画像・絵）の I</em>",
               "example": "Image : comme dans Image"
@@ -229,7 +229,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "J (j)",
+              "word": "J (j)", "audioWord": "J",
               "type": "Lettre de l'alphabet [ʒi]",
               "def": "Nom de la lettre : <strong>J</strong> [ʒi].<br><em>J [ジ] ： Jour（日）の J</em>",
               "example": "Jour : comme dans Jour"
@@ -251,7 +251,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "K (k)",
+              "word": "K (k)", "audioWord": "K",
               "type": "Lettre de l'alphabet [ka]",
               "def": "Nom de la lettre : <strong>K</strong> [ka].<br><em>K [カ] ： Kilo（キロ）の K</em>",
               "example": "Kilo : comme dans Kilo"
@@ -273,7 +273,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "L (l)",
+              "word": "L (l)", "audioWord": "L",
               "type": "Lettre de l'alphabet [ɛl]",
               "def": "Nom de la lettre : <strong>L</strong> [ɛl].<br><em>L [エル] ： Livre（本）の L</em>",
               "example": "Livre : comme dans Livre"
@@ -295,7 +295,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "M (m)",
+              "word": "M (m)", "audioWord": "M",
               "type": "Lettre de l'alphabet [ɛm]",
               "def": "Nom de la lettre : <strong>M</strong> [ɛm].<br><em>M [エム] ： Monde（世界）の M</em>",
               "example": "Monde : comme dans Monde"
@@ -317,7 +317,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "N (n)",
+              "word": "N (n)", "audioWord": "N",
               "type": "Lettre de l'alphabet [ɛn]",
               "def": "Nom de la lettre : <strong>N</strong> [ɛn].<br><em>N [エヌ] ： Nuit（夜）の N</em>",
               "example": "Nuit : comme dans Nuit"
@@ -339,7 +339,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "O (o)",
+              "word": "O (o)", "audioWord": "O",
               "type": "Lettre de l'alphabet [o]",
               "def": "Nom de la lettre : <strong>O</strong> [o].<br><em>O [オ] ： Orange（オレンジ）の O</em>",
               "example": "Orange : comme dans Orange"
@@ -361,7 +361,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "P (p)",
+              "word": "P (p)", "audioWord": "P",
               "type": "Lettre de l'alphabet [pe]",
               "def": "Nom de la lettre : <strong>P</strong> [pe].<br><em>P [ペ] ： Paris（パリ）の P</em>",
               "example": "Paris : comme dans Paris"
@@ -383,7 +383,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "Q (q)",
+              "word": "Q (q)", "audioWord": "Q",
               "type": "Lettre de l'alphabet [ky]",
               "def": "Nom de la lettre : <strong>Q</strong> [ky].<br><em>Q [キュ] ： Quatre（4）の Q</em>",
               "example": "Quatre : comme dans Quatre"
@@ -405,7 +405,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "R (r)",
+              "word": "R (r)", "audioWord": "R",
               "type": "Lettre de l'alphabet [ɛʁ]",
               "def": "Nom de la lettre : <strong>R</strong> [ɛʁ].<br><em>R [エール] ： Rue（通り）の R（喉の奥を鳴らすフランス語独特のR）</em>",
               "example": "Rue : comme dans Rue (le R grasseyé français)"
@@ -427,7 +427,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "S (s)",
+              "word": "S (s)", "audioWord": "S",
               "type": "Lettre de l'alphabet [ɛs]",
               "def": "Nom de la lettre : <strong>S</strong> [ɛs].<br><em>S [エス] ： Soleil（太陽）の S</em>",
               "example": "Soleil : comme dans Soleil"
@@ -449,7 +449,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "T (t)",
+              "word": "T (t)", "audioWord": "T",
               "type": "Lettre de l'alphabet [te]",
               "def": "Nom de la lettre : <strong>T</strong> [te].<br><em>T [テ] ： Train（電車・列車）の T</em>",
               "example": "Train : comme dans Train"
@@ -471,7 +471,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "U (u)",
+              "word": "U (u)", "audioWord": "U",
               "type": "Lettre de l'alphabet [y]",
               "def": "Nom de la lettre : <strong>U</strong> [y].<br><em>U [ユ] ： Univers（宇宙・世界）の U（唇を丸めて発音する典型的なフランス語の音）</em>",
               "example": "Univers : comme dans Univers (son typique français, lèvres arrondies)"
@@ -493,7 +493,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "V (v)",
+              "word": "V (v)", "audioWord": "V",
               "type": "Lettre de l'alphabet [ve]",
               "def": "Nom de la lettre : <strong>V</strong> [ve].<br><em>V [ヴェ] ： Voyage（旅）の V</em>",
               "example": "Voyage : comme dans Voyage"
@@ -515,7 +515,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "W (w)",
+              "word": "W (w)", "audioWord": "W",
               "type": "Lettre de l'alphabet [dubləve]",
               "def": "Nom de la lettre : <strong>W</strong> [dubləve].<br><em>W [ドゥーブルヴェ] ： 「二重のV」。Week-end（週末）の W</em>",
               "example": "Week-end : « double V », comme dans Week-end"
@@ -537,7 +537,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "X (x)",
+              "word": "X (x)", "audioWord": "X",
               "type": "Lettre de l'alphabet [iks]",
               "def": "Nom de la lettre : <strong>X</strong> [iks].<br><em>X [イクス] ： Taxi（タクシー）の X</em>",
               "example": "Taxi : comme dans Taxi"
@@ -559,7 +559,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "Y (y)",
+              "word": "Y (y)", "audioWord": "Y",
               "type": "Lettre de l'alphabet [igʁɛk]",
               "def": "Nom de la lettre : <strong>Y</strong> [igʁɛk].<br><em>Y [イグレック] ： 「ギリシャのI」。Yeux（目）の Y</em>",
               "example": "Yeux : « i grec », comme dans Yeux"
@@ -581,7 +581,7 @@ window.parcours_A1_C1_Dataset = {
           ],
           "details": [
             {
-              "word": "Z (z)",
+              "word": "Z (z)", "audioWord": "Z",
               "type": "Lettre de l'alphabet [zɛd]",
               "def": "Nom de la lettre : <strong>Z</strong> [zɛd].<br><em>Z [ゼッド] ： Zèbre（シマウマ）の Z</em>",
               "example": "Zèbre : comme dans Zèbre"
@@ -621,38 +621,50 @@ window.parcours_A1_C1_Dataset = {
           "explanation": "L'alphabet français compte 6 voyelles de base : A, E, I, O, U et Y. Les lettres accentuées (é, è, ê, etc.) sont des variantes graphiques diacritées mais ne sont pas comptées comme des lettres supplémentaires dans l'alphabet de 26 lettres.<br><em>フランス語のアルファベットには6つの基本母音（A, E, I, O, U, Y）があります。アクセント付き文字（é, è, êなど）は綴りの変種であり、26文字のアルファベットにおいて独立した別文字としては数えられません。</em>"
         },
         {
-          "type": "matching_drill",
-          "title": "Mémorisation : Nom des lettres particulières en français",
-          "instructions": "Associez chaque lettre française au nom phonétique officiel par lequel on la désigne en l'épelant.\nフランス語の各文字を、文字を綴るときに呼ぶ正式な発音の名称と結びつけてください。",
+          "type": "matching_word_sound_drill",
+          "title": "Mémorisation Son ↔ Lettre — Groupe 1 : A à I",
+          "instructions": "Cliquez sur 🔊 pour entendre le nom français de la lettre, puis associez-le à la bonne lettre (A à I).",
           "pairs": [
-            {
-              "id": "alph_h",
-              "fr": "H",
-              "en": "Named 'Ache' [aʃ] - always silent",
-              "jp": "H (アッシュ) [aʃ]",
-              "cn": "字母 H (读音 ache [aʃ])"
-            },
-            {
-              "id": "alph_w",
-              "fr": "W",
-              "en": "Named 'Double V' [dubləve]",
-              "jp": "W (ドゥーブルヴェ) [dubləve]",
-              "cn": "字母 W (读音 double V)"
-            },
-            {
-              "id": "alph_y",
-              "fr": "Y",
-              "en": "Named 'I grec' (Greek I) [igʁɛk]",
-              "jp": "Y (イグレック) [igʁɛk]",
-              "cn": "字母 Y (读音 i grec)"
-            },
-            {
-              "id": "alph_u",
-              "fr": "U",
-              "en": "Named 'U' [y] (tight rounded lips)",
-              "jp": "U (ユ) [y]",
-              "cn": "字母 U (闭唇发音 [y])"
-            }
+            { "id": "snd_a", "sound": "a",    "letter": "A (a)" },
+            { "id": "snd_b", "sound": "bé",   "letter": "B (b)" },
+            { "id": "snd_c", "sound": "cé",   "letter": "C (c)" },
+            { "id": "snd_d", "sound": "dé",   "letter": "D (d)" },
+            { "id": "snd_e", "sound": "e",    "letter": "E (e)" },
+            { "id": "snd_f", "sound": "effe", "letter": "F (f)" },
+            { "id": "snd_g", "sound": "gé",   "letter": "G (g)" },
+            { "id": "snd_h", "sound": "ache", "letter": "H (h)" },
+            { "id": "snd_i", "sound": "i",    "letter": "I (i)" }
+          ]
+        },
+        {
+          "type": "matching_word_sound_drill",
+          "title": "Mémorisation Son ↔ Lettre — Groupe 2 : J à R",
+          "instructions": "Cliquez sur 🔊 pour entendre le nom français de la lettre, puis associez-le à la bonne lettre (J à R).",
+          "pairs": [
+            { "id": "snd_j", "sound": "ji",   "letter": "J (j)" },
+            { "id": "snd_k", "sound": "ka",   "letter": "K (k)" },
+            { "id": "snd_l", "sound": "elle", "letter": "L (l)" },
+            { "id": "snd_m", "sound": "emme", "letter": "M (m)" },
+            { "id": "snd_n", "sound": "enne", "letter": "N (n)" },
+            { "id": "snd_o", "sound": "o",    "letter": "O (o)" },
+            { "id": "snd_p", "sound": "pé",   "letter": "P (p)" },
+            { "id": "snd_q", "sound": "ku",   "letter": "Q (q)" },
+            { "id": "snd_r", "sound": "erre", "letter": "R (r)" }
+          ]
+        },
+        {
+          "type": "matching_word_sound_drill",
+          "title": "Mémorisation Son ↔ Lettre — Groupe 3 : S à Z",
+          "instructions": "Cliquez sur 🔊 pour entendre le nom français de la lettre, puis associez-le à la bonne lettre (S à Z).",
+          "pairs": [
+            { "id": "snd_s", "sound": "esse",      "letter": "S (s)" },
+            { "id": "snd_t", "sound": "té",        "letter": "T (t)" },
+            { "id": "snd_u", "sound": "u",         "letter": "U (u)" },
+            { "id": "snd_v", "sound": "vé",        "letter": "V (v)" },
+            { "id": "snd_w", "sound": "double vé", "letter": "W (w)" },
+            { "id": "snd_x", "sound": "ixe",       "letter": "X (x)" },
+            { "id": "snd_y", "sound": "i grec",    "letter": "Y (y)" },
+            { "id": "snd_z", "sound": "zède",      "letter": "Z (z)" }
           ]
         }
       ]

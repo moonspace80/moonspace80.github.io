@@ -1,0 +1,637 @@
+/**
+ * Bescherelle Conjugaison Drawer & Engine Stylesheet
+ * FrenchDELFB2C1 (Le Petit Nuage)
+ * Conforms to SPEC-BESCHERELLE-CONJ-2026-09-13 & survey_ui.md
+ */
+
+/* ==========================================================================
+   1. DRAWER BACKDROP OVERLAY
+   ========================================================================== */
+#conj-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  z-index: 8999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#conj-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ==========================================================================
+   2. BESCHERELLE LATERAL DRAWER CONTAINER
+   ========================================================================== */
+#conjugaison-drawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 520px;
+  max-width: 90vw;
+  z-index: 9000;
+  background: #FFFFFF;
+  color: #23272E;
+  box-shadow: -4px 0 25px rgba(0, 0, 0, 0.15);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: var(--md-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
+}
+
+#conjugaison-drawer.open {
+  transform: translateX(0);
+}
+
+/* Mobile responsive sheet adaptation (< 900px) */
+@media (max-width: 900px) {
+  #conjugaison-drawer {
+    width: 100vw;
+    max-width: 100vw;
+    right: 0;
+    left: 0;
+    box-shadow: none;
+  }
+}
+
+/* ==========================================================================
+   3. DRAWER HEADER & STICKY CONTROLS
+   ========================================================================== */
+.conj-drawer-header {
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 20;
+  padding: 16px 20px 12px 20px;
+  border-bottom: 1px solid #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.conj-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conj-brand-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1F2937;
+  letter-spacing: -0.01em;
+}
+
+.conj-brand-title .material-icons-round {
+  color: #B86B35;
+  font-size: 1.3rem;
+}
+
+.conj-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #6B7280;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conj-close-btn:hover,
+.conj-close-btn:focus-visible {
+  background: #F3F4F6;
+  color: #111827;
+  outline: none;
+}
+
+/* ==========================================================================
+   4. AUTOCOMPLETE SEARCH BAR
+   ========================================================================== */
+.conj-search-box {
+  position: relative;
+  width: 100%;
+}
+
+#conj-search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px 10px 38px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #1F2937;
+  background: #F9FAFB url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236B7280' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E") no-repeat 10px center;
+  background-size: 18px 18px;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+#conj-search-input:focus {
+  outline: none;
+  border-color: #B86B35;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(184, 107, 53, 0.15);
+}
+
+.conj-search-results {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 30;
+  display: none;
+}
+
+.conj-search-results.visible {
+  display: block;
+}
+
+.conj-search-item {
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid #F3F4F6;
+  transition: background-color 0.12s;
+}
+
+.conj-search-item:last-child {
+  border-bottom: none;
+}
+
+.conj-search-item:hover,
+.conj-search-item.highlighted {
+  background-color: #FFF7ED;
+}
+
+.conj-search-item .conj-search-verb {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1F2937;
+}
+
+.conj-search-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.conj-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.conj-badge-group {
+  background: #EFF6FF;
+  color: #1D4ED8;
+}
+
+.conj-badge-level {
+  background: #FEF3C7;
+  color: #B45309;
+}
+
+.conj-badge-aux {
+  background: #F3F4F6;
+  color: #4B5563;
+}
+
+.conj-search-empty {
+  padding: 14px;
+  text-align: center;
+  color: #6B7280;
+  font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   5. NAVIGATION BREADCRUMB
+   ========================================================================== */
+.conj-history-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #6B7280;
+  min-height: 24px;
+}
+
+.conj-history-back-btn {
+  background: transparent;
+  border: none;
+  color: #B86B35;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.conj-history-back-btn:hover {
+  background: #FFF7ED;
+  text-decoration: underline;
+}
+
+.conj-history-back-btn .material-icons-round {
+  font-size: 1rem;
+}
+
+/* ==========================================================================
+   6. VERB HERO HEADER & METADATA
+   ========================================================================== */
+.conj-hero-header {
+  padding: 16px 20px 12px 20px;
+  background: #FAFAFA;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.conj-verb-title {
+  margin: 0 0 6px 0;
+  font-family: var(--md-font-serif, 'Lora', serif);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111827;
+  letter-spacing: -0.02em;
+}
+
+.conj-verb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #4B5563;
+}
+
+.conj-verb-meta .conj-meta-chip {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 9999px;
+  padding: 3px 10px;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   7. DRAWER CONTENT & 2-COLUMN GRID
+   ========================================================================== */
+.conj-drawer-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.conj-mode-section {
+  margin-bottom: 28px;
+}
+
+.conj-mode-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0 0 14px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #E5E7EB;
+  padding-bottom: 6px;
+}
+
+.conj-mode-title .material-icons-round {
+  color: #B86B35;
+  font-size: 1.2rem;
+}
+
+/* 2-Column grid layout pairing simple tenses with compound tenses */
+.conj-tenses-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* Responsive single-column layout on narrower viewports */
+@media (max-width: 600px) {
+  .conj-tenses-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+/* Tense Block Card */
+.conj-tense-block {
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 12px;
+  background: #FAFAFA;
+  box-sizing: border-box;
+  min-width: 0;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.conj-tense-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #EEF0F3;
+  padding-bottom: 4px;
+  text-transform: capitalize;
+}
+
+.conj-tense-table {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   8. MORPHOLOGICAL STYLING CLASSES (Bescherelle Standard)
+   ========================================================================== */
+.conj-row,
+.conj-person-row {
+  display: flex;
+  align-items: baseline;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  min-width: 0;
+  overflow: hidden;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Muted subject pronoun */
+.conj-pronoun {
+  color: #6B7280;
+  display: inline-block;
+  min-width: 48px;
+  text-align: right;
+  margin-right: 6px;
+  font-weight: 400;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+/* Subjunctive conjunction prefix (que / qu') */
+.conj-subj-prefix {
+  color: #9CA3AF;
+  margin-right: 2px;
+  font-style: italic;
+  user-select: none;
+}
+
+/* Dark radical (stem) */
+.conj-stem {
+  color: #23272E;
+  font-weight: 500;
+  font-family: var(--md-font-serif, 'Lora', serif);
+}
+
+/* Vibrant terracotta ending */
+.conj-end {
+  color: #B86B35;
+  font-weight: 700;
+  font-family: var(--md-font-serif, 'Lora', serif);
+}
+
+/* Auxiliary verb in compound tenses */
+.conj-aux {
+  color: #23272E;
+  font-weight: 600;
+  font-family: var(--md-font-serif, 'Lora', serif);
+}
+
+.conj-form-blank {
+  color: #9CA3AF;
+  font-style: italic;
+}
+
+/* Impersonal or non-conjugated table rows */
+.conj-single-row {
+  padding: 3px 0;
+  font-size: 0.95rem;
+  color: #23272E;
+}
+
+.conj-single-label {
+  font-weight: 600;
+  color: #6B7280;
+  margin-right: 6px;
+  font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   9. DARK THEME OVERRIDES
+   ========================================================================== */
+[data-theme="dark"] #conjugaison-drawer {
+  background: #18191E;
+  color: #E2E6ED;
+  box-shadow: -4px 0 25px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="dark"] .conj-drawer-header,
+[data-theme="dark"] .conj-hero-header {
+  background: #1F2026;
+  border-bottom-color: #2E303B;
+}
+
+[data-theme="dark"] .conj-brand-title,
+[data-theme="dark"] .conj-verb-title,
+[data-theme="dark"] .conj-mode-title {
+  color: #F3F4F6;
+}
+
+[data-theme="dark"] #conj-search-input {
+  background-color: #121316;
+  border-color: #374151;
+  color: #F3F4F6;
+}
+
+[data-theme="dark"] #conj-search-input:focus {
+  background-color: #18191E;
+  border-color: #D97706;
+}
+
+[data-theme="dark"] .conj-search-results {
+  background: #1F2026;
+  border-color: #374151;
+}
+
+[data-theme="dark"] .conj-search-item {
+  border-bottom-color: #2E303B;
+}
+
+[data-theme="dark"] .conj-search-item:hover,
+[data-theme="dark"] .conj-search-item.highlighted {
+  background-color: #2D261E;
+}
+
+[data-theme="dark"] .conj-search-item .conj-search-verb {
+  color: #F3F4F6;
+}
+
+[data-theme="dark"] .conj-tense-block {
+  background: #1F2026;
+  border-color: #2E303B;
+}
+
+[data-theme="dark"] .conj-tense-title {
+  color: #D1D5DB;
+  border-bottom-color: #2E303B;
+}
+
+[data-theme="dark"] .conj-stem {
+  color: #E2E6ED;
+}
+
+[data-theme="dark"] .conj-aux {
+  color: #E2E6ED;
+}
+
+[data-theme="dark"] .conj-end {
+  color: #D97706;
+}
+
+[data-theme="dark"] .conj-pronoun {
+  color: #9CA3AF;
+}
+
+[data-theme="dark"] .conj-verb-meta .conj-meta-chip {
+  background: #18191E;
+  border-color: #374151;
+  color: #D1D5DB;
+}
+
+/* ==========================================================================
+   10. CONTEXTUAL INLINE VERB LINKS & QUICK-ACTION BUTTONS
+   ========================================================================== */
+.conj-inline-link,
+button.conj-inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: rgba(184, 107, 53, 0.08);
+  color: #B86B35;
+  border: 1px solid rgba(184, 107, 53, 0.25);
+  border-radius: 6px;
+  padding: 2px 7px;
+  margin: 0 2px;
+  font-family: inherit;
+  font-size: 0.95em;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: baseline;
+  transition: all 0.15s ease;
+  line-height: inherit;
+}
+
+.conj-inline-link:hover,
+button.conj-inline-link:hover {
+  background: #B86B35;
+  color: #ffffff;
+  border-color: #B86B35;
+  box-shadow: 0 1px 4px rgba(184, 107, 53, 0.25);
+}
+
+.conj-inline-link:focus-visible,
+button.conj-inline-link:focus-visible {
+  outline: 2px solid #B86B35;
+  outline-offset: 2px;
+}
+
+.grammar-conj-btn,
+#grammar-conj-lookup-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  min-height: 40px;
+  border-radius: 20px;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #B86B35;
+  background: rgba(184, 107, 53, 0.08);
+  border: 1px solid rgba(184, 107, 53, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.grammar-conj-btn:hover,
+#grammar-conj-lookup-btn:hover {
+  background: #B86B35;
+  color: #FFFFFF;
+  border-color: #B86B35;
+}
+
+.grammar-conj-btn:focus-visible,
+#grammar-conj-lookup-btn:focus-visible {
+  outline: 2px solid #B86B35;
+  outline-offset: 2px;
+}
+
+[data-theme="dark"] .conj-inline-link,
+[data-theme="dark"] button.conj-inline-link {
+  background: rgba(217, 119, 6, 0.15);
+  color: #F59E0B;
+  border-color: rgba(217, 119, 6, 0.4);
+}
+
+[data-theme="dark"] .conj-inline-link:hover,
+[data-theme="dark"] button.conj-inline-link:hover {
+  background: #D97706;
+  color: #121316;
+}
+
+[data-theme="dark"] .grammar-conj-btn,
+[data-theme="dark"] #grammar-conj-lookup-btn {
+  background: rgba(217, 119, 6, 0.15);
+  color: #F59E0B;
+  border-color: rgba(217, 119, 6, 0.4);
+}
+
+[data-theme="dark"] .grammar-conj-btn:hover,
+[data-theme="dark"] #grammar-conj-lookup-btn:hover {
+  background: #D97706;
+  color: #121316;
+}

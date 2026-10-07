@@ -439,6 +439,7 @@
   color: #23272E;
   font-weight: 600;
   font-family: var(--md-font-serif, 'Lora', serif);
+  margin-right: 0.35em;
 }
 
 .conj-form-blank {

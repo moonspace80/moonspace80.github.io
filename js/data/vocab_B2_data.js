@@ -9,7 +9,7 @@ window.vocab_B2_Dataset = [
     "definition": "Soutenir fermement une opinion ou donner pour vraie et certaine une information.",
     "traduction_anglais": "to assert / to affirm",
     "traduction_chinois": "断言 / 确认 (duànyán / quèrèn)",
-    "traduction_japonais": "断言する / 主張する (dangen suru)",
+    "traduction_japonais": "断言する / 主張する (だんげんする)",
     "examples": [
       {
         "fr": "Le ministre a tenu à affirmer son engagement indéfectible en faveur de la transition écologique.",
@@ -83,7 +83,7 @@ window.vocab_B2_Dataset = [
     "definition": "Voir quelqu'un ou quelque chose de façon confuse ou fugitive, ou commencer à comprendre un fait.",
     "traduction_anglais": "to catch sight of / to perceive",
     "traduction_chinois": "瞥见 / 察觉 (piējiàn / chájué)",
-    "traduction_japonais": "目にする / 気がつく (me ni suru / ki ga tsuku)",
+    "traduction_japonais": "目にする / 気がつく (め にする / き が つく)",
     "examples": [
       {
         "fr": "À travers le brouillard matinal, le navigateur a cru apercevoir les côtes rocheuses de l'île.",
@@ -157,7 +157,7 @@ window.vocab_B2_Dataset = [
     "definition": "Administrer des affaires, organiser des ressources ou maîtriser une situation complexe.",
     "traduction_anglais": "to manage / to handle",
     "traduction_chinois": "管理 / 应对 (guǎnlǐ / yìngduì)",
-    "traduction_japonais": "管理する / 対処する (kanri suru / taisho suru)",
+    "traduction_japonais": "管理する / 対処する (かんりする / たいしょする)",
     "examples": [
       {
         "fr": "La directrice doit gérer des équipes pluridisciplinaires réparties sur plusieurs continents.",
@@ -231,7 +231,7 @@ window.vocab_B2_Dataset = [
     "definition": "Conduire, guider, diriger une action ou orienter vers un résultat déterminé.",
     "traduction_anglais": "to lead / to conduct",
     "traduction_chinois": "领导 / 进行 (lǐngdǎo / jìnxíng)",
-    "traduction_japonais": "率いる / 行う (hikiiru / okonau)",
+    "traduction_japonais": "率いる / 行う (ひきいる /おこなう)",
     "examples": [
       {
         "fr": "Le chercheur principal a su mener cette enquête sociologique avec une rigueur exemplaire.",
@@ -305,7 +305,7 @@ window.vocab_B2_Dataset = [
     "definition": "Envisager par la pensée un événement futur ou organiser à l'avance des mesures adaptées.",
     "traduction_anglais": "to plan / to foresee",
     "traduction_chinois": "预见 / 计划 (yùjiàn / jìhuà)",
-    "traduction_japonais": "予見する / 計画する (yoken suru / keikaku suru)",
+    "traduction_japonais": "予見する / 計画する (よけんする / けいかくする)",
     "examples": [
       {
         "fr": "Le plan d'urbanisme doit prévoir l'aménagement de nouveaux espaces verts en périphérie.",
@@ -379,7 +379,7 @@ window.vocab_B2_Dataset = [
     "definition": "Tirer un avantage matériel ou moral de quelque chose, ou exploiter une opportunité.",
     "traduction_anglais": "to benefit / to take advantage",
     "traduction_chinois": "利用 / 获益 (lìyòng / huòyì)",
-    "traduction_japonais": "享受する / 利益を得る (kyōju suru / rieki o eru)",
+    "traduction_japonais": "享受する / 利益を得る (きょうじゅする / りえき をえる)",
     "examples": [
       {
         "fr": "Les petites entreprises locales devraient profiter pleinement des subventions à l'innovation.",
@@ -453,7 +453,7 @@ window.vocab_B2_Dataset = [
     "definition": "Dépenses engagées pour accomplir une activité, un voyage ou un acte juridique.",
     "traduction_anglais": "costs / expenses",
     "traduction_chinois": "费用 / 支出 (fèiyòng / zhīchū)",
-    "traduction_japonais": "費用 / 経費 (hiyou / keihi)",
+    "traduction_japonais": "費用 / 経費 (ひよう / けいひ)",
     "examples": [
       {
         "fr": "L'entreprise prend en charge l'ensemble des frais de déplacement lors des missions professionnelles.",
@@ -527,7 +527,7 @@ window.vocab_B2_Dataset = [
     "definition": "Discussion organisée et argumentée entre plusieurs personnes ayant des opinions divergentes.",
     "traduction_anglais": "debate / discussion",
     "traduction_chinois": "辩论 / 争论 (biànlùn / zhēnglùn)",
-    "traduction_japonais": "討論 / 議論 (tōron / giron)",
+    "traduction_japonais": "討論 / 議論 (とうろん / ぎろん)",
     "examples": [
       {
         "fr": "Le débat parlementaire sur la réforme des retraites s'est prolongé tard dans la nuit.",
@@ -601,7 +601,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de dépenser, consommer ou perdre des ressources de manière inutile ou excessive.",
     "traduction_anglais": "waste / squandering",
     "traduction_chinois": "浪费 / 挥霍 (làngfèi / huīhuò)",
-    "traduction_japonais": "浪費 / 廃棄 (rōhi / haiki)",
+    "traduction_japonais": "浪費 / 廃棄 (ろうひ / はいき)",
     "examples": [
       {
         "fr": "La lutte contre le gaspillage alimentaire représente une priorité environnementale majeure.",
@@ -675,7 +675,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des opérations et méthodes visant à engager de nouveaux collaborateurs dans une structure.",
     "traduction_anglais": "recruitment / hiring",
     "traduction_chinois": "招聘 / 录用 (zhāopìn / lùyòng)",
-    "traduction_japonais": "採用 / 募集 (saiyō / boshū)",
+    "traduction_japonais": "採用 / 募集 (さいよう / ぼしゅう)",
     "examples": [
       {
         "fr": "Le cabinet de conseil lance une grande campagne de recrutement d'ingénieurs spécialistes.",
@@ -749,7 +749,7 @@ window.vocab_B2_Dataset = [
     "definition": "Commencer à traiter un sujet difficile ou engager la conversation avec quelqu'un.",
     "traduction_anglais": "to address / to tackle",
     "traduction_chinois": "探讨 / 涉及 (tàntǎo / shèjí)",
-    "traduction_japonais": "取り上げる / 切り出す (toriageru / kiridasu)",
+    "traduction_japonais": "取り上げる / 切り出す (とりあげる / きりだす)",
     "examples": [
       {
         "fr": "Le conférencier a choisi d'aborder la question complexe de la souveraineté numérique.",
@@ -823,7 +823,7 @@ window.vocab_B2_Dataset = [
     "definition": "Être la propriété de quelqu'un ou être membre à part entière d'un groupe ou d'une communauté.",
     "traduction_anglais": "to belong / to pertain",
     "traduction_chinois": "属于 / 归属 (shǔyú / guīshǔ)",
-    "traduction_japonais": "所属する / 属する (shozoku suru / zokusuru)",
+    "traduction_japonais": "所属する / 属する (しょぞくする / ぞくする)",
     "examples": [
       {
         "fr": "Le sentiment d'appartenir à une communauté solidaire renforce la cohésion sociale.",
@@ -897,7 +897,7 @@ window.vocab_B2_Dataset = [
     "definition": "Varier les activités, les sources de revenus ou les éléments d'un ensemble pour réduire les risques.",
     "traduction_anglais": "to diversify",
     "traduction_chinois": "使多样化 / 多元化 (shǐ duōyànghuà / duōyuánhuà)",
-    "traduction_japonais": "多様化する / 分散する (tayōka suru / bunsan suru)",
+    "traduction_japonais": "多様化する / 分散する (たようかする / ぶんさんする)",
     "examples": [
       {
         "fr": "Les investisseurs prudents recommandent de diversifier son portefeuille pour limiter les pertes.",
@@ -971,7 +971,7 @@ window.vocab_B2_Dataset = [
     "definition": "Concevoir et mettre au point un plan, une théorie ou un projet au moyen d'un travail méthodique.",
     "traduction_anglais": "to develop / to devise",
     "traduction_chinois": "制定 / 拟定 (zhìdìng / nǐdìng)",
-    "traduction_japonais": "策定する / 作成する (sakutei suru / sakusei suru)",
+    "traduction_japonais": "策定する / 作成する (さくていする / さくせいする)",
     "examples": [
       {
         "fr": "Le comité d'experts a été chargé d'élaborer une nouvelle stratégie énergétique pour 2030.",
@@ -1045,7 +1045,7 @@ window.vocab_B2_Dataset = [
     "definition": "Créer des conditions avantageuses pour aider au développement ou à la réussite de quelque chose.",
     "traduction_anglais": "to foster / to promote",
     "traduction_chinois": "促进 / 有利于 (cùjìn / yǒulìyú)",
-    "traduction_japonais": "促進する / 促す (sokushin suru / unagasu)",
+    "traduction_japonais": "促進する / 促す (そくしんする / うながす)",
     "examples": [
       {
         "fr": "La nouvelle politique fiscale vise à favoriser l'investissement dans les énergies renouvelables.",
@@ -1119,7 +1119,7 @@ window.vocab_B2_Dataset = [
     "definition": "Assurer avec certitude la réalisation de quelque chose ou répondre de l'authenticité d'un fait.",
     "traduction_anglais": "to guarantee / to ensure",
     "traduction_chinois": "保障 / 保证 (bǎozhàng / bǎozhèng)",
-    "traduction_japonais": "保証する / 確保する (hoshō suru / kakuho suru)",
+    "traduction_japonais": "保証する / 確保する (ほしょうする / かくほする)",
     "examples": [
       {
         "fr": "La Constitution a pour vocation première de garantir les droits fondamentaux de chaque citoyen.",
@@ -1193,7 +1193,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus clair ou plus compréhensible un propos par des exemples concrets ou des images.",
     "traduction_anglais": "to illustrate / to exemplify",
     "traduction_chinois": "举例说明 / 阐明 (jǔlì shuōmíng / chǎnmíng)",
-    "traduction_japonais": "例証する / 説明する (reishō suru / setsumei suru)",
+    "traduction_japonais": "例証する / 説明する (れいしょうする / せつめいする)",
     "examples": [
       {
         "fr": "Le professeur a choisi d'illustrer sa démonstration mathématique avec des graphiques clairs.",
@@ -1267,7 +1267,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre l'accent avec force sur un point précis ou persévérer fermement dans une demande.",
     "traduction_anglais": "to insist / to emphasize",
     "traduction_chinois": "强调 / 坚持 (qiángdiào / jiānchí)",
-    "traduction_japonais": "強調する / 主張し続ける (kyōchō suru / shuchō shitsuzukeru)",
+    "traduction_japonais": "強調する / 主張し続ける (きょうちょうする / しゅちょう しつずける)",
     "examples": [
       {
         "fr": "Le médecin a tenu à insister sur la nécessité absolue de respecter la posologie du traitement.",
@@ -1341,7 +1341,7 @@ window.vocab_B2_Dataset = [
     "definition": "Prendre part à une action, prendre la parole dans un débat ou s'interposer pour régler un différend.",
     "traduction_anglais": "to intervene / to speak up",
     "traduction_chinois": "介入 / 发言 (jièrù / fāyán)",
-    "traduction_japonais": "介入する / 登壇する (kairyū suru / tōdan suru)",
+    "traduction_japonais": "介入する / 登壇する (かいりゅうする / とうだんする)",
     "examples": [
       {
         "fr": "Les forces de secours ont dû intervenir d'urgence pour évacuer les habitants piégés par les eaux.",
@@ -1415,7 +1415,7 @@ window.vocab_B2_Dataset = [
     "definition": "Recommander avec insistance une méthode, un choix ou une solution jugée particulièrement efficace.",
     "traduction_anglais": "to advocate / to recommend",
     "traduction_chinois": "提倡 / 主张 (tíchàng / zhǔzhāng)",
-    "traduction_japonais": "推奨する / 提唱する (suishō suru / teishō suru)",
+    "traduction_japonais": "推奨する / 提唱する (すいしょうする / ていしょうする)",
     "examples": [
       {
         "fr": "Le rapport d'experts vient préconiser une réduction drastique de l'usage des pesticides chimiques.",
@@ -1489,7 +1489,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ne pas accorder à quelqu'un ou à quelque chose le soin, l'attention ou l'importance nécessaires.",
     "traduction_anglais": "to neglect / to overlook",
     "traduction_chinois": "忽视 / 疏忽 (hūshì / shūhu)",
-    "traduction_japonais": "怠る / 軽視する (okotaru / keishi suru)",
+    "traduction_japonais": "怠る / 軽視する (おこたる / けいしする)",
     "examples": [
       {
         "fr": "Il ne faut jamais négliger les signaux d'alerte émis par un organisme surmené par le stress.",
@@ -1563,7 +1563,7 @@ window.vocab_B2_Dataset = [
     "definition": "Limiter, réduire l'étendue, la portée ou l'exercice d'un droit, d'une liberté ou d'une dépense.",
     "traduction_anglais": "to restrict / to curtail",
     "traduction_chinois": "限制 / 缩减 (xiànzhì / suōjiǎn)",
-    "traduction_japonais": "制限する / 縮小する (seigen suru / shukushō suru)",
+    "traduction_japonais": "制限する / 縮小する (せいげんする / しゅくしょうする)",
     "examples": [
       {
         "fr": "Le gouvernement a dû restreindre temporairement la circulation automobile lors du pic de pollution.",
@@ -1637,7 +1637,7 @@ window.vocab_B2_Dataset = [
     "definition": "Aider quelqu'un matériellement ou moralement, ou défendre fermement une thèse intellectuelle.",
     "traduction_anglais": "to support / to maintain",
     "traduction_chinois": "支持 / 赞助 (zhīchí / zànzhù)",
-    "traduction_japonais": "支持する / 支える (shiji suru / sasaeru)",
+    "traduction_japonais": "支持する / 支える (しじする / ささえる)",
     "examples": [
       {
         "fr": "L'association caritative s'efforce de soutenir les familles démunies tout au long de l'hiver.",
@@ -1711,7 +1711,7 @@ window.vocab_B2_Dataset = [
     "definition": "Inciter à agir, donner de l'énergie ou favoriser le dynamisme et la croissance d'une activité.",
     "traduction_anglais": "to stimulate / to boost",
     "traduction_chinois": "刺激 / 激发 (cìjī / jīfā)",
-    "traduction_japonais": "刺激する / 活性化する (shigeki suru / kasseika suru)",
+    "traduction_japonais": "刺激する / 活性化する (しげきする / かっせいかする)",
     "examples": [
       {
         "fr": "La baisse des taux d'intérêt a pour objectif de stimuler l'emprunt et l'investissement des ménages.",
@@ -1785,7 +1785,7 @@ window.vocab_B2_Dataset = [
     "definition": "Éprouver contre son gré un événement pénible, un traitement difficile ou une transformation imposée.",
     "traduction_anglais": "to undergo / to suffer",
     "traduction_chinois": "遭受 / 承受 (zāoshòu / chéngshòu)",
-    "traduction_japonais": "受ける / 被る (ukeru / kōmuru)",
+    "traduction_japonais": "受ける / 被る (うける / こうむる)",
     "examples": [
       {
         "fr": "Les régions côtières doivent subir les assauts répétés de violentes tempêtes hivernales.",
@@ -1859,7 +1859,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faire naître, provoquer ou déclencher des réactions, des sentiments ou des débats au sein du public.",
     "traduction_anglais": "to arouse / to spark",
     "traduction_chinois": "引起 / 激发 (yǐnqǐ / jīfā)",
-    "traduction_japonais": "引き起こす / 喚起する (hikiokosu / kanki suru)",
+    "traduction_japonais": "引き起こす / 喚起する (ひきおこす / かんきする)",
     "examples": [
       {
         "fr": "La publication de ce rapport d'enquête a su susciter une vague d'indignation dans l'opinion publique.",
@@ -1933,7 +1933,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de grandir ou augmentation progressive en nombre, en valeur ou en intensité.",
     "traduction_anglais": "increase / growth",
     "traduction_chinois": "增长 / 增加 (zēngzhǎng / zēngjiā)",
-    "traduction_japonais": "増大 / 増加 (zōdai / zōka)",
+    "traduction_japonais": "増大 / 増加 (ぞうだい / ぞうか)",
     "examples": [
       {
         "fr": "On observe un accroissement continu de la population urbaine dans les grandes métropoles mondiales.",
@@ -2007,7 +2007,7 @@ window.vocab_B2_Dataset = [
     "definition": "Opposition forte et rivalité profonde entre des personnes, des groupes ou des doctrines contraires.",
     "traduction_anglais": "antagonism / hostility",
     "traduction_chinois": "对抗 / 对立 (duìkàng / duìlì)",
-    "traduction_japonais": "対立 / 敵対 (tairitsu / tekitai)",
+    "traduction_japonais": "対立 / 敵対 (たいりつ / てきたい)",
     "examples": [
       {
         "fr": "L'antagonisme historique entre ces deux nations frontalières a longtemps entravé les échanges commerciaux.",
@@ -2081,7 +2081,7 @@ window.vocab_B2_Dataset = [
     "definition": "Règlement d'un litige par une tierce personne neutre, ou choix stratégique entre plusieurs options.",
     "traduction_anglais": "arbitration / trade-off",
     "traduction_chinois": "仲裁 / 权衡 (zhòngcái / quánhéng)",
-    "traduction_japonais": "仲裁 / 裁量 (chūsai / sairyō)",
+    "traduction_japonais": "仲裁 / 裁量 (ちゅうさい / さいりょう)",
     "examples": [
       {
         "fr": "Les deux entreprises ont préféré recourir à un arbitrage commercial privé pour régler leur différend.",
@@ -2155,7 +2155,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble d'arguments ou démarche logique organisée pour convaincre un interlocuteur.",
     "traduction_anglais": "argumentation / reasoning",
     "traduction_chinois": "论证 / 论述 (lùnzhèng / lùnshù)",
-    "traduction_japonais": "論証 / 議論の展開 (ronshō / giron no tenkai)",
+    "traduction_japonais": "論証 / 議論の展開 (ろんしょう / ぎろん の てんかい)",
     "examples": [
       {
         "fr": "L'avocate a développé une argumentation solide et étayée de preuves scientifiques irréfutables.",
@@ -2229,7 +2229,7 @@ window.vocab_B2_Dataset = [
     "definition": "Moyen habile, déguisement ou procédé trompeur utilisé pour dissimuler la vérité.",
     "traduction_anglais": "artifice / trick",
     "traduction_chinois": "花招 / 诡计 (huāzhāo / guǐjì)",
-    "traduction_japonais": "策略 / 技巧 (sakuryaku / gikō)",
+    "traduction_japonais": "策略 / 技巧 (さくりゃく / ぎこう)",
     "examples": [
       {
         "fr": "L'orateur a usé de tous les artifices de la rhétorique pour masquer le vide de son projet.",
@@ -2303,7 +2303,7 @@ window.vocab_B2_Dataset = [
     "definition": "État de dépendance totale, privation de liberté ou soumission d'une population à un pouvoir oppresseur.",
     "traduction_anglais": "enslavement / subjugation",
     "traduction_chinois": "奴役 / 屈从 (núyì / qūcóng)",
-    "traduction_japonais": "隷属 / 従属 (reizoku / jūzoku)",
+    "traduction_japonais": "隷属 / 従属 (れいぞく / じゅうぞく)",
     "examples": [
       {
         "fr": "La lutte contre l'asservissement des peuples colonisés a marqué la seconde moitié du XXe siècle.",
@@ -2377,7 +2377,7 @@ window.vocab_B2_Dataset = [
     "definition": "Politique économique de rigueur réduisant les dépenses publiques, ou caractère de ce qui est sévère et dépouillé.",
     "traduction_anglais": "austerity / strictness",
     "traduction_chinois": "紧缩 / 简朴 (jǐnsuō / jiǎnpǔ)",
-    "traduction_japonais": "緊縮 / 厳格 (kinshuku / genkaku)",
+    "traduction_japonais": "緊縮 / 厳格 (きんしゅく / げんかく)",
     "examples": [
       {
         "fr": "Les mesures d'austérité imposées par le gouvernement ont provoqué des grèves massives dans la fonction publique.",
@@ -2451,7 +2451,7 @@ window.vocab_B2_Dataset = [
     "definition": "État, nation ou groupe armé qui participe activement à une guerre ou à un conflit militaire.",
     "traduction_anglais": "belligerent / combatant party",
     "traduction_chinois": "交战国 / 交战方 (jiāozhànguó / jiāozhànfāng)",
-    "traduction_japonais": "交戦国 / 紛争当事者 (kōsengkoku / funsō tōjisha)",
+    "traduction_japonais": "交戦国 / 紛争当事者 (こうせんgこく / ふんそう とうじしゃ)",
     "examples": [
       {
         "fr": "Les deux pays belligérants ont accepté de s'asseoir à la table des négociations sous l'égide de l'ONU.",
@@ -2525,7 +2525,7 @@ window.vocab_B2_Dataset = [
     "definition": "Disposition affective favorable et attentive envers autrui, marquée par la compréhension et le respect.",
     "traduction_anglais": "benevolence / kindness",
     "traduction_chinois": "善意 / 关怀 (shànyì / guānhuái)",
-    "traduction_japonais": "親切心 / 慈愛 (shinsetsushin / jiai)",
+    "traduction_japonais": "親切心 / 慈愛 (しんせつしん / じあい)",
     "examples": [
       {
         "fr": "L'enseignant accueille les nouveaux élèves avec beaucoup de bienveillance pour faciliter leur rentrée scolaire.",
@@ -2599,7 +2599,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des fonctionnaires et des formalités administratives souvent perçues comme rigides et excessives.",
     "traduction_anglais": "bureaucracy / red tape",
     "traduction_chinois": "官僚机构 / 繁文缛节 (guānliǎojīgòu / fánwénrùjié)",
-    "traduction_japonais": "官僚制 / 繁文縟礼 (kanryōsei / hanbun-jokurei)",
+    "traduction_japonais": "官僚制 / 繁文縟礼 (かんりょうせい / はんぶん-じょくれい)",
     "examples": [
       {
         "fr": "La lourdeur de la bureaucratie freine considérablement la création d'entreprises innovantes dans le pays.",
@@ -2673,7 +2673,7 @@ window.vocab_B2_Dataset = [
     "definition": "Science qui étudie les climats de la Terre, leurs variations historiques et leurs évolutions futures.",
     "traduction_anglais": "climatology",
     "traduction_chinois": "气候学 (qìhòuxué)",
-    "traduction_japonais": "気候学 (kikōgaku)",
+    "traduction_japonais": "気候学 (きこうがく)",
     "examples": [
       {
         "fr": "Les avancées récentes de la climatologie permettent de modéliser avec précision l'impact des gaz à effet de serre.",
@@ -2747,7 +2747,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de vivre ensemble de manière pacifique malgré des différences culturelles, politiques ou religieuses.",
     "traduction_anglais": "coexistence",
     "traduction_chinois": "共存 / 和平共处 (gòngcún / hépíng gòngchǔ)",
-    "traduction_japonais": "共存 / 共生 (kyōzon / kyōsei)",
+    "traduction_japonais": "共存 / 共生 (きょうぞん / きょうせい)",
     "examples": [
       {
         "fr": "La coexistence pacifique entre les différentes communautés religieuses est un modèle de tolérance dans cette ville.",
@@ -2821,7 +2821,7 @@ window.vocab_B2_Dataset = [
     "definition": "Union étroite et solidarité forte qui unissent les membres d'un groupe ou d'une société.",
     "traduction_anglais": "cohesion / solidarity",
     "traduction_chinois": "凝聚力 / 结合力 (níngjùlì / jiéhélì)",
-    "traduction_japonais": "結束 / 結束力 (kessoku / kessokuryoku)",
+    "traduction_japonais": "結束 / 結束力 (けっそく / けっそくりょく)",
     "examples": [
       {
         "fr": "Le renforcement de la cohésion sociale constitue une priorité majeure des politiques d'intégration urbaine.",
@@ -2895,7 +2895,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de travailler ensemble à une œuvre commune ou de coopérer à la réussite d'un projet.",
     "traduction_anglais": "collaboration / cooperation",
     "traduction_chinois": "合作 / 协作 (hézuò / xiézuò)",
-    "traduction_japonais": "協力 / 共同作業 (kyōryoku / kyōdō sagyō)",
+    "traduction_japonais": "協力 / 共同作業 (きょうりょく / きょうどう さぎょう)",
     "examples": [
       {
         "fr": "La collaboration étroite entre les universités et les entreprises favorise le transfert technologique rapide.",
@@ -2969,7 +2969,7 @@ window.vocab_B2_Dataset = [
     "definition": "Accord obtenu au terme de concessions mutuelles faites par des personnes ou des parties opposées.",
     "traduction_anglais": "compromise / settlement",
     "traduction_chinois": "妥协 / 折中方案 (tuǒxié / zhézhōng fāng'àn)",
-    "traduction_japonais": "妥協 / 妥協案 (dakyō / dakyō-an)",
+    "traduction_japonais": "妥協 / 妥協案 (だきょう / だきょう-あん)",
     "examples": [
       {
         "fr": "Après de longues heures de négociation tendue, les partenaires sociaux sont parvenus à un compromis historique sur les salaires.",
@@ -3043,7 +3043,7 @@ window.vocab_B2_Dataset = [
     "definition": "Pratique consistant à consulter les personnes ou organismes concernés avant de prendre une décision commune.",
     "traduction_anglais": "consultation / coordination",
     "traduction_chinois": "协商 / 磋商 (xiéshāng / cuōshāng)",
-    "traduction_japonais": "協議 / 意見調整 (kyōgi / iken chōsei)",
+    "traduction_japonais": "協議 / 意見調整 (きょうぎ / いけん ちょうせい)",
     "examples": [
       {
         "fr": "La mairie a lancé une vaste concertation citoyenne avant de valider le tracé définitif de la nouvelle ligne de tramway.",
@@ -3117,7 +3117,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de contester, de remettre en cause une décision, une autorité ou une situation établie.",
     "traduction_anglais": "protest / contestation",
     "traduction_chinois": "抗议 / 质疑 (kàngyì / zhìyí)",
-    "traduction_japonais": "抗議 / 異議申し立て (kōgi / igi mōshitate)",
+    "traduction_japonais": "抗議 / 異議申し立て (こうぎ / いぎ もうしたて)",
     "examples": [
       {
         "fr": "Le vote de cette loi controversée a déclenché un vaste mouvement de contestation populaire dans tout le pays.",
@@ -3191,7 +3191,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui suscite de vives discussions, des polémiques passionnées ou des avis profondément partagés.",
     "traduction_anglais": "controversial / disputed",
     "traduction_chinois": "有争议的 / 引发争议的 (yǒu zhēngyì de / yǐnfā zhēngyì de)",
-    "traduction_japonais": "物議を醸す / 議論を呼ぶ (butsugi o kamosu / giron o yobu)",
+    "traduction_japonais": "物議を醸す / 議論を呼ぶ (ぶつぎ を かもす / ぎろん を よぶ)",
     "examples": [
       {
         "fr": "Ce projet d'extraction minière très controversé suscite l'inquiétude légitime des associations de défense de la nature.",
@@ -3265,7 +3265,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de tendre vers un même point, d'aboutir à un résultat commun ou d'avoir des intérêts qui se rejoignent.",
     "traduction_anglais": "convergence / coming together",
     "traduction_chinois": "汇聚 / 趋同 (huìjù / qūtóng)",
-    "traduction_japonais": "収束 / 統合 (shūsoku / tōgō)",
+    "traduction_japonais": "収束 / 統合 (しゅうそく / とうごう)",
     "examples": [
       {
         "fr": "On observe une convergence remarquable des analyses économiques sur la nécessité d'investir dans la transition écologique.",
@@ -3339,7 +3339,7 @@ window.vocab_B2_Dataset = [
     "definition": "Transfert de compétences et de pouvoirs de décision de l'État central vers des collectivités locales autonomes.",
     "traduction_anglais": "decentralization",
     "traduction_chinois": "地方分权 / 权力下放 (dìfāng fēnquán / quánlì xiàfàng)",
-    "traduction_japonais": "地方分権 / 分権化 (chihō bunken / bunkenka)",
+    "traduction_japonais": "地方分権 / 分権化 (ちほう ぶんけん / ぶんけんか)",
     "examples": [
       {
         "fr": "La politique de décentralisation initiée dans les années 1980 a accordé une large autonomie budgétaire aux régions françaises.",
@@ -3413,7 +3413,7 @@ window.vocab_B2_Dataset = [
     "definition": "Écart, différence ou désaccord profond qui sépare deux opinions, deux théories ou deux personnes.",
     "traduction_anglais": "divergence / disagreement",
     "traduction_chinois": "分歧 / 差异 (fēnqí / chāyì)",
-    "traduction_japonais": "相違 / 分岐 (sōi / bunki)",
+    "traduction_japonais": "相違 / 分岐 (そうい / ぶんき)",
     "examples": [
       {
         "fr": "Les deux délégations ont constaté une divergence profonde sur les quotas de réduction des émissions de carbone.",
@@ -3487,7 +3487,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de s'affranchir d'une autorité tutélaire, d'une domination sociale ou d'un état de dépendance juridique.",
     "traduction_anglais": "emancipation / liberation",
     "traduction_chinois": "解放 / 独立 (jiěfàng / dúlì)",
-    "traduction_japonais": "解放 / 自立 (kaihō / jiritsu)",
+    "traduction_japonais": "解放 / 自立 (かいほう / じりつ)",
     "examples": [
       {
         "fr": "L'accès généralisé à l'éducation supérieure a constitué un levier décisif pour l'émancipation des femmes au XXe siècle.",
@@ -3561,7 +3561,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait d'apparaître soudainement, de se manifester au grand jour ou de s'affirmer sur la scène internationale.",
     "traduction_anglais": "emergence / rise",
     "traduction_chinois": "崛起 / 出现 (juéqǐ / chūxiàn)",
-    "traduction_japonais": "台頭 / 出現 (taitō / shutsugen)",
+    "traduction_japonais": "台頭 / 出現 (たいとう / しゅつげん)",
     "examples": [
       {
         "fr": "L'émergence rapide de nouvelles puissances économiques en Asie redéfinit les équilibres géopolitiques mondiaux.",
@@ -3635,7 +3635,7 @@ window.vocab_B2_Dataset = [
     "definition": "État d'un territoire isolé ou fermé, dépourvu de voies d'accès directes ou d'infrastructures de communication modernes.",
     "traduction_anglais": "landlocked state / isolation",
     "traduction_chinois": "闭塞 / 孤立 (bìsè / gūlì)",
-    "traduction_japonais": "孤立 / 陸の孤島状態 (koritsu / riku no kotō jōtai)",
+    "traduction_japonais": "孤立 / 陸の孤島状態 (こりつ / りく の ことう じょうたい)",
     "examples": [
       {
         "fr": "L'enclavement géographique de cette vallée alpine freine son développement économique et touristique hivernal.",
@@ -3709,7 +3709,7 @@ window.vocab_B2_Dataset = [
     "definition": "Passion vive, admiration subite et parfois éphémère pour quelqu'un ou pour quelque chose.",
     "traduction_anglais": "craze / infatuation",
     "traduction_chinois": "狂热 / 迷恋 (kuángrè / míliàn)",
-    "traduction_japonais": "熱狂 / 夢中 (nekkyō / muchū)",
+    "traduction_japonais": "熱狂 / 夢中 (ねっきょう / むちゅう)",
     "examples": [
       {
         "fr": "Le nouvel album de cette jeune chanteuse a suscité un engouement populaire phénoménal dès le jour de sa sortie.",
@@ -3783,7 +3783,7 @@ window.vocab_B2_Dataset = [
     "definition": "Principe supérieur de justice naturelle visant à traiter chacun de façon impartiale en tenant compte des situations particulières.",
     "traduction_anglais": "equity / fairness",
     "traduction_chinois": "公平 / 公正 (gōngpíng / gōngzhèng)",
-    "traduction_japonais": "公平 / 公平性 (kōhei / kōheisei)",
+    "traduction_japonais": "公平 / 公平性 (こうへい / こうへいせい)",
     "examples": [
       {
         "fr": "Le principe d'équité exige que le barème de l'impôt sur le revenu soit progressif et proportionné aux capacités réelles des ménages.",
@@ -3857,7 +3857,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de faire disparaître totalement, d'anéantir ou de détruire jusqu'à la racine un fléau, une maladie ou un mal.",
     "traduction_anglais": "eradication / wiping out",
     "traduction_chinois": "根除 / 消灭 (gēnchú / xiāomiè)",
-    "traduction_japonais": "根絶 / 撲滅 (konzetsu / bokumetsu)",
+    "traduction_japonais": "根絶 / 撲滅 (こんぜつ / ぼくめつ)",
     "examples": [
       {
         "fr": "L'Organisation mondiale de la santé a célébré avec fierté l'éradication totale de la variole à l'échelle planétaire grâce aux campagnes de vaccination.",
@@ -3931,7 +3931,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mouvement par lequel une entreprise, une industrie, une ville ou une discipline se développe, prospère rapidement et prend une grande ampleur.",
     "traduction_anglais": "rise / boom / rapid expansion / development",
     "traduction_chinois": "蓬勃发展 / 崛起飞跃 (péngbó fāzhǎn / juéqǐ fēiyuè)",
-    "traduction_japonais": "飛躍的発展 / 急成長・台頭 (hiyaku-teki hatten / kyū-seichō・taitō)",
+    "traduction_japonais": "飛躍的発展 / 急成長・台頭 (ひやく-てき はってん / きゅう-せいちょう・たいとう)",
     "examples": [
       {
         "fr": "L'essor fulgurant des technologies de l'intelligence artificielle générative bouleverse en profondeur le marché du travail et les métiers de la création.",
@@ -4005,7 +4005,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des principes moraux et des règles de conduite qui guident les actions humaines, les décisions professionnelles ou la recherche scientifique au regard du bien et du juste.",
     "traduction_anglais": "ethics / moral code / ethical standards",
     "traduction_chinois": "伦理 / 道德准则 (lúnlǐ / dàodé zhǔnzé)",
-    "traduction_japonais": "倫理 / 道徳規範・エシックス (rinri / dōtoku kihan・eshikkusu)",
+    "traduction_japonais": "倫理 / 道徳規範・エシックス (りんり / どうとく きはん・えしっくす)",
     "examples": [
       {
         "fr": "Le comité consultatif national examine avec une rigueur absolue le respect de l'éthique dans les protocoles d'expérimentation génétique.",
@@ -4079,7 +4079,7 @@ window.vocab_B2_Dataset = [
     "definition": "Événement incertain qui peut éventuellement se produire dans l'avenir, possibilité à envisager dans une prévision ou une stratégie.",
     "traduction_anglais": "eventuality / possibility / contingency",
     "traduction_chinois": "可能性 / 偶然发生的可能情况 (kěnéngxìng / ǒurán fāshēng de kěnéng qíngkuàng)",
-    "traduction_japonais": "可能性 / 万が一の事態・不測の事態 (kanōsei / man'gaichi no jitai・fusoku no jitai)",
+    "traduction_japonais": "可能性 / 万が一の事態・不測の事態 (かのうせい / まんがいち の じたい・ふそく の じたい)",
     "examples": [
       {
         "fr": "L'état-major de crise a élaboré plusieurs plans d'urgence détaillés pour parer à toute éventualité en cas d'inondation majeure de la vallée.",
@@ -4153,7 +4153,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui traite un sujet de manière complète, approfondie et sans rien omettre.",
     "traduction_anglais": "exhaustive / comprehensive",
     "traduction_chinois": "详尽的 / 面面俱到的 (xiángjìn de / miànmiànjùdào de)",
-    "traduction_japonais": "網羅的な / 徹底的な (mōra-teki na / tettei-teki na)",
+    "traduction_japonais": "網羅的な / 徹底的な (もうら-てき な / てってい-てき な)",
     "examples": [
       {
         "fr": "Le rapport d'audit présente un état des lieux exhaustif de la situation financière de la structure.",
@@ -4227,7 +4227,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de quitter volontairement ou professionnellement son pays natal pour aller s'installer et travailler à l'étranger.",
     "traduction_anglais": "expatriation / living abroad",
     "traduction_chinois": "移居国外 / 外派 (yíjū guówài / wàipài)",
-    "traduction_japonais": "国外移住 / 海外赴任 (kokugai ijū / kaigai funin)",
+    "traduction_japonais": "国外移住 / 海外赴任 (こくがい いじゅう / かいがい ふにん)",
     "examples": [
       {
         "fr": "L'expatriation professionnelle représente une opportunité exceptionnelle pour accélérer sa carrière internationale.",
@@ -4301,7 +4301,7 @@ window.vocab_B2_Dataset = [
     "definition": "Capacité d'adaptation aisée aux changements, aux imprévus ou aux contraintes nouvelles.",
     "traduction_anglais": "flexibility / adaptability",
     "traduction_chinois": "灵活性 / 弹性 (línghuóxìng / tánxìng)",
-    "traduction_japonais": "柔軟性 / 融通 (jūnansei / yūzū)",
+    "traduction_japonais": "柔軟性 / 融通 (じゅうなんせい / ゆうずう)",
     "examples": [
       {
         "fr": "La flexibilité des horaires de travail permet aux salariés de concilier plus harmonieusement vie professionnelle et vie privée.",
@@ -4375,7 +4375,7 @@ window.vocab_B2_Dataset = [
     "definition": "Variation continue, hausse et baisse successives de grandeurs économiques, physiques ou financières.",
     "traduction_anglais": "fluctuation / variation",
     "traduction_chinois": "波动 / 起伏 (bōdòng / qǐfú)",
-    "traduction_japonais": "変動 / 動揺 (hendō / dōyō)",
+    "traduction_japonais": "変動 / 動揺 (へんどう / どうよう)",
     "examples": [
       {
         "fr": "Les fortes fluctuations des cours du pétrole brut sur les marchés mondiaux déstabilisent les budgets prévisionnels des entreprises de transport.",
@@ -4449,7 +4449,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de briser ou de fragmenter violemment, notamment technique industrielle d'extraction de gaz ou division d'un corps social.",
     "traduction_anglais": "fracturing / breakdown",
     "traduction_chinois": "水力压裂 / 分裂破碎 (shuǐlì yàliè / fēnliè pòsuì)",
-    "traduction_japonais": "破砕 / 分断 (hasai / bundan)",
+    "traduction_japonais": "破砕 / 分断 (はさい / ぶんだん)",
     "examples": [
       {
         "fr": "La technique controversée de la fracturation hydraulique pour extraire le gaz de schiste est interdite par la loi en France pour préserver les nappes phréatiques.",
@@ -4523,7 +4523,7 @@ window.vocab_B2_Dataset = [
     "definition": "Sensibilité excessive au froid, ou timidité excessive, manque d'audace et hésitation à prendre des risques.",
     "traduction_anglais": "chilliness / timidity",
     "traduction_chinois": "畏缩 / 怕冷 (wèisuō / pàlěng)",
-    "traduction_japonais": "過度の慎重さ / 寒がり (kado no shinchōsa / samugari)",
+    "traduction_japonais": "過度の慎重さ / 寒がり (かど の しんちょうさ / さむがり)",
     "examples": [
       {
         "fr": "La frilosité des banques privées pour financer les projets des jeunes créateurs d'entreprise est souvent critiquée.",
@@ -4597,7 +4597,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui exerce une domination écrasante, une suprématie absolue ou un contrôle incontesté sur d'autres.",
     "traduction_anglais": "hegemonic / dominant",
     "traduction_chinois": "霸权的 / 称霸的 (bàquán de / chēngbà de)",
-    "traduction_japonais": "覇権的な / 支配的な (haken-teki na / shihai-teki na)",
+    "traduction_japonais": "覇権的な / 支配的な (はけん-てき な / しはい-てき な)",
     "examples": [
       {
         "fr": "Cette superpuissance militaire exerce une influence hégémonique sur les institutions financières internationales.",
@@ -4671,7 +4671,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère d'un ensemble dont tous les éléments constitutifs sont de même nature, harmonieux ou uniformément répartis.",
     "traduction_anglais": "homogeneity / uniformity",
     "traduction_chinois": "同质性 / 均匀性 (tóngzhìxìng / jūnyúnxìng)",
-    "traduction_japonais": "均質性 / 同質性 (kinshitsusei / dōshitsusei)",
+    "traduction_japonais": "均質性 / 同質性 (きんしつせい / どうしつせい)",
     "examples": [
       {
         "fr": "Les ingénieurs vérifient avec une extrême rigueur la parfaite homogénéité du béton coulé dans les fondations du viaduc.",
@@ -4745,7 +4745,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble cohérent d'idées, de croyances et de doctrines qui orientent l'action politique ou sociale d'un groupe.",
     "traduction_anglais": "ideology",
     "traduction_chinois": "意识形态 / 思想体系 (yìshí xíngtài / sīxiǎng tǐxì)",
-    "traduction_japonais": "イデオロギー / 思想体系 (ideorogī / shisō taikei)",
+    "traduction_japonais": "イデオロギー / 思想体系 (いでおろぎい / しそう たいけい)",
     "examples": [
       {
         "fr": "Ce parti politique a refondé entièrement son idéologie pour s'adapter aux nouvelles attentes de la société civile.",
@@ -4819,7 +4819,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de plonger dans un liquide, ou intégration totale et prolongée dans un milieu linguistique, culturel ou virtuel nouveau.",
     "traduction_anglais": "immersion / plunge",
     "traduction_chinois": "沉浸 / 潜入 (chénjìn / qiánrù)",
-    "traduction_japonais": "没入 / 浸漬 (botsunyū / shinseki)",
+    "traduction_japonais": "没入 / 浸漬 (ぼつにゅう / しんせき)",
     "examples": [
       {
         "fr": "Un séjour linguistique de six mois en immersion totale dans une famille d'accueil est la méthode la plus rapide pour maîtriser le français parlé.",
@@ -4893,7 +4893,7 @@ window.vocab_B2_Dataset = [
     "definition": "Obligation morale ou juridique de juger, d'agir ou de décider sans parti pris, sans préjugé et sans favoritisme.",
     "traduction_anglais": "impartiality / fairness",
     "traduction_chinois": "公正 / 不偏不倚 (gōngzhèng / bùpiānbùyǐ)",
-    "traduction_japonais": "公平無私 / 公平性 (kōhei-mushi / kōheisei)",
+    "traduction_japonais": "公平無私 / 公平性 (こうへい-むし / こうへいせい)",
     "examples": [
       {
         "fr": "La stricte impartialité des juges constitue la garantie fondamentale d'un procès équitable dans tout État de droit.",
@@ -4967,7 +4967,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rue sans issue, ou situation bloquée et inextricable où aucune solution favorable ne semble possible.",
     "traduction_anglais": "deadlock / impasse",
     "traduction_chinois": "僵局 / 绝境 (jiāngjú / juéjìng)",
-    "traduction_japonais": "行き詰まり / 窮地 (ikizumari / kyūchi)",
+    "traduction_japonais": "行き詰まり / 窮地 (いきずまり / きゅうち)",
     "examples": [
       {
         "fr": "Les négociations diplomatiques sur le cessez-le-feu sont dans une impasse totale après le rejet du projet de compromis.",
@@ -5041,7 +5041,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de pousser, d'encourager vivement quelqu'un à agir au moyen d'aides financières, d'avantages ou de conseils.",
     "traduction_anglais": "incentive / encouragement",
     "traduction_chinois": "激励 / 诱导 (jīlì / yòudǎo)",
-    "traduction_japonais": "動機づけ / インセンティブ (dōkizuke / insentibu)",
+    "traduction_japonais": "動機づけ / インセンティブ (どうきずけ / いんせんちぶ)",
     "examples": [
       {
         "fr": "Le crédit d'impôt pour la rénovation thermique des logements constitue une incitation financière efficace en faveur de l'écologie.",
@@ -5115,7 +5115,7 @@ window.vocab_B2_Dataset = [
     "definition": "Sentiment vif de colère et de révolte morale provoqué par une injustice flagrante ou une action indigne.",
     "traduction_anglais": "indignation / outrage",
     "traduction_chinois": "义愤 / 愤怒 (yìfèn / fènnù)",
-    "traduction_japonais": "憤慨 / 義憤 (funkai / gifun)",
+    "traduction_japonais": "憤慨 / 義憤 (ふんかい / ぎふん)",
     "examples": [
       {
         "fr": "La destruction de ce monument historique millénaire par des pilleurs a suscité une vive indignation dans le monde entier.",
@@ -5189,7 +5189,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui favorise ou consacre des inégalités de droits, de richesses ou d'opportunités au sein d'une société.",
     "traduction_anglais": "inegalitarian / unequal",
     "traduction_chinois": "不平等的 / 导致不平等的 (bùpíngděng de / dǎozhì bùpíngděng de)",
-    "traduction_japonais": "不平等な / 格差を生む (fubyōdō na / kakusa o umu)",
+    "traduction_japonais": "不平等な / 格差を生む (ふびょうどう な / かくさ を うむ)",
     "examples": [
       {
         "fr": "Les sociologues dénoncent un système éducatif à deux vitesses devenu particulièrement inégalitaire au détriment des élèves issus des quartiers populaires.",
@@ -5263,7 +5263,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de s'immiscer sans droit ni titre dans les affaires intérieures d'un État ou dans la vie d'autrui.",
     "traduction_anglais": "interference / meddling",
     "traduction_chinois": "干涉 / 干涉内政 (gānshè / gānshè nèizhèng)",
-    "traduction_japonais": "内政干渉 / 介入 (naisei kanshō / kairyū)",
+    "traduction_japonais": "内政干渉 / 介入 (ないせい かんしょう / かいりゅう)",
     "examples": [
       {
         "fr": "Le ministre des Affaires étrangères a fermement dénoncé toute ingérence étrangère dans le processus électoral national.",
@@ -5337,7 +5337,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de proposer, d'entreprendre le premier quelque chose ou faculté d'agir spontanément sans attendre d'ordre.",
     "traduction_anglais": "initiative / enterprise",
     "traduction_chinois": "倡议 / 主动性 (chàngyì / zhǔdòngxìng)",
-    "traduction_japonais": "主導権 / イニシアチブ (shudōken / inishiachibu)",
+    "traduction_japonais": "主導権 / イニシアチブ (しゅどうけん / いにしあちぶ)",
     "examples": [
       {
         "fr": "Cette belle initiative citoyenne a permis de nettoyer bénévolement plus de dix kilomètres de berges fluviales polluées.",
@@ -5411,7 +5411,7 @@ window.vocab_B2_Dataset = [
     "definition": "Introduction de nouveautés, conception d'un produit, d'un procédé ou d'une organisation inédite.",
     "traduction_anglais": "innovation",
     "traduction_chinois": "创新 / 革新 (chuàngxīn / géxīn)",
-    "traduction_japonais": "革新 / イノベーション (kakushin / inobēshon)",
+    "traduction_japonais": "革新 / イノベーション (かくしん / いのべえしょん)",
     "examples": [
       {
         "fr": "L'investissement continu dans la recherche scientifique est le moteur indispensable de l'innovation industrielle et technologique.",
@@ -5485,7 +5485,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui manque d'équilibre, de constance ou de permanence, état sujet à des changements continuels.",
     "traduction_anglais": "instability / volatility",
     "traduction_chinois": "不稳定 / 动荡 (bù wěndìng / dòngdàng)",
-    "traduction_japonais": "不安定 / 不安定性 (fu-antei / fu-anteisei)",
+    "traduction_japonais": "不安定 / 不安定性 (ふ-あんてい / ふ-あんていせい)",
     "examples": [
       {
         "fr": "L'instabilité politique chronique de cette région du monde freine lourdement l'arrivée des investissements directs étrangers.",
@@ -5559,7 +5559,7 @@ window.vocab_B2_Dataset = [
     "definition": "Refus d'admettre les opinions ou croyances différentes des siennes, ou incapacité de l'organisme à supporter une substance.",
     "traduction_anglais": "intolerance",
     "traduction_chinois": "不耐受 / 不包容 (bùnàishòu / bù bāoróng)",
-    "traduction_japonais": "不寛容 / 不耐症 (fukan'yō / futaishō)",
+    "traduction_japonais": "不寛容 / 不耐症 (ふかんよう / ふたいしょう)",
     "examples": [
       {
         "fr": "La lutte contre toutes les formes d'intolérance religieuse et de fanatisme est un impératif républicain absolu.",
@@ -5633,7 +5633,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est fondé en droit, en justice ou reconnu comme juste et conforme à la volonté générale.",
     "traduction_anglais": "legitimacy / validity",
     "traduction_chinois": "合法性 / 正当性 (héfǎxìng / zhèngdàngxìng)",
-    "traduction_japonais": "正当性 / 正統性 (seitōsei / seitōsei)",
+    "traduction_japonais": "正当性 / 正統性 (せいとうせい / せいとうせい)",
     "examples": [
       {
         "fr": "L'élection au suffrage universel direct confère au président de la République une incontestable légitimité démocratique.",
@@ -5707,7 +5707,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faculté de voir, de juger et d'analyser les choses avec une parfaite clarté d'esprit et sans se faire d'illusions.",
     "traduction_anglais": "lucidity / clear-sightedness",
     "traduction_chinois": "清醒 / 明察 (qīngxǐng / míngchá)",
-    "traduction_japonais": "明晰さ / 洞察力 (meisekisa / dōsatsuryoku)",
+    "traduction_japonais": "明晰さ / 洞察力 (めいせきさ / どうさつりょく)",
     "examples": [
       {
         "fr": "Le vieux stratège a analysé la situation géopolitique complexe avec une lucidité remarquable et un sang-froid exemplaire.",
@@ -5781,7 +5781,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de reléguer un individu ou un groupe à l'écart de la société, en le privant d'intégration économique et culturelle.",
     "traduction_anglais": "marginalization / exclusion",
     "traduction_chinois": "边缘化 / 排斥 (biānyuánhuà / páichì)",
-    "traduction_japonais": "周縁化 / 社会的排除 (shūenhka / shakai-teki haijo)",
+    "traduction_japonais": "周縁化 / 社会的排除 (しゅうえんhか / しゃかい-てき はいじょ)",
     "examples": [
       {
         "fr": "Le chômage de très longue durée entraîne inévitablement un processus douloureux de marginalisation sociale et de perte d'estime de soi.",
@@ -5855,7 +5855,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de diffuser massivement un fait, une personne ou une cause par l'intermédiaire des médias d'information.",
     "traduction_anglais": "media coverage / media exposure",
     "traduction_chinois": "媒体宣传 / 媒体报道 (méitǐ xuānchuán / méitǐ bàodào)",
-    "traduction_japonais": "メディア報道 / メディア露出 (media hōdō / media roshutsu)",
+    "traduction_japonais": "メディア報道 / メディア露出 (めぢあ ほうどう / めぢあ ろしゅつ)",
     "examples": [
       {
         "fr": "La médiatisation intense de cette affaire judiciaire hors norme a suscité des débats passionnés dans l'ensemble de l'opinion publique.",
@@ -5929,7 +5929,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action et engagement actif, dévoué et souvent bénévole au sein d'un parti politique, d'un syndicat ou d'une association.",
     "traduction_anglais": "activism / campaigning",
     "traduction_chinois": "行动主义 / 积极参与 (xíngdòng zhǔyì / jījí cānyù)",
-    "traduction_japonais": "活動主義 / 運動の実践 (katsudō shugi / undō no jissen)",
+    "traduction_japonais": "活動主義 / 運動の実践 (かつどう しゅぎ / うんどう の じっせん)",
     "examples": [
       {
         "fr": "Son militantisme écologique passionné l'a poussé à participer activement à des actions pacifiques de désobéissance civile.",
@@ -6003,7 +6003,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faculté de se déplacer aisément dans l'espace, ou capacité de changer de métier, de statut social ou de lieu de vie.",
     "traduction_anglais": "mobility",
     "traduction_chinois": "流动性 / 移动性 (liúdòngxìng / yídòngxìng)",
-    "traduction_japonais": "流動性 / モビリティ (ryūdōsei / mobiriti)",
+    "traduction_japonais": "流動性 / モビリティ (りゅうどうせい / もびりち)",
     "examples": [
       {
         "fr": "Le développement des transports en commun propres est la clé de voûte de la politique de mobilité durable de la métropole.",
@@ -6077,7 +6077,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action d'adapter quelque chose aux besoins, aux techniques ou aux goûts de l'époque moderne.",
     "traduction_anglais": "modernization",
     "traduction_chinois": "现代化 / 更新改造 (xiàndàihuà / gēngxīn gǎizào)",
-    "traduction_japonais": "近代化 / 現代化 (kindaika / gendaika)",
+    "traduction_japonais": "近代化 / 現代化 (きんだいか / げんだいか)",
     "examples": [
       {
         "fr": "Le plan national de modernisation des infrastructures hospitalières a permis de rénover intégralement les blocs opératoires et les services d'urgence.",
@@ -6151,7 +6151,7 @@ window.vocab_B2_Dataset = [
     "definition": "Processus d'intensification des échanges économiques, culturels et technologiques à l'échelle planétaire.",
     "traduction_anglais": "globalization",
     "traduction_chinois": "全球化 (quánqiúhuà)",
-    "traduction_japonais": "グローバル化 / グローバリゼーション (gurōbaru-ka / gurōbarizēshon)",
+    "traduction_japonais": "グローバル化 / グローバリゼーション (ぐろうばる-か / ぐろうばりぜえしょん)",
     "examples": [
       {
         "fr": "La mondialisation des échanges commerciaux a favorisé une baisse sensible des prix de nombreux biens de consommation courante.",
@@ -6225,7 +6225,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des discussions et échanges menés entre plusieurs parties pour parvenir à un accord ou résoudre un différend.",
     "traduction_anglais": "negotiation / bargaining",
     "traduction_chinois": "谈判 / 协商 (tánpàn / xiéshāng)",
-    "traduction_japonais": "交渉 / 協議 (kōshō / kyōgi)",
+    "traduction_japonais": "交渉 / 協議 (こうしょう / きょうぎ)",
     "examples": [
       {
         "fr": "Les séances de négociation entre les syndicats et le patronat se sont prolongées tard dans la nuit pour éviter la grève générale.",
@@ -6299,7 +6299,7 @@ window.vocab_B2_Dataset = [
     "definition": "État ou attitude d'une personne ou d'une nation qui s'abstient de prendre parti dans un conflit ou un débat.",
     "traduction_anglais": "neutrality / impartiality",
     "traduction_chinois": "中立 / 中立性 (zhōnglì / zhōnglìxìng)",
-    "traduction_japonais": "中立 / 中立性 (chūritsu / chūritsusei)",
+    "traduction_japonais": "中立 / 中立性 (ちゅうりつ / ちゅうりつせい)",
     "examples": [
       {
         "fr": "La Suisse a érigé la neutralité perpétuelle en principe fondamental de sa politique étrangère depuis plusieurs siècles.",
@@ -6373,7 +6373,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait d'être largement et publiquement connu, réputation flatteuse ou renommée établie.",
     "traduction_anglais": "fame / renown",
     "traduction_chinois": "知名度 / 声誉 (zhīmíngdù / shēngyù)",
-    "traduction_japonais": "知名度 / 名声 (chimeido / meisei)",
+    "traduction_japonais": "知名度 / 名声 (ちめいど / めいせい)",
     "examples": [
       {
         "fr": "Cet écrivain talentueux a acquis une immense notoriété internationale dès la publication de son premier roman historique.",
@@ -6447,7 +6447,7 @@ window.vocab_B2_Dataset = [
     "definition": "Degré subtil, différence délicate de sens, de couleur, de son ou d'opinion.",
     "traduction_anglais": "nuance / shade of meaning",
     "traduction_chinois": "细微差别 / 润色 (xìwēi chābié / rùnsè)",
-    "traduction_japonais": "ニュアンス / 微妙な差異 (nyuansu / bimyō na sai)",
+    "traduction_japonais": "ニュアンス / 微妙な差異 (にゅあんす / びみょう な さい)",
     "examples": [
       {
         "fr": "L'apprentissage de la langue française au niveau supérieur exige de savoir saisir toutes les subtiles nuances de sens entre des synonymes proches.",
@@ -6521,7 +6521,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de devenir périmé, déprécié ou inadapté aux nouveaux besoins en raison du progrès technique.",
     "traduction_anglais": "obsolescence",
     "traduction_chinois": "过时 / 淘汰 (guòshí / táotài)",
-    "traduction_japonais": "陳腐化 / 時代遅れ化 (chinpuka / jidaiokure-ka)",
+    "traduction_japonais": "陳腐化 / 時代遅れ化 (ちんぷか / じだいおくれ-か)",
     "examples": [
       {
         "fr": "La loi punit sévèrement la pratique commerciale déloyale de l'obsolescence programmée visant à réduire délibérément la durée de vie des appareils électroniques.",
@@ -6595,7 +6595,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui ne laisse pas passer la lumière, ou manque total de transparence et de clarté dans la gestion d'une affaire.",
     "traduction_anglais": "opacity / lack of transparency",
     "traduction_chinois": "不透明 / 隐秘 (bù tòumíng / yǐnmì)",
-    "traduction_japonais": "不透明性 / 不透明さ (futōmeisei / futōmeisa)",
+    "traduction_japonais": "不透明性 / 不透明さ (ふとうめいせい / ふとうめいさ)",
     "examples": [
       {
         "fr": "Les associations de lutte contre la corruption dénoncent l'opacité totale des transactions financières réalisées dans certains paradis fiscaux extraterritoriaux.",
@@ -6669,7 +6669,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action d'obtenir le meilleur rendement, la plus grande efficacité ou le résultat le plus favorable possible à partir de ressources données.",
     "traduction_anglais": "optimization",
     "traduction_chinois": "优化 / 最佳化 (yōuhuà / zuìjiāhuà)",
-    "traduction_japonais": "最適化 / オプティマイゼーション (saitekika / oputimaizēshon)",
+    "traduction_japonais": "最適化 / オプティマイゼーション (さいてきか / おぷちまいぜえしょん)",
     "examples": [
       {
         "fr": "L'optimisation des flux logistiques a permis à cette grande entreprise de réduire de vingt pour cent ses coûts de transport de marchandises.",
@@ -6743,7 +6743,7 @@ window.vocab_B2_Dataset = [
     "definition": "Proposition, fait ou situation qui heurte le bon sens ou les opinions communes en présentant une apparente contradiction.",
     "traduction_anglais": "paradox",
     "traduction_chinois": "悖论 / 矛盾 (bèilùn / máodùn)",
-    "traduction_japonais": "逆説 / パラドックス (gyakusetsu / paradokkusu)",
+    "traduction_japonais": "逆説 / パラドックス (ぎゃくせつ / ぱらどっくす)",
     "examples": [
       {
         "fr": "Le paradoxe de notre société hyperconnectée réside dans le fait que les individus se sentent souvent plus isolés et seuls que jamais.",
@@ -6817,7 +6817,7 @@ window.vocab_B2_Dataset = [
     "definition": "Association contractuelle ou stratégique établie entre plusieurs personnes, entreprises ou institutions pour mener une action conjointe.",
     "traduction_anglais": "partnership",
     "traduction_chinois": "伙伴关系 / 合作关系 (huǒbàn guānxì / hézuò guānxì)",
-    "traduction_japonais": "提携 / パートナーシップ (teikei / pātonāshippu)",
+    "traduction_japonais": "提携 / パートナーシップ (ていけい / ぱあとなあしっぷ)",
     "examples": [
       {
         "fr": "La signature de ce partenariat stratégique global entre les deux géants de l'automobile va accélérer la production en série de batteries solides.",
@@ -6891,7 +6891,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est dur, physiquement éprouvant ou dangereux dans l'exercice d'une activité professionnelle.",
     "traduction_anglais": "arduousness / hardship",
     "traduction_chinois": "艰苦性 / 繁重度 (jiānkǔxìng / fánzhòngdù)",
-    "traduction_japonais": "過酷さ / 重労働性 (kakokusa / jūrōdōsei)",
+    "traduction_japonais": "過酷さ / 重労働性 (かこくさ / じゅうろうどうせい)",
     "examples": [
       {
         "fr": "La prise en compte de la pénibilité physique des métiers du bâtiment est au cœur des revendications syndicales lors des débats sur la retraite.",
@@ -6965,7 +6965,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui dure toujours, se perpétue dans le temps ou présente une stabilité à très long terme.",
     "traduction_anglais": "durability / perpetuity",
     "traduction_chinois": "长久性 / 永续性 (chángjiǔxìng / yǒngxùxìng)",
-    "traduction_japonais": "永続性 / 存続 (eizokusei / sonzoku)",
+    "traduction_japonais": "永続性 / 存続 (えいぞくせい / そんぞく)",
     "examples": [
       {
         "fr": "Cette réforme structurelle majeure vise à garantir la pérennité financière à très long terme du système de retraite par répartition.",
@@ -7039,7 +7039,7 @@ window.vocab_B2_Dataset = [
     "definition": "Discours ou écrit passionné et argumenté prononcé en faveur de quelqu'un, d'une idée ou d'une cause à défendre.",
     "traduction_anglais": "plea / advocacy",
     "traduction_chinois": "辩护 / 倡导书 (biànhù / chàngdǎoshū)",
-    "traduction_japonais": "弁論 / 擁護の訴え (benron / yōgo no uttae)",
+    "traduction_japonais": "弁論 / 擁護の訴え (べんろん / ようご の うったえ)",
     "examples": [
       {
         "fr": "L'avocat de la défense a prononcé un plaidoyer vibrant et bouleversant qui a ému aux larmes l'ensemble des membres du jury d'assises.",
@@ -7113,7 +7113,7 @@ window.vocab_B2_Dataset = [
     "definition": "Système ou état d'une société qui admet, respecte et garantit la diversité des opinions, des croyances et des partis politiques.",
     "traduction_anglais": "pluralism / diversity",
     "traduction_chinois": "多元化 / 多元主义 (duōyuánhuà / duōyuán zhǔyì)",
-    "traduction_japonais": "多元主義 / 多元性 (tagen shugi / tagensei)",
+    "traduction_japonais": "多元主義 / 多元性 (たげん しゅぎ / たげんせい)",
     "examples": [
       {
         "fr": "Le pluralisme des opinions politiques au sein des assemblées parlementaires constitue le garant le plus solide de la démocratie républicaine.",
@@ -7187,7 +7187,7 @@ window.vocab_B2_Dataset = [
     "definition": "Division ou concentration des opinions, des forces ou des groupes autour de deux positions extrêmes et opposées.",
     "traduction_anglais": "polarization",
     "traduction_chinois": "极化 / 两极分化 (jíhuà / liǎngjí fēnhuà)",
-    "traduction_japonais": "二極化 / 分極化 (nikyokuka / bunkyokuka)",
+    "traduction_japonais": "二極化 / 分極化 (にきょくか / ぶんきょくか)",
     "examples": [
       {
         "fr": "Les algorithmes des réseaux sociaux accentuent la polarisation extrême du débat politique en enfermant les usagers dans des bulles idéologiques étanches.",
@@ -7261,7 +7261,7 @@ window.vocab_B2_Dataset = [
     "definition": "Discussion ou débat agressif, vif et passionné mené publiquement par voie de presse ou de discours.",
     "traduction_anglais": "controversy / polemic",
     "traduction_chinois": "争论 / 论战 (zhēnglùn / lùnzhàn)",
-    "traduction_japonais": "論争 / 物議 (ronsō / butsugi)",
+    "traduction_japonais": "論争 / 物議 (ろんそう / ぶつぎ)",
     "examples": [
       {
         "fr": "Les propos controversés tenus par ce ministre lors d'une interview matinale ont déclenché une vive polémique nationale.",
@@ -7335,7 +7335,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère d'une personne ou d'un outil capable d'exercer plusieurs fonctions ou de s'adapter à des tâches variées.",
     "traduction_anglais": "versatility / multitasking ability",
     "traduction_chinois": "全能性 / 多功能性 (quánnéngxìng / duō gōngnéngxìng)",
-    "traduction_japonais": "多才さ / 多用途性 (tasaisa / tayōtosei)",
+    "traduction_japonais": "多才さ / 多用途性 (たさいさ / たようとせい)",
     "examples": [
       {
         "fr": "La polyvalence professionnelle des jeunes recrues est un atout très recherché par les entreprises modernes pour faire face aux imprévus.",
@@ -7409,7 +7409,7 @@ window.vocab_B2_Dataset = [
     "definition": "État d'instabilité, d'insécurité sociale et économique qui fragilise durablement les conditions d'existence d'une personne.",
     "traduction_anglais": "precariousness / insecurity",
     "traduction_chinois": "不稳定状态 / 贫困脆弱 (bù wěndìng zhuàngtài / pínkùn cuìruò)",
-    "traduction_japonais": "不安定さ / プレカリティ (fu-anteisa / purekariti)",
+    "traduction_japonais": "不安定さ / プレカリティ (ふ-あんていさ / ぷれかりち)",
     "examples": [
       {
         "fr": "La multiplication des contrats de travail à durée très courte plonge des millions de jeunes diplômés dans une angoissante précarité financière.",
@@ -7483,7 +7483,7 @@ window.vocab_B2_Dataset = [
     "definition": "Disposition de l'esprit qui pousse à anticiper les événements futurs, à épargner et à s'assurer contre les risques de la vie.",
     "traduction_anglais": "foresight / forward planning",
     "traduction_chinois": "预见性 / 保险保障 (yùjiànxìng / bǎoxiǎn bǎozhàng)",
-    "traduction_japonais": "先見の明 / 備え (senken no mei / sonae)",
+    "traduction_japonais": "先見の明 / 備え (せんけん の めい / そなえ)",
     "examples": [
       {
         "fr": "Ce chef d'entreprise a fait preuve d'une admirable prévoyance en constituant des réserves de trésorerie importantes avant la crise économique.",
@@ -7557,7 +7557,7 @@ window.vocab_B2_Dataset = [
     "definition": "Multiplication rapide, abondante et souvent incontrôlée de cellules vivantes, d'espèces végétales ou d'armes destructrices.",
     "traduction_anglais": "proliferation / rapid spread",
     "traduction_chinois": "扩散 / 激增 (kuòsàn / jīzēng)",
-    "traduction_japonais": "拡散 / 増殖 (kakusan / zōshoku)",
+    "traduction_japonais": "拡散 / 増殖 (かくさん / ぞうしょく)",
     "examples": [
       {
         "fr": "Le traité international sur la non-prolifération des armes nucléaires a pour objectif de prévenir l'extension de l'arsenal atomique dans le monde.",
@@ -7631,7 +7631,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action d'explorer méthodiquement une région pour y rechercher des gisements, ou démarche commerciale visant à trouver de nouveaux clients.",
     "traduction_anglais": "prospecting / exploration",
     "traduction_chinois": "勘探 / 市场开拓 (kāntàn / shìchǎng kāituò)",
-    "traduction_japonais": "探査 / 顧客開拓 (tansa / kokyaku kaitaku)",
+    "traduction_japonais": "探査 / 顧客開拓 (たんさ / こきゃく かいたく)",
     "examples": [
       {
         "fr": "L'équipe de géologues a mené une vaste campagne de prospection minière dans le grand nord canadien pour identifier de nouveaux gisements de lithium.",
@@ -7705,7 +7705,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des règles cérémonielles du savoir-vivre diplomatique, ou document établissant les étapes rigoureuses d'une expérience médicale ou d'un accord.",
     "traduction_anglais": "protocol / procedure",
     "traduction_chinois": "协议 / 礼宾规程 (xiéyì / lǐbīn guīchéng)",
-    "traduction_japonais": "儀典 / プロトコル (giten / purotokoru)",
+    "traduction_japonais": "儀典 / プロトコル (ぎてん / ぷろとこる)",
     "examples": [
       {
         "fr": "Le service du protocole de l'Élysée a minutieusement réglé chaque détail du dîner d'État offert en l'honneur du souverain étranger.",
@@ -7779,7 +7779,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de rechercher assidûment quelque chose de précieux, de spirituel ou d'idéal, poursuite passionnée d'un but noble.",
     "traduction_anglais": "quest / search",
     "traduction_chinois": "追求 / 探索 (zhuīqiú / tànsuǒ)",
-    "traduction_japonais": "探求 / 探求の旅 (tankyū / tankyū no tabi)",
+    "traduction_japonais": "探求 / 探求の旅 (たんきゅう / たんきゅう の たび)",
     "examples": [
       {
         "fr": "La quête du bonheur et de l'épanouissement personnel constitue l'une des aspirations les plus profondes et universelles de l'être humain.",
@@ -7853,7 +7853,7 @@ window.vocab_B2_Dataset = [
     "definition": "Processus par lequel un individu ou un groupe adopte des opinions politiques, religieuses ou idéologiques extrêmes, menant souvent au rejet de l'ordre démocratique ou à la violence.",
     "traduction_anglais": "radicalization",
     "traduction_chinois": "激进化 / 极端化 (jījìnhuà / jíduānhuà)",
-    "traduction_japonais": "過激化 / 急進化 (kagekika / kyūshinka)",
+    "traduction_japonais": "過激化 / 急進化 (かげきか / きゅうしんか)",
     "examples": [
       {
         "fr": "Les services de sécurité intérieure ont mis en place une cellule spécialisée pour détecter et prévenir la radicalisation violente chez les jeunes internautes.",
@@ -7927,7 +7927,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère d'une relation, d'un accord ou d'un sentiment qui implique un échange mutuel et équivalent entre deux parties.",
     "traduction_anglais": "reciprocity / mutual exchange",
     "traduction_chinois": "对等 / 互惠 (duìděng / hùhuì)",
-    "traduction_japonais": "相互性 / 互恵性 (sōgosei / gokeisei)",
+    "traduction_japonais": "相互性 / 互恵性 (そうごせい / ごけいせい)",
     "examples": [
       {
         "fr": "Le principe fondamental de réciprocité en droit international diplomatique exige que les privilèges et immunités accordés aux ambassadeurs soient strictement équivalents dans les deux capitales.",
@@ -8001,7 +8001,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de rétablir des relations amicales et pacifiques entre des personnes, des groupes ou des peuples après un conflit violent ou une rupture douloureuse.",
     "traduction_anglais": "reconciliation",
     "traduction_chinois": "和解 / 调解 (héjiě / tiáojiě)",
-    "traduction_japonais": "和解 / 和協 (wakai / wakyō)",
+    "traduction_japonais": "和解 / 和協 (わかい / わきょう)",
     "examples": [
       {
         "fr": "La réconciliation historique franco-allemande scellée par le traité de l'Élysée en 1963 a constitué le socle fondateur et le moteur de la construction européenne.",
@@ -8075,7 +8075,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de régler, d'ajuster ou de maintenir en équilibre le fonctionnement d'un système biologique, technique, économique ou financier.",
     "traduction_anglais": "regulation / control",
     "traduction_chinois": "调节 / 调控 / 监管 (tiáojié / tiáokòng / jiānguǎn)",
-    "traduction_japonais": "調整 / 規制 / 調節 (chōsei / kisei / chōsetsu)",
+    "traduction_japonais": "調整 / 規制 / 調節 (ちょうせい / きせい / ちょうせつ)",
     "examples": [
       {
         "fr": "L'autorité des marchés financiers assure une régulation stricte des transactions boursières pour prévenir les délits d'initiés et les manipulations de cours.",
@@ -8149,7 +8149,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de rétablir une personne condamnée dans ses droits ou dans l'estime publique, ou action de restaurer entièrement un bâtiment ancien ou un site dégradé.",
     "traduction_anglais": "rehabilitation / restoration",
     "traduction_chinois": "平反 / 修复改造 / 康复 (píngfǎn / xiūfù gǎizào / kāngfù)",
-    "traduction_japonais": "名誉回復 / 改修 / 社会復帰 (meiyo kaifuku / kaishū / shakai fukki)",
+    "traduction_japonais": "名誉回復 / 改修 / 社会復帰 (めいよ かいふく / かいしゅう / しゃかい ふっき)",
     "examples": [
       {
         "fr": "Après la découverte de nouvelles preuves ADN irréfutables, la Cour de révision a prononcé la réhabilitation solennelle de cet homme injustement condamné.",
@@ -8223,7 +8223,7 @@ window.vocab_B2_Dataset = [
     "definition": "Somme d'argent ou avantage matériel accordé à une personne en contrepartie d'un travail, d'une prestation de service ou d'une fonction.",
     "traduction_anglais": "remuneration / pay / salary",
     "traduction_chinois": "薪酬 / 报酬 (xīnchóu / bàochóu)",
-    "traduction_japonais": "報酬 / 給与 (hōshū / kyūyo)",
+    "traduction_japonais": "報酬 / 給与 (ほうしゅう / きゅうよ)",
     "examples": [
       {
         "fr": "Les syndicats réclament l'ouverture immédiate de négociations annuelles obligatoires pour une revalorisation générale de la rémunération des ouvriers face à l'inflation galopante.",
@@ -8297,7 +8297,7 @@ window.vocab_B2_Dataset = [
     "definition": "Acte volontaire par lequel on abandonne un droit, une prétention, un bien matériel ou un pouvoir.",
     "traduction_anglais": "renunciation / waiver",
     "traduction_chinois": "放弃 / 放弃权利 (fàngqì / fàngqì quánlì)",
-    "traduction_japonais": "放棄 / 断念 (hōki / dannen)",
+    "traduction_japonais": "放棄 / 断念 (ほうき / だんねん)",
     "examples": [
       {
         "fr": "La renonciation expresse de cet héritier à sa part successorale a été formellement enregistrée au greffe du tribunal judiciaire.",
@@ -8371,7 +8371,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de punir sévèrement des infractions par la force publique et la loi, ou action d'étouffer par la violence des révoltes, des oppositions politiques.",
     "traduction_anglais": "repression / crack-down",
     "traduction_chinois": "打击 / 镇压 (dǎjī / zhènyā)",
-    "traduction_japonais": "弾圧 / 取締り (dan'atsu / torishimari)",
+    "traduction_japonais": "弾圧 / 取締り (だんあつ / とりしまり)",
     "examples": [
       {
         "fr": "La police judiciaire et les services douaniers mènent une répression impitoyable contre les réseaux internationaux de trafic de stupéfiants.",
@@ -8445,7 +8445,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de remettre en bon état un monument, une œuvre d'art, de rétablir un régime politique déchu, ou secteur économique des repas servis au public.",
     "traduction_anglais": "restoration / catering",
     "traduction_chinois": "修复 / 复辟 / 餐饮业 (xiūfù / fùbì / cānyǐnyè)",
-    "traduction_japonais": "修復 / 王政復古 / 飲食業 (shūfuku / ōsei fukko / inshokugyō)",
+    "traduction_japonais": "修復 / 王政復古 / 飲食業 (しゅうふく / おうせい ふっこ / いんしょくぎょう)",
     "examples": [
       {
         "fr": "Le chantier monumental de restauration de la cathédrale Notre-Dame de Paris après le terrible incendie a mobilisé les meilleurs compagnons artisans d'art du pays.",
@@ -8519,7 +8519,7 @@ window.vocab_B2_Dataset = [
     "definition": "Attitude d'une personne qui hésite à agir ou à parler, réserve, méfiance ou omission volontaire de ce qu'on devrait dire.",
     "traduction_anglais": "reluctance / hesitation",
     "traduction_chinois": "保留 / 犹豫 / 隐瞒 (bǎoliú / yóuyù / yǐnmán)",
-    "traduction_japonais": "ためらい / 抵抗感 / 口ごもり (tamerai / teikōkan / kuchigomori)",
+    "traduction_japonais": "ためらい / 抵抗感 / 口ごもり (ためらい / ていこうかん / くちごもり)",
     "examples": [
       {
         "fr": "Malgré les explications pédagogiques répétées des scientifiques, une partie de la population manifeste encore une vive réticence à la vaccination.",
@@ -8593,7 +8593,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de désavouer, de retirer officiellement ce qu'on a dit, écrit ou promis, ou exercice du droit légal d'annuler un engagement.",
     "traduction_anglais": "retraction / withdrawal",
     "traduction_chinois": "撤回 / 撤回声明 (chèhuí / chèhuí shēngmíng)",
-    "traduction_japonais": "撤回 / 取り消し (tekkai / torikeshi)",
+    "traduction_japonais": "撤回 / 取り消し (てっかい / とりけし)",
     "examples": [
       {
         "fr": "Le code de la consommation accorde à chaque acheteur en ligne un droit de rétractation de quatorze jours sans avoir à justifier de motif.",
@@ -8667,7 +8667,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ce qui est accordé à quelqu'un en échange d'un travail ou en récompense ou punition de ses actes moraux.",
     "traduction_anglais": "retribution / compensation / reward",
     "traduction_chinois": "报酬 / 报偿 / 惩处 (bàochóu / bàocháng / chéngchǔ)",
-    "traduction_japonais": "報い / 報酬 / 応報 (mukui / hōshū / ōhō)",
+    "traduction_japonais": "報い / 報酬 / 応報 (むくい / ほうしゅう / おうほう)",
     "examples": [
       {
         "fr": "Les philosophes moralistes de l'Antiquité ont abondamment théorisé la justice rétributive selon laquelle chaque acte humain doit trouver sa juste rétribution dans l'ordre du monde.",
@@ -8741,7 +8741,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de faire connaître un fait secret, une vérité cachée, une inspiration spirituelle soudaine, ou apparition éclatante d'un grand talent nouveau.",
     "traduction_anglais": "revelation / disclosure",
     "traduction_chinois": "揭露 / 启示 / 新秀 (jiēlù / qǐshì / xīnxiù)",
-    "traduction_japonais": "暴露 / 啓示 / 新星 (bākuro / keiji / shinsei)",
+    "traduction_japonais": "暴露 / 啓示 / 新星 (ばあくろ / けいじ / しんせい)",
     "examples": [
       {
         "fr": "Les révélations explosives publiées par ce consortium international de journalistes d'investigation ont mis au jour un vaste système de fraude fiscale offshore.",
@@ -8815,7 +8815,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de réclamer avec insistance ce que l'on considère comme son droit légitime, ou déclaration par laquelle un groupe assume un acte commis.",
     "traduction_anglais": "claim / demand",
     "traduction_chinois": "诉求 / 主张 / 认领 (sùqiú / zhǔzhāng / rènlǐng)",
-    "traduction_japonais": "要求 / 主張 / 犯行声明 (yōkyū / shuchō / hankō seimei)",
+    "traduction_japonais": "要求 / 主張 / 犯行声明 (ようきゅう / しゅちょう / はんこう せいめい)",
     "examples": [
       {
         "fr": "Les syndicats ont présenté une plateforme commune de revendications salariales portant sur une augmentation générale de cinq pour cent pour tous les employés.",
@@ -8889,7 +8889,7 @@ window.vocab_B2_Dataset = [
     "definition": "Propriété d'un matériau qui résiste à la déformation sous l'effet d'une force, ou trait de caractère d'une personne inflexible, sévère et opposée à tout compromis.",
     "traduction_anglais": "rigidity / stiffness / inflexibility",
     "traduction_chinois": "刚度 / 僵化 / 刻板 (gāngdù / jiānghuà / kèbǎn)",
-    "traduction_japonais": "剛性 / 柔軟性の欠如 / 頑固さ (gōsei / jūnansei no ketsujo / gankosa)",
+    "traduction_japonais": "剛性 / 柔軟性の欠如 / 頑固さ (ごうせい / じゅうなんせい の けつじょ / がんこさ)",
     "examples": [
       {
         "fr": "Les ingénieurs en aéronautique ont renforcé la rigidité structurelle des ailes en fibre de carbone pour résister aux turbulences extrêmes en haute altitude.",
@@ -8963,7 +8963,7 @@ window.vocab_B2_Dataset = [
     "definition": "État d'un corps, d'un espace, d'un marché ou d'un esprit qui ne peut plus rien absorber, contenir ou supporter en plus.",
     "traduction_anglais": "saturation / overload",
     "traduction_chinois": "饱和 / 饱和状态 (bǎohé / bǎohé zhuàngtài)",
-    "traduction_japonais": "飽和 / 飽和状態 (hōwa / hōwa jōtai)",
+    "traduction_japonais": "飽和 / 飽和状態 (ほうわ / ほうわ じょうたい)",
     "examples": [
       {
         "fr": "Le réseau des transports en commun de la métropole frôle la saturation complète aux heures de pointe du matin et du soir.",
@@ -9037,7 +9037,7 @@ window.vocab_B2_Dataset = [
     "definition": "Division ou séparation d'un corps constitué, d'un parti politique, d'un syndicat ou d'une communauté religieuse en factions rivales.",
     "traduction_anglais": "split / division / schism",
     "traduction_chinois": "分裂 / 分立 (fēnliè / fēnlì)",
-    "traduction_japonais": "分裂 / 分派 (bunretsu / bumpa)",
+    "traduction_japonais": "分裂 / 分派 (ぶんれつ / ぶmぱ)",
     "examples": [
       {
         "fr": "Le congrès national extraordinaire du parti a débouché sur une scission fracassante entre l'aile réformatrice modérée et les partisans de la ligne révolutionnaire dure.",
@@ -9111,7 +9111,7 @@ window.vocab_B2_Dataset = [
     "definition": "Pouvoir suprême et indépendant d'un État ou d'un peuple de décider librement de son destin sans ingérence extérieure.",
     "traduction_anglais": "sovereignty / supreme power",
     "traduction_chinois": "主权 / 最高权力 (zhǔquán / zuìgāo quánlì)",
-    "traduction_japonais": "主権 / 最高権力 (shuken / saikō kenryoku)",
+    "traduction_japonais": "主権 / 最高権力 (しゅけん / さいこう けんりょく)",
     "examples": [
       {
         "fr": "La Constitution républicaine proclame solennellement que la souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum.",
@@ -9185,7 +9185,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de concentrer ses études, ses activités ou la production d'une entreprise sur un domaine technique précis et approfondi.",
     "traduction_anglais": "specialization",
     "traduction_chinois": "专业化 / 专门研究 (zhuānyèhuà / zhuānmén yánjiū)",
-    "traduction_japonais": "専門化 / 専門分野の特化 (senmonka / senmon bun'ya no tokka)",
+    "traduction_japonais": "専門化 / 専門分野の特化 (せんもんか / せんもん ぶんや の とっか)",
     "examples": [
       {
         "fr": "Après ses six années d'études médicales générales, ce jeune interne a choisi une spécialisation pointue en chirurgie cardiaque pédiatrique.",
@@ -9259,7 +9259,7 @@ window.vocab_B2_Dataset = [
     "definition": "Description détaillée, précise et rigoureuse des caractéristiques techniques exigées pour un produit, un matériau ou un logiciel.",
     "traduction_anglais": "specification / technical requirement",
     "traduction_chinois": "规格说明 / 技术规范 (guīgé shuōmíng / jìshù guīfàn)",
-    "traduction_japonais": "仕様書 / 技術仕様 (shiyōsho / gijutsu shiyō)",
+    "traduction_japonais": "仕様書 / 技術仕様 (しようしょ / ぎじゅつ しよう)",
     "examples": [
       {
         "fr": "Le cahier des charges techniques rédigé par les ingénieurs contient la spécification exacte des tolérances mécaniques autorisées pour chaque pièce du moteur spatial.",
@@ -9333,7 +9333,7 @@ window.vocab_B2_Dataset = [
     "definition": "Opération financière visant à réaliser un profit rapide en pariant sur les fluctuations du marché, ou réflexion intellectuelle abstraite et théorique.",
     "traduction_anglais": "speculation / gambling / theoretical reflection",
     "traduction_chinois": "投机 / 炒作 / 推测思辨 (tóujī / chǎozuò / tuīcè sībiàn)",
-    "traduction_japonais": "投機 / スペキュレーション / 思索 (tōki / supekyurēshon / shisaku)",
+    "traduction_japonais": "投機 / スペキュレーション / 思索 (とうき / すぺきゅれえしょん / しさく)",
     "examples": [
       {
         "fr": "La spéculation immobilière effrénée dans le centre historique de la métropole a provoqué une flambée des loyers chassant les classes populaires vers les lointaines banlieues.",
@@ -9407,7 +9407,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère d'une action, d'une parole ou d'un sentiment qui jaillit naturellement et sincèrement sans réflexion calculée ni contrainte.",
     "traduction_anglais": "spontaneity / naturalness",
     "traduction_chinois": "自发性 / 率真 / 自然 (zìfāxìng / shuàizhēn / zìrán)",
-    "traduction_japonais": "自発性 / 自然さ / 自発的行動 (jihatsusei / shizensa / jihatsuteki kōdō)",
+    "traduction_japonais": "自発性 / 自然さ / 自発的行動 (じはつせい / しぜんさ / じはつてき こうどう)",
     "examples": [
       {
         "fr": "La spontanéité rafraîchissante et le rire communicatif de cet enfant ont immédiatement conquis le cœur de toute l'assemblée réunie dans le grand salon.",
@@ -9481,7 +9481,7 @@ window.vocab_B2_Dataset = [
     "definition": "Dispositif mécanique, chimique ou électronique destiné à maintenir l'équilibre ou la fixité d'un appareil, ou mécanisme économique régulateur.",
     "traduction_anglais": "stabilizer",
     "traduction_chinois": "稳定器 / 稳定剂 / 稳定机制 (wěndìngqì / wěndìngjì / wěndìng jīzhì)",
-    "traduction_japonais": "安定装置 / スタビライザー / 安定化メカニズム (antei sōchi / sutabiraizā / anteika mekanizumu)",
+    "traduction_japonais": "安定装置 / スタビライザー / 安定化メカニズム (あんてい そうち / すたびらいざあ / あんていか めかにずむ)",
     "examples": [
       {
         "fr": "Les amortisseurs sociaux et les allocations chômage jouent le rôle capital de stabilisateur automatique en amortissant le choc économique lors des crises.",
@@ -9555,7 +9555,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de rendre stable, durable, fixe ou de maintenir en équilibre une situation politique, un prix, un sol ou l'état de santé d'un malade.",
     "traduction_anglais": "stabilization",
     "traduction_chinois": "稳定 / 企稳 / 稳固 (wěndìng / qǐwěn / wěngù)",
-    "traduction_japonais": "安定化 / 安定 (anteika / antei)",
+    "traduction_japonais": "安定化 / 安定 (あんていか / あんてい)",
     "examples": [
       {
         "fr": "La politique monétaire restrictive menée par la banque centrale a permis une stabilisation progressive et durable des prix à la consommation.",
@@ -9629,7 +9629,7 @@ window.vocab_B2_Dataset = [
     "definition": "Personne qui effectue une période temporaire de formation pratique ou d'immersion professionnelle au sein d'une entreprise ou d'une administration.",
     "traduction_anglais": "intern / trainee",
     "traduction_chinois": "实习生 / 见习生 (shíxíshēng / jiànxíshēng)",
-    "traduction_japonais": "インターン / 実習生 (intān / jisshūsei)",
+    "traduction_japonais": "インターン / 実習生 (いんたあん / じっしゅうせい)",
     "examples": [
       {
         "fr": "Cette brillante étudiante en master de droit a été recrutée comme stagiaire au sein du prestigieux cabinet d'avocats international.",
@@ -9703,7 +9703,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui ne coule pas, qui demeure immobile et souvent corrompu en parlant d'un liquide, ou qui n'évolue pas, qui reste inactif en parlant d'une économie.",
     "traduction_anglais": "stagnant / still / inactive",
     "traduction_chinois": "停滞的 / 静止的 / 死水的 (tíngzhì de / jìngzhǐ de / sǐshuǐ de)",
-    "traduction_japonais": "停滞している / 淀んだ / よどみのある (teitai shite iru / yodonda / yodomi no aru)",
+    "traduction_japonais": "停滞している / 淀んだ / よどみのある (ていたい して いる / よどんだ / よどみ の ある)",
     "examples": [
       {
         "fr": "Les eaux stagnantes et tièdes de ce marécage constituent un milieu idéal pour la prolifération des moustiques vecteurs du paludisme.",
@@ -9777,7 +9777,7 @@ window.vocab_B2_Dataset = [
     "definition": "Avoir cessé de couler ou d'évoluer, être resté dans un état d'immobilité complète ou d'inactivité prolongée.",
     "traduction_anglais": "stagnated / remained motionless",
     "traduction_chinois": "停滞 / 停滞不前 (tíngzhì / tíngzhì bù qián)",
-    "traduction_japonais": "停滞した / 伸び悩んだ (teitai shita / nobinayanda)",
+    "traduction_japonais": "停滞した / 伸び悩んだ (ていたい した / のびなやんだ)",
     "examples": [
       {
         "fr": "Le pouvoir d'achat des classes moyennes a stagné pendant plus de dix ans en raison de la hausse continue du coût du logement.",
@@ -9851,7 +9851,7 @@ window.vocab_B2_Dataset = [
     "definition": "État d'inactivité, d'arrêt du développement économique ou d'immobilité complète d'un fluide ou d'une situation.",
     "traduction_anglais": "stagnation / standstill",
     "traduction_chinois": "停滞 / 萧条 (tíngzhì / xiāotiáo)",
-    "traduction_japonais": "停滞 / 行き詰まり (teitai / ikidzumari)",
+    "traduction_japonais": "停滞 / 行き詰まり (ていたい / いきdずまり)",
     "examples": [
       {
         "fr": "L'économie nationale traverse une longue période de stagnation marquée par une croissance nulle et un chômage persistant.",
@@ -9925,7 +9925,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action d'exciter, d'activer, d'encourager ou d'augmenter l'énergie, l'activité d'un organe, d'une économie ou de l'esprit.",
     "traduction_anglais": "stimulation / boost / incentive",
     "traduction_chinois": "刺激 / 激励 (cìjī / jīlì)",
-    "traduction_japonais": "刺激 / 活性化 (shigeki / kasseika)",
+    "traduction_japonais": "刺激 / 活性化 (しげき / かっせいか)",
     "examples": [
       {
         "fr": "Le gouvernement a dévoilé un vaste plan de relance de cinquante milliards d'euros pour la stimulation de la consommation des ménages et de l'investissement vert.",
@@ -9999,7 +9999,7 @@ window.vocab_B2_Dataset = [
     "definition": "Art de coordonner l'ensemble des forces, des moyens et des actions pour atteindre un objectif global majeur, notamment en matière militaire, politique ou économique.",
     "traduction_anglais": "strategy",
     "traduction_chinois": "战略 / 策略 (zhànlüè / cèlüè)",
-    "traduction_japonais": "戦略 / 策略 (senryaku / sakuryaku)",
+    "traduction_japonais": "戦略 / 策略 (せんりゃく / さくりゃく)",
     "examples": [
       {
         "fr": "Le conseil d'administration a approuvé à l'unanimité la nouvelle stratégie de diversification commerciale vers les énergies renouvelables et l'hydrogène vert.",
@@ -10073,7 +10073,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de donner une structure, une organisation logique, cohérente et hiérarchisée à un ensemble d'éléments ou à un groupe.",
     "traduction_anglais": "structuring / organization",
     "traduction_chinois": "构建 / 组织架构化 (gòujiàn / zǔzhī jiàgòuhuà)",
-    "traduction_japonais": "構造化 / 体系化 (kōzōka / taikeika)",
+    "traduction_japonais": "構造化 / 体系化 (こうぞうか / たいけいか)",
     "examples": [
       {
         "fr": "La structuration claire et logique du plan de la dissertation philosophique est la condition première pour obtenir une excellente note au baccalauréat.",
@@ -10147,7 +10147,7 @@ window.vocab_B2_Dataset = [
     "definition": "Aide financière accordée par l'État, une collectivité publique ou une institution pour soutenir une activité d'intérêt général.",
     "traduction_anglais": "subsidy / grant",
     "traduction_chinois": "财政补贴 / 资助金 (cáizhèng bǔtiē / zīzhùjīn)",
-    "traduction_japonais": "補助金 / 助成金 (hojokin / joseikin)",
+    "traduction_japonais": "補助金 / 助成金 (ほじょきん / じょせいきん)",
     "examples": [
       {
         "fr": "L'État a accordé une subvention exceptionnelle de plusieurs millions d'euros pour financer la rénovation thermique et écologique de cette université publique.",
@@ -10221,7 +10221,7 @@ window.vocab_B2_Dataset = [
     "definition": "Transmission légale des biens, des droits et des dettes d'une personne décédée à ses héritiers, ou suite ininterrompue d'événements, d'actes ou de personnes se remplaçant dans une fonction.",
     "traduction_anglais": "succession / inheritance",
     "traduction_chinois": "继承 / 接替 / 连续 (jìchéng / jiētì / liánxù)",
-    "traduction_japonais": "相続 / 継承 / 連続 (sōzoku / keishō / renzoku)",
+    "traduction_japonais": "相続 / 継承 / 連続 (そうぞく / けいしょう / れんぞく)",
     "examples": [
       {
         "fr": "Le notaire a convoqué l'ensemble des héritiers légaux pour procéder à l'ouverture solennelle du testament et régler la succession immobilière du défunt.",
@@ -10295,7 +10295,7 @@ window.vocab_B2_Dataset = [
     "definition": "Comportement vaniteux et prétentieux d'une personne trop contente d'elle-même, ou état de ce qui suffit pleinement à satisfaire un besoin.",
     "traduction_anglais": "self-satisfaction / conceit / sufficiency",
     "traduction_chinois": "自大 / 自负 / 充足 (zìdà / zìfù / chōngzú)",
-    "traduction_japonais": "傲慢 / うぬぼれ / 充足 (gōman / unubore / jūsoku)",
+    "traduction_japonais": "傲慢 / うぬぼれ / 充足 (ごうまん / うぬぼれ / じゅうそく)",
     "examples": [
       {
         "fr": "Ce jeune cadre arrogant traite ses subordonnés avec une suffisance insupportable qui détruit toute cohésion au sein de l'équipe.",
@@ -10369,7 +10369,7 @@ window.vocab_B2_Dataset = [
     "definition": "Position de supériorité absolue, de domination politique, militaire, économique ou culturelle incontestée sur tous les rivaux.",
     "traduction_anglais": "supremacy / hegemony / dominance",
     "traduction_chinois": "霸权 / 绝对优势 (bàquán / juéduì yōushì)",
-    "traduction_japonais": "覇権 / 優位性 (haken / yūisei)",
+    "traduction_japonais": "覇権 / 優位性 (はけん / ゆういせい)",
     "examples": [
       {
         "fr": "La suprématie militaire et technologique incontestée de cette superpuissance mondiale a façonné les relations internationales pendant toute la seconde moitié du XXe siècle.",
@@ -10443,7 +10443,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de veiller avec attention sur quelqu'un ou quelque chose pour contrôler, protéger ou prévenir un danger.",
     "traduction_anglais": "surveillance / monitoring",
     "traduction_chinois": "监控 / 监视 (jiānkòng / jiānshì)",
-    "traduction_japonais": "監視 / 見守り (kanshi / mimamori)",
+    "traduction_japonais": "監視 / 見守り (かんし / みまもり)",
     "examples": [
       {
         "fr": "Les caméras de vidéosurveillance intelligente déployées dans les gares et les aéroports permettent d'assurer une surveillance continue des flux de voyageurs.",
@@ -10517,7 +10517,7 @@ window.vocab_B2_Dataset = [
     "definition": "Disposition de caractère qui pousse une personne à s'offenser ou à se vexer excessivement pour des riens, ou capacité d'un organisme à contracter une maladie.",
     "traduction_anglais": "touchiness / sensitivity / susceptibility",
     "traduction_chinois": "敏感 / 易怒 / 易感性 (mǐngǎn / yìnù / yìgǎnxìng)",
-    "traduction_japonais": "過敏さ / 怒りっぽさ / 感受性 (kabinsa / ikaripposa / kanjusei)",
+    "traduction_japonais": "過敏さ / 怒りっぽさ / 感受性 (かびんさ / いかりっぽさ / かんじゅせい)",
     "examples": [
       {
         "fr": "Il faut choisir ses mots avec une infinie précaution avec ce collègue dont la susceptibilité maladive transforme la moindre remarque constructive en drame personnel.",
@@ -10591,7 +10591,7 @@ window.vocab_B2_Dataset = [
     "definition": "Opération intellectuelle consistant à rassembler des éléments de connaissance divers en un tout cohérent, ou résumé structuré d'un ensemble de documents.",
     "traduction_anglais": "synthesis / summary",
     "traduction_chinois": "综合 / 综合分析 / 合成 (zōnghé / zōnghé fēnxī / héchéng)",
-    "traduction_japonais": "総合 / 要約 / 合成 (sōgō / yōyaku / gōsei)",
+    "traduction_japonais": "総合 / 要約 / 合成 (そうごう / ようやく / ごうせい)",
     "examples": [
       {
         "fr": "L'épreuve reine de la note de synthèse au concours de la haute fonction publique exige de résumer un dossier de cinquante pages en un document percutant de quatre pages.",
@@ -10665,7 +10665,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de fixer, d'établir ou d'ajuster le barème des prix ou des tarifs applicables à un bien, un service public ou un contrat d'assurance.",
     "traduction_anglais": "pricing / tariff setting",
     "traduction_chinois": "定价 / 资费制定 (dìngjià / zīfèi zhìdìng)",
-    "traduction_japonais": "価格設定 / 料金体系の策定 (kakaku settei / ryōkin taikei no sakutei)",
+    "traduction_japonais": "価格設定 / 料金体系の策定 (かかく せってい / りょうきん たいけい の さくてい)",
     "examples": [
       {
         "fr": "La mairie a voté la mise en place d'une tarification sociale et progressive des cantines scolaires calculée en fonction du quotient familial de chaque foyer.",
@@ -10739,7 +10739,7 @@ window.vocab_B2_Dataset = [
     "definition": "Orientation, inclination générale ou direction prise par l'évolution des mœurs, de la mode, de la météo ou des marchés économiques.",
     "traduction_anglais": "trend / tendency / inclination",
     "traduction_chinois": "趋势 / 倾向 / 潮流 (qūshì / qīngxiàng / cháoliú)",
-    "traduction_japonais": "傾向 / トレンド / 流行 (keikō / torendo / ryūkō)",
+    "traduction_japonais": "傾向 / トレンド / 流行 (けいこう / とれんど / りゅうこう)",
     "examples": [
       {
         "fr": "La consommation croissante de produits alimentaires biologiques et locaux est une tendance de fond durable qui transforme en profondeur les habitudes des ménages.",
@@ -10813,7 +10813,7 @@ window.vocab_B2_Dataset = [
     "definition": "Attitude qui consiste à admettre et respecter chez autrui des manières de penser ou d'agir différentes des siennes.",
     "traduction_anglais": "tolerance / forbearance",
     "traduction_chinois": "宽容 / 包容 (kuānróng / bāoróng)",
-    "traduction_japonais": "寛容 / 許容 (kan'yō / kyoyō)",
+    "traduction_japonais": "寛容 / 許容 (かんよう / きょよう)",
     "examples": [
       {
         "fr": "Le respect mutuel et la tolérance religieuse sont les conditions premières pour faire vivre harmonieusement une société cosmopolite.",
@@ -10887,7 +10887,7 @@ window.vocab_B2_Dataset = [
     "definition": "Possibilité de suivre et de retrouver l'historique, l'utilisation ou la localisation d'un produit tout au long de sa chaîne de production et de distribution.",
     "traduction_anglais": "traceability / tracking",
     "traduction_chinois": "可追溯性 / 溯源 (kě zhuīsùxìng / sùyuán)",
-    "traduction_japonais": "トレーサビリティ / 追跡可能性 (torēsabiriti / tsuiseki kanōsei)",
+    "traduction_japonais": "トレーサビリティ / 追跡可能性 (とれえさびりち / ついせき かのうせい)",
     "examples": [
       {
         "fr": "La réglementation européenne impose une traçabilité totale des viandes bovines de l'élevage paysan jusqu'à l'assiette du consommateur final.",
@@ -10961,7 +10961,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ligne courbe ou droite décrite par un corps en mouvement dans l'espace, ou parcours de vie et évolution professionnelle d'une personne.",
     "traduction_anglais": "trajectory / path",
     "traduction_chinois": "轨迹 / 发展历程 (guǐjì / fāzhǎn lìchéng)",
-    "traduction_japonais": "軌道 / 人生の歩み (kidō / jinsei no ayumi)",
+    "traduction_japonais": "軌道 / 人生の歩み (きどう / じんせい の あゆみ)",
     "examples": [
       {
         "fr": "Les ingénieurs du centre spatial ont calculé avec une précision millimétrique la trajectoire orbitale de la sonde vers la planète Mars.",
@@ -11035,7 +11035,7 @@ window.vocab_B2_Dataset = [
     "definition": "Passage progressif d'un état, d'une situation ou d'un modèle économique à un autre.",
     "traduction_anglais": "transition",
     "traduction_chinois": "转型 / 过渡 (zhuǎnxíng / guòdù)",
-    "traduction_japonais": "移行 / トランジション (ikō / toranjishon)",
+    "traduction_japonais": "移行 / トランジション (いこう / とらんじしょん)",
     "examples": [
       {
         "fr": "La transition écologique et énergétique vers une économie bas-carbone constitue le plus grand défi planétaire du XXIe siècle.",
@@ -11109,7 +11109,7 @@ window.vocab_B2_Dataset = [
     "definition": "Propriété de ce qui laisse passer la lumière et permet de voir au travers, ou clarté totale et honnêteté dans les affaires publiques et financières.",
     "traduction_anglais": "transparency / openness",
     "traduction_chinois": "透明度 / 透明性 (tòumíngdù / tòumíngxìng)",
-    "traduction_japonais": "透明性 / 透明度 (tōmeisei / tōmeido)",
+    "traduction_japonais": "透明性 / 透明度 (とうめいせい / とうめいど)",
     "examples": [
       {
         "fr": "La loi sur la transparence de la vie publique oblige tous les ministres et parlementaires à déclarer intégralement leur patrimoine personnel.",
@@ -11183,7 +11183,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de rendre identique, conforme à un modèle unique, en effaçant les différences et les singularités.",
     "traduction_anglais": "standardization / homogenization",
     "traduction_chinois": "同质化 / 单一化 (tóngzhìhuà / dānyīhuà)",
-    "traduction_japonais": "画一化 / 均質化 (kakuitsuka / kinshitsuka)",
+    "traduction_japonais": "画一化 / 均質化 (かくいつか / きんしつか)",
     "examples": [
       {
         "fr": "La mondialisation économique et culturelle effrénée risque de conduire à une uniformisation appauvrissante des modes de vie et des traditions culinaires.",
@@ -11257,7 +11257,7 @@ window.vocab_B2_Dataset = [
     "definition": "Processus continu de concentration de la population dans les villes et d'extension progressive de l'espace urbain sur le milieu rural.",
     "traduction_anglais": "urbanization",
     "traduction_chinois": "城市化 / 城镇化 (chéngshìhuà / chéngzhènhuà)",
-    "traduction_japonais": "都市化 (toshika)",
+    "traduction_japonais": "都市化 (としか)",
     "examples": [
       {
         "fr": "L'urbanisation galopante du littoral méditerranéen menace de bétonner irrémédiablement des écosystèmes côtiers d'une richesse exceptionnelle.",
@@ -11331,7 +11331,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de s'emparer illicitement, par fraude ou violence, d'un pouvoir, d'un titre, d'une identité ou d'un bien appartenant à autrui.",
     "traduction_anglais": "usurpation / identity theft",
     "traduction_chinois": "篡夺 / 冒用 (cuànduó / màoyòng)",
-    "traduction_japonais": "横領 / 簒奪 / なりすまし (ōryō / sandatsu / narisumashi)",
+    "traduction_japonais": "横領 / 簒奪 / なりすまし (おうりょう / さんだつ / なりすまし)",
     "examples": [
       {
         "fr": "Le tribunal correctionnel a condamné l'escroc à cinq ans de prison ferme pour usurpation d'identité bancaire et vol de données confidentielles.",
@@ -11405,7 +11405,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est juridiquement régulier et produit ses effets légaux, ou état de ce qui est scientifiquement et logiquement exact.",
     "traduction_anglais": "validity / legality",
     "traduction_chinois": "有效性 / 合法有效 (yǒuxiàoxìng / héfǎ yǒuxiào)",
-    "traduction_japonais": "有効性 / 妥当性 (yūkōsei / datōsei)",
+    "traduction_japonais": "有効性 / 妥当性 (ゆうこうせい / だとうせい)",
     "examples": [
       {
         "fr": "La période de validité de votre passeport biométrique expire dans trois mois et nécessite un renouvellement urgent avant votre voyage international.",
@@ -11479,7 +11479,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de donner ou d'augmenter la valeur marchande, financière, culturelle ou écologique d'un bien, d'un déchet ou d'une compétence.",
     "traduction_anglais": "enhancement / recovery / recycling",
     "traduction_chinois": "增值 / 资源化利用 (zēngzhí / zīyuánhuà lìyòng)",
-    "traduction_japonais": "価値向上 / 再資源化 (kachi kōjō / saishigenka)",
+    "traduction_japonais": "価値向上 / 再資源化 (かち こうじょう / さいしげんか)",
     "examples": [
       {
         "fr": "La valorisation énergétique des déchets ménagers par incinération permet d'alimenter en chauffage urbain plus de vingt mille logements de la métropole.",
@@ -11553,7 +11553,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est changeant, instable, sujet à des variations ou apte à se modifier sous l'influence de facteurs externes.",
     "traduction_anglais": "variability / volatility",
     "traduction_chinois": "变异性 / 可变性 (biànyìxìng / kěbiànxìng)",
-    "traduction_japonais": "変動性 / 変異性 (hendōsei / hen'isei)",
+    "traduction_japonais": "変動性 / 変異性 (へんどうせい / へんいせい)",
     "examples": [
       {
         "fr": "La variabilité génétique naturelle au sein d'une population animale est le moteur indispensable de la sélection naturelle et de l'évolution des espèces.",
@@ -11627,7 +11627,7 @@ window.vocab_B2_Dataset = [
     "definition": "Grande rapidité de mouvement, vitesse pure d'un corps en déplacement ou agilité d'exécution dans un art.",
     "traduction_anglais": "velocity / speed / swiftness",
     "traduction_chinois": "速度 / 敏捷 (sùdù / mǐnjié)",
-    "traduction_japonais": "速度 / 速さ / 俊敏さ (sokudo / hayasa / shunbinsa)",
+    "traduction_japonais": "速度 / 速さ / 俊敏さ (そくど / はやさ / しゅんびんさ)",
     "examples": [
       {
         "fr": "Le guépard atteint une vélocité stupéfiante de plus de cent kilomètres par heure en quelques secondes lors de sa course de chasse dans la savane.",
@@ -11701,7 +11701,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de fermer avec un verrou, ou blocage systématique et sécurisé d'un mécanisme, d'un accès informatique ou d'un processus politique.",
     "traduction_anglais": "locking / deadlock / lockdown",
     "traduction_chinois": "锁定 / 闭锁 / 封锁 (suǒdìng / bìsuǒ / fēngsuǒ)",
-    "traduction_japonais": "ロック / 閉鎖 / 膠着 (rokku / heisa / kōchaku)",
+    "traduction_japonais": "ロック / 閉鎖 / 膠着 (ろっく / へいさ / こうちゃく)",
     "examples": [
       {
         "fr": "Le système de verrouillage automatique des portières du véhicule s'enclenche dès que la vitesse dépasse vingt kilomètres par heure.",
@@ -11775,7 +11775,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est durablement réalisable, économiquement rentable, ou aptitude d'un être vivant à survivre et à se développer.",
     "traduction_anglais": "viability / feasibility / sustainability",
     "traduction_chinois": "可行性 / 存活性 / 可持续性 (kěxíngxìng / cúnsuǒxìng / kěchíxùxìng)",
-    "traduction_japonais": "実現可能性 / 生存可能性 / 存続性 (jitsugen kanōsei / seizon kanōsei / sonsokusei)",
+    "traduction_japonais": "実現可能性 / 生存可能性 / 存続性 (じつげん かのうせい / せいぞん かのうせい / そんそくせい)",
     "examples": [
       {
         "fr": "L'expert-comptable a mené un audit approfondi pour évaluer la viabilité financière et économique du plan de reprise de l'usine en faillite.",
@@ -11849,7 +11849,7 @@ window.vocab_B2_Dataset = [
     "definition": "Attention intense, continue et soutenue pour prévenir un danger, un accident ou une infraction.",
     "traduction_anglais": "vigilance / alertness / watchfulness",
     "traduction_chinois": "警惕 / 戒备 (jǐngtì / jièbèi)",
-    "traduction_japonais": "警戒 / 警戒態勢 / 注意深さ (keikai / keikai taisei / chūibukasa)",
+    "traduction_japonais": "警戒 / 警戒態勢 / 注意深さ (けいかい / けいかい たいせい / ちゅういぶかさ)",
     "examples": [
       {
         "fr": "Météo France a placé trois départements du sud-est en vigilance rouge en raison de pluies torrentielles et de risques majeurs d'inondation.",
@@ -11923,7 +11923,7 @@ window.vocab_B2_Dataset = [
     "definition": "Caractère de ce qui est fragile, précaire ou exposé à être blessé, attaqué ou endommagé physiquement, socialement ou numériquement.",
     "traduction_anglais": "vulnerability / fragility",
     "traduction_chinois": "脆弱性 / 易受损性 (cuìruòxìng / yìshòusǔnxìng)",
-    "traduction_japonais": "脆弱性 / もろさ (zeijakusei / morosa)",
+    "traduction_japonais": "脆弱性 / もろさ (ぜいじゃくせい / もろさ)",
     "examples": [
       {
         "fr": "Les experts en cybersécurité ont découvert une vulnérabilité critique de sécurité dans le système d'exploitation utilisé par des millions de serveurs.",
@@ -11997,7 +11997,7 @@ window.vocab_B2_Dataset = [
     "definition": "Dévouement ardent, empressement infatigable et enthousiasme scrupuleux au service d'une cause, d'un travail ou d'une autorité.",
     "traduction_anglais": "zeal / dedication / eagerness",
     "traduction_chinois": "热忱 / 热情 / 狂热 (rèchén / rèqíng / kuángrè)",
-    "traduction_japonais": "熱心さ / 熱意 / 献身 (nessinsa / netsui / kenshin)",
+    "traduction_japonais": "熱心さ / 熱意 / 献身 (ねっsいんさ / ねつい / けんしん)",
     "examples": [
       {
         "fr": "Ce jeune fonctionnaire stagiaire accomplit toutes ses missions administratives avec un zèle exemplaire et une rigueur professionnelle remarquable.",
@@ -12071,7 +12071,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre à l'abri, loger, protéger contre un danger extérieur ou servir de lieu d'accueil et de conservation.",
     "traduction_anglais": "to shelter / to house / to shield",
     "traduction_chinois": "庇护 / 容纳 / 遮蔽 (bìhù / róngnà / zhēbì)",
-    "traduction_japonais": "保護する / 収容する / 宿す (hogo suru / shūyō suru / yadosu)",
+    "traduction_japonais": "保護する / 収容する / 宿す (ほごする / しゅうようする / やどす)",
     "examples": [
       {
         "fr": "Ce gymnase municipal a été réquisitionné en urgence pour abriter plus de deux cents personnes évacuées lors de l'inondation majeure.",
@@ -12145,7 +12145,7 @@ window.vocab_B2_Dataset = [
     "definition": "Augmenter la vitesse d'un mouvement, hâter l'exécution d'un travail ou intensifier le rythme d'un processus.",
     "traduction_anglais": "to accelerate / to speed up",
     "traduction_chinois": "加速 / 促进 (jiāsù / cùjìn)",
-    "traduction_japonais": "加速する / 早める / 促進する (kasoku suru / hayameru / sokushin suru)",
+    "traduction_japonais": "加速する / 早める / 促進する (かそくする / はやめる / そくしんする)",
     "examples": [
       {
         "fr": "Le gouvernement a décidé d'accélérer massivement le déploiement des parcs éoliens en mer pour atteindre la neutralité carbone avant 2050.",
@@ -12219,7 +12219,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus fort, plus net, plus marqué ou plus visible un phénomène, une tendance, un son ou un sentiment.",
     "traduction_anglais": "to accentuate / to emphasize / to deepen",
     "traduction_chinois": "加剧 / 强调 / 凸显 (jiājù / qiángdiào / tūxiǎn)",
-    "traduction_japonais": "強調する / 際立たせる / 激化させる (kyōchō suru / kiwatataseru / gekika saseru)",
+    "traduction_japonais": "強調する / 際立たせる / 激化させる (きょうちょうする / きわたたせる / げきかさせる)",
     "examples": [
       {
         "fr": "La flambée incontrôlée des prix du carburant et du logement ne fait qu'accentuer les inégalités sociales entre les métropoles et les zones rurales.",
@@ -12293,7 +12293,7 @@ window.vocab_B2_Dataset = [
     "definition": "Donner, concéder, harmoniser ou faire correspondre en genre et en nombre selon les règles grammaticales, ou régler les instruments de musique.",
     "traduction_anglais": "to grant / to tune / to match",
     "traduction_chinois": "给予 / 调整配合 / 调音 (jǐyǔ / tiáozhěng pèihé / tiáoyīn)",
-    "traduction_japonais": "付与する / 一致させる / 調律する (fuyo suru / itchi saseru / chōritsu suru)",
+    "traduction_japonais": "付与する / 一致させる / 調律する (ふよする / いっchひさせる / ちょうりつする)",
     "examples": [
       {
         "fr": "Le maire a accepté d'accorder une subvention exceptionnelle pour financer la rénovation du club de sport de la commune.",
@@ -12367,7 +12367,7 @@ window.vocab_B2_Dataset = [
     "definition": "Augmenter, rendre plus grand, plus nombreux, plus important ou plus intense en quantité, en intensité ou en valeur.",
     "traduction_anglais": "to increase / to enhance / to augment",
     "traduction_chinois": "增加 / 扩大 / 增强 (zēngjiā / kuòdà / zēngqiáng)",
-    "traduction_japonais": "増大させる / 高める / 拡大する (zōdai saseru / takameru / kakudai suru)",
+    "traduction_japonais": "増大させる / 高める / 拡大する (ぞうだいさせる / たかめる / かくだいする)",
     "examples": [
       {
         "fr": "Le gouvernement a voté une loi ambitieuse pour accroître massivement la part des énergies renouvelables dans le mix énergétique national.",
@@ -12441,7 +12441,7 @@ window.vocab_B2_Dataset = [
     "definition": "Devenir propriétaire d'un bien matériel ou financier par achat, don ou échange, ou développer et assimiler durablement des connaissances, des compétences ou de l'expérience.",
     "traduction_anglais": "to acquire / to purchase / to gain",
     "traduction_chinois": "获得 / 习得 / 购入 (huòdé / xídé / gòurù)",
-    "traduction_japonais": "習得する / 獲得する / 購入する (shūtoku suru / kakutoku suru / kōnyū suru)",
+    "traduction_japonais": "習得する / 獲得する / 購入する (しゅうとくする / かくとくする / こうにゅうする)",
     "examples": [
       {
         "fr": "Ce jeune couple a contracté un prêt bancaire sur vingt-cinq ans pour acquérir son premier appartement au cœur de la capitale.",
@@ -12515,7 +12515,7 @@ window.vocab_B2_Dataset = [
     "definition": "Modifier, ajuster ou transformer une chose, un comportement ou une œuvre pour la rendre conforme à de nouveaux besoins, à un nouveau contexte ou à un autre public.",
     "traduction_anglais": "to adapt / to adjust",
     "traduction_chinois": "适应 / 调整 / 改编 (shìyìng / tiáozhěng / gǎibiān)",
-    "traduction_japonais": "適応させる / 合わせる / 翻案・脚色する (tekiō saseru / awaseru / hōan・kyakushoku suru)",
+    "traduction_japonais": "適応させる / 合わせる / 翻案・脚色する (てきおうさせる / あわせる / ほうあん・きゃくしょくする)",
     "examples": [
       {
         "fr": "Les agriculteurs doivent adapter leurs méthodes d'irrigation et choisir des semences plus résistantes pour faire face aux sécheresses estivales récurrentes.",
@@ -12589,7 +12589,7 @@ window.vocab_B2_Dataset = [
     "definition": "Prendre légalement pour fils ou fille un enfant qui n'est pas le sien, ou choisir, voter formellement, faire sien un comportement, une loi ou une méthode.",
     "traduction_anglais": "to adopt / to pass / to embrace",
     "traduction_chinois": "收养 / 采纳 / 通过 (shōuyǎng / cǎinà / tōngguò)",
-    "traduction_japonais": "養子にする / 採択する / 可決する / 採用する (yōshi ni suru / saitaku suru / kaketsu suru / saiyō suru)",
+    "traduction_japonais": "養子にする / 採択する / 可決する / 採用する (ようし にする / さいたくする / かけつする / さいようする)",
     "examples": [
       {
         "fr": "Après cinq longues années de démarches administratives et d'enquêtes sociales rigoureuses, ce couple chaleureux a enfin pu adopter ce jeune orphelin.",
@@ -12663,7 +12663,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus faible, diminuer la force, la vigueur, la résistance physique ou l'autorité de quelqu'un ou de quelque chose.",
     "traduction_anglais": "to weaken / to undermine / to enfeeble",
     "traduction_chinois": "削弱 / 减弱 (xuēruò / jiǎnruò)",
-    "traduction_japonais": "弱体化させる / 衰えさせる / 弱める (jakutaika saseru / otoroesaseru / yowameru)",
+    "traduction_japonais": "弱体化させる / 衰えさせる / 弱める (じゃくたいかさせる / おとろえさせる / よわめる)",
     "examples": [
       {
         "fr": "La crise économique mondiale est venue affaiblir considérablement la compétitivité des petites entreprises industrielles.",
@@ -12737,7 +12737,7 @@ window.vocab_B2_Dataset = [
     "definition": "Toucher, émouvoir douloureusement, avoir une influence directe sur quelqu'un ou quelque chose, ou assigner une ressource ou un poste à un usage précis.",
     "traduction_anglais": "to affect / to impact / to assign",
     "traduction_chinois": "影响 / 触动 / 分配 (yǐngxiǎng / chùdòng / fēnpèi)",
-    "traduction_japonais": "影響を与える / 心を痛めさせる / 割り当てる (eikyō o ataeru / kokoro o itamesaseru / wariatateru)",
+    "traduction_japonais": "影響を与える / 心を痛めさせる / 割り当てる (えいきょう を あたえる / こころ を いためさせる / わりあたてる)",
     "examples": [
       {
         "fr": "La fermeture brutale de cette grande usine automobile va directement affecter plus de deux mille familles d'ouvriers dans tout le bassin industriel.",
@@ -12811,7 +12811,7 @@ window.vocab_B2_Dataset = [
     "definition": "Déclarer formellement comme vrai, soutenir avec certitude, ou manifester et renforcer son autorité, sa personnalité ou ses droits.",
     "traduction_anglais": "to assert / to state / to claim",
     "traduction_chinois": "断言 / 坚称 / 确立展现 (duànyán / jiānchēng / quèlì zhǎnxiàn)",
-    "traduction_japonais": "断言する / 主張する / 確立する (dangen suru / shuchō suru / kakuritsu suru)",
+    "traduction_japonais": "断言する / 主張する / 確立する (だんげんする / しゅちょうする / かくりつする)",
     "examples": [
       {
         "fr": "Le porte-parole du gouvernement est venu affirmer devant les caméras que le pays ne tolérerait aucune ingérence étrangère dans ses élections.",
@@ -12885,7 +12885,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus grave, plus lourd, plus pénible, plus dangereux ou plus critique une situation, un état de santé ou une infraction.",
     "traduction_anglais": "to worsen / to aggravate / to deepen",
     "traduction_chinois": "加重 / 恶化 (jiāzhòng / èhuà)",
-    "traduction_japonais": "悪化させる / 重くする / 深刻化させる (akka saseru / omoku suru / shinkokuka saseru)",
+    "traduction_japonais": "悪化させる / 重くする / 深刻化させる (あっかさせる / おもくする / しんこくかさせる)",
     "examples": [
       {
         "fr": "Le refus obstiné de ce patient de suivre scrupuleusement son traitement médical ne fait qu'aggraver son état de santé général.",
@@ -12959,7 +12959,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faire quelque chose de manière active, déployer son énergie pour produire un effet, intervenir ou avoir une influence sur un corps ou une situation.",
     "traduction_anglais": "to act / to take action / to operate",
     "traduction_chinois": "采取行动 / 行动 / 产生作用 (cǎiqǔ xíngdòng / xíngdòng / chǎnshēng zuòyòng)",
-    "traduction_japonais": "行動する / 行動を起こす / 作用する (kōdō suru / kōdō o okosu / sayō suru)",
+    "traduction_japonais": "行動する / 行動を起こす / 作用する (こうどうする / こうどう を おこす / さようする)",
     "examples": [
       {
         "fr": "Face à l'urgence climatique absolue, les chefs d'État et de gouvernement doivent cesser les vains discours et agir sans plus attendre.",
@@ -13033,7 +13033,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui dépend du hasard, des circonstances imprévisibles ou qui est soumis aux lois du calcul des probabilités.",
     "traduction_anglais": "random / uncertain / unpredictable",
     "traduction_chinois": "随机的 / 不确定的 (suíjī de / bùquèdìng de)",
-    "traduction_japonais": "ランダムな / 不確定な / 偶然の (randamu na / fukakutei na / gūzen no)",
+    "traduction_japonais": "ランダムな / 不確定な / 偶然の (らんだむ な / ふかくてい な / ぐうぜん の)",
     "examples": [
       {
         "fr": "Le tirage au sort des jurés populaires pour le procès d'assises est une procédure strictement aléatoire supervisée par le greffier en chef.",
@@ -13107,7 +13107,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fournir des aliments à un être vivant, approvisionner une machine ou un réseau en énergie ou en matières premières, ou entretenir un débat ou un sentiment.",
     "traduction_anglais": "to feed / to power / to fuel",
     "traduction_chinois": "供养 / 供电供给 / 助长提供 (gòngyǎng / gòngdiàn gōngjǐ / zhùzhǎng tígōng)",
-    "traduction_japonais": "養う / 電力を供給する / 煽る・助長する (yashinau / denryoku o kyōkyū suru / aoru・jochō suru)",
+    "traduction_japonais": "養う / 電力を供給する / 煽る・助長する (やしなう / でんりょく を きょうきゅうする / あおる・じょちょうする)",
     "examples": [
       {
         "fr": "Cette immense centrale solaire photovoltaïque permet d'alimenter en électricité propre plus de cent mille foyers de toute la région métropolitaine.",
@@ -13181,7 +13181,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus lourd physiquement, augmenter une charge financière ou administrative, ou rendre plus lent et pesant.",
     "traduction_anglais": "to make heavier / to weigh down / to increase",
     "traduction_chinois": "加重 / 增加负担 (jiāzhòng / zēngjiā fùdān)",
-    "traduction_japonais": "重くする / 負担を増やす / 重荷となる (omoku suru / futan o fuyasu / omoni to naru)",
+    "traduction_japonais": "重くする / 負担を増やす / 重荷となる (おもくする / ふたん を ふやす / おもに と なる)",
     "examples": [
       {
         "fr": "L'accumulation excessive de nouvelles normes et de démarches administratives complexes ne fait qu'alourdir inutilement le quotidien des petits artisans.",
@@ -13255,7 +13255,7 @@ window.vocab_B2_Dataset = [
     "definition": "Modifier en mal, détériorer, dénaturer la qualité d'une chose, fausser la vérité ou affaiblir les facultés physiques ou mentales.",
     "traduction_anglais": "to alter / to impair / to deteriorate",
     "traduction_chinois": "损害 / 改变 / 变质 (sǔnhài / gǎibiàn / biànzhì)",
-    "traduction_japonais": "損なう / 変質させる / 劣化させる (sokonau / henshitsu saseru / rekka saseru)",
+    "traduction_japonais": "損なう / 変質させる / 劣化させる (そこなう / へんしつさせる / れっかさせる)",
     "examples": [
       {
         "fr": "L'exposition prolongée aux rayons ultraviolets du soleil risque d'altérer irréversiblement les couleurs vives de ce tableau de maître ancien.",
@@ -13329,7 +13329,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre meilleur, perfectionner, augmenter la qualité, l'état ou le rendement d'une chose ou les conditions de vie de quelqu'un.",
     "traduction_anglais": "to improve / to enhance / to better",
     "traduction_chinois": "改善 / 提高 / 改进 (gǎishàn / tígāo / gǎijìn)",
-    "traduction_japonais": "改善する / 向上させる / 改良する (kaizen suru / kōjō saseru / kairyō suru)",
+    "traduction_japonais": "改善する / 向上させる / 改良する (かいぜんする / こうじょうさせる / かいりょうする)",
     "examples": [
       {
         "fr": "La mise en service de cette nouvelle ligne de tramway automatique va considérablement améliorer la mobilité quotidienne des habitants des quartiers sud.",
@@ -13403,7 +13403,7 @@ window.vocab_B2_Dataset = [
     "definition": "Disposer, agencer, équiper ou transformer un espace, un territoire ou des horaires pour les rendre plus fonctionnels, agréables ou adaptés à un usage précis.",
     "traduction_anglais": "to arrange / to develop / to convert",
     "traduction_chinois": "布置 / 开发规划 / 改造 (bùzhì / kāifā guīhuà / gǎizào)",
-    "traduction_japonais": "整備する / 改装・配置する / 開発・設営する (seibi suru / kaisō・haichi suru / kaihatsu・setsuei suru)",
+    "traduction_japonais": "整備する / 改装・配置する / 開発・設営する (せいびする / かいそう・はいちする / かいはつ・せつえいする)",
     "examples": [
       {
         "fr": "La municipalité a voté un budget ambitieux pour aménager cinquante kilomètres de nouvelles pistes cyclables sécurisées et séparées du trafic automobile.",
@@ -13477,7 +13477,7 @@ window.vocab_B2_Dataset = [
     "definition": "Commencer, engager, déclencher ou mettre en train une action, un processus, un virage ou un dialogue, ou garnir un piège d'un appât ou une arme d'une amorce.",
     "traduction_anglais": "to initiate / to begin / to prime",
     "traduction_chinois": "启动 / 开启 / 引发 (qǐdòng / kāiqǐ / yǐnfā)",
-    "traduction_japonais": "開始する / 口火を切る / 着手する (kaishi suru / kuchibi o kiru / chakushu suru)",
+    "traduction_japonais": "開始する / 口火を切る / 着手する (かいしする / くちび を きる / ちゃくしゅする)",
     "examples": [
       {
         "fr": "Le gouvernement et les organisations syndicales ont enfin accepté d'amorcer un dialogue social constructif pour sortir de la crise des retraites.",
@@ -13551,7 +13551,7 @@ window.vocab_B2_Dataset = [
     "definition": "Atténuer la force d'un choc, d'un bruit ou d'une chute, ou récupérer progressivement sur plusieurs années comptables le coût d'un investissement matériel.",
     "traduction_anglais": "to cushion / to absorb / to depreciate / to pay off",
     "traduction_chinois": "缓冲 / 吸收 / 分摊折旧 (huǎnchōng / xīshōu / fēntān zhéjiù)",
-    "traduction_japonais": "吸収・緩和する / 償却する / 回収する (kyūshū・kanwa suru / shōkyaku suru / kaishū suru)",
+    "traduction_japonais": "吸収・緩和する / 償却する / 回収する (きゅうしゅう・かんわする / しょうきゃくする / かいしゅうする)",
     "examples": [
       {
         "fr": "Ces baskets de running de dernière génération intègrent une semelle en mousse haute technologie pour amortir efficacement les chocs sur l'asphalte dur.",
@@ -13625,7 +13625,7 @@ window.vocab_B2_Dataset = [
     "definition": "Augmenter l'intensité, le volume, la force, l'étendue ou la portée d'un phénomène, d'un signal acoustique ou d'une émotion.",
     "traduction_anglais": "to amplify / to magnify / to boost",
     "traduction_chinois": "放大 / 增强 / 扩大 (fàngdà / zēngqiáng / kuòdà)",
-    "traduction_japonais": "増幅する / 拡大する / 強める (zōfuku suru / kakudai suru / tsuyomeru)",
+    "traduction_japonais": "増幅する / 拡大する / 強める (ぞうふくする / かくだいする / つよめる)",
     "examples": [
       {
         "fr": "L'ingénieur du son a utilisé un préamplificateur à lampes haut de gamme pour amplifier la voix chaude de la chanteuse de jazz sur l'enregistrement en studio.",
@@ -13699,7 +13699,7 @@ window.vocab_B2_Dataset = [
     "definition": "Décomposer un ensemble en ses éléments constitutifs pour les examiner en détail, étudier méthodiquement les causes, la structure ou les données d'un phénomène.",
     "traduction_anglais": "to analyze / to examine",
     "traduction_chinois": "分析 / 解析 (fēnxī / jiěxī)",
-    "traduction_japonais": "分析する / 解析する / 吟味する (bunseki suru / kaiseki suru / ginmi suru)",
+    "traduction_japonais": "分析する / 解析する / 吟味する (ぶんせきする / かいせきする / ぎんみする)",
     "examples": [
       {
         "fr": "Les experts en criminologie de la police scientifique ont passé plusieurs jours à analyser minutieusement toutes les empreintes digitales et les traces biologiques retrouvées sur la scène du crime.",
@@ -13773,7 +13773,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fixer solidement un navire au fond de l'eau à l'aide d'une ancre, ou enraciner, imprimer profondément et durablement une idée, une valeur, une habitude ou une présence dans l'esprit ou dans un territoire.",
     "traduction_anglais": "to anchor / to root / to ground",
     "traduction_chinois": "锚定 / 扎根 / 深植 (máodìng / zhāgēn / shēnzhí)",
-    "traduction_japonais": "錨を下ろす / 定着させる / 深く根付かせる (ikari o orosu / teichaku saseru / fukaku nezukasaseru)",
+    "traduction_japonais": "錨を下ろす / 定着させる / 深く根付かせる (いかり を おろす / ていちゃくさせる / ふかく ねずかさせる)",
     "examples": [
       {
         "fr": "Le capitaine du voilier a choisi de jeter l'ancre dans cette crique abritée pour ancrer solidement son navire avant la tombée de la nuit.",
@@ -13847,7 +13847,7 @@ window.vocab_B2_Dataset = [
     "definition": "Détruire totalement, réduire à néant, exterminer, ou accabler moralement et ruiner complètement les espoirs ou les forces de quelqu'un.",
     "traduction_anglais": "to annihilate / to destroy / to crush",
     "traduction_chinois": "消灭 / 彻底摧毁 / 击垮 (xiāomiè / chèdǐ cuīhuǐ / jīkuǎ)",
-    "traduction_japonais": "全滅させる / 壊滅・全滅させる / 打ち砕く (zenmetsu saseru / kaimetsu・zenmetsu saseru / uchikudaku)",
+    "traduction_japonais": "全滅させる / 壊滅・全滅させる / 打ち砕く (ぜんめつさせる / かいめつ・ぜんめつさせる / うちくだく)",
     "examples": [
       {
         "fr": "Le passage dévastateur de ce séisme sous-marin et du tsunami géant a suffi pour anéantir en quelques minutes plusieurs villages côtiers centenaires.",
@@ -13921,7 +13921,7 @@ window.vocab_B2_Dataset = [
     "definition": "Donner de la vie, du mouvement, de la gaieté ou du dynamisme à un lieu ou un groupe, diriger et modérer un débat, ou créer des dessins animés.",
     "traduction_anglais": "to animate / to liven up / to host / to lead",
     "traduction_chinois": "主持 / 活跃 / 赋予活力 (zhǔchí / huóyuè / fùyǔ huólì)",
-    "traduction_japonais": "活気づける / 司会進行する / アニメーション化する (kakkidzukeru / shikai shinkō suru / animēshon-ka suru)",
+    "traduction_japonais": "活気づける / 司会進行する / アニメーション化する (かっきdずける / しかい しんこうする / あにめえしょん-かする)",
     "examples": [
       {
         "fr": "Cette journaliste politique chevronnée a été choisie pour animer avec rigueur et impartialité le grand débat télévisé de l'entre-deux-tours de l'élection présidentielle.",
@@ -13995,7 +13995,7 @@ window.vocab_B2_Dataset = [
     "definition": "Prévoir, envisager par avance un événement futur pour s'y préparer ou agir avant le moment prévu.",
     "traduction_anglais": "to anticipate / to foresee / to plan ahead",
     "traduction_chinois": "预先准备 / 预料 / 超前预判 (yùxiān zhǔnbèi / yùliào / chāoqián yùpàn)",
-    "traduction_japonais": "予見する / 先回りして備える / 前倒しする (yoken suru / sakimawari shite sonaeru / maedaoshi suru)",
+    "traduction_japonais": "予見する / 先回りして備える / 前倒しする (よけんする / さきまわり して そなえる / まえだおしする)",
     "examples": [
       {
         "fr": "Les urbanistes doivent impérativement anticiper les effets majeurs du dérèglement climatique pour concevoir les infrastructures résilientes de demain.",
@@ -14069,7 +14069,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre calme, faire cesser ou diminuer la violence d'une souffrance, d'une colère, d'une querelle ou d'une tempête.",
     "traduction_anglais": "to appease / to soothe / to calm down",
     "traduction_chinois": "平息 / 安抚 / 缓解 (píngxī / ānfǔ / huǎnjiě)",
-    "traduction_japonais": "なだめる / 鎮める / 和らげる (nadameru / shizumeru / yawarageru)",
+    "traduction_japonais": "なだめる / 鎮める / 和らげる (なだめる / しずめる / やわらげる)",
     "examples": [
       {
         "fr": "Le médiateur chevronné a déployé toute son écoute et son empathie pour apaiser les tensions exacerbées entre la direction et les représentants syndicaux.",
@@ -14143,7 +14143,7 @@ window.vocab_B2_Dataset = [
     "definition": "Devenir visible, se montrer soudainement, se manifester à la conscience ou se révéler comme tel après examen.",
     "traduction_anglais": "to appear / to emerge / to seem",
     "traduction_chinois": "出现 / 显现 / 显露显得 (chūxiàn / xiǎnxiàn / xiǎnlù xiǎnde)",
-    "traduction_japonais": "現れる / 出現する / 〜のように見える (arawareru / shutsugen suru / ~no yō ni mieru)",
+    "traduction_japonais": "現れる / 出現する / 〜のように見える (あらわれる / しゅつげんする / 〜の よう に みえる)",
     "examples": [
       {
         "fr": "À mesure que la brume matinale se dissipait lentement sur la vallée, la silhouette majestueuse du château médiéval a commencé à apparaître en pleine lumière.",
@@ -14217,7 +14217,7 @@ window.vocab_B2_Dataset = [
     "definition": "Être la propriété légale ou matérielle de quelqu'un, faire partie intégrante d'un groupe, d'une communauté ou d'une catégorie, ou incomber comme devoir moral ou droit légal.",
     "traduction_anglais": "to belong / to pertain / to be up to",
     "traduction_chinois": "属于 / 归属 / 由...负责决断 (shǔyú / guīshǔ / yóu...fùzé juéduàn)",
-    "traduction_japonais": "〜に属する / 〜の所有である / 〜の責務である (ni zokusuru / no shoyū de aru / no sekimu de aru)",
+    "traduction_japonais": "〜に属する / 〜の所有である / 〜の責務である (に ぞくする / の しょゆう で ある / の せきむ で ある)",
     "examples": [
       {
         "fr": "Ce chef-d'œuvre de la peinture impressionniste a fini par appartenir à la collection permanente du musée d'Orsay après une dation exceptionnelle de l'héritier.",
@@ -14291,7 +14291,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre une chose sur une autre, mettre en pratique une règle, une loi, une méthode ou un traitement, ou s'investir avec soin et sérieux dans une tâche.",
     "traduction_anglais": "to apply / to implement / to enforce",
     "traduction_chinois": "应用 / 实施 / 涂抹执行 (yìngyòng / shíshī / túmǒ zhíxíng)",
-    "traduction_japonais": "適用する / 実施・施行する / 塗布する / 専念する (tekiō suru / jisshi・sekō suru / tofu suru / sennen suru)",
+    "traduction_japonais": "適用する / 実施・施行する / 塗布する / 専念する (てきおうする / じっし・せこうする / とふする / せんねんする)",
     "examples": [
       {
         "fr": "Le tribunal correctionnel est chargé d'appliquer la loi pénale avec rigueur, équité et dans le respect strict des droits de la défense.",
@@ -14365,7 +14365,7 @@ window.vocab_B2_Dataset = [
     "definition": "Porter un objet avec soi pour le donner ou le déposer quelque part, procurer, fournir une contribution financière ou matérielle, ou amener un changement ou une preuve.",
     "traduction_anglais": "to bring / to provide / to contribute",
     "traduction_chinois": "带来 / 提供 / 贡献出 (dàilái / tígōng / gòngxiàn chū)",
-    "traduction_japonais": "持ってくる / もたらす / 提供・貢献する (motte kuru / motarasu / teikyō・kōken suru)",
+    "traduction_japonais": "持ってくる / もたらす / 提供・貢献する (もって くる / もたらす / ていきょう・こうけんする)",
     "examples": [
       {
         "fr": "Le bénévole de l'association caritative a tenu à apporter un colis alimentaire d'urgence à cette vieille dame isolée dans son petit village.",
@@ -14439,7 +14439,7 @@ window.vocab_B2_Dataset = [
     "definition": "Saisir au corps, arrêter légalement un individu suspect, ou saisir par l'esprit, comprendre en profondeur un concept complexe, ou redouter avec anxiété un événement futur.",
     "traduction_anglais": "to apprehend / to arrest / to grasp / to dread",
     "traduction_chinois": "逮捕 / 领会理解 / 担忧恐惧 (dàibǔ / lǐnghuì lǐjiě / dānyōu kǒngjù)",
-    "traduction_japonais": "逮捕する / 深く理解・把握する / 恐れる・憂慮する (taiho suru / fukaku rikai・haaku suru / osoreru・yūryo suru)",
+    "traduction_japonais": "逮捕する / 深く理解・把握する / 恐れる・憂慮する (たいほする / ふかく りかい・はあくする / おそれる・ゆうりょする)",
     "examples": [
       {
         "fr": "Les forces d'intervention de la police judiciaire ont réussi à appréhender le suspect dangereux dans sa planque secrète sans faire le moindre blessé.",
@@ -14513,7 +14513,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus profond au sens propre, ou examiner, étudier et développer un sujet intellectuel avec beaucoup plus de soin et de détail.",
     "traduction_anglais": "to deepen / to delve into",
     "traduction_chinois": "深化 / 加深 / 深入研究 (shēnhuà / jiāshēn / shēnrù yánjiū)",
-    "traduction_japonais": "深める / 掘り下げる / 深化させる (fukameru / horisageru / shinka saseru)",
+    "traduction_japonais": "深める / 掘り下げる / 深化させる (ふかめる / ほりさげる / しんかさせる)",
     "examples": [
       {
         "fr": "L'étudiant en master de droit constitutionnel a décidé d'approfondir l'analyse comparée des régimes présidentiels en Europe.",
@@ -14587,7 +14587,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre sûr, garantir, affirmer avec certitude, protéger contre un risque financier par un contrat, ou remplir efficacement une fonction.",
     "traduction_anglais": "to ensure / to secure / to insure / to guarantee",
     "traduction_chinois": "确保 / 保证 / 投保 / 胜任 (quèbǎo / bǎozhèng / tóubǎo / shèngrèn)",
-    "traduction_japonais": "確保・保証する / 保険をかける / 担う (kakuho・hoshō suru / hoken o kakeru / ninau)",
+    "traduction_japonais": "確保・保証する / 保険をかける / 担う (かくほ・ほしょうする / ほけん を かける / になう)",
     "examples": [
       {
         "fr": "Le dispositif de sécurité renforcé a permis d'assurer la protection absolue des chefs d'État pendant toute la durée du sommet mondial.",
@@ -14661,7 +14661,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre moins fort, moins vif, moins violent, moins grave ou diminuer l'intensité d'une douleur, d'une lumière ou d'un conflit.",
     "traduction_anglais": "to mitigate / to soften / to alleviate / to tone down",
     "traduction_chinois": "减弱 / 缓解 / 减轻 (jiǎnruò / huǎnjiě / jiǎnqīng)",
-    "traduction_japonais": "和らげる / 緩和する / 軽減する (yawarageru / kanwa suru / keigen suru)",
+    "traduction_japonais": "和らげる / 緩和する / 軽減する (やわらげる / かんわする / けいげんする)",
     "examples": [
       {
         "fr": "Ce traitement antalgique puissant permet d'atténuer efficacement les douleurs post-opératoires chez les patients convalescents.",
@@ -14735,7 +14735,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus grand en quantité, en intensité, en valeur ou en volume, ou croître naturellement.",
     "traduction_anglais": "to increase / to raise / to grow",
     "traduction_chinois": "增加 / 提高 / 增长 (zēngjiā / tígāo / zēngzhǎng)",
-    "traduction_japonais": "増やす / 増大する / 引き上げる (fuyasu / zōdai suru / hikiageru)",
+    "traduction_japonais": "増やす / 増大する / 引き上げる (ふやす / ぞうだいする / ひきあげる)",
     "examples": [
       {
         "fr": "La direction de l'entreprise a accepté d'augmenter les salaires de base de quatre pour cent pour tenir compte de l'inflation annuelle.",
@@ -14809,7 +14809,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre banal, ordinaire ou courant ce qui était exceptionnel, ou enlever le caractère distinctif ou grave d'un comportement, d'un lieu ou d'une faute.",
     "traduction_anglais": "to normalize / to trivialize / to make commonplace",
     "traduction_chinois": "使普遍化 / 平庸化 / 习以为常 (shǐ pǔbiànhuà / píngyōnghuà / xíyǐwéicháng)",
-    "traduction_japonais": "日常化させる / 平凡化する / 当たり前のものにする (nichijōka saseru / heibonka suru / atarimae no mono ni suru)",
+    "traduction_japonais": "日常化させる / 平凡化する / 当たり前のものにする (にちじょうかさせる / へいぼんかする / あたりまえ の もの にする)",
     "examples": [
       {
         "fr": "Il ne faut jamais banaliser les insultes et le harcèlement scolaire sur les réseaux sociaux sous prétexte qu'il ne s'agit que de simples moqueries d'enfants.",
@@ -14883,7 +14883,7 @@ window.vocab_B2_Dataset = [
     "definition": "Construire un édifice, un bâtiment, une maison selon des plans précis, ou concevoir, fonder et élaborer durablement un projet, une carrière, une réputation ou une société.",
     "traduction_anglais": "to build / to construct / to establish",
     "traduction_chinois": "建造 / 构筑 / 建立 (jiànzào / gòuzhù / jiànlì)",
-    "traduction_japonais": "建てる / 構築する / 築き上げる (tateru / kōchiku suru / kizukiageru)",
+    "traduction_japonais": "建てる / 構築する / 築き上げる (たてる / こうちくする / きずきあげる)",
     "examples": [
       {
         "fr": "Les bâtisseurs médiévaux ont consacré plus de deux siècles d'efforts héroïques pour bâtir cette immense cathédrale gothique en pierre taillée.",
@@ -14957,7 +14957,7 @@ window.vocab_B2_Dataset = [
     "definition": "Tirer un profit, un avantage légal, matériel, moral ou médical de quelque chose, ou jouir d'une condition favorable.",
     "traduction_anglais": "to benefit from / to enjoy / to be eligible for",
     "traduction_chinois": "受益于 / 享有 / 享受 (shòuyì yú / xiǎngyǒu / xiǎngshòu)",
-    "traduction_japonais": "恩恵を受ける / 享受する / 得る (onkei o ukeru / kyōju suru / eru)",
+    "traduction_japonais": "恩恵を受ける / 享受する / 得る (おんけい を うける / きょうじゅする /える)",
     "examples": [
       {
         "fr": "Les étudiants boursiers peuvent bénéficier d'une exonération totale des frais d'inscription universitaire et de repas à un euro dans les restaurants du Crous.",
@@ -15031,7 +15031,7 @@ window.vocab_B2_Dataset = [
     "definition": "Modifier complètement et de façon imprévue l'ordre, l'organisation ou le cours des choses, ou causer une émotion ou un choc psychologique violent et profond.",
     "traduction_anglais": "to disrupt / to overturn / to deeply move / to shatter",
     "traduction_chinois": "彻底打乱 / 颠覆 / 极大震动 (chèdǐ dǎluàn / diānfù / jídà zhèndòng)",
-    "traduction_japonais": "激変させる / 覆す / 深く動揺させる・揺さぶる (gekiken saseru / kutsugaesu / fukaku dōyō saseru・yusaburu)",
+    "traduction_japonais": "激変させる / 覆す / 深く動揺させる・揺さぶる (げきけんさせる / くつがえす / ふかく どうようさせる・ゆさぶる)",
     "examples": [
       {
         "fr": "L'avènement fulgurant de l'intelligence artificielle générative est en train de bouleverser en profondeur l'ensemble du marché du travail et des professions intellectuelles.",
@@ -15105,7 +15105,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre dans un cadre, ajuster l'angle de prise de vue d'une caméra, définir strictement les limites et les règles d'un projet, ou être en harmonie et correspondre avec quelque chose.",
     "traduction_anglais": "to frame / to define / to fit in with / to align with",
     "traduction_chinois": "界定规范 / 取景 / 相符一致 (jièdìng guīfàn / qǔjǐng / xiāngfú yīzhì)",
-    "traduction_japonais": "枠組みを定める / フレーミングする / 合致する・適合する (wakugumi o sadameru / furēmingu suru / gatchi suru・tekigō suru)",
+    "traduction_japonais": "枠組みを定める / フレーミングする / 合致する・適合する (わくぐみ を さだめる / ふれえみんぐする / がっchひする・てきごうする)",
     "examples": [
       {
         "fr": "Le chef de projet a réuni l'ensemble des équipes techniques pour cadrer avec une rigueur absolue le périmètre et le budget de ce nouveau logiciel.",
@@ -15179,7 +15179,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faire couler l'eau dans un canal artificiel, ou diriger, concentrer et discipliner une énergie, un flux de foule ou une émotion vers un but utile et précis.",
     "traduction_anglais": "to channel / to direct / to canalize",
     "traduction_chinois": "引导 / 疏导 / 渠化 (yǐndǎo / shūdǎo / qúhuà)",
-    "traduction_japonais": "導く / 集中・方向づける / 運河化する・水路に導く (michibiku / shūchū・hōkōdzukeru / ungaka suru・suiro ni michibiku)",
+    "traduction_japonais": "導く / 集中・方向づける / 運河化する・水路に導く (みちびく / しゅうちゅう・ほうこうdずける / うんがかする・すいろ に みちびく)",
     "examples": [
       {
         "fr": "Les ingénieurs hydrauliques ont réalisé d'importants travaux de terrassement pour canaliser le torrent de montagne et protéger le village contre les crues subites.",
@@ -15253,7 +15253,7 @@ window.vocab_B2_Dataset = [
     "definition": "Recueillir, intercepter une eau de source, capter des ondes hertziennes, de l'énergie solaire ou du dioxyde de carbone, ou séduire et retenir l'attention de quelqu'un.",
     "traduction_anglais": "to capture / to catch / to harness / to pick up",
     "traduction_chinois": "捕获 / 接收 / 吸引 (bǔhuò / jiēshōu / xīyǐn)",
-    "traduction_japonais": "捕集する / 受信する / 捉える・引きつける (hoshū suru / jushin suru / toraeru・hikitsukeru)",
+    "traduction_japonais": "捕集する / 受信する / 捉える・引きつける (ほしゅうする / じゅしんする / とらえる・ひきつける)",
     "examples": [
       {
         "fr": "Cette immense antenne parabolique de télécommunication permet de capter les signaux électromagnétiques émis par les satellites en orbite géostationnaire.",
@@ -15327,7 +15327,7 @@ window.vocab_B2_Dataset = [
     "definition": "Abandonner un droit, vendre ou transférer un bien, un pouvoir ou une place à quelqu'un, s'effondrer sous un poids, ou ne plus résister à une force, une tentation ou une pression morale.",
     "traduction_anglais": "to yield / to give up / to transfer / to collapse",
     "traduction_chinois": "让予 / 转让 / 屈服妥协 / 坍塌断裂 (ràngyǔ / zhuǎnràng / qūfú tuǒxié / tāntā duànliè)",
-    "traduction_japonais": "譲渡する / 屈する・屈服する / 崩壊する・破損する (jōto suru / kussuru・kuppuku suru / hōkai suru・hason suru)",
+    "traduction_japonais": "譲渡する / 屈する・屈服する / 崩壊する・破損する (じょうとする / くっする・くっぷくする / ほうかいする・はそんする)",
     "examples": [
       {
         "fr": "Face à la pression populaire massive et aux grèves générales reconductibles, le gouvernement a finalement refusé de céder sur l'âge légal de départ à la retraite.",
@@ -15401,7 +15401,7 @@ window.vocab_B2_Dataset = [
     "definition": "Viser précisément une cible, ou diriger de façon stratégique une action, une campagne marketing, un investissement public ou un traitement médical vers un public ou un objectif spécifique.",
     "traduction_anglais": "to target / to aim at",
     "traduction_chinois": "瞄准 / 定向针对 / 精准锁定 (miáozhǔn / dìngxiàng zhēnduì / jīngzhǔn suǒdìng)",
-    "traduction_japonais": "標的とする / ターゲットを絞る / 狙い撃ちする (hyōteki to suru / tāgetto o shiboru / neraiuchi suru)",
+    "traduction_japonais": "標的とする / ターゲットを絞る / 狙い撃ちする (ひょうてき とする / たあげっと を しぼる / ねらいうちする)",
     "examples": [
       {
         "fr": "Cette campagne de marketing digital sur les réseaux sociaux a été spécialement conçue pour cibler les jeunes urbains de dix-huit à vingt-cinq ans.",
@@ -15475,7 +15475,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre clair, limpide, intelligible et net ce qui était trouble, obscur, ambigu, confus ou complexe, ou débarrasser un liquide de ses impuretés.",
     "traduction_anglais": "to clarify / to clear up / to purify",
     "traduction_chinois": "澄清 / 阐明 / 净化澄清 (chéngqīng / chǎnmíng / jìnghuà chéngqīng)",
-    "traduction_japonais": "明確にする / 明らかにする / 澄ませる・浄化する (meikaku ni suru / akiraka ni suru / sumaseru・jōka suru)",
+    "traduction_japonais": "明確にする / 明らかにする / 澄ませる・浄化する (めいかく にする / あきらか にする / すませる・じょうかする)",
     "examples": [
       {
         "fr": "Le ministre de la Justice a tenu une conférence de presse solennelle pour clarifier les dispositions controversées du nouveau projet de loi sur la sécurité nationale.",
@@ -15549,7 +15549,7 @@ window.vocab_B2_Dataset = [
     "definition": "Entourer un terrain ou un jardin d'une clôture, d'un mur ou d'un grillage pour en fermer l'accès, ou terminer formellement et mettre un terme officiel à un débat, un compte bancaire ou un exercice comptable.",
     "traduction_anglais": "to fence in / to close / to conclude / to terminate",
     "traduction_chinois": "筑栅栏围住 / 结束 / 结账关闭 (zhù zhàlan wéizhù / jiéshù / jiézhàng guānbì)",
-    "traduction_japonais": "囲いを巡らせる / 締めくくる・終了する / 結算・閉鎖する (kakoi o meguraseru / shimekukuru・shūryō suru / kessan・heisa suru)",
+    "traduction_japonais": "囲いを巡らせる / 締めくくる・終了する / 結算・閉鎖する (かこい を めぐらせる / しめくくる・しゅうりょうする / けっさん・へいさする)",
     "examples": [
       {
         "fr": "L'éleveur de chevaux a passé tout le week-end à clôturer son nouveau pré avec des lices en bois massif pour empêcher les poulains de s'échapper.",
@@ -15623,7 +15623,7 @@ window.vocab_B2_Dataset = [
     "definition": "Travailler conjointement avec une ou plusieurs personnes à une entreprise intellectuelle, scientifique ou artistique commune, ou coopérer de façon coupable avec l'ennemi en temps de guerre.",
     "traduction_anglais": "to collaborate / to work together / to cooperate",
     "traduction_chinois": "合作 / 协作 / 通敌 (hézuò / xiézuò / tōngdí)",
-    "traduction_japonais": "協力・共同作業する / 連携・コラボレーションする / 敵国に対敵協力する (kyōryoku・kyōdō sagyō suru / renkei・koraborēshon suru / tekikoku ni taiteki kyōryoku suru)",
+    "traduction_japonais": "協力・共同作業する / 連携・コラボレーションする / 敵国に対敵協力する (きょうりょく・きょうどう さぎょうする / れんけい・こらぼれえしょんする / てきこく に たいてき きょうりょくする)",
     "examples": [
       {
         "fr": "Des chercheurs internationaux de douze nationalités différentes ont dû collaborer étroitement pour décoder le génome complexe de cette plante médicinale rare.",
@@ -15697,7 +15697,7 @@ window.vocab_B2_Dataset = [
     "definition": "Assembler, associer deux ou plusieurs éléments, méthodes, produits ou compétences pour former un ensemble cohérent et plus efficace, ou élaborer une ruse.",
     "traduction_anglais": "to combine / to blend / to merge",
     "traduction_chinois": "结合 / 组合 / 兼顾整合 (jiéhé / zǔhé / jiāngù zhěnghé)",
-    "traduction_japonais": "組み合わせる / 統合・兼ね備える / 結合する (kumiwaseru / tōgō・kane sonaeru / ketsugō suru)",
+    "traduction_japonais": "組み合わせる / 統合・兼ね備える / 結合する (くみわせる / とうごう・かね そなえる / けつごうする)",
     "examples": [
       {
         "fr": "Ce chef cuisinier novateur a su combiner les épices orientales rares et les techniques classiques de la gastronomie française pour créer un plat unique.",
@@ -15771,7 +15771,7 @@ window.vocab_B2_Dataset = [
     "definition": "Célébrer solennellement le souvenir d'un événement historique majeur, d'un héros national ou d'un être cher défunt pour en perpétuer la mémoire collective.",
     "traduction_anglais": "to commemorate / to honor the memory of",
     "traduction_chinois": "纪念 / 缅怀 / 隆重庆祝 (jìniàn / miǎnhuái / lóngzhòng qìngzhù)",
-    "traduction_japonais": "記念する / 追悼・記念式典を行う / 記憶を風化させず後世に伝える (kinen suru / tsuitō・kinen shikiten o okonau / kioku o fūka sasezu kōsei ni tsutaeru)",
+    "traduction_japonais": "記念する / 追悼・記念式典を行う / 記憶を風化させず後世に伝える (きねんする / ついとう・きねん しきてん をおこなう / きおく を ふうか させず こうせい に つたえる)",
     "examples": [
       {
         "fr": "Chaque année le 11 novembre, le président de la République et les citoyens se rassemblent sous l'Arc de Triomphe pour commémorer solennellement l'Armistice de 1918.",
@@ -15845,7 +15845,7 @@ window.vocab_B2_Dataset = [
     "definition": "Équilibrer, contrebalancer un désavantage, une perte ou un défaut par un avantage équivalent, indemniser financièrement un préjudice, ou neutraliser une émission de carbone.",
     "traduction_anglais": "to compensate / to offset / to make up for",
     "traduction_chinois": "补偿 / 抵消 / 弥补 (bǔcháng / dǐxiāo / míbǔ)",
-    "traduction_japonais": "補償する / 相殺する・埋め合わせる / 埋め合わせをする (hoshō suru / sōsai suru・umeawaseru / umeawase o suru)",
+    "traduction_japonais": "補償する / 相殺する・埋め合わせる / 埋め合わせをする (ほしょうする / そうさいする・うめあわせる / うめあわせ をする)",
     "examples": [
       {
         "fr": "L'entreprise a versé une indemnité financière exceptionnelle pour compenser intégralement le préjudice matériel et moral subi par les riverains de l'usine.",
@@ -15919,7 +15919,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rassembler, collecter et ordonner des documents, des textes ou des données d'origines diverses en un seul volume ou rapport, ou traduire un code source informatique en langage machine exécutable.",
     "traduction_anglais": "to compile / to assemble / to collate",
     "traduction_chinois": "汇编 / 编译 / 整理汇集 (huìbiān / biānyì / zhěnglǐ huìjí)",
-    "traduction_japonais": "編纂する / コンパイルする / 収集・集約する (hensan suru / konpairu suru / shūshū・shūyaku suru)",
+    "traduction_japonais": "編纂する / コンパイルする / 収集・集約する (へんさんする / こんぱいるする / しゅうしゅう・しゅうやくする)",
     "examples": [
       {
         "fr": "Le jeune développeur informatique a utilisé un compilateur ultra-rapide pour compiler l'ensemble du code source en C++ sans générer la moindre erreur.",
@@ -15993,7 +15993,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre complet en ajoutant ce qui manque, achever de remplir un formulaire ou un effectif, ou enrichir et perfectionner un ensemble d'informations ou une collection.",
     "traduction_anglais": "to complete / to supplement / to fill in",
     "traduction_chinois": "补充 / 补全 / 完善 (bǔchōng / bǔquán / wánshàn)",
-    "traduction_japonais": "補完する / 記入・完成させる / 充実させる (hokan suru / kinyū・kansei saseru / jūjitsu saseru)",
+    "traduction_japonais": "補完する / 記入・完成させる / 充実させる (ほかんする / きにゅう・かんせいさせる / じゅうじつさせる)",
     "examples": [
       {
         "fr": "Le candidat a pris soin de compléter toutes les rubriques du formulaire administratif en ligne avant de valider son dossier de bourse d'études.",
@@ -16067,7 +16067,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre complexe, difficile à comprendre, à résoudre, à exécuter ou à gérer, en ajoutant des obstacles, des éléments confus ou des contraintes.",
     "traduction_anglais": "to complicate / to make difficult",
     "traduction_chinois": "使复杂化 / 使变棘手 (shǐ fùzáhuà / shǐ biàn jíshǒu)",
-    "traduction_japonais": "複雑にする / 難しくする / こじらせる (fukuzatsu ni suru / muzukashiku suru / kojiraseru)",
+    "traduction_japonais": "複雑にする / 難しくする / こじらせる (ふくざつ にする / むずかしくする / こじらせる)",
     "examples": [
       {
         "fr": "L'apparition soudaine de cette tempête de neige sur les cols alpins est venue compliquer dangereusement la progression des secours en haute montagne.",
@@ -16141,7 +16141,7 @@ window.vocab_B2_Dataset = [
     "definition": "Créer une œuvre musicale, littéraire ou artistique originale, former un ensemble à partir de plusieurs éléments, taper un numéro de téléphone, ou trouver un compromis en s'accommodant d'une situation difficile.",
     "traduction_anglais": "to compose / to write / to dial / to come to terms with",
     "traduction_chinois": "创作谱写 / 构成组成 / 拨打电话 / 妥协适应 (chuàngzuò pǔxiě / gòuchéng zǔchéng / bōdǎ diànhuà / tuǒxié shìyìng)",
-    "traduction_japonais": "作曲・創作する / 構成・組み立てる / ダイヤルする / 妥協・折り合いをつける (sakkyoku・sōsaku suru / kōsei・kumitateru / daiyaru suru / dakyō・oriai o tsukeru)",
+    "traduction_japonais": "作曲・創作する / 構成・組み立てる / ダイヤルする / 妥協・折り合いをつける (さっきょく・そうさくする / こうせい・くみたてる / だいやるする / だきょう・おりあい を つける)",
     "examples": [
       {
         "fr": "Ce jeune prodige de la musique classique a réussi à composer sa première symphonie pour grand orchestre à l'âge de quatorze ans seulement.",
@@ -16215,7 +16215,7 @@ window.vocab_B2_Dataset = [
     "definition": "Saisir par l'esprit la signification, les causes ou la logique de quelque chose, avoir de l'empathie et de la bienveillance envers quelqu'un, ou contenir et englober plusieurs éléments dans un ensemble.",
     "traduction_anglais": "to understand / to comprehend / to include / to encompass",
     "traduction_chinois": "理解明白 / 包含涵盖 / 体谅包容 (lǐjiě míngbái / bāohán hángài / tǐliàng bāoróng)",
-    "traduction_japonais": "理解する / 含む・包含する / 共感・汲み取る (rikai suru / fukumu・hōgan suru / kyōkan・kumitoru)",
+    "traduction_japonais": "理解する / 含む・包含する / 共感・汲み取る (りかいする / ふくむ・ほうがんする / きょうかん・くみとる)",
     "examples": [
       {
         "fr": "Il faut savoir faire preuve de patience et d'empathie pour comprendre les souffrances invisibles et les angoisses d'une personne en deuil.",
@@ -16289,7 +16289,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre en danger, menacer gravement la réussite, l'existence, la santé, la réputation ou la sécurité de quelque chose ou de quelqu'un, ou impliquer quelqu'un dans une affaire douteuse.",
     "traduction_anglais": "to jeopardize / to compromise / to endanger",
     "traduction_chinois": "危及 / 损害 / 连累败坏 (wēijí / sǔnhài / liánlěi bàihuài)",
-    "traduction_japonais": "危うくする / 危険にさらす / 損なう・巻き込む (ayaukusuru / kiken ni sarasu / sokonau・makikomu)",
+    "traduction_japonais": "危うくする / 危険にさらす / 損なう・巻き込む (あやうくする / きけん に さらす / そこなう・まきこむ)",
     "examples": [
       {
         "fr": "Cette fuite d'informations confidentielles dans la presse risque de compromettre gravement le succès des négociations diplomatiques en cours.",
@@ -16363,7 +16363,7 @@ window.vocab_B2_Dataset = [
     "definition": "Accorder formellement un droit, un privilège, un avantage commercial ou un territoire par un acte officiel, ou admettre la vérité d'un argument opposé ou reconnaître une défaite lors d'une élection ou d'un match.",
     "traduction_anglais": "to grant / to concede / to admit / to yield",
     "traduction_chinois": "赋予让与 / 承认承认认输 / 特许出让 (fùyǔ ràngyǔ / chéngrèn chéngrèn rènshū / tèxǔ chūràng)",
-    "traduction_japonais": "付与する / 譲歩・容認する / 敗北を認める / 特許権を許諾する (fuyu suru / jōho・yōnin suru / haiboku o mitomeru / tokkyoken o kyodaku suru)",
+    "traduction_japonais": "付与する / 譲歩・容認する / 敗北を認める / 特許権を許諾する (ふゆする / じょうほ・ようにんする / はいぼく を みとめる / とっきょけん を きょだくする)",
     "examples": [
       {
         "fr": "Face à la grève générale des transports, le gouvernement a été contraint de concéder des hausses de salaires significatives aux cheminots.",
@@ -16437,7 +16437,7 @@ window.vocab_B2_Dataset = [
     "definition": "Créer mentalement, imaginer, élaborer un projet ou un système complexe, comprendre ou admettre une idée abstraite, ou devenir enceinte au sens biologique.",
     "traduction_anglais": "to design / to devise / to conceive / to imagine",
     "traduction_chinois": "设计构想 / 构思策划 / 设想理解 / 怀孕 (shèjì gòuxiǎng / gòusī cèhuà / shèxiǎng lǐjiě / huáiyùn)",
-    "traduction_japonais": "考案・設計する / 構想する / 理解・思い描く / 妊娠・受胎する (kōan・sekkei suru / kōsō suru / rikai・omoiegaku / ninshin・jutai suru)",
+    "traduction_japonais": "考案・設計する / 構想する / 理解・思い描く / 妊娠・受胎する (こうあん・せっけいする / こうそうする / りかい・おもいえがく / にんしん・じゅたいする)",
     "examples": [
       {
         "fr": "Les ingénieurs en aérospatiale ont passé cinq ans à concevoir le moteur à hydrogène de nouvelle génération pour l'aviation décarbonée.",
@@ -16511,7 +16511,7 @@ window.vocab_B2_Dataset = [
     "definition": "Accorder, faire vivre en harmonie des personnes en désaccord, ou rendre compatibles deux exigences, devoirs, impératifs ou intérêts apparemment contradictoires.",
     "traduction_anglais": "to reconcile / to balance / to bring together",
     "traduction_chinois": "调和 / 兼顾平衡 / 调解和解 (tiáohé / jiāngù pínghéng / tiáojiě héjiě)",
-    "traduction_japonais": "両立させる / 調和させる / 和解・仲裁させる (ryōritsu saseru / chōwa saseru / wakai・chūsai saseru)",
+    "traduction_japonais": "両立させる / 調和させる / 和解・仲裁させる (りょうりつさせる / ちょうわさせる / わかい・ちゅうさいさせる)",
     "examples": [
       {
         "fr": "Ce jeune chef de projet talentueux parvient à concilier une vie professionnelle très intense et une vie de famille épanouie grâce à une organisation rigoureuse de son temps.",
@@ -16585,7 +16585,7 @@ window.vocab_B2_Dataset = [
     "definition": "Amener à son terme définitif et officiel une négociation, un traité, un contrat commercial ou un discours, ou déduire logiquement une vérité d'une observation rigoureuse.",
     "traduction_anglais": "to conclude / to finalize / to deduce",
     "traduction_chinois": "达成缔结 / 结束总结 / 得出结论 (dáchéng dìjié / jiéshù zǒngjié / déchū jiélùn)",
-    "traduction_japonais": "締結・合意する / 締めくくる / 結論づける (teiketsu・gōi suru / shimekukuru / ketsurondzukeru)",
+    "traduction_japonais": "締結・合意する / 締めくくる / 結論づける (ていけつ・ごういする / しめくくる / けつろんdずける)",
     "examples": [
       {
         "fr": "Les deux délégations diplomatiques ont réussi à conclure un accord de cessez-le-feu historique après trois semaines d'intenses négociations.",
@@ -16659,7 +16659,7 @@ window.vocab_B2_Dataset = [
     "definition": "Donner une forme concrète, matérielle, réelle et tangible à une idée abstraite, à un rêve, à un projet théorique ou à une intention.",
     "traduction_anglais": "to materialize / to realize / to make concrete",
     "traduction_chinois": "使具体化 / 落实实现 / 变为现实 (shǐ jùtǐhuà / luòshí shíxiàn / biànwéi xiànshí)",
-    "traduction_japonais": "具体化する / 実現する・形にする / 具現化する (gutai-ka suru / jitsugen suru・katachi ni suru / gugen-ka suru)",
+    "traduction_japonais": "具体化する / 実現する・形にする / 具現化する (ぐたい-かする / じつげんする・かたち にする / ぐげん-かする)",
     "examples": [
       {
         "fr": "Ce jeune architecte a enfin réussi à concrétiser son projet écologique en bâtissant le premier immeuble en bois passif de la ville.",
@@ -16733,7 +16733,7 @@ window.vocab_B2_Dataset = [
     "definition": "Prononcer une peine judiciaire contre un coupable, blâmer ou désapprouver moralement avec force un acte inacceptable, murer ou boucher définitivement une porte ou une fenêtre, ou vouer inéluctablement à un destin tragique.",
     "traduction_anglais": "to sentence / to condemn / to convict / to seal off",
     "traduction_chinois": "判刑判处 / 强烈谴责 / 封堵封闭 / 注定 (pànxíng pànchǔ / qiángliè qiǎnzé / fēngdǔ fēngbì / zhùdìng)",
-    "traduction_japonais": "有罪判決・宣告する / 強く非難・糾弾する / 封鎖・閉鎖する / 宿命づける (yūzai hanketsu・senkoku suru / tsuyoku hinan・kyūdan suru / fūsai・heisa suru / shukumeidzukeru)",
+    "traduction_japonais": "有罪判決・宣告する / 強く非難・糾弾する / 封鎖・閉鎖する / 宿命づける (ゆうざい はんけつ・せんこくする / つよく ひなん・きゅうだんする / ふうさい・へいさする / しゅくめいdずける)",
     "examples": [
       {
         "fr": "La cour d'assises a décidé de condamner l'accusé à une peine de vingt ans de réclusion criminelle pour meurtre avec préméditation.",
@@ -16807,7 +16807,7 @@ window.vocab_B2_Dataset = [
     "definition": "Diriger un véhicule terrestre, guider ou accompagner une personne vers un lieu, diriger et mener à bien une équipe, un projet ou une politique, ou transmettre la chaleur et l'électricité.",
     "traduction_anglais": "to drive / to lead / to conduct / to guide",
     "traduction_chinois": "驾驶 / 带领引导 / 领导推行 / 传导 (jiàshǐ / dàilǐng yǐndǎo / lǐngdǎo tuīxíng / chuándǎo)",
-    "traduction_japonais": "運転する / 導く・案内する / 率いる・推進する / 伝導する (unten suru / michibiku・annai suru / hikiiru・suishin suru / dendō suru)",
+    "traduction_japonais": "運転する / 導く・案内する / 率いる・推進する / 伝導する (うんてんする / みちびく・あんないする / ひきいる・すいしんする / でんどうする)",
     "examples": [
       {
         "fr": "Ce chauffeur routier professionnel a l'habitude de conduire son semi-remorque de quarante tonnes sur les autoroutes enneigées en toute sécurité.",
@@ -16881,7 +16881,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus certain, valider définitivement une hypothèse, une réservation, une information ou une nomination, ou administrer le sacrement chrétien de la confirmation.",
     "traduction_anglais": "to confirm / to corroborate / to validate",
     "traduction_chinois": "证实确认 / 确证 / 坚固 (zhèngshí quèrèn / quèzhèng / jiāngù)",
-    "traduction_japonais": "確認・確定する / 実証・裏付ける / 承認する (kakunin・kakutei suru / jisshō・uradzukeru / shōnin suru)",
+    "traduction_japonais": "確認・確定する / 実証・裏付ける / 承認する (かくにん・かくていする / じっしょう・うらdずける / しょうにんする)",
     "examples": [
       {
         "fr": "L'astronome en chef a convoqué une conférence de presse mondiale pour confirmer officiellement la découverte d'une exoplanète habitable située à vingt années-lumière.",
@@ -16955,7 +16955,7 @@ window.vocab_B2_Dataset = [
     "definition": "Prendre par erreur une personne ou une chose pour une autre, mélanger des notions distinctes en créant de la confusion, ou démasquer et réduire au silence un coupable ou un menteur par des preuves irréfutables.",
     "traduction_anglais": "to confuse / to mistake / to confound / to expose",
     "traduction_chinois": "混淆 / 错认 / 揭穿驳倒 (hùnxiáo / cuòrèn / jiēchuān bódǎo)",
-    "traduction_japonais": "混同する / 見誤る・取り違える / 圧倒・論破して正体を暴く (kondō suru / miayamaru・torichigaeru / attō・rompa shite shōtai o abaku)",
+    "traduction_japonais": "混同する / 見誤る・取り違える / 圧倒・論破して正体を暴く (こんどうする / みあやまる・とりちがえる / あっとう・ろmぱ して しょうたい を あばく)",
     "examples": [
       {
         "fr": "Il ne faut jamais confondre la vitesse et la précipitation lorsqu'on prend des décisions stratégiques majeures pour l'avenir de l'entreprise.",
@@ -17029,7 +17029,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mettre deux ou plusieurs personnes face à face pour comparer leurs déclarations contradictoires lors d'un procès ou d'une enquête, comparer méthodiquement deux textes, idées ou données, ou faire face avec courage à une difficulté.",
     "traduction_anglais": "to confront / to compare / to face",
     "traduction_chinois": "对质 / 对比对照 / 勇敢面对 (duìzhì / duìbǐ duìzhào / yǒnggǎn miànduì)",
-    "traduction_japonais": "対質・対決させる / 照合・比較する / 直面・立ち向かう (taishitsu・taiketsu saseru / shōgō・hikaku suru / chokumen・tachimukau)",
+    "traduction_japonais": "対質・対決させる / 照合・比較する / 直面・立ち向かう (たいしつ・たいけつさせる / しょうごう・ひかくする / ちょくめん・たちむかう)",
     "examples": [
       {
         "fr": "Le juge d'instruction a décidé de confronter le suspect principal et le témoin clé dans son cabinet pour lever les contradictions majeures de leurs dépositions.",
@@ -17103,7 +17103,7 @@ window.vocab_B2_Dataset = [
     "definition": "Soumettre un territoire, une ville ou un peuple par les armes, gagner de nouveaux marchés commerciaux par sa compétitivité, ou séduire, charmer et captiver durablement le cœur, l'admiration ou l'adhésion de quelqu'un.",
     "traduction_anglais": "to conquer / to capture / to win over",
     "traduction_chinois": "征服 / 占领 / 赢得俘获 (zhēngfú / zhànlǐng / yíngdé fúhuò)",
-    "traduction_japonais": "征服する / 獲得・開拓する / 心を射止める・魅了する (seifuku suru / kakutoku・kaitaku suru / kokoro o itomeru・miryō suru)",
+    "traduction_japonais": "征服する / 獲得・開拓する / 心を射止める・魅了する (せいふくする / かくとく・かいたくする / こころ を いとめる・みりょうする)",
     "examples": [
       {
         "fr": "Ce jeune chef d'entreprise ambitieux a réussi à conquérir le marché américain des logiciels d'intelligence artificielle en moins de deux ans.",
@@ -17177,7 +17177,7 @@ window.vocab_B2_Dataset = [
     "definition": "Dédier solennellement à un usage religieux ou sacré, destiner du temps, de l'argent ou des efforts à une tâche précise, ou conférer une reconnaissance officielle et durable à une œuvre ou un auteur.",
     "traduction_anglais": "to devote / to dedicate / to consecrate / to sanctify",
     "traduction_chinois": "奉献倾注 / 致力于 / 封圣确立 (fèngxiàn qīngzhù / zhìlì yú / fēngshèng quèlì)",
-    "traduction_japonais": "捧げる・充てる / 献身する / 聖別・公認する (sasageru・ateru / kenshin suru / seibetsu・kōnin suru)",
+    "traduction_japonais": "捧げる・充てる / 献身する / 聖別・公認する (ささげる・あてる / けんしんする / せいべつ・こうにんする)",
     "examples": [
       {
         "fr": "Ce grand chercheur en médecine a choisi de consacrer l'intégralité de sa vie professionnelle à la lutte acharnée contre les maladies neurodégénératives.",
@@ -17251,7 +17251,7 @@ window.vocab_B2_Dataset = [
     "definition": "Indiquer à quelqu'un ce qu'il doit faire ou éviter, recommander une conduite, un choix ou un produit avec bienveillance et compétence.",
     "traduction_anglais": "to advise / to recommend / to counsel",
     "traduction_chinois": "建议 / 劝告 / 指导推荐 (jiànyì / quàngào / zhǐdǎo tuījiàn)",
-    "traduction_japonais": "助言・アドバイスする / 勧める・推奨する / 指導する (jogen・adobaisu suru / susumeru・suishō suru / shidō suru)",
+    "traduction_japonais": "助言・アドバイスする / 勧める・推奨する / 指導する (じょげん・あどばいすする / すすめる・すいしょうする / しどうする)",
     "examples": [
       {
         "fr": "Le médecin spécialiste a tenu à conseiller fermement au patient d'arrêter de fumer et de pratiquer une activité physique régulière.",
@@ -17325,7 +17325,7 @@ window.vocab_B2_Dataset = [
     "definition": "Rendre plus solide, plus stable et plus résistant un édifice ou une structure, affermir durablement une position, une alliance, une réputation ou une situation financière, ou regrouper des comptes en comptabilité.",
     "traduction_anglais": "to consolidate / to strengthen / to reinforce",
     "traduction_chinois": "巩固 / 加固 / 强化合并 (gǒnggù / jiāgù / qiánghuà hébìng)",
-    "traduction_japonais": "強化・強固にする / 補強・固める / 連結する (kyōka・kyōko ni suru / hokyō・katameru / renketsu suru)",
+    "traduction_japonais": "強化・強固にする / 補強・固める / 連結する (きょうか・きょうこ にする / ほきょう・かためる / れんけつする)",
     "examples": [
       {
         "fr": "Les ouvriers du bâtiment ont injecté du coulis de ciment spécial sous haute pression pour consolider les fondations affaissées de cet hôtel particulier centenaire.",
@@ -17399,7 +17399,7 @@ window.vocab_B2_Dataset = [
     "definition": "Remarquer, observer personnellement un fait avec certitude, établir officiellement et authentifier l'existence d'une situation ou d'une infraction par un acte légal.",
     "traduction_anglais": "to notice / to observe / to record officially / to certify",
     "traduction_chinois": "观察注意到 / 确认 / 证实认定 (guānchá zhùyì dào / quèrèn / zhèngshí rèndìng)",
-    "traduction_japonais": "確認・気付く / 認める・目撃する / 公式に事実認定・記録する (kakunin・kizuku / mitomeru・mokugeki suru / kōshiki ni jijitsu nintei・kiroku suru)",
+    "traduction_japonais": "確認・気付く / 認める・目撃する / 公式に事実認定・記録する (かくにん・きずく / みとめる・もくげきする / こうしき に じじつ にんてい・きろくする)",
     "examples": [
       {
         "fr": "Le commissaire de justice s'est rendu sur les lieux du litige dès l'aube pour constater officiellement l'ampleur des dégâts des eaux dans l'appartement.",
@@ -17473,7 +17473,7 @@ window.vocab_B2_Dataset = [
     "definition": "Former, composer par l'assemblage de plusieurs éléments, être l'élément essentiel de quelque chose, fonder légalement une société ou une rente, ou rassembler des pièces pour former un dossier.",
     "traduction_anglais": "to constitute / to form / to establish / to make up",
     "traduction_chinois": "构成组成 / 确立设立 / 建立组建 (gòuchéng zǔchéng / quèlì shèlì / jiànlì zǔjiàn)",
-    "traduction_japonais": "構成する / 形成する・〜となる / 設立・設定する (kōsei suru / keisei suru・~to naru / setsuritsu・settei suru)",
+    "traduction_japonais": "構成する / 形成する・〜となる / 設立・設定する (こうせいする / けいせいする・〜と なる / せつりつ・せっていする)",
     "examples": [
       {
         "fr": "Ces dix jeunes chercheurs talentueux et complémentaires ont décidé de s'associer pour constituer une entreprise innovante de biotechnologie.",
@@ -17547,7 +17547,7 @@ window.vocab_B2_Dataset = [
     "definition": "Demander l'avis, le conseil éclairé d'un médecin, d'un avocat ou d'un spécialiste, lire un livre, un dictionnaire, un site web ou un document pour y chercher une information précise, ou sonder l'avis d'une population lors d'un référendum.",
     "traduction_anglais": "to consult / to look up / to see a doctor / to seek advice",
     "traduction_chinois": "咨询查阅 / 看医生 / 征询征求 (zīxún cháyuè / kàn yīshēng / zhēnxún zhēngqiú)",
-    "traduction_japonais": "相談する・診察を受ける / 参照・閲覧する / 意見を聴取・諮問する (sōdan suru・shinsatsu o ukeru / sanshō・etsuran suru / iken o chōshu・shimon suru)",
+    "traduction_japonais": "相談する・診察を受ける / 参照・閲覧する / 意見を聴取・諮問する (そうだんする・しんさつ を うける / さんしょう・えつらんする / いけん を ちょうしゅ・しもんする)",
     "examples": [
       {
         "fr": "Face à ces maux de tête violents et persistants, le patient a été fermement invité à consulter un neurologue sans délai.",
@@ -17621,7 +17621,7 @@ window.vocab_B2_Dataset = [
     "definition": "Remettre en cause, nier la validité, la légitimité ou l'exactitude d'un fait, d'un droit, d'une décision administrative ou d'une affirmation.",
     "traduction_anglais": "to dispute / to contest / to challenge / to question",
     "traduction_chinois": "质疑 / 提出异议 / 争辩挑战 (zhìyí / tíchū yìyì / zhēngbiàn tiǎozhàn)",
-    "traduction_japonais": "異議を唱える / 争う・不服を申し立てる / 疑問視する (igi o tonaeru / arasou・fufuku o mōshitateru / gimonshi suru)",
+    "traduction_japonais": "異議を唱える / 争う・不服を申し立てる / 疑問視する (いぎ を となえる / あらそう・ふふく を もうしたてる / ぎもんしする)",
     "examples": [
       {
         "fr": "L'automobiliste a décidé de contester formellement l'amende forfaitaire en fournissant la preuve qu'il ne se trouvait pas au volant au moment de l'infraction.",
@@ -17695,7 +17695,7 @@ window.vocab_B2_Dataset = [
     "definition": "Aider, participer financièrement, matériellement ou intellectuellement à une œuvre commune, ou être l'un des facteurs déterminants qui favorisent un résultat ou un progrès.",
     "traduction_anglais": "to contribute / to help / to play a part in",
     "traduction_chinois": "贡献 / 促进助力 / 出资分担 (gòngxiàn / cùjìn zhùlì / chūzī fēndān)",
-    "traduction_japonais": "貢献する / 寄与・一役買う / 出資・分担する (kōken suru / kiyo・hito-yaku kau / shutshi・buntan suru)",
+    "traduction_japonais": "貢献する / 寄与・一役買う / 出資・分担する (こうけんする / きよ・ひと-やく かう / しゅtし・ぶんたんする)",
     "examples": [
       {
         "fr": "La création de cette nouvelle ligne de métro automatique va contribuer à réduire massivement les embouteillages et la pollution de l'air dans toute la métropole.",
@@ -17769,7 +17769,7 @@ window.vocab_B2_Dataset = [
     "definition": "Vérifier la conformité, l'exactitude ou la légalité de quelque chose par une inspection rigoureuse, exercer une autorité, une domination ou une surveillance sur un lieu ou un groupe, ou maîtriser ses émotions ou un véhicule.",
     "traduction_anglais": "to check / to inspect / to control / to master",
     "traduction_chinois": "检查核实 / 控制掌控 / 监视克制 (jiǎnchá héshí / kòngzhì zhǎngkòng / jiānshì kèzhì)",
-    "traduction_japonais": "検査・点検する / 支配・統制する / 抑制・コントロールする (kensa・tenken suru / shihai・tōsei suru / yokusei・kontorōru suru)",
+    "traduction_japonais": "検査・点検する / 支配・統制する / 抑制・コントロールする (けんさ・てんけんする / しはい・とうせいする / よくせい・こんとろうるする)",
     "examples": [
       {
         "fr": "Les inspecteurs de l'hygiène alimentaire sont venus contrôler minutieusement la propreté des cuisines et la chaîne du froid du restaurant étoilé.",
@@ -17843,7 +17843,7 @@ window.vocab_B2_Dataset = [
     "definition": "Amener quelqu'un à reconnaître la vérité d'une proposition ou la nécessité d'une action par des preuves rationnelles, des arguments solides ou l'éloquence.",
     "traduction_anglais": "to convince / to persuade",
     "traduction_chinois": "说服 / 使信服 / 劝服 (shuōfú / shǐ xìnfú / quànfú)",
-    "traduction_japonais": "納得させる / 説得する / 確信させる (nattoku saseru / settoku suru / kakushin saseru)",
+    "traduction_japonais": "納得させる / 説得する / 確信させる (なっとくさせる / せっとくする / かくしんさせる)",
     "examples": [
       {
         "fr": "L'avocat de la défense a déployé une éloquence magistrale et des arguments juridiques irréfutables pour convaincre les jurés de l'innocence totale de son client.",
@@ -17917,7 +17917,7 @@ window.vocab_B2_Dataset = [
     "definition": "Être adapté, approprié, plaire à quelqu'un, tomber d'accord sur une décision ou une date, ou admettre, reconnaître franchement la vérité d'un fait.",
     "traduction_anglais": "to suit / to agree on / to admit / to be suitable",
     "traduction_chinois": "适合适合 / 商定达成一致 / 坦承承认 (shìhé shìhé / shāngdìng dáchéng yīzhì / tǎnchéng chéngrèn)",
-    "traduction_japonais": "適している・似合う / 合意・取り決める / 率直に認める (tekishite iru・niau / gōi・torikimeru / sotchoku ni mitomeru)",
+    "traduction_japonais": "適している・似合う / 合意・取り決める / 率直に認める (てきして いる・にあう / ごうい・とりきめる / そっchほく に みとめる)",
     "examples": [
       {
         "fr": "Les deux chefs d'État ont fini par convenir d'une date officielle pour organiser le sommet bilatéral sur la transition écologique.",
@@ -17991,7 +17991,7 @@ window.vocab_B2_Dataset = [
     "definition": "Changer une chose en une autre de nature, de fonction ou de forme différente, transformer une monnaie ou une unité de mesure, amener quelqu'un à adopter une nouvelle religion ou opinion, ou transformer une friche industrielle en un nouvel espace utile.",
     "traduction_anglais": "to convert / to transform / to change into",
     "traduction_chinois": "转换转变 / 换算折算 / 使皈依改信 (zhuǎnhuàn zhuǎnbiàn / huànsuàn zhésuàn / shǐ guīyī gǎixìn)",
-    "traduction_japonais": "変換する / 転換・改修する / 改宗・転向させる / 換算する (henkan suru / tenkan・kaishū suru / kaishū・tenkō saseru / kansan suru)",
+    "traduction_japonais": "変換する / 転換・改修する / 改宗・転向させる / 換算する (へんかんする / てんかん・かいしゅうする / かいしゅう・てんこうさせる / かんさんする)",
     "examples": [
       {
         "fr": "Ces panneaux solaires photovoltaïques de dernière génération permettent de convertir directement la lumière du soleil en électricité propre avec un rendement record de vingt-quatre pour cent.",
@@ -18065,7 +18065,7 @@ window.vocab_B2_Dataset = [
     "definition": "Agir, travailler conjointement avec d'autres personnes ou États pour atteindre un objectif commun et mutuellement avantageux, ou prêter son concours volontaire aux autorités judiciaires ou policières.",
     "traduction_anglais": "to cooperate / to work together / to collaborate",
     "traduction_chinois": "合作协作 / 配合协同 / 密切配合 (hézuò xiézuò / pèihé xiétóng / mìqiè pèihé)",
-    "traduction_japonais": "協力・協調する / 提携する / 捜査に協力する (kyōryoku・kyōchō suru / teikei suru / sōsa ni kyōryoku suru)",
+    "traduction_japonais": "協力・協調する / 提携する / 捜査に協力する (きょうりょく・きょうちょうする / ていけいする / そうさ に きょうりょくする)",
     "examples": [
       {
         "fr": "Les services de police scientifique de plusieurs pays européens ont choisi de coopérer étroitement pour identifier et démanteler ce réseau international de cybercriminels.",
@@ -18139,7 +18139,7 @@ window.vocab_B2_Dataset = [
     "definition": "Agencer, harmoniser et combiner avec méthode plusieurs éléments, actions ou services différents pour les faire concourir efficacement à un même but commun.",
     "traduction_anglais": "to coordinate / to harmonize / to bring into line",
     "traduction_chinois": "协调统筹 / 调配组织 / 使协调一致 (xiétiáo tǒngchóu / diàopèi zǔzhī / shǐ xiétiáo yīzhì)",
-    "traduction_japonais": "調整・統括する / コーディネートする / 整合・連携させる (chōsei・tōkatsu suru / kōdinēto suru / seigō・renkei saseru)",
+    "traduction_japonais": "調整・統括する / コーディネートする / 整合・連携させる (ちょうせい・とうかつする / こうぢねえとする / せいごう・れんけいさせる)",
     "examples": [
       {
         "fr": "Le préfet a réuni l'ensemble des forces de police, des sapeurs-pompiers et des services médicaux pour coordonner avec rigueur les opérations de secours après l'attentat.",
@@ -18213,7 +18213,7 @@ window.vocab_B2_Dataset = [
     "definition": "Faire disparaître les erreurs, les défauts ou les imperfections d'un texte, d'un comportement, d'un calcul ou d'une pièce mécanique, ou noter et évaluer les copies d'un examen.",
     "traduction_anglais": "to correct / to fix / to grade / to rectify",
     "traduction_chinois": "纠正改错 / 批改修正 / 消除偏差 (jiūzhèng gǎicuò / pīgǎi xiūzhèng / xiāochú piānchā)",
-    "traduction_japonais": "訂正・修正する / 採点・添削する / 是正・矯正する (teisei・shūsei suru / saiten・tensaku suru / zezei・kyōsei suru)",
+    "traduction_japonais": "訂正・修正する / 採点・添削する / 是正・矯正する (ていせい・しゅうせいする / さいてん・てんさくする / ぜぜい・きょうせいする)",
     "examples": [
       {
         "fr": "Le professeur a passé tout son dimanche après-midi à corriger avec une bienveillance exigeante les dissertations littéraires de ses élèves de terminale.",
@@ -18287,7 +18287,7 @@ window.vocab_B2_Dataset = [
     "definition": "Altérer la pureté, l'intégrité morale ou l'honnêteté de quelqu'un en lui offrant de l'argent ou des avantages illégaux, falsifier la vérité d'un texte ou d'une institution, ou décomposer et faire pourrir une substance organique.",
     "traduction_anglais": "to corrupt / to bribe / to taint / to decay",
     "traduction_chinois": "收买腐蚀 / 贿赂 / 败坏堕落 (shōumǎi fǔshí / huìlù / bàihuài duòluò)",
-    "traduction_japonais": "買収・汚職で買収する / 腐敗・堕落させる / 改ざん・損なう (baishū・oshoku de baishū suru / fuhai・daraku saseru / kaizan・sokonau)",
+    "traduction_japonais": "買収・汚職で買収する / 腐敗・堕落させる / 改ざん・損なう (ばいしゅう・おしょく で ばいしゅうする / ふはい・だらくさせる / かいざん・そこなう)",
     "examples": [
       {
         "fr": "L'homme d'affaires véreux a tenté de corrompre l'inspecteur des impôts en lui proposant une mallette remplie de billets de banque pour échapper à un redressement fiscal.",
@@ -18361,7 +18361,7 @@ window.vocab_B2_Dataset = [
     "definition": "Donner l'existence à ce qui n'existait pas encore, inventer, concevoir une œuvre d'art, fonder une entreprise ou une institution, ou susciter des emplois ou des émotions nouvelles.",
     "traduction_anglais": "to create / to establish / to generate / to invent",
     "traduction_chinois": "创造 / 创立建立 / 产生 (chuàngzào / chuànglì jiànlì / chǎnshēng)",
-    "traduction_japonais": "創造する / 設立・創設する / 生み出す・創出する (sōzō suru / setsuritsu・sōsetsu suru / umidasu・sōshutsu suru)",
+    "traduction_japonais": "創造する / 設立・創設する / 生み出す・創出する (そうぞうする / せつりつ・そうせつする / うみだす・そうしゅつする)",
     "examples": [
       {
         "fr": "Ce jeune peintre de talent s'est enfermé dans son atelier tout l'hiver pour créer une série de vingt toiles monumentales d'un impressionnisme vibrant.",
@@ -18435,7 +18435,7 @@ window.vocab_B2_Dataset = [
     "definition": "Examiner et évaluer avec méthode la valeur d'une œuvre littéraire ou artistique, ou formuler des jugements négatifs, des reproches sévères ou des objections contre une personne, une politique ou un comportement.",
     "traduction_anglais": "to criticize / to review / to find fault with",
     "traduction_chinois": "批评指责 / 评论评述 / 挑剔审视 (pīpíng zhǐzé / pínglùn píngshù / tiāoti shěnshì)",
-    "traduction_japonais": "批判・非難する / 批評・論評する / 吟味検討する (hihan・hinan suru / hihyō・rompyō suru / ginmi kentō suru)",
+    "traduction_japonais": "批判・非難する / 批評・論評する / 吟味検討する (ひはん・ひなんする / ひひょう・ろmぴょうする / ぎんみ けんとうする)",
     "examples": [
       {
         "fr": "Le critique littéraire réputé a pris le temps de critiquer avec une grande finesse analytique le dernier roman de cette jeune écrivaine prometteuse.",
@@ -18509,7 +18509,7 @@ window.vocab_B2_Dataset = [
     "definition": "Détacher de sa tige une fleur, un fruit ou un légume avec la main ou un outil, récolter les dons de la nature, ou cueillir quelqu'un au saut du lit au sens figuré.",
     "traduction_anglais": "to pick / to gather / to harvest / to pluck",
     "traduction_chinois": "采摘 / 采集 / 采撷 (cǎizhāi / cǎijí / cǎixié)",
-    "traduction_japonais": "摘む / 収穫する・もぎ取る / 採取する (tsumu / shūkaku suru・mogitoru / saishu suru)",
+    "traduction_japonais": "摘む / 収穫する・もぎ取る / 採取する (つむ / しゅうかくする・もぎとる / さいしゅする)",
     "examples": [
       {
         "fr": "Dès les premières lueurs du soleil matinal, les vendangeurs ont commencé à cueillir délicatement les grappes de pinot noir gorgées de sucre dans les vignobles.",
@@ -18583,7 +18583,7 @@ window.vocab_B2_Dataset = [
     "definition": "Travailler la terre pour faire pousser des plantes agricoles ou horticoles, développer, enrichir et perfectionner méthodiquement son esprit, son savoir, ses talents ou une amitié, ou faire proliférer des micro-organismes dans un milieu biologique.",
     "traduction_anglais": "to cultivate / to grow / to nurture / to develop",
     "traduction_chinois": "耕作种植 / 培养培植 / 陶冶深化 (gēngzuò zhòngzhí / péiyǎng péizhí / táoyě shēnhuà)",
-    "traduction_japonais": "栽培・耕作する / 培う・育む・養う / 培養する (saibai・kōsaku suru / tsuchikau・hagukumu・yashinau / baiyō suru)",
+    "traduction_japonais": "栽培・耕作する / 培う・育む・養う / 培養する (さいばい・こうさくする / つちかう・はぐくむ・やしなう / ばいようする)",
     "examples": [
       {
         "fr": "Cet agriculteur passionné a choisi de cultiver des variétés anciennes de blé sans aucun engrais chimique pour préserver la fertilité naturelle de ses terres.",
@@ -19989,7 +19989,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des règles, lois et prescriptions régissant l'exercice d'une activité technique, scientifique ou commerciale.",
     "traduction_anglais": "regulations / regulatory framework",
     "traduction_chinois": "规章条例 / 监管法规 (guīzhāng tiáolì)",
-    "traduction_japonais": "規制 / 規則 (kisei)",
+    "traduction_japonais": "規制 / 規則 (きせい)",
     "examples": [
       {
         "fr": "La nouvelle réglementation européenne impose des normes de sécurité beaucoup plus strictes aux fabricants de produits chimiques.",
@@ -20063,7 +20063,7 @@ window.vocab_B2_Dataset = [
     "definition": "Recherche méthodique ou essai empirique mené dans des conditions contrôlées pour tester une hypothèse ou vérifier un fait.",
     "traduction_anglais": "experimentation / trial / testing",
     "traduction_chinois": "实验 / 试验验证 (shíyàn)",
-    "traduction_japonais": "実験 / 試行 (jikken)",
+    "traduction_japonais": "実験 / 試行 (じっけん)",
     "examples": [
       {
         "fr": "Une première phase d'expérimentation clinique a permis de mesurer l'innocuité de ce nouveau traitement antiviral.",
@@ -20137,7 +20137,7 @@ window.vocab_B2_Dataset = [
     "definition": "Règle selon laquelle l'absence de certitude scientifique absolue ne doit pas retarder l'adoption de mesures préventives face à un risque grave ou irréversible.",
     "traduction_anglais": "precautionary principle",
     "traduction_chinois": "风险防范原则 / 谨慎原则 (jǐnshèn yuánzé)",
-    "traduction_japonais": "予防原則 (yobō gensoku)",
+    "traduction_japonais": "予防原則 (よぼう げんそく)",
     "examples": [
       {
         "fr": "Le principe de précaution a guidé la décision des autorités sanitaires de suspendre temporairement ce nouveau vaccin.",
@@ -20211,7 +20211,7 @@ window.vocab_B2_Dataset = [
     "definition": "Discussion vive, publique et prolongée suscitée par des opinions contradictoires sur une question d'intérêt général.",
     "traduction_anglais": "controversy / dispute / debate",
     "traduction_chinois": "争议 / 争论 (zhēngyì)",
-    "traduction_japonais": "論争 / 議論 (ronsō)",
+    "traduction_japonais": "論争 / 議論 (ろんそう)",
     "examples": [
       {
         "fr": "La découverte de cet embryon hybride a déclenché une vive controverse éthique au sein du comité national de bioéthique.",
@@ -20285,7 +20285,7 @@ window.vocab_B2_Dataset = [
     "definition": "Obligation morale ou juridique de répondre de ses actes, d'en assumer les conséquences et de réparer un dommage causé.",
     "traduction_anglais": "responsibility / liability / accountability",
     "traduction_chinois": "责任 / 法律责任 (zérèn)",
-    "traduction_japonais": "責任 / 責務 (sekinin)",
+    "traduction_japonais": "責任 / 責務 (せきにん)",
     "examples": [
       {
         "fr": "Le juge d'instruction cherche à déterminer la responsabilité pénale du dirigeant d'entreprise dans cet accident industriel.",
@@ -20359,7 +20359,7 @@ window.vocab_B2_Dataset = [
     "definition": "Écart progressif, involontaire ou incontrôlé par rapport à une règle, une trajectoire ou une norme éthique.",
     "traduction_anglais": "drift / deviation / abuse / downward slide",
     "traduction_chinois": "偏离 / 走样 / 危险倾向 (piānlí)",
-    "traduction_japonais": "逸脱 / 漂流 / 暴走 (itsudatsu)",
+    "traduction_japonais": "逸脱 / 漂流 / 暴走 (いつだつ)",
     "examples": [
       {
         "fr": "Le comité d'éthique met en garde contre toute dérive eugénique liée à la manipulation non contrôlée du génome humain.",
@@ -20433,7 +20433,7 @@ window.vocab_B2_Dataset = [
     "definition": "Mesure du volume d'émissions de gaz à effet de serre produit par les activités d'une personne, d'une entreprise ou d'un pays.",
     "traduction_anglais": "carbon footprint",
     "traduction_chinois": "碳足迹 (tànzújì)",
-    "traduction_japonais": "カーボンフットプリント / 温室効果ガス排出量 (kābon futtopurinto)",
+    "traduction_japonais": "カーボンフットプリント / 温室効果ガス排出量 (かあぼん ふっとぷりんと)",
     "examples": [
       {
         "fr": "Chaque citoyen responsable peut calculer son empreinte carbone personnelle grâce à des simulateurs interactifs en ligne.",
@@ -20507,7 +20507,7 @@ window.vocab_B2_Dataset = [
     "definition": "Modération volontaire et discernement dans la consommation de biens, d'énergie ou de ressources naturelles.",
     "traduction_anglais": "sobriety / moderation / energy restraint",
     "traduction_chinois": "节制 / 简约 / 克制消费 (jiézhì)",
-    "traduction_japonais": "節度 / 節約 / 抑制 (setsudo)",
+    "traduction_japonais": "節度 / 節約 / 抑制 (せつど)",
     "examples": [
       {
         "fr": "La sobriété énergétique collective constitue une réponse immédiate et efficace face aux risques récurrents de pénurie d'électricité.",
@@ -20581,7 +20581,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui intègre la protection de l'environnement et le respect des équilibres écologiques dans ses pratiques quotidiennes ou professionnelles.",
     "traduction_anglais": "eco-friendly / environmentally responsible",
     "traduction_chinois": "环保的 / 具备生态责任意识的 (huánbǎo de)",
-    "traduction_japonais": "環境に配慮した / エコ意識の高い (kankyō ni hairyo shita)",
+    "traduction_japonais": "環境に配慮した / エコ意識の高い (かんきょう に はいりょ した)",
     "examples": [
       {
         "fr": "Cette jeune marque de cosmétiques fabrique tous ses produits selon une démarche rigoureusement éco-responsable et solidaire.",
@@ -20655,7 +20655,7 @@ window.vocab_B2_Dataset = [
     "definition": "Période de très forte chaleur diurne et nocturne qui se prolonge pendant plusieurs jours consécutifs.",
     "traduction_anglais": "heatwave / extreme heat",
     "traduction_chinois": "酷暑 / 热浪 (kùshǔ)",
-    "traduction_japonais": "猛暑 / 熱波 (mōsho)",
+    "traduction_japonais": "猛暑 / 熱波 (もうしょ)",
     "examples": [
       {
         "fr": "Les services météorologiques ont déclenché le niveau de vigilance rouge face à l'imminence d'une canicule historique sur le pays.",
@@ -20729,7 +20729,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui a subi d'importants préjudices matériels, économiques ou physiques à la suite d'un événement dévastateur.",
     "traduction_anglais": "disaster-stricken / victim / damaged",
     "traduction_chinois": "受灾的 / 受灾者 (shòuzāi de)",
-    "traduction_japonais": "被災した / 被災者 (hisai shita)",
+    "traduction_japonais": "被災した / 被災者 (ひさい した)",
     "examples": [
       {
         "fr": "Les habitants de ce village sinistré par la crue soudaine ont été évacués d'urgence vers un gymnase municipal.",
@@ -20803,7 +20803,7 @@ window.vocab_B2_Dataset = [
     "definition": "Événement destructeur et violent d'origine environnementale entraînant des dégâts matériels immenses et de lourdes pertes humaines.",
     "traduction_anglais": "natural disaster",
     "traduction_chinois": "自然灾害 (zìrán zāihài)",
-    "traduction_japonais": "自然災害 (shizen saigai)",
+    "traduction_japonais": "自然災害 (しぜん さいがい)",
     "examples": [
       {
         "fr": "L'état de catastrophe naturelle a été officiellement proclamé dans plus de soixante communes ravagées par les inondations.",
@@ -20877,7 +20877,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action ou ensemble de mesures visant à réduire la gravité, l'intensité ou les effets néfastes d'un phénomène préjudiciable.",
     "traduction_anglais": "mitigation / reduction / softening",
     "traduction_chinois": "减缓 / 缓解 (jiǎnhuǎn)",
-    "traduction_japonais": "緩和 / 軽減 (kanwa)",
+    "traduction_japonais": "緩和 / 軽減 (かんわ)",
     "examples": [
       {
         "fr": "Les stratégies d'atténuation du changement climatique imposent une réduction drastique de notre dépendance collective aux énergies fossiles.",
@@ -20951,7 +20951,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des dispositions et mesures prises pour anticiper et empêcher l'apparition, le développement ou l'aggravation d'un risque sanitaire ou social.",
     "traduction_anglais": "prevention / prophylaxis / preventive care",
     "traduction_chinois": "预防 / 防范措施 (yùfáng)",
-    "traduction_japonais": "予防 / 防止 (yobō)",
+    "traduction_japonais": "予防 / 防止 (よぼう)",
     "examples": [
       {
         "fr": "La prévention précoce des maladies cardiovasculaires repose avant tout sur une alimentation équilibrée et une pratique sportive régulière.",
@@ -21025,7 +21025,7 @@ window.vocab_B2_Dataset = [
     "definition": "Recherche systématique et méthodique d'une maladie ou d'une anomalie chez des personnes apparemment saines avant l'apparition de tout symptôme clinique.",
     "traduction_anglais": "screening / detection / testing",
     "traduction_chinois": "筛查 / 检测 (shāichá)",
-    "traduction_japonais": "スクリーニング / 検診 / 検査 (sukuriiningu)",
+    "traduction_japonais": "スクリーニング / 検診 / 検査 (すくりいにんぐ)",
     "examples": [
       {
         "fr": "Un dépistage régulier du cancer du sein par mammographie augmente considérablement les chances de guérison complète.",
@@ -21099,7 +21099,7 @@ window.vocab_B2_Dataset = [
     "definition": "Discipline médicale étudiant les causes et les mécanismes des maladies, ou désigne par métonymie une maladie particulière.",
     "traduction_anglais": "pathology / disease / condition",
     "traduction_chinois": "病理学 / 疾病 (bìnglǐ / jíbìng)",
-    "traduction_japonais": "病理学 / 病態 / 疾患 (byōri / shikkan)",
+    "traduction_japonais": "病理学 / 病態 / 疾患 (びょうり / しっかん)",
     "examples": [
       {
         "fr": "Cette pathologie cardiovasculaire complexe requiert une prise en charge chirurgicale immédiate par une équipe hospitalière ultra-spécialisée.",
@@ -21173,7 +21173,7 @@ window.vocab_B2_Dataset = [
     "definition": "Accord libre, explicite et éclairé donné par une personne pour l'accomplissement d'un acte médical, contractuel ou personnel.",
     "traduction_anglais": "consent / informed consent / agreement",
     "traduction_chinois": "知情同意 / 赞同 (tóngyì)",
-    "traduction_japonais": "同意 / インフォームド・コンセント (dōi)",
+    "traduction_japonais": "同意 / インフォームド・コンセント (どうい)",
     "examples": [
       {
         "fr": "Le chirurgien doit impérativement recueillir le consentement éclairé du patient après lui avoir exposé les risques opératoires.",
@@ -21247,7 +21247,7 @@ window.vocab_B2_Dataset = [
     "definition": "Obligation légale et déontologique de confidentialité absolue imposée aux soignants concernant toutes les informations confiées par un patient.",
     "traduction_anglais": "medical confidentiality / doctor-patient privilege",
     "traduction_chinois": "医疗保密原则 / 医疗隐私 (yīliáo bǎomì)",
-    "traduction_japonais": "守秘義務 / 医療上の守秘義務 (shuhi gimu)",
+    "traduction_japonais": "守秘義務 / 医療上の守秘義務 (しゅひ ぎむ)",
     "examples": [
       {
         "fr": "Le secret médical interdit formellement à tout praticien de divulguer le diagnostic d'un malade à son employeur ou à des tiers.",
@@ -21321,7 +21321,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui vise à soulager la douleur et à préserver la qualité de vie sans guérir la maladie.",
     "traduction_anglais": "palliative / alleviating",
     "traduction_chinois": "姑息的 / 缓解性的 (gūxí de / huǎnjiě xìng de)",
-    "traduction_japonais": "緩和的な / 痛みを和らげる (kanwa-teki na)",
+    "traduction_japonais": "緩和的な / 痛みを和らげる (かんわ-てき な)",
     "examples": [
       {
         "fr": "L'équipe médicale privilégie une approche palliative pour assurer le confort maximal du malade en phase terminale.",
@@ -21395,7 +21395,7 @@ window.vocab_B2_Dataset = [
     "definition": "Identification d'une maladie d'après ses symptômes et les résultats d'examens.",
     "traduction_anglais": "diagnosis / medical assessment",
     "traduction_chinois": "诊断 / 确诊 (zhěnduàn / quèzhěn)",
-    "traduction_japonais": "診断 / 診立て (shindan / mitate)",
+    "traduction_japonais": "診断 / 診立て (しんだん / みたて)",
     "examples": [
       {
         "fr": "Le praticien a confirmé son diagnostic après avoir minutieusement analysé les clichés radiologiques.",
@@ -21469,7 +21469,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble des choix idéologiques et des orientations stratégiques d'un média.",
     "traduction_anglais": "editorial policy / editorial line",
     "traduction_chinois": "编辑方针 / 社论立场 (biānjí fāngzhēn / shèlùn lìchǎng)",
-    "traduction_japonais": "編集方針 / 論調 (henshū hōshin / ronchō)",
+    "traduction_japonais": "編集方針 / 論調 (へんしゅう ほうしん / ろんちょう)",
     "examples": [
       {
         "fr": "Le rédacteur en chef veille à ce que chaque article respecte fidèlement la ligne éditoriale du quotidien.",
@@ -21543,7 +21543,7 @@ window.vocab_B2_Dataset = [
     "definition": "Droit pour les journalistes d'informer librement sans censure du pouvoir.",
     "traduction_anglais": "freedom of the press / press freedom",
     "traduction_chinois": "新闻自由 (xīnwén zìyóu)",
-    "traduction_japonais": "報道の自由 (hōdō no jiyū)",
+    "traduction_japonais": "報道の自由 (ほうどう の じゆう)",
     "examples": [
       {
         "fr": "Les organisations internationales rappellent sans cesse que la liberté de la presse constitue un pilier de la démocratie.",
@@ -21617,7 +21617,7 @@ window.vocab_B2_Dataset = [
     "definition": "Démarche visant à contrôler la véracité des affirmations et des chiffres publiés.",
     "traduction_anglais": "fact-checking / fact verification",
     "traduction_chinois": "事实核查 / 事实检验 (shìshí héchá / shìshí jiǎnyàn)",
-    "traduction_japonais": "ファクトチェック / 事実確認 (fakuto chekku / jijitsu kakunin)",
+    "traduction_japonais": "ファクトチェック / 事実確認 (fあくと cへっく / じじつ かくにん)",
     "examples": [
       {
         "fr": "Les rédactions modernes créent des cellules dédiées à la vérification des faits pour déjouer les infox virales.",
@@ -21691,7 +21691,7 @@ window.vocab_B2_Dataset = [
     "definition": "Ensemble de règles informatiques sélectionnant les contenus affichés sur les fil d'actualités.",
     "traduction_anglais": "algorithm / computational procedure",
     "traduction_chinois": "算法 / 计算程序 (suànfǎ / jìsuàn chéngxù)",
-    "traduction_japonais": "アルゴリズム / 演算法 (arugorizumu)",
+    "traduction_japonais": "アルゴリズム / 演算法 (あるごりずむ)",
     "examples": [
       {
         "fr": "Des informaticiens chevronnés perfectionnent constamment cet algorithme pour optimiser la pertinence des requêtes des internautes.",
@@ -21765,7 +21765,7 @@ window.vocab_B2_Dataset = [
     "definition": "Isolement d'un utilisateur dans un environnement d'informations confirmant ses opinions.",
     "traduction_anglais": "filter bubble / echo chamber",
     "traduction_chinois": "过滤气泡 / 信息茧房 (guòlǜ qìpào / xìnxī jiǎnfáng)",
-    "traduction_japonais": "フィルターバブル / 情報の孤立 (firutā baburu)",
+    "traduction_japonais": "フィルターバブル / 情報の孤立 (fいるたあ ばぶる)",
     "examples": [
       {
         "fr": "En personnalisant à l'extrême les flux de nouvelles, les plateformes enferment l'internaute dans une bulle de filtre pernicieuse.",
@@ -21839,7 +21839,7 @@ window.vocab_B2_Dataset = [
     "definition": "Personne bénéficiant d'une large audience sur les réseaux sociaux capable de guider des opinions.",
     "traduction_anglais": "influencer / online creator",
     "traduction_chinois": "网络红人 / 意见领袖 (wǎngluò hóngrén / yìjiàn lǐngxiù)",
-    "traduction_japonais": "インフルエンサー / 発信者 (infuruensā)",
+    "traduction_japonais": "インフルエンサー / 発信者 (いんふるえんさあ)",
     "examples": [
       {
         "fr": "Cet influenceur spécialisé dans le voyage responsable partage ses conseils écoresponsables avec un million d'abonnés passionnés.",
@@ -21913,7 +21913,7 @@ window.vocab_B2_Dataset = [
     "definition": "Tendance à exagérer les faits pour choquer ou attirer l'attention du public.",
     "traduction_anglais": "sensationalism / sensationalist reporting",
     "traduction_chinois": "耸人听闻 / 追求轰动效应 (sǒngrén tīngwén / zhuīqiú hōngdòng xiàoyìng)",
-    "traduction_japonais": "扇情主義 / センセーショナリズム (senjō shugi)",
+    "traduction_japonais": "扇情主義 / センセーショナリズム (せんじょう しゅぎ)",
     "examples": [
       {
         "fr": "La presse à scandale privilégie trop souvent le sensationalisme au détriment de l'exactitude des informations rapportées.",
@@ -21987,7 +21987,7 @@ window.vocab_B2_Dataset = [
     "definition": "Fait de léguer un savoir, une mémoire ou une culture d'une génération à une autre.",
     "traduction_anglais": "transmission / passing down",
     "traduction_chinois": "传承 / 传授 (chuánchéng / chuánshòu)",
-    "traduction_japonais": "伝承 / 継承 (denshō / keishō)",
+    "traduction_japonais": "伝承 / 継承 (でんしょう / けいしょう)",
     "examples": [
       {
         "fr": "Ce maître artisan consacre son énergie à la transmission rigoureuse des gestes ancestraux de la verrerie d'art.",
@@ -22061,7 +22061,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui existe depuis un ou plusieurs siècles, très ancien et imprégné d'histoire.",
     "traduction_anglais": "centuries-old / age-old",
     "traduction_chinois": "百年的 / 历史悠久的 (bǎinián de / lìshǐ yōujiǔ de)",
-    "traduction_japonais": "数世紀にわたる / 伝統ある (sūseiki ni wataru)",
+    "traduction_japonais": "数世紀にわたる / 伝統ある (すうせいき に わたる)",
     "examples": [
       {
         "fr": "Les vignerons de la vallée perpétuent une tradition séculaire de vendanges manuelles sur ces coteaux abrupts.",
@@ -22135,7 +22135,7 @@ window.vocab_B2_Dataset = [
     "definition": "Soutien financier, humain ou matériel apporté sans contrepartie directe à une œuvre culturelle ou patrimoniale.",
     "traduction_anglais": "patronage / corporate sponsorship",
     "traduction_chinois": "赞助 / 资助文化艺术 (zànzhù / zīzhù wénhuà yìshù)",
-    "traduction_japonais": "メセナ / 文化的支援 (mesena / bunkateki shien)",
+    "traduction_japonais": "メセナ / 文化的支援 (めせな / ぶんかてき しえん)",
     "examples": [
       {
         "fr": "Grâce au généreux mécénat de fondations privées, la restauration du château royal a pu être achevée à temps.",
@@ -22209,7 +22209,7 @@ window.vocab_B2_Dataset = [
     "definition": "Art et technique d'aménager, concevoir et organiser un musée ou un espace d'exposition pour le public.",
     "traduction_anglais": "museography / museum design",
     "traduction_chinois": "博物馆学 / 展陈设计 (bówùguǎnxué / zhǎnchén shèjì)",
-    "traduction_japonais": "博物館学 / 展示設計 (hakubutsukan-gaku / tenji sekkei)",
+    "traduction_japonais": "博物館学 / 展示設計 (はくぶつかん-がく / てんじ せっけい)",
     "examples": [
       {
         "fr": "La nouvelle muséographie privilégie un parcours immersif et interactif qui séduit immédiatement les jeunes visiteurs.",
@@ -22283,7 +22283,7 @@ window.vocab_B2_Dataset = [
     "definition": "Dispositif humain ou pédagogique facilitant la rencontre entre le public et une œuvre ou un site historique.",
     "traduction_anglais": "mediation / cultural outreach",
     "traduction_chinois": "文化推广 / 导览阐释 (wénhuà tuīguǎng / dǎolǎn chǎnshì)",
-    "traduction_japonais": "文化的ガイダンス / 鑑賞仲介 (bunkateki gaidansu / chūkai)",
+    "traduction_japonais": "文化的ガイダンス / 鑑賞仲介 (ぶんかてき がいだんす / ちゅうかい)",
     "examples": [
       {
         "fr": "Le service de médiation culturelle propose des visites guidées adaptées aux élèves des quartiers défavorisés.",
@@ -22357,7 +22357,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de sortir une zone ou un territoire de son isolement culturel ou géographique.",
     "traduction_anglais": "opening up / breaking of isolation",
     "traduction_chinois": "打破封闭 / 摆脱孤立状态 (dǎpò fēngbì / bǎituō gūlì zhuàngtài)",
-    "traduction_japonais": "孤立の解消 / 開放 (koritsu no kaishō)",
+    "traduction_japonais": "孤立の解消 / 開放 (こりつ の かいしょう)",
     "examples": [
       {
         "fr": "L'inauguration récente d'une ligne ferroviaire à grande vitesse accélère le désenclavement économique de la vallée alpine.",
@@ -22431,7 +22431,7 @@ window.vocab_B2_Dataset = [
     "definition": "Diffusion étendue de l'influence, du prestige artistique ou de l'attractivité d'un site ou d'une nation.",
     "traduction_anglais": "influence / international reach / radiance",
     "traduction_chinois": "辐射力 / 影响力 / 盛誉 (fúshèlì / yǐngxiǎnglì / shèngyù)",
-    "traduction_japonais": "影響力 / 威光 / 広がり (eikyōryoku / ikō)",
+    "traduction_japonais": "影響力 / 威光 / 広がり (えいきょうりょく / いこう)",
     "examples": [
       {
         "fr": "Le prestige séculaire de cette prestigieuse université contribue au rayonnement intellectuel du pays à travers le monde.",
@@ -22505,7 +22505,7 @@ window.vocab_B2_Dataset = [
     "definition": "Trace visible, ruine ou reste laissé par une époque révolue ou une civilisation disparue.",
     "traduction_anglais": "remnant / vestige / ruin",
     "traduction_chinois": "遗迹 / 遗存 / 历史残迹 (yíjì / yícún / lìshǐ cánjì)",
-    "traduction_japonais": "遺跡 / 痕跡 / 面影 (iseki / konseki)",
+    "traduction_japonais": "遺跡 / 痕跡 / 面影 (いせき / こんせき)",
     "examples": [
       {
         "fr": "Les archéologues ont mis au jour un vestige impressionnant de thermes romains enfoui sous les fondations médiévales.",
@@ -22579,7 +22579,7 @@ window.vocab_B2_Dataset = [
     "definition": "Digne d'un profond respect en raison de son grand âge, de son histoire ou de sa sainteté.",
     "traduction_anglais": "venerable / revered",
     "traduction_chinois": "令人敬仰的 / 德高望重的 (lìngrén jìngyǎng de / dégāowàngzhòng de)",
-    "traduction_japonais": "由緒ある / 尊敬すべき (yuisho aru / sonkei subeki)",
+    "traduction_japonais": "由緒ある / 尊敬すべき (ゆいしょ ある / そんけい すべき)",
     "examples": [
       {
         "fr": "Ce vénérable professeur d'université a consacré plus de cinquante ans de sa vie à l'enseignement de la philosophie.",
@@ -22653,7 +22653,7 @@ window.vocab_B2_Dataset = [
     "definition": "Capacité à produire en abondance, richesse créatrice et source intarissable d'inspiration.",
     "traduction_anglais": "fertility / fecundity / creative richness",
     "traduction_chinois": "多产 / 丰饶 / 创造力 (duōchǎn / fēngráo)",
-    "traduction_japonais": "多産 / 豊かさ / 創造力 (tasan / yutakasa)",
+    "traduction_japonais": "多産 / 豊かさ / 創造力 (たさん / ゆたかさ)",
     "examples": [
       {
         "fr": "La fécondité artistique de ce peintre impressionniste se manifeste à travers plus de cinq cents toiles lumineuses.",
@@ -22727,7 +22727,7 @@ window.vocab_B2_Dataset = [
     "definition": "Danger grave et imminent menaçant la survie ou l'intégrité de personnes ou de biens précieux.",
     "traduction_anglais": "peril / grave danger",
     "traduction_chinois": "危险 / 险境 (wēixiǎn / xiǎnjìng)",
-    "traduction_japonais": "危機 / 危険 (kiki / kiken)",
+    "traduction_japonais": "危機 / 危険 (きき / きけん)",
     "examples": [
       {
         "fr": "Les inondations successives mettent en péril les fresques médiévales conservées dans la crypte de la cathédrale.",
@@ -22801,7 +22801,7 @@ window.vocab_B2_Dataset = [
     "definition": "Transformation mystérieuse, fusion harmonieuse ou combinaison magique d'éléments hétéroclites.",
     "traduction_anglais": "alchemy / magical chemistry / harmonious blend",
     "traduction_chinois": "炼金术 / 奇妙融合 (liànjīnshù / qímiào rónghé)",
-    "traduction_japonais": "錬金術 / 不思議な調和 / 相乗効果 (renkinjutsu / fushigi na chōwa)",
+    "traduction_japonais": "錬金術 / 不思議な調和 / 相乗効果 (れんきんじゅつ / ふしぎ な ちょうわ)",
     "examples": [
       {
         "fr": "Une alchimie subtile entre la soie brute et les fibres d'or confère à ce vêtement un éclat incomparable.",
@@ -22875,7 +22875,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui est dispersé, disséminé en divers endroits de manière irrégulière.",
     "traduction_anglais": "scattered / dispersed / sparse",
     "traduction_chinois": "零散的 / 分散的 (língsǎn de / fēnsàn de)",
-    "traduction_japonais": "散らばった / まばらな (chirabatta / mabara na)",
+    "traduction_japonais": "散らばった / まばらな (ちらばった / まばら な)",
     "examples": [
       {
         "fr": "Des morceaux d'étoffe épars jonchaient le plancher en bois après une longue journée d'assemblage textile.",
@@ -22949,7 +22949,7 @@ window.vocab_B2_Dataset = [
     "definition": "Tissu confectionné en matière textile (coton, lin, soie, laine) destiné à l'habillement ou à l'ameublement.",
     "traduction_anglais": "fabric / cloth / textile material",
     "traduction_chinois": "织物 / 布料 (zhīwù / bùliào)",
-    "traduction_japonais": "織物 / 布地 / 生地 (orimono / nunoji / kijid)",
+    "traduction_japonais": "織物 / 布地 / 生地 (おりもの / ぬのじ / きじd)",
     "examples": [
       {
         "fr": "Cette étoffe soyeuse et fluide convient parfaitement pour la réalisation d'une robe de soirée estivale.",
@@ -23023,7 +23023,7 @@ window.vocab_B2_Dataset = [
     "definition": "Reste ou fragment d'une matière (tissu, bois, papier) inutilisé après la coupe d'une pièce principale.",
     "traduction_anglais": "offcut / scrap / remnant",
     "traduction_chinois": "边角料 / 碎料 / 零头布 (biānjiǎoliào / língtóubù)",
-    "traduction_japonais": "端切れ / 残り布 / 切りくず (hagire / nokorinuno)",
+    "traduction_japonais": "端切れ / 残り布 / 切りくず (はぎれ / のこりぬの)",
     "examples": [
       {
         "fr": "Les chutes de tissu coloré sont précieusement conservées pour concevoir des coussins en patchwork originaux.",
@@ -23097,7 +23097,7 @@ window.vocab_B2_Dataset = [
     "definition": "Assemblage minutieux et couture de pièces géométriques ou figuratives découpées pour constituer un motif continu.",
     "traduction_anglais": "piecing / piecework (patchwork assembling)",
     "traduction_chinois": "拼块 / 布块拼接 (pīnkuài / bùkuài pīnjiē)",
-    "traduction_japonais": "ピーシング / 接ぎ合わせ (pīshingu / tsugiawase)",
+    "traduction_japonais": "ピーシング / 接ぎ合わせ (ぴいしんぐ / つぎあわせ)",
     "examples": [
       {
         "fr": "Le piéçage traditionnel exige une précision millimétrique lors de l'assemblage des triangles et des carrés de tissu.",
@@ -23171,7 +23171,7 @@ window.vocab_B2_Dataset = [
     "definition": "Patron ou modèle étalon servant à tracer et découper des pièces aux dimensions et formes rigoureusement identiques.",
     "traduction_anglais": "template / gauge / sizing pattern",
     "traduction_chinois": "样板 / 靠模 / 标准规格 (yàngbǎn / kàomó)",
-    "traduction_japonais": "型紙 / ゲージ / テンプレート (katagami / gēji / tenpurēto)",
+    "traduction_japonais": "型紙 / ゲージ / テンプレート (かたがみ / げえじ / てんぷれえと)",
     "examples": [
       {
         "fr": "Le tailleur utilise un gabarit en carton rigide pour reproduire fidèlement l'arrondi régulier des cols de chemise.",
@@ -23245,7 +23245,7 @@ window.vocab_B2_Dataset = [
     "definition": "Technique consistant à coudre ou thermocoller une forme découpée sur une étoffe de fond pour créer du relief.",
     "traduction_anglais": "appliqué (textile technique)",
     "traduction_chinois": "贴布绣 / 贴花工艺 (tiēbùxiù / tiēhuā)",
-    "traduction_japonais": "アップリケ / 貼り付け細工 (appurike)",
+    "traduction_japonais": "アップリケ / 貼り付け細工 (あっぷりけ)",
     "examples": [
       {
         "fr": "L'appliqué de velours grenat cousu sur le lin beige apporte un contraste texturé des plus élégants.",
@@ -23319,7 +23319,7 @@ window.vocab_B2_Dataset = [
     "definition": "Opération consistant à piquer ensemble trois épaisseurs (dessus ornementé, molleton isolant et doublure) par des lignes de couture.",
     "traduction_anglais": "quilting / padding / batting assembly",
     "traduction_chinois": "绗缝 / 夹棉缝制 (hángféng / jiāmián)",
-    "traduction_japonais": "キルティング / 刺し子縫い (kirutingu)",
+    "traduction_japonais": "キルティング / 刺し子縫い (きるちんぐ)",
     "examples": [
       {
         "fr": "Le matelassage régulier en losanges assure une parfaite répartition de la ouate thermique à l'intérieur du manteau.",
@@ -23393,7 +23393,7 @@ window.vocab_B2_Dataset = [
     "definition": "Étoffe ou nappe de ouate douce et épaisse placée entre les deux tissus pour donner du gonflant et de la chaleur.",
     "traduction_anglais": "batting / fleece / wadding / interlining",
     "traduction_chinois": "软绒 / 铺棉 / 衬棉 (ruǎnróng / pūmián)",
-    "traduction_japonais": "キルト芯 / フリース / 中綿 (kirutoshin / furīsu)",
+    "traduction_japonais": "キルト芯 / フリース / 中綿 (きるとしん / ふりいす)",
     "examples": [
       {
         "fr": "Un molleton de coton biologique apporte une douceur moelleuse et une isolation thermique naturelle à ce plaid.",
@@ -23467,7 +23467,7 @@ window.vocab_B2_Dataset = [
     "definition": "Tissu intérieur ou inférieur qui recouvre la face cachée d'un ouvrage pour en assurer la finition propre.",
     "traduction_anglais": "lining (fabric) / backing",
     "traduction_chinois": "里子 / 里料 / 衬里 (lǐzi / lǐliào)",
-    "traduction_japonais": "裏地 / ライニング (uraji / rainingu)",
+    "traduction_japonais": "裏地 / ライニング (うらじ / らいにんぐ)",
     "examples": [
       {
         "fr": "La doublure en satin de soie permet d'enfiler ce pardessus en laine d'un geste fluide et sans frottement.",
@@ -23541,7 +23541,7 @@ window.vocab_B2_Dataset = [
     "definition": "Action de piquer ou de coudre à points réguliers traversant l'épaisseur de plusieurs tissus superposés.",
     "traduction_anglais": "stitching / quilting stitch / machine stitching",
     "traduction_chinois": "行针 / 扎缝 / 压线针迹 (xíngzhēn / zāféng)",
-    "traduction_japonais": "ステッチング / 縫製 / 刺し通し (sutetchingu / hōsei)",
+    "traduction_japonais": "ステッチング / 縫製 / 刺し通し (すてっchひんぐ / ほうせい)",
     "examples": [
       {
         "fr": "Le piquage précis de ces bandes de cuir exige une machine industrielle dotée d'un moteur puissant.",
@@ -23615,7 +23615,7 @@ window.vocab_B2_Dataset = [
     "definition": "Couture apparente exécutée sur l'endroit d'un tissu pour maintenir les bords ou former un motif ornemental.",
     "traduction_anglais": "topstitching / ornamental seam",
     "traduction_chinois": "明线 / 嵌线 / 饰面明缝 (míngxiàn / qiànxiàn)",
-    "traduction_japonais": "コバステッチ / トップステッチ / 飾り縫い (toppusutetchi / kazarinui)",
+    "traduction_japonais": "コバステッチ / トップステッチ / 飾り縫い (とっぷすてっchひ / かざりぬい)",
     "examples": [
       {
         "fr": "La surpiqûre dorée qui souligne les poches de la veste apporte une note d'élégance très contemporaine.",
@@ -23689,7 +23689,7 @@ window.vocab_B2_Dataset = [
     "definition": "Pli menu, serré et régulier obtenu en tirant sur un fil passé au préalable dans le tissu.",
     "traduction_anglais": "gather / shirring / ruffle fold",
     "traduction_chinois": "褶裥 / 抽褶 / 细褶 (zhějiǎn / chōuzhě)",
-    "traduction_japonais": "ギャザー / 寄せひだ (gyazā / yosehida)",
+    "traduction_japonais": "ギャザー / 寄せひだ (ぎゃざあ / よせひだ)",
     "examples": [
       {
         "fr": "Les délicates fronces réunies à la taille confèrent à cette jupe en mousseline une ampleur aérienne et gracieuse.",
@@ -23763,7 +23763,7 @@ window.vocab_B2_Dataset = [
     "definition": "Retour violent ou ondulant des vagues sur elles-mêmes ou contre le rivage après avoir brisé.",
     "traduction_anglais": "undertow / backwash / surf surge",
     "traduction_chinois": "回浪 / 碎浪退潮 / 涌浪冲撞 (huílàng / yǒnglàng)",
-    "traduction_japonais": "引き波 / 砕波の余波 / 寄せ返す波 (hikinami / yosekaesu nami)",
+    "traduction_japonais": "引き波 / 砕波の余波 / 寄せ返す波 (ひきなみ / よせかえす なみ)",
     "examples": [
       {
         "fr": "Le ressac puissant contre les falaises de granit a inspiré à la créatrice une collection textile aux motifs ondulants.",
@@ -23837,7 +23837,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui a la légèreté, la translucidité ou la douceur d'une vapeur ou d'un voile diaphane.",
     "traduction_anglais": "vaporous / wispy / diaphanous / ethereal",
     "traduction_chinois": "朦胧的 / 飘渺轻柔的 / 薄如蝉翼的 (ménglóng de / piāomiǎo de)",
-    "traduction_japonais": "霞のような / 軽やかな / 透き通るような (kasumi no yō na / kayoraka na)",
+    "traduction_japonais": "霞のような / 軽やかな / 透き通るような (かすみ の よう な / かよらか な)",
     "examples": [
       {
         "fr": "Des voiles vaporeux en mousseline de soie flottaient délicatement autour des fenêtres du palais d'été.",
@@ -23911,7 +23911,7 @@ window.vocab_B2_Dataset = [
     "definition": "Qui est doux, atténué, assourdi ou discret, évoquant le contact soyeux du feutre.",
     "traduction_anglais": "hushed / muffled / muted / felt-cushioned",
     "traduction_chinois": "轻柔的 / 压低的 / 毛毡般的 / 静谧的 (qīngróu de / jìmì de)",
-    "traduction_japonais": "フェルト状の / 押し殺した / 物静かな (ferutojō no / monoshizuka na)",
+    "traduction_japonais": "フェルト状の / 押し殺した / 物静かな (fえるとじょう の / ものしずか な)",
     "examples": [
       {
         "fr": "Une ambiance feutrée règne dans les salons feutrés de ce club diplomatique où l'on chuchote les secrets d'État.",

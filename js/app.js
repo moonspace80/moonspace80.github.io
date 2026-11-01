@@ -152,6 +152,10 @@ class App {
       if (typeof window.sessionsModule.render === 'function') {
         window.sessionsModule.render();
       }
+    } else if (tabId === 'vocab-quiz' && window.vocabQuizModule) {
+      if (typeof window.vocabQuizModule.render === 'function') {
+        window.vocabQuizModule.render();
+      }
     } else if (tabId === 'listening' && window.listeningModule) {
       if (typeof window.listeningModule.render === 'function') {
         window.listeningModule.render();

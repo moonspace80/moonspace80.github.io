@@ -18,12 +18,13 @@
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/material.css?v=1f3fd6528fa9">
-  <link rel="stylesheet" href="css/styles.css?v=4091dd61c38b">
-  <link rel="stylesheet" href="css/writing.css?v=bcb3ca1921c3">
-  <link rel="stylesheet" href="css/journey.css?v=7710b9af3e6a">
-  <link rel="stylesheet" href="css/grammar.css?v=fb499fc9f709">
+  <link rel="stylesheet" href="css/material.css?v=fa2e2f87cf5d">
+  <link rel="stylesheet" href="css/styles.css?v=1c7b0d72e5f5">
+  <link rel="stylesheet" href="css/writing.css?v=1f4ec7a1bb42">
+  <link rel="stylesheet" href="css/journey.css?v=b9f9570faf16">
+  <link rel="stylesheet" href="css/grammar.css?v=7f0c5076effa">
   <link rel="stylesheet" href="css/conjugaison.css">
+  <link rel="stylesheet" href="css/vocab_quiz.css">
 </head>
 <body>
   <!-- Top App Bar -->
@@ -61,6 +62,9 @@
     <nav class="md-tabs" aria-label="Navigation principale">
       <button class="md-tab md-tab--active" data-tab="dashboard" title="Accueil" aria-label="Accueil">
         <span class="material-icons-round md-tab__icon">dashboard</span>
+      </button>
+      <button class="md-tab" data-tab="vocab-quiz" title="Quiz de Vocabulaire Chronométré (10 min)" aria-label="Quiz Vocabulaire">
+        <span class="material-icons-round md-tab__icon">timer</span>
       </button>
       <button class="md-tab" data-tab="vocabulary" title="Vocabulaire & Cartes Mémoires" aria-label="Vocabulaire">
         <span class="material-icons-round md-tab__icon">style</span>
@@ -172,12 +176,32 @@
     </section>
 
     <!-- SESSIONS INTENSIVES (>2H) VIEW (PARCOURS A & B) -->
+    <!-- VOCAB QUIZ VIEW PANEL -->
+    <section class="view-panel" id="view-vocab-quiz">
+      <!-- Injected and managed dynamically by VocabQuizModule -->
+    </section>
+
     <section class="view-panel" id="view-sessions">
       <!-- Injected and managed dynamically by SessionsModule -->
     </section>
 
     <!-- VOCABULARY VIEW -->
     <section class="view-panel" id="view-vocabulary">
+      <!-- QUICK ACCESS VOCAB QUIZ BANNER -->
+      <div class="md-card" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, rgba(59, 91, 117, 0.1) 0%, rgba(52, 104, 86, 0.1) 100%); border: 1px solid var(--md-sys-color-primary, #3b5b75); border-radius: 16px; padding: 1.25rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div style="display:flex; align-items:center; gap: 1rem;">
+          <span class="material-icons-round" style="font-size: 2.2rem; color: var(--md-sys-color-primary, #3b5b75);">alarm_on</span>
+          <div>
+            <h3 style="margin:0; font-size:1.15rem; font-weight:700;">Défi Chronométré • Quiz Vocabulaire 10 min</h3>
+            <p style="margin:0.25rem 0 0 0; font-size:0.9rem; color:var(--md-sys-color-on-surface-variant,#5f6368);">Testez vos réflexes en 4 étapes : QCM bilingue, paires de synonymes et recherche d'intrus.</p>
+          </div>
+        </div>
+        <button class="md-button md-button--filled" onclick="app.switchTab('vocab-quiz')" style="border-radius:999px; font-weight:700;">
+          <span class="material-icons-round">play_arrow</span>
+          <span>Lancer le Quiz →</span>
+        </button>
+      </div>
+
       <div class="module-header">
         <div>
           <h2>Vocabulaire & Cartes Mémoires</h2>
@@ -1120,6 +1144,10 @@
       </button>
     </div>
     <div class="more-modules-grid">
+      <button class="more-module-btn" onclick="app.switchTab('vocab-quiz'); document.getElementById('more-modules-sheet').classList.remove('visible');">
+        <span class="material-icons-round" style="color:var(--md-sys-color-primary);">timer</span>
+        <span>Quiz 10 min</span>
+      </button>
       <button class="more-module-btn" onclick="app.switchTab('vocabulary'); document.getElementById('more-modules-sheet').classList.remove('visible');">
         <span class="material-icons-round" style="color:var(--md-sys-color-primary);">style</span>
         <span>Vocabulaire SRS</span>
@@ -1140,32 +1168,33 @@
   </div>
 
   <!-- Scripts -->
-  <script type="module" src="js/kokoro_tts.js?v=mu02clean"></script>
+  <script type="module" src="js/kokoro_tts.js?v=ef084642a66f"></script>
   <!-- Data scripts in required order -->
-  <script src="js/data/grammar_data.js?v=930402ebab2c"></script>
+  <script src="js/data/grammar_data.js?v=e45f6f1be318"></script>
   <!-- Modules spécifiques de conjugaison -->
-  <script src="js/data/conjugaison/present.js?v=25413faa919d"></script>
-  <script src="js/data/conjugaison/imparfait.js?v=6249a4fb79d2"></script>
-  <script src="js/data/conjugaison/passe_compose.js?v=52c82dc13c60"></script>
-  <script src="js/data/conjugaison/futur_proche.js?v=25a30cb21840"></script>
-  <script src="js/data/conjugaison/futur_simple.js?v=45fbd479e667"></script>
-  <script src="js/data/conjugaison/futur_anterieur.js?v=5fc7ec264cd5"></script>
-  <script src="js/data/conjugaison/subjonctif_present.js?v=66860987b510"></script>
-  <script src="js/data/conjugaison/subjonctif_passe.js?v=fe35ac49aefa"></script>
-  <script src="js/data/conjugaison/conditionnel_present.js?v=8cc4783b8d58"></script>
-  <script src="js/data/conjugaison/conditionnel_passe.js?v=bed419cccaf2"></script>
-  <script src="js/data/conjugaison/participe_present_gerondif.js?v=894cb65b133f"></script>
-  <script src="js/data/conjugaison/plus_que_parfait.js?v=b8b57d45525a"></script>
+  <script src="js/data/conjugaison/present.js?v=85807e6544c2"></script>
+  <script src="js/data/conjugaison/imparfait.js?v=b7d8355ef8d9"></script>
+  <script src="js/data/conjugaison/passe_compose.js?v=8240ad01423b"></script>
+  <script src="js/data/conjugaison/futur_proche.js?v=160c003c143f"></script>
+  <script src="js/data/conjugaison/futur_simple.js?v=7446a9caba9e"></script>
+  <script src="js/data/conjugaison/futur_anterieur.js?v=665f872bc2f9"></script>
+  <script src="js/data/conjugaison/subjonctif_present.js?v=0325e344b84d"></script>
+  <script src="js/data/conjugaison/subjonctif_passe.js?v=866673a03ae0"></script>
+  <script src="js/data/conjugaison/conditionnel_present.js?v=806c425539db"></script>
+  <script src="js/data/conjugaison/conditionnel_passe.js?v=2fe150ff97ad"></script>
+  <script src="js/data/conjugaison/participe_present_gerondif.js?v=c8851544e9ef"></script>
+  <script src="js/data/conjugaison/plus_que_parfait.js?v=7da5d313a66d"></script>
   <script src="js/data/conjugaison_verbs_data.js"></script>
-  <script src="js/data/vocab_A1_data.js?v=696fccdc5137"></script>
-  <script src="js/data/vocab_A2_data.js?v=0739f95e638c"></script>
-  <script src="js/data/vocab_B1_data.js?v=16d23ff95e8e"></script>
-  <script src="js/data/vocab_B2_data.js?v=20fc923a60a5"></script>
-  <script src="js/data/vocab_C1_data.js?v=708651a786a7"></script>
-  <script src="js/data/vocab_C2_data.js?v=e46873dba35e"></script>
-  <script src="js/data/vocab_data.js?v=7d0faedc8835"></script>
-  <script src="js/data/expressions_data.js?v=086aacb46238"></script>
-  <script src="js/data/reading_data.js?v=a683c3e4c82d"></script>
+  <script src="js/data/vocab_A1_data.js?v=e35b8a1eedad"></script>
+  <script src="js/data/vocab_A2_data.js?v=57fb1e0966c7"></script>
+  <script src="js/data/vocab_B1_data.js?v=258acb395dca"></script>
+  <script src="js/data/vocab_B2_data.js?v=9ce199727069"></script>
+  <script src="js/data/vocab_C1_data.js?v=cc631e22dc63"></script>
+  <script src="js/data/vocab_C2_data.js?v=3e29863d805b"></script>
+  <script src="js/data/vocab_data.js?v=7e6afff8b862"></script>
+  <script src="js/data/vocab_quiz_data.js"></script>
+  <script src="js/data/expressions_data.js?v=6f1405f9eaf2"></script>
+  <script src="js/data/reading_data.js?v=21b93773c7b7"></script>
   <script src="js/data/listening_data_ep1.js"></script>
   <script src="js/data/listening_data_ep2.js"></script>
   <script src="js/data/listening_data_ep3.js"></script>
@@ -1181,9 +1210,10 @@
   <script src="js/data/listening_data_ep13.js"></script>
   <script src="js/data/listening_data_ep14.js"></script>
   <script src="js/data/listening_data_ep15.js"></script>
-  <script src="js/data/writing_data.js?v=64654903faac"></script>
-  <script src="js/data/official_exams.js?v=145e1ac42b58"></script>
-  <script src="js/data/parcours_A1_C1_data.js?v=186624669b36"></script>
+  <script src="js/data/listening_data_ep16.js"></script>
+  <script src="js/data/writing_data.js?v=90615d6fcc1b"></script>
+  <script src="js/data/official_exams.js?v=f92480807f01"></script>
+  <script src="js/data/parcours_A1_C1_data.js?v=ffdf4adf722e"></script>
   <script src="js/data/parcours_A1_C2_data.js"></script>
   <script src="js/data/parcours_A1_C3_data.js"></script>
   <script src="js/data/parcours_A1_C4_data.js"></script>
@@ -1193,28 +1223,29 @@
   <script src="js/data/parcours_A1_C8_data.js"></script>
   <script src="js/data/parcours_A1_C9_data.js"></script>
   <script src="js/data/parcours_A1_C10_data.js"></script>
-  <script src="js/data/parcours_A1_data.js?v=0e3d64cfc5c9"></script>
-  <script src="js/data/parcours_A2_data.js?v=2be164151690"></script>
-  <script src="js/data/parcours_B1_data.js?v=5a9612eb42c6"></script>
-  <script src="js/data/parcours_B2_data.js?v=2abd5fe906d2"></script>
-  <script src="js/data/parcours_C1_data.js?v=ad233e370654"></script>
-  <script src="js/data/parcours_C2_data.js?v=d40be59c420e"></script>
-  <script src="js/data/journey_data.js?v=7c7c14b73584"></script>
+  <script src="js/data/parcours_A1_data.js?v=9862fd6bb568"></script>
+  <script src="js/data/parcours_A2_data.js?v=fc4fc4eeac94"></script>
+  <script src="js/data/parcours_B1_data.js?v=19b72e8c308b"></script>
+  <script src="js/data/parcours_B2_data.js?v=c3b2b34e7e90"></script>
+  <script src="js/data/parcours_C1_data.js?v=0362cc436db0"></script>
+  <script src="js/data/parcours_C2_data.js?v=77f1e0e8371b"></script>
+  <script src="js/data/journey_data.js?v=3e15b5a40914"></script>
 
   <!-- Module scripts -->
-  <script src="js/modules/grammar.js?v=e430bd911156"></script>
-  <script src="js/modules/vocabulary.js?v=06daa69a9cc2"></script>
-  <script src="js/modules/dictionary.js?v=98012f9afacf"></script>
-  <script src="js/modules/expressions.js?v=fc2ad098f1e8"></script>
-  <script src="js/modules/reading.js?v=1f703878921e"></script>
-  <script src="js/modules/listening.js?v=bc45d8de447d"></script>
-  <script src="js/modules/writing.js?v=3742a3302d52"></script>
-  <script src="js/modules/exam_simulator.js?v=350c15319a73"></script>
-  <script src="js/modules/sessions.js?v=55ab8763efbc"></script>
-  <script src="js/modules/journey.js?v=ph0n3t1k2026e"></script>
+  <script src="js/modules/grammar.js?v=683aa02842be"></script>
+  <script src="js/modules/vocabulary.js?v=cca982e1da60"></script>
+  <script src="js/modules/vocab_quiz.js"></script>
+  <script src="js/modules/dictionary.js?v=288da3432ecc"></script>
+  <script src="js/modules/expressions.js?v=98b60ac72aa2"></script>
+  <script src="js/modules/reading.js?v=4c3ca955e7c6"></script>
+  <script src="js/modules/listening.js?v=c094ad3431fb"></script>
+  <script src="js/modules/writing.js?v=85d4f13626b3"></script>
+  <script src="js/modules/exam_simulator.js?v=8dbaf49e1a93"></script>
+  <script src="js/modules/sessions.js?v=eef98a11515e"></script>
+  <script src="js/modules/journey.js?v=6afdafe20f77"></script>
   <script src="js/modules/conjugaison.js"></script>
 
   <!-- Application Main Controller -->
-  <script src="js/app.js?v=ff4efd2fc0d3"></script>
+  <script src="js/app.js?v=3977d0d654a0"></script>
 </body>
 </html>

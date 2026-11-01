@@ -456,6 +456,7 @@ const dataFiles = [
   'listening_data_ep14.js',
   'listening_data_ep15.js',
   'listening_data_ep16.js',
+  'listening_data_ep17.js',
   'writing_data.js',
   'official_exams.js',
   'parcours_A1_C1_data.js',
@@ -1175,7 +1176,7 @@ if (statGrammar) {
 
 // Verify improvements (Ameliorations)
 suiteHeader("6. Verifications for Ameliorations.md");
-assertEqual(window.listeningDataset.length, 16, "listeningDataset has exactly 16 episodes");
+assertEqual(window.listeningDataset.length, 17, "listeningDataset has exactly 17 episodes");
 assertEqual(window.listeningDataset[6].id, 'rfi-ep-7', "7th episode ID is rfi-ep-7");
 assertEqual(window.listeningDataset[7].id, 'rfi-ep-8', "8th episode ID is rfi-ep-8");
 assertEqual(window.listeningDataset[8].id, 'rfi-ep-9', "9th episode ID is rfi-ep-9");
@@ -1195,6 +1196,9 @@ assert(window.listeningDataset[14].questions.length === 5, "15th episode has 5 p
 assertEqual(window.listeningDataset[15].id, 'rfi-ep-16-volvace', "16th episode is RFI Un mot une histoire Volvacé");
 assertEqual(window.listeningDataset[15].audioUrl, 'audio/rfi_ep_16.mp3', "16th episode audio is local audio file");
 assert(window.listeningDataset[15].questions.length === 5, "16th episode has 5 pedagogical quiz questions");
+assertEqual(window.listeningDataset[16].id, 'rfi-ep-17-journal-20261029', "17th episode is RFI Journal 2026-10-29");
+assertEqual(window.listeningDataset[16].audioUrl, 'audio/rfi_ep_17.mp3', "17th episode audio is local audio file");
+assert(window.listeningDataset[16].questions.length === 5, "17th episode has 5 pedagogical quiz questions");
 assert(window.listeningDataset[5].questions.length === 4, "RFI Episode 6 has exactly 4 questions (lq6-5 removed)");
 assertEqual(window.journeyDataset[0].quests[0].steps[2].title, "Lettre B : Nom et Prononciation", "Chapter 1 Step 3 title is 'Lettre B : Nom et Prononciation'");
 assertEqual(window.journeyDataset[5].quests[0].steps[2].title, "3. Demander son Chemin", "Chapter 6 Step 3 title is '3. Demander son Chemin'");

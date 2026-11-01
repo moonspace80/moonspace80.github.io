@@ -1,7 +1,8 @@
 /* ==========================================================================
    VOCABULARY QUIZ DATASET
    Banque dédiée de synonymes et d'intrus pour tous les niveaux DELF (A1 à C2).
-   Utilisé par le module Quiz de Vocabulaire (10 min).
+   Règle stricte : dans chaque série de 5 mots (synonymes), il n'existe
+   qu'UNE SEULE ET UNIQUE paire de synonymes (les 3 distracteurs sont mutuellement indépendants).
    ========================================================================== */
 
 window.vocabQuizData = {
@@ -126,25 +127,25 @@ window.vocabQuizData = {
     B2: [
       {
         id: "syn_b2_1",
-        words: ["Éphémère", "Fugace", "Pérenne", "Permanent", "Immuable"],
+        words: ["Éphémère", "Fugace", "Pérenne", "Bruyant", "Lointain"],
         pair: ["Éphémère", "Fugace"],
         explanation: "« Éphémère » et « Fugace » qualifient ce qui ne dure qu'un très court instant."
       },
       {
         id: "syn_b2_2",
-        words: ["Néfaste", "Nuisible", "Bénéfique", "Salutaîre", "Anodin"],
+        words: ["Néfaste", "Nuisible", "Bénéfique", "Complexe", "Anodin"],
         pair: ["Néfaste", "Nuisible"],
         explanation: "« Néfaste » et « Nuisible » s'appliquent à ce qui cause du tort, des dommages ou des préjudices."
       },
       {
         id: "syn_b2_3",
-        words: ["Paradoxe", "Contradiction", "Évidence", "Consensus", "Postulat"],
+        words: ["Paradoxe", "Contradiction", "Évidence", "Hypothèse", "Consensus"],
         pair: ["Paradoxe", "Contradiction"],
         explanation: "« Paradoxe » et « Contradiction » expriment une opposition entre deux idées ou éléments inconciliables."
       },
       {
         id: "syn_b2_4",
-        words: ["Atténuer", "Adoucir", "Exacerber", "Aggraver", "Envenimer"],
+        words: ["Atténuer", "Adoucir", "Aggraver", "Ignorer", "Mesurer"],
         pair: ["Atténuer", "Adoucir"],
         explanation: "« Atténuer » et « Adoucir » signifient rendre moins vif, moins grave ou moins douloureux."
       },
@@ -156,7 +157,7 @@ window.vocabQuizData = {
       },
       {
         id: "syn_b2_6",
-        words: ["Désuet", "Obsolète", "Moderne", "Novateur", "Actuel"],
+        words: ["Désuet", "Obsolète", "Moderne", "Robuste", "Discret"],
         pair: ["Désuet", "Obsolète"],
         explanation: "« Désuet » et « Obsolète » s'appliquent à ce qui est sorti de l'usage ou passé de mode."
       }
@@ -164,31 +165,31 @@ window.vocabQuizData = {
     C1: [
       {
         id: "syn_c1_1",
-        words: ["Dithyrambique", "Élogieux", "Acerbe", "Péjoratif", "Sceptique"],
+        words: ["Dithyrambique", "Élogieux", "Critique", "Neutre", "Énigmatique"],
         pair: ["Dithyrambique", "Élogieux"],
         explanation: "« Dithyrambique » est un synonyme emphatique d'« élogieux » (qui contient des louanges passionnées)."
       },
       {
         id: "syn_c1_2",
-        words: ["Indolence", "Apathie", "Ferveur", "Zèle", "Véhémence"],
+        words: ["Indolence", "Apathie", "Ferveur", "Lucidité", "Prudence"],
         pair: ["Indolence", "Apathie"],
         explanation: "« Indolence » et « Apathie » désignent un état d'inertie, de paresse ou de détachement insensible."
       },
       {
         id: "syn_c1_3",
-        words: ["Équivoque", "Ambigu", "Univoque", "Limpide", "Explicite"],
+        words: ["Équivoque", "Ambigu", "Limpide", "Sévère", "Complexe"],
         pair: ["Équivoque", "Ambigu"],
         explanation: "« Équivoque » et « Ambigu » qualifient ce qui a plusieurs sens possibles et laisse planer le doute."
       },
       {
         id: "syn_c1_4",
-        words: ["Procrastiner", "Ajourner", "Anticiper", "Hâter", "Accomplir"],
+        words: ["Procrastiner", "Ajourner", "Anticiper", "Conclure", "Refuser"],
         pair: ["Procrastiner", "Ajourner"],
         explanation: "« Procrastiner » et « Ajourner » consistent à repousser une décision ou une tâche au lendemain."
       },
       {
         id: "syn_c1_5",
-        words: ["Circonspect", "Prudent", "Téméraire", "Impétueux", "Inconséquent"],
+        words: ["Circonspect", "Prudent", "Audacieux", "Distrait", "Hésitant"],
         pair: ["Circonspect", "Prudent"],
         explanation: "« Circonspect » s'applique à une personne attentive, réfléchie et qui pèse tous les risques avant d'agir."
       },
@@ -202,19 +203,19 @@ window.vocabQuizData = {
     C2: [
       {
         id: "syn_c2_1",
-        words: ["Périgée", "Apogée", "Sommet", "Nadir", "Chute"],
+        words: ["Apogée", "Sommet", "Déclin", "Origine", "Trajectoire"],
         pair: ["Apogée", "Sommet"],
         explanation: "« Apogée » et « Sommet » désignent le point le plus élevé, le degré le plus parfait d'une gloire ou d'une puissance."
       },
       {
         id: "syn_c2_2",
-        words: ["Pérégrination", "Pérégrinement", "Sédentarité", "Immobilité", "Clôture"],
+        words: ["Pérégrination", "Pérégrinement", "Sédentarité", "Méditation", "Ferveur"],
         pair: ["Pérégrination", "Pérégrinement"],
         explanation: "« Pérégrination » et « Pérégrinement » désignent de longs déplacements, voyages incessants ou errances."
       },
       {
         id: "syn_c2_3",
-        words: ["Pellucide", "Diaphane", "Opaque", "Sombre", "Ténébreux"],
+        words: ["Pellucide", "Diaphane", "Opaque", "Rugueux", "Éphémère"],
         pair: ["Pellucide", "Diaphane"],
         explanation: "« Pellucide » et « Diaphane » qualifient ce qui est transparent, laissant passer délicatement la lumière."
       },
@@ -226,14 +227,13 @@ window.vocabQuizData = {
       },
       {
         id: "syn_c2_5",
-        words: ["Inchoatif", "Inchoatif", "Terminatif", "Accompli", "Rétrospectif"],
+        words: ["Inchoatif", "Inceptif", "Accompli", "Itératif", "Défectif"],
         pair: ["Inchoatif", "Inceptif"],
-        words: ["Inchoatif", "Inceptif", "Terminatif", "Accompli", "Rétrospectif"],
         explanation: "« Inchoatif » et « Inceptif » désignent en linguistique ce qui marque le début d'une action."
       },
       {
         id: "syn_c2_6",
-        words: ["Séculaire", "Centenaire", "Novice", "Éphémère", "Périssable"],
+        words: ["Séculaire", "Centenaire", "Récent", "Immuable", "Futuriste"],
         pair: ["Séculaire", "Centenaire"],
         explanation: "« Séculaire » et « Centenaire » renvoient tous deux à une durée de cent ans ou plusieurs siècles."
       }
